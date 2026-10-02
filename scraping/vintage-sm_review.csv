@@ -155,9 +155,9 @@ episode_id,status,date,series,title,speaker,minutes,passage,other_refs_in_desc,o
 0hdzPrmeNH7z2CQ4dt8jkF,mapped,2023-11-27,Mark,Pt. 2 - Who is Jesus?,,53,Mark,,,Mark: Pt. 2 - Who is Jesus?
 1B1ZAJDOeAjD9RlzNhtEOz,mapped,2023-11-20,Mark,Pt. I - Resilience,,49,Mark,,,Mark: Pt. I - Resilience
 1zM96o0uwqVhJXRsECYw0J,unmapped,2023-11-14,Mary's Voice,Dr. Amy Orr-Ewing,,35,,,,Mary's Voice: Dr. Amy Orr-Ewing
-17OwudX1loQsr2r8AvVsuV,unmapped,2023-11-12,Part 4,Being With God,John Mark Comer,50,,,,"Part 4: Being With God - John Mark Comer - November 5, 2023"
-3aeBdo7CPAazAFpG5V18La,unmapped,2023-10-31,Part 3,Listening to God,John Mark Comer,48,,,,"Part 3: Listening to God - John Mark Comer - October 29, 2023"
-10TAwniCFiqo8TmbVtP9QJ,unmapped,2023-10-23,Part 2,Talking to God,John Mark Comer,46,,,,"Part 2: Talking to God - John Mark Comer - October 22, 2023"
+17OwudX1loQsr2r8AvVsuV,unmapped,2023-11-12,,Being With God,John Mark Comer,50,,,,"Part 4: Being With God - John Mark Comer - November 5, 2023"
+3aeBdo7CPAazAFpG5V18La,unmapped,2023-10-31,,Listening to God,John Mark Comer,48,,,,"Part 3: Listening to God - John Mark Comer - October 29, 2023"
+10TAwniCFiqo8TmbVtP9QJ,unmapped,2023-10-23,,Talking to God,John Mark Comer,46,,,,"Part 2: Talking to God - John Mark Comer - October 22, 2023"
 0ApCKT5qVBxSa93wOshCEo,unmapped,2023-10-16,Prayer,Talking to God,John Mark Comer,47,,,,"Prayer: Talking to God - John Mark Comer - October 15, 2023"
 150XLpmqy7vtNnYjG2mrsh,unmapped,2023-10-11,,When YHWH Met Abram,Jonny Bell,43,,,,"When YHWH Met Abram - Jonny Bell - October 8, 2023"
 7bFZ44fSDjd2b3cicw3ZCz,unmapped,2023-10-02,,Why the Plagues?,Ger Jones,38,,,,"Why the Plagues? - Ger Jones - October 1, 2023"
@@ -174,7 +174,7 @@ episode_id,status,date,series,title,speaker,minutes,passage,other_refs_in_desc,o
 5RbX6jwPQCHogcyLwMJRPC,unmapped,2023-07-18,,God's Swap Meet,Dr. Kenneth C. Ulmer,48,,,,"God's Swap Meet - Dr. Kenneth C. Ulmer - July 16, 2023"
 2QIwj29apA8dtwtlzvDtqY,unmapped,2023-07-11,FOCUS 2023,Church is Formation,John Mark Comer,50,,,,FOCUS 2023: Church is Formation - John Mark Comer
 7eBwPbtvTiq7sFO8FiLQlv,unmapped,2023-07-11,FOCUS 2023,Church is Mission,Glenn Packiam,39,,,,FOCUS 2023: Church is Mission - Glenn Packiam
-090bOXdO5o9B3mFtzwEss7,excluded,2023-07-11,FOCUS 2023,Church is Word & Spirit - Interview with Sarah Jackson,,33,,,,FOCUS 2023: Church is Word & Spirit - Interview with Sarah Jackson
+090bOXdO5o9B3mFtzwEss7,excluded,2023-07-11,FOCUS 2023,Church is Word & Spirit - Interview with Sarah Jackson,Sarah Jackson,33,,,,FOCUS 2023: Church is Word & Spirit - Interview with Sarah Jackson
 3ESNlVawYJN0mmVW1Km3am,unmapped,2023-07-11,FOCUS 2023,Dating and Relationships,Dr. Henry Cloud,32,,,,FOCUS 2023: Dating and Relationships - Dr. Henry Cloud
 2ZfDQjO2MA71MaC9gmHuXu,unmapped,2023-07-11,FOCUS 2023,Redeeming Singleness,Jo Rice,52,,,,FOCUS 2023: Redeeming Singleness - Jo Rice
 0ykIaBBZwMweomsPHOUfUE,unmapped,2023-07-11,FOCUS 2023,How God Transforms Cities - Tom & Sarah Jackson,,56,,,,FOCUS 2023: How God Transforms Cities - Tom & Sarah Jackson
@@ -189,7 +189,7 @@ episode_id,status,date,series,title,speaker,minutes,passage,other_refs_in_desc,o
 genesis-1-3-grand-designs-ger-jones-june-4-2023,mapped,2023-06-20,,Grand Designs,Ger Jones,42,Genesis 1-3,,,"Genesis 1-3: Grand Designs - Ger Jones - June 4, 2023"
 6yHiTIdc65yBvi7dXS7EtM,mapped,2023-05-30,,Embracing Your Calling,Ger Jones,40,Genesis 1-3,,,"Genesis 1-3: Embracing Your Calling - Ger Jones - May 28, 2023"
 0Xtn7pWeazmpBV6acYH861,unmapped,2023-05-15,Life After Easter,Preparing for Focus,Ger Jones,41,,,,"Life After Easter Part 5: Preparing for Focus - Ger Jones - May 14, 2023"
-4sdWUc5v4BI17Mfm8AiBm2,excluded,2023-05-10,,Q&A with Esau McCaulley,,56,,,,"Q&A with Esau McCaulley - May 7, 2023"
+4sdWUc5v4BI17Mfm8AiBm2,excluded,2023-05-10,,Q&A with Esau McCaulley,Dr. Esau McCaulley,56,,,,"Q&A with Esau McCaulley - May 7, 2023"
 2BefvS24frhQ9MSPRRaAnS,unmapped,2023-05-08,Life After Easter,Staying Christian When Life Is Hard,Dr. Esau McCaulley,36,,,,"Life After Easter Part 4: Staying Christian When Life Is Hard - Esau McCaulley - May 7, 2023"
 6QMwwkSn8AvjXCenFOzZXX,unmapped,2023-05-01,Life After Easter,Spirit Empowered Life,Darren Rouanzoin,51,,,,"Life After Easter Part 3: Spirit Empowered Life - Darren Rouanzoin - April 30, 2023"
 6hWkF05fhyGQXwtMTTJnVj,unmapped,2023-04-24,Life After Easter,The Great Commission,Ger Jones,41,,,,"Life After Easter Part 2: The Great Commission - Ger Jones - April 23, 2023"

@@ -10,5 +10,11 @@
     "name": "Vintage Church Santa Monica",
     "url": "",
     "color": "#b07a1f"
+  },
+  {
+    "id": "bridgetown",
+    "name": "Bridgetown Church",
+    "url": "",
+    "color": "#2d7d71"
   }
 ]

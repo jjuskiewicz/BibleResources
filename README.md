@@ -119,6 +119,12 @@ uv run scraping/convert_spotify.py scraping/cotcny_rss_episodes.json --church co
 curl -L "https://vintagetwopoint0.squarespace.com/vintage-church-la-sermons?format=rss" -o scraping/vintage_feed.xml
 uv run scraping/rss_to_episodes.py scraping/vintage_feed.xml -o scraping/vintage_rss_episodes.json --spotify scraping/vintage_spotify_episodes.json
 uv run scraping/convert_spotify.py scraping/vintage_rss_episodes.json --church vintage-sm --source rss --strip "Santa Monica"
+
+# Bridgetown Church (Portland): Podbean feed, linked to Spotify episodes
+curl -L "https://feed.podbean.com/bridgetown/feed.xml" -o scraping/bridgetown_feed.xml
+uv run scraping/rss_to_episodes.py scraping/bridgetown_feed.xml -o scraping/bridgetown_rss_episodes.json --spotify scraping/bridgetown_spotify_episodes.json
+uv run scraping/convert_spotify.py scraping/bridgetown_rss_episodes.json --church bridgetown --source rss
+
 uv run tools/build_sermons.py && uv run tools/validate_data.py
 ```
 

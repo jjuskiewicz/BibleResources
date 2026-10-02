@@ -25,6 +25,26 @@
    "durationMin": 45
   },
   {
+   "id": "bridgetown-0Ylm7iCuhkHmHdEreS7A0z",
+   "title": "Rule of Life",
+   "church": "bridgetown",
+   "speaker": "Tyler Staton and Gavin Bennett",
+   "date": "2026-09-28",
+   "series": "",
+   "passage": "Matthew 11:28-30",
+   "refs": [
+    {
+     "book": "matthew",
+     "start": 11,
+     "end": 11
+    }
+   ],
+   "url": "https://open.spotify.com/episode/0Ylm7iCuhkHmHdEreS7A0z",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 49
+  },
+  {
    "id": "cotcny-2ea8GwCOmR4xUZzuuc2AR9",
    "title": "The Fruit of the Spirit",
    "church": "cotcny",
@@ -65,6 +85,26 @@
    "durationMin": 30
   },
   {
+   "id": "bridgetown-1a3clD9r8HDRKIgpu3zL9c",
+   "title": "Together in Portland",
+   "church": "bridgetown",
+   "speaker": "Tyler Staton",
+   "date": "2026-09-21",
+   "series": "",
+   "passage": "John 15:9-14",
+   "refs": [
+    {
+     "book": "john",
+     "start": 15,
+     "end": 15
+    }
+   ],
+   "url": "https://open.spotify.com/episode/1a3clD9r8HDRKIgpu3zL9c",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 42
+  },
+  {
    "id": "cotcny-1YGYwCGaqbnZQbVWkas4FF",
    "title": "The 100x Life",
    "church": "cotcny",
@@ -83,6 +123,26 @@
    "tags": [],
    "source": "rss",
    "durationMin": 62
+  },
+  {
+   "id": "bridgetown-7kurSnyvZJUxS5CfUPQQVY",
+   "title": "Practicing the Way of Jesus",
+   "church": "bridgetown",
+   "speaker": "Tyler Staton",
+   "date": "2026-09-14",
+   "series": "",
+   "passage": "John 5:1-9",
+   "refs": [
+    {
+     "book": "john",
+     "start": 5,
+     "end": 5
+    }
+   ],
+   "url": "https://open.spotify.com/episode/7kurSnyvZJUxS5CfUPQQVY",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 42
   },
   {
    "id": "cotcny-4t3D72K7iKl2IQtaEFuro1",
@@ -125,6 +185,26 @@
    "durationMin": 36
   },
   {
+   "id": "bridgetown-1zy5J9VsRA1tH2A6pWwxDz",
+   "title": "Dinah & God Restores Jacob",
+   "church": "bridgetown",
+   "speaker": "Todd Liles",
+   "date": "2026-09-07",
+   "series": "",
+   "passage": "Genesis 34",
+   "refs": [
+    {
+     "book": "genesis",
+     "start": 34,
+     "end": 34
+    }
+   ],
+   "url": "https://open.spotify.com/episode/1zy5J9VsRA1tH2A6pWwxDz",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 50
+  },
+  {
    "id": "vintage-sm-5hFTPHqGjCT7Nv1PaboULs",
    "title": "The Church Origin Story Pt. 3",
    "church": "vintage-sm",
@@ -145,6 +225,26 @@
    "durationMin": 43
   },
   {
+   "id": "bridgetown-6Bdor4kt2F1oaOFyXHsMYT",
+   "title": "Wrestle & Reconciliation",
+   "church": "bridgetown",
+   "speaker": "Tyler Staton",
+   "date": "2026-08-31",
+   "series": "",
+   "passage": "Genesis 32:22-32",
+   "refs": [
+    {
+     "book": "genesis",
+     "start": 32,
+     "end": 32
+    }
+   ],
+   "url": "https://open.spotify.com/episode/6Bdor4kt2F1oaOFyXHsMYT",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 49
+  },
+  {
    "id": "vintage-sm-6LzpVjezUHWTqEIXPHi0Nt",
    "title": "The Church Origin Story Pt. 2",
    "church": "vintage-sm",
@@ -161,6 +261,26 @@
    "tags": [],
    "source": "rss",
    "durationMin": 45
+  },
+  {
+   "id": "bridgetown-3BccHmrgZjZugrF8GdF4NK",
+   "title": "Foreshadowing Reconciliation",
+   "church": "bridgetown",
+   "speaker": "Nijay Gupta",
+   "date": "2026-08-24",
+   "series": "",
+   "passage": "Genesis 31:17-32:1",
+   "refs": [
+    {
+     "book": "genesis",
+     "start": 31,
+     "end": 32
+    }
+   ],
+   "url": "https://open.spotify.com/episode/3BccHmrgZjZugrF8GdF4NK",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 51
   },
   {
    "id": "cotcny-4jGzo3cyckZ11Hq31vg4XO",
@@ -201,6 +321,26 @@
    "durationMin": 43
   },
   {
+   "id": "bridgetown-2hjWEKDiDKNginypyRUzST",
+   "title": "The Origin of the 12 Tribes",
+   "church": "bridgetown",
+   "speaker": "Gavin Bennett",
+   "date": "2026-08-17",
+   "series": "",
+   "passage": "Genesis 30:27-28",
+   "refs": [
+    {
+     "book": "genesis",
+     "start": 30,
+     "end": 30
+    }
+   ],
+   "url": "https://open.spotify.com/episode/2hjWEKDiDKNginypyRUzST",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 43
+  },
+  {
    "id": "cotcny-5CpZudvOnUkhk2di0BlGaO",
    "title": "Servanthood",
    "church": "cotcny",
@@ -219,6 +359,26 @@
    "tags": [],
    "source": "rss",
    "durationMin": 52
+  },
+  {
+   "id": "bridgetown-0zse9i8M9AElFa6UigaFEi",
+   "title": "Stairway to Heaven",
+   "church": "bridgetown",
+   "speaker": "Tyler Staton",
+   "date": "2026-08-10",
+   "series": "",
+   "passage": "Genesis 28:10-22",
+   "refs": [
+    {
+     "book": "genesis",
+     "start": 28,
+     "end": 28
+    }
+   ],
+   "url": "https://open.spotify.com/episode/0zse9i8M9AElFa6UigaFEi",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 50
   },
   {
    "id": "vintage-sm-1pY6p6AKhuaEExg40j30NO",
@@ -281,6 +441,26 @@
    "durationMin": 34
   },
   {
+   "id": "bridgetown-2k772OVe02AcMY5b3DWmXJ",
+   "title": "Stealing the Blessing",
+   "church": "bridgetown",
+   "speaker": "Tyler Staton",
+   "date": "2026-08-02",
+   "series": "",
+   "passage": "Genesis 27:6-10",
+   "refs": [
+    {
+     "book": "genesis",
+     "start": 27,
+     "end": 27
+    }
+   ],
+   "url": "https://open.spotify.com/episode/2k772OVe02AcMY5b3DWmXJ",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 43
+  },
+  {
    "id": "vintage-sm-35csUAaQK6U9o7owAkfPMh",
    "title": "Bring Your Anxiety to God",
    "church": "vintage-sm",
@@ -297,6 +477,26 @@
    "tags": [],
    "source": "rss",
    "durationMin": 32
+  },
+  {
+   "id": "bridgetown-0jJmk7FrJVVxQkXmZEJEUq",
+   "title": "Esau, Jacob & The Birthright",
+   "church": "bridgetown",
+   "speaker": "Christian Dawson",
+   "date": "2026-07-27",
+   "series": "",
+   "passage": "Genesis 25:19-26:14",
+   "refs": [
+    {
+     "book": "genesis",
+     "start": 25,
+     "end": 26
+    }
+   ],
+   "url": "https://open.spotify.com/episode/0jJmk7FrJVVxQkXmZEJEUq",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 44
   },
   {
    "id": "cotcny-3ZXFazC4TecBIBvzIwIN56",
@@ -337,6 +537,26 @@
    "durationMin": 40
   },
   {
+   "id": "bridgetown-53m2LcF463ePwD5R1yoUNF",
+   "title": "Isaac & Rebekah",
+   "church": "bridgetown",
+   "speaker": "Joy Schlichter",
+   "date": "2026-07-20",
+   "series": "",
+   "passage": "Genesis 24:1-11",
+   "refs": [
+    {
+     "book": "genesis",
+     "start": 24,
+     "end": 24
+    }
+   ],
+   "url": "https://open.spotify.com/episode/53m2LcF463ePwD5R1yoUNF",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 39
+  },
+  {
    "id": "cotcny-1Rmw38KLUTcqzRPa4lDgFj",
    "title": "Obedience",
    "church": "cotcny",
@@ -375,6 +595,26 @@
    "durationMin": 46
   },
   {
+   "id": "bridgetown-1sXTorWaRgOIGzff9iA4Tr",
+   "title": "The Sacrifice of Isaac",
+   "church": "bridgetown",
+   "speaker": "Tim Mackie",
+   "date": "2026-07-12",
+   "series": "",
+   "passage": "Genesis 22:1-19",
+   "refs": [
+    {
+     "book": "genesis",
+     "start": 22,
+     "end": 22
+    }
+   ],
+   "url": "https://open.spotify.com/episode/1sXTorWaRgOIGzff9iA4Tr",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 60
+  },
+  {
    "id": "vintage-sm-5DarkydwLQ8txPz2IB28G9",
    "title": "Standing Firm Under Pressure",
    "church": "vintage-sm",
@@ -388,6 +628,26 @@
     }
    ],
    "url": "https://open.spotify.com/episode/5DarkydwLQ8txPz2IB28G9",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 42
+  },
+  {
+   "id": "bridgetown-3k9vxIq9e15z4fzDvNNVu4",
+   "title": "Intercession",
+   "church": "bridgetown",
+   "speaker": "Gavin Bennett",
+   "date": "2026-07-06",
+   "series": "",
+   "passage": "Genesis 18:16-33",
+   "refs": [
+    {
+     "book": "genesis",
+     "start": 18,
+     "end": 18
+    }
+   ],
+   "url": "https://open.spotify.com/episode/3k9vxIq9e15z4fzDvNNVu4",
    "tags": [],
    "source": "rss",
    "durationMin": 42
@@ -429,6 +689,26 @@
    "tags": [],
    "source": "rss",
    "durationMin": 42
+  },
+  {
+   "id": "bridgetown-1SB6zMIJrBMxRgYfwQexdj",
+   "title": "Left Out",
+   "church": "bridgetown",
+   "speaker": "Christian Dawson",
+   "date": "2026-06-29",
+   "series": "",
+   "passage": "Genesis 16:1-2",
+   "refs": [
+    {
+     "book": "genesis",
+     "start": 16,
+     "end": 16
+    }
+   ],
+   "url": "https://open.spotify.com/episode/1SB6zMIJrBMxRgYfwQexdj",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 43
   },
   {
    "id": "cotcny-1WAnqO2rywvXzt1DphDa5I",
@@ -491,6 +771,46 @@
    "durationMin": 43
   },
   {
+   "id": "bridgetown-4bRupvBtT5XbUnUFzHlMe6",
+   "title": "Covenant Promise",
+   "church": "bridgetown",
+   "speaker": "Tyler Staton",
+   "date": "2026-06-21",
+   "series": "",
+   "passage": "Genesis 15",
+   "refs": [
+    {
+     "book": "genesis",
+     "start": 15,
+     "end": 15
+    }
+   ],
+   "url": "https://open.spotify.com/episode/4bRupvBtT5XbUnUFzHlMe6",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 47
+  },
+  {
+   "id": "bridgetown-4DD4yABgyFbIATx6L2awZU",
+   "title": "Melchizedek",
+   "church": "bridgetown",
+   "speaker": "Tyler Staton",
+   "date": "2026-06-15",
+   "series": "",
+   "passage": "Genesis 14:18-24",
+   "refs": [
+    {
+     "book": "genesis",
+     "start": 14,
+     "end": 14
+    }
+   ],
+   "url": "https://open.spotify.com/episode/4DD4yABgyFbIATx6L2awZU",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 44
+  },
+  {
    "id": "cotcny-2YaerA9BQDzXwYRfaBxWua",
    "title": "Fear",
    "church": "cotcny",
@@ -531,6 +851,46 @@
    "durationMin": 44
   },
   {
+   "id": "bridgetown-3GaFgbJ4ClAUREtd19bU2f",
+   "title": "The Failure of Abram in Egypt",
+   "church": "bridgetown",
+   "speaker": "Tyler Staton",
+   "date": "2026-06-07",
+   "series": "",
+   "passage": "Genesis 12:10-20",
+   "refs": [
+    {
+     "book": "genesis",
+     "start": 12,
+     "end": 12
+    }
+   ],
+   "url": "https://open.spotify.com/episode/3GaFgbJ4ClAUREtd19bU2f",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 49
+  },
+  {
+   "id": "bridgetown-4OcIEz6cH4ojd2ACmX3b0E",
+   "title": "The Call of Abram",
+   "church": "bridgetown",
+   "speaker": "Tim Mackie and Tyler Staton",
+   "date": "2026-06-01",
+   "series": "",
+   "passage": "Genesis 11:27-12:9",
+   "refs": [
+    {
+     "book": "genesis",
+     "start": 11,
+     "end": 12
+    }
+   ],
+   "url": "https://open.spotify.com/episode/4OcIEz6cH4ojd2ACmX3b0E",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 57
+  },
+  {
    "id": "cotcny-4B3md0ht4kzoDh0gaXPoRu",
    "title": "Rejection",
    "church": "cotcny",
@@ -549,6 +909,26 @@
    "tags": [],
    "source": "rss",
    "durationMin": 40
+  },
+  {
+   "id": "bridgetown-2FdteR0w8iC9JlNsbNrdKy",
+   "title": "Pentecost Sunday",
+   "church": "bridgetown",
+   "speaker": "Gerald Griffin",
+   "date": "2026-05-25",
+   "series": "Love in Action: Peter",
+   "passage": "John 21:1-17",
+   "refs": [
+    {
+     "book": "john",
+     "start": 21,
+     "end": 21
+    }
+   ],
+   "url": "https://open.spotify.com/episode/2FdteR0w8iC9JlNsbNrdKy",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 45
   },
   {
    "id": "cotcny-7q97rzafF9aGyNzExUqUFj",
@@ -627,6 +1007,26 @@
    "durationMin": 45
   },
   {
+   "id": "bridgetown-4j0yETG9giEOi9vRI2fltl",
+   "title": "Speaking and Acting in the Spirit",
+   "church": "bridgetown",
+   "speaker": "Pete Greig",
+   "date": "2026-05-17",
+   "series": "Love",
+   "passage": "1 John 3:11",
+   "refs": [
+    {
+     "book": "1-john",
+     "start": 3,
+     "end": 3
+    }
+   ],
+   "url": "https://open.spotify.com/episode/4j0yETG9giEOi9vRI2fltl",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 42
+  },
+  {
    "id": "cotcny-5STgr5mZH8ul69YelC355j",
    "title": "Idolatry",
    "church": "cotcny",
@@ -645,6 +1045,46 @@
    "tags": [],
    "source": "rss",
    "durationMin": 41
+  },
+  {
+   "id": "bridgetown-4K1uQr08Ne3cx5djR1dmDf",
+   "title": "Mary",
+   "church": "bridgetown",
+   "speaker": "Joy Schlichter",
+   "date": "2026-05-10",
+   "series": "Hope in Action",
+   "passage": "John 20:11-18",
+   "refs": [
+    {
+     "book": "john",
+     "start": 20,
+     "end": 20
+    }
+   ],
+   "url": "https://open.spotify.com/episode/4K1uQr08Ne3cx5djR1dmDf",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 40
+  },
+  {
+   "id": "bridgetown-6Q2Uf0v6aXCsiaoTVuYyrY",
+   "title": "Hearing God Speak in Darkness",
+   "church": "bridgetown",
+   "speaker": "Gavin Bennett",
+   "date": "2026-05-04",
+   "series": "Hope",
+   "passage": "Psalm 130",
+   "refs": [
+    {
+     "book": "psalms",
+     "start": 130,
+     "end": 130
+    }
+   ],
+   "url": "https://open.spotify.com/episode/6Q2Uf0v6aXCsiaoTVuYyrY",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 53
   },
   {
    "id": "cotcny-1jcNUpef2Hn4HQmDep8VPz",
@@ -687,6 +1127,26 @@
    "durationMin": 45
   },
   {
+   "id": "bridgetown-1g66055Xn7jsPp8HGxAjx5",
+   "title": "Thomas",
+   "church": "bridgetown",
+   "speaker": "Hakeem Bradley",
+   "date": "2026-04-26",
+   "series": "Faith in Action",
+   "passage": "John 20:24-29",
+   "refs": [
+    {
+     "book": "john",
+     "start": 20,
+     "end": 20
+    }
+   ],
+   "url": "https://open.spotify.com/episode/1g66055Xn7jsPp8HGxAjx5",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 38
+  },
+  {
    "id": "vintage-sm-3XXrGVHMyA9zM66hHWzasu",
    "title": "Restoring Hope to the Disappointed - Luke 24",
    "church": "vintage-sm",
@@ -727,6 +1187,26 @@
    "durationMin": 57
   },
   {
+   "id": "bridgetown-5dt8bO8qav0CoQFB52g4Vp",
+   "title": "Seeing Beyond Sight",
+   "church": "bridgetown",
+   "speaker": "Tyler Staton",
+   "date": "2026-04-19",
+   "series": "Faith",
+   "passage": "Hebrews 11:1-3",
+   "refs": [
+    {
+     "book": "hebrews",
+     "start": 11,
+     "end": 11
+    }
+   ],
+   "url": "https://open.spotify.com/episode/5dt8bO8qav0CoQFB52g4Vp",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 50
+  },
+  {
    "id": "vintage-sm-2Gf5sMkNlI0txfJGOae0dg",
    "title": "Restoring Peter - John 21",
    "church": "vintage-sm",
@@ -745,6 +1225,66 @@
    "tags": [],
    "source": "rss",
    "durationMin": 34
+  },
+  {
+   "id": "bridgetown-3Zzj6FfMVJFqLKt7F6qrHu",
+   "title": "Faith, Hope and Love",
+   "church": "bridgetown",
+   "speaker": "Bethany Allen",
+   "date": "2026-04-12",
+   "series": "Introduction",
+   "passage": "1 Corinthians 13:1-13",
+   "refs": [
+    {
+     "book": "1-corinthians",
+     "start": 13,
+     "end": 13
+    }
+   ],
+   "url": "https://open.spotify.com/episode/3Zzj6FfMVJFqLKt7F6qrHu",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 50
+  },
+  {
+   "id": "bridgetown-1YXrgUQwSbDbxMzy8Iy77p",
+   "title": "2026",
+   "church": "bridgetown",
+   "speaker": "Tyler Staton",
+   "date": "2026-04-06",
+   "series": "Easter",
+   "passage": "John 20:1-10",
+   "refs": [
+    {
+     "book": "john",
+     "start": 20,
+     "end": 20
+    }
+   ],
+   "url": "https://open.spotify.com/episode/1YXrgUQwSbDbxMzy8Iy77p",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 44
+  },
+  {
+   "id": "bridgetown-5mlNIElsxNSm85SHhQphUx",
+   "title": "Sexuality, What Does The Bible Really Teach?",
+   "church": "bridgetown",
+   "speaker": "Tyler Staton",
+   "date": "2026-03-30",
+   "series": "The Good News About Our Bodies",
+   "passage": "Matthew 19:4-6",
+   "refs": [
+    {
+     "book": "matthew",
+     "start": 19,
+     "end": 19
+    }
+   ],
+   "url": "https://open.spotify.com/episode/5mlNIElsxNSm85SHhQphUx",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 58
   },
   {
    "id": "cotcny-7ACS8CkAUuzDldMF0qRvS7",
@@ -767,6 +1307,26 @@
    "durationMin": 50
   },
   {
+   "id": "bridgetown-0W1KYF9S22UfFxF637Ea3g",
+   "title": "Sexuality, Acquired Taste",
+   "church": "bridgetown",
+   "speaker": "Tyler Staton",
+   "date": "2026-03-23",
+   "series": "The Good News About Our Bodies",
+   "passage": "Psalm 34:8",
+   "refs": [
+    {
+     "book": "psalms",
+     "start": 34,
+     "end": 34
+    }
+   ],
+   "url": "https://open.spotify.com/episode/0W1KYF9S22UfFxF637Ea3g",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 56
+  },
+  {
    "id": "cotcny-1ONk9pEjaW2iAcZSg0Ql7O",
    "title": "Resurrection",
    "church": "cotcny",
@@ -787,6 +1347,26 @@
    "durationMin": 60
   },
   {
+   "id": "bridgetown-4XBbprVQOnVIztoysXAmBS",
+   "title": "Sexuality, The Cultural Story",
+   "church": "bridgetown",
+   "speaker": "Tyler Staton and Bethany Allen",
+   "date": "2026-03-16",
+   "series": "The Good News About Our Bodies",
+   "passage": "Matthew 16:2-3",
+   "refs": [
+    {
+     "book": "matthew",
+     "start": 16,
+     "end": 16
+    }
+   ],
+   "url": "https://open.spotify.com/episode/4XBbprVQOnVIztoysXAmBS",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 50
+  },
+  {
    "id": "cotcny-3nlnvmKniIImXnRFUCwgkm",
    "title": "Shepherd",
    "church": "cotcny",
@@ -805,6 +1385,46 @@
    "tags": [],
    "source": "rss",
    "durationMin": 64
+  },
+  {
+   "id": "bridgetown-4ueDS7y5hEYTClBxChXot4",
+   "title": "Sexuality, The Jesus Story",
+   "church": "bridgetown",
+   "speaker": "Tyler Staton",
+   "date": "2026-03-08",
+   "series": "The Good News About Our Bodies",
+   "passage": "Revelation 19:6-7",
+   "refs": [
+    {
+     "book": "revelation",
+     "start": 19,
+     "end": 19
+    }
+   ],
+   "url": "https://open.spotify.com/episode/4ueDS7y5hEYTClBxChXot4",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 55
+  },
+  {
+   "id": "bridgetown-62KDVLTYjZFdsbGPJ0LXAK",
+   "title": "Chronic Illness & Disability",
+   "church": "bridgetown",
+   "speaker": "Tyler Staton",
+   "date": "2026-03-02",
+   "series": "The Good News About Our Bodies",
+   "passage": "Philippians 2:5-11",
+   "refs": [
+    {
+     "book": "philippians",
+     "start": 2,
+     "end": 2
+    }
+   ],
+   "url": "https://open.spotify.com/episode/62KDVLTYjZFdsbGPJ0LXAK",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 52
   },
   {
    "id": "cotcny-02YuVxvuyB6Uc3Xg0lvmaS",
@@ -867,6 +1487,26 @@
    "durationMin": 36
   },
   {
+   "id": "bridgetown-1vd9koYcr7fNES5Del8VQA",
+   "title": "Work",
+   "church": "bridgetown",
+   "speaker": "Tyler Staton",
+   "date": "2026-02-22",
+   "series": "The Good News About Our Bodies",
+   "passage": "Genesis 1:27-28",
+   "refs": [
+    {
+     "book": "genesis",
+     "start": 1,
+     "end": 1
+    }
+   ],
+   "url": "https://open.spotify.com/episode/1vd9koYcr7fNES5Del8VQA",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 50
+  },
+  {
    "id": "cotcny-44DzXouxxDdtW8RAdbHkRv",
    "title": "I Am the Light of the World",
    "church": "cotcny",
@@ -885,6 +1525,26 @@
    "tags": [],
    "source": "rss",
    "durationMin": 62
+  },
+  {
+   "id": "bridgetown-2MncbwSjj7mQu7wkg8EQ7R",
+   "title": "Gluttony",
+   "church": "bridgetown",
+   "speaker": "Christian Dawson",
+   "date": "2026-02-16",
+   "series": "7 Deadly Sins",
+   "passage": "John 6:47-58",
+   "refs": [
+    {
+     "book": "john",
+     "start": 6,
+     "end": 6
+    }
+   ],
+   "url": "https://open.spotify.com/episode/2MncbwSjj7mQu7wkg8EQ7R",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 43
   },
   {
    "id": "vintage-sm-3TYMEXqZwlQmfn44rAcfvw",
@@ -943,6 +1603,46 @@
    "durationMin": 41
   },
   {
+   "id": "bridgetown-5GEeNgLNg8W2wSzQlLBxSg",
+   "title": "Vanity",
+   "church": "bridgetown",
+   "speaker": "Tyler Staton and Bethany Allen",
+   "date": "2026-02-08",
+   "series": "7 Deadly Sins",
+   "passage": "1 Corinthians 6:19-20",
+   "refs": [
+    {
+     "book": "1-corinthians",
+     "start": 6,
+     "end": 6
+    }
+   ],
+   "url": "https://open.spotify.com/episode/5GEeNgLNg8W2wSzQlLBxSg",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 47
+  },
+  {
+   "id": "bridgetown-17ylloG72nABhXUxdiB9Hv",
+   "title": "Sloth",
+   "church": "bridgetown",
+   "speaker": "Bethany Allen",
+   "date": "2026-02-02",
+   "series": "7 Deadly Sins",
+   "passage": "Matthew 25:14-30",
+   "refs": [
+    {
+     "book": "matthew",
+     "start": 25,
+     "end": 25
+    }
+   ],
+   "url": "https://open.spotify.com/episode/17ylloG72nABhXUxdiB9Hv",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 49
+  },
+  {
    "id": "vintage-sm-0Y7b5cUopdVEGgRfLXfJ96",
    "title": "Alpha Sunday",
    "church": "vintage-sm",
@@ -979,6 +1679,26 @@
    "durationMin": 36
   },
   {
+   "id": "bridgetown-2JMEhb7IJHz4OEKNREgA3P",
+   "title": "Pride",
+   "church": "bridgetown",
+   "speaker": "Ken Shigematsu",
+   "date": "2026-01-25",
+   "series": "7 Deadly Sins",
+   "passage": "Daniel 4:4-9",
+   "refs": [
+    {
+     "book": "daniel",
+     "start": 4,
+     "end": 4
+    }
+   ],
+   "url": "https://open.spotify.com/episode/2JMEhb7IJHz4OEKNREgA3P",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 44
+  },
+  {
    "id": "cotcny-6gYoO9peEXRUlDckTcMIdK",
    "title": "The Altar of the Church",
    "church": "cotcny",
@@ -997,6 +1717,26 @@
    "tags": [],
    "source": "rss",
    "durationMin": 62
+  },
+  {
+   "id": "bridgetown-167fRopwavHeRN3owUJPN8",
+   "title": "Greed",
+   "church": "bridgetown",
+   "speaker": "Tyler Staton",
+   "date": "2026-01-18",
+   "series": "7 Deadly Sins",
+   "passage": "Luke 12:13-34",
+   "refs": [
+    {
+     "book": "luke",
+     "start": 12,
+     "end": 12
+    }
+   ],
+   "url": "https://open.spotify.com/episode/167fRopwavHeRN3owUJPN8",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 53
   },
   {
    "id": "cotcny-4wlizTOYDLZbflHRe61ec7",
@@ -1019,6 +1759,66 @@
    "durationMin": 62
   },
   {
+   "id": "bridgetown-7GPIrQtsznJQixOLuP2gKU",
+   "title": "Anger",
+   "church": "bridgetown",
+   "speaker": "Christine Caine",
+   "date": "2026-01-11",
+   "series": "7 Deadly Sins",
+   "passage": "Jonah 4:1-9",
+   "refs": [
+    {
+     "book": "jonah",
+     "start": 4,
+     "end": 4
+    }
+   ],
+   "url": "https://open.spotify.com/episode/7GPIrQtsznJQixOLuP2gKU",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 49
+  },
+  {
+   "id": "bridgetown-2nlnEqnh5kMtjHdrn6Cw6I",
+   "title": "Envy",
+   "church": "bridgetown",
+   "speaker": "Tyler Staton",
+   "date": "2026-01-04",
+   "series": "7 Deadly Sins",
+   "passage": "Romans 7:7-12",
+   "refs": [
+    {
+     "book": "romans",
+     "start": 7,
+     "end": 7
+    }
+   ],
+   "url": "https://open.spotify.com/episode/2nlnEqnh5kMtjHdrn6Cw6I",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 49
+  },
+  {
+   "id": "bridgetown-0N3hC6wjbjh3gNXBDJsBZu",
+   "title": "Advent 2025 - Jesus (Christmas Eve)",
+   "church": "bridgetown",
+   "speaker": "Tyler Staton",
+   "date": "2025-12-26",
+   "series": "First Light",
+   "passage": "Luke 2:4-7",
+   "refs": [
+    {
+     "book": "luke",
+     "start": 2,
+     "end": 2
+    }
+   ],
+   "url": "https://open.spotify.com/episode/0N3hC6wjbjh3gNXBDJsBZu",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 24
+  },
+  {
    "id": "vintage-sm-1w9JFcydfyQZfjcvf0hRIp",
    "title": "The King We Can Trust",
    "church": "vintage-sm",
@@ -1037,6 +1837,26 @@
    "tags": [],
    "source": "rss",
    "durationMin": 32
+  },
+  {
+   "id": "bridgetown-1uB9KbTlg8Ux1K1603c56e",
+   "title": "Advent 2025 - Mary (Love)",
+   "church": "bridgetown",
+   "speaker": "Tyler Staton",
+   "date": "2025-12-21",
+   "series": "First Light",
+   "passage": "Luke 1:26-38",
+   "refs": [
+    {
+     "book": "luke",
+     "start": 1,
+     "end": 1
+    }
+   ],
+   "url": "https://open.spotify.com/episode/1uB9KbTlg8Ux1K1603c56e",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 46
   },
   {
    "id": "vintage-sm-4KcyHrSZ3Lt1oGx6tlLKad",
@@ -1059,6 +1879,26 @@
    "durationMin": 42
   },
   {
+   "id": "bridgetown-3ZjQ05xEMaw1QvWBeVoKzz",
+   "title": "Advent 2025 - Innkeeper (Joy)",
+   "church": "bridgetown",
+   "speaker": "Tyler Staton",
+   "date": "2025-12-15",
+   "series": "First Light",
+   "passage": "Luke 2:1-12",
+   "refs": [
+    {
+     "book": "luke",
+     "start": 2,
+     "end": 2
+    }
+   ],
+   "url": "https://open.spotify.com/episode/3ZjQ05xEMaw1QvWBeVoKzz",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 39
+  },
+  {
    "id": "vintage-sm-4qUl2e5vlHvmnP2ShT9hfZ",
    "title": "The Journey to Jesus",
    "church": "vintage-sm",
@@ -1077,6 +1917,46 @@
    "tags": [],
    "source": "rss",
    "durationMin": 37
+  },
+  {
+   "id": "bridgetown-69KP8Os6pWwaiN5QgrgxsS",
+   "title": "Advent 2025 - Elizabeth & Zechariah (Peace)",
+   "church": "bridgetown",
+   "speaker": "Tyler Staton",
+   "date": "2025-12-07",
+   "series": "First Light",
+   "passage": "Luke 1:56-66",
+   "refs": [
+    {
+     "book": "luke",
+     "start": 1,
+     "end": 1
+    }
+   ],
+   "url": "https://open.spotify.com/episode/69KP8Os6pWwaiN5QgrgxsS",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 48
+  },
+  {
+   "id": "bridgetown-3vYOTgBXwaqyOe0hW7N2wN",
+   "title": "Advent 2025 - Angels (Hope)",
+   "church": "bridgetown",
+   "speaker": "Lucy Peppiatt",
+   "date": "2025-12-01",
+   "series": "First Light",
+   "passage": "Luke 2:8-20",
+   "refs": [
+    {
+     "book": "luke",
+     "start": 2,
+     "end": 2
+    }
+   ],
+   "url": "https://open.spotify.com/episode/3vYOTgBXwaqyOe0hW7N2wN",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 40
   },
   {
    "id": "vintage-sm-4wwZlqylNSTjyzA6yRk36a",
@@ -1135,6 +2015,46 @@
    "durationMin": 38
   },
   {
+   "id": "bridgetown-1YbXW2LeOQc6TAdIXqgFFV",
+   "title": "Evening: Pray Examen",
+   "church": "bridgetown",
+   "speaker": "Tyler Staton",
+   "date": "2025-11-23",
+   "series": "A Prayer Shaped Life",
+   "passage": "John 8:31-36",
+   "refs": [
+    {
+     "book": "john",
+     "start": 8,
+     "end": 8
+    }
+   ],
+   "url": "https://open.spotify.com/episode/1YbXW2LeOQc6TAdIXqgFFV",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 50
+  },
+  {
+   "id": "bridgetown-1bR4N334yoYwG12IvKqsHv",
+   "title": "Midday: Pray Compassion",
+   "church": "bridgetown",
+   "speaker": "Tyler Staton",
+   "date": "2025-11-17",
+   "series": "A Prayer Shaped Life",
+   "passage": "Revelation 5:8",
+   "refs": [
+    {
+     "book": "revelation",
+     "start": 5,
+     "end": 5
+    }
+   ],
+   "url": "https://open.spotify.com/episode/1bR4N334yoYwG12IvKqsHv",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 44
+  },
+  {
    "id": "cotcny-4iJkvQy3e3rn01WcwA6uwO",
    "title": "The New Humanity",
    "church": "cotcny",
@@ -1155,6 +2075,26 @@
    "durationMin": 59
   },
   {
+   "id": "bridgetown-0YynEwx4hJcRNHHC3OV9Vi",
+   "title": "Morning: Pray Scripture",
+   "church": "bridgetown",
+   "speaker": "Tyler Staton",
+   "date": "2025-11-10",
+   "series": "A Prayer Shaped Life",
+   "passage": "John 8:31-36",
+   "refs": [
+    {
+     "book": "john",
+     "start": 8,
+     "end": 8
+    }
+   ],
+   "url": "https://open.spotify.com/episode/0YynEwx4hJcRNHHC3OV9Vi",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 52
+  },
+  {
    "id": "cotcny-4IPccVdcDGQcrXu15NjH2k",
    "title": "The City on a Hill",
    "church": "cotcny",
@@ -1173,6 +2113,86 @@
    "tags": [],
    "source": "rss",
    "durationMin": 55
+  },
+  {
+   "id": "bridgetown-6ZX4A41l68t9hiWIRaX9nO",
+   "title": "The Presence-Centered Life",
+   "church": "bridgetown",
+   "speaker": "Faith Eury",
+   "date": "2025-11-03",
+   "series": "A Prayer Shaped Life",
+   "passage": "2 Samuel 6:6-11",
+   "refs": [
+    {
+     "book": "2-samuel",
+     "start": 6,
+     "end": 6
+    }
+   ],
+   "url": "https://open.spotify.com/episode/6ZX4A41l68t9hiWIRaX9nO",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 42
+  },
+  {
+   "id": "bridgetown-2rX0dOJGLpXIYcnsWUJb6k",
+   "title": "Prayer as “Doing What Jesus Did”",
+   "church": "bridgetown",
+   "speaker": "Tyler Staton",
+   "date": "2025-10-26",
+   "series": "A Prayer Shaped Life",
+   "passage": "Luke 10:25-37",
+   "refs": [
+    {
+     "book": "luke",
+     "start": 10,
+     "end": 10
+    }
+   ],
+   "url": "https://open.spotify.com/episode/2rX0dOJGLpXIYcnsWUJb6k",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 44
+  },
+  {
+   "id": "bridgetown-2dTnIoycQhrlS3JJ0lsl6B",
+   "title": "Sung Prayer as “Becoming like Jesus”",
+   "church": "bridgetown",
+   "speaker": "Christian Dawson",
+   "date": "2025-10-19",
+   "series": "A Prayer Shaped Life",
+   "passage": "Colossians 1:28-29",
+   "refs": [
+    {
+     "book": "colossians",
+     "start": 1,
+     "end": 1
+    }
+   ],
+   "url": "https://open.spotify.com/episode/2dTnIoycQhrlS3JJ0lsl6B",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 45
+  },
+  {
+   "id": "bridgetown-2IilgHPkTAcHgjmBp75TfX",
+   "title": "Prayer as “Being with Jesus”",
+   "church": "bridgetown",
+   "speaker": "Tyler Staton",
+   "date": "2025-10-13",
+   "series": "A Prayer Shaped Life",
+   "passage": "Mark 1:9-13",
+   "refs": [
+    {
+     "book": "mark",
+     "start": 1,
+     "end": 1
+    }
+   ],
+   "url": "https://open.spotify.com/episode/2IilgHPkTAcHgjmBp75TfX",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 49
   },
   {
    "id": "vintage-sm-7xT31Mh1AQCdpxCo0YjVqK",
@@ -1235,6 +2255,126 @@
    "durationMin": 40
   },
   {
+   "id": "bridgetown-47QMGwqXsZUwQlD7D0pL1n",
+   "title": "Prayer as Be, Become, Do",
+   "church": "bridgetown",
+   "speaker": "Tyler Staton",
+   "date": "2025-10-05",
+   "series": "A Prayer Shaped Life",
+   "passage": "Colossians 4:2-6",
+   "refs": [
+    {
+     "book": "colossians",
+     "start": 4,
+     "end": 4
+    }
+   ],
+   "url": "https://open.spotify.com/episode/47QMGwqXsZUwQlD7D0pL1n",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 53
+  },
+  {
+   "id": "bridgetown-4H96D8XpdWVyvVQ1pUYqze",
+   "title": "A Community of Counter-Formation",
+   "church": "bridgetown",
+   "speaker": "Tyler Staton",
+   "date": "2025-09-29",
+   "series": "In Portland as it is in Heaven",
+   "passage": "Matthew 5:48",
+   "refs": [
+    {
+     "book": "matthew",
+     "start": 5,
+     "end": 5
+    }
+   ],
+   "url": "https://open.spotify.com/episode/4H96D8XpdWVyvVQ1pUYqze",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 44
+  },
+  {
+   "id": "bridgetown-0Pw32tqoKxLqKfgP0dRIi4",
+   "title": "Rule of Life",
+   "church": "bridgetown",
+   "speaker": "Tyler Staton",
+   "date": "2025-09-21",
+   "series": "In Portland as it is In Heaven",
+   "passage": "John 15:9-17",
+   "refs": [
+    {
+     "book": "john",
+     "start": 15,
+     "end": 15
+    }
+   ],
+   "url": "https://open.spotify.com/episode/0Pw32tqoKxLqKfgP0dRIi4",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 54
+  },
+  {
+   "id": "bridgetown-4QWwjAaU55Hrr0on9WQzOW",
+   "title": "Together in Portland",
+   "church": "bridgetown",
+   "speaker": "Bethany Allen and Gavin Bennett",
+   "date": "2025-09-15",
+   "series": "In Portland as it is in Heaven",
+   "passage": "Acts 2:42-47",
+   "refs": [
+    {
+     "book": "acts",
+     "start": 2,
+     "end": 2
+    }
+   ],
+   "url": "https://open.spotify.com/episode/4QWwjAaU55Hrr0on9WQzOW",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 44
+  },
+  {
+   "id": "bridgetown-6X0cO05PKZIGh5mBl1zyXy",
+   "title": "Practicing the Way of Jesus",
+   "church": "bridgetown",
+   "speaker": "Tyler Staton",
+   "date": "2025-09-07",
+   "series": "In Portland as it is in Heaven",
+   "passage": "Matthew 7:13-14",
+   "refs": [
+    {
+     "book": "matthew",
+     "start": 7,
+     "end": 7
+    }
+   ],
+   "url": "https://open.spotify.com/episode/6X0cO05PKZIGh5mBl1zyXy",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 58
+  },
+  {
+   "id": "bridgetown-3XNctCfwgDbpCMcZUzeGiH",
+   "title": "The Father of Nations",
+   "church": "bridgetown",
+   "speaker": "Dave Lomas",
+   "date": "2025-09-01",
+   "series": "Genesis",
+   "passage": "Genesis 11",
+   "refs": [
+    {
+     "book": "genesis",
+     "start": 11,
+     "end": 11
+    }
+   ],
+   "url": "https://open.spotify.com/episode/3XNctCfwgDbpCMcZUzeGiH",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 46
+  },
+  {
    "id": "cotcny-2ARW2nr0nldvGuOgd2uT0c",
    "title": "Spiritual Multiplication",
    "church": "cotcny",
@@ -1255,6 +2395,26 @@
    "durationMin": 51
   },
   {
+   "id": "bridgetown-4LIXDlpZ0n7XFXytzdRaEa",
+   "title": "Living in Babel",
+   "church": "bridgetown",
+   "speaker": "Hakeem Bradley",
+   "date": "2025-08-24",
+   "series": "Genesis",
+   "passage": "Genesis 10",
+   "refs": [
+    {
+     "book": "genesis",
+     "start": 10,
+     "end": 10
+    }
+   ],
+   "url": "https://open.spotify.com/episode/4LIXDlpZ0n7XFXytzdRaEa",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 47
+  },
+  {
    "id": "vintage-sm-6wHfC77NS8X0vmHBAAWrzs",
    "title": "Trusting the Keeper of our Lives",
    "church": "vintage-sm",
@@ -1273,6 +2433,26 @@
    "tags": [],
    "source": "rss",
    "durationMin": 35
+  },
+  {
+   "id": "bridgetown-7H2i6dFzk0KcsfElScyT2V",
+   "title": "Genesis 9, The Other Fall",
+   "church": "bridgetown",
+   "speaker": "Tyler Staton",
+   "date": "2025-08-18",
+   "series": "Genesis",
+   "passage": "Genesis 9",
+   "refs": [
+    {
+     "book": "genesis",
+     "start": 9,
+     "end": 9
+    }
+   ],
+   "url": "https://open.spotify.com/episode/7H2i6dFzk0KcsfElScyT2V",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 59
   },
   {
    "id": "cotcny-4uwQOJPOg1YYPYT9XAyAi2",
@@ -1315,6 +2495,26 @@
    "durationMin": 42
   },
   {
+   "id": "bridgetown-3KgRzGUUvHsWcaQHH0LzNM",
+   "title": "Who Is God, and Can I Trust Him?",
+   "church": "bridgetown",
+   "speaker": "Tyler Staton",
+   "date": "2025-08-11",
+   "series": "Genesis",
+   "passage": "Genesis 8",
+   "refs": [
+    {
+     "book": "genesis",
+     "start": 8,
+     "end": 8
+    }
+   ],
+   "url": "https://open.spotify.com/episode/3KgRzGUUvHsWcaQHH0LzNM",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 56
+  },
+  {
    "id": "vintage-sm-3WUSHuaHV159XIkJkuMCGg",
    "title": "Psalm 139",
    "church": "vintage-sm",
@@ -1333,6 +2533,26 @@
    "tags": [],
    "source": "rss",
    "durationMin": 44
+  },
+  {
+   "id": "bridgetown-6L61fCGl2799XxGNitiGGu",
+   "title": "Noah’s Ark: Children’s Story, Divine Genocide, or Something Else?",
+   "church": "bridgetown",
+   "speaker": "Tyler Staton",
+   "date": "2025-08-04",
+   "series": "Genesis",
+   "passage": "Genesis 6",
+   "refs": [
+    {
+     "book": "genesis",
+     "start": 6,
+     "end": 6
+    }
+   ],
+   "url": "https://open.spotify.com/episode/6L61fCGl2799XxGNitiGGu",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 55
   },
   {
    "id": "cotcny-7KCEY0snrFbehlFpqBJVdn",
@@ -1375,6 +2595,26 @@
    "durationMin": 48
   },
   {
+   "id": "bridgetown-3c27Jf3mPrBLUm34ZBeAAZ",
+   "title": "The Bloodline of Evil",
+   "church": "bridgetown",
+   "speaker": "Bethany Allen",
+   "date": "2025-07-27",
+   "series": "Genesis",
+   "passage": "Genesis 5",
+   "refs": [
+    {
+     "book": "genesis",
+     "start": 5,
+     "end": 5
+    }
+   ],
+   "url": "https://open.spotify.com/episode/3c27Jf3mPrBLUm34ZBeAAZ",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 44
+  },
+  {
    "id": "vintage-sm-7Dx3ShhobU2mzpA8WUGjap",
    "title": "A New Community",
    "church": "vintage-sm",
@@ -1415,6 +2655,26 @@
    "durationMin": 62
   },
   {
+   "id": "bridgetown-2Eb5e5ZLlSFbd2Hl8nWjzU",
+   "title": "The Maturation and Multiplication of Evil",
+   "church": "bridgetown",
+   "speaker": "Gavin Bennett",
+   "date": "2025-07-20",
+   "series": "Genesis",
+   "passage": "Genesis 4",
+   "refs": [
+    {
+     "book": "genesis",
+     "start": 4,
+     "end": 4
+    }
+   ],
+   "url": "https://open.spotify.com/episode/2Eb5e5ZLlSFbd2Hl8nWjzU",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 39
+  },
+  {
    "id": "cotcny-3AyZF98w55lnO6UojlPiF7",
    "title": "The Shocking Gift of the Spirit",
    "church": "cotcny",
@@ -1433,6 +2693,26 @@
    "tags": [],
    "source": "rss",
    "durationMin": 54
+  },
+  {
+   "id": "bridgetown-3jq7rsew8EqVe0pg8wZQJj",
+   "title": "Cain and Abel",
+   "church": "bridgetown",
+   "speaker": "Christian Dawson",
+   "date": "2025-07-13",
+   "series": "Genesis",
+   "passage": "Genesis 4",
+   "refs": [
+    {
+     "book": "genesis",
+     "start": 4,
+     "end": 4
+    }
+   ],
+   "url": "https://open.spotify.com/episode/3jq7rsew8EqVe0pg8wZQJj",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 44
   },
   {
    "id": "vintage-sm-6jFDJYiwpiGJwWduinQiUE",
@@ -1473,6 +2753,26 @@
    "durationMin": 50
   },
   {
+   "id": "bridgetown-2vJDRBFtjZirdVTsLtJNek",
+   "title": "Fall",
+   "church": "bridgetown",
+   "speaker": "Josh Ryan",
+   "date": "2025-07-06",
+   "series": "Genesis",
+   "passage": "Genesis 3",
+   "refs": [
+    {
+     "book": "genesis",
+     "start": 3,
+     "end": 3
+    }
+   ],
+   "url": "https://open.spotify.com/episode/2vJDRBFtjZirdVTsLtJNek",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 67
+  },
+  {
    "id": "vintage-sm-5gFYSazsgVl267EG6dp0OT",
    "title": "God’s “Vintage” Church",
    "church": "vintage-sm",
@@ -1489,6 +2789,46 @@
    "tags": [],
    "source": "rss",
    "durationMin": 47
+  },
+  {
+   "id": "bridgetown-3EzbixijIjEikOWVafYyBi",
+   "title": "Genesis 2v4-25",
+   "church": "bridgetown",
+   "speaker": "Tyler Staton",
+   "date": "2025-06-30",
+   "series": "",
+   "passage": "Genesis 2:4-25",
+   "refs": [
+    {
+     "book": "genesis",
+     "start": 2,
+     "end": 2
+    }
+   ],
+   "url": "https://open.spotify.com/episode/3EzbixijIjEikOWVafYyBi",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 55
+  },
+  {
+   "id": "bridgetown-0kPjzWKvAdyCmpJcB1dKzn",
+   "title": "Genesis 1v1-2v3",
+   "church": "bridgetown",
+   "speaker": "Tyler Staton and Tim Mackie",
+   "date": "2025-06-30",
+   "series": "",
+   "passage": "Genesis 1:1-2:3",
+   "refs": [
+    {
+     "book": "genesis",
+     "start": 1,
+     "end": 2
+    }
+   ],
+   "url": "https://open.spotify.com/episode/0kPjzWKvAdyCmpJcB1dKzn",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 62
   },
   {
    "id": "cotcny-63ojT0vKOVx53jFXspsMVR",
@@ -1587,6 +2927,26 @@
    "durationMin": 52
   },
   {
+   "id": "bridgetown-1W2ZLES3j0YnakPUR34bUQ",
+   "title": "God is Love - Relational Love",
+   "church": "bridgetown",
+   "speaker": "Bethany Allen",
+   "date": "2025-06-15",
+   "series": "",
+   "passage": "1 John 4",
+   "refs": [
+    {
+     "book": "1-john",
+     "start": 4,
+     "end": 4
+    }
+   ],
+   "url": "https://open.spotify.com/episode/1W2ZLES3j0YnakPUR34bUQ",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 48
+  },
+  {
    "id": "vintage-sm-0m5Fxraqhgkbxy4FHQTEDj",
    "title": "The Gospel of Grace and Obedience",
    "church": "vintage-sm",
@@ -1643,6 +3003,26 @@
    "durationMin": 52
   },
   {
+   "id": "bridgetown-3qRfk8ia02P9L6u71BbTgT",
+   "title": "God is Love - Creating Love",
+   "church": "bridgetown",
+   "speaker": "Gerald Griffin",
+   "date": "2025-06-08",
+   "series": "",
+   "passage": "Acts 2",
+   "refs": [
+    {
+     "book": "acts",
+     "start": 2,
+     "end": 2
+    }
+   ],
+   "url": "https://open.spotify.com/episode/3qRfk8ia02P9L6u71BbTgT",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 42
+  },
+  {
    "id": "cotcny-6eoWe7uOug832fTAHf3enE",
    "title": "We Are Witnesses",
    "church": "cotcny",
@@ -1683,6 +3063,46 @@
    "durationMin": 60
   },
   {
+   "id": "bridgetown-39nXUIupypHC8YeYN6sDRq",
+   "title": "Self-Giving Love",
+   "church": "bridgetown",
+   "speaker": "Gavin Bennett",
+   "date": "2025-05-25",
+   "series": "God is Love",
+   "passage": "John 15:9-13",
+   "refs": [
+    {
+     "book": "john",
+     "start": 15,
+     "end": 15
+    }
+   ],
+   "url": "https://open.spotify.com/episode/39nXUIupypHC8YeYN6sDRq",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 42
+  },
+  {
+   "id": "bridgetown-6zW1fYx9pK6nqyKL70QRE9",
+   "title": "God is Love - Rescuing Love",
+   "church": "bridgetown",
+   "speaker": "Tyler Staton",
+   "date": "2025-05-19",
+   "series": "",
+   "passage": "Colossians 1",
+   "refs": [
+    {
+     "book": "colossians",
+     "start": 1,
+     "end": 1
+    }
+   ],
+   "url": "https://open.spotify.com/episode/6zW1fYx9pK6nqyKL70QRE9",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 50
+  },
+  {
    "id": "cotcny-0JoMYqVXFTB0182MdLl9Gj",
    "title": "Responding to Resistance",
    "church": "cotcny",
@@ -1701,6 +3121,66 @@
    "tags": [],
    "source": "rss",
    "durationMin": 59
+  },
+  {
+   "id": "bridgetown-4JkdTFTNQSJDXJoI7LKduo",
+   "title": "An Ocean of Peace",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2025-05-11",
+   "series": "",
+   "passage": "Colossians 3:15",
+   "refs": [
+    {
+     "book": "colossians",
+     "start": 3,
+     "end": 3
+    }
+   ],
+   "url": "https://open.spotify.com/episode/4JkdTFTNQSJDXJoI7LKduo",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 53
+  },
+  {
+   "id": "bridgetown-4rFq8ysoAL4vnmcqEVq4a3",
+   "title": "God is Love",
+   "church": "bridgetown",
+   "speaker": "Tyler Staton",
+   "date": "2025-05-04",
+   "series": "",
+   "passage": "1 John 4",
+   "refs": [
+    {
+     "book": "1-john",
+     "start": 4,
+     "end": 4
+    }
+   ],
+   "url": "https://open.spotify.com/episode/4rFq8ysoAL4vnmcqEVq4a3",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 53
+  },
+  {
+   "id": "bridgetown-67W2e9OaHaTQPWvAru2Js3",
+   "title": "Becoming Your True Self",
+   "church": "bridgetown",
+   "speaker": "Ken Shigematsu",
+   "date": "2025-04-27",
+   "series": "",
+   "passage": "Ephesians 3:14-19",
+   "refs": [
+    {
+     "book": "ephesians",
+     "start": 3,
+     "end": 3
+    }
+   ],
+   "url": "https://open.spotify.com/episode/67W2e9OaHaTQPWvAru2Js3",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 40
   },
   {
    "id": "vintage-sm-1jGx3gkWoTupaBDGNLqaOT",
@@ -1723,6 +3203,166 @@
    "durationMin": 39
   },
   {
+   "id": "bridgetown-5JJhY5WCecwXX4YrRJlbt5",
+   "title": "2025",
+   "church": "bridgetown",
+   "speaker": "Tyler Staton",
+   "date": "2025-04-20",
+   "series": "Easter",
+   "passage": "Matthew 28:1-10",
+   "refs": [
+    {
+     "book": "matthew",
+     "start": 28,
+     "end": 28
+    }
+   ],
+   "url": "https://open.spotify.com/episode/5JJhY5WCecwXX4YrRJlbt5",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 42
+  },
+  {
+   "id": "bridgetown-2vWAY9CHoGcy8Ey6OWxxKU",
+   "title": "Laodicea",
+   "church": "bridgetown",
+   "speaker": "Tyler Staton",
+   "date": "2025-04-13",
+   "series": "7 Letters",
+   "passage": "Revelation 3:14-22",
+   "refs": [
+    {
+     "book": "revelation",
+     "start": 3,
+     "end": 3
+    }
+   ],
+   "url": "https://open.spotify.com/episode/2vWAY9CHoGcy8Ey6OWxxKU",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 48
+  },
+  {
+   "id": "bridgetown-3cua8I69b6wYhIc6riu7Fs",
+   "title": "Philadelphia",
+   "church": "bridgetown",
+   "speaker": "Gavin Bennett",
+   "date": "2025-04-07",
+   "series": "7 Letters",
+   "passage": "Revelation 3:7-13",
+   "refs": [
+    {
+     "book": "revelation",
+     "start": 3,
+     "end": 3
+    }
+   ],
+   "url": "https://open.spotify.com/episode/3cua8I69b6wYhIc6riu7Fs",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 35
+  },
+  {
+   "id": "bridgetown-24liOd7XAc9yvwy1j8bUHz",
+   "title": "Session 6",
+   "church": "bridgetown",
+   "speaker": "Gemma Ryan",
+   "date": "2025-03-31",
+   "series": "HSC25",
+   "passage": "Mark 14:32-42",
+   "refs": [
+    {
+     "book": "mark",
+     "start": 14,
+     "end": 14
+    }
+   ],
+   "url": "https://open.spotify.com/episode/24liOd7XAc9yvwy1j8bUHz",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 46
+  },
+  {
+   "id": "bridgetown-3aaxCMTpRyIiJFqVJJ0E1t",
+   "title": "Session 4",
+   "church": "bridgetown",
+   "speaker": "Tim Mackie",
+   "date": "2025-03-31",
+   "series": "HSC25",
+   "passage": "Psalm 139:7-12",
+   "refs": [
+    {
+     "book": "psalms",
+     "start": 139,
+     "end": 139
+    }
+   ],
+   "url": "https://open.spotify.com/episode/3aaxCMTpRyIiJFqVJJ0E1t",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 57
+  },
+  {
+   "id": "bridgetown-2NUMKxF2oqmjpcBdRycuAd",
+   "title": "Session 2",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2025-03-31",
+   "series": "HSC25",
+   "passage": "2 Corinthians 5:1-10",
+   "refs": [
+    {
+     "book": "2-corinthians",
+     "start": 5,
+     "end": 5
+    }
+   ],
+   "url": "https://open.spotify.com/episode/2NUMKxF2oqmjpcBdRycuAd",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 57
+  },
+  {
+   "id": "bridgetown-2rgCwnXpVeUzxdUa9yLiFE",
+   "title": "Session 1",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2025-03-31",
+   "series": "HSC25",
+   "passage": "John 20:19-23",
+   "refs": [
+    {
+     "book": "john",
+     "start": 20,
+     "end": 20
+    }
+   ],
+   "url": "https://open.spotify.com/episode/2rgCwnXpVeUzxdUa9yLiFE",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 50
+  },
+  {
+   "id": "bridgetown-0gDYLrlW75NzBOkdf44FHP",
+   "title": "Sardis",
+   "church": "bridgetown",
+   "speaker": "Bethany Allen",
+   "date": "2025-03-31",
+   "series": "7 Letters",
+   "passage": "Revelation 3:1-6",
+   "refs": [
+    {
+     "book": "revelation",
+     "start": 3,
+     "end": 3
+    }
+   ],
+   "url": "https://open.spotify.com/episode/0gDYLrlW75NzBOkdf44FHP",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 55
+  },
+  {
    "id": "cotcny-1obHVawdw2nwEmjjII0oW8",
    "title": "The Redemptive Edge",
    "church": "cotcny",
@@ -1741,6 +3381,26 @@
    "tags": [],
    "source": "rss",
    "durationMin": 65
+  },
+  {
+   "id": "bridgetown-2AjnnAieNWpKDdLVgVHrlG",
+   "title": "Thyatira",
+   "church": "bridgetown",
+   "speaker": "Tyler Staton",
+   "date": "2025-03-24",
+   "series": "7 Letters",
+   "passage": "Revelation 2:18-28",
+   "refs": [
+    {
+     "book": "revelation",
+     "start": 2,
+     "end": 2
+    }
+   ],
+   "url": "https://open.spotify.com/episode/2AjnnAieNWpKDdLVgVHrlG",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 48
   },
   {
    "id": "cotcny-3rk0n0TAKf5ywcGMraSldH",
@@ -1763,6 +3423,46 @@
    "durationMin": 63
   },
   {
+   "id": "bridgetown-5zyzJvzyHLMwDEGlOu5a9e",
+   "title": "Pergamum",
+   "church": "bridgetown",
+   "speaker": "Christian Dawson",
+   "date": "2025-03-17",
+   "series": "7 Letters",
+   "passage": "Revelation 2:12-17",
+   "refs": [
+    {
+     "book": "revelation",
+     "start": 2,
+     "end": 2
+    }
+   ],
+   "url": "https://open.spotify.com/episode/5zyzJvzyHLMwDEGlOu5a9e",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 39
+  },
+  {
+   "id": "bridgetown-1SshhvG5BgY5aFJK1UqEJY",
+   "title": "Smyrna",
+   "church": "bridgetown",
+   "speaker": "Gerald Griffin",
+   "date": "2025-03-10",
+   "series": "7 Letters",
+   "passage": "Revelation 2:8-11",
+   "refs": [
+    {
+     "book": "revelation",
+     "start": 2,
+     "end": 2
+    }
+   ],
+   "url": "https://open.spotify.com/episode/1SshhvG5BgY5aFJK1UqEJY",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 38
+  },
+  {
    "id": "cotcny-0EBUquDSWbqd221cmpeSAk",
    "title": "Communitas",
    "church": "cotcny",
@@ -1783,6 +3483,26 @@
    "durationMin": 58
   },
   {
+   "id": "bridgetown-1gXV8jjtofCOIZ8MOUHmc3",
+   "title": "Ephesus",
+   "church": "bridgetown",
+   "speaker": "Tyler Staton",
+   "date": "2025-03-02",
+   "series": "7 Letters",
+   "passage": "Revelation 2:1-7",
+   "refs": [
+    {
+     "book": "revelation",
+     "start": 2,
+     "end": 2
+    }
+   ],
+   "url": "https://open.spotify.com/episode/1gXV8jjtofCOIZ8MOUHmc3",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 51
+  },
+  {
    "id": "vintage-sm-2bXTegbTreYYbqhDOFHVmC",
    "title": "I AM the Vine",
    "church": "vintage-sm",
@@ -1799,6 +3519,26 @@
    "tags": [],
    "source": "rss",
    "durationMin": 48
+  },
+  {
+   "id": "bridgetown-1pE6kdKR9bh8AmFV748jjT",
+   "title": "Blessed are those who Hunger and Thirst for Righteousness",
+   "church": "bridgetown",
+   "speaker": "David Thomas",
+   "date": "2025-02-24",
+   "series": "Beatitudes",
+   "passage": "Matthew 5:6",
+   "refs": [
+    {
+     "book": "matthew",
+     "start": 5,
+     "end": 5
+    }
+   ],
+   "url": "https://open.spotify.com/episode/1pE6kdKR9bh8AmFV748jjT",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 43
   },
   {
    "id": "vintage-sm-7odnoFeSIV5gMOhe1k84M4",
@@ -1837,6 +3577,46 @@
    "durationMin": 32
   },
   {
+   "id": "bridgetown-0Vw54zQyaJrIrw6GS0eVhC",
+   "title": "Blessed are the Peacemakers",
+   "church": "bridgetown",
+   "speaker": "David Bailey",
+   "date": "2025-02-17",
+   "series": "Beatitudes",
+   "passage": "Matthew 5:9",
+   "refs": [
+    {
+     "book": "matthew",
+     "start": 5,
+     "end": 5
+    }
+   ],
+   "url": "https://open.spotify.com/episode/0Vw54zQyaJrIrw6GS0eVhC",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 57
+  },
+  {
+   "id": "bridgetown-1DkTDa3xlgPUWE4vWIy1Jd",
+   "title": "Blessed are Those Who Mourn",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2025-02-12",
+   "series": "Beatitudes",
+   "passage": "Matthew 5:4",
+   "refs": [
+    {
+     "book": "matthew",
+     "start": 5,
+     "end": 5
+    }
+   ],
+   "url": "https://open.spotify.com/episode/1DkTDa3xlgPUWE4vWIy1Jd",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 47
+  },
+  {
    "id": "vintage-sm-50jazDFasOX3abFmWAc7XW",
    "title": "I AM The Way, The Truth and The Life",
    "church": "vintage-sm",
@@ -1853,6 +3633,26 @@
    "tags": [],
    "source": "rss",
    "durationMin": 39
+  },
+  {
+   "id": "bridgetown-5rdoc1bapaYw34FQS1KX4I",
+   "title": "Blessed are the Merciful",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2025-02-03",
+   "series": "Beatitudes",
+   "passage": "Matthew 5:7",
+   "refs": [
+    {
+     "book": "matthew",
+     "start": 5,
+     "end": 5
+    }
+   ],
+   "url": "https://open.spotify.com/episode/5rdoc1bapaYw34FQS1KX4I",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 48
   },
   {
    "id": "vintage-sm-5atK0BIf1f6e4lrtQ7azZ4",
@@ -1891,6 +3691,26 @@
    "durationMin": 42
   },
   {
+   "id": "bridgetown-1fHS9ek9lpcJSlyINuJsqU",
+   "title": "Blessed are the Meek",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2025-01-26",
+   "series": "Beatitudes",
+   "passage": "Matthew 5:5",
+   "refs": [
+    {
+     "book": "matthew",
+     "start": 5,
+     "end": 5
+    }
+   ],
+   "url": "https://open.spotify.com/episode/1fHS9ek9lpcJSlyINuJsqU",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 49
+  },
+  {
    "id": "vintage-sm-6h2JvUPvr25G4wgdBkTQ3F",
    "title": "Light of the World",
    "church": "vintage-sm",
@@ -1907,6 +3727,66 @@
    "tags": [],
    "source": "rss",
    "durationMin": 28
+  },
+  {
+   "id": "bridgetown-3glBo3DLFTKLqCnR6xBGpp",
+   "title": "Blessed are Those Who Are Persecuted",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2025-01-20",
+   "series": "Beatitudes",
+   "passage": "Matthew 5:10-12",
+   "refs": [
+    {
+     "book": "matthew",
+     "start": 5,
+     "end": 5
+    }
+   ],
+   "url": "https://open.spotify.com/episode/3glBo3DLFTKLqCnR6xBGpp",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 50
+  },
+  {
+   "id": "bridgetown-6dpztBkJZ295gamiIpsWQQ",
+   "title": "Blessed are the Pure in Heart",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2025-01-12",
+   "series": "Beautitudes",
+   "passage": "Matthew 5:8",
+   "refs": [
+    {
+     "book": "matthew",
+     "start": 5,
+     "end": 5
+    }
+   ],
+   "url": "https://open.spotify.com/episode/6dpztBkJZ295gamiIpsWQQ",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 48
+  },
+  {
+   "id": "bridgetown-7IxH5u9zDTOXHKVYa3BsJP",
+   "title": "Blessed are the Poor in Spirit",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2025-01-06",
+   "series": "Beatitudes",
+   "passage": "Matthew 5:1-12",
+   "refs": [
+    {
+     "book": "matthew",
+     "start": 5,
+     "end": 5
+    }
+   ],
+   "url": "https://open.spotify.com/episode/7IxH5u9zDTOXHKVYa3BsJP",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 49
   },
   {
    "id": "vintage-sm-388jEeVpWfZW14rnQpp0Zg",
@@ -1927,6 +3807,86 @@
    "durationMin": 39
   },
   {
+   "id": "bridgetown-6SmunSPk18xh0ujx3CX4uF",
+   "title": "Christmas Eve",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2024-12-24",
+   "series": "Advent 2024",
+   "passage": "Luke 1:26-38",
+   "refs": [
+    {
+     "book": "luke",
+     "start": 1,
+     "end": 1
+    }
+   ],
+   "url": "https://open.spotify.com/episode/6SmunSPk18xh0ujx3CX4uF",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 31
+  },
+  {
+   "id": "bridgetown-0Oeldgu859Akw6TEMNg0iw",
+   "title": "Love",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2024-12-22",
+   "series": "Advent 2024",
+   "passage": "Micah 5:2-5",
+   "refs": [
+    {
+     "book": "micah",
+     "start": 5,
+     "end": 5
+    }
+   ],
+   "url": "https://open.spotify.com/episode/0Oeldgu859Akw6TEMNg0iw",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 40
+  },
+  {
+   "id": "bridgetown-1LcotQ9IP0VjpRs8ElmGLy",
+   "title": "Joy",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2024-12-15",
+   "series": "Advent 2024",
+   "passage": "Zephaniah 3:14-20",
+   "refs": [
+    {
+     "book": "zephaniah",
+     "start": 3,
+     "end": 3
+    }
+   ],
+   "url": "https://open.spotify.com/episode/1LcotQ9IP0VjpRs8ElmGLy",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 46
+  },
+  {
+   "id": "bridgetown-2hfs5IKTEbkvVq8SUTTnR8",
+   "title": "Whispers in the Dark",
+   "church": "bridgetown",
+   "speaker": "Gavin Bennett",
+   "date": "2024-12-09",
+   "series": "Advent 2024",
+   "passage": "Malachi 3:1-4",
+   "refs": [
+    {
+     "book": "malachi",
+     "start": 3,
+     "end": 3
+    }
+   ],
+   "url": "https://open.spotify.com/episode/2hfs5IKTEbkvVq8SUTTnR8",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 35
+  },
+  {
    "id": "vintage-sm-25wawHR307GoJ2VOsQAix2",
    "title": "Pt 2",
    "church": "vintage-sm",
@@ -1945,6 +3905,26 @@
    "tags": [],
    "source": "rss",
    "durationMin": 40
+  },
+  {
+   "id": "bridgetown-4k3vMctzGM6E5s8BIbKCZL",
+   "title": "Hope",
+   "church": "bridgetown",
+   "speaker": "Bethany Allen",
+   "date": "2024-12-02",
+   "series": "Advent 2024",
+   "passage": "Jeremiah 33:14-16",
+   "refs": [
+    {
+     "book": "jeremiah",
+     "start": 33,
+     "end": 33
+    }
+   ],
+   "url": "https://open.spotify.com/episode/4k3vMctzGM6E5s8BIbKCZL",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 44
   },
   {
    "id": "cotcny-7pm9zNxUEBHX1S9yP4Q1ls",
@@ -1987,6 +3967,106 @@
    "durationMin": 35
   },
   {
+   "id": "bridgetown-58Ril9GKFJDsU5c1bqP0oD",
+   "title": "Do You Understand What I've Done For You?",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2024-11-24",
+   "series": "For the Sake of Others",
+   "passage": "John 13:1-17",
+   "refs": [
+    {
+     "book": "john",
+     "start": 13,
+     "end": 13
+    }
+   ],
+   "url": "https://open.spotify.com/episode/58Ril9GKFJDsU5c1bqP0oD",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 51
+  },
+  {
+   "id": "bridgetown-5ReVjTjsmhKDTi7Pgka3zP",
+   "title": "How Many Times Should I Forgive?",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2024-11-18",
+   "series": "For the Sake of Others",
+   "passage": "Matthew 18:21-35",
+   "refs": [
+    {
+     "book": "matthew",
+     "start": 18,
+     "end": 18
+    }
+   ],
+   "url": "https://open.spotify.com/episode/5ReVjTjsmhKDTi7Pgka3zP",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 52
+  },
+  {
+   "id": "bridgetown-4mNu3QLNTqX7YHCsC9sIze",
+   "title": "Why Does Your Teacher Eat with Tax Collectors and Sinners?",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2024-11-11",
+   "series": "For the Sake of Others",
+   "passage": "Luke 14:12-23",
+   "refs": [
+    {
+     "book": "luke",
+     "start": 14,
+     "end": 14
+    }
+   ],
+   "url": "https://open.spotify.com/episode/4mNu3QLNTqX7YHCsC9sIze",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 49
+  },
+  {
+   "id": "bridgetown-4NrhIAProeVKnyWFNXMGBX",
+   "title": "How Did the Fig Tree Wither so Quickly?",
+   "church": "bridgetown",
+   "speaker": "Gavin Bennett",
+   "date": "2024-11-04",
+   "series": "For the Sake of Others",
+   "passage": "Matthew 25:14-30",
+   "refs": [
+    {
+     "book": "matthew",
+     "start": 25,
+     "end": 25
+    }
+   ],
+   "url": "https://open.spotify.com/episode/4NrhIAProeVKnyWFNXMGBX",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 35
+  },
+  {
+   "id": "bridgetown-7mGyr6dPedonMM0RMC0eId",
+   "title": "Who is My Neighbor?",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2024-10-28",
+   "series": "For the Sake of Others",
+   "passage": "Luke 10:25-37",
+   "refs": [
+    {
+     "book": "luke",
+     "start": 10,
+     "end": 10
+    }
+   ],
+   "url": "https://open.spotify.com/episode/7mGyr6dPedonMM0RMC0eId",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 47
+  },
+  {
    "id": "cotcny-7FcjJjRt52GNSLDcErSZIb",
    "title": "Sanctification",
    "church": "cotcny",
@@ -2005,6 +4085,26 @@
    "tags": [],
    "source": "rss",
    "durationMin": 61
+  },
+  {
+   "id": "bridgetown-5FEIorjfwLEFioa4Dyr4Ni",
+   "title": "For the Sake of the City",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2024-10-20",
+   "series": "For the Sake of Others",
+   "passage": "Romans 12:2",
+   "refs": [
+    {
+     "book": "romans",
+     "start": 12,
+     "end": 12
+    }
+   ],
+   "url": "https://open.spotify.com/episode/5FEIorjfwLEFioa4Dyr4Ni",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 47
   },
   {
    "id": "vintage-sm-5RK1Vn77K3WPNTQIi21jQv",
@@ -2045,6 +4145,26 @@
    "durationMin": 54
   },
   {
+   "id": "bridgetown-1Yu36T9P6ZamPsXskZVsmC",
+   "title": "For the Sake of the Poor",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2024-10-13",
+   "series": "For the Sake of Others",
+   "passage": "Matthew 6:19-24",
+   "refs": [
+    {
+     "book": "matthew",
+     "start": 6,
+     "end": 6
+    }
+   ],
+   "url": "https://open.spotify.com/episode/1Yu36T9P6ZamPsXskZVsmC",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 48
+  },
+  {
    "id": "vintage-sm-3hsK2gx7jxIdb7Wz4627kO",
    "title": "Which Story Do You Live By?",
    "church": "vintage-sm",
@@ -2061,6 +4181,26 @@
    "tags": [],
    "source": "rss",
    "durationMin": 42
+  },
+  {
+   "id": "bridgetown-0Z1siGGq0iFvNW4Q6GPTAQ",
+   "title": "Family",
+   "church": "bridgetown",
+   "speaker": "Bethany Allen",
+   "date": "2024-10-06",
+   "series": "For the Sake of Others",
+   "passage": "Mark 3",
+   "refs": [
+    {
+     "book": "mark",
+     "start": 3,
+     "end": 3
+    }
+   ],
+   "url": "https://open.spotify.com/episode/0Z1siGGq0iFvNW4Q6GPTAQ",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 48
   },
   {
    "id": "vintage-sm-3oSRenmC7HqQaciyUNkUw1",
@@ -2099,6 +4239,46 @@
    "durationMin": 44
   },
   {
+   "id": "bridgetown-4WfFlZGZTY0JkK5zgJ2x87",
+   "title": "The Power of Prayer",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2024-09-30",
+   "series": "For the Sake of Others",
+   "passage": "Romans 8:22-27",
+   "refs": [
+    {
+     "book": "romans",
+     "start": 8,
+     "end": 8
+    }
+   ],
+   "url": "https://open.spotify.com/episode/4WfFlZGZTY0JkK5zgJ2x87",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 53
+  },
+  {
+   "id": "bridgetown-13o2hbguW43pq9SVTmum9l",
+   "title": "You Know a Tree by Its Fruit",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2024-09-23",
+   "series": "For the Sake of Others",
+   "passage": "Matthew 7:15-20",
+   "refs": [
+    {
+     "book": "matthew",
+     "start": 7,
+     "end": 7
+    }
+   ],
+   "url": "https://open.spotify.com/episode/13o2hbguW43pq9SVTmum9l",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 49
+  },
+  {
    "id": "cotcny-6eql3xgIxKjhvIbkCQj97B",
    "title": "From Platforms to Pillars",
    "church": "cotcny",
@@ -2117,6 +4297,26 @@
    "tags": [],
    "source": "rss",
    "durationMin": 53
+  },
+  {
+   "id": "bridgetown-192Wu6GrGb7A6jVKomGKC4",
+   "title": "Together in Portland",
+   "church": "bridgetown",
+   "speaker": "Bethany Allen",
+   "date": "2024-09-16",
+   "series": "Practicing the Way of Jesus Together in Portland",
+   "passage": "Mark 12:28-31",
+   "refs": [
+    {
+     "book": "mark",
+     "start": 12,
+     "end": 12
+    }
+   ],
+   "url": "https://open.spotify.com/episode/192Wu6GrGb7A6jVKomGKC4",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 47
   },
   {
    "id": "vintage-sm-5IiLEibORSYclDcKeXtJX6",
@@ -2153,6 +4353,26 @@
    "tags": [],
    "source": "rss",
    "durationMin": 39
+  },
+  {
+   "id": "bridgetown-7bWdNtALXHA7xqZqvkzStU",
+   "title": "In Portland As It Is In Heaven",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2024-09-08",
+   "series": "Practicing the Way of Jesus Together in Portland",
+   "passage": "Matthew 7:13-14",
+   "refs": [
+    {
+     "book": "matthew",
+     "start": 7,
+     "end": 7
+    }
+   ],
+   "url": "https://open.spotify.com/episode/7bWdNtALXHA7xqZqvkzStU",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 51
   },
   {
    "id": "vintage-sm-6f4aNWa79MsTXD2anYNXic",
@@ -2193,6 +4413,24 @@
    "durationMin": 51
   },
   {
+   "id": "bridgetown-5oMgHxV7m5cZ6dGSII9cGi",
+   "title": "Hospitality",
+   "church": "bridgetown",
+   "speaker": "Gerald Griffin",
+   "date": "2024-09-01",
+   "series": "Philemon",
+   "passage": "Philemon",
+   "refs": [
+    {
+     "book": "philemon"
+    }
+   ],
+   "url": "https://open.spotify.com/episode/5oMgHxV7m5cZ6dGSII9cGi",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 46
+  },
+  {
    "id": "cotcny-5miC8zHQQTxoZRbc1Gp6PU",
    "title": "Resurrection of Jesus",
    "church": "cotcny",
@@ -2229,6 +4467,24 @@
    "tags": [],
    "source": "rss",
    "durationMin": 43
+  },
+  {
+   "id": "bridgetown-5iBkAenBQgdaRAUBnJ6Cyf",
+   "title": "Even More",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2024-08-25",
+   "series": "Philemon",
+   "passage": "Philemon",
+   "refs": [
+    {
+     "book": "philemon"
+    }
+   ],
+   "url": "https://open.spotify.com/episode/5iBkAenBQgdaRAUBnJ6Cyf",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 47
   },
   {
    "id": "vintage-sm-1XoH22L9aO3pV0cr1d8tL2",
@@ -2269,6 +4525,24 @@
    "durationMin": 62
   },
   {
+   "id": "bridgetown-3F0CcGhVVacSUyTwwLuBSV",
+   "title": "A Heavenly Life in a Fallen World",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2024-08-18",
+   "series": "Philemon",
+   "passage": "Philemon",
+   "refs": [
+    {
+     "book": "philemon"
+    }
+   ],
+   "url": "https://open.spotify.com/episode/3F0CcGhVVacSUyTwwLuBSV",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 51
+  },
+  {
    "id": "cotcny-6aW2WfTlwBDBvCTfOzfge3",
    "title": "Healing a Blind Man",
    "church": "cotcny",
@@ -2289,6 +4563,24 @@
    "durationMin": 60
   },
   {
+   "id": "bridgetown-1fqJ71vT4bLw81128c7zo2",
+   "title": "What is Paul Doing?",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2024-08-11",
+   "series": "Philemon",
+   "passage": "Philemon",
+   "refs": [
+    {
+     "book": "philemon"
+    }
+   ],
+   "url": "https://open.spotify.com/episode/1fqJ71vT4bLw81128c7zo2",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 55
+  },
+  {
    "id": "cotcny-1A8QfrGic0bAcB1AdvJBRB",
    "title": "Feeding the 5,000",
    "church": "cotcny",
@@ -2307,6 +4599,24 @@
    "tags": [],
    "source": "rss",
    "durationMin": 63
+  },
+  {
+   "id": "bridgetown-3E7GNNT3AUCytjoUmgFTkj",
+   "title": "Contending For The Faith",
+   "church": "bridgetown",
+   "speaker": "Gavin Bennett",
+   "date": "2024-08-04",
+   "series": "Jude",
+   "passage": "Jude",
+   "refs": [
+    {
+     "book": "jude"
+    }
+   ],
+   "url": "https://open.spotify.com/episode/3E7GNNT3AUCytjoUmgFTkj",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 36
   },
   {
    "id": "cotcny-0eHv9xIj8wD4tnkNk7xDPC",
@@ -2347,6 +4657,24 @@
    "durationMin": 29
   },
   {
+   "id": "bridgetown-4w7CUxcEfhsdApw9ulvpaL",
+   "title": "False Teachers",
+   "church": "bridgetown",
+   "speaker": "Gavin Bennett",
+   "date": "2024-07-28",
+   "series": "Jude",
+   "passage": "Jude",
+   "refs": [
+    {
+     "book": "jude"
+    }
+   ],
+   "url": "https://open.spotify.com/episode/4w7CUxcEfhsdApw9ulvpaL",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 42
+  },
+  {
    "id": "vintage-sm-2WKZ84GCvfIyxrCC8Z5Mqd",
    "title": "The Gospel, Power, & Responsibility",
    "church": "vintage-sm",
@@ -2363,6 +4691,24 @@
    "tags": [],
    "source": "rss",
    "durationMin": 29
+  },
+  {
+   "id": "bridgetown-15YiirpUMQiUfteNfeAZDO",
+   "title": "Intro",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2024-07-22",
+   "series": "Jude",
+   "passage": "Jude",
+   "refs": [
+    {
+     "book": "jude"
+    }
+   ],
+   "url": "https://open.spotify.com/episode/15YiirpUMQiUfteNfeAZDO",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 56
   },
   {
    "id": "cotcny-3mvB5tvuAbW7f2uRL7vI9i",
@@ -2383,6 +4729,26 @@
    "tags": [],
    "source": "rss",
    "durationMin": 56
+  },
+  {
+   "id": "bridgetown-1JKKhTrqHwV0bhUkZO9gHv",
+   "title": "The Epilogue",
+   "church": "bridgetown",
+   "speaker": "Bethany Allen",
+   "date": "2024-07-15",
+   "series": "Ruth",
+   "passage": "Ruth 4:18-22",
+   "refs": [
+    {
+     "book": "ruth",
+     "start": 4,
+     "end": 4
+    }
+   ],
+   "url": "https://open.spotify.com/episode/1JKKhTrqHwV0bhUkZO9gHv",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 38
   },
   {
    "id": "cotcny-7bSUK1M600NRXhR8iMewnq",
@@ -2461,6 +4827,24 @@
    "durationMin": 48
   },
   {
+   "id": "bridgetown-21FTtAVsGF5TbteA9VpyTP",
+   "title": "The Wedding",
+   "church": "bridgetown",
+   "speaker": "Bethany Allen",
+   "date": "2024-07-07",
+   "series": "Ruth, Act 4",
+   "passage": "Ruth",
+   "refs": [
+    {
+     "book": "ruth"
+    }
+   ],
+   "url": "https://open.spotify.com/episode/21FTtAVsGF5TbteA9VpyTP",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 52
+  },
+  {
    "id": "vintage-sm-5ttIjsbykCJaaJi2HFJldw",
    "title": "Should Wives Submit to Husbands",
    "church": "vintage-sm",
@@ -2499,6 +4883,26 @@
    "durationMin": 51
   },
   {
+   "id": "bridgetown-7qNXQW8xak1F1bw6wb11hI",
+   "title": "The Contrast",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2024-06-30",
+   "series": "Ruth, Act 3",
+   "passage": "Ruth 3",
+   "refs": [
+    {
+     "book": "ruth",
+     "start": 3,
+     "end": 3
+    }
+   ],
+   "url": "https://open.spotify.com/episode/7qNXQW8xak1F1bw6wb11hI",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 50
+  },
+  {
    "id": "vintage-sm-42W76T5frVXLGJ2oDHs1R7",
    "title": "Does the Bible Condone Slavery?",
    "church": "vintage-sm",
@@ -2535,6 +4939,46 @@
    "tags": [],
    "source": "rss",
    "durationMin": 51
+  },
+  {
+   "id": "bridgetown-6WQzRm3SE0z1r74JuUno8v",
+   "title": "Small Things with Great Love",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2024-06-23",
+   "series": "Ruth, Act 2",
+   "passage": "Ruth 2",
+   "refs": [
+    {
+     "book": "ruth",
+     "start": 2,
+     "end": 2
+    }
+   ],
+   "url": "https://open.spotify.com/episode/6WQzRm3SE0z1r74JuUno8v",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 50
+  },
+  {
+   "id": "bridgetown-27xBqpuPljGiaWmVIvo1Lb",
+   "title": "The Theology and Psychology of Suffering",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2024-06-17",
+   "series": "Ruth, Act 1",
+   "passage": "Ruth 1:6-22",
+   "refs": [
+    {
+     "book": "ruth",
+     "start": 1,
+     "end": 1
+    }
+   ],
+   "url": "https://open.spotify.com/episode/27xBqpuPljGiaWmVIvo1Lb",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 54
   },
   {
    "id": "cotcny-6moYXNgxcf9WiNMB6KLeDP",
@@ -2595,6 +5039,26 @@
    "durationMin": 52
   },
   {
+   "id": "bridgetown-3AlKPJEEBlUug21TPxie2M",
+   "title": "3 Births & 3 Deaths",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2024-06-09",
+   "series": "Ruth",
+   "passage": "Ruth 1:1-5",
+   "refs": [
+    {
+     "book": "ruth",
+     "start": 1,
+     "end": 1
+    }
+   ],
+   "url": "https://open.spotify.com/episode/3AlKPJEEBlUug21TPxie2M",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 56
+  },
+  {
    "id": "vintage-sm-6VNLitUgmV2JVnYjKYZAce",
    "title": "Ethics of Exile",
    "church": "vintage-sm",
@@ -2633,6 +5097,26 @@
    "durationMin": 57
   },
   {
+   "id": "bridgetown-7s9bIFmuXqL4yakpPFzk98",
+   "title": "The Way of Love",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2024-06-02",
+   "series": "The Gifts of the Spirit for the work of the Kingdom",
+   "passage": "Genesis 11:1-9",
+   "refs": [
+    {
+     "book": "genesis",
+     "start": 11,
+     "end": 11
+    }
+   ],
+   "url": "https://open.spotify.com/episode/7s9bIFmuXqL4yakpPFzk98",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 50
+  },
+  {
    "id": "vintage-sm-06zlsHkDy0XTtkegZAF8TZ",
    "title": "1 Peter",
    "church": "vintage-sm",
@@ -2649,6 +5133,246 @@
    "tags": [],
    "source": "rss",
    "durationMin": 44
+  },
+  {
+   "id": "bridgetown-0Z2nrPH7G54VrFkVBvk3dK",
+   "title": "Tongues",
+   "church": "bridgetown",
+   "speaker": "Jonny Hughes",
+   "date": "2024-05-26",
+   "series": "The Gifts of the Spirit for the work of the Kingdom",
+   "passage": "Acts 2:1-4",
+   "refs": [
+    {
+     "book": "acts",
+     "start": 2,
+     "end": 2
+    }
+   ],
+   "url": "https://open.spotify.com/episode/0Z2nrPH7G54VrFkVBvk3dK",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 47
+  },
+  {
+   "id": "bridgetown-4fNj9dnd5yWRlAvVEYnJkl",
+   "title": "Pentecost Sunday",
+   "church": "bridgetown",
+   "speaker": "Pete Hughes",
+   "date": "2024-05-19",
+   "series": "The Gifts of the Spirit for the work of the Kingdom",
+   "passage": "John 20:19-22",
+   "refs": [
+    {
+     "book": "john",
+     "start": 20,
+     "end": 20
+    }
+   ],
+   "url": "https://open.spotify.com/episode/4fNj9dnd5yWRlAvVEYnJkl",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 49
+  },
+  {
+   "id": "bridgetown-2BbtQZLwkLOvjPpzbbjFMW",
+   "title": "Groaning",
+   "church": "bridgetown",
+   "speaker": "Gavin Bennett",
+   "date": "2024-05-12",
+   "series": "The Gifts of the Spirit for the work of the Kingdom",
+   "passage": "Romans 8:22-27",
+   "refs": [
+    {
+     "book": "romans",
+     "start": 8,
+     "end": 8
+    }
+   ],
+   "url": "https://open.spotify.com/episode/2BbtQZLwkLOvjPpzbbjFMW",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 36
+  },
+  {
+   "id": "bridgetown-1LNWd4RJkGopQ6R9eQbZOC",
+   "title": "Prophecy",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2024-05-05",
+   "series": "The Gifts of the Spirit for the work of the Kingdom",
+   "passage": "1 Corinthians 14:1-4",
+   "refs": [
+    {
+     "book": "1-corinthians",
+     "start": 14,
+     "end": 14
+    }
+   ],
+   "url": "https://open.spotify.com/episode/1LNWd4RJkGopQ6R9eQbZOC",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 51
+  },
+  {
+   "id": "bridgetown-1tbOdVdIhLkAvnAgCwdDOA",
+   "title": "Discernment",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2024-04-28",
+   "series": "The Gifts of the Spirit for the work of the Kingdom",
+   "passage": "1 Corinthians 12:1-11",
+   "refs": [
+    {
+     "book": "1-corinthians",
+     "start": 12,
+     "end": 12
+    }
+   ],
+   "url": "https://open.spotify.com/episode/1tbOdVdIhLkAvnAgCwdDOA",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 48
+  },
+  {
+   "id": "bridgetown-2s6dbM7RCtwHWpEOnmaTTm",
+   "title": "Healing",
+   "church": "bridgetown",
+   "speaker": "Christian Dawson",
+   "date": "2024-04-21",
+   "series": "The Gifts of the Spirit for the work of the Kingdom",
+   "passage": "Luke 10:1-9",
+   "refs": [
+    {
+     "book": "luke",
+     "start": 10,
+     "end": 10
+    }
+   ],
+   "url": "https://open.spotify.com/episode/2s6dbM7RCtwHWpEOnmaTTm",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 46
+  },
+  {
+   "id": "bridgetown-74U9eGaVlVHBMOm2iihiuw",
+   "title": "Witness",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2024-04-14",
+   "series": "The Gifts of the Spirit for the work of the Kingdom",
+   "passage": "Acts 1:1-11",
+   "refs": [
+    {
+     "book": "acts",
+     "start": 1,
+     "end": 1
+    }
+   ],
+   "url": "https://open.spotify.com/episode/74U9eGaVlVHBMOm2iihiuw",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 40
+  },
+  {
+   "id": "bridgetown-0wssi6QLoGOmMyza06xiHr",
+   "title": "Go, But Wait",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2024-04-07",
+   "series": "The Gifts of the Spirit for the work of the Kingdom",
+   "passage": "Acts 1:1-11",
+   "refs": [
+    {
+     "book": "acts",
+     "start": 1,
+     "end": 1
+    }
+   ],
+   "url": "https://open.spotify.com/episode/0wssi6QLoGOmMyza06xiHr",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 46
+  },
+  {
+   "id": "bridgetown-21jG6xxRJ5PbP9W0v6hOwX",
+   "title": "Love Pt. 2",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2024-04-02",
+   "series": "",
+   "passage": "Romans 8:12-17",
+   "refs": [
+    {
+     "book": "romans",
+     "start": 8,
+     "end": 8
+    }
+   ],
+   "url": "https://open.spotify.com/episode/21jG6xxRJ5PbP9W0v6hOwX",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 45
+  },
+  {
+   "id": "bridgetown-0RpRT1kfvfMPkuHMmHxWyK",
+   "title": "Growing in Supernatural Power",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2024-04-02",
+   "series": "",
+   "passage": "Acts 2:14-21",
+   "refs": [
+    {
+     "book": "acts",
+     "start": 2,
+     "end": 2
+    }
+   ],
+   "url": "https://open.spotify.com/episode/0RpRT1kfvfMPkuHMmHxWyK",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 44
+  },
+  {
+   "id": "bridgetown-4LVGl8xjVr1l2C6HA1BtFW",
+   "title": "Becoming Kingdom Ministers",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2024-04-02",
+   "series": "",
+   "passage": "Acts 2:14-21",
+   "refs": [
+    {
+     "book": "acts",
+     "start": 2,
+     "end": 2
+    }
+   ],
+   "url": "https://open.spotify.com/episode/4LVGl8xjVr1l2C6HA1BtFW",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 39
+  },
+  {
+   "id": "bridgetown-4F0Hcep5GFWK7WeZVyboNa",
+   "title": "Love Pt. 1",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2024-04-02",
+   "series": "",
+   "passage": "Ephesians 3:14-21",
+   "refs": [
+    {
+     "book": "ephesians",
+     "start": 3,
+     "end": 3
+    }
+   ],
+   "url": "https://open.spotify.com/episode/4F0Hcep5GFWK7WeZVyboNa",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 54
   },
   {
    "id": "cotcny-5c4PSuhtbWgJxVXj2XxZd1",
@@ -2671,6 +5395,106 @@
    "durationMin": 60
   },
   {
+   "id": "bridgetown-0eVUjGNAe6XTVjjSYDjtqp",
+   "title": "Easter Sunday",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2024-03-31",
+   "series": "",
+   "passage": "Mark 16:1-7",
+   "refs": [
+    {
+     "book": "mark",
+     "start": 16,
+     "end": 16
+    }
+   ],
+   "url": "https://open.spotify.com/episode/0eVUjGNAe6XTVjjSYDjtqp",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 43
+  },
+  {
+   "id": "bridgetown-6SOwcyj3UavOf91sKJRSsQ",
+   "title": "Rule of Life, Pt. 2",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2024-03-25",
+   "series": "Unforced Rhythms of Grace",
+   "passage": "John 15:1-5",
+   "refs": [
+    {
+     "book": "john",
+     "start": 15,
+     "end": 15
+    }
+   ],
+   "url": "https://open.spotify.com/episode/6SOwcyj3UavOf91sKJRSsQ",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 42
+  },
+  {
+   "id": "bridgetown-7mVZ2KuSHUMJS98zVySJfa",
+   "title": "Rule of Life, Pt.1",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2024-03-19",
+   "series": "Unforced Rhythms of Grace",
+   "passage": "Matthew 9:14-17",
+   "refs": [
+    {
+     "book": "matthew",
+     "start": 9,
+     "end": 9
+    }
+   ],
+   "url": "https://open.spotify.com/episode/7mVZ2KuSHUMJS98zVySJfa",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 59
+  },
+  {
+   "id": "bridgetown-5vEUATB2Ee3NHZ1oz2IsMz",
+   "title": "Witness",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2024-03-10",
+   "series": "Unforced Rhythms of Grace",
+   "passage": "Acts 1:8",
+   "refs": [
+    {
+     "book": "acts",
+     "start": 1,
+     "end": 1
+    }
+   ],
+   "url": "https://open.spotify.com/episode/5vEUATB2Ee3NHZ1oz2IsMz",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 43
+  },
+  {
+   "id": "bridgetown-4Pv8MJwCpKzH3LrB6vQTe6",
+   "title": "Sabbath",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2024-03-03",
+   "series": "Unforced Rhythms of Grace",
+   "passage": "Genesis 2:1-3",
+   "refs": [
+    {
+     "book": "genesis",
+     "start": 2,
+     "end": 2
+    }
+   ],
+   "url": "https://open.spotify.com/episode/4Pv8MJwCpKzH3LrB6vQTe6",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 51
+  },
+  {
    "id": "cotcny-07D4Iz2nMfAn3urADLoB3r",
    "title": "Lust",
    "church": "cotcny",
@@ -2691,6 +5515,66 @@
    "durationMin": 69
   },
   {
+   "id": "bridgetown-1Aodv20lMdK0Zctc3u5BwF",
+   "title": "Generosity",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2024-02-25",
+   "series": "Unforced Rhythms of Grace",
+   "passage": "Matthew 13:44-46",
+   "refs": [
+    {
+     "book": "matthew",
+     "start": 13,
+     "end": 13
+    }
+   ],
+   "url": "https://open.spotify.com/episode/1Aodv20lMdK0Zctc3u5BwF",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 37
+  },
+  {
+   "id": "bridgetown-1y2t2zugeDBaO26XyZtnHW",
+   "title": "Service",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2024-02-18",
+   "series": "Unforced Rhythms of Grace",
+   "passage": "Luke 10:25-37",
+   "refs": [
+    {
+     "book": "luke",
+     "start": 10,
+     "end": 10
+    }
+   ],
+   "url": "https://open.spotify.com/episode/1y2t2zugeDBaO26XyZtnHW",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 53
+  },
+  {
+   "id": "bridgetown-0UkFxy7L2QFVD87GTUEXXa",
+   "title": "Fasting",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2024-02-11",
+   "series": "Unforced Rhythms of Grace",
+   "passage": "Romans 12:1",
+   "refs": [
+    {
+     "book": "romans",
+     "start": 12,
+     "end": 12
+    }
+   ],
+   "url": "https://open.spotify.com/episode/0UkFxy7L2QFVD87GTUEXXa",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 49
+  },
+  {
    "id": "vintage-sm-0razVPtNHumMlDe91RBfZv",
    "title": "God's Mission, Our Mission",
    "church": "vintage-sm",
@@ -2707,6 +5591,46 @@
    "tags": [],
    "source": "rss",
    "durationMin": 40
+  },
+  {
+   "id": "bridgetown-7rrx5RQ6zJverelzxzllwc",
+   "title": "Community",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2024-02-04",
+   "series": "Unforced Rhythms of Grace",
+   "passage": "Mark 1:16-20",
+   "refs": [
+    {
+     "book": "mark",
+     "start": 1,
+     "end": 1
+    }
+   ],
+   "url": "https://open.spotify.com/episode/7rrx5RQ6zJverelzxzllwc",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 46
+  },
+  {
+   "id": "bridgetown-5nHbB9SBTwK84fhVfvaug4",
+   "title": "Solitude",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2024-01-29",
+   "series": "Unforced Rhythms of Grace",
+   "passage": "Psalm 131",
+   "refs": [
+    {
+     "book": "psalms",
+     "start": 131,
+     "end": 131
+    }
+   ],
+   "url": "https://open.spotify.com/episode/5nHbB9SBTwK84fhVfvaug4",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 50
   },
   {
    "id": "cotcny-01ckaKxVMQxH8XHsfAnB2J",
@@ -2765,6 +5689,66 @@
    "durationMin": 40
   },
   {
+   "id": "bridgetown-57qoB20djKdBOQxGRMkcf5",
+   "title": "Scripture",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2024-01-22",
+   "series": "Unforced Rhythms of Grace",
+   "passage": "Psalm 1:1-3",
+   "refs": [
+    {
+     "book": "psalms",
+     "start": 1,
+     "end": 1
+    }
+   ],
+   "url": "https://open.spotify.com/episode/57qoB20djKdBOQxGRMkcf5",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 65
+  },
+  {
+   "id": "bridgetown-6CIf1sDp7Yv2LXeSAzkM4d",
+   "title": "Prayer",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2024-01-15",
+   "series": "Unforced Rhythms of Grace",
+   "passage": "Hebrews 5:7",
+   "refs": [
+    {
+     "book": "hebrews",
+     "start": 5,
+     "end": 5
+    }
+   ],
+   "url": "https://open.spotify.com/episode/6CIf1sDp7Yv2LXeSAzkM4d",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 41
+  },
+  {
+   "id": "bridgetown-0G8hi9LEQkOYaClr9O9niB",
+   "title": "9 Core Practices For A Rule of Life",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2024-01-08",
+   "series": "Unforced Rhythms of Grace",
+   "passage": "Matthew 11:28-30",
+   "refs": [
+    {
+     "book": "matthew",
+     "start": 11,
+     "end": 11
+    }
+   ],
+   "url": "https://open.spotify.com/episode/0G8hi9LEQkOYaClr9O9niB",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 50
+  },
+  {
    "id": "vintage-sm-2905QcdV3N5Ci7IhSxlinu",
    "title": "An Introduction",
    "church": "vintage-sm",
@@ -2781,6 +5765,46 @@
    "tags": [],
    "source": "rss",
    "durationMin": 39
+  },
+  {
+   "id": "bridgetown-5A0G6UT52e1UWkrsE2ISGu",
+   "title": "The Surprise of Silence",
+   "church": "bridgetown",
+   "speaker": "Gerald Griffin",
+   "date": "2024-01-01",
+   "series": "",
+   "passage": "2 Corinthians 3:7-18",
+   "refs": [
+    {
+     "book": "2-corinthians",
+     "start": 3,
+     "end": 3
+    }
+   ],
+   "url": "https://open.spotify.com/episode/5A0G6UT52e1UWkrsE2ISGu",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 43
+  },
+  {
+   "id": "bridgetown-7tNinGgy6mdoV4UIFkKsVt",
+   "title": "Christmas Eve",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2023-12-30",
+   "series": "",
+   "passage": "Luke 2:4-7",
+   "refs": [
+    {
+     "book": "luke",
+     "start": 2,
+     "end": 2
+    }
+   ],
+   "url": "https://open.spotify.com/episode/7tNinGgy6mdoV4UIFkKsVt",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 31
   },
   {
    "id": "vintage-sm-47ZiWaNCfsGn6fijEv7F3w",
@@ -2819,6 +5843,46 @@
    "durationMin": 36
   },
   {
+   "id": "bridgetown-5NWaIUGSseA0C2JVOArKz0",
+   "title": "Waiting Well",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2023-12-17",
+   "series": "",
+   "passage": "Luke 2:25-32",
+   "refs": [
+    {
+     "book": "luke",
+     "start": 2,
+     "end": 2
+    }
+   ],
+   "url": "https://open.spotify.com/episode/5NWaIUGSseA0C2JVOArKz0",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 44
+  },
+  {
+   "id": "bridgetown-3rSkscl8Xb76P3zZOyzcmz",
+   "title": "Waiting, The Unseen Threshold and Witness to Hope",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2023-12-11",
+   "series": "",
+   "passage": "Luke 2:36-38",
+   "refs": [
+    {
+     "book": "luke",
+     "start": 2,
+     "end": 2
+    }
+   ],
+   "url": "https://open.spotify.com/episode/3rSkscl8Xb76P3zZOyzcmz",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 43
+  },
+  {
    "id": "cotcny-4HrM5s89VLZg4XHclHgxVe",
    "title": "Zechariah's Song",
    "church": "cotcny",
@@ -2837,6 +5901,26 @@
    "tags": [],
    "source": "rss",
    "durationMin": 49
+  },
+  {
+   "id": "bridgetown-6rToFQ3m49VGM1Lr5xebhc",
+   "title": "Shepherds & Magi",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2023-12-05",
+   "series": "",
+   "passage": "Luke 2:1-20",
+   "refs": [
+    {
+     "book": "luke",
+     "start": 2,
+     "end": 2
+    }
+   ],
+   "url": "https://open.spotify.com/episode/6rToFQ3m49VGM1Lr5xebhc",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 53
   },
   {
    "id": "cotcny-5ehJhOvLsosUQyap2a82pf",
@@ -2859,6 +5943,26 @@
    "durationMin": 40
   },
   {
+   "id": "bridgetown-6HNXFlcO4KOuZ6W3aB41BS",
+   "title": "Community As Reconciliation in Class, Culture, and Ethnicity",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2023-11-28",
+   "series": "",
+   "passage": "Joshua 5:8-9",
+   "refs": [
+    {
+     "book": "joshua",
+     "start": 5,
+     "end": 5
+    }
+   ],
+   "url": "https://open.spotify.com/episode/6HNXFlcO4KOuZ6W3aB41BS",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 46
+  },
+  {
    "id": "vintage-sm-0hdzPrmeNH7z2CQ4dt8jkF",
    "title": "Pt. 2 - Who is Jesus?",
    "church": "vintage-sm",
@@ -2877,6 +5981,26 @@
    "durationMin": 53
   },
   {
+   "id": "bridgetown-6tBq7pk0c2bu2gFwCbgZsG",
+   "title": "Community As Reconciliation",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2023-11-20",
+   "series": "",
+   "passage": "Matthew 18:15-22",
+   "refs": [
+    {
+     "book": "matthew",
+     "start": 18,
+     "end": 18
+    }
+   ],
+   "url": "https://open.spotify.com/episode/6tBq7pk0c2bu2gFwCbgZsG",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 60
+  },
+  {
    "id": "vintage-sm-1B1ZAJDOeAjD9RlzNhtEOz",
    "title": "Pt. I - Resilience",
    "church": "vintage-sm",
@@ -2893,6 +6017,206 @@
    "tags": [],
    "source": "rss",
    "durationMin": 49
+  },
+  {
+   "id": "bridgetown-1KsR5EKxDQpsYt7nC7XNTn",
+   "title": "Community As Wonder",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2023-11-13",
+   "series": "",
+   "passage": "John 1:43-46",
+   "refs": [
+    {
+     "book": "john",
+     "start": 1,
+     "end": 1
+    }
+   ],
+   "url": "https://open.spotify.com/episode/1KsR5EKxDQpsYt7nC7XNTn",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 51
+  },
+  {
+   "id": "bridgetown-0NZOdTBWBVLJiQBJ1SEL5A",
+   "title": "Community As Home",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2023-11-07",
+   "series": "",
+   "passage": "Acts 5:42",
+   "refs": [
+    {
+     "book": "acts",
+     "start": 5,
+     "end": 5
+    }
+   ],
+   "url": "https://open.spotify.com/episode/0NZOdTBWBVLJiQBJ1SEL5A",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 42
+  },
+  {
+   "id": "bridgetown-33cog5uqDV2CPq2XlYxWVr",
+   "title": "Community As Friendship",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2023-10-30",
+   "series": "",
+   "passage": "John 15:12-17",
+   "refs": [
+    {
+     "book": "john",
+     "start": 15,
+     "end": 15
+    }
+   ],
+   "url": "https://open.spotify.com/episode/33cog5uqDV2CPq2XlYxWVr",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 50
+  },
+  {
+   "id": "bridgetown-03CJvZvPWAH5OCneRfbUm3",
+   "title": "Community: Church",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2023-10-23",
+   "series": "",
+   "passage": "Matthew 16:13-20",
+   "refs": [
+    {
+     "book": "matthew",
+     "start": 16,
+     "end": 16
+    }
+   ],
+   "url": "https://open.spotify.com/episode/03CJvZvPWAH5OCneRfbUm3",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 51
+  },
+  {
+   "id": "bridgetown-6i2T5m8XQqHjsupqDHZC2o",
+   "title": "Community: Witness",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2023-10-16",
+   "series": "",
+   "passage": "Luke 8:26-38",
+   "refs": [
+    {
+     "book": "luke",
+     "start": 8,
+     "end": 8
+    }
+   ],
+   "url": "https://open.spotify.com/episode/6i2T5m8XQqHjsupqDHZC2o",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 53
+  },
+  {
+   "id": "bridgetown-1NFncevZluzxLkEdiyBTNN",
+   "title": "Community As Formation",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2023-10-09",
+   "series": "",
+   "passage": "John 15:1-12",
+   "refs": [
+    {
+     "book": "john",
+     "start": 15,
+     "end": 15
+    }
+   ],
+   "url": "https://open.spotify.com/episode/1NFncevZluzxLkEdiyBTNN",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 54
+  },
+  {
+   "id": "bridgetown-4llQsJnocxAKHJUnDiFUPg",
+   "title": "Community As A Gift",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2023-10-04",
+   "series": "",
+   "passage": "Mark 10:28-31",
+   "refs": [
+    {
+     "book": "mark",
+     "start": 10,
+     "end": 10
+    }
+   ],
+   "url": "https://open.spotify.com/episode/4llQsJnocxAKHJUnDiFUPg",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 45
+  },
+  {
+   "id": "bridgetown-4AP9qc64OdEJD3axMcngwI",
+   "title": "The New Family of Jesus",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2023-09-26",
+   "series": "",
+   "passage": "Matthew 12:46-50",
+   "refs": [
+    {
+     "book": "matthew",
+     "start": 12,
+     "end": 12
+    }
+   ],
+   "url": "https://open.spotify.com/episode/4AP9qc64OdEJD3axMcngwI",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 50
+  },
+  {
+   "id": "bridgetown-3qc4QV1xUkmbNC98tzjBB2",
+   "title": "Together in Portland",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2023-09-17",
+   "series": "",
+   "passage": "Luke 6:12-16",
+   "refs": [
+    {
+     "book": "luke",
+     "start": 6,
+     "end": 6
+    }
+   ],
+   "url": "https://open.spotify.com/episode/3qc4QV1xUkmbNC98tzjBB2",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 48
+  },
+  {
+   "id": "bridgetown-23v9p6GzQbK2Trkgy9elEV",
+   "title": "Practicing the Way of Jesus",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2023-09-10",
+   "series": "",
+   "passage": "Mark 8:34-35",
+   "refs": [
+    {
+     "book": "mark",
+     "start": 8,
+     "end": 8
+    }
+   ],
+   "url": "https://open.spotify.com/episode/23v9p6GzQbK2Trkgy9elEV",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 53
   },
   {
    "id": "cotcny-6mbVgY1iStuBK8kAhKBe5e",
@@ -2915,6 +6239,46 @@
    "durationMin": 49
   },
   {
+   "id": "bridgetown-71xZm1U8ngQLVaAlfTcnnV",
+   "title": "Unveiled Faces",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2023-09-03",
+   "series": "",
+   "passage": "Exodus 34:29-35",
+   "refs": [
+    {
+     "book": "exodus",
+     "start": 34,
+     "end": 34
+    }
+   ],
+   "url": "https://open.spotify.com/episode/71xZm1U8ngQLVaAlfTcnnV",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 47
+  },
+  {
+   "id": "bridgetown-2PbrTpycoB1H5FUWXKJ0Ka",
+   "title": "God Dwells Among Us",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2023-08-27",
+   "series": "",
+   "passage": "Exodus 25:1-9",
+   "refs": [
+    {
+     "book": "exodus",
+     "start": 25,
+     "end": 25
+    }
+   ],
+   "url": "https://open.spotify.com/episode/2PbrTpycoB1H5FUWXKJ0Ka",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 50
+  },
+  {
    "id": "cotcny-2nbGSP35ab45ELLOeEZF5x",
    "title": "Sexual Formation in the Way of Jesus",
    "church": "cotcny",
@@ -2935,6 +6299,106 @@
    "durationMin": 73
   },
   {
+   "id": "bridgetown-1xalbVkD5TXPBEAcdC49Ul",
+   "title": "In My Name",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2023-08-20",
+   "series": "",
+   "passage": "Exodus 34:6-7",
+   "refs": [
+    {
+     "book": "exodus",
+     "start": 34,
+     "end": 34
+    }
+   ],
+   "url": "https://open.spotify.com/episode/1xalbVkD5TXPBEAcdC49Ul",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 41
+  },
+  {
+   "id": "bridgetown-5GmIU4xNKJqzXWeM01xNxS",
+   "title": "The Pain of Idols & The Power of Intercession",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2023-08-13",
+   "series": "",
+   "passage": "Exodus 33:12-33",
+   "refs": [
+    {
+     "book": "exodus",
+     "start": 33,
+     "end": 33
+    }
+   ],
+   "url": "https://open.spotify.com/episode/5GmIU4xNKJqzXWeM01xNxS",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 45
+  },
+  {
+   "id": "bridgetown-4Q8595XTvWh4a9PPTFAa8F",
+   "title": "A Kingdom of Priests",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2023-08-06",
+   "series": "",
+   "passage": "Exodus 28:1-12",
+   "refs": [
+    {
+     "book": "exodus",
+     "start": 28,
+     "end": 28
+    }
+   ],
+   "url": "https://open.spotify.com/episode/4Q8595XTvWh4a9PPTFAa8F",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 46
+  },
+  {
+   "id": "bridgetown-6osGgqwDvu3HwxVZ5b51n1",
+   "title": "Getting the Slavery out of Israel",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2023-07-30",
+   "series": "",
+   "passage": "Exodus 19:3-7",
+   "refs": [
+    {
+     "book": "exodus",
+     "start": 19,
+     "end": 19
+    }
+   ],
+   "url": "https://open.spotify.com/episode/6osGgqwDvu3HwxVZ5b51n1",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 42
+  },
+  {
+   "id": "bridgetown-6Zaqh8C3z8yOHuenWgwwIc",
+   "title": "Bread in the Wilderness",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2023-07-23",
+   "series": "",
+   "passage": "Exodus 16:2-5",
+   "refs": [
+    {
+     "book": "exodus",
+     "start": 16,
+     "end": 16
+    }
+   ],
+   "url": "https://open.spotify.com/episode/6Zaqh8C3z8yOHuenWgwwIc",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 55
+  },
+  {
    "id": "cotcny-3wVe0eir8mbiz0GGls4Jum",
    "title": "Restoring Leadership Credibility to a Scandalized Church",
    "church": "cotcny",
@@ -2953,6 +6417,86 @@
    "tags": [],
    "source": "rss",
    "durationMin": 62
+  },
+  {
+   "id": "bridgetown-3GBORLedmJzVzUpuWEXTyC",
+   "title": "Red Sea Salvation",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2023-07-16",
+   "series": "",
+   "passage": "Exodus 13:17-18",
+   "refs": [
+    {
+     "book": "exodus",
+     "start": 13,
+     "end": 13
+    }
+   ],
+   "url": "https://open.spotify.com/episode/3GBORLedmJzVzUpuWEXTyC",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 51
+  },
+  {
+   "id": "bridgetown-3mqwzjjBHQ1zUitzZHplVV",
+   "title": "The Forsaken God",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2023-07-09",
+   "series": "",
+   "passage": "Exodus 11:1-10",
+   "refs": [
+    {
+     "book": "exodus",
+     "start": 11,
+     "end": 11
+    }
+   ],
+   "url": "https://open.spotify.com/episode/3mqwzjjBHQ1zUitzZHplVV",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 60
+  },
+  {
+   "id": "bridgetown-6Wi4713VEs9kyHrFtD4NiF",
+   "title": "The Plagues & Pharaoh’s Hard Heart",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2023-07-02",
+   "series": "",
+   "passage": "Exodus 3:16-20",
+   "refs": [
+    {
+     "book": "exodus",
+     "start": 3,
+     "end": 3
+    }
+   ],
+   "url": "https://open.spotify.com/episode/6Wi4713VEs9kyHrFtD4NiF",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 50
+  },
+  {
+   "id": "bridgetown-44ObaOtQOtmzgK94Wng6U6",
+   "title": "The Wounded Healer",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2023-06-25",
+   "series": "",
+   "passage": "Exodus 3:1-15",
+   "refs": [
+    {
+     "book": "exodus",
+     "start": 3,
+     "end": 3
+    }
+   ],
+   "url": "https://open.spotify.com/episode/44ObaOtQOtmzgK94Wng6U6",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 49
   },
   {
    "id": "vintage-sm-5EdB3jop5kLsMl8u4vEQRj",
@@ -2995,6 +6539,26 @@
    "durationMin": 42
   },
   {
+   "id": "bridgetown-3JdoRIKb1LuA8fOqtx3MBa",
+   "title": "The Villain & The Deliverer",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2023-06-18",
+   "series": "",
+   "passage": "Exodus 1:8-14",
+   "refs": [
+    {
+     "book": "exodus",
+     "start": 1,
+     "end": 1
+    }
+   ],
+   "url": "https://open.spotify.com/episode/3JdoRIKb1LuA8fOqtx3MBa",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 42
+  },
+  {
    "id": "cotcny-6YodPF61bMjmKYj80y3UpP",
    "title": "Compassion Sunday",
    "church": "cotcny",
@@ -3013,6 +6577,26 @@
    "tags": [],
    "source": "rss",
    "durationMin": 59
+  },
+  {
+   "id": "bridgetown-0mexiJ0kZu0FqExywhK0eQ",
+   "title": "Exodus: An Introduction",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2023-06-11",
+   "series": "",
+   "passage": "Exodus 1:1-8",
+   "refs": [
+    {
+     "book": "exodus",
+     "start": 1,
+     "end": 1
+    }
+   ],
+   "url": "https://open.spotify.com/episode/0mexiJ0kZu0FqExywhK0eQ",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 49
   },
   {
    "id": "cotcny-5uZuXP5VceZWYbwuiYATll",
@@ -3035,6 +6619,26 @@
    "durationMin": 47
   },
   {
+   "id": "bridgetown-3wdN3rkAIVqrIh8a5ync1p",
+   "title": "The Gospel and The Dividing Wall of Hostility",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2023-06-04",
+   "series": "",
+   "passage": "Ephesians 2:14-16",
+   "refs": [
+    {
+     "book": "ephesians",
+     "start": 2,
+     "end": 2
+    }
+   ],
+   "url": "https://open.spotify.com/episode/3wdN3rkAIVqrIh8a5ync1p",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 38
+  },
+  {
    "id": "vintage-sm-6yHiTIdc65yBvi7dXS7EtM",
    "title": "Embracing Your Calling",
    "church": "vintage-sm",
@@ -3053,6 +6657,246 @@
    "tags": [],
    "source": "rss",
    "durationMin": 40
+  },
+  {
+   "id": "bridgetown-1c4t2I1kBNiupl9t0n1G2J",
+   "title": "The Spirit Speaks through Creation",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2023-05-28",
+   "series": "",
+   "passage": "Psalm 19:1-6",
+   "refs": [
+    {
+     "book": "psalms",
+     "start": 19,
+     "end": 19
+    }
+   ],
+   "url": "https://open.spotify.com/episode/1c4t2I1kBNiupl9t0n1G2J",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 47
+  },
+  {
+   "id": "bridgetown-56Vb8nkOqxWAIQ5JhYFl8u",
+   "title": "Finding Yourself in the Story",
+   "church": "bridgetown",
+   "speaker": "Tyler Staton and Pete Hughes",
+   "date": "2023-05-25",
+   "series": "",
+   "passage": "Acts 9:31",
+   "refs": [
+    {
+     "book": "acts",
+     "start": 9,
+     "end": 9
+    }
+   ],
+   "url": "https://open.spotify.com/episode/56Vb8nkOqxWAIQ5JhYFl8u",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 49
+  },
+  {
+   "id": "bridgetown-0QpfgUknCroYvdF75WNXOC",
+   "title": "The Spirit Speaks to the Soul, Pt. 2",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2023-05-21",
+   "series": "",
+   "passage": "1 Kings 19:1-13",
+   "refs": [
+    {
+     "book": "1-kings",
+     "start": 19,
+     "end": 19
+    }
+   ],
+   "url": "https://open.spotify.com/episode/0QpfgUknCroYvdF75WNXOC",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 49
+  },
+  {
+   "id": "bridgetown-5Cbznhyqmnoahd6p3hk6HK",
+   "title": "The Spirit Speaks to the Soul, Pt. 1",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2023-05-14",
+   "series": "",
+   "passage": "Luke 24:13-35",
+   "refs": [
+    {
+     "book": "luke",
+     "start": 24,
+     "end": 24
+    }
+   ],
+   "url": "https://open.spotify.com/episode/5Cbznhyqmnoahd6p3hk6HK",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 52
+  },
+  {
+   "id": "bridgetown-3tvbijoQ9e3HVbW5Um77XV",
+   "title": "The Spirit Speaks through Prophecy",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2023-05-07",
+   "series": "",
+   "passage": "1 Corinthians 14:1-4",
+   "refs": [
+    {
+     "book": "1-corinthians",
+     "start": 14,
+     "end": 14
+    }
+   ],
+   "url": "https://open.spotify.com/episode/3tvbijoQ9e3HVbW5Um77XV",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 53
+  },
+  {
+   "id": "bridgetown-2AGBvHl1oqqY2ZuCMJigWe",
+   "title": "The Spirit Speaks through the Written Word, Pt. 2",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2023-04-30",
+   "series": "",
+   "passage": "Psalm 119:103-112",
+   "refs": [
+    {
+     "book": "psalms",
+     "start": 119,
+     "end": 119
+    }
+   ],
+   "url": "https://open.spotify.com/episode/2AGBvHl1oqqY2ZuCMJigWe",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 53
+  },
+  {
+   "id": "bridgetown-2iZt1qC8qi2diNXFcIXMmm",
+   "title": "The Spirit Speaks through the Written Word, Pt. 1",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2023-04-23",
+   "series": "",
+   "passage": "2 Timothy 3:16-17",
+   "refs": [
+    {
+     "book": "2-timothy",
+     "start": 3,
+     "end": 3
+    }
+   ],
+   "url": "https://open.spotify.com/episode/2iZt1qC8qi2diNXFcIXMmm",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 48
+  },
+  {
+   "id": "bridgetown-20EzF21qlEfzG6aJr1WKoL",
+   "title": "The Living Word",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2023-04-16",
+   "series": "",
+   "passage": "John 1:1-4",
+   "refs": [
+    {
+     "book": "john",
+     "start": 1,
+     "end": 1
+    }
+   ],
+   "url": "https://open.spotify.com/episode/20EzF21qlEfzG6aJr1WKoL",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 38
+  },
+  {
+   "id": "bridgetown-4bXiZNapCpQ2YjcnNCUSrr",
+   "title": "Easter Sunday",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2023-04-09",
+   "series": "",
+   "passage": "Matthew 28:1-10",
+   "refs": [
+    {
+     "book": "matthew",
+     "start": 28,
+     "end": 28
+    }
+   ],
+   "url": "https://open.spotify.com/episode/4bXiZNapCpQ2YjcnNCUSrr",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 43
+  },
+  {
+   "id": "bridgetown-6NNmVastTKMwKQEBm1kCDn",
+   "title": "The Body as a Living Sacrifice",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2023-04-02",
+   "series": "",
+   "passage": "Revelation 19:6-7",
+   "refs": [
+    {
+     "book": "revelation",
+     "start": 19,
+     "end": 19
+    }
+   ],
+   "url": "https://open.spotify.com/episode/6NNmVastTKMwKQEBm1kCDn",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 56
+  },
+  {
+   "id": "bridgetown-3Nfdv6BrIdDGYuXGboFVKp",
+   "title": "Theology of the Body",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2023-03-26",
+   "series": "",
+   "passage": "Revelation 19:6-7",
+   "refs": [
+    {
+     "book": "revelation",
+     "start": 19,
+     "end": 19
+    }
+   ],
+   "url": "https://open.spotify.com/episode/3Nfdv6BrIdDGYuXGboFVKp",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 48
+  },
+  {
+   "id": "bridgetown-5i8BzDVeSEfn8hEMCydtD1",
+   "title": "Renewal of the Mind",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2023-03-19",
+   "series": "",
+   "passage": "Romans 12:1-2",
+   "refs": [
+    {
+     "book": "romans",
+     "start": 12,
+     "end": 12
+    }
+   ],
+   "url": "https://open.spotify.com/episode/5i8BzDVeSEfn8hEMCydtD1",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 56
   },
   {
    "id": "cotcny-5aKcOPtd7rqylcWxrdKjC6",
@@ -3075,6 +6919,26 @@
    "durationMin": 48
   },
   {
+   "id": "bridgetown-5LzvrcpgLiL7WY3EVXBkVj",
+   "title": "A Sound Mind",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2023-03-12",
+   "series": "",
+   "passage": "Romans 12:1-2",
+   "refs": [
+    {
+     "book": "romans",
+     "start": 12,
+     "end": 12
+    }
+   ],
+   "url": "https://open.spotify.com/episode/5LzvrcpgLiL7WY3EVXBkVj",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 58
+  },
+  {
    "id": "cotcny-5MqLcsivFxROODJpmygPOy",
    "title": "Asking for a Friend",
    "church": "cotcny",
@@ -3093,6 +6957,86 @@
    "tags": [],
    "source": "rss",
    "durationMin": 47
+  },
+  {
+   "id": "bridgetown-2QdFo3E1dG1ACLlxJYFHK0",
+   "title": "Shame",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2023-03-05",
+   "series": "",
+   "passage": "Luke 7:36-50",
+   "refs": [
+    {
+     "book": "luke",
+     "start": 7,
+     "end": 7
+    }
+   ],
+   "url": "https://open.spotify.com/episode/2QdFo3E1dG1ACLlxJYFHK0",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 47
+  },
+  {
+   "id": "bridgetown-4KUiXwvn2fWOWOchGd8S8P",
+   "title": "Desire",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2023-02-26",
+   "series": "",
+   "passage": "John 9",
+   "refs": [
+    {
+     "book": "john",
+     "start": 9,
+     "end": 9
+    }
+   ],
+   "url": "https://open.spotify.com/episode/4KUiXwvn2fWOWOchGd8S8P",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 55
+  },
+  {
+   "id": "bridgetown-2Kaq8lOV1QPMLvTIaXNhQI",
+   "title": "I Am the Vine",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2023-02-19",
+   "series": "",
+   "passage": "John 15:1-2",
+   "refs": [
+    {
+     "book": "john",
+     "start": 15,
+     "end": 15
+    }
+   ],
+   "url": "https://open.spotify.com/episode/2Kaq8lOV1QPMLvTIaXNhQI",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 40
+  },
+  {
+   "id": "bridgetown-5q0l4OPx4L0Hl0mGcTo3Gu",
+   "title": "I Am the Way, the Truth, and the Life",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2023-02-12",
+   "series": "",
+   "passage": "John 14:6",
+   "refs": [
+    {
+     "book": "john",
+     "start": 14,
+     "end": 14
+    }
+   ],
+   "url": "https://open.spotify.com/episode/5q0l4OPx4L0Hl0mGcTo3Gu",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 36
   },
   {
    "id": "cotcny-6Rbo6VMpRAYdgrOyEupEhX",
@@ -3115,6 +7059,26 @@
    "durationMin": 63
   },
   {
+   "id": "bridgetown-2XAk9D2I8oObKKym1HnPeO",
+   "title": "I Am the Resurrection and the Life",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2023-02-05",
+   "series": "",
+   "passage": "John 11:25-26",
+   "refs": [
+    {
+     "book": "john",
+     "start": 11,
+     "end": 11
+    }
+   ],
+   "url": "https://open.spotify.com/episode/2XAk9D2I8oObKKym1HnPeO",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 50
+  },
+  {
    "id": "vintage-sm-5IFV5HZ0x9uRqXqAqeADc8",
    "title": "Hope in Disappointment",
    "church": "vintage-sm",
@@ -3131,6 +7095,26 @@
    "tags": [],
    "source": "rss",
    "durationMin": 41
+  },
+  {
+   "id": "bridgetown-6xr5b18WRQHDaspqgVYT1E",
+   "title": "I Am the Good Shepherd",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2023-01-29",
+   "series": "",
+   "passage": "John 10:11",
+   "refs": [
+    {
+     "book": "john",
+     "start": 10,
+     "end": 10
+    }
+   ],
+   "url": "https://open.spotify.com/episode/6xr5b18WRQHDaspqgVYT1E",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 45
   },
   {
    "id": "vintage-sm-0TCBxy8BBNDju0vviNDIlo",
@@ -3151,6 +7135,26 @@
    "durationMin": 41
   },
   {
+   "id": "bridgetown-2YcnINBv7EIMTkweZNdobc",
+   "title": "I Am the Gate",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2023-01-22",
+   "series": "",
+   "passage": "John 10:9",
+   "refs": [
+    {
+     "book": "john",
+     "start": 10,
+     "end": 10
+    }
+   ],
+   "url": "https://open.spotify.com/episode/2YcnINBv7EIMTkweZNdobc",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 47
+  },
+  {
    "id": "vintage-sm-46sIp5QuXhBSedxX9eOSNf",
    "title": "Turning to God in Disappointment",
    "church": "vintage-sm",
@@ -3167,6 +7171,106 @@
    "tags": [],
    "source": "rss",
    "durationMin": 44
+  },
+  {
+   "id": "bridgetown-0fCD5DK6aFMBYJAcAUicnX",
+   "title": "I Am the Light of the World",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2023-01-15",
+   "series": "",
+   "passage": "John 8:12",
+   "refs": [
+    {
+     "book": "john",
+     "start": 8,
+     "end": 8
+    }
+   ],
+   "url": "https://open.spotify.com/episode/0fCD5DK6aFMBYJAcAUicnX",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 39
+  },
+  {
+   "id": "bridgetown-3HIqo8u9gFUrhZVZqCmx0T",
+   "title": "I Am the Bread of Life",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2023-01-08",
+   "series": "",
+   "passage": "John 6:35",
+   "refs": [
+    {
+     "book": "john",
+     "start": 6,
+     "end": 6
+    }
+   ],
+   "url": "https://open.spotify.com/episode/3HIqo8u9gFUrhZVZqCmx0T",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 44
+  },
+  {
+   "id": "bridgetown-6Z6MSxsMNzpL2JqGdmRFMw",
+   "title": "Moses Meets YHWH",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2023-01-01",
+   "series": "",
+   "passage": "Exodus 3:13-14",
+   "refs": [
+    {
+     "book": "exodus",
+     "start": 3,
+     "end": 3
+    }
+   ],
+   "url": "https://open.spotify.com/episode/6Z6MSxsMNzpL2JqGdmRFMw",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 42
+  },
+  {
+   "id": "bridgetown-1TA7366ivee6FC6WhgaVxQ",
+   "title": "Christmas Eve",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2022-12-24",
+   "series": "",
+   "passage": "Luke 2:1-20",
+   "refs": [
+    {
+     "book": "luke",
+     "start": 2,
+     "end": 2
+    }
+   ],
+   "url": "https://open.spotify.com/episode/1TA7366ivee6FC6WhgaVxQ",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 25
+  },
+  {
+   "id": "bridgetown-5dbi8QyeaAT9mhJsdnRAEe",
+   "title": "Understand With Their Hearts",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2022-12-18",
+   "series": "",
+   "passage": "Matthew 13:14-17",
+   "refs": [
+    {
+     "book": "matthew",
+     "start": 13,
+     "end": 13
+    }
+   ],
+   "url": "https://open.spotify.com/episode/5dbi8QyeaAT9mhJsdnRAEe",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 47
   },
   {
    "id": "cotcny-6Mmqq7pS36XSuajFJbh8W1",
@@ -3189,6 +7293,26 @@
    "durationMin": 46
   },
   {
+   "id": "bridgetown-1DOdg3aACNzhGqqFFIPddU",
+   "title": "Generosity",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2022-12-11",
+   "series": "",
+   "passage": "Luke 3:7-14",
+   "refs": [
+    {
+     "book": "luke",
+     "start": 3,
+     "end": 3
+    }
+   ],
+   "url": "https://open.spotify.com/episode/1DOdg3aACNzhGqqFFIPddU",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 50
+  },
+  {
    "id": "cotcny-0vpMaeI7ijsj6CrGcg5Lv1",
    "title": "There is a Darkness",
    "church": "cotcny",
@@ -3207,6 +7331,26 @@
    "tags": [],
    "source": "rss",
    "durationMin": 43
+  },
+  {
+   "id": "bridgetown-6WwWX3tSjTMMBBoUi6WNgE",
+   "title": "Simplicity",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2022-12-04",
+   "series": "",
+   "passage": "Luke 3:7-14",
+   "refs": [
+    {
+     "book": "luke",
+     "start": 3,
+     "end": 3
+    }
+   ],
+   "url": "https://open.spotify.com/episode/6WwWX3tSjTMMBBoUi6WNgE",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 49
   },
   {
    "id": "cotcny-0nrLQZRdMFLVzwa6iJSfDV",
@@ -3229,6 +7373,26 @@
    "durationMin": 43
   },
   {
+   "id": "bridgetown-6k6KJwZCOTS24okrUgqY1E",
+   "title": "Landing in Disguise",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2022-11-27",
+   "series": "",
+   "passage": "John 1:6-12",
+   "refs": [
+    {
+     "book": "john",
+     "start": 1,
+     "end": 1
+    }
+   ],
+   "url": "https://open.spotify.com/episode/6k6KJwZCOTS24okrUgqY1E",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 33
+  },
+  {
    "id": "vintage-sm-58G0AlTS01WITJFkFn6sWQ",
    "title": "Invitation to Life",
    "church": "vintage-sm",
@@ -3247,6 +7411,46 @@
    "durationMin": 41
   },
   {
+   "id": "bridgetown-5IgbW1nrWDchzRHec36tVz",
+   "title": "Kinship",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2022-11-20",
+   "series": "",
+   "passage": "Luke 16:19-31",
+   "refs": [
+    {
+     "book": "luke",
+     "start": 16,
+     "end": 16
+    }
+   ],
+   "url": "https://open.spotify.com/episode/5IgbW1nrWDchzRHec36tVz",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 55
+  },
+  {
+   "id": "bridgetown-62eLIXrjQBuERHmq70OCIH",
+   "title": "Biblical Reconciliation",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2022-11-13",
+   "series": "",
+   "passage": "Ephesians 2:11-22",
+   "refs": [
+    {
+     "book": "ephesians",
+     "start": 2,
+     "end": 2
+    }
+   ],
+   "url": "https://open.spotify.com/episode/62eLIXrjQBuERHmq70OCIH",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 56
+  },
+  {
    "id": "vintage-sm-5ojSA5MPSzEpa21Wix3kiW",
    "title": "The Invitations of an Unexpected Meal",
    "church": "vintage-sm",
@@ -3263,6 +7467,46 @@
    "tags": [],
    "source": "rss",
    "durationMin": 37
+  },
+  {
+   "id": "bridgetown-3KuFCyr8Ofj2kuQixMiZLc",
+   "title": "The Imperative of Proximity",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2022-11-06",
+   "series": "",
+   "passage": "Luke 4:16-21",
+   "refs": [
+    {
+     "book": "luke",
+     "start": 4,
+     "end": 4
+    }
+   ],
+   "url": "https://open.spotify.com/episode/3KuFCyr8Ofj2kuQixMiZLc",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 50
+  },
+  {
+   "id": "bridgetown-6Ablq0hsCfN1T5D2jMpeT0",
+   "title": "Justice is a Person",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2022-10-30",
+   "series": "",
+   "passage": "Isaiah 9:1-7",
+   "refs": [
+    {
+     "book": "isaiah",
+     "start": 9,
+     "end": 9
+    }
+   ],
+   "url": "https://open.spotify.com/episode/6Ablq0hsCfN1T5D2jMpeT0",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 46
   },
   {
    "id": "vintage-sm-73pBft2qKnaoIR4Vf27obZ",
@@ -3301,6 +7545,26 @@
    "durationMin": 43
   },
   {
+   "id": "bridgetown-6D8S8tN2cgV5szjs7lkbqn",
+   "title": "Becoming Our Prayers",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2022-10-23",
+   "series": "",
+   "passage": "Mark 11:1-21",
+   "refs": [
+    {
+     "book": "mark",
+     "start": 11,
+     "end": 11
+    }
+   ],
+   "url": "https://open.spotify.com/episode/6D8S8tN2cgV5szjs7lkbqn",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 54
+  },
+  {
    "id": "vintage-sm-3ioHpS2zjGTe80k1NFMQ06",
    "title": "How the Church Matures",
    "church": "vintage-sm",
@@ -3317,6 +7581,246 @@
    "tags": [],
    "source": "rss",
    "durationMin": 40
+  },
+  {
+   "id": "bridgetown-16ltmHkbxhOrQYUOsGGKXY",
+   "title": "Evening: Pray Gratitude",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2022-10-16",
+   "series": "",
+   "passage": "1 Kings 19:9-15",
+   "refs": [
+    {
+     "book": "1-kings",
+     "start": 19,
+     "end": 19
+    }
+   ],
+   "url": "https://open.spotify.com/episode/16ltmHkbxhOrQYUOsGGKXY",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 45
+  },
+  {
+   "id": "bridgetown-4jRdZNb6R8qojxdlA7sGEr",
+   "title": "Morning: Pray the Lord’s Prayer",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2022-10-09",
+   "series": "",
+   "passage": "Luke 11:1-4",
+   "refs": [
+    {
+     "book": "luke",
+     "start": 11,
+     "end": 11
+    }
+   ],
+   "url": "https://open.spotify.com/episode/4jRdZNb6R8qojxdlA7sGEr",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 49
+  },
+  {
+   "id": "bridgetown-6FLdzhrXuKZgJ7dKpjvfsX",
+   "title": "Midday: Pray for the Lost",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2022-10-02",
+   "series": "",
+   "passage": "1 Kings 18:41-45",
+   "refs": [
+    {
+     "book": "1-kings",
+     "start": 18,
+     "end": 18
+    }
+   ],
+   "url": "https://open.spotify.com/episode/6FLdzhrXuKZgJ7dKpjvfsX",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 41
+  },
+  {
+   "id": "bridgetown-3Va3ByI8dRuyPhr8GDpp4C",
+   "title": "Unceasing Prayer",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2022-09-25",
+   "series": "",
+   "passage": "John 8:2-11",
+   "refs": [
+    {
+     "book": "john",
+     "start": 8,
+     "end": 8
+    }
+   ],
+   "url": "https://open.spotify.com/episode/3Va3ByI8dRuyPhr8GDpp4C",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 53
+  },
+  {
+   "id": "bridgetown-5T67TkArXlsutUnTKNo3Aw",
+   "title": "Raise Up the Tabernacle of David",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2022-09-18",
+   "series": "",
+   "passage": "Amos 9:11-12",
+   "refs": [
+    {
+     "book": "amos",
+     "start": 9,
+     "end": 9
+    }
+   ],
+   "url": "https://open.spotify.com/episode/5T67TkArXlsutUnTKNo3Aw",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 51
+  },
+  {
+   "id": "bridgetown-2lACiTZCHotSD9c4U4uxSq",
+   "title": "Practicing the Way of Jesus Together in Portland",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2022-09-11",
+   "series": "",
+   "passage": "Mark 8:34-35",
+   "refs": [
+    {
+     "book": "mark",
+     "start": 8,
+     "end": 8
+    }
+   ],
+   "url": "https://open.spotify.com/episode/2lACiTZCHotSD9c4U4uxSq",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 52
+  },
+  {
+   "id": "bridgetown-556VPhXtwU2Kqpp0vTOcS7",
+   "title": "Stand",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2022-09-04",
+   "series": "",
+   "passage": "Ephesians 6:10-24",
+   "refs": [
+    {
+     "book": "ephesians",
+     "start": 6,
+     "end": 6
+    }
+   ],
+   "url": "https://open.spotify.com/episode/556VPhXtwU2Kqpp0vTOcS7",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 43
+  },
+  {
+   "id": "bridgetown-5W1lD2tb5cPd9ab1DQClMy",
+   "title": "Household",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2022-08-28",
+   "series": "",
+   "passage": "Ephesians 5:21-6:9",
+   "refs": [
+    {
+     "book": "ephesians",
+     "start": 5,
+     "end": 6
+    }
+   ],
+   "url": "https://open.spotify.com/episode/5W1lD2tb5cPd9ab1DQClMy",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 55
+  },
+  {
+   "id": "bridgetown-0s4Ntv921m5vgLWW75Gz3p",
+   "title": "A Better Yes",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2022-08-21",
+   "series": "",
+   "passage": "Ephesians 4:17-5:20",
+   "refs": [
+    {
+     "book": "ephesians",
+     "start": 4,
+     "end": 5
+    }
+   ],
+   "url": "https://open.spotify.com/episode/0s4Ntv921m5vgLWW75Gz3p",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 41
+  },
+  {
+   "id": "bridgetown-3MmLGRaTanDEMssLR4ROcR",
+   "title": "Vocation",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2022-08-14",
+   "series": "",
+   "passage": "Ephesians 4:1-28",
+   "refs": [
+    {
+     "book": "ephesians",
+     "start": 4,
+     "end": 4
+    }
+   ],
+   "url": "https://open.spotify.com/episode/3MmLGRaTanDEMssLR4ROcR",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 55
+  },
+  {
+   "id": "bridgetown-3MTcMUNvYo6WZeobUdEEWO",
+   "title": "Praying with Paul Pt. 2",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2022-08-07",
+   "series": "",
+   "passage": "Ephesians 3:14-21",
+   "refs": [
+    {
+     "book": "ephesians",
+     "start": 3,
+     "end": 3
+    }
+   ],
+   "url": "https://open.spotify.com/episode/3MTcMUNvYo6WZeobUdEEWO",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 47
+  },
+  {
+   "id": "bridgetown-4FQSUVWeWL5MBKWf7ydW11",
+   "title": "Understanding the Mystery",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2022-07-31",
+   "series": "",
+   "passage": "Ephesians 2:11-3:13",
+   "refs": [
+    {
+     "book": "ephesians",
+     "start": 2,
+     "end": 3
+    }
+   ],
+   "url": "https://open.spotify.com/episode/4FQSUVWeWL5MBKWf7ydW11",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 48
   },
   {
    "id": "cotcny-0ArlUxaZNU2TMgJuCk8qYr",
@@ -3339,6 +7843,306 @@
    "durationMin": 57
   },
   {
+   "id": "bridgetown-1qxjqqihdB5naKIdoU6E5x",
+   "title": "Dead Now Seated",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2022-07-24",
+   "series": "",
+   "passage": "Ephesians 2:1-10",
+   "refs": [
+    {
+     "book": "ephesians",
+     "start": 2,
+     "end": 2
+    }
+   ],
+   "url": "https://open.spotify.com/episode/1qxjqqihdB5naKIdoU6E5x",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 43
+  },
+  {
+   "id": "bridgetown-2ulcQjpA07QyvfCJRCtLen",
+   "title": "Praying with Paul Pt. 1",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2022-07-17",
+   "series": "",
+   "passage": "Ephesians 1:15-23",
+   "refs": [
+    {
+     "book": "ephesians",
+     "start": 1,
+     "end": 1
+    }
+   ],
+   "url": "https://open.spotify.com/episode/2ulcQjpA07QyvfCJRCtLen",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 51
+  },
+  {
+   "id": "bridgetown-1JZyw7wPo6tIwoqpGmahIC",
+   "title": "Family Legacy",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2022-07-10",
+   "series": "",
+   "passage": "Ephesians 1:3-14",
+   "refs": [
+    {
+     "book": "ephesians",
+     "start": 1,
+     "end": 1
+    }
+   ],
+   "url": "https://open.spotify.com/episode/1JZyw7wPo6tIwoqpGmahIC",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 43
+  },
+  {
+   "id": "bridgetown-2ODV6TitcmrIUmluSRd5Mi",
+   "title": "A Riot That Became a Church",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2022-07-03",
+   "series": "",
+   "passage": "Ephesians 1:1-2",
+   "refs": [
+    {
+     "book": "ephesians",
+     "start": 1,
+     "end": 1
+    }
+   ],
+   "url": "https://open.spotify.com/episode/2ODV6TitcmrIUmluSRd5Mi",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 42
+  },
+  {
+   "id": "bridgetown-6tTID5NEnlr6BmZm7E8Xkf",
+   "title": "Life of the Beloved",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2022-06-26",
+   "series": "",
+   "passage": "Song of Songs 1:5-6",
+   "refs": [
+    {
+     "book": "song-of-songs",
+     "start": 1,
+     "end": 1
+    }
+   ],
+   "url": "https://open.spotify.com/episode/6tTID5NEnlr6BmZm7E8Xkf",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 50
+  },
+  {
+   "id": "bridgetown-1NKXlxgWqbZwCPQf8ryUmC",
+   "title": "The Three Levels of Faith",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2022-06-19",
+   "series": "",
+   "passage": "Mark 9:14-29",
+   "refs": [
+    {
+     "book": "mark",
+     "start": 9,
+     "end": 9
+    }
+   ],
+   "url": "https://open.spotify.com/episode/1NKXlxgWqbZwCPQf8ryUmC",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 50
+  },
+  {
+   "id": "bridgetown-4APty37oFyT5bzqBNPXylv",
+   "title": "Blessing",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2022-06-12",
+   "series": "",
+   "passage": "Luke 24:50-53",
+   "refs": [
+    {
+     "book": "luke",
+     "start": 24,
+     "end": 24
+    }
+   ],
+   "url": "https://open.spotify.com/episode/4APty37oFyT5bzqBNPXylv",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 53
+  },
+  {
+   "id": "bridgetown-62c5RiTtvB6VmBx3xaOGnf",
+   "title": "Become Love",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2022-06-05",
+   "series": "",
+   "passage": "1 John 4:7-12",
+   "refs": [
+    {
+     "book": "1-john",
+     "start": 4,
+     "end": 4
+    }
+   ],
+   "url": "https://open.spotify.com/episode/62c5RiTtvB6VmBx3xaOGnf",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 50
+  },
+  {
+   "id": "bridgetown-5GmlB4U2nrq0kgSJHz2BYZ",
+   "title": "Healing",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2022-05-29",
+   "series": "",
+   "passage": "Philippians 2:12-13",
+   "refs": [
+    {
+     "book": "philippians",
+     "start": 2,
+     "end": 2
+    }
+   ],
+   "url": "https://open.spotify.com/episode/5GmlB4U2nrq0kgSJHz2BYZ",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 41
+  },
+  {
+   "id": "bridgetown-5Tlf2XdUWkymbK4AB1QICi",
+   "title": "The Father of Lies",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2022-05-22",
+   "series": "",
+   "passage": "John 8:12-47",
+   "refs": [
+    {
+     "book": "john",
+     "start": 8,
+     "end": 8
+    }
+   ],
+   "url": "https://open.spotify.com/episode/5Tlf2XdUWkymbK4AB1QICi",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 37
+  },
+  {
+   "id": "bridgetown-7aggP8gff48UhCBx0wyK1d",
+   "title": "The False Self",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2022-05-15",
+   "series": "",
+   "passage": "Genesis 3:1-10",
+   "refs": [
+    {
+     "book": "genesis",
+     "start": 3,
+     "end": 3
+    }
+   ],
+   "url": "https://open.spotify.com/episode/7aggP8gff48UhCBx0wyK1d",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 52
+  },
+  {
+   "id": "bridgetown-296mqmFXmHj5kjmAPr5nxy",
+   "title": "Know Yourself",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2022-05-08",
+   "series": "",
+   "passage": "Colossians 3:1-11",
+   "refs": [
+    {
+     "book": "colossians",
+     "start": 3,
+     "end": 3
+    }
+   ],
+   "url": "https://open.spotify.com/episode/296mqmFXmHj5kjmAPr5nxy",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 44
+  },
+  {
+   "id": "bridgetown-09bmObodRjj1xUBOT7yfkm",
+   "title": "Know God",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2022-05-01",
+   "series": "",
+   "passage": "Colossians 1:15-23",
+   "refs": [
+    {
+     "book": "colossians",
+     "start": 1,
+     "end": 1
+    }
+   ],
+   "url": "https://open.spotify.com/episode/09bmObodRjj1xUBOT7yfkm",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 39
+  },
+  {
+   "id": "bridgetown-2EEb6MJeVzheGBT0rFB4HP",
+   "title": "The Life and Death and Life of Jesus Christ",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2022-04-17",
+   "series": "",
+   "passage": "John 20:1-18",
+   "refs": [
+    {
+     "book": "john",
+     "start": 20,
+     "end": 20
+    }
+   ],
+   "url": "https://open.spotify.com/episode/2EEb6MJeVzheGBT0rFB4HP",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 49
+  },
+  {
+   "id": "bridgetown-77NfYUocGeR4EjzLaw4Pib",
+   "title": "Dignified Suffering",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2022-04-10",
+   "series": "",
+   "passage": "Romans 8:14-17",
+   "refs": [
+    {
+     "book": "romans",
+     "start": 8,
+     "end": 8
+    }
+   ],
+   "url": "https://open.spotify.com/episode/77NfYUocGeR4EjzLaw4Pib",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 58
+  },
+  {
    "id": "cotcny-4Js70CzPbBGWlJIzOTrKzS",
    "title": "Kill the Prophets",
    "church": "cotcny",
@@ -3354,6 +8158,46 @@
     }
    ],
    "url": "https://open.spotify.com/episode/4Js70CzPbBGWlJIzOTrKzS",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 38
+  },
+  {
+   "id": "bridgetown-696WcnQWcNZxDUCTVcAdI6",
+   "title": "Unanswered Prayer Pt. 2",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2022-04-03",
+   "series": "",
+   "passage": "Matthew 7:7-8",
+   "refs": [
+    {
+     "book": "matthew",
+     "start": 7,
+     "end": 7
+    }
+   ],
+   "url": "https://open.spotify.com/episode/696WcnQWcNZxDUCTVcAdI6",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 51
+  },
+  {
+   "id": "bridgetown-14WbCVSsR8VbY8OwQSkID5",
+   "title": "Unanswered Prayer Pt. 1",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2022-03-27",
+   "series": "",
+   "passage": "John 11:1-3",
+   "refs": [
+    {
+     "book": "john",
+     "start": 11,
+     "end": 11
+    }
+   ],
+   "url": "https://open.spotify.com/episode/14WbCVSsR8VbY8OwQSkID5",
    "tags": [],
    "source": "rss",
    "durationMin": 38
@@ -3379,6 +8223,26 @@
    "durationMin": 42
   },
   {
+   "id": "bridgetown-6BZr5ayea6u2iPNqyGKiNh",
+   "title": "Made to Suffer",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2022-03-20",
+   "series": "",
+   "passage": "Romans 8:18-28",
+   "refs": [
+    {
+     "book": "romans",
+     "start": 8,
+     "end": 8
+    }
+   ],
+   "url": "https://open.spotify.com/episode/6BZr5ayea6u2iPNqyGKiNh",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 48
+  },
+  {
    "id": "cotcny-49Z38bSkr9tKAJalzUgFSo",
    "title": "Converts of Hell",
    "church": "cotcny",
@@ -3399,6 +8263,46 @@
    "durationMin": 56
   },
   {
+   "id": "bridgetown-26iQcloxskyE35BVkLtemx",
+   "title": "Unceasing Prayer",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2022-02-27",
+   "series": "",
+   "passage": "Acts 13:1-3",
+   "refs": [
+    {
+     "book": "acts",
+     "start": 13,
+     "end": 13
+    }
+   ],
+   "url": "https://open.spotify.com/episode/26iQcloxskyE35BVkLtemx",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 36
+  },
+  {
+   "id": "bridgetown-6yA9WcJxXUhy0wEjTo7XUJ",
+   "title": "For All Nations (Where Prayer Meets Justice)",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2022-02-20",
+   "series": "",
+   "passage": "Isaiah 56:1-8",
+   "refs": [
+    {
+     "book": "isaiah",
+     "start": 56,
+     "end": 56
+    }
+   ],
+   "url": "https://open.spotify.com/episode/6yA9WcJxXUhy0wEjTo7XUJ",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 44
+  },
+  {
    "id": "vintage-sm-17NqxW469AHy6Tic4cI4BP",
    "title": "Sabotaging Strongholds",
    "church": "vintage-sm",
@@ -3415,6 +8319,26 @@
    "tags": [],
    "source": "rss",
    "durationMin": 38
+  },
+  {
+   "id": "bridgetown-61b5JGPSR7gIfPUSaO7p1V",
+   "title": "Search Me and Know Me (Confession)",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2022-02-13",
+   "series": "",
+   "passage": "Psalm 51",
+   "refs": [
+    {
+     "book": "psalms",
+     "start": 51,
+     "end": 51
+    }
+   ],
+   "url": "https://open.spotify.com/episode/61b5JGPSR7gIfPUSaO7p1V",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 50
   },
   {
    "id": "cotcny-38egnbs6JRaQL7e5e83VfL",
@@ -3455,6 +8379,26 @@
    "durationMin": 38
   },
   {
+   "id": "bridgetown-6h8G3TamM3lpE4HaRI8Wqb",
+   "title": "Daily Bread (Petition)",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2022-02-06",
+   "series": "",
+   "passage": "Matthew 6:9-13",
+   "refs": [
+    {
+     "book": "matthew",
+     "start": 6,
+     "end": 6
+    }
+   ],
+   "url": "https://open.spotify.com/episode/6h8G3TamM3lpE4HaRI8Wqb",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 45
+  },
+  {
    "id": "cotcny-5q8f5jUDB70uhPTvM0XcJ8",
    "title": "Advocates",
    "church": "cotcny",
@@ -3491,6 +8435,26 @@
    "tags": [],
    "source": "rss",
    "durationMin": 29
+  },
+  {
+   "id": "bridgetown-1V6tFoBpCpRq3DStdk3euH",
+   "title": "First Love (Discipleship in Our Cultural Moment)",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2022-01-31",
+   "series": "",
+   "passage": "Revelation 2:1-7",
+   "refs": [
+    {
+     "book": "revelation",
+     "start": 2,
+     "end": 2
+    }
+   ],
+   "url": "https://open.spotify.com/episode/1V6tFoBpCpRq3DStdk3euH",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 37
   },
   {
    "id": "vintage-sm-5JPt7Ydq4C646qK9bvZWhu",
@@ -3547,6 +8511,46 @@
    "tags": [],
    "source": "rss",
    "durationMin": 34
+  },
+  {
+   "id": "bridgetown-79F0vI2p4bJwXBILyfXJNm",
+   "title": "God Made Known",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2021-12-19",
+   "series": "",
+   "passage": "John 1:14",
+   "refs": [
+    {
+     "book": "john",
+     "start": 1,
+     "end": 1
+    }
+   ],
+   "url": "https://open.spotify.com/episode/79F0vI2p4bJwXBILyfXJNm",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 45
+  },
+  {
+   "id": "bridgetown-0hUaCeOyWY25bQwHfbLXGF",
+   "title": "Rejection",
+   "church": "bridgetown",
+   "speaker": "",
+   "date": "2021-12-05",
+   "series": "Witness",
+   "passage": "John 1:6-11",
+   "refs": [
+    {
+     "book": "john",
+     "start": 1,
+     "end": 1
+    }
+   ],
+   "url": "https://open.spotify.com/episode/0hUaCeOyWY25bQwHfbLXGF",
+   "tags": [],
+   "source": "rss",
+   "durationMin": 45
   },
   {
    "id": "vintage-sm-1wAisNnI110KisEwAfC7vW",

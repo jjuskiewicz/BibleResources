@@ -51,8 +51,8 @@ _BOOK_IDS = [bid for _, bid in _book_patterns()]
 REF_RX = re.compile(
     rf"\b(?:{_BOOK_ALT})\s+(?P<ch>\d{{1,3}})"
     r"(?:"
-    r"\s*:\s*(?P<v1>\d{1,3})(?:\s*[-–—]\s*(?P<x>\d{1,3})(?:\s*:\s*(?P<v2>\d{1,3}))?)?"  # 5:13-26 / 5:12-6:14
-    r"|\s*[-–—]\s*(?P<ch2>\d{1,3})(?!\s*:\s*\d)"  # 5-7
+    r"\s*(?::|v(?=\d))\s*(?P<v1>\d{1,3})(?:\s*[-–—]\s*(?P<x>\d{1,3})(?:\s*(?::|v(?=\d))\s*(?P<v2>\d{1,3}))?)?"  # 5:13-26 / 5:12-6:14 / 11v28-30
+    r"|\s*[-–—]\s*(?P<ch2>\d{1,3})(?!\s*(?::|v)\s*\d)"  # 5-7
     r"|\s+v(?:v|erses?)?\.?\s*(?P<vv1>\d{1,3})(?:\s*[-–]\s*(?P<vv2>\d{1,3}))?"  # 4 v1-16
     r")?(?!\d)"
 )
@@ -132,6 +132,27 @@ thomas tim timothy tina todd tom tommy tony tracy travis trevor tyler valerie va
 wendy will william zach zachary
 """.split())
 SPEAKER_SUFFIX = re.compile(rf"(?:\s+[-\u2013]\s+|\s+ft\.?\s+)(?P<sp>{NAME}(?:\s+(?:and|&)\s+{NAME})?)\s*$")
+DESC_WITH = re.compile(rf"\bwith\s+(?P<sp>(?:(?:Sister|Brother|Fr)\.?\s+)?{NAME}(?:\s+(?:and|&)\s+{NAME})?)")
+# Sentence words that a greedy name match can swallow: "with Tyler Staton What if..."
+NAME_TAIL_STOP = {"What", "How", "When", "Why", "Who", "Where", "In", "This", "The", "A", "As", "Through", "Is",
+                  "Are", "Do", "Does", "Have", "Our", "We", "If", "Jesus", "God", "From", "On", "At", "And"}
+
+
+def clean_name(sp: str, max_words: int = 4) -> str:
+    """max_words caps the name (honorific not counted); "with X" matches use 2 because the
+    next word usually starts the description sentence ("with Tyler Staton Genesis 1 ...")."""
+    words = sp.split()
+    hon = 1 if words and re.match(r"^(?:Dr|Rev|Bishop|Sister|Brother|Fr)\.?$", words[0]) else 0
+    words = words[: hon + max_words] if " and " not in sp and " & " not in sp else words
+    while len(words) > 2 and words[-1] in NAME_TAIL_STOP:
+        words.pop()
+    out = " ".join(words)
+    if " and " in out or " & " in out:  # trim each half of "X and Y What"
+        out = re.sub(r"\s+(?:and|&)\s+", " and ", out)
+        out = " and ".join(clean_name(h, max_words) for h in out.split(" and "))
+    return out
+
+
 DESC_SPEAKER = re.compile(rf"(?:[Pp]astor|[Tt]eaching pastor,?)\s+(?P<sp>{NAME})")
 # Older descriptions: "Church of the City New York - COTCNYC - Jon Tyson Isaiah 61 - 2017-12-17"
 DESC_DASH_SPEAKER = re.compile(r"\s[-\u2013]\s(?P<sp>[A-Z][a-z]+ [A-Z][a-z]+)\b")
@@ -139,7 +160,7 @@ MONTH = r"(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)[a-z]*\.?"
 TRAILING_DATE = re.compile(
     rf"\s*[-\u2013,]\s*(?:[A-Z][a-z]+(?:\s[A-Z][a-z]+)*,\s*)?{MONTH}\s+\d{{1,2}}(?:st|nd|rd|th)?,?\s+\d{{4}}\s*$"
 )
-NON_NAMES = {"Week", "Part", "Series", "Sunday", "Advent", "Easter", "Lent", "The", "A", "An", "Intro", "Jesus", "God", "Christ", "Holy", "Spirit", "Controversial"}
+NON_NAMES = {"Week", "Part", "Series", "Sunday", "Advent", "Easter", "Lent", "The", "A", "An", "Intro", "Jesus", "God", "Christ", "Holy", "Spirit", "Controversial", "Pt", "Part"}
 
 
 STRIP_PHRASES: list[str] = []  # set from --strip, e.g. campus names
@@ -169,6 +190,8 @@ def parse_title(raw: str) -> tuple[str, str, str]:
     if seps:
         series, t = (x.strip() for x in t.split(seps[0][0], 1))
         series = re.sub(r"\s+(?:Series\s+)?(?:Pt\.?|Part)\s*(?:\d+|[IVX]+|One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|Eleven|Twelve)\b\.?$|\s+Series$", "", series, flags=re.I).rstrip(" ,;-")
+        if re.fullmatch(r"(?:Part|Pt\.?|Episode|Session)\s*\w+", series, flags=re.I):
+            series = ""
     return series, t or raw.strip(), speaker
 
 
@@ -256,8 +279,23 @@ def main() -> None:
         if speaker and (after_week or not trusted):
             title, speaker = f"{title} - {speaker}", ""
         if not speaker:
-            m = DESC_SPEAKER.search(ep["desc"]) or DESC_DASH_SPEAKER.search(ep["desc"])
-            speaker = m["sp"] if m and not (set(m["sp"].split()) & NON_NAMES) else ""
+            # "Rule of Life: Episode 3 with Gemma Ryan" - only for known given names, so
+            # "Eat with Tax Collectors" / "Small Things with Great Love" are left alone. Title is kept.
+            tw = DESC_WITH.search(title)
+            if tw:
+                cand = clean_name(tw["sp"], 3)
+                given = re.sub(r"^(?:Dr|Rev|Bishop|Sister|Brother|Fr)\.?\s+", "", cand).split()[0].lower()
+                honor = cand != re.sub(r"^(?:Dr|Rev|Bishop|Sister|Brother|Fr)\.?\s+", "", cand)
+                if (given in FIRST_NAMES or honor) and not (set(cand.split()) & NON_NAMES):
+                    speaker = cand
+        if not speaker:
+            m = DESC_SPEAKER.search(ep["desc"])
+            cap = 4
+            if not m and (m := DESC_WITH.search(ep["desc"])):
+                cap = 2
+            m = m or DESC_DASH_SPEAKER.search(ep["desc"])
+            cand = clean_name(m["sp"], cap) if m else ""
+            speaker = cand if cand and not (set(cand.split()) & NON_NAMES) else ""
         title_refs, desc_refs = find_refs(ep["title"]), find_refs(ep["desc"])
         all_refs = dedupe_refs(title_refs + desc_refs)
         # Primary passage = first ref (usually "teaching from X"); later mentions are kept for review only.
