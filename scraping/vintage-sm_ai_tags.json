@@ -1,0 +1,2091 @@
+{
+ "_meta": {
+  "generated": "2026-10-02",
+  "model": "claude-sonnet (subagents)",
+  "note": "AI tags for episodes the regex left unmapped. pass 1 = episode judged alone; pass 2 = re-judged with its whole series as context (replaces pass 1 for every episode pass 1 didn't settle at >= 0.9). kinds: book, topical, non_sermon (excluded from site at >= 0.7), unknown. Hand overrides always win."
+ },
+ "0A5PRmb1pIHUPjXEpN5d6I": {
+  "_episode": "Mary & the Gift of Presence - AJ Sherrill",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "luke",
+    "start": 1,
+    "end": 2
+   }
+  ],
+  "confidence": 0.5,
+  "rationale": "Mary in December; likely Luke 1-2 nativity.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "book luke 0.45"
+ },
+ "0ABU5HEPbEmHbZ1tdwtBTp": {
+  "_episode": "God Is Thinking About You - Bishop Kenneth Ulmer - Santa Monica, July 10th, 2022",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.45,
+  "rationale": "Guest sermon; theme only (maybe Ps 139).",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "unknown  0.0"
+ },
+ "0ApCKT5qVBxSa93wOshCEo": {
+  "_episode": "Prayer: Talking to God - John Mark Comer - October 15, 2023",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.7,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "unclear",
+  "pass1": "topical  0.7"
+ },
+ "0E1Ir6HyrjUAVl5P1MNHYZ": {
+  "_episode": "Holiness in LA - Jonny Bell - July 9, 2023",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Holiness topic.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "topical  0.5"
+ },
+ "0KrLXbaqXEetAjBj69eezK": {
+  "_episode": "Time of Renewal Part 3: Renewed Belief - Ger Jones - March 5, 2023",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.5"
+ },
+ "0NE1LLhmEyJKyIGSnGJ139": {
+  "_episode": "FOCUS 2024: Understanding LA Spiritually and Culturally - Jarrett Catlin",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.8,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "topical  0.85"
+ },
+ "0OQmlGRYR20jT3mfo1sL3H": {
+  "_episode": "Generosity: All We Have Belongs to God - John Mark Comer",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.6,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.6"
+ },
+ "0QA4G3kfCaR829BezxOBMa": {
+  "_episode": "Life after Easter: Hope in Failure - Ger Jones - April 16, 2023",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 21,
+    "end": 21
+   }
+  ],
+  "confidence": 0.6,
+  "rationale": "Hope in failure matches John 21 (Peter restored).",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book john 0.55"
+ },
+ "0TS0EYnZXGGmUYmyHIbyef": {
+  "_episode": "Come and See - Ger Jones - September 17, 2023",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 1,
+    "end": 1
+   }
+  ],
+  "confidence": 0.4,
+  "rationale": "Come and see is John 1:39/46.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "book john 0.3"
+ },
+ "0UQse3BnjzoI5G1teopSNG": {
+  "_episode": "If God doesn't need our Worship, why do we sing? - Ger Jones - Santa Monica, August 22nd, 2021",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.65,
+  "rationale": "Worship topic, no text evident.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "topical  0.65"
+ },
+ "0VN0o74bf00Pt99Mgujr9Q": {
+  "_episode": "Vision Series: Belong - Jonny Bell - Santa Monica, September 25th, 2022",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.85,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.85"
+ },
+ "0XpmZMgL60DJmdMk9TBXXD": {
+  "_episode": "Easter - Ger Jones",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Easter sermon, no text evident.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "unknown  0.0"
+ },
+ "0XtIwXo7De08iacquINmzw": {
+  "_episode": "Fasting Pt 4: To Stand with the Poor - John Mark Comer",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.75,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.65"
+ },
+ "0Xtn7pWeazmpBV6acYH861": {
+  "_episode": "Life After Easter Part 5: Preparing for Focus - Ger Jones - May 14, 2023",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.9,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.9"
+ },
+ "0aUSvVmzEfxVjBe1CyJ7aC": {
+  "_episode": "Forgiveness Part 2 - Amy Orr-Ewing",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.5"
+ },
+ "0emVbDarhgtc50MeZBAFXi": {
+  "_episode": "100th Anniversary: Joining God in His Story for Los Angeles - Ger Jones",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.8,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "topical  0.85"
+ },
+ "0jxhVOiILFqNkAr3FRer4O": {
+  "_episode": "Jesus + Giving Thanks - Ash Meaney - Santa Monica, November 28th, 2021",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.65,
+  "rationale": "Jesus + series, thanksgiving topic.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "topical  0.6"
+ },
+ "0oEBayceZBFu2MmVaUor2B": {
+  "_episode": "Palm Sunday: Jesus Our King - Ger Jones - April 2, 2023",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Holiday sermon with no evident text.",
+  "pass": 2,
+  "series_kind": "unclear",
+  "pass1": "unknown  0.0"
+ },
+ "0peOHkjQKMdm3g6x6MyYkP": {
+  "_episode": "FOCUS 2024: Women's Gathering - Sarah Jackson",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.6,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "topical  0.85"
+ },
+ "0qROr74cORh1TJH8g1O0S2": {
+  "_episode": "Trust - Dr. Henry Cloud - February 12, 2023",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.9,
+  "rationale": "Henry Cloud talk on trust.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "topical  0.9"
+ },
+ "0vZAbQ9RdYMA4K5OWn3EH4": {
+  "_episode": "Ongoing Salvation - Jonny Bell - July 2, 2023",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Salvation theme, no text evident.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "unknown  0.0"
+ },
+ "0wf5XOn7NaKeiSP7Kl0sta": {
+  "_episode": "The More of God - Jonny Bell",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Theme only.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "unknown  0.0"
+ },
+ "0ykIaBBZwMweomsPHOUfUE": {
+  "_episode": "FOCUS 2023: How God Transforms Cities - Tom & Sarah Jackson",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.8,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "topical  0.85"
+ },
+ "101kWWEOkSsNIMB3CdtUWA": {
+  "_episode": "A Time of Renewal Part 5: Renewing Formation - Jonny Bell- March 19, 2023",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.6,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.5"
+ },
+ "10L16S9HOsoY0ICFphZgin": {
+  "_episode": "FOCUS 2024: Renaissance, Jesus and Creativity - Jonny Bell & Nick Herbert",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Two-speaker creativity session; likely conversational talk.",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "topical  0.85"
+ },
+ "10TAwniCFiqo8TmbVtP9QJ": {
+  "_episode": "Part 2: Talking to God - John Mark Comer - October 22, 2023",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.7,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.7"
+ },
+ "150XLpmqy7vtNnYjG2mrsh": {
+  "_episode": "When YHWH Met Abram - Jonny Bell - October 8, 2023",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "genesis",
+    "start": 12,
+    "end": 15
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "YHWH meeting Abram, Gen 12-15.",
+  "pass": 1
+ },
+ "16ALLlxKoZMOGKMbDTjQja": {
+  "_episode": "Palm Sunday - Ger Jones",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Holiday sermon with no evident text.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "unknown  0.0"
+ },
+ "17OwudX1loQsr2r8AvVsuV": {
+  "_episode": "Part 4: Being With God - John Mark Comer - November 5, 2023",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.7,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.7"
+ },
+ "193kz4KIjTiiY2Xuk6Sv7j": {
+  "_episode": "The Importance of Friendship - Ger Jones - January 15, 2023",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.45,
+  "rationale": "Friendship topic; Ruth possible but not confirmed.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "book ruth 0.35"
+ },
+ "199pRAQH8IgiaJ96uTrtL5": {
+  "_episode": "Advent - God Made Known - Ger Jones - December 11, 2022",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 1,
+    "end": 1
+   }
+  ],
+  "confidence": 0.6,
+  "rationale": "God made known echoes John 1:18.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book john 0.55"
+ },
+ "1Ffm3jYzvOg9T98d28v8ij": {
+  "_episode": "The Scripture Practice Pt 2: Meditate - John Mark Comer",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.8,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.75"
+ },
+ "1GHWFHauyI3f58HsYVZgH4": {
+  "_episode": "Fasting Pt 1: Offering - John Mark Comer",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.75,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.65"
+ },
+ "1Jwe9eiNyQM6uSTSVKcyAA": {
+  "_episode": "Easter - Peace be with you! - Ger Jones",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 20,
+    "end": 20
+   }
+  ],
+  "confidence": 0.8,
+  "rationale": "Peace be with you is John 20 post-resurrection appearance.",
+  "pass": 2,
+  "series_kind": "unclear",
+  "pass1": "book john 0.7"
+ },
+ "1QG8GgFjNriV4K2pPyBG80": {
+  "_episode": "Necessary Endings - Dr. Henry Cloud",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.95,
+  "rationale": "Henry Cloud topical talk.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "topical  0.95"
+ },
+ "1QyfH5J0i1XVshEAHEQB6p": {
+  "_episode": "Encounters with Jesus, Part Nine: Jesus and the Search for a Good Shepherd - Ger Jones -Santa Monica, August 14th, 2022",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 10,
+    "end": 10
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "Good Shepherd, John 10.",
+  "pass": 1
+ },
+ "1S9BCBnwOGNtubHHCG0ka5": {
+  "_episode": "Slow to Anger - Ger Jones - August 20, 2023",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "exodus",
+    "start": 34,
+    "end": 34
+   }
+  ],
+  "confidence": 0.65,
+  "rationale": "Slow to anger is Ex 34:6.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "book exodus 0.5"
+ },
+ "1UJk9wRn3rF8SVwQLbcBHo": {
+  "_episode": "Resilient Joy - Cheyenne Jungen - June 25, 2023",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.45,
+  "rationale": "Guest talk on joy; zero-minute duration is odd.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "unknown  0.0"
+ },
+ "1UvCvDLg0U7vuTZZorIoXO": {
+  "_episode": "God Has a Name - Ger Jones - August 6, 2023",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "exodus",
+    "start": 3,
+    "end": 3
+   }
+  ],
+  "confidence": 0.65,
+  "rationale": "God has a name, Exodus 3:13-15/34 within an Exodus run.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "book exodus 0.55"
+ },
+ "1erbyExThQfHbYEXua2biO": {
+  "_episode": "Identity: Jesus’ Version - Christy Metzler",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.6,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "unclear",
+  "pass1": "topical  0.5"
+ },
+ "1hOdNr89TjWPWXh00XAD50": {
+  "_episode": "How to Make Worship Meaningful Again  - Ger Jones - Santa Monica, August 29th, 2021",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.65,
+  "rationale": "Worship topic, no text evident.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "topical  0.65"
+ },
+ "1hxybiDYnSp3oofheJgE0p": {
+  "_episode": "The Scripture Practice Pt 1: Read - John Mark Comer",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.8,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.75"
+ },
+ "1kcn3kqVRBlK7zeXgHQfgN": {
+  "_episode": "Easter Sunday - Ger Jones - Santa Monica, April 17th, 2022",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Easter Sunday sermon, no text evident.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "unknown  0.0"
+ },
+ "1kuOn3D9dKE2agia0ENAlX": {
+  "_episode": "The Exalted Christ - David Dealy",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "colossians",
+    "start": 1,
+    "end": 1
+   }
+  ],
+  "confidence": 0.8,
+  "rationale": "Exalted Christ precedes Colossians 2-3 series; Col 1:15-20.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "book colossians 0.4"
+ },
+ "1soyJaLT1SeiWW5mxDDE7L": {
+  "_episode": "The Truth About Lies, Part Two: Resisting Lies - Ger Jones - Santa Monica, March 6th, 2022",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.45"
+ },
+ "1tQoMKjm5jdFqC2tvxTCFk": {
+  "_episode": "Chasing Contentment - Lizzie Jones - July 30, 2023",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.45,
+  "rationale": "Contentment topic; may draw on Phil 4 but unclear.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "unknown  0.0"
+ },
+ "1v0PvKHBu799G5ZA3qvqhU": {
+  "_episode": "Hearing God: Prophecy - Tyler Staton",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.8,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.65"
+ },
+ "1whYNIEGiLFvMjKbTczNfB": {
+  "_episode": "The Beautiful Incarnation - Ger Jones - Santa Monica, December 19th, 2021",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Incarnation Christmas sermon; likely John 1/Luke 2 but unconfirmed.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "unknown  0.0"
+ },
+ "1ynhuiv6IxaEmO9IgOj6iX": {
+  "_episode": "Jesus + Justice - Ger Jones - Santa Monica, October 31st, 2021",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.65,
+  "rationale": "Jesus + series, justice topic.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "topical  0.6"
+ },
+ "1z7aOivgrRPGI754KZDQN6": {
+  "_episode": "Encounters with Jesus, Part Eight: Jesus and Spiritual Blindness - Ger Jones - Santa Monica, August 7th, 2022",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 9,
+    "end": 9
+   }
+  ],
+  "confidence": 0.7,
+  "rationale": "Spiritual blindness, John 9.",
+  "pass": 1
+ },
+ "1zM96o0uwqVhJXRsECYw0J": {
+  "_episode": "Mary's Voice: Dr. Amy Orr-Ewing",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "luke",
+    "start": 1,
+    "end": 1
+   }
+  ],
+  "confidence": 0.55,
+  "rationale": "Mary's voice likely the Magnificat, Luke 1.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "book luke 0.6"
+ },
+ "1zjYDN4dU9W2SSbIpqULSX": {
+  "_episode": "Vision Series: Renew - Ash Meaney - Santa Monica, October 2, 2022",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.85,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.85"
+ },
+ "20aXCav9EBJW0EIGKhE17G": {
+  "_episode": "Jesus + Politics - Luke Bretherton - Santa Monica, November 7th, 2021",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.65,
+  "rationale": "Jesus + series, politics topic.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "topical  0.6"
+ },
+ "2BPqTCBUpQQAciMgvVnnIL": {
+  "_episode": "Good Friday: The Power of the Cross - Jonny Bell",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "1-corinthians",
+    "start": 1,
+    "end": 1
+   }
+  ],
+  "confidence": 0.45,
+  "rationale": "Power of the cross suggests 1 Corinthians 1:18.",
+  "pass": 2,
+  "series_kind": "unclear",
+  "pass1": "book 1-corinthians 0.4"
+ },
+ "2BWsQwANhfCubqqsqu2b64": {
+  "_episode": "Courageous Love - Victor Maynard",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.4,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "unknown  0.0"
+ },
+ "2BZBqldilPvHd0pG7N09hU": {
+  "_episode": "Alpha: Explore Jesus without pressure, preaching or judgement - Ger Jones",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.7,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "unclear",
+  "pass1": "topical  0.8"
+ },
+ "2BefvS24frhQ9MSPRRaAnS": {
+  "_episode": "Life After Easter Part 4: Staying Christian When Life Is Hard - Esau McCaulley - May 7, 2023",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "1-peter"
+   }
+  ],
+  "confidence": 0.4,
+  "rationale": "Staying Christian in hardship suggests 1 Peter.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book 1-peter 0.35"
+ },
+ "2BsqMEGTUuaebj5CSvsFrt": {
+  "_episode": "Jesus + This Cultural Moment - Ger Jones - Santa Monica, October 3rd, 2021",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.65,
+  "rationale": "Jesus + series, cultural topic.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "topical  0.6"
+ },
+ "2CrvPkGCbrx4GVEDi0Gt9V": {
+  "_episode": "Growing Church: What’s our Plan For Discipleship - Ger Jones",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.8,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.7"
+ },
+ "2CsuwYK1ubKvwe8iZPAIPI": {
+  "_episode": "A Vintage Family Testimony - David Dealy",
+  "kind": "non_sermon",
+  "refs": [],
+  "confidence": 0.85,
+  "rationale": "Family testimony, not a sermon.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "topical  0.9"
+ },
+ "2GjBt7vP6U6p5th3jfwnUL": {
+  "_episode": "Wearing or Carrying Your Cross - Bishop Kenneth Ulmer - Santa Monica, January 9th, 2022",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Guest sermon on cross-bearing; no single text evident.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "unknown  0.0"
+ },
+ "2H5zjR33k1e3LR4sW8Yjgm": {
+  "_episode": "Growing Church as Family - Ger Jones",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.7,
+  "rationale": "Church vision series.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "topical  0.7"
+ },
+ "2LRmPmru0N8ZtKnVHw01RR": {
+  "_episode": "I Struggle With…Telling Others About Jesus - Ger Jones - Santa Monica, August 1st, 2021",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.7,
+  "rationale": "\"I Struggle With\" topical series.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "topical  0.65"
+ },
+ "2OlSsgSsN8Utq88lYqkhlI": {
+  "_episode": "Prayer and Intercesion - Ash Meaney - Santa Monica, May 29th, 2022",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.6,
+  "rationale": "Prayer topic.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "topical  0.55"
+ },
+ "2QIwj29apA8dtwtlzvDtqY": {
+  "_episode": "FOCUS 2023: Church is Formation - John Mark Comer",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.8,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "topical  0.85"
+ },
+ "2QxwIwfYZnvCUYMgvXiZEd": {
+  "_episode": "Entering into Advent - Jaime Haith - December 4, 2022",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Advent opener, no text evident.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "topical  0.5"
+ },
+ "2SM0oYdBPMXRXvkGqoMI25": {
+  "_episode": "Good Friday - Jonny Bell",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Good Friday sermon, no text evident.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "unknown  0.0"
+ },
+ "2SRTsgkHHYLA3sfMpgmIAQ": {
+  "_episode": "Awakening to the Holiness of God - Amy Orr-Ewing",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "isaiah",
+    "start": 6,
+    "end": 6
+   }
+  ],
+  "confidence": 0.8,
+  "rationale": "Holiness awakening echoes Isaiah 6.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "book isaiah 0.8"
+ },
+ "2UE1DmTL2pLH535j9AT38y": {
+  "_episode": "Vision Sunday - Ger Jones & Ash Meaney - Santa Monica, May 23rd, 2021",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.85,
+  "rationale": "Vision Sunday.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "topical  0.85"
+ },
+ "2Vt2rcEKtmNAv9mGm2Z7i6": {
+  "_episode": "Ephesians pt. 6 | Experiencing the Love of God - Santa Monica - November 13, 2022",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "ephesians",
+    "start": 3,
+    "end": 3
+   }
+  ],
+  "confidence": 0.95,
+  "rationale": "Ephesians pt 6; love of God echoes Eph 3:14-21.",
+  "pass": 1
+ },
+ "2XDZswk5tzyD45EMXy5ldr": {
+  "_episode": "Remembrance & Hope - Ger Jones",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "unknown  0.0"
+ },
+ "2ZfDQjO2MA71MaC9gmHuXu": {
+  "_episode": "FOCUS 2023: Redeeming Singleness - Jo Rice",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.8,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "topical  0.85"
+ },
+ "2fQPF8p91eleXB96zS4Y6l": {
+  "_episode": "Fasting Pt 3: Amplify Prayer - John Mark Comer",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.75,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.65"
+ },
+ "2fTFx0FVDFtZ8cIpxxSpkh": {
+  "_episode": "I Struggle With…Discerning God’s Voice - Ash Meaney -",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.7,
+  "rationale": "\"I Struggle With\" topical series.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "topical  0.65"
+ },
+ "2fqrC5VEtPoHG0pzE1ZWPZ": {
+  "_episode": "Generosity: Be Generous to the Poor - John Mark Comer",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.6,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.6"
+ },
+ "2m4fQm9B8s1EWqF2YCKxvq": {
+  "_episode": "FOCUS 2024: Marriage and Parenting in Cultural Chaos - Sarah Reimers",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.8,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "topical  0.85"
+ },
+ "2n83ohrvq0uknOS0xZqgEE": {
+  "_episode": "The Good Samaritan - Amy Orr-Ewing",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "luke",
+    "start": 10,
+    "end": 10
+   }
+  ],
+  "confidence": 0.95,
+  "rationale": "Good Samaritan parable.",
+  "pass": 1
+ },
+ "2pbTWxkS1CdOPmmyRnrDhT": {
+  "_episode": "Citizens: Introduction to Philippians - Jason Ballard - June 18, 2023",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "philippians"
+   }
+  ],
+  "confidence": 0.95,
+  "rationale": "Intro to Philippians.",
+  "pass": 1
+ },
+ "2vJj5I8cxOiOingKHw8oPt": {
+  "_episode": "The Solitude Practice 01: The Quiet Place - John Mark Comer",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.75,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "unclear",
+  "pass1": "topical  0.7"
+ },
+ "2zWMooU8JemZFR88ssr3Vi": {
+  "_episode": "Learning How to Worship",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Worship topic.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "topical  0.5"
+ },
+ "2zcas7683SVqpuqb2OS5sO": {
+  "_episode": "Jesus + The Bible - Ger Jones - Santa Monica, October 17th, 2021",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.65,
+  "rationale": "Jesus + series, Bible topic.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "topical  0.6"
+ },
+ "342tIUqiUjQIUfiKqiB2MA": {
+  "_episode": "Encounters with Jesus, Part Four: Jesus and Women - Amy Orr-Ewing - Santa Monica, June 26th, 2022",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john"
+   }
+  ],
+  "confidence": 0.5,
+  "rationale": "Jesus and women, encounters series, likely John 4/8/11.",
+  "pass": 1
+ },
+ "34nbzdz76pZ0H83g8Xp7LY": {
+  "_episode": "Time of Renewal Part 2 - A Renewed Community - Ger Jones - February 26, 2023",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.5"
+ },
+ "38N3ZXdJ2USA9IWBsdB6nx": {
+  "_episode": "The Community Practice: 01 - Be Family Around a Table - John Mark Comer",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.7,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.6"
+ },
+ "3CJHBzIfC23Ox9fJ3XKY5I": {
+  "_episode": "Extravagant Mercy - Ger Jones - September 3, 2023",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "exodus",
+    "start": 34,
+    "end": 34
+   }
+  ],
+  "confidence": 0.55,
+  "rationale": "Extravagant mercy continues Ex 34:6 attributes.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "book exodus 0.4"
+ },
+ "3EQiuU3sG4tkbJjTOyefFh": {
+  "_episode": "The Solitude Practice 02: Encounter with Our Self - John Mark Comer",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.75,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "unclear",
+  "pass1": "topical  0.7"
+ },
+ "3ESNlVawYJN0mmVW1Km3am": {
+  "_episode": "FOCUS 2023: Dating and Relationships - Dr. Henry Cloud",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.8,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "topical  0.85"
+ },
+ "3FcPp1wmczzfmbSEJZxupM": {
+  "_episode": "Seeing His Glory Like John & Moses - Amy Orr-Ewing",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 1,
+    "end": 1
+   }
+  ],
+  "confidence": 0.5,
+  "rationale": "Title and Moses/John pairing suggest John 1:14-18 with Exodus 33-34.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "unknown  0.0"
+ },
+ "3G97fm6MhVrf1li8SN5Ljj": {
+  "_episode": "The Scripture Practice Pt 4: Memorization - John Mark Comer",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.8,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.75"
+ },
+ "3Gt9TkDulNC6ob43SRGXMW": {
+  "_episode": "FOCUS 2023: Spiritual Warfare, Healing, and Deliverance - Tammy Comer",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.8,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "topical  0.85"
+ },
+ "3I07n1nNGaYgWMH4JS6jZg": {
+  "_episode": "FOCUS 2023: The Search For Significance - Lizzie Jones",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.8,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "topical  0.85"
+ },
+ "3OZQ6zJfPvkRBoKne4YcyK": {
+  "_episode": "Encounters with Jesus, Part Ten: Jesus and Being Both God and Man - Ger Jones - Santa Monica, August 21st, 2022",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 1,
+    "end": 1
+   }
+  ],
+  "confidence": 0.5,
+  "rationale": "God and man, John 1 likely in John-based series.",
+  "pass": 1
+ },
+ "3OvZNTwqotS2ICYVod6SLz": {
+  "_episode": "FOCUS 2023: What does it mean to be a Godly man? - Ger Jones, Henry Cloud and Glenn Packiam",
+  "kind": "non_sermon",
+  "refs": [],
+  "confidence": 0.8,
+  "rationale": "Multi-speaker panel discussion.",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "topical  0.85"
+ },
+ "3TO7YpXhFUDAA27Eqzp1UN": {
+  "_episode": "Jesus + Gen Z - Jonny Bell - Santa Monica, October 25th, 2021",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.65,
+  "rationale": "Jesus + series, Gen Z topic.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "topical  0.6"
+ },
+ "3aeBdo7CPAazAFpG5V18La": {
+  "_episode": "Part 3: Listening to God - John Mark Comer - October 29, 2023",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.7,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.7"
+ },
+ "3emoC2PDKMFzuTrZ0bDTf3": {
+  "_episode": "How God Heals: Virtuous Cycles - Jeff Han",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.7,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "unclear",
+  "pass1": "topical  0.6"
+ },
+ "3f8euv5OpYp83CD7OVNL4m": {
+  "_episode": "Encounters with Jesus, Part Two: Jesus and the Religious - Ger Jones - Santa Monica, June 12th, 2022",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 3,
+    "end": 3
+   }
+  ],
+  "confidence": 0.4,
+  "rationale": "Jesus and the religious, possibly Nicodemus; encounters series.",
+  "pass": 1
+ },
+ "3fDWjjaHIAFBVIGTtgiRus": {
+  "_episode": "The Scripture Practice Pt 3: Study - John Mark Comer",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.8,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.75"
+ },
+ "3fPaIVibuceRroq9ULp5qP": {
+  "_episode": "My Prayer For You - Dr. Kenneth C. Ulmer",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.45,
+  "rationale": "Guest sermon; theme only (maybe Paul prayer).",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "unknown  0.0"
+ },
+ "3i1vA8EE79U4JraFV114KF": {
+  "_episode": "Hearing God: Discernment - Tyler Staton",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.8,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.65"
+ },
+ "3qDg0Wwp7pVs0ldXd2S0wx": {
+  "_episode": "Beyond Culture Wars: Luke Bretherton - Santa Monica, November 7th, 2021",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "unclear",
+  "pass1": "topical  0.9"
+ },
+ "3v9I9OlNubNbTsPgYCHvA9": {
+  "_episode": "The Day Is on Its Way: Here It Is - Jeff Han",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.4,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "unclear",
+  "pass1": "unknown  0.0"
+ },
+ "3zrZsbsrFrhvIb3Tm4fVvs": {
+  "_episode": "The Truth About Lies, Part Six: The Way of the Cross - Jonny Bell - Santa Monica, April 10th, 2022",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.45,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.45"
+ },
+ "401cb1f59oDoGEqHvnDwxy": {
+  "_episode": "Experience Formation in Relationship - Kristen Maynard",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.6,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "topical  0.6"
+ },
+ "40eAVOFq1diYE7PyTFoBA1": {
+  "_episode": "The Truth About Lies, Part Four: How To Win the Battle of the Flesh - Ger Jones - Santa Monica, March 27th, 2022",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "galatians",
+    "start": 5,
+    "end": 5
+   }
+  ],
+  "confidence": 0.55,
+  "rationale": "Battle of the flesh suggests Galatians 5.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book galatians 0.3"
+ },
+ "41ltm1BEJd9ytaXrIdP1K2": {
+  "_episode": "A Time of Renewal Part 6: Renewed Calling - Ger Jones - March 26, 2023",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.5"
+ },
+ "435zlBHRMK2cPQ289ZFAYF": {
+  "_episode": "The Nature of Desire - Bishop Todd Hunter",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.6,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "topical  0.5"
+ },
+ "43W3QTh5U8P6OiWRqaA4G1": {
+  "_episode": "The Local Church Is The Hope of the World - Charles Choe - Santa Monica, July 24th, 2022",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.6,
+  "rationale": "Church topic, no text evident.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "topical  0.5"
+ },
+ "482CruAJ0gEfvYTQQrumwL": {
+  "_episode": "The Three Levels of Faith - John Mark Comer - February 5, 2023",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.6,
+  "rationale": "Guest talk on faith; no text evident.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "topical  0.6"
+ },
+ "4ES7oPfhuR4TbPGrrb5BFq": {
+  "_episode": "The Community Practice: 03 - Confess Your Sins - John Mark Comer",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.7,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.55"
+ },
+ "4EaOSlm6SfzQlYlwHwCdo9": {
+  "_episode": "The Danger of Drifting - Kristen Maynard",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "hebrews",
+    "start": 2,
+    "end": 2
+   }
+  ],
+  "confidence": 0.8,
+  "rationale": "Danger of drifting is Hebrews 2:1-4.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "book hebrews 0.8"
+ },
+ "4IYPHLecQKzhOnXphV2gNE": {
+  "_episode": "Never Lose The Wonder - Ger Jones - Santa Monica, December 12th, 2021",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Advent theme sermon, no text evident.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "topical  0.6"
+ },
+ "4KxCtZdjOhV28TbFKkWUYC": {
+  "_episode": "The Solitude Practice 03: Encounter with Our Enemy - John Mark Comer",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.75,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "unclear",
+  "pass1": "topical  0.7"
+ },
+ "4NdeTa2DOoqGij0m3FjKh2": {
+  "_episode": "Easter - Ger Jones",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Holiday sermon with no evident text.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "unknown  0.0"
+ },
+ "4RBYhCfEqfKorpqIsUgdh5": {
+  "_episode": "The Solitude Practice 04: Encounter with Our God - John Mark Comer",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.75,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "unclear",
+  "pass1": "topical  0.7"
+ },
+ "4RmHNdnDioQicTiMHU2WKe": {
+  "_episode": "Encounters with Jesus, Part One: Jesus and the Skeptic - Ger Jones - Santa Monica, June 5th, 2022",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john"
+   }
+  ],
+  "confidence": 0.55,
+  "rationale": "Encounters with Jesus series, likely John; skeptic maybe Nicodemus/Thomas.",
+  "pass": 1
+ },
+ "4VZsDH6WvohC03Z9HcZMpz": {
+  "_episode": "Discipleship Pathway at Vintage - Ger Jones - September 10, 2023",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.9,
+  "rationale": "Church discipleship pathway vision.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "topical  0.9"
+ },
+ "4a34w7X3V1wGD3qWkLfG4g": {
+  "_episode": "The Love of the Father - Ben Woodman",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.45,
+  "rationale": "Guest sermon on the Father's love; text unknown.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "unknown  0.0"
+ },
+ "4b262BUfmN6owVRNN4uJie": {
+  "_episode": "The Community Practice: 02 - Share Your Joys and Sorrows - John Mark Comer",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.7,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.6"
+ },
+ "4dmc5VY4zlZNNQBAwmn21x": {
+  "_episode": "Advent: When God Takes a Really Long Time - Jonny Bell",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.4,
+  "rationale": "Advent waiting theme; text unclear.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "4ie2LFVztXlftpTWL7BcLr": {
+  "_episode": "The Truth About Lies, Part One: Deceptive Ideas - Ger Jones - Santa Monica, February 27th, 2022",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.45"
+ },
+ "4j7WaBOLOQlEg4hYptJ7bn": {
+  "_episode": "FOCUS 2024 Main Tent Session 2 - John Mark Comer",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.8,
+  "rationale": "Conference main-session talk.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "topical  0.8"
+ },
+ "4kKtByl0xPihrlonKHucDX": {
+  "_episode": "FOCUS 2024 Main Tent Session 3 - Jason Ballard",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.8,
+  "rationale": "Conference main-session talk.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "topical  0.8"
+ },
+ "4kUXAcQZCzVQqdRgcJ1FoJ": {
+  "_episode": "The Holy Spirit, Part Two: Words Of Knowledge - Ash Meaney - Santa Monica, May 1st, 2022",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.7,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.65"
+ },
+ "4kvzWmgq5mjmjnWB5FNNoa": {
+  "_episode": "The Truth About Lies, Part Three: The Battle Within - Ger Jones - Santa Monica, March 20th, 2022",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "romans",
+    "start": 7,
+    "end": 7
+   }
+  ],
+  "confidence": 0.5,
+  "rationale": "Battle within suggests Romans 7.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book romans 0.3"
+ },
+ "4qnMlbWj9MGoe7b2QUAhXR": {
+  "_episode": "The 7 Essentials of Raising and Discipling Kids in L.A - Jim Knight",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.95,
+  "rationale": "Parenting seminar-style talk.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "topical  0.95"
+ },
+ "4t4Pzg19XZuwS4nFhcx7jt": {
+  "_episode": "Encounters with Jesus, Part Eleven: Jesus the Servant - Ash Meaney - Santa Monica, August 28th, 2022",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 13,
+    "end": 13
+   }
+  ],
+  "confidence": 0.7,
+  "rationale": "Jesus the servant, foot washing John 13.",
+  "pass": 1
+ },
+ "50kWeqYjzze8h0tl9rf5Qg": {
+  "_episode": "Redemptive Suffering - Tyler Staton",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "unknown  0.0"
+ },
+ "52SIsWVWV9MSsjFdbupaLM": {
+  "_episode": "The Holy Spirit, Part Three - Presence - Jamie Heath - Santa Monica, May 8th, 2022",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.7,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.65"
+ },
+ "52fUA9HBvPGx9tA46SzeqY": {
+  "_episode": "Vision Series 2022: Practicing The Way With Jesus - Ger Jones - Santa Monica, September 18th, 2022",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.85,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.85"
+ },
+ "540iYYgeHCQyjvKZFI0Cbi": {
+  "_episode": "FOCUS 2024: Men's Gathering - Dave Dealy",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.6,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "topical  0.85"
+ },
+ "5883yYTMRiNCKt6ICiUkdK": {
+  "_episode": "Easter - Ger Jones - April 7, 2023",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Easter message, no text evident.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "unknown  0.0"
+ },
+ "58cm6kIWPjQoylNqbbogWs": {
+  "_episode": "The Holy Spirit, Part Four: Gifts And Prophecy - Ger Jones - Santa Monica, May 15th 2022",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.7,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.65"
+ },
+ "5F9Y2XkiiWlhCpGKJlGSio": {
+  "_episode": "The Awe and Intimacy of Jesus - Victor Maynard",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.45,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "unknown  0.0"
+ },
+ "5LBbeYIYgJVW7f8PvMnxv2": {
+  "_episode": "Spiritual Warfare - Ted Chen - Santa Monica, January 2nd, 2022",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Spiritual warfare topic by guest speaker.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "unknown  0.0"
+ },
+ "5RbX6jwPQCHogcyLwMJRPC": {
+  "_episode": "God's Swap Meet - Dr. Kenneth C. Ulmer - July 16, 2023",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.45,
+  "rationale": "Guest sermon by Ulmer; theme only.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "unknown  0.0"
+ },
+ "5TtdmCXH9fikZfDdoBHCy5": {
+  "_episode": "Growing Church: Rethinking and Growing in Generosity - Ger Jones",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.8,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.7"
+ },
+ "5UKtR7nOgTVdOYNM7rMKzg": {
+  "_episode": "Vision Series 2022: Telling Others - Ger Jones - Santa Monica, September 11th, 2022",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.85,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.85"
+ },
+ "5ViRKh1qLiq1gMd7XwbJfp": {
+  "_episode": "I Struggle With...Difficult Conversations - Dr. Henry Cloud - Santa Monica, August 8th, 2021",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.7,
+  "rationale": "\"I Struggle With\" topical series.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "topical  0.65"
+ },
+ "5YNWYRNEPD4dgqCXPdSQeh": {
+  "_episode": "FOCUS 2024 Main Tent Session 1 - Sarah Jackson",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.8,
+  "rationale": "Conference main-session talk.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "topical  0.8"
+ },
+ "5YuLcDjIShU7sRSglw3KtH": {
+  "_episode": "How Growth Happens - Dr. Henry Cloud - July 23, 2023",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.9,
+  "rationale": "Henry Cloud talk on growth.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "topical  0.9"
+ },
+ "5dFtKHpLrCG0fpwHaEQwFG": {
+  "_episode": "A Different Kind of King - David Dealy",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "unknown  0.0"
+ },
+ "5eefThbOl5MmIhucZEaUfS": {
+  "_episode": "Lent: Healing Through The Wilderness - Ger Jones - Santa Monica, February 20th, 2022",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.4"
+ },
+ "5j0dwOAdhVUD10a4Jh5Pa3": {
+  "_episode": "Light in the Darkness - Ger Jones",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.4,
+  "rationale": "Light in darkness could be John 1 or Isaiah 9; unclear.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "unknown  0.0"
+ },
+ "5leRx1LvPtOoACEGbqmsv9": {
+  "_episode": "Vision Series 2022: Sent - Ger Jones - Santa Monica, September 4th, 2022",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.85,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.85"
+ },
+ "5uDIIVx83Mf43DQn436Erm": {
+  "_episode": "Team Sunday - Ger Jones - September 24, 2023",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.85,
+  "rationale": "Team Sunday church-life message.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "topical  0.85"
+ },
+ "5uEHj6lGxSKAzTxat7ZGbP": {
+  "_episode": "Controversial Compassion - Ger Jones - August 13, 2023",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "exodus",
+    "start": 34,
+    "end": 34
+   }
+  ],
+  "confidence": 0.6,
+  "rationale": "Compassion attribute from Ex 34:6 in Exodus run.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "book exodus 0.4"
+ },
+ "5uxnSwno2xWTzCgIqbsUVK": {
+  "_episode": "Orphans to Heirs ft. Ash Meaney - September 27, 2021",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.45,
+  "rationale": "Orphans to heirs theme (Rom 8/Gal 4 likely) but text not given.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "unknown  0.0"
+ },
+ "5y1K9ujZqcaY2MQ670J5zH": {
+  "_episode": "Vision Sunday: Better Together",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.9,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "unclear",
+  "pass1": "topical  0.9"
+ },
+ "619O3byuk1UWSZWXbJCSgt": {
+  "_episode": "A Time of Renewal Part 4: Renewing Generosity - Ger Jones - March 12, 2023",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.6,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.5"
+ },
+ "61UVdXNKdvcgQCrObALxjU": {
+  "_episode": "Encounters with Jesus, Part Three: Jesus and the Outcast - Ger Jones - Santa Monica, June 19th, 2022",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 4,
+    "end": 4
+   }
+  ],
+  "confidence": 0.45,
+  "rationale": "Jesus and the outcast, possibly Samaritan woman.",
+  "pass": 1
+ },
+ "62FWJhZfo8jrHPPxjrUElK": {
+  "_episode": "Growing Church in Discipleship - Ger Jones",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.7,
+  "rationale": "Church vision series.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "topical  0.7"
+ },
+ "69qPOBSiKcqKoxA48rpJ8E": {
+  "_episode": "The Truth About Lies, Part Five: Going Against the Flow - Ger Jones - Santa Monica, March 27th, 2022",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.45,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.4"
+ },
+ "6B9B6AR18Y13UVJ9kSr5xb": {
+  "_episode": "Celebration Sunday - A Church Alive - David Dealy",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.8,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "unclear",
+  "pass1": "topical  0.8"
+ },
+ "6PgIkydqWLGwUG5L8hmv6M": {
+  "_episode": "Generosity: Watch Out for Greed! - John Mark Comer",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "luke",
+    "start": 12,
+    "end": 12
+   }
+  ],
+  "confidence": 0.6,
+  "rationale": "Watch out for greed is Luke 12:15.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book luke 0.5"
+ },
+ "6QMwwkSn8AvjXCenFOzZXX": {
+  "_episode": "Life After Easter Part 3: Spirit Empowered Life - Darren Rouanzoin - April 30, 2023",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "acts",
+    "start": 2,
+    "end": 2
+   }
+  ],
+  "confidence": 0.5,
+  "rationale": "Spirit-empowered life suggests Acts 2.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book acts 0.4"
+ },
+ "6RL0ho8YQrr4NMj2TTjjPQ": {
+  "_episode": "The Holy Spirit: Presence - Glen Packiam - Santa Monica, April 24th, 2022",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.7,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.65"
+ },
+ "6YF592GtftMjfdanY5zp8Z": {
+  "_episode": "Jesus + Maturity - Ger Jones - Santa Monica, November 21st, 2021",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.65,
+  "rationale": "Jesus + series, maturity topic.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "topical  0.6"
+ },
+ "6YgsqZv1i0RFMzPtpXov06": {
+  "_episode": "Encounters with Jesus, Part Five: Jesus and the Hungry - Ash Meaney - Santa Monica, July 3rd, 2022",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 6,
+    "end": 6
+   }
+  ],
+  "confidence": 0.7,
+  "rationale": "Jesus and the hungry, feeding/bread of life.",
+  "pass": 1
+ },
+ "6ZRqOHBkaLMuRnE4U1lB9l": {
+  "_episode": "Good Friday - Jonny Bell - April 5, 2023",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Good Friday message, no text evident.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "unknown  0.0"
+ },
+ "6fvspEVdg9F4CHqqWGjUWs": {
+  "_episode": "FOCUS 2024: Jesus, Los Angeles, and Social Transformation - Sarah Chase",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.8,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "topical  0.85"
+ },
+ "6hWkF05fhyGQXwtMTTJnVj": {
+  "_episode": "Life After Easter Part 2: The Great Commission - Ger Jones - April 23, 2023",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 28,
+    "end": 28
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "Great Commission, Matthew 28:16-20.",
+  "pass": 1
+ },
+ "6mAgH0t20HwgWxAWn3MvEy": {
+  "_episode": "Cultivating Gratitude - David Dealy",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.6,
+  "rationale": "Gratitude topic.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "topical  0.6"
+ },
+ "6mcZ8zOOMzZ4Sf0Pr2kRQo": {
+  "_episode": "Stay Together to Grow - John Mark Comer",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.6,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "topical  0.6"
+ },
+ "6ndug63Lpuls1onneQ5vhj": {
+  "_episode": "Forgiveness Part 1 - Amy Orr-Ewing",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.5"
+ },
+ "6qT8JsMiJOKpgtPKAm4X8o": {
+  "_episode": "Generosity: There is More Joy in Giving than Receiving - John Mark Comer",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "acts",
+    "start": 20,
+    "end": 20
+   }
+  ],
+  "confidence": 0.55,
+  "rationale": "Joy in giving is Acts 20:35.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book acts 0.35"
+ },
+ "6wC4W8mwnH42eWe6r6MM2w": {
+  "_episode": "Encounters with Jesus, Part Six: Jesus and the Blind Man - Ger Jones - Santa Monica, July 17th, 2022",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 9,
+    "end": 9
+   }
+  ],
+  "confidence": 0.45,
+  "rationale": "Blind man, probably John 9 but could be Bartimaeus.",
+  "pass": 1
+ },
+ "73pVuUihyvSixMnvSOX9AG": {
+  "_episode": "Fasting Pt 2: Holiness - John Mark Comer",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.75,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.65"
+ },
+ "74zM7cKSWxspFfmoBesS9W": {
+  "_episode": "Garden, Temple, City",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Biblical-theology theme, no single text.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "topical  0.5"
+ },
+ "7B0DHH3xUz6hbT5nDgLpzc": {
+  "_episode": "Alpha Sunday: Rethinking My Faith ft. Ger Jones - September 19, 2021",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "unclear",
+  "pass1": "topical  0.8"
+ },
+ "7DAlBQiMi4lAOCNfDE5Tjf": {
+  "_episode": "Encounters with Jesus, Part Seven: Jesus and the Wedding - Jonny Bell - Santa Monica, July 31st, 2022",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 2,
+    "end": 2
+   }
+  ],
+  "confidence": 0.85,
+  "rationale": "Wedding at Cana.",
+  "pass": 1
+ },
+ "7EclLyEx6hD0x04bmc6CQu": {
+  "_episode": "Jesus + The Gospel - Ger Jones - Santa Monica, October 10th, 2021",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.65,
+  "rationale": "Jesus + series, gospel topic.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "topical  0.6"
+ },
+ "7GUMTKgkWR8JXMy38YL0LX": {
+  "_episode": "The Bride of Christ: Cultivating a Harder Prayer - Bethany Allen",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "unclear",
+  "pass1": "topical  0.5"
+ },
+ "7JLUxgKTOakbT5pTSsLJhf": {
+  "_episode": "A Time of Renewal - Ger Jones - February 19, 2023",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Renewal theme, no text evident.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "unknown  0.0"
+ },
+ "7JPKUodbpB6fXmqdNrmHDB": {
+  "_episode": "Jesus + Race - Ger Jones - Santa Monica, November 14th, 2021",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.65,
+  "rationale": "Jesus + series, race topic.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "topical  0.6"
+ },
+ "7N0iXn0neGyavV3qSFKAHM": {
+  "_episode": "The Way of the Cross - Bishop Todd Hunter - August 27, 2023",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Guest topic on the cross, no text evident.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "topical  0.5"
+ },
+ "7aShmqkTpN99mlDzg2P9Yp": {
+  "_episode": "Stepping Into The Story of God - Ger Jones - Santa Monica, May 22nd, 2022",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Overview of God's story; thematic.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "topical  0.55"
+ },
+ "7bCW33gpYGeZm2VFEZgYpv": {
+  "_episode": "Parent's Night ft. Katherine Wolf - Santa Monica - October 26, 2022",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Parents' Night talk with guest; could be testimony-style but treated as teaching.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "topical  0.85"
+ },
+ "7bFZ44fSDjd2b3cicw3ZCz": {
+  "_episode": "Why the Plagues? - Ger Jones - October 1, 2023",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "exodus",
+    "start": 7,
+    "end": 12
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "Plagues of Egypt.",
+  "pass": 1
+ },
+ "7bOy1pVPp6wTB7tQrZIHe9": {
+  "_episode": "Finding Rest in Christ - Ger Jones",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 11,
+    "end": 11
+   }
+  ],
+  "confidence": 0.5,
+  "rationale": "Matthew 11:28-30 is the classic rest passage.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "book matthew 0.3"
+ },
+ "7eBwPbtvTiq7sFO8FiLQlv": {
+  "_episode": "FOCUS 2023: Church is Mission - Glenn Packiam",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.8,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "topical  0.85"
+ },
+ "7f1HsbaH9OzVAnoAfXuiZE": {
+  "_episode": "Healing the Relationships We Were Made For - Ger Jones",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.6,
+  "rationale": "Thematic talk with no single primary text.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "topical  0.4"
+ },
+ "7nhvVTWDoYWv3dDMKFcKVR": {
+  "_episode": "Invited into the Kingdom - Victor Maynard",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.4,
+  "rationale": "Kingdom invitation; text not evident.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "book matthew 0.35"
+ },
+ "7nzRwUjJecGCJxKliyPRae": {
+  "_episode": "The Surprising Rebirth of Belief in God - Justin Brierley",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.95,
+  "rationale": "Apologetics-style talk.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "topical  0.95"
+ },
+ "7sBrUzfl65YmD6Xj75wl1r": {
+  "_episode": "Advent - Light of the World - Ger Jones - December 18, 2022",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 8,
+    "end": 8
+   }
+  ],
+  "confidence": 0.45,
+  "rationale": "Light of the World suggests John 8 or John 1.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book john 0.35"
+ },
+ "7wZWSA6A4QmnR4zmbcaJeZ": {
+  "_episode": "Our God Who Restores - Dr. Henry Cloud - Santa Monica, May 16th, 2021",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.6,
+  "rationale": "Guest talk by Henry Cloud on restoration; theme-driven.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "topical  0.6"
+ },
+ "7yCSHbOVeEEvZjEvKDba2t": {
+  "_episode": "Jesus + Singleness - Bethany Allen - Santa Monica, December 5th, 2021",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.65,
+  "rationale": "Jesus + series, singleness topic.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "topical  0.6"
+ },
+ "be-filled-with-the-holy-spirit-ft-bishop-hunter-santa-monica": {
+  "_episode": "Be Filled with the Holy Spirit ft. Bishop Hunter - Santa Monica - November 27, 2022",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "ephesians",
+    "start": 5,
+    "end": 5
+   }
+  ],
+  "confidence": 0.5,
+  "rationale": "Be filled with the Spirit is Eph 5:18.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "book ephesians 0.4"
+ }
+}

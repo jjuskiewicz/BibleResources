@@ -276,6 +276,12 @@ def main() -> None:
                     help='title segment starting with this is the series, e.g. "Saturated" (repeatable)')
     ap.add_argument("--strip", action="append", default=[], help='phrase to remove from titles, e.g. "Santa Monica" (repeatable)')
     ap.add_argument("--min-minutes", type=float, default=20, help="shorter episodes are treated as devotionals/clips")
+    ap.add_argument("--ai-min-confidence", type=float, default=0.85,
+                    help="apply scraping/<church>_ai_tags.json book tags at or above this confidence (1.01 disables)")
+    ap.add_argument("--series-min-confidence", type=float, default=0.85,
+                    help="apply scraping/<church>_series_tags.json (book shared across a series) at or above this")
+    ap.add_argument("--non-sermon-min-confidence", type=float, default=0.7,
+                    help="exclude episodes the AI labelled non_sermon (interviews, Q&A, prayer nights) at or above this")
     args = ap.parse_args()
 
     STRIP_PHRASES.extend(args.strip)
@@ -285,6 +291,12 @@ def main() -> None:
     episodes = json.loads(args.input.read_text())
     ov_path = ROOT / "scraping" / f"{args.church}_overrides.json"
     overrides = json.loads(ov_path.read_text()) if ov_path.exists() else {}
+    ai_path = ROOT / "scraping" / f"{args.church}_ai_tags.json"
+    ai_tags = json.loads(ai_path.read_text()) if ai_path.exists() else {}
+    st_path = ROOT / "scraping" / f"{args.church}_series_tags.json"
+    series_tags = json.loads(st_path.read_text()) if st_path.exists() else {}
+    sl_path = ROOT / "scraping" / f"{args.church}_series.json"
+    series_links = json.loads(sl_path.read_text()) if sl_path.exists() else {}
 
     # A " - Some Words" title suffix is only trusted as a speaker if it recurs across episodes,
     # appears in the description, or starts with "Dr." (filters out "Series - Missional Prayer").
@@ -361,6 +373,7 @@ def main() -> None:
             "tags": [],
             "source": args.source,
             "durationMin": round(mins),
+            "refSource": "regex" if refs else "",
         }
         ov = overrides.get(ep_id, {})
         if ov:
@@ -368,12 +381,39 @@ def main() -> None:
             status = "excluded" if ov.get("exclude") else ("mapped" if rec["refs"] else "unmapped")
             if "refs" in ov and "passage" not in ov:
                 rec["passage"] = ""  # site will generate from refs
+            if "refs" in ov:
+                rec["refSource"] = "manual"
+        # AI tags fill only what regex and hand overrides left unmapped; never touch excluded episodes.
+        ai = ai_tags.get(ep_id, {})
+        if status == "unmapped" and ai.get("kind") == "book" and ai.get("refs") \
+                and ai.get("confidence", 0) >= args.ai_min_confidence:
+            rec.update(refs=ai["refs"], passage="", refSource="ai", aiConfidence=ai["confidence"])
+            status = "mapped"
+        stag = series_tags.get(ep_id, {})
+        if status == "unmapped" and stag.get("confidence", 0) >= args.series_min_confidence:
+            rec.update(refs=stag["refs"], passage="", refSource="series", aiConfidence=stag["confidence"])
+            status = "mapped"
+        if status == "unmapped" and ai.get("kind") == "non_sermon" \
+                and ai.get("confidence", 0) >= args.non_sermon_min_confidence and not ov:
+            status = "excluded"
+        link = series_links.get(ep_id)
+        if link:
+            rec["seriesKey"] = link["key"]
+            if not rec["series"] and link["basis"] == "desc":  # 'From the series "X"' - a real name, not a wk-run
+                rec["series"] = link["name"]
+        if not rec["refs"]:
+            rec.pop("refSource", None)
 
         review.append({
             "episode_id": ep_id, "status": status, "date": rec["date"], "series": rec["series"],
             "title": rec["title"], "speaker": rec["speaker"], "minutes": rec["durationMin"],
             "passage": rec["passage"], "other_refs_in_desc": "; ".join(r["_label"] for r in all_refs[len(refs):]),
             "overridden": "yes" if ov else "", "spotify_title": ep["title"],
+            "ref_source": rec.get("refSource", ""), "ai_kind": ai.get("kind", ""),
+            "ai_confidence": ai.get("confidence", ""),
+            "ai_refs": "; ".join(f'{r["book"]} {r.get("start", "")}'.strip() for r in ai.get("refs", [])),
+            "ai_rationale": ai.get("rationale", ""), "ai_pass": ai.get("pass", ""),
+            "series_key": link["key"] if link else "", "series_tag": stag.get("basis", ""),
         })
         if status == "mapped":
             sermons.append(rec)

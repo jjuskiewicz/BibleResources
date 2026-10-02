@@ -1,0 +1,106 @@
+{
+ "1qzRU9IcPlkr6q9nLI5fgV": {
+  "_episode": "Rediscovering Church: The Word of God - Suzy Silk",
+  "refs": [
+   {
+    "book": "1-thessalonians",
+    "start": 2,
+    "end": 2
+   }
+  ],
+  "confidence": 0.97,
+  "basis": "Rediscovering Church (rediscovering church|2023-07): 1-thessalonians 8.0/8.0 votes"
+ },
+ "2Etuf45Ekyj6ZHemlIexu8": {
+  "_episode": "Church In A Time of Crisis: Restorative Goodness in a Time of Brokenness - Jon Tyson",
+  "refs": [
+   {
+    "book": "galatians",
+    "start": 5,
+    "end": 5
+   }
+  ],
+  "confidence": 0.97,
+  "basis": "Church in A Time of Crisis (church in a time of crisis|2020-03): galatians 4.2/4.2 votes"
+ },
+ "2ZUCshgERUTSG9C9I5HGF5": {
+  "_episode": "FOLLOW | Worshipping - Raegan Griffith",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 26,
+    "end": 26
+   }
+  ],
+  "confidence": 0.97,
+  "basis": "FOLLOW (follow|2026-06): matthew 10.0/10.0 votes"
+ },
+ "4E6YVZaN66hWlfRzZuUnTp": {
+  "_episode": "Come to Me | Who is Jesus? - Jon Tyson",
+  "refs": [
+   {
+    "book": "john"
+   }
+  ],
+  "confidence": 0.85,
+  "basis": "Come to Me (come to me|2026-02): john 7.2/8.2 votes"
+ },
+ "597IbYwe0FXc8dURG1usi6": {
+  "_episode": "Church In A Time of Crisis: Defiant Joy in a Time of Despair - Jon Tyson",
+  "refs": [
+   {
+    "book": "galatians",
+    "start": 5,
+    "end": 5
+   }
+  ],
+  "confidence": 0.97,
+  "basis": "Church in A Time of Crisis (church in a time of crisis|2020-03): galatians 4.2/4.2 votes"
+ },
+ "5M6KbNpOUw3I6DSQROHbPB": {
+  "_episode": "Church In A Time of Crisis: Transcendent Peace in a Time of Anxiety - Jon Tyson",
+  "refs": [
+   {
+    "book": "galatians",
+    "start": 5,
+    "end": 5
+   }
+  ],
+  "confidence": 0.97,
+  "basis": "Church in A Time of Crisis (church in a time of crisis|2020-03): galatians 4.2/4.2 votes"
+ },
+ "5x7AvLdRRhlM535bbW7B5H": {
+  "_episode": "Church In A Time of Crisis: Kindness in a Time of Harshness - Jon Tyson",
+  "refs": [
+   {
+    "book": "galatians",
+    "start": 5,
+    "end": 5
+   }
+  ],
+  "confidence": 0.97,
+  "basis": "Church in A Time of Crisis (church in a time of crisis|2020-03): galatians 4.2/4.2 votes"
+ },
+ "6QCbIlGVPDduQKcySpq33f": {
+  "_episode": "FOLLOW | Loving - Tim Brown",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 22,
+    "end": 22
+   }
+  ],
+  "confidence": 0.97,
+  "basis": "FOLLOW (follow|2026-06): matthew 10.0/10.0 votes"
+ },
+ "7xGxWPl7EfBu7V6vtuix44": {
+  "_episode": "Rediscovering Church: Letter From the Persecuted Church - Ashley Anderson",
+  "refs": [
+   {
+    "book": "1-thessalonians"
+   }
+  ],
+  "confidence": 0.97,
+  "basis": "Rediscovering Church (rediscovering church|2023-07): 1-thessalonians 8.0/8.0 votes"
+ }
+}

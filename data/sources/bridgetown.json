@@ -17,7 +17,8 @@
     "url": "https://open.spotify.com/episode/0Ylm7iCuhkHmHdEreS7A0z",
     "tags": [],
     "source": "rss",
-    "durationMin": 49
+    "durationMin": 49,
+    "refSource": "regex"
   },
   {
     "id": "bridgetown-1a3clD9r8HDRKIgpu3zL9c",
@@ -37,7 +38,8 @@
     "url": "https://open.spotify.com/episode/1a3clD9r8HDRKIgpu3zL9c",
     "tags": [],
     "source": "rss",
-    "durationMin": 42
+    "durationMin": 42,
+    "refSource": "regex"
   },
   {
     "id": "bridgetown-7kurSnyvZJUxS5CfUPQQVY",
@@ -57,7 +59,8 @@
     "url": "https://open.spotify.com/episode/7kurSnyvZJUxS5CfUPQQVY",
     "tags": [],
     "source": "rss",
-    "durationMin": 42
+    "durationMin": 42,
+    "refSource": "regex"
   },
   {
     "id": "bridgetown-1zy5J9VsRA1tH2A6pWwxDz",
@@ -77,7 +80,8 @@
     "url": "https://open.spotify.com/episode/1zy5J9VsRA1tH2A6pWwxDz",
     "tags": [],
     "source": "rss",
-    "durationMin": 50
+    "durationMin": 50,
+    "refSource": "regex"
   },
   {
     "id": "bridgetown-6Bdor4kt2F1oaOFyXHsMYT",
@@ -97,7 +101,8 @@
     "url": "https://open.spotify.com/episode/6Bdor4kt2F1oaOFyXHsMYT",
     "tags": [],
     "source": "rss",
-    "durationMin": 49
+    "durationMin": 49,
+    "refSource": "regex"
   },
   {
     "id": "bridgetown-3BccHmrgZjZugrF8GdF4NK",
@@ -117,7 +122,8 @@
     "url": "https://open.spotify.com/episode/3BccHmrgZjZugrF8GdF4NK",
     "tags": [],
     "source": "rss",
-    "durationMin": 51
+    "durationMin": 51,
+    "refSource": "regex"
   },
   {
     "id": "bridgetown-2hjWEKDiDKNginypyRUzST",
@@ -137,7 +143,8 @@
     "url": "https://open.spotify.com/episode/2hjWEKDiDKNginypyRUzST",
     "tags": [],
     "source": "rss",
-    "durationMin": 43
+    "durationMin": 43,
+    "refSource": "regex"
   },
   {
     "id": "bridgetown-0zse9i8M9AElFa6UigaFEi",
@@ -157,7 +164,8 @@
     "url": "https://open.spotify.com/episode/0zse9i8M9AElFa6UigaFEi",
     "tags": [],
     "source": "rss",
-    "durationMin": 50
+    "durationMin": 50,
+    "refSource": "regex"
   },
   {
     "id": "bridgetown-2k772OVe02AcMY5b3DWmXJ",
@@ -177,7 +185,8 @@
     "url": "https://open.spotify.com/episode/2k772OVe02AcMY5b3DWmXJ",
     "tags": [],
     "source": "rss",
-    "durationMin": 43
+    "durationMin": 43,
+    "refSource": "regex"
   },
   {
     "id": "bridgetown-0jJmk7FrJVVxQkXmZEJEUq",
@@ -197,7 +206,8 @@
     "url": "https://open.spotify.com/episode/0jJmk7FrJVVxQkXmZEJEUq",
     "tags": [],
     "source": "rss",
-    "durationMin": 44
+    "durationMin": 44,
+    "refSource": "regex"
   },
   {
     "id": "bridgetown-53m2LcF463ePwD5R1yoUNF",
@@ -217,7 +227,8 @@
     "url": "https://open.spotify.com/episode/53m2LcF463ePwD5R1yoUNF",
     "tags": [],
     "source": "rss",
-    "durationMin": 39
+    "durationMin": 39,
+    "refSource": "regex"
   },
   {
     "id": "bridgetown-1sXTorWaRgOIGzff9iA4Tr",
@@ -237,7 +248,8 @@
     "url": "https://open.spotify.com/episode/1sXTorWaRgOIGzff9iA4Tr",
     "tags": [],
     "source": "rss",
-    "durationMin": 60
+    "durationMin": 60,
+    "refSource": "regex"
   },
   {
     "id": "bridgetown-3k9vxIq9e15z4fzDvNNVu4",
@@ -257,7 +269,8 @@
     "url": "https://open.spotify.com/episode/3k9vxIq9e15z4fzDvNNVu4",
     "tags": [],
     "source": "rss",
-    "durationMin": 42
+    "durationMin": 42,
+    "refSource": "regex"
   },
   {
     "id": "bridgetown-1SB6zMIJrBMxRgYfwQexdj",
@@ -277,7 +290,8 @@
     "url": "https://open.spotify.com/episode/1SB6zMIJrBMxRgYfwQexdj",
     "tags": [],
     "source": "rss",
-    "durationMin": 43
+    "durationMin": 43,
+    "refSource": "regex"
   },
   {
     "id": "bridgetown-4bRupvBtT5XbUnUFzHlMe6",
@@ -297,7 +311,8 @@
     "url": "https://open.spotify.com/episode/4bRupvBtT5XbUnUFzHlMe6",
     "tags": [],
     "source": "rss",
-    "durationMin": 47
+    "durationMin": 47,
+    "refSource": "regex"
   },
   {
     "id": "bridgetown-4DD4yABgyFbIATx6L2awZU",
@@ -317,7 +332,8 @@
     "url": "https://open.spotify.com/episode/4DD4yABgyFbIATx6L2awZU",
     "tags": [],
     "source": "rss",
-    "durationMin": 44
+    "durationMin": 44,
+    "refSource": "regex"
   },
   {
     "id": "bridgetown-3GaFgbJ4ClAUREtd19bU2f",
@@ -337,7 +353,8 @@
     "url": "https://open.spotify.com/episode/3GaFgbJ4ClAUREtd19bU2f",
     "tags": [],
     "source": "rss",
-    "durationMin": 49
+    "durationMin": 49,
+    "refSource": "regex"
   },
   {
     "id": "bridgetown-4OcIEz6cH4ojd2ACmX3b0E",
@@ -357,7 +374,8 @@
     "url": "https://open.spotify.com/episode/4OcIEz6cH4ojd2ACmX3b0E",
     "tags": [],
     "source": "rss",
-    "durationMin": 57
+    "durationMin": 57,
+    "refSource": "regex"
   },
   {
     "id": "bridgetown-2FdteR0w8iC9JlNsbNrdKy",
@@ -377,7 +395,9 @@
     "url": "https://open.spotify.com/episode/2FdteR0w8iC9JlNsbNrdKy",
     "tags": [],
     "source": "rss",
-    "durationMin": 45
+    "durationMin": 45,
+    "refSource": "regex",
+    "seriesKey": "love in action peter|2026-05"
   },
   {
     "id": "bridgetown-4j0yETG9giEOi9vRI2fltl",
@@ -397,7 +417,9 @@
     "url": "https://open.spotify.com/episode/4j0yETG9giEOi9vRI2fltl",
     "tags": [],
     "source": "rss",
-    "durationMin": 42
+    "durationMin": 42,
+    "refSource": "regex",
+    "seriesKey": "love|2026-05"
   },
   {
     "id": "bridgetown-4K1uQr08Ne3cx5djR1dmDf",
@@ -417,7 +439,9 @@
     "url": "https://open.spotify.com/episode/4K1uQr08Ne3cx5djR1dmDf",
     "tags": [],
     "source": "rss",
-    "durationMin": 40
+    "durationMin": 40,
+    "refSource": "regex",
+    "seriesKey": "hope in action|2026-05"
   },
   {
     "id": "bridgetown-6Q2Uf0v6aXCsiaoTVuYyrY",
@@ -437,7 +461,9 @@
     "url": "https://open.spotify.com/episode/6Q2Uf0v6aXCsiaoTVuYyrY",
     "tags": [],
     "source": "rss",
-    "durationMin": 53
+    "durationMin": 53,
+    "refSource": "regex",
+    "seriesKey": "hope|2026-05"
   },
   {
     "id": "bridgetown-1g66055Xn7jsPp8HGxAjx5",
@@ -457,7 +483,9 @@
     "url": "https://open.spotify.com/episode/1g66055Xn7jsPp8HGxAjx5",
     "tags": [],
     "source": "rss",
-    "durationMin": 38
+    "durationMin": 38,
+    "refSource": "regex",
+    "seriesKey": "faith in action|2026-04"
   },
   {
     "id": "bridgetown-5dt8bO8qav0CoQFB52g4Vp",
@@ -477,7 +505,9 @@
     "url": "https://open.spotify.com/episode/5dt8bO8qav0CoQFB52g4Vp",
     "tags": [],
     "source": "rss",
-    "durationMin": 50
+    "durationMin": 50,
+    "refSource": "regex",
+    "seriesKey": "faith|2026-04"
   },
   {
     "id": "bridgetown-3Zzj6FfMVJFqLKt7F6qrHu",
@@ -497,7 +527,9 @@
     "url": "https://open.spotify.com/episode/3Zzj6FfMVJFqLKt7F6qrHu",
     "tags": [],
     "source": "rss",
-    "durationMin": 50
+    "durationMin": 50,
+    "refSource": "regex",
+    "seriesKey": "introduction|2026-04"
   },
   {
     "id": "bridgetown-1YXrgUQwSbDbxMzy8Iy77p",
@@ -517,7 +549,9 @@
     "url": "https://open.spotify.com/episode/1YXrgUQwSbDbxMzy8Iy77p",
     "tags": [],
     "source": "rss",
-    "durationMin": 44
+    "durationMin": 44,
+    "refSource": "regex",
+    "seriesKey": "easter|2026-04"
   },
   {
     "id": "bridgetown-5mlNIElsxNSm85SHhQphUx",
@@ -537,7 +571,9 @@
     "url": "https://open.spotify.com/episode/5mlNIElsxNSm85SHhQphUx",
     "tags": [],
     "source": "rss",
-    "durationMin": 58
+    "durationMin": 58,
+    "refSource": "regex",
+    "seriesKey": "the good news about our bodies|2026-02"
   },
   {
     "id": "bridgetown-0W1KYF9S22UfFxF637Ea3g",
@@ -557,7 +593,9 @@
     "url": "https://open.spotify.com/episode/0W1KYF9S22UfFxF637Ea3g",
     "tags": [],
     "source": "rss",
-    "durationMin": 56
+    "durationMin": 56,
+    "refSource": "regex",
+    "seriesKey": "the good news about our bodies|2026-02"
   },
   {
     "id": "bridgetown-4XBbprVQOnVIztoysXAmBS",
@@ -577,7 +615,9 @@
     "url": "https://open.spotify.com/episode/4XBbprVQOnVIztoysXAmBS",
     "tags": [],
     "source": "rss",
-    "durationMin": 50
+    "durationMin": 50,
+    "refSource": "regex",
+    "seriesKey": "the good news about our bodies|2026-02"
   },
   {
     "id": "bridgetown-4ueDS7y5hEYTClBxChXot4",
@@ -597,7 +637,9 @@
     "url": "https://open.spotify.com/episode/4ueDS7y5hEYTClBxChXot4",
     "tags": [],
     "source": "rss",
-    "durationMin": 55
+    "durationMin": 55,
+    "refSource": "regex",
+    "seriesKey": "the good news about our bodies|2026-02"
   },
   {
     "id": "bridgetown-62KDVLTYjZFdsbGPJ0LXAK",
@@ -617,7 +659,9 @@
     "url": "https://open.spotify.com/episode/62KDVLTYjZFdsbGPJ0LXAK",
     "tags": [],
     "source": "rss",
-    "durationMin": 52
+    "durationMin": 52,
+    "refSource": "regex",
+    "seriesKey": "the good news about our bodies|2026-02"
   },
   {
     "id": "bridgetown-1vd9koYcr7fNES5Del8VQA",
@@ -637,7 +681,9 @@
     "url": "https://open.spotify.com/episode/1vd9koYcr7fNES5Del8VQA",
     "tags": [],
     "source": "rss",
-    "durationMin": 50
+    "durationMin": 50,
+    "refSource": "regex",
+    "seriesKey": "the good news about our bodies|2026-02"
   },
   {
     "id": "bridgetown-2MncbwSjj7mQu7wkg8EQ7R",
@@ -657,7 +703,9 @@
     "url": "https://open.spotify.com/episode/2MncbwSjj7mQu7wkg8EQ7R",
     "tags": [],
     "source": "rss",
-    "durationMin": 43
+    "durationMin": 43,
+    "refSource": "regex",
+    "seriesKey": "7 deadly sins|2026-01"
   },
   {
     "id": "bridgetown-5GEeNgLNg8W2wSzQlLBxSg",
@@ -677,7 +725,9 @@
     "url": "https://open.spotify.com/episode/5GEeNgLNg8W2wSzQlLBxSg",
     "tags": [],
     "source": "rss",
-    "durationMin": 47
+    "durationMin": 47,
+    "refSource": "regex",
+    "seriesKey": "7 deadly sins|2026-01"
   },
   {
     "id": "bridgetown-17ylloG72nABhXUxdiB9Hv",
@@ -697,7 +747,9 @@
     "url": "https://open.spotify.com/episode/17ylloG72nABhXUxdiB9Hv",
     "tags": [],
     "source": "rss",
-    "durationMin": 49
+    "durationMin": 49,
+    "refSource": "regex",
+    "seriesKey": "7 deadly sins|2026-01"
   },
   {
     "id": "bridgetown-2JMEhb7IJHz4OEKNREgA3P",
@@ -717,7 +769,9 @@
     "url": "https://open.spotify.com/episode/2JMEhb7IJHz4OEKNREgA3P",
     "tags": [],
     "source": "rss",
-    "durationMin": 44
+    "durationMin": 44,
+    "refSource": "regex",
+    "seriesKey": "7 deadly sins|2026-01"
   },
   {
     "id": "bridgetown-167fRopwavHeRN3owUJPN8",
@@ -737,7 +791,9 @@
     "url": "https://open.spotify.com/episode/167fRopwavHeRN3owUJPN8",
     "tags": [],
     "source": "rss",
-    "durationMin": 53
+    "durationMin": 53,
+    "refSource": "regex",
+    "seriesKey": "7 deadly sins|2026-01"
   },
   {
     "id": "bridgetown-7GPIrQtsznJQixOLuP2gKU",
@@ -757,7 +813,9 @@
     "url": "https://open.spotify.com/episode/7GPIrQtsznJQixOLuP2gKU",
     "tags": [],
     "source": "rss",
-    "durationMin": 49
+    "durationMin": 49,
+    "refSource": "regex",
+    "seriesKey": "7 deadly sins|2026-01"
   },
   {
     "id": "bridgetown-2nlnEqnh5kMtjHdrn6Cw6I",
@@ -777,7 +835,9 @@
     "url": "https://open.spotify.com/episode/2nlnEqnh5kMtjHdrn6Cw6I",
     "tags": [],
     "source": "rss",
-    "durationMin": 49
+    "durationMin": 49,
+    "refSource": "regex",
+    "seriesKey": "7 deadly sins|2026-01"
   },
   {
     "id": "bridgetown-0N3hC6wjbjh3gNXBDJsBZu",
@@ -797,7 +857,9 @@
     "url": "https://open.spotify.com/episode/0N3hC6wjbjh3gNXBDJsBZu",
     "tags": [],
     "source": "rss",
-    "durationMin": 24
+    "durationMin": 24,
+    "refSource": "regex",
+    "seriesKey": "first light|2025-12"
   },
   {
     "id": "bridgetown-1uB9KbTlg8Ux1K1603c56e",
@@ -817,7 +879,9 @@
     "url": "https://open.spotify.com/episode/1uB9KbTlg8Ux1K1603c56e",
     "tags": [],
     "source": "rss",
-    "durationMin": 46
+    "durationMin": 46,
+    "refSource": "regex",
+    "seriesKey": "first light|2025-12"
   },
   {
     "id": "bridgetown-3ZjQ05xEMaw1QvWBeVoKzz",
@@ -837,7 +901,9 @@
     "url": "https://open.spotify.com/episode/3ZjQ05xEMaw1QvWBeVoKzz",
     "tags": [],
     "source": "rss",
-    "durationMin": 39
+    "durationMin": 39,
+    "refSource": "regex",
+    "seriesKey": "first light|2025-12"
   },
   {
     "id": "bridgetown-69KP8Os6pWwaiN5QgrgxsS",
@@ -857,7 +923,9 @@
     "url": "https://open.spotify.com/episode/69KP8Os6pWwaiN5QgrgxsS",
     "tags": [],
     "source": "rss",
-    "durationMin": 48
+    "durationMin": 48,
+    "refSource": "regex",
+    "seriesKey": "first light|2025-12"
   },
   {
     "id": "bridgetown-3vYOTgBXwaqyOe0hW7N2wN",
@@ -877,7 +945,9 @@
     "url": "https://open.spotify.com/episode/3vYOTgBXwaqyOe0hW7N2wN",
     "tags": [],
     "source": "rss",
-    "durationMin": 40
+    "durationMin": 40,
+    "refSource": "regex",
+    "seriesKey": "first light|2025-12"
   },
   {
     "id": "bridgetown-1YbXW2LeOQc6TAdIXqgFFV",
@@ -897,7 +967,9 @@
     "url": "https://open.spotify.com/episode/1YbXW2LeOQc6TAdIXqgFFV",
     "tags": [],
     "source": "rss",
-    "durationMin": 50
+    "durationMin": 50,
+    "refSource": "regex",
+    "seriesKey": "a prayer shaped life|2025-10"
   },
   {
     "id": "bridgetown-1bR4N334yoYwG12IvKqsHv",
@@ -917,7 +989,9 @@
     "url": "https://open.spotify.com/episode/1bR4N334yoYwG12IvKqsHv",
     "tags": [],
     "source": "rss",
-    "durationMin": 44
+    "durationMin": 44,
+    "refSource": "regex",
+    "seriesKey": "a prayer shaped life|2025-10"
   },
   {
     "id": "bridgetown-0YynEwx4hJcRNHHC3OV9Vi",
@@ -937,7 +1011,9 @@
     "url": "https://open.spotify.com/episode/0YynEwx4hJcRNHHC3OV9Vi",
     "tags": [],
     "source": "rss",
-    "durationMin": 52
+    "durationMin": 52,
+    "refSource": "regex",
+    "seriesKey": "a prayer shaped life|2025-10"
   },
   {
     "id": "bridgetown-6ZX4A41l68t9hiWIRaX9nO",
@@ -957,7 +1033,9 @@
     "url": "https://open.spotify.com/episode/6ZX4A41l68t9hiWIRaX9nO",
     "tags": [],
     "source": "rss",
-    "durationMin": 42
+    "durationMin": 42,
+    "refSource": "regex",
+    "seriesKey": "a prayer shaped life|2025-10"
   },
   {
     "id": "bridgetown-2rX0dOJGLpXIYcnsWUJb6k",
@@ -977,7 +1055,9 @@
     "url": "https://open.spotify.com/episode/2rX0dOJGLpXIYcnsWUJb6k",
     "tags": [],
     "source": "rss",
-    "durationMin": 44
+    "durationMin": 44,
+    "refSource": "regex",
+    "seriesKey": "a prayer shaped life|2025-10"
   },
   {
     "id": "bridgetown-2dTnIoycQhrlS3JJ0lsl6B",
@@ -997,7 +1077,9 @@
     "url": "https://open.spotify.com/episode/2dTnIoycQhrlS3JJ0lsl6B",
     "tags": [],
     "source": "rss",
-    "durationMin": 45
+    "durationMin": 45,
+    "refSource": "regex",
+    "seriesKey": "a prayer shaped life|2025-10"
   },
   {
     "id": "bridgetown-2IilgHPkTAcHgjmBp75TfX",
@@ -1017,7 +1099,9 @@
     "url": "https://open.spotify.com/episode/2IilgHPkTAcHgjmBp75TfX",
     "tags": [],
     "source": "rss",
-    "durationMin": 49
+    "durationMin": 49,
+    "refSource": "regex",
+    "seriesKey": "a prayer shaped life|2025-10"
   },
   {
     "id": "bridgetown-47QMGwqXsZUwQlD7D0pL1n",
@@ -1037,7 +1121,9 @@
     "url": "https://open.spotify.com/episode/47QMGwqXsZUwQlD7D0pL1n",
     "tags": [],
     "source": "rss",
-    "durationMin": 53
+    "durationMin": 53,
+    "refSource": "regex",
+    "seriesKey": "a prayer shaped life|2025-10"
   },
   {
     "id": "bridgetown-4H96D8XpdWVyvVQ1pUYqze",
@@ -1057,7 +1143,9 @@
     "url": "https://open.spotify.com/episode/4H96D8XpdWVyvVQ1pUYqze",
     "tags": [],
     "source": "rss",
-    "durationMin": 44
+    "durationMin": 44,
+    "refSource": "regex",
+    "seriesKey": "in portland as it is in heaven|2025-09"
   },
   {
     "id": "bridgetown-0Pw32tqoKxLqKfgP0dRIi4",
@@ -1077,7 +1165,9 @@
     "url": "https://open.spotify.com/episode/0Pw32tqoKxLqKfgP0dRIi4",
     "tags": [],
     "source": "rss",
-    "durationMin": 54
+    "durationMin": 54,
+    "refSource": "regex",
+    "seriesKey": "in portland as it is in heaven|2025-09"
   },
   {
     "id": "bridgetown-4QWwjAaU55Hrr0on9WQzOW",
@@ -1097,7 +1187,9 @@
     "url": "https://open.spotify.com/episode/4QWwjAaU55Hrr0on9WQzOW",
     "tags": [],
     "source": "rss",
-    "durationMin": 44
+    "durationMin": 44,
+    "refSource": "regex",
+    "seriesKey": "in portland as it is in heaven|2025-09"
   },
   {
     "id": "bridgetown-6X0cO05PKZIGh5mBl1zyXy",
@@ -1117,7 +1209,9 @@
     "url": "https://open.spotify.com/episode/6X0cO05PKZIGh5mBl1zyXy",
     "tags": [],
     "source": "rss",
-    "durationMin": 58
+    "durationMin": 58,
+    "refSource": "regex",
+    "seriesKey": "in portland as it is in heaven|2025-09"
   },
   {
     "id": "bridgetown-3XNctCfwgDbpCMcZUzeGiH",
@@ -1137,7 +1231,9 @@
     "url": "https://open.spotify.com/episode/3XNctCfwgDbpCMcZUzeGiH",
     "tags": [],
     "source": "rss",
-    "durationMin": 46
+    "durationMin": 46,
+    "refSource": "regex",
+    "seriesKey": "genesis|2025-07"
   },
   {
     "id": "bridgetown-4LIXDlpZ0n7XFXytzdRaEa",
@@ -1157,7 +1253,9 @@
     "url": "https://open.spotify.com/episode/4LIXDlpZ0n7XFXytzdRaEa",
     "tags": [],
     "source": "rss",
-    "durationMin": 47
+    "durationMin": 47,
+    "refSource": "regex",
+    "seriesKey": "genesis|2025-07"
   },
   {
     "id": "bridgetown-7H2i6dFzk0KcsfElScyT2V",
@@ -1177,7 +1275,9 @@
     "url": "https://open.spotify.com/episode/7H2i6dFzk0KcsfElScyT2V",
     "tags": [],
     "source": "rss",
-    "durationMin": 59
+    "durationMin": 59,
+    "refSource": "regex",
+    "seriesKey": "genesis|2025-07"
   },
   {
     "id": "bridgetown-3KgRzGUUvHsWcaQHH0LzNM",
@@ -1197,7 +1297,9 @@
     "url": "https://open.spotify.com/episode/3KgRzGUUvHsWcaQHH0LzNM",
     "tags": [],
     "source": "rss",
-    "durationMin": 56
+    "durationMin": 56,
+    "refSource": "regex",
+    "seriesKey": "genesis|2025-07"
   },
   {
     "id": "bridgetown-6L61fCGl2799XxGNitiGGu",
@@ -1217,7 +1319,9 @@
     "url": "https://open.spotify.com/episode/6L61fCGl2799XxGNitiGGu",
     "tags": [],
     "source": "rss",
-    "durationMin": 55
+    "durationMin": 55,
+    "refSource": "regex",
+    "seriesKey": "genesis|2025-07"
   },
   {
     "id": "bridgetown-3c27Jf3mPrBLUm34ZBeAAZ",
@@ -1237,7 +1341,9 @@
     "url": "https://open.spotify.com/episode/3c27Jf3mPrBLUm34ZBeAAZ",
     "tags": [],
     "source": "rss",
-    "durationMin": 44
+    "durationMin": 44,
+    "refSource": "regex",
+    "seriesKey": "genesis|2025-07"
   },
   {
     "id": "bridgetown-2Eb5e5ZLlSFbd2Hl8nWjzU",
@@ -1257,7 +1363,9 @@
     "url": "https://open.spotify.com/episode/2Eb5e5ZLlSFbd2Hl8nWjzU",
     "tags": [],
     "source": "rss",
-    "durationMin": 39
+    "durationMin": 39,
+    "refSource": "regex",
+    "seriesKey": "genesis|2025-07"
   },
   {
     "id": "bridgetown-3jq7rsew8EqVe0pg8wZQJj",
@@ -1277,7 +1385,9 @@
     "url": "https://open.spotify.com/episode/3jq7rsew8EqVe0pg8wZQJj",
     "tags": [],
     "source": "rss",
-    "durationMin": 44
+    "durationMin": 44,
+    "refSource": "regex",
+    "seriesKey": "genesis|2025-07"
   },
   {
     "id": "bridgetown-2vJDRBFtjZirdVTsLtJNek",
@@ -1297,7 +1407,9 @@
     "url": "https://open.spotify.com/episode/2vJDRBFtjZirdVTsLtJNek",
     "tags": [],
     "source": "rss",
-    "durationMin": 67
+    "durationMin": 67,
+    "refSource": "regex",
+    "seriesKey": "genesis|2025-07"
   },
   {
     "id": "bridgetown-3EzbixijIjEikOWVafYyBi",
@@ -1317,7 +1429,8 @@
     "url": "https://open.spotify.com/episode/3EzbixijIjEikOWVafYyBi",
     "tags": [],
     "source": "rss",
-    "durationMin": 55
+    "durationMin": 55,
+    "refSource": "regex"
   },
   {
     "id": "bridgetown-0kPjzWKvAdyCmpJcB1dKzn",
@@ -1337,7 +1450,8 @@
     "url": "https://open.spotify.com/episode/0kPjzWKvAdyCmpJcB1dKzn",
     "tags": [],
     "source": "rss",
-    "durationMin": 62
+    "durationMin": 62,
+    "refSource": "regex"
   },
   {
     "id": "bridgetown-1W2ZLES3j0YnakPUR34bUQ",
@@ -1357,7 +1471,9 @@
     "url": "https://open.spotify.com/episode/1W2ZLES3j0YnakPUR34bUQ",
     "tags": [],
     "source": "rss",
-    "durationMin": 48
+    "durationMin": 48,
+    "refSource": "regex",
+    "seriesKey": "god is love|2025-05"
   },
   {
     "id": "bridgetown-3qRfk8ia02P9L6u71BbTgT",
@@ -1377,7 +1493,9 @@
     "url": "https://open.spotify.com/episode/3qRfk8ia02P9L6u71BbTgT",
     "tags": [],
     "source": "rss",
-    "durationMin": 42
+    "durationMin": 42,
+    "refSource": "regex",
+    "seriesKey": "god is love|2025-05"
   },
   {
     "id": "bridgetown-39nXUIupypHC8YeYN6sDRq",
@@ -1397,7 +1515,9 @@
     "url": "https://open.spotify.com/episode/39nXUIupypHC8YeYN6sDRq",
     "tags": [],
     "source": "rss",
-    "durationMin": 42
+    "durationMin": 42,
+    "refSource": "regex",
+    "seriesKey": "god is love|2025-05"
   },
   {
     "id": "bridgetown-6zW1fYx9pK6nqyKL70QRE9",
@@ -1417,7 +1537,9 @@
     "url": "https://open.spotify.com/episode/6zW1fYx9pK6nqyKL70QRE9",
     "tags": [],
     "source": "rss",
-    "durationMin": 50
+    "durationMin": 50,
+    "refSource": "regex",
+    "seriesKey": "god is love|2025-05"
   },
   {
     "id": "bridgetown-4JkdTFTNQSJDXJoI7LKduo",
@@ -1437,7 +1559,8 @@
     "url": "https://open.spotify.com/episode/4JkdTFTNQSJDXJoI7LKduo",
     "tags": [],
     "source": "rss",
-    "durationMin": 53
+    "durationMin": 53,
+    "refSource": "regex"
   },
   {
     "id": "bridgetown-4rFq8ysoAL4vnmcqEVq4a3",
@@ -1457,7 +1580,8 @@
     "url": "https://open.spotify.com/episode/4rFq8ysoAL4vnmcqEVq4a3",
     "tags": [],
     "source": "rss",
-    "durationMin": 53
+    "durationMin": 53,
+    "refSource": "regex"
   },
   {
     "id": "bridgetown-67W2e9OaHaTQPWvAru2Js3",
@@ -1477,7 +1601,8 @@
     "url": "https://open.spotify.com/episode/67W2e9OaHaTQPWvAru2Js3",
     "tags": [],
     "source": "rss",
-    "durationMin": 40
+    "durationMin": 40,
+    "refSource": "regex"
   },
   {
     "id": "bridgetown-5JJhY5WCecwXX4YrRJlbt5",
@@ -1497,7 +1622,9 @@
     "url": "https://open.spotify.com/episode/5JJhY5WCecwXX4YrRJlbt5",
     "tags": [],
     "source": "rss",
-    "durationMin": 42
+    "durationMin": 42,
+    "refSource": "regex",
+    "seriesKey": "easter|2025-04"
   },
   {
     "id": "bridgetown-2vWAY9CHoGcy8Ey6OWxxKU",
@@ -1517,7 +1644,9 @@
     "url": "https://open.spotify.com/episode/2vWAY9CHoGcy8Ey6OWxxKU",
     "tags": [],
     "source": "rss",
-    "durationMin": 48
+    "durationMin": 48,
+    "refSource": "regex",
+    "seriesKey": "7 letters|2025-03"
   },
   {
     "id": "bridgetown-3cua8I69b6wYhIc6riu7Fs",
@@ -1537,7 +1666,9 @@
     "url": "https://open.spotify.com/episode/3cua8I69b6wYhIc6riu7Fs",
     "tags": [],
     "source": "rss",
-    "durationMin": 35
+    "durationMin": 35,
+    "refSource": "regex",
+    "seriesKey": "7 letters|2025-03"
   },
   {
     "id": "bridgetown-24liOd7XAc9yvwy1j8bUHz",
@@ -1557,7 +1688,9 @@
     "url": "https://open.spotify.com/episode/24liOd7XAc9yvwy1j8bUHz",
     "tags": [],
     "source": "rss",
-    "durationMin": 46
+    "durationMin": 46,
+    "refSource": "regex",
+    "seriesKey": "hsc25|2025-03"
   },
   {
     "id": "bridgetown-3aaxCMTpRyIiJFqVJJ0E1t",
@@ -1577,7 +1710,9 @@
     "url": "https://open.spotify.com/episode/3aaxCMTpRyIiJFqVJJ0E1t",
     "tags": [],
     "source": "rss",
-    "durationMin": 57
+    "durationMin": 57,
+    "refSource": "regex",
+    "seriesKey": "hsc25|2025-03"
   },
   {
     "id": "bridgetown-2NUMKxF2oqmjpcBdRycuAd",
@@ -1597,7 +1732,9 @@
     "url": "https://open.spotify.com/episode/2NUMKxF2oqmjpcBdRycuAd",
     "tags": [],
     "source": "rss",
-    "durationMin": 57
+    "durationMin": 57,
+    "refSource": "regex",
+    "seriesKey": "hsc25|2025-03"
   },
   {
     "id": "bridgetown-2rgCwnXpVeUzxdUa9yLiFE",
@@ -1617,7 +1754,9 @@
     "url": "https://open.spotify.com/episode/2rgCwnXpVeUzxdUa9yLiFE",
     "tags": [],
     "source": "rss",
-    "durationMin": 50
+    "durationMin": 50,
+    "refSource": "regex",
+    "seriesKey": "hsc25|2025-03"
   },
   {
     "id": "bridgetown-0gDYLrlW75NzBOkdf44FHP",
@@ -1637,7 +1776,9 @@
     "url": "https://open.spotify.com/episode/0gDYLrlW75NzBOkdf44FHP",
     "tags": [],
     "source": "rss",
-    "durationMin": 55
+    "durationMin": 55,
+    "refSource": "regex",
+    "seriesKey": "7 letters|2025-03"
   },
   {
     "id": "bridgetown-2AjnnAieNWpKDdLVgVHrlG",
@@ -1657,7 +1798,9 @@
     "url": "https://open.spotify.com/episode/2AjnnAieNWpKDdLVgVHrlG",
     "tags": [],
     "source": "rss",
-    "durationMin": 48
+    "durationMin": 48,
+    "refSource": "regex",
+    "seriesKey": "7 letters|2025-03"
   },
   {
     "id": "bridgetown-5zyzJvzyHLMwDEGlOu5a9e",
@@ -1677,7 +1820,9 @@
     "url": "https://open.spotify.com/episode/5zyzJvzyHLMwDEGlOu5a9e",
     "tags": [],
     "source": "rss",
-    "durationMin": 39
+    "durationMin": 39,
+    "refSource": "regex",
+    "seriesKey": "7 letters|2025-03"
   },
   {
     "id": "bridgetown-1SshhvG5BgY5aFJK1UqEJY",
@@ -1697,7 +1842,9 @@
     "url": "https://open.spotify.com/episode/1SshhvG5BgY5aFJK1UqEJY",
     "tags": [],
     "source": "rss",
-    "durationMin": 38
+    "durationMin": 38,
+    "refSource": "regex",
+    "seriesKey": "7 letters|2025-03"
   },
   {
     "id": "bridgetown-1gXV8jjtofCOIZ8MOUHmc3",
@@ -1717,7 +1864,9 @@
     "url": "https://open.spotify.com/episode/1gXV8jjtofCOIZ8MOUHmc3",
     "tags": [],
     "source": "rss",
-    "durationMin": 51
+    "durationMin": 51,
+    "refSource": "regex",
+    "seriesKey": "7 letters|2025-03"
   },
   {
     "id": "bridgetown-1pE6kdKR9bh8AmFV748jjT",
@@ -1737,7 +1886,9 @@
     "url": "https://open.spotify.com/episode/1pE6kdKR9bh8AmFV748jjT",
     "tags": [],
     "source": "rss",
-    "durationMin": 43
+    "durationMin": 43,
+    "refSource": "regex",
+    "seriesKey": "beatitudes|2025-01"
   },
   {
     "id": "bridgetown-0Vw54zQyaJrIrw6GS0eVhC",
@@ -1757,7 +1908,9 @@
     "url": "https://open.spotify.com/episode/0Vw54zQyaJrIrw6GS0eVhC",
     "tags": [],
     "source": "rss",
-    "durationMin": 57
+    "durationMin": 57,
+    "refSource": "regex",
+    "seriesKey": "beatitudes|2025-01"
   },
   {
     "id": "bridgetown-1DkTDa3xlgPUWE4vWIy1Jd",
@@ -1777,7 +1930,9 @@
     "url": "https://open.spotify.com/episode/1DkTDa3xlgPUWE4vWIy1Jd",
     "tags": [],
     "source": "rss",
-    "durationMin": 47
+    "durationMin": 47,
+    "refSource": "regex",
+    "seriesKey": "beatitudes|2025-01"
   },
   {
     "id": "bridgetown-5rdoc1bapaYw34FQS1KX4I",
@@ -1797,7 +1952,9 @@
     "url": "https://open.spotify.com/episode/5rdoc1bapaYw34FQS1KX4I",
     "tags": [],
     "source": "rss",
-    "durationMin": 48
+    "durationMin": 48,
+    "refSource": "regex",
+    "seriesKey": "beatitudes|2025-01"
   },
   {
     "id": "bridgetown-1fHS9ek9lpcJSlyINuJsqU",
@@ -1817,7 +1974,9 @@
     "url": "https://open.spotify.com/episode/1fHS9ek9lpcJSlyINuJsqU",
     "tags": [],
     "source": "rss",
-    "durationMin": 49
+    "durationMin": 49,
+    "refSource": "regex",
+    "seriesKey": "beatitudes|2025-01"
   },
   {
     "id": "bridgetown-3glBo3DLFTKLqCnR6xBGpp",
@@ -1837,7 +1996,9 @@
     "url": "https://open.spotify.com/episode/3glBo3DLFTKLqCnR6xBGpp",
     "tags": [],
     "source": "rss",
-    "durationMin": 50
+    "durationMin": 50,
+    "refSource": "regex",
+    "seriesKey": "beatitudes|2025-01"
   },
   {
     "id": "bridgetown-6dpztBkJZ295gamiIpsWQQ",
@@ -1857,7 +2018,9 @@
     "url": "https://open.spotify.com/episode/6dpztBkJZ295gamiIpsWQQ",
     "tags": [],
     "source": "rss",
-    "durationMin": 48
+    "durationMin": 48,
+    "refSource": "regex",
+    "seriesKey": "beautitudes|2025-01"
   },
   {
     "id": "bridgetown-7IxH5u9zDTOXHKVYa3BsJP",
@@ -1877,7 +2040,9 @@
     "url": "https://open.spotify.com/episode/7IxH5u9zDTOXHKVYa3BsJP",
     "tags": [],
     "source": "rss",
-    "durationMin": 49
+    "durationMin": 49,
+    "refSource": "regex",
+    "seriesKey": "beatitudes|2025-01"
   },
   {
     "id": "bridgetown-6SmunSPk18xh0ujx3CX4uF",
@@ -1897,7 +2062,9 @@
     "url": "https://open.spotify.com/episode/6SmunSPk18xh0ujx3CX4uF",
     "tags": [],
     "source": "rss",
-    "durationMin": 31
+    "durationMin": 31,
+    "refSource": "regex",
+    "seriesKey": "advent 2024|2024-12"
   },
   {
     "id": "bridgetown-0Oeldgu859Akw6TEMNg0iw",
@@ -1917,7 +2084,9 @@
     "url": "https://open.spotify.com/episode/0Oeldgu859Akw6TEMNg0iw",
     "tags": [],
     "source": "rss",
-    "durationMin": 40
+    "durationMin": 40,
+    "refSource": "regex",
+    "seriesKey": "advent 2024|2024-12"
   },
   {
     "id": "bridgetown-1LcotQ9IP0VjpRs8ElmGLy",
@@ -1937,7 +2106,9 @@
     "url": "https://open.spotify.com/episode/1LcotQ9IP0VjpRs8ElmGLy",
     "tags": [],
     "source": "rss",
-    "durationMin": 46
+    "durationMin": 46,
+    "refSource": "regex",
+    "seriesKey": "advent 2024|2024-12"
   },
   {
     "id": "bridgetown-2hfs5IKTEbkvVq8SUTTnR8",
@@ -1957,7 +2128,9 @@
     "url": "https://open.spotify.com/episode/2hfs5IKTEbkvVq8SUTTnR8",
     "tags": [],
     "source": "rss",
-    "durationMin": 35
+    "durationMin": 35,
+    "refSource": "regex",
+    "seriesKey": "advent 2024|2024-12"
   },
   {
     "id": "bridgetown-4k3vMctzGM6E5s8BIbKCZL",
@@ -1977,7 +2150,9 @@
     "url": "https://open.spotify.com/episode/4k3vMctzGM6E5s8BIbKCZL",
     "tags": [],
     "source": "rss",
-    "durationMin": 44
+    "durationMin": 44,
+    "refSource": "regex",
+    "seriesKey": "advent 2024|2024-12"
   },
   {
     "id": "bridgetown-58Ril9GKFJDsU5c1bqP0oD",
@@ -1997,7 +2172,9 @@
     "url": "https://open.spotify.com/episode/58Ril9GKFJDsU5c1bqP0oD",
     "tags": [],
     "source": "rss",
-    "durationMin": 51
+    "durationMin": 51,
+    "refSource": "regex",
+    "seriesKey": "for the sake of others|2024-09"
   },
   {
     "id": "bridgetown-5ReVjTjsmhKDTi7Pgka3zP",
@@ -2017,7 +2194,9 @@
     "url": "https://open.spotify.com/episode/5ReVjTjsmhKDTi7Pgka3zP",
     "tags": [],
     "source": "rss",
-    "durationMin": 52
+    "durationMin": 52,
+    "refSource": "regex",
+    "seriesKey": "for the sake of others|2024-09"
   },
   {
     "id": "bridgetown-4mNu3QLNTqX7YHCsC9sIze",
@@ -2037,7 +2216,9 @@
     "url": "https://open.spotify.com/episode/4mNu3QLNTqX7YHCsC9sIze",
     "tags": [],
     "source": "rss",
-    "durationMin": 49
+    "durationMin": 49,
+    "refSource": "regex",
+    "seriesKey": "for the sake of others|2024-09"
   },
   {
     "id": "bridgetown-4NrhIAProeVKnyWFNXMGBX",
@@ -2057,7 +2238,9 @@
     "url": "https://open.spotify.com/episode/4NrhIAProeVKnyWFNXMGBX",
     "tags": [],
     "source": "rss",
-    "durationMin": 35
+    "durationMin": 35,
+    "refSource": "regex",
+    "seriesKey": "for the sake of others|2024-09"
   },
   {
     "id": "bridgetown-7mGyr6dPedonMM0RMC0eId",
@@ -2077,7 +2260,9 @@
     "url": "https://open.spotify.com/episode/7mGyr6dPedonMM0RMC0eId",
     "tags": [],
     "source": "rss",
-    "durationMin": 47
+    "durationMin": 47,
+    "refSource": "regex",
+    "seriesKey": "for the sake of others|2024-09"
   },
   {
     "id": "bridgetown-5FEIorjfwLEFioa4Dyr4Ni",
@@ -2097,7 +2282,9 @@
     "url": "https://open.spotify.com/episode/5FEIorjfwLEFioa4Dyr4Ni",
     "tags": [],
     "source": "rss",
-    "durationMin": 47
+    "durationMin": 47,
+    "refSource": "regex",
+    "seriesKey": "for the sake of others|2024-09"
   },
   {
     "id": "bridgetown-1Yu36T9P6ZamPsXskZVsmC",
@@ -2117,7 +2304,9 @@
     "url": "https://open.spotify.com/episode/1Yu36T9P6ZamPsXskZVsmC",
     "tags": [],
     "source": "rss",
-    "durationMin": 48
+    "durationMin": 48,
+    "refSource": "regex",
+    "seriesKey": "for the sake of others|2024-09"
   },
   {
     "id": "bridgetown-0Z1siGGq0iFvNW4Q6GPTAQ",
@@ -2137,7 +2326,9 @@
     "url": "https://open.spotify.com/episode/0Z1siGGq0iFvNW4Q6GPTAQ",
     "tags": [],
     "source": "rss",
-    "durationMin": 48
+    "durationMin": 48,
+    "refSource": "regex",
+    "seriesKey": "for the sake of others|2024-09"
   },
   {
     "id": "bridgetown-4WfFlZGZTY0JkK5zgJ2x87",
@@ -2157,7 +2348,9 @@
     "url": "https://open.spotify.com/episode/4WfFlZGZTY0JkK5zgJ2x87",
     "tags": [],
     "source": "rss",
-    "durationMin": 53
+    "durationMin": 53,
+    "refSource": "regex",
+    "seriesKey": "for the sake of others|2024-09"
   },
   {
     "id": "bridgetown-13o2hbguW43pq9SVTmum9l",
@@ -2177,7 +2370,9 @@
     "url": "https://open.spotify.com/episode/13o2hbguW43pq9SVTmum9l",
     "tags": [],
     "source": "rss",
-    "durationMin": 49
+    "durationMin": 49,
+    "refSource": "regex",
+    "seriesKey": "for the sake of others|2024-09"
   },
   {
     "id": "bridgetown-192Wu6GrGb7A6jVKomGKC4",
@@ -2197,7 +2392,9 @@
     "url": "https://open.spotify.com/episode/192Wu6GrGb7A6jVKomGKC4",
     "tags": [],
     "source": "rss",
-    "durationMin": 47
+    "durationMin": 47,
+    "refSource": "regex",
+    "seriesKey": "practicing the way of jesus together in portland|2024-09"
   },
   {
     "id": "bridgetown-7bWdNtALXHA7xqZqvkzStU",
@@ -2217,7 +2414,9 @@
     "url": "https://open.spotify.com/episode/7bWdNtALXHA7xqZqvkzStU",
     "tags": [],
     "source": "rss",
-    "durationMin": 51
+    "durationMin": 51,
+    "refSource": "regex",
+    "seriesKey": "practicing the way of jesus together in portland|2024-09"
   },
   {
     "id": "bridgetown-5oMgHxV7m5cZ6dGSII9cGi",
@@ -2235,7 +2434,9 @@
     "url": "https://open.spotify.com/episode/5oMgHxV7m5cZ6dGSII9cGi",
     "tags": [],
     "source": "rss",
-    "durationMin": 46
+    "durationMin": 46,
+    "refSource": "regex",
+    "seriesKey": "philemon|2024-08"
   },
   {
     "id": "bridgetown-5iBkAenBQgdaRAUBnJ6Cyf",
@@ -2253,7 +2454,9 @@
     "url": "https://open.spotify.com/episode/5iBkAenBQgdaRAUBnJ6Cyf",
     "tags": [],
     "source": "rss",
-    "durationMin": 47
+    "durationMin": 47,
+    "refSource": "regex",
+    "seriesKey": "philemon|2024-08"
   },
   {
     "id": "bridgetown-3F0CcGhVVacSUyTwwLuBSV",
@@ -2271,7 +2474,9 @@
     "url": "https://open.spotify.com/episode/3F0CcGhVVacSUyTwwLuBSV",
     "tags": [],
     "source": "rss",
-    "durationMin": 51
+    "durationMin": 51,
+    "refSource": "regex",
+    "seriesKey": "philemon|2024-08"
   },
   {
     "id": "bridgetown-1fqJ71vT4bLw81128c7zo2",
@@ -2289,7 +2494,9 @@
     "url": "https://open.spotify.com/episode/1fqJ71vT4bLw81128c7zo2",
     "tags": [],
     "source": "rss",
-    "durationMin": 55
+    "durationMin": 55,
+    "refSource": "regex",
+    "seriesKey": "philemon|2024-08"
   },
   {
     "id": "bridgetown-3E7GNNT3AUCytjoUmgFTkj",
@@ -2307,7 +2514,9 @@
     "url": "https://open.spotify.com/episode/3E7GNNT3AUCytjoUmgFTkj",
     "tags": [],
     "source": "rss",
-    "durationMin": 36
+    "durationMin": 36,
+    "refSource": "regex",
+    "seriesKey": "jude|2024-07"
   },
   {
     "id": "bridgetown-4w7CUxcEfhsdApw9ulvpaL",
@@ -2325,7 +2534,9 @@
     "url": "https://open.spotify.com/episode/4w7CUxcEfhsdApw9ulvpaL",
     "tags": [],
     "source": "rss",
-    "durationMin": 42
+    "durationMin": 42,
+    "refSource": "regex",
+    "seriesKey": "jude|2024-07"
   },
   {
     "id": "bridgetown-15YiirpUMQiUfteNfeAZDO",
@@ -2343,7 +2554,9 @@
     "url": "https://open.spotify.com/episode/15YiirpUMQiUfteNfeAZDO",
     "tags": [],
     "source": "rss",
-    "durationMin": 56
+    "durationMin": 56,
+    "refSource": "regex",
+    "seriesKey": "jude|2024-07"
   },
   {
     "id": "bridgetown-1JKKhTrqHwV0bhUkZO9gHv",
@@ -2363,7 +2576,9 @@
     "url": "https://open.spotify.com/episode/1JKKhTrqHwV0bhUkZO9gHv",
     "tags": [],
     "source": "rss",
-    "durationMin": 38
+    "durationMin": 38,
+    "refSource": "regex",
+    "seriesKey": "ruth|2024-06"
   },
   {
     "id": "bridgetown-21FTtAVsGF5TbteA9VpyTP",
@@ -2381,7 +2596,9 @@
     "url": "https://open.spotify.com/episode/21FTtAVsGF5TbteA9VpyTP",
     "tags": [],
     "source": "rss",
-    "durationMin": 52
+    "durationMin": 52,
+    "refSource": "regex",
+    "seriesKey": "ruth act 4|2024-07"
   },
   {
     "id": "bridgetown-7qNXQW8xak1F1bw6wb11hI",
@@ -2401,7 +2618,9 @@
     "url": "https://open.spotify.com/episode/7qNXQW8xak1F1bw6wb11hI",
     "tags": [],
     "source": "rss",
-    "durationMin": 50
+    "durationMin": 50,
+    "refSource": "regex",
+    "seriesKey": "ruth act 3|2024-06"
   },
   {
     "id": "bridgetown-6WQzRm3SE0z1r74JuUno8v",
@@ -2421,7 +2640,9 @@
     "url": "https://open.spotify.com/episode/6WQzRm3SE0z1r74JuUno8v",
     "tags": [],
     "source": "rss",
-    "durationMin": 50
+    "durationMin": 50,
+    "refSource": "regex",
+    "seriesKey": "ruth act 2|2024-06"
   },
   {
     "id": "bridgetown-27xBqpuPljGiaWmVIvo1Lb",
@@ -2441,7 +2662,9 @@
     "url": "https://open.spotify.com/episode/27xBqpuPljGiaWmVIvo1Lb",
     "tags": [],
     "source": "rss",
-    "durationMin": 54
+    "durationMin": 54,
+    "refSource": "regex",
+    "seriesKey": "ruth act 1|2024-06"
   },
   {
     "id": "bridgetown-3AlKPJEEBlUug21TPxie2M",
@@ -2461,7 +2684,9 @@
     "url": "https://open.spotify.com/episode/3AlKPJEEBlUug21TPxie2M",
     "tags": [],
     "source": "rss",
-    "durationMin": 56
+    "durationMin": 56,
+    "refSource": "regex",
+    "seriesKey": "ruth|2024-06"
   },
   {
     "id": "bridgetown-7s9bIFmuXqL4yakpPFzk98",
@@ -2481,7 +2706,9 @@
     "url": "https://open.spotify.com/episode/7s9bIFmuXqL4yakpPFzk98",
     "tags": [],
     "source": "rss",
-    "durationMin": 50
+    "durationMin": 50,
+    "refSource": "regex",
+    "seriesKey": "the gifts of the spirit for the work of the kingdom|2024-04"
   },
   {
     "id": "bridgetown-0Z2nrPH7G54VrFkVBvk3dK",
@@ -2501,7 +2728,9 @@
     "url": "https://open.spotify.com/episode/0Z2nrPH7G54VrFkVBvk3dK",
     "tags": [],
     "source": "rss",
-    "durationMin": 47
+    "durationMin": 47,
+    "refSource": "regex",
+    "seriesKey": "the gifts of the spirit for the work of the kingdom|2024-04"
   },
   {
     "id": "bridgetown-4fNj9dnd5yWRlAvVEYnJkl",
@@ -2521,7 +2750,9 @@
     "url": "https://open.spotify.com/episode/4fNj9dnd5yWRlAvVEYnJkl",
     "tags": [],
     "source": "rss",
-    "durationMin": 49
+    "durationMin": 49,
+    "refSource": "regex",
+    "seriesKey": "the gifts of the spirit for the work of the kingdom|2024-04"
   },
   {
     "id": "bridgetown-2BbtQZLwkLOvjPpzbbjFMW",
@@ -2541,7 +2772,9 @@
     "url": "https://open.spotify.com/episode/2BbtQZLwkLOvjPpzbbjFMW",
     "tags": [],
     "source": "rss",
-    "durationMin": 36
+    "durationMin": 36,
+    "refSource": "regex",
+    "seriesKey": "the gifts of the spirit for the work of the kingdom|2024-04"
   },
   {
     "id": "bridgetown-1LNWd4RJkGopQ6R9eQbZOC",
@@ -2561,7 +2794,9 @@
     "url": "https://open.spotify.com/episode/1LNWd4RJkGopQ6R9eQbZOC",
     "tags": [],
     "source": "rss",
-    "durationMin": 51
+    "durationMin": 51,
+    "refSource": "regex",
+    "seriesKey": "the gifts of the spirit for the work of the kingdom|2024-04"
   },
   {
     "id": "bridgetown-1tbOdVdIhLkAvnAgCwdDOA",
@@ -2581,7 +2816,9 @@
     "url": "https://open.spotify.com/episode/1tbOdVdIhLkAvnAgCwdDOA",
     "tags": [],
     "source": "rss",
-    "durationMin": 48
+    "durationMin": 48,
+    "refSource": "regex",
+    "seriesKey": "the gifts of the spirit for the work of the kingdom|2024-04"
   },
   {
     "id": "bridgetown-2s6dbM7RCtwHWpEOnmaTTm",
@@ -2601,7 +2838,9 @@
     "url": "https://open.spotify.com/episode/2s6dbM7RCtwHWpEOnmaTTm",
     "tags": [],
     "source": "rss",
-    "durationMin": 46
+    "durationMin": 46,
+    "refSource": "regex",
+    "seriesKey": "the gifts of the spirit for the work of the kingdom|2024-04"
   },
   {
     "id": "bridgetown-74U9eGaVlVHBMOm2iihiuw",
@@ -2621,7 +2860,9 @@
     "url": "https://open.spotify.com/episode/74U9eGaVlVHBMOm2iihiuw",
     "tags": [],
     "source": "rss",
-    "durationMin": 40
+    "durationMin": 40,
+    "refSource": "regex",
+    "seriesKey": "the gifts of the spirit for the work of the kingdom|2024-04"
   },
   {
     "id": "bridgetown-0wssi6QLoGOmMyza06xiHr",
@@ -2641,7 +2882,9 @@
     "url": "https://open.spotify.com/episode/0wssi6QLoGOmMyza06xiHr",
     "tags": [],
     "source": "rss",
-    "durationMin": 46
+    "durationMin": 46,
+    "refSource": "regex",
+    "seriesKey": "the gifts of the spirit for the work of the kingdom|2024-04"
   },
   {
     "id": "bridgetown-21jG6xxRJ5PbP9W0v6hOwX",
@@ -2661,7 +2904,9 @@
     "url": "https://open.spotify.com/episode/21jG6xxRJ5PbP9W0v6hOwX",
     "tags": [],
     "source": "rss",
-    "durationMin": 45
+    "durationMin": 45,
+    "refSource": "regex",
+    "seriesKey": "holy spirit conference january 2024|2024-04"
   },
   {
     "id": "bridgetown-0RpRT1kfvfMPkuHMmHxWyK",
@@ -2681,7 +2926,9 @@
     "url": "https://open.spotify.com/episode/0RpRT1kfvfMPkuHMmHxWyK",
     "tags": [],
     "source": "rss",
-    "durationMin": 44
+    "durationMin": 44,
+    "refSource": "regex",
+    "seriesKey": "holy spirit conference january 2024|2024-04"
   },
   {
     "id": "bridgetown-4LVGl8xjVr1l2C6HA1BtFW",
@@ -2701,7 +2948,9 @@
     "url": "https://open.spotify.com/episode/4LVGl8xjVr1l2C6HA1BtFW",
     "tags": [],
     "source": "rss",
-    "durationMin": 39
+    "durationMin": 39,
+    "refSource": "regex",
+    "seriesKey": "holy spirit conference january 2024|2024-04"
   },
   {
     "id": "bridgetown-4F0Hcep5GFWK7WeZVyboNa",
@@ -2721,7 +2970,9 @@
     "url": "https://open.spotify.com/episode/4F0Hcep5GFWK7WeZVyboNa",
     "tags": [],
     "source": "rss",
-    "durationMin": 54
+    "durationMin": 54,
+    "refSource": "regex",
+    "seriesKey": "holy spirit conference january 2024|2024-04"
   },
   {
     "id": "bridgetown-0eVUjGNAe6XTVjjSYDjtqp",
@@ -2741,7 +2992,8 @@
     "url": "https://open.spotify.com/episode/0eVUjGNAe6XTVjjSYDjtqp",
     "tags": [],
     "source": "rss",
-    "durationMin": 43
+    "durationMin": 43,
+    "refSource": "regex"
   },
   {
     "id": "bridgetown-6SOwcyj3UavOf91sKJRSsQ",
@@ -2761,7 +3013,9 @@
     "url": "https://open.spotify.com/episode/6SOwcyj3UavOf91sKJRSsQ",
     "tags": [],
     "source": "rss",
-    "durationMin": 42
+    "durationMin": 42,
+    "refSource": "regex",
+    "seriesKey": "unforced rhythms of grace|2024-01"
   },
   {
     "id": "bridgetown-7mVZ2KuSHUMJS98zVySJfa",
@@ -2781,7 +3035,9 @@
     "url": "https://open.spotify.com/episode/7mVZ2KuSHUMJS98zVySJfa",
     "tags": [],
     "source": "rss",
-    "durationMin": 59
+    "durationMin": 59,
+    "refSource": "regex",
+    "seriesKey": "unforced rhythms of grace|2024-01"
   },
   {
     "id": "bridgetown-5vEUATB2Ee3NHZ1oz2IsMz",
@@ -2801,7 +3057,9 @@
     "url": "https://open.spotify.com/episode/5vEUATB2Ee3NHZ1oz2IsMz",
     "tags": [],
     "source": "rss",
-    "durationMin": 43
+    "durationMin": 43,
+    "refSource": "regex",
+    "seriesKey": "unforced rhythms of grace|2024-01"
   },
   {
     "id": "bridgetown-4Pv8MJwCpKzH3LrB6vQTe6",
@@ -2821,7 +3079,9 @@
     "url": "https://open.spotify.com/episode/4Pv8MJwCpKzH3LrB6vQTe6",
     "tags": [],
     "source": "rss",
-    "durationMin": 51
+    "durationMin": 51,
+    "refSource": "regex",
+    "seriesKey": "unforced rhythms of grace|2024-01"
   },
   {
     "id": "bridgetown-1Aodv20lMdK0Zctc3u5BwF",
@@ -2841,7 +3101,9 @@
     "url": "https://open.spotify.com/episode/1Aodv20lMdK0Zctc3u5BwF",
     "tags": [],
     "source": "rss",
-    "durationMin": 37
+    "durationMin": 37,
+    "refSource": "regex",
+    "seriesKey": "unforced rhythms of grace|2024-01"
   },
   {
     "id": "bridgetown-1y2t2zugeDBaO26XyZtnHW",
@@ -2861,7 +3123,9 @@
     "url": "https://open.spotify.com/episode/1y2t2zugeDBaO26XyZtnHW",
     "tags": [],
     "source": "rss",
-    "durationMin": 53
+    "durationMin": 53,
+    "refSource": "regex",
+    "seriesKey": "unforced rhythms of grace|2024-01"
   },
   {
     "id": "bridgetown-0UkFxy7L2QFVD87GTUEXXa",
@@ -2881,7 +3145,9 @@
     "url": "https://open.spotify.com/episode/0UkFxy7L2QFVD87GTUEXXa",
     "tags": [],
     "source": "rss",
-    "durationMin": 49
+    "durationMin": 49,
+    "refSource": "regex",
+    "seriesKey": "unforced rhythms of grace|2024-01"
   },
   {
     "id": "bridgetown-7rrx5RQ6zJverelzxzllwc",
@@ -2901,7 +3167,9 @@
     "url": "https://open.spotify.com/episode/7rrx5RQ6zJverelzxzllwc",
     "tags": [],
     "source": "rss",
-    "durationMin": 46
+    "durationMin": 46,
+    "refSource": "regex",
+    "seriesKey": "unforced rhythms of grace|2024-01"
   },
   {
     "id": "bridgetown-5nHbB9SBTwK84fhVfvaug4",
@@ -2921,7 +3189,9 @@
     "url": "https://open.spotify.com/episode/5nHbB9SBTwK84fhVfvaug4",
     "tags": [],
     "source": "rss",
-    "durationMin": 50
+    "durationMin": 50,
+    "refSource": "regex",
+    "seriesKey": "unforced rhythms of grace|2024-01"
   },
   {
     "id": "bridgetown-57qoB20djKdBOQxGRMkcf5",
@@ -2941,7 +3211,9 @@
     "url": "https://open.spotify.com/episode/57qoB20djKdBOQxGRMkcf5",
     "tags": [],
     "source": "rss",
-    "durationMin": 65
+    "durationMin": 65,
+    "refSource": "regex",
+    "seriesKey": "unforced rhythms of grace|2024-01"
   },
   {
     "id": "bridgetown-6CIf1sDp7Yv2LXeSAzkM4d",
@@ -2961,7 +3233,9 @@
     "url": "https://open.spotify.com/episode/6CIf1sDp7Yv2LXeSAzkM4d",
     "tags": [],
     "source": "rss",
-    "durationMin": 41
+    "durationMin": 41,
+    "refSource": "regex",
+    "seriesKey": "unforced rhythms of grace|2024-01"
   },
   {
     "id": "bridgetown-0G8hi9LEQkOYaClr9O9niB",
@@ -2981,7 +3255,9 @@
     "url": "https://open.spotify.com/episode/0G8hi9LEQkOYaClr9O9niB",
     "tags": [],
     "source": "rss",
-    "durationMin": 50
+    "durationMin": 50,
+    "refSource": "regex",
+    "seriesKey": "unforced rhythms of grace|2024-01"
   },
   {
     "id": "bridgetown-5A0G6UT52e1UWkrsE2ISGu",
@@ -3001,7 +3277,8 @@
     "url": "https://open.spotify.com/episode/5A0G6UT52e1UWkrsE2ISGu",
     "tags": [],
     "source": "rss",
-    "durationMin": 43
+    "durationMin": 43,
+    "refSource": "regex"
   },
   {
     "id": "bridgetown-7tNinGgy6mdoV4UIFkKsVt",
@@ -3021,7 +3298,9 @@
     "url": "https://open.spotify.com/episode/7tNinGgy6mdoV4UIFkKsVt",
     "tags": [],
     "source": "rss",
-    "durationMin": 31
+    "durationMin": 31,
+    "refSource": "regex",
+    "seriesKey": "wk-run 2023-12-05|2023-12"
   },
   {
     "id": "bridgetown-5NWaIUGSseA0C2JVOArKz0",
@@ -3041,7 +3320,9 @@
     "url": "https://open.spotify.com/episode/5NWaIUGSseA0C2JVOArKz0",
     "tags": [],
     "source": "rss",
-    "durationMin": 44
+    "durationMin": 44,
+    "refSource": "regex",
+    "seriesKey": "wk-run 2023-12-05|2023-12"
   },
   {
     "id": "bridgetown-3rSkscl8Xb76P3zZOyzcmz",
@@ -3061,7 +3342,9 @@
     "url": "https://open.spotify.com/episode/3rSkscl8Xb76P3zZOyzcmz",
     "tags": [],
     "source": "rss",
-    "durationMin": 43
+    "durationMin": 43,
+    "refSource": "regex",
+    "seriesKey": "you will be my witness|2023-12"
   },
   {
     "id": "bridgetown-6rToFQ3m49VGM1Lr5xebhc",
@@ -3081,7 +3364,9 @@
     "url": "https://open.spotify.com/episode/6rToFQ3m49VGM1Lr5xebhc",
     "tags": [],
     "source": "rss",
-    "durationMin": 53
+    "durationMin": 53,
+    "refSource": "regex",
+    "seriesKey": "wk-run 2023-12-05|2023-12"
   },
   {
     "id": "bridgetown-6HNXFlcO4KOuZ6W3aB41BS",
@@ -3101,7 +3386,9 @@
     "url": "https://open.spotify.com/episode/6HNXFlcO4KOuZ6W3aB41BS",
     "tags": [],
     "source": "rss",
-    "durationMin": 46
+    "durationMin": 46,
+    "refSource": "regex",
+    "seriesKey": "wk-run 2023-11-28|2023-11"
   },
   {
     "id": "bridgetown-6tBq7pk0c2bu2gFwCbgZsG",
@@ -3121,7 +3408,9 @@
     "url": "https://open.spotify.com/episode/6tBq7pk0c2bu2gFwCbgZsG",
     "tags": [],
     "source": "rss",
-    "durationMin": 60
+    "durationMin": 60,
+    "refSource": "regex",
+    "seriesKey": "community|2023-10"
   },
   {
     "id": "bridgetown-1KsR5EKxDQpsYt7nC7XNTn",
@@ -3141,7 +3430,9 @@
     "url": "https://open.spotify.com/episode/1KsR5EKxDQpsYt7nC7XNTn",
     "tags": [],
     "source": "rss",
-    "durationMin": 51
+    "durationMin": 51,
+    "refSource": "regex",
+    "seriesKey": "community|2023-10"
   },
   {
     "id": "bridgetown-0NZOdTBWBVLJiQBJ1SEL5A",
@@ -3161,7 +3452,9 @@
     "url": "https://open.spotify.com/episode/0NZOdTBWBVLJiQBJ1SEL5A",
     "tags": [],
     "source": "rss",
-    "durationMin": 42
+    "durationMin": 42,
+    "refSource": "regex",
+    "seriesKey": "community|2023-10"
   },
   {
     "id": "bridgetown-33cog5uqDV2CPq2XlYxWVr",
@@ -3181,7 +3474,9 @@
     "url": "https://open.spotify.com/episode/33cog5uqDV2CPq2XlYxWVr",
     "tags": [],
     "source": "rss",
-    "durationMin": 50
+    "durationMin": 50,
+    "refSource": "regex",
+    "seriesKey": "community|2023-10"
   },
   {
     "id": "bridgetown-03CJvZvPWAH5OCneRfbUm3",
@@ -3201,7 +3496,9 @@
     "url": "https://open.spotify.com/episode/03CJvZvPWAH5OCneRfbUm3",
     "tags": [],
     "source": "rss",
-    "durationMin": 51
+    "durationMin": 51,
+    "refSource": "regex",
+    "seriesKey": "community|2023-10"
   },
   {
     "id": "bridgetown-6i2T5m8XQqHjsupqDHZC2o",
@@ -3221,7 +3518,9 @@
     "url": "https://open.spotify.com/episode/6i2T5m8XQqHjsupqDHZC2o",
     "tags": [],
     "source": "rss",
-    "durationMin": 53
+    "durationMin": 53,
+    "refSource": "regex",
+    "seriesKey": "community|2023-10"
   },
   {
     "id": "bridgetown-1NFncevZluzxLkEdiyBTNN",
@@ -3241,7 +3540,9 @@
     "url": "https://open.spotify.com/episode/1NFncevZluzxLkEdiyBTNN",
     "tags": [],
     "source": "rss",
-    "durationMin": 54
+    "durationMin": 54,
+    "refSource": "regex",
+    "seriesKey": "community|2023-10"
   },
   {
     "id": "bridgetown-4llQsJnocxAKHJUnDiFUPg",
@@ -3261,7 +3562,9 @@
     "url": "https://open.spotify.com/episode/4llQsJnocxAKHJUnDiFUPg",
     "tags": [],
     "source": "rss",
-    "durationMin": 45
+    "durationMin": 45,
+    "refSource": "regex",
+    "seriesKey": "wk-run 2023-09-26|2023-09"
   },
   {
     "id": "bridgetown-4AP9qc64OdEJD3axMcngwI",
@@ -3281,7 +3584,9 @@
     "url": "https://open.spotify.com/episode/4AP9qc64OdEJD3axMcngwI",
     "tags": [],
     "source": "rss",
-    "durationMin": 50
+    "durationMin": 50,
+    "refSource": "regex",
+    "seriesKey": "wk-run 2023-09-26|2023-09"
   },
   {
     "id": "bridgetown-3qc4QV1xUkmbNC98tzjBB2",
@@ -3301,7 +3606,9 @@
     "url": "https://open.spotify.com/episode/3qc4QV1xUkmbNC98tzjBB2",
     "tags": [],
     "source": "rss",
-    "durationMin": 48
+    "durationMin": 48,
+    "refSource": "regex",
+    "seriesKey": "vision series 2023|2023-09"
   },
   {
     "id": "bridgetown-23v9p6GzQbK2Trkgy9elEV",
@@ -3321,7 +3628,9 @@
     "url": "https://open.spotify.com/episode/23v9p6GzQbK2Trkgy9elEV",
     "tags": [],
     "source": "rss",
-    "durationMin": 53
+    "durationMin": 53,
+    "refSource": "regex",
+    "seriesKey": "vision series 2023|2023-09"
   },
   {
     "id": "bridgetown-71xZm1U8ngQLVaAlfTcnnV",
@@ -3341,7 +3650,9 @@
     "url": "https://open.spotify.com/episode/71xZm1U8ngQLVaAlfTcnnV",
     "tags": [],
     "source": "rss",
-    "durationMin": 47
+    "durationMin": 47,
+    "refSource": "regex",
+    "seriesKey": "exodus|2023-06"
   },
   {
     "id": "bridgetown-2PbrTpycoB1H5FUWXKJ0Ka",
@@ -3361,7 +3672,9 @@
     "url": "https://open.spotify.com/episode/2PbrTpycoB1H5FUWXKJ0Ka",
     "tags": [],
     "source": "rss",
-    "durationMin": 50
+    "durationMin": 50,
+    "refSource": "regex",
+    "seriesKey": "exodus|2023-06"
   },
   {
     "id": "bridgetown-1xalbVkD5TXPBEAcdC49Ul",
@@ -3381,7 +3694,9 @@
     "url": "https://open.spotify.com/episode/1xalbVkD5TXPBEAcdC49Ul",
     "tags": [],
     "source": "rss",
-    "durationMin": 41
+    "durationMin": 41,
+    "refSource": "regex",
+    "seriesKey": "exodus|2023-06"
   },
   {
     "id": "bridgetown-5GmIU4xNKJqzXWeM01xNxS",
@@ -3401,7 +3716,9 @@
     "url": "https://open.spotify.com/episode/5GmIU4xNKJqzXWeM01xNxS",
     "tags": [],
     "source": "rss",
-    "durationMin": 45
+    "durationMin": 45,
+    "refSource": "regex",
+    "seriesKey": "exodus|2023-06"
   },
   {
     "id": "bridgetown-4Q8595XTvWh4a9PPTFAa8F",
@@ -3421,7 +3738,9 @@
     "url": "https://open.spotify.com/episode/4Q8595XTvWh4a9PPTFAa8F",
     "tags": [],
     "source": "rss",
-    "durationMin": 46
+    "durationMin": 46,
+    "refSource": "regex",
+    "seriesKey": "exodus|2023-06"
   },
   {
     "id": "bridgetown-6osGgqwDvu3HwxVZ5b51n1",
@@ -3441,7 +3760,9 @@
     "url": "https://open.spotify.com/episode/6osGgqwDvu3HwxVZ5b51n1",
     "tags": [],
     "source": "rss",
-    "durationMin": 42
+    "durationMin": 42,
+    "refSource": "regex",
+    "seriesKey": "exodus|2023-06"
   },
   {
     "id": "bridgetown-6Zaqh8C3z8yOHuenWgwwIc",
@@ -3461,7 +3782,9 @@
     "url": "https://open.spotify.com/episode/6Zaqh8C3z8yOHuenWgwwIc",
     "tags": [],
     "source": "rss",
-    "durationMin": 55
+    "durationMin": 55,
+    "refSource": "regex",
+    "seriesKey": "exodus|2023-06"
   },
   {
     "id": "bridgetown-3GBORLedmJzVzUpuWEXTyC",
@@ -3481,7 +3804,9 @@
     "url": "https://open.spotify.com/episode/3GBORLedmJzVzUpuWEXTyC",
     "tags": [],
     "source": "rss",
-    "durationMin": 51
+    "durationMin": 51,
+    "refSource": "regex",
+    "seriesKey": "exodus|2023-06"
   },
   {
     "id": "bridgetown-3mqwzjjBHQ1zUitzZHplVV",
@@ -3501,7 +3826,9 @@
     "url": "https://open.spotify.com/episode/3mqwzjjBHQ1zUitzZHplVV",
     "tags": [],
     "source": "rss",
-    "durationMin": 60
+    "durationMin": 60,
+    "refSource": "regex",
+    "seriesKey": "exodus|2023-06"
   },
   {
     "id": "bridgetown-6Wi4713VEs9kyHrFtD4NiF",
@@ -3521,7 +3848,9 @@
     "url": "https://open.spotify.com/episode/6Wi4713VEs9kyHrFtD4NiF",
     "tags": [],
     "source": "rss",
-    "durationMin": 50
+    "durationMin": 50,
+    "refSource": "regex",
+    "seriesKey": "exodus|2023-06"
   },
   {
     "id": "bridgetown-44ObaOtQOtmzgK94Wng6U6",
@@ -3541,7 +3870,9 @@
     "url": "https://open.spotify.com/episode/44ObaOtQOtmzgK94Wng6U6",
     "tags": [],
     "source": "rss",
-    "durationMin": 49
+    "durationMin": 49,
+    "refSource": "regex",
+    "seriesKey": "exodus|2023-06"
   },
   {
     "id": "bridgetown-3JdoRIKb1LuA8fOqtx3MBa",
@@ -3561,7 +3892,9 @@
     "url": "https://open.spotify.com/episode/3JdoRIKb1LuA8fOqtx3MBa",
     "tags": [],
     "source": "rss",
-    "durationMin": 42
+    "durationMin": 42,
+    "refSource": "regex",
+    "seriesKey": "exodus|2023-06"
   },
   {
     "id": "bridgetown-0mexiJ0kZu0FqExywhK0eQ",
@@ -3581,7 +3914,9 @@
     "url": "https://open.spotify.com/episode/0mexiJ0kZu0FqExywhK0eQ",
     "tags": [],
     "source": "rss",
-    "durationMin": 49
+    "durationMin": 49,
+    "refSource": "regex",
+    "seriesKey": "exodus|2023-06"
   },
   {
     "id": "bridgetown-3wdN3rkAIVqrIh8a5ync1p",
@@ -3601,7 +3936,9 @@
     "url": "https://open.spotify.com/episode/3wdN3rkAIVqrIh8a5ync1p",
     "tags": [],
     "source": "rss",
-    "durationMin": 38
+    "durationMin": 38,
+    "refSource": "regex",
+    "seriesKey": "race justice|2023-06"
   },
   {
     "id": "bridgetown-1c4t2I1kBNiupl9t0n1G2J",
@@ -3621,7 +3958,9 @@
     "url": "https://open.spotify.com/episode/1c4t2I1kBNiupl9t0n1G2J",
     "tags": [],
     "source": "rss",
-    "durationMin": 47
+    "durationMin": 47,
+    "refSource": "regex",
+    "seriesKey": "hearing god listening to the still small voice of the holy spirit|2023-04"
   },
   {
     "id": "bridgetown-56Vb8nkOqxWAIQ5JhYFl8u",
@@ -3641,7 +3980,9 @@
     "url": "https://open.spotify.com/episode/56Vb8nkOqxWAIQ5JhYFl8u",
     "tags": [],
     "source": "rss",
-    "durationMin": 49
+    "durationMin": 49,
+    "refSource": "regex",
+    "seriesKey": "various teachings|2023-04"
   },
   {
     "id": "bridgetown-0QpfgUknCroYvdF75WNXOC",
@@ -3661,7 +4002,9 @@
     "url": "https://open.spotify.com/episode/0QpfgUknCroYvdF75WNXOC",
     "tags": [],
     "source": "rss",
-    "durationMin": 49
+    "durationMin": 49,
+    "refSource": "regex",
+    "seriesKey": "hearing god listening to the still small voice of the holy spirit|2023-04"
   },
   {
     "id": "bridgetown-5Cbznhyqmnoahd6p3hk6HK",
@@ -3681,7 +4024,9 @@
     "url": "https://open.spotify.com/episode/5Cbznhyqmnoahd6p3hk6HK",
     "tags": [],
     "source": "rss",
-    "durationMin": 52
+    "durationMin": 52,
+    "refSource": "regex",
+    "seriesKey": "hearing god listening to the still small voice of the holy spirit|2023-04"
   },
   {
     "id": "bridgetown-3tvbijoQ9e3HVbW5Um77XV",
@@ -3701,7 +4046,9 @@
     "url": "https://open.spotify.com/episode/3tvbijoQ9e3HVbW5Um77XV",
     "tags": [],
     "source": "rss",
-    "durationMin": 53
+    "durationMin": 53,
+    "refSource": "regex",
+    "seriesKey": "hearing god listening to the still small voice of the holy spirit|2023-04"
   },
   {
     "id": "bridgetown-2AGBvHl1oqqY2ZuCMJigWe",
@@ -3721,7 +4068,9 @@
     "url": "https://open.spotify.com/episode/2AGBvHl1oqqY2ZuCMJigWe",
     "tags": [],
     "source": "rss",
-    "durationMin": 53
+    "durationMin": 53,
+    "refSource": "regex",
+    "seriesKey": "hearing god listening to the still small voice of the holy spirit|2023-04"
   },
   {
     "id": "bridgetown-2iZt1qC8qi2diNXFcIXMmm",
@@ -3741,7 +4090,9 @@
     "url": "https://open.spotify.com/episode/2iZt1qC8qi2diNXFcIXMmm",
     "tags": [],
     "source": "rss",
-    "durationMin": 48
+    "durationMin": 48,
+    "refSource": "regex",
+    "seriesKey": "hearing god listening to the still small voice of the holy spirit|2023-04"
   },
   {
     "id": "bridgetown-20EzF21qlEfzG6aJr1WKoL",
@@ -3761,7 +4112,9 @@
     "url": "https://open.spotify.com/episode/20EzF21qlEfzG6aJr1WKoL",
     "tags": [],
     "source": "rss",
-    "durationMin": 38
+    "durationMin": 38,
+    "refSource": "regex",
+    "seriesKey": "hearing god listening to the still small voice of the holy spirit|2023-04"
   },
   {
     "id": "bridgetown-4bXiZNapCpQ2YjcnNCUSrr",
@@ -3781,7 +4134,9 @@
     "url": "https://open.spotify.com/episode/4bXiZNapCpQ2YjcnNCUSrr",
     "tags": [],
     "source": "rss",
-    "durationMin": 43
+    "durationMin": 43,
+    "refSource": "regex",
+    "seriesKey": "various teachings|2023-04"
   },
   {
     "id": "bridgetown-6NNmVastTKMwKQEBm1kCDn",
@@ -3801,7 +4156,9 @@
     "url": "https://open.spotify.com/episode/6NNmVastTKMwKQEBm1kCDn",
     "tags": [],
     "source": "rss",
-    "durationMin": 56
+    "durationMin": 56,
+    "refSource": "regex",
+    "seriesKey": "god the whole person soul mind body in his image|2023-02"
   },
   {
     "id": "bridgetown-3Nfdv6BrIdDGYuXGboFVKp",
@@ -3821,7 +4178,9 @@
     "url": "https://open.spotify.com/episode/3Nfdv6BrIdDGYuXGboFVKp",
     "tags": [],
     "source": "rss",
-    "durationMin": 48
+    "durationMin": 48,
+    "refSource": "regex",
+    "seriesKey": "god the whole person soul mind body in his image|2023-02"
   },
   {
     "id": "bridgetown-5i8BzDVeSEfn8hEMCydtD1",
@@ -3841,7 +4200,9 @@
     "url": "https://open.spotify.com/episode/5i8BzDVeSEfn8hEMCydtD1",
     "tags": [],
     "source": "rss",
-    "durationMin": 56
+    "durationMin": 56,
+    "refSource": "regex",
+    "seriesKey": "god the whole person soul mind body in his image|2023-02"
   },
   {
     "id": "bridgetown-5LzvrcpgLiL7WY3EVXBkVj",
@@ -3861,7 +4222,9 @@
     "url": "https://open.spotify.com/episode/5LzvrcpgLiL7WY3EVXBkVj",
     "tags": [],
     "source": "rss",
-    "durationMin": 58
+    "durationMin": 58,
+    "refSource": "regex",
+    "seriesKey": "god the whole person soul mind body in his image|2023-02"
   },
   {
     "id": "bridgetown-2QdFo3E1dG1ACLlxJYFHK0",
@@ -3881,7 +4244,9 @@
     "url": "https://open.spotify.com/episode/2QdFo3E1dG1ACLlxJYFHK0",
     "tags": [],
     "source": "rss",
-    "durationMin": 47
+    "durationMin": 47,
+    "refSource": "regex",
+    "seriesKey": "god the whole person soul mind body in his image|2023-02"
   },
   {
     "id": "bridgetown-4KUiXwvn2fWOWOchGd8S8P",
@@ -3901,7 +4266,9 @@
     "url": "https://open.spotify.com/episode/4KUiXwvn2fWOWOchGd8S8P",
     "tags": [],
     "source": "rss",
-    "durationMin": 55
+    "durationMin": 55,
+    "refSource": "regex",
+    "seriesKey": "god the whole person soul mind body in his image|2023-02"
   },
   {
     "id": "bridgetown-2Kaq8lOV1QPMLvTIaXNhQI",
@@ -3921,7 +4288,9 @@
     "url": "https://open.spotify.com/episode/2Kaq8lOV1QPMLvTIaXNhQI",
     "tags": [],
     "source": "rss",
-    "durationMin": 40
+    "durationMin": 40,
+    "refSource": "regex",
+    "seriesKey": "knowing god the seven|2023-01"
   },
   {
     "id": "bridgetown-5q0l4OPx4L0Hl0mGcTo3Gu",
@@ -3941,7 +4310,9 @@
     "url": "https://open.spotify.com/episode/5q0l4OPx4L0Hl0mGcTo3Gu",
     "tags": [],
     "source": "rss",
-    "durationMin": 36
+    "durationMin": 36,
+    "refSource": "regex",
+    "seriesKey": "knowing god the seven|2023-01"
   },
   {
     "id": "bridgetown-2XAk9D2I8oObKKym1HnPeO",
@@ -3961,7 +4332,9 @@
     "url": "https://open.spotify.com/episode/2XAk9D2I8oObKKym1HnPeO",
     "tags": [],
     "source": "rss",
-    "durationMin": 50
+    "durationMin": 50,
+    "refSource": "regex",
+    "seriesKey": "knowing god the seven|2023-01"
   },
   {
     "id": "bridgetown-6xr5b18WRQHDaspqgVYT1E",
@@ -3981,7 +4354,9 @@
     "url": "https://open.spotify.com/episode/6xr5b18WRQHDaspqgVYT1E",
     "tags": [],
     "source": "rss",
-    "durationMin": 45
+    "durationMin": 45,
+    "refSource": "regex",
+    "seriesKey": "knowing god the seven|2023-01"
   },
   {
     "id": "bridgetown-2YcnINBv7EIMTkweZNdobc",
@@ -4001,7 +4376,9 @@
     "url": "https://open.spotify.com/episode/2YcnINBv7EIMTkweZNdobc",
     "tags": [],
     "source": "rss",
-    "durationMin": 47
+    "durationMin": 47,
+    "refSource": "regex",
+    "seriesKey": "knowing god the seven|2023-01"
   },
   {
     "id": "bridgetown-0fCD5DK6aFMBYJAcAUicnX",
@@ -4021,7 +4398,9 @@
     "url": "https://open.spotify.com/episode/0fCD5DK6aFMBYJAcAUicnX",
     "tags": [],
     "source": "rss",
-    "durationMin": 39
+    "durationMin": 39,
+    "refSource": "regex",
+    "seriesKey": "knowing god the seven|2023-01"
   },
   {
     "id": "bridgetown-3HIqo8u9gFUrhZVZqCmx0T",
@@ -4041,7 +4420,9 @@
     "url": "https://open.spotify.com/episode/3HIqo8u9gFUrhZVZqCmx0T",
     "tags": [],
     "source": "rss",
-    "durationMin": 44
+    "durationMin": 44,
+    "refSource": "regex",
+    "seriesKey": "knowing god the seven|2023-01"
   },
   {
     "id": "bridgetown-6Z6MSxsMNzpL2JqGdmRFMw",
@@ -4061,7 +4442,9 @@
     "url": "https://open.spotify.com/episode/6Z6MSxsMNzpL2JqGdmRFMw",
     "tags": [],
     "source": "rss",
-    "durationMin": 42
+    "durationMin": 42,
+    "refSource": "regex",
+    "seriesKey": "knowing god the seven|2023-01"
   },
   {
     "id": "bridgetown-1TA7366ivee6FC6WhgaVxQ",
@@ -4081,7 +4464,9 @@
     "url": "https://open.spotify.com/episode/1TA7366ivee6FC6WhgaVxQ",
     "tags": [],
     "source": "rss",
-    "durationMin": 25
+    "durationMin": 25,
+    "refSource": "regex",
+    "seriesKey": "advent 2022|2022-11"
   },
   {
     "id": "bridgetown-5dbi8QyeaAT9mhJsdnRAEe",
@@ -4101,7 +4486,9 @@
     "url": "https://open.spotify.com/episode/5dbi8QyeaAT9mhJsdnRAEe",
     "tags": [],
     "source": "rss",
-    "durationMin": 47
+    "durationMin": 47,
+    "refSource": "regex",
+    "seriesKey": "advent 2022|2022-11"
   },
   {
     "id": "bridgetown-1DOdg3aACNzhGqqFFIPddU",
@@ -4121,7 +4508,9 @@
     "url": "https://open.spotify.com/episode/1DOdg3aACNzhGqqFFIPddU",
     "tags": [],
     "source": "rss",
-    "durationMin": 50
+    "durationMin": 50,
+    "refSource": "regex",
+    "seriesKey": "advent 2022|2022-11"
   },
   {
     "id": "bridgetown-6WwWX3tSjTMMBBoUi6WNgE",
@@ -4141,7 +4530,9 @@
     "url": "https://open.spotify.com/episode/6WwWX3tSjTMMBBoUi6WNgE",
     "tags": [],
     "source": "rss",
-    "durationMin": 49
+    "durationMin": 49,
+    "refSource": "regex",
+    "seriesKey": "advent 2022|2022-11"
   },
   {
     "id": "bridgetown-6k6KJwZCOTS24okrUgqY1E",
@@ -4161,7 +4552,9 @@
     "url": "https://open.spotify.com/episode/6k6KJwZCOTS24okrUgqY1E",
     "tags": [],
     "source": "rss",
-    "durationMin": 33
+    "durationMin": 33,
+    "refSource": "regex",
+    "seriesKey": "advent 2022|2022-11"
   },
   {
     "id": "bridgetown-5IgbW1nrWDchzRHec36tVz",
@@ -4181,7 +4574,9 @@
     "url": "https://open.spotify.com/episode/5IgbW1nrWDchzRHec36tVz",
     "tags": [],
     "source": "rss",
-    "durationMin": 55
+    "durationMin": 55,
+    "refSource": "regex",
+    "seriesKey": "a house of prayer for all nations|2022-11"
   },
   {
     "id": "bridgetown-62eLIXrjQBuERHmq70OCIH",
@@ -4201,7 +4596,9 @@
     "url": "https://open.spotify.com/episode/62eLIXrjQBuERHmq70OCIH",
     "tags": [],
     "source": "rss",
-    "durationMin": 56
+    "durationMin": 56,
+    "refSource": "regex",
+    "seriesKey": "vision 2022 a house of prayer for all nations|2022-09"
   },
   {
     "id": "bridgetown-3KuFCyr8Ofj2kuQixMiZLc",
@@ -4221,7 +4618,9 @@
     "url": "https://open.spotify.com/episode/3KuFCyr8Ofj2kuQixMiZLc",
     "tags": [],
     "source": "rss",
-    "durationMin": 50
+    "durationMin": 50,
+    "refSource": "regex",
+    "seriesKey": "vision 2022 a house of prayer for all nations|2022-09"
   },
   {
     "id": "bridgetown-6Ablq0hsCfN1T5D2jMpeT0",
@@ -4241,7 +4640,9 @@
     "url": "https://open.spotify.com/episode/6Ablq0hsCfN1T5D2jMpeT0",
     "tags": [],
     "source": "rss",
-    "durationMin": 46
+    "durationMin": 46,
+    "refSource": "regex",
+    "seriesKey": "vision 2022 a house of prayer for all nations|2022-09"
   },
   {
     "id": "bridgetown-6D8S8tN2cgV5szjs7lkbqn",
@@ -4261,7 +4662,9 @@
     "url": "https://open.spotify.com/episode/6D8S8tN2cgV5szjs7lkbqn",
     "tags": [],
     "source": "rss",
-    "durationMin": 54
+    "durationMin": 54,
+    "refSource": "regex",
+    "seriesKey": "vision 2022 a house of prayer for all nations|2022-09"
   },
   {
     "id": "bridgetown-16ltmHkbxhOrQYUOsGGKXY",
@@ -4281,7 +4684,9 @@
     "url": "https://open.spotify.com/episode/16ltmHkbxhOrQYUOsGGKXY",
     "tags": [],
     "source": "rss",
-    "durationMin": 45
+    "durationMin": 45,
+    "refSource": "regex",
+    "seriesKey": "vision 2022 a house of prayer for all nations|2022-09"
   },
   {
     "id": "bridgetown-4jRdZNb6R8qojxdlA7sGEr",
@@ -4301,7 +4706,9 @@
     "url": "https://open.spotify.com/episode/4jRdZNb6R8qojxdlA7sGEr",
     "tags": [],
     "source": "rss",
-    "durationMin": 49
+    "durationMin": 49,
+    "refSource": "regex",
+    "seriesKey": "vision 2022 a house of prayer for all nations|2022-09"
   },
   {
     "id": "bridgetown-6FLdzhrXuKZgJ7dKpjvfsX",
@@ -4321,7 +4728,9 @@
     "url": "https://open.spotify.com/episode/6FLdzhrXuKZgJ7dKpjvfsX",
     "tags": [],
     "source": "rss",
-    "durationMin": 41
+    "durationMin": 41,
+    "refSource": "regex",
+    "seriesKey": "vision 2022 a house of prayer for all nations|2022-09"
   },
   {
     "id": "bridgetown-3Va3ByI8dRuyPhr8GDpp4C",
@@ -4341,7 +4750,9 @@
     "url": "https://open.spotify.com/episode/3Va3ByI8dRuyPhr8GDpp4C",
     "tags": [],
     "source": "rss",
-    "durationMin": 53
+    "durationMin": 53,
+    "refSource": "regex",
+    "seriesKey": "vision 2022 a house of prayer for all nations|2022-09"
   },
   {
     "id": "bridgetown-5T67TkArXlsutUnTKNo3Aw",
@@ -4361,7 +4772,9 @@
     "url": "https://open.spotify.com/episode/5T67TkArXlsutUnTKNo3Aw",
     "tags": [],
     "source": "rss",
-    "durationMin": 51
+    "durationMin": 51,
+    "refSource": "regex",
+    "seriesKey": "vision 2022 a house of prayer for all nations|2022-09"
   },
   {
     "id": "bridgetown-2lACiTZCHotSD9c4U4uxSq",
@@ -4381,7 +4794,9 @@
     "url": "https://open.spotify.com/episode/2lACiTZCHotSD9c4U4uxSq",
     "tags": [],
     "source": "rss",
-    "durationMin": 52
+    "durationMin": 52,
+    "refSource": "regex",
+    "seriesKey": "vision 2022 a house of prayer for all nations|2022-09"
   },
   {
     "id": "bridgetown-556VPhXtwU2Kqpp0vTOcS7",
@@ -4401,7 +4816,9 @@
     "url": "https://open.spotify.com/episode/556VPhXtwU2Kqpp0vTOcS7",
     "tags": [],
     "source": "rss",
-    "durationMin": 43
+    "durationMin": 43,
+    "refSource": "regex",
+    "seriesKey": "ephesians immeasurably more|2022-07"
   },
   {
     "id": "bridgetown-5W1lD2tb5cPd9ab1DQClMy",
@@ -4421,7 +4838,9 @@
     "url": "https://open.spotify.com/episode/5W1lD2tb5cPd9ab1DQClMy",
     "tags": [],
     "source": "rss",
-    "durationMin": 55
+    "durationMin": 55,
+    "refSource": "regex",
+    "seriesKey": "ephesians immeasurably more|2022-07"
   },
   {
     "id": "bridgetown-0s4Ntv921m5vgLWW75Gz3p",
@@ -4441,7 +4860,9 @@
     "url": "https://open.spotify.com/episode/0s4Ntv921m5vgLWW75Gz3p",
     "tags": [],
     "source": "rss",
-    "durationMin": 41
+    "durationMin": 41,
+    "refSource": "regex",
+    "seriesKey": "ephesians immeasurably more|2022-07"
   },
   {
     "id": "bridgetown-3MmLGRaTanDEMssLR4ROcR",
@@ -4461,7 +4882,9 @@
     "url": "https://open.spotify.com/episode/3MmLGRaTanDEMssLR4ROcR",
     "tags": [],
     "source": "rss",
-    "durationMin": 55
+    "durationMin": 55,
+    "refSource": "regex",
+    "seriesKey": "ephesians immeasurably more|2022-07"
   },
   {
     "id": "bridgetown-3MTcMUNvYo6WZeobUdEEWO",
@@ -4481,7 +4904,9 @@
     "url": "https://open.spotify.com/episode/3MTcMUNvYo6WZeobUdEEWO",
     "tags": [],
     "source": "rss",
-    "durationMin": 47
+    "durationMin": 47,
+    "refSource": "regex",
+    "seriesKey": "ephesians immeasurably more|2022-07"
   },
   {
     "id": "bridgetown-4FQSUVWeWL5MBKWf7ydW11",
@@ -4501,7 +4926,9 @@
     "url": "https://open.spotify.com/episode/4FQSUVWeWL5MBKWf7ydW11",
     "tags": [],
     "source": "rss",
-    "durationMin": 48
+    "durationMin": 48,
+    "refSource": "regex",
+    "seriesKey": "ephesians immeasurably more|2022-07"
   },
   {
     "id": "bridgetown-1qxjqqihdB5naKIdoU6E5x",
@@ -4521,7 +4948,9 @@
     "url": "https://open.spotify.com/episode/1qxjqqihdB5naKIdoU6E5x",
     "tags": [],
     "source": "rss",
-    "durationMin": 43
+    "durationMin": 43,
+    "refSource": "regex",
+    "seriesKey": "ephesians immeasurably more|2022-07"
   },
   {
     "id": "bridgetown-2ulcQjpA07QyvfCJRCtLen",
@@ -4541,7 +4970,9 @@
     "url": "https://open.spotify.com/episode/2ulcQjpA07QyvfCJRCtLen",
     "tags": [],
     "source": "rss",
-    "durationMin": 51
+    "durationMin": 51,
+    "refSource": "regex",
+    "seriesKey": "ephesians immeasurably more|2022-07"
   },
   {
     "id": "bridgetown-1JZyw7wPo6tIwoqpGmahIC",
@@ -4561,7 +4992,9 @@
     "url": "https://open.spotify.com/episode/1JZyw7wPo6tIwoqpGmahIC",
     "tags": [],
     "source": "rss",
-    "durationMin": 43
+    "durationMin": 43,
+    "refSource": "regex",
+    "seriesKey": "ephesians immeasurably more|2022-07"
   },
   {
     "id": "bridgetown-2ODV6TitcmrIUmluSRd5Mi",
@@ -4581,7 +5014,9 @@
     "url": "https://open.spotify.com/episode/2ODV6TitcmrIUmluSRd5Mi",
     "tags": [],
     "source": "rss",
-    "durationMin": 42
+    "durationMin": 42,
+    "refSource": "regex",
+    "seriesKey": "ephesians immeasurably more|2022-07"
   },
   {
     "id": "bridgetown-6tTID5NEnlr6BmZm7E8Xkf",
@@ -4601,7 +5036,9 @@
     "url": "https://open.spotify.com/episode/6tTID5NEnlr6BmZm7E8Xkf",
     "tags": [],
     "source": "rss",
-    "durationMin": 50
+    "durationMin": 50,
+    "refSource": "regex",
+    "seriesKey": "the true false self|2022-06"
   },
   {
     "id": "bridgetown-1NKXlxgWqbZwCPQf8ryUmC",
@@ -4621,7 +5058,9 @@
     "url": "https://open.spotify.com/episode/1NKXlxgWqbZwCPQf8ryUmC",
     "tags": [],
     "source": "rss",
-    "durationMin": 50
+    "durationMin": 50,
+    "refSource": "regex",
+    "seriesKey": "various teachings|2022-04"
   },
   {
     "id": "bridgetown-4APty37oFyT5bzqBNPXylv",
@@ -4641,7 +5080,9 @@
     "url": "https://open.spotify.com/episode/4APty37oFyT5bzqBNPXylv",
     "tags": [],
     "source": "rss",
-    "durationMin": 53
+    "durationMin": 53,
+    "refSource": "regex",
+    "seriesKey": "the true and false self|2022-04"
   },
   {
     "id": "bridgetown-62c5RiTtvB6VmBx3xaOGnf",
@@ -4661,7 +5102,9 @@
     "url": "https://open.spotify.com/episode/62c5RiTtvB6VmBx3xaOGnf",
     "tags": [],
     "source": "rss",
-    "durationMin": 50
+    "durationMin": 50,
+    "refSource": "regex",
+    "seriesKey": "the true and false self|2022-04"
   },
   {
     "id": "bridgetown-5GmlB4U2nrq0kgSJHz2BYZ",
@@ -4681,7 +5124,9 @@
     "url": "https://open.spotify.com/episode/5GmlB4U2nrq0kgSJHz2BYZ",
     "tags": [],
     "source": "rss",
-    "durationMin": 41
+    "durationMin": 41,
+    "refSource": "regex",
+    "seriesKey": "the true and false self|2022-04"
   },
   {
     "id": "bridgetown-5Tlf2XdUWkymbK4AB1QICi",
@@ -4701,7 +5146,9 @@
     "url": "https://open.spotify.com/episode/5Tlf2XdUWkymbK4AB1QICi",
     "tags": [],
     "source": "rss",
-    "durationMin": 37
+    "durationMin": 37,
+    "refSource": "regex",
+    "seriesKey": "the true and false self|2022-04"
   },
   {
     "id": "bridgetown-7aggP8gff48UhCBx0wyK1d",
@@ -4721,7 +5168,9 @@
     "url": "https://open.spotify.com/episode/7aggP8gff48UhCBx0wyK1d",
     "tags": [],
     "source": "rss",
-    "durationMin": 52
+    "durationMin": 52,
+    "refSource": "regex",
+    "seriesKey": "the true and false self|2022-04"
   },
   {
     "id": "bridgetown-296mqmFXmHj5kjmAPr5nxy",
@@ -4741,7 +5190,9 @@
     "url": "https://open.spotify.com/episode/296mqmFXmHj5kjmAPr5nxy",
     "tags": [],
     "source": "rss",
-    "durationMin": 44
+    "durationMin": 44,
+    "refSource": "regex",
+    "seriesKey": "the true and false self|2022-04"
   },
   {
     "id": "bridgetown-09bmObodRjj1xUBOT7yfkm",
@@ -4761,7 +5212,9 @@
     "url": "https://open.spotify.com/episode/09bmObodRjj1xUBOT7yfkm",
     "tags": [],
     "source": "rss",
-    "durationMin": 39
+    "durationMin": 39,
+    "refSource": "regex",
+    "seriesKey": "the true and false self|2022-04"
   },
   {
     "id": "bridgetown-2EEb6MJeVzheGBT0rFB4HP",
@@ -4781,7 +5234,9 @@
     "url": "https://open.spotify.com/episode/2EEb6MJeVzheGBT0rFB4HP",
     "tags": [],
     "source": "rss",
-    "durationMin": 49
+    "durationMin": 49,
+    "refSource": "regex",
+    "seriesKey": "various teachings|2022-04"
   },
   {
     "id": "bridgetown-77NfYUocGeR4EjzLaw4Pib",
@@ -4801,7 +5256,30 @@
     "url": "https://open.spotify.com/episode/77NfYUocGeR4EjzLaw4Pib",
     "tags": [],
     "source": "rss",
-    "durationMin": 58
+    "durationMin": 58,
+    "refSource": "regex",
+    "seriesKey": "in this world you will have trouble|2022-03"
+  },
+  {
+    "id": "bridgetown-3fAUNb9xyPY4T3NZeQxtTp",
+    "title": "A God of Love. A World of Suffering.",
+    "church": "bridgetown",
+    "speaker": "",
+    "date": "2022-04-07",
+    "series": "Lecture",
+    "passage": "",
+    "refs": [
+      {
+        "book": "job"
+      }
+    ],
+    "url": "https://open.spotify.com/episode/3fAUNb9xyPY4T3NZeQxtTp",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 54,
+    "refSource": "ai",
+    "aiConfidence": 0.9,
+    "seriesKey": "lecture|2022-04"
   },
   {
     "id": "bridgetown-696WcnQWcNZxDUCTVcAdI6",
@@ -4821,7 +5299,9 @@
     "url": "https://open.spotify.com/episode/696WcnQWcNZxDUCTVcAdI6",
     "tags": [],
     "source": "rss",
-    "durationMin": 51
+    "durationMin": 51,
+    "refSource": "regex",
+    "seriesKey": "in this world you will have trouble|2022-03"
   },
   {
     "id": "bridgetown-14WbCVSsR8VbY8OwQSkID5",
@@ -4841,7 +5321,9 @@
     "url": "https://open.spotify.com/episode/14WbCVSsR8VbY8OwQSkID5",
     "tags": [],
     "source": "rss",
-    "durationMin": 38
+    "durationMin": 38,
+    "refSource": "regex",
+    "seriesKey": "in this world you will have trouble|2022-03"
   },
   {
     "id": "bridgetown-6BZr5ayea6u2iPNqyGKiNh",
@@ -4861,7 +5343,9 @@
     "url": "https://open.spotify.com/episode/6BZr5ayea6u2iPNqyGKiNh",
     "tags": [],
     "source": "rss",
-    "durationMin": 48
+    "durationMin": 48,
+    "refSource": "regex",
+    "seriesKey": "in this world you will have trouble|2022-03"
   },
   {
     "id": "bridgetown-26iQcloxskyE35BVkLtemx",
@@ -4881,7 +5365,9 @@
     "url": "https://open.spotify.com/episode/26iQcloxskyE35BVkLtemx",
     "tags": [],
     "source": "rss",
-    "durationMin": 36
+    "durationMin": 36,
+    "refSource": "regex",
+    "seriesKey": "teach us to pray|2022-01"
   },
   {
     "id": "bridgetown-6yA9WcJxXUhy0wEjTo7XUJ",
@@ -4901,7 +5387,9 @@
     "url": "https://open.spotify.com/episode/6yA9WcJxXUhy0wEjTo7XUJ",
     "tags": [],
     "source": "rss",
-    "durationMin": 44
+    "durationMin": 44,
+    "refSource": "regex",
+    "seriesKey": "teach us to pray|2022-01"
   },
   {
     "id": "bridgetown-61b5JGPSR7gIfPUSaO7p1V",
@@ -4921,7 +5409,9 @@
     "url": "https://open.spotify.com/episode/61b5JGPSR7gIfPUSaO7p1V",
     "tags": [],
     "source": "rss",
-    "durationMin": 50
+    "durationMin": 50,
+    "refSource": "regex",
+    "seriesKey": "teach us to pray|2022-01"
   },
   {
     "id": "bridgetown-6h8G3TamM3lpE4HaRI8Wqb",
@@ -4941,7 +5431,9 @@
     "url": "https://open.spotify.com/episode/6h8G3TamM3lpE4HaRI8Wqb",
     "tags": [],
     "source": "rss",
-    "durationMin": 45
+    "durationMin": 45,
+    "refSource": "regex",
+    "seriesKey": "teach us to pray|2022-01"
   },
   {
     "id": "bridgetown-1V6tFoBpCpRq3DStdk3euH",
@@ -4961,7 +5453,32 @@
     "url": "https://open.spotify.com/episode/1V6tFoBpCpRq3DStdk3euH",
     "tags": [],
     "source": "rss",
-    "durationMin": 37
+    "durationMin": 37,
+    "refSource": "regex",
+    "seriesKey": "holy spirit conference 2022|2022-01"
+  },
+  {
+    "id": "bridgetown-3AeDYI6q5qXEP5m9JtGEzf",
+    "title": "Hallowed Be Your Name (Adoration)",
+    "church": "bridgetown",
+    "speaker": "",
+    "date": "2022-01-16",
+    "series": "",
+    "passage": "",
+    "refs": [
+      {
+        "book": "matthew",
+        "start": 6,
+        "end": 6
+      }
+    ],
+    "url": "https://open.spotify.com/episode/3AeDYI6q5qXEP5m9JtGEzf",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 52,
+    "refSource": "ai",
+    "aiConfidence": 0.85,
+    "seriesKey": "teach us to pray|2022-01"
   },
   {
     "id": "bridgetown-79F0vI2p4bJwXBILyfXJNm",
@@ -4981,7 +5498,9 @@
     "url": "https://open.spotify.com/episode/79F0vI2p4bJwXBILyfXJNm",
     "tags": [],
     "source": "rss",
-    "durationMin": 45
+    "durationMin": 45,
+    "refSource": "regex",
+    "seriesKey": "advent|2021-12"
   },
   {
     "id": "bridgetown-0hUaCeOyWY25bQwHfbLXGF",
@@ -5001,6 +5520,336 @@
     "url": "https://open.spotify.com/episode/0hUaCeOyWY25bQwHfbLXGF",
     "tags": [],
     "source": "rss",
-    "durationMin": 45
+    "durationMin": 45,
+    "refSource": "regex",
+    "seriesKey": "witness|2021-12"
+  },
+  {
+    "id": "bridgetown-0FmlYXfx6EROgDeYBZusYW",
+    "title": "The Subtle Tragedy of Nicodemus",
+    "church": "bridgetown",
+    "speaker": "",
+    "date": "2021-11-14",
+    "series": "",
+    "passage": "",
+    "refs": [
+      {
+        "book": "john"
+      }
+    ],
+    "url": "https://open.spotify.com/episode/0FmlYXfx6EROgDeYBZusYW",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 59,
+    "refSource": "ai",
+    "aiConfidence": 0.9,
+    "seriesKey": "demonstrating the gospel|2021-09"
+  },
+  {
+    "id": "bridgetown-0T0bTtzoMYweK97p75A7TD",
+    "title": "Blessing the Nations",
+    "church": "bridgetown",
+    "speaker": "",
+    "date": "2021-07-11",
+    "series": "",
+    "passage": "",
+    "refs": [
+      {
+        "book": "matthew"
+      }
+    ],
+    "url": "https://open.spotify.com/episode/0T0bTtzoMYweK97p75A7TD",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 46,
+    "refSource": "series",
+    "aiConfidence": 0.97,
+    "seriesKey": "gospel of matthew|2021-01"
+  },
+  {
+    "id": "bridgetown-6y07pDTSAyp7mMhtGzZIUA",
+    "title": "Come and See",
+    "church": "bridgetown",
+    "speaker": "",
+    "date": "2021-07-04",
+    "series": "",
+    "passage": "",
+    "refs": [
+      {
+        "book": "matthew",
+        "start": 28,
+        "end": 28
+      }
+    ],
+    "url": "https://open.spotify.com/episode/6y07pDTSAyp7mMhtGzZIUA",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 51,
+    "refSource": "ai",
+    "aiConfidence": 0.92,
+    "seriesKey": "gospel of matthew|2021-01"
+  },
+  {
+    "id": "bridgetown-1SIYGpkJsIExvziM8rCu9I",
+    "title": "God is dead. You're next.",
+    "church": "bridgetown",
+    "speaker": "",
+    "date": "2021-06-27",
+    "series": "",
+    "passage": "",
+    "refs": [
+      {
+        "book": "matthew"
+      }
+    ],
+    "url": "https://open.spotify.com/episode/1SIYGpkJsIExvziM8rCu9I",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 44,
+    "refSource": "series",
+    "aiConfidence": 0.97,
+    "seriesKey": "gospel of matthew|2021-01"
+  },
+  {
+    "id": "bridgetown-2vrILGLSCpksNbzxrClMfU",
+    "title": "Honor & Shame",
+    "church": "bridgetown",
+    "speaker": "",
+    "date": "2021-06-20",
+    "series": "",
+    "passage": "",
+    "refs": [
+      {
+        "book": "matthew"
+      }
+    ],
+    "url": "https://open.spotify.com/episode/2vrILGLSCpksNbzxrClMfU",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 44,
+    "refSource": "series",
+    "aiConfidence": 0.97,
+    "seriesKey": "gospel of matthew|2021-01"
+  },
+  {
+    "id": "bridgetown-1cbZXgNSVfPuwDiCkpUgVL",
+    "title": "The Differentness of God",
+    "church": "bridgetown",
+    "speaker": "",
+    "date": "2021-06-13",
+    "series": "",
+    "passage": "",
+    "refs": [
+      {
+        "book": "matthew"
+      }
+    ],
+    "url": "https://open.spotify.com/episode/1cbZXgNSVfPuwDiCkpUgVL",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 48,
+    "refSource": "series",
+    "aiConfidence": 0.97,
+    "seriesKey": "gospel of matthew|2021-01"
+  },
+  {
+    "id": "bridgetown-4kGovZ0V4ojzWbKnjUHxB1",
+    "title": "Gethsemane Prayer",
+    "church": "bridgetown",
+    "speaker": "",
+    "date": "2021-05-30",
+    "series": "",
+    "passage": "",
+    "refs": [
+      {
+        "book": "matthew",
+        "start": 26,
+        "end": 26
+      }
+    ],
+    "url": "https://open.spotify.com/episode/4kGovZ0V4ojzWbKnjUHxB1",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 52,
+    "refSource": "ai",
+    "aiConfidence": 0.93,
+    "seriesKey": "gospel of matthew|2021-01"
+  },
+  {
+    "id": "bridgetown-793QXbwKNryis0IztDhdbL",
+    "title": "Unhindered",
+    "church": "bridgetown",
+    "speaker": "",
+    "date": "2021-05-23",
+    "series": "",
+    "passage": "",
+    "refs": [
+      {
+        "book": "acts",
+        "start": 28,
+        "end": 28
+      }
+    ],
+    "url": "https://open.spotify.com/episode/793QXbwKNryis0IztDhdbL",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 46,
+    "refSource": "ai",
+    "aiConfidence": 0.92
+  },
+  {
+    "id": "bridgetown-7ylqaxJbql4lniLHsDS5rh",
+    "title": "To Strengthen The Failing Heart",
+    "church": "bridgetown",
+    "speaker": "",
+    "date": "2021-05-16",
+    "series": "",
+    "passage": "",
+    "refs": [
+      {
+        "book": "matthew"
+      }
+    ],
+    "url": "https://open.spotify.com/episode/7ylqaxJbql4lniLHsDS5rh",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 50,
+    "refSource": "series",
+    "aiConfidence": 0.97,
+    "seriesKey": "gospel of matthew|2021-01"
+  },
+  {
+    "id": "bridgetown-6C9cCAdtjmD6QRC28JmOuf",
+    "title": "The Way of Mercy, Integrity, & Humility",
+    "church": "bridgetown",
+    "speaker": "",
+    "date": "2021-05-09",
+    "series": "",
+    "passage": "",
+    "refs": [
+      {
+        "book": "matthew",
+        "start": 23,
+        "end": 23
+      }
+    ],
+    "url": "https://open.spotify.com/episode/6C9cCAdtjmD6QRC28JmOuf",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 47,
+    "refSource": "ai",
+    "aiConfidence": 0.9,
+    "seriesKey": "gospel of matthew|2021-01"
+  },
+  {
+    "id": "bridgetown-15G6b8qbpFPPWkeaJVauKH",
+    "title": "Love is the Measure",
+    "church": "bridgetown",
+    "speaker": "",
+    "date": "2021-05-02",
+    "series": "",
+    "passage": "",
+    "refs": [
+      {
+        "book": "matthew"
+      }
+    ],
+    "url": "https://open.spotify.com/episode/15G6b8qbpFPPWkeaJVauKH",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 47,
+    "refSource": "ai",
+    "aiConfidence": 0.85,
+    "seriesKey": "gospel of matthew|2021-01"
+  },
+  {
+    "id": "bridgetown-7xtlyc1uFFMpwUehL0MUJw",
+    "title": "Render unto Caesar",
+    "church": "bridgetown",
+    "speaker": "",
+    "date": "2021-04-25",
+    "series": "",
+    "passage": "",
+    "refs": [
+      {
+        "book": "matthew",
+        "start": 22,
+        "end": 22
+      }
+    ],
+    "url": "https://open.spotify.com/episode/7xtlyc1uFFMpwUehL0MUJw",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 42,
+    "refSource": "ai",
+    "aiConfidence": 0.93,
+    "seriesKey": "gospel of matthew|2021-01"
+  },
+  {
+    "id": "bridgetown-4dKpmqlAfW9uqfZLPiwZsm",
+    "title": "Believing Amidst Disappointment",
+    "church": "bridgetown",
+    "speaker": "",
+    "date": "2021-04-18",
+    "series": "",
+    "passage": "",
+    "refs": [
+      {
+        "book": "matthew",
+        "start": 21,
+        "end": 21
+      }
+    ],
+    "url": "https://open.spotify.com/episode/4dKpmqlAfW9uqfZLPiwZsm",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 53,
+    "refSource": "ai",
+    "aiConfidence": 0.9,
+    "seriesKey": "gospel of matthew|2021-01"
+  },
+  {
+    "id": "bridgetown-2EjV8SWPBY9f04LjKkc247",
+    "title": "Steps Into Suffering",
+    "church": "bridgetown",
+    "speaker": "",
+    "date": "2021-01-31",
+    "series": "",
+    "passage": "",
+    "refs": [
+      {
+        "book": "matthew"
+      }
+    ],
+    "url": "https://open.spotify.com/episode/2EjV8SWPBY9f04LjKkc247",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 45,
+    "refSource": "ai",
+    "aiConfidence": 0.85,
+    "seriesKey": "gospel of matthew|2021-01"
+  },
+  {
+    "id": "bridgetown-4b6q4w3E7d3oYL9Mek8UwD",
+    "title": "Godly Ambition",
+    "church": "bridgetown",
+    "speaker": "",
+    "date": "2021-01-24",
+    "series": "",
+    "passage": "",
+    "refs": [
+      {
+        "book": "matthew",
+        "start": 20,
+        "end": 20
+      }
+    ],
+    "url": "https://open.spotify.com/episode/4b6q4w3E7d3oYL9Mek8UwD",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 38,
+    "refSource": "series",
+    "aiConfidence": 0.97,
+    "seriesKey": "gospel of matthew|2021-01"
   }
 ]

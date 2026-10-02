@@ -1,0 +1,64 @@
+{
+ "0T0bTtzoMYweK97p75A7TD": {
+  "_episode": "Blessing the Nations",
+  "refs": [
+   {
+    "book": "matthew"
+   }
+  ],
+  "confidence": 0.97,
+  "basis": "Gospel of Matthew (gospel of matthew|2021-01): matthew 9.0/9.0 votes"
+ },
+ "1SIYGpkJsIExvziM8rCu9I": {
+  "_episode": "God is dead. You're next.",
+  "refs": [
+   {
+    "book": "matthew"
+   }
+  ],
+  "confidence": 0.97,
+  "basis": "Gospel of Matthew (gospel of matthew|2021-01): matthew 9.0/9.0 votes"
+ },
+ "1cbZXgNSVfPuwDiCkpUgVL": {
+  "_episode": "The Differentness of God",
+  "refs": [
+   {
+    "book": "matthew"
+   }
+  ],
+  "confidence": 0.97,
+  "basis": "Gospel of Matthew (gospel of matthew|2021-01): matthew 9.0/9.0 votes"
+ },
+ "2vrILGLSCpksNbzxrClMfU": {
+  "_episode": "Honor & Shame",
+  "refs": [
+   {
+    "book": "matthew"
+   }
+  ],
+  "confidence": 0.97,
+  "basis": "Gospel of Matthew (gospel of matthew|2021-01): matthew 9.0/9.0 votes"
+ },
+ "4b6q4w3E7d3oYL9Mek8UwD": {
+  "_episode": "Godly Ambition",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 20,
+    "end": 20
+   }
+  ],
+  "confidence": 0.97,
+  "basis": "Gospel of Matthew (gospel of matthew|2021-01): matthew 9.0/9.0 votes"
+ },
+ "7ylqaxJbql4lniLHsDS5rh": {
+  "_episode": "To Strengthen The Failing Heart",
+  "refs": [
+   {
+    "book": "matthew"
+   }
+  ],
+  "confidence": 0.97,
+  "basis": "Gospel of Matthew (gospel of matthew|2021-01): matthew 9.0/9.0 votes"
+ }
+}

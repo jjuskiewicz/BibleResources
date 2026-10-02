@@ -1,0 +1,500 @@
+{
+ "04vtfGMaAnrT78eV3qs9dN": {
+  "_episode": "Wk 25: It’s Not Too Late",
+  "refs": [
+   {
+    "book": "romans",
+    "start": 11,
+    "end": 11
+   }
+  ],
+  "confidence": 0.89,
+  "basis": "wk-run 2018-01-14 (wk-run 2018-01-14|2018-01): romans 23.5/25.5 votes"
+ },
+ "0IBxbjDB28kQw03ACo5M65": {
+  "_episode": "Wk 19: Sovereign Grace",
+  "refs": [
+   {
+    "book": "romans",
+    "start": 8,
+    "end": 9
+   }
+  ],
+  "confidence": 0.89,
+  "basis": "wk-run 2018-01-14 (wk-run 2018-01-14|2018-01): romans 23.5/25.5 votes"
+ },
+ "0JsRMdpiPMzFOmPcY1D01q": {
+  "_episode": "Wk 18: Chosen",
+  "refs": [
+   {
+    "book": "romans",
+    "start": 8,
+    "end": 8
+   }
+  ],
+  "confidence": 0.89,
+  "basis": "wk-run 2018-01-14 (wk-run 2018-01-14|2018-01): romans 23.5/25.5 votes"
+ },
+ "0KL6l5kdpGdHjXfODUl2OK": {
+  "_episode": "Wk 4: The Sovereignty of God in Our Pursuit of Purity",
+  "refs": [
+   {
+    "book": "ruth",
+    "start": 3,
+    "end": 3
+   }
+  ],
+  "confidence": 0.95,
+  "basis": "wk-run 2017-07-09 (wk-run 2017-07-09|2017-07): ruth 3.5/3.5 votes"
+ },
+ "0TLACZ8MW61bUjqvObFHa2": {
+  "_episode": "Week 9: Comparison Trap",
+  "refs": [
+   {
+    "book": "james",
+    "start": 4,
+    "end": 4
+   }
+  ],
+  "confidence": 0.95,
+  "basis": "wk-run 2023-08-13 (wk-run 2023-08-13|2023-08): james 3.2/3.2 votes"
+ },
+ "0bWn4LouIjieroxugSKvqx": {
+  "_episode": "Wk 8: Healing in His Wings",
+  "refs": [
+   {
+    "book": "john"
+   }
+  ],
+  "confidence": 0.85,
+  "basis": "wk-run 2023-04-16 (wk-run 2023-04-16|2023-04): john 5.5/6.2 votes"
+ },
+ "0clpiEQeIAGPoUm0pBNR54": {
+  "_episode": "Walk This Way: Be Free - Wk 12",
+  "refs": [
+   {
+    "book": "galatians",
+    "start": 5,
+    "end": 5
+   }
+  ],
+  "confidence": 0.97,
+  "basis": "Be Free (be free|2024-04): galatians 10.5/10.5 votes"
+ },
+ "0gS2UwVbLaL7amueLajI67": {
+  "_episode": "Wk 32: Life on Mission",
+  "refs": [
+   {
+    "book": "romans",
+    "start": 15,
+    "end": 15
+   }
+  ],
+  "confidence": 0.89,
+  "basis": "wk-run 2018-01-14 (wk-run 2018-01-14|2018-01): romans 23.5/25.5 votes"
+ },
+ "0gw9SQkXMMDWVqOKu9fQKV": {
+  "_episode": "Wk 3: The Explicit Gospel",
+  "refs": [
+   {
+    "book": "acts",
+    "start": 10,
+    "end": 10
+   }
+  ],
+  "confidence": 0.94,
+  "basis": "wk-run 2013-02-10 (wk-run 2013-02-10|2013-02): acts 3.0/3.0 votes"
+ },
+ "0suS4oYnK2bNl0bvXKmHuH": {
+  "_episode": "Wk 2: Restoring Honor and Unity",
+  "refs": [
+   {
+    "book": "acts",
+    "start": 15,
+    "end": 15
+   }
+  ],
+  "confidence": 0.92,
+  "basis": "wk-run 2013-06-02 (wk-run 2013-06-02|2013-06): acts 2.5/2.5 votes"
+ },
+ "15HTniQWOR8ZGlgTVdhOOI": {
+  "_episode": "Wk 1: In the Way",
+  "refs": [
+   {
+    "book": "acts",
+    "start": 11,
+    "end": 11
+   }
+  ],
+  "confidence": 0.91,
+  "basis": "wk-run 2013-03-10 (wk-run 2013-03-10|2013-03): acts 2.0/2.0 votes"
+ },
+ "1qGZCSRyDC05zlq7hk2TOE": {
+  "_episode": "Wk 10: Come to Me",
+  "refs": [
+   {
+    "book": "john",
+    "start": 6,
+    "end": 6
+   }
+  ],
+  "confidence": 0.97,
+  "basis": "wk-run 2021-04-11 (wk-run 2021-04-11|2021-04): john 25.2/25.2 votes"
+ },
+ "1x3eqjEEUFUimLswEjm40F": {
+  "_episode": "Wk 3: Tear off the Roof",
+  "refs": [
+   {
+    "book": "john"
+   }
+  ],
+  "confidence": 0.85,
+  "basis": "wk-run 2023-04-16 (wk-run 2023-04-16|2023-04): john 5.5/6.2 votes"
+ },
+ "2DOzbOdzwul1HA1Ahz6FGD": {
+  "_episode": "Wk 3: Fear & Comfort",
+  "refs": [
+   {
+    "book": "acts",
+    "start": 9,
+    "end": 9
+   }
+  ],
+  "confidence": 0.95,
+  "basis": "wk-run 2013-01-13 (wk-run 2013-01-13|2013-01): acts 3.5/3.5 votes"
+ },
+ "2GZJHyewDIzYf2H55B7hBT": {
+  "_episode": "Week 3: Anger",
+  "refs": [
+   {
+    "book": "james",
+    "start": 1,
+    "end": 1
+   }
+  ],
+  "confidence": 0.97,
+  "basis": "wk-run 2023-06-11 (wk-run 2023-06-11|2023-06): james 5.5/5.5 votes"
+ },
+ "2hJ2Kjj67NGyVraYs6aV8c": {
+  "_episode": "Wk 9: Holy Spirit",
+  "refs": [
+   {
+    "book": "john",
+    "start": 14,
+    "end": 16
+   }
+  ],
+  "confidence": 0.85,
+  "basis": "wk-run 2023-04-16 (wk-run 2023-04-16|2023-04): john 5.5/6.2 votes"
+ },
+ "2rv6MfNl6h7IARAeQhrWF5": {
+  "_episode": "Wk 12: The Lord Judge",
+  "refs": [
+   {
+    "book": "1-samuel",
+    "start": 24,
+    "end": 26
+   }
+  ],
+  "confidence": 0.97,
+  "basis": "wk-run 2019-04-28 (wk-run 2019-04-28|2019-04): 1-samuel 9.5/9.5 votes"
+ },
+ "2s17h4o3GekPF7Yv9xC4P6": {
+  "_episode": "How Can I Be Saved?: Be Free - Wk 6",
+  "refs": [
+   {
+    "book": "galatians",
+    "start": 2,
+    "end": 2
+   }
+  ],
+  "confidence": 0.97,
+  "basis": "Be Free (be free|2024-04): galatians 10.5/10.5 votes"
+ },
+ "2wunPunFg2yWzzvB9uBpIe": {
+  "_episode": "Comparison Kills: Be Free - Wk 3",
+  "refs": [
+   {
+    "book": "galatians"
+   }
+  ],
+  "confidence": 0.97,
+  "basis": "Be Free (be free|2024-04): galatians 10.5/10.5 votes"
+ },
+ "3W0o2Bwem72Cy3ky6ZK8CD": {
+  "_episode": "Wk 26: Right Theology Leads to Right Doxology",
+  "refs": [
+   {
+    "book": "romans",
+    "start": 11,
+    "end": 12
+   }
+  ],
+  "confidence": 0.89,
+  "basis": "wk-run 2018-01-14 (wk-run 2018-01-14|2018-01): romans 23.5/25.5 votes"
+ },
+ "3ttgkVuBGnxf4RBK29zQDJ": {
+  "_episode": "Week 1: Trials",
+  "refs": [
+   {
+    "book": "james",
+    "start": 1,
+    "end": 1
+   }
+  ],
+  "confidence": 0.97,
+  "basis": "wk-run 2023-06-11 (wk-run 2023-06-11|2023-06): james 5.5/5.5 votes"
+ },
+ "3votRvySa1ZcDPesI0jDAK": {
+  "_episode": "Iron Sharpens Iron: Be Free - Wk 5",
+  "refs": [
+   {
+    "book": "galatians",
+    "start": 6,
+    "end": 6
+   }
+  ],
+  "confidence": 0.97,
+  "basis": "Be Free (be free|2024-04): galatians 10.5/10.5 votes"
+ },
+ "3yLCoqOfBVzurL3cQmI1rJ": {
+  "_episode": "Wk 4: First Step",
+  "refs": [
+   {
+    "book": "acts",
+    "start": 10,
+    "end": 11
+   }
+  ],
+  "confidence": 0.94,
+  "basis": "wk-run 2013-02-10 (wk-run 2013-02-10|2013-02): acts 3.0/3.0 votes"
+ },
+ "43v8q6JkyDbVsC4hYBaeNb": {
+  "_episode": "Week 2: Temptation: Life or Death",
+  "refs": [
+   {
+    "book": "james",
+    "start": 1,
+    "end": 1
+   }
+  ],
+  "confidence": 0.97,
+  "basis": "wk-run 2023-06-11 (wk-run 2023-06-11|2023-06): james 5.5/5.5 votes"
+ },
+ "4CFMoqfTNUOhXBmnlPAufn": {
+  "_episode": "Wk 23: God’s Outstretched Arms",
+  "refs": [
+   {
+    "book": "romans",
+    "start": 10,
+    "end": 10
+   }
+  ],
+  "confidence": 0.89,
+  "basis": "wk-run 2018-01-14 (wk-run 2018-01-14|2018-01): romans 23.5/25.5 votes"
+ },
+ "4IMsl5GlKs0OrBk4AKC8J4": {
+  "_episode": "Wk 8: Me First",
+  "refs": [
+   {
+    "book": "1-samuel",
+    "start": 15,
+    "end": 15
+   }
+  ],
+  "confidence": 0.97,
+  "basis": "wk-run 2019-04-28 (wk-run 2019-04-28|2019-04): 1-samuel 9.5/9.5 votes"
+ },
+ "4Stkf1jz7dsvBZRweWQVKp": {
+  "_episode": "Wk 31: Gospel Unity",
+  "refs": [
+   {
+    "book": "romans",
+    "start": 14,
+    "end": 15
+   }
+  ],
+  "confidence": 0.89,
+  "basis": "wk-run 2018-01-14 (wk-run 2018-01-14|2018-01): romans 23.5/25.5 votes"
+ },
+ "4Z7lljqPG9Y8EoiqiA6uAG": {
+  "_episode": "Wk 2: Unlikely Messengers",
+  "refs": [
+   {
+    "book": "acts",
+    "start": 11,
+    "end": 11
+   }
+  ],
+  "confidence": 0.91,
+  "basis": "wk-run 2013-03-10 (wk-run 2013-03-10|2013-03): acts 2.0/2.0 votes"
+ },
+ "4eF0QXmmmVWIaZtbLjRLnM": {
+  "_episode": "Wk 22: Saved and Sent",
+  "refs": [
+   {
+    "book": "romans",
+    "start": 10,
+    "end": 10
+   }
+  ],
+  "confidence": 0.89,
+  "basis": "wk-run 2018-01-14 (wk-run 2018-01-14|2018-01): romans 23.5/25.5 votes"
+ },
+ "4ySbJ9i43TpKrJWXUn8X9E": {
+  "_episode": "Wk 12: Thirsty",
+  "refs": [
+   {
+    "book": "john",
+    "start": 7,
+    "end": 7
+   }
+  ],
+  "confidence": 0.97,
+  "basis": "wk-run 2021-04-11 (wk-run 2021-04-11|2021-04): john 25.2/25.2 votes"
+ },
+ "5KHhq8kHRxSs8zbnQvCH9b": {
+  "_episode": "Week 5: Compassion",
+  "refs": [
+   {
+    "book": "james",
+    "start": 2,
+    "end": 2
+   }
+  ],
+  "confidence": 0.97,
+  "basis": "wk-run 2023-06-11 (wk-run 2023-06-11|2023-06): james 5.5/5.5 votes"
+ },
+ "5eEEqFfNRpZGSPHiAABYrc": {
+  "_episode": "Wk 1: Doubts",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 11,
+    "end": 11
+   }
+  ],
+  "confidence": 0.92,
+  "basis": "wk-run 2020-07-19 (wk-run 2020-07-19|2020-07): matthew 2.5/2.5 votes"
+ },
+ "5xn4azxBYabSWEZ2mk3oeA": {
+  "_episode": "Wk 3: The Sovereignty of God in Our Provision",
+  "refs": [
+   {
+    "book": "ruth",
+    "start": 2,
+    "end": 2
+   }
+  ],
+  "confidence": 0.95,
+  "basis": "wk-run 2017-07-09 (wk-run 2017-07-09|2017-07): ruth 3.5/3.5 votes"
+ },
+ "6Ie3UZKW9Mh3giiJLX5RnF": {
+  "_episode": "Week 12: Don’t Waste Your Life",
+  "refs": [
+   {
+    "book": "james",
+    "start": 4,
+    "end": 4
+   }
+  ],
+  "confidence": 0.95,
+  "basis": "wk-run 2023-08-13 (wk-run 2023-08-13|2023-08): james 3.2/3.2 votes"
+ },
+ "6S178X3Ae9yB34typXa6R4": {
+  "_episode": "Wk 19: The Gospel",
+  "refs": [
+   {
+    "book": "john",
+    "start": 12,
+    "end": 12
+   }
+  ],
+  "confidence": 0.97,
+  "basis": "wk-run 2021-04-11 (wk-run 2021-04-11|2021-04): john 25.2/25.2 votes"
+ },
+ "6YiPRcHNNVtJzbDmkGEzxi": {
+  "_episode": "Wk 6: God Loves a Cheerful Giver",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 6,
+    "end": 6
+   }
+  ],
+  "confidence": 0.81,
+  "basis": "wk-run 2020-04-19 (wk-run 2020-04-19|2020-04): matthew 10.0/12.0 votes"
+ },
+ "6iJbCIoesXjdasNwjyzfx9": {
+  "_episode": "Wk 30: Love Rules",
+  "refs": [
+   {
+    "book": "romans",
+    "start": 13,
+    "end": 13
+   }
+  ],
+  "confidence": 0.89,
+  "basis": "wk-run 2018-01-14 (wk-run 2018-01-14|2018-01): romans 23.5/25.5 votes"
+ },
+ "7f5Ne4mHt98ZLd9A2G30Is": {
+  "_episode": "Wk 7: Nothing Can Stop Him",
+  "refs": [
+   {
+    "book": "1-samuel",
+    "start": 14,
+    "end": 14
+   }
+  ],
+  "confidence": 0.97,
+  "basis": "wk-run 2019-04-28 (wk-run 2019-04-28|2019-04): 1-samuel 9.5/9.5 votes"
+ },
+ "7kyaPGj95s1atoQq1tmsjq": {
+  "_episode": "Wk 24: Amazing Grace",
+  "refs": [
+   {
+    "book": "romans",
+    "start": 11,
+    "end": 11
+   }
+  ],
+  "confidence": 0.89,
+  "basis": "wk-run 2018-01-14 (wk-run 2018-01-14|2018-01): romans 23.5/25.5 votes"
+ },
+ "7rOpZ6NxAJglKNTAZ43SIw": {
+  "_episode": "Wk 15: Compassion Weekend",
+  "refs": [
+   {
+    "book": "romans",
+    "start": 6,
+    "end": 6
+   }
+  ],
+  "confidence": 0.89,
+  "basis": "wk-run 2018-01-14 (wk-run 2018-01-14|2018-01): romans 23.5/25.5 votes"
+ },
+ "7tdTLpiw8NisyexIecrQRG": {
+  "_episode": "Wk 4: Do Over",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 17,
+    "end": 17
+   }
+  ],
+  "confidence": 0.92,
+  "basis": "wk-run 2020-07-19 (wk-run 2020-07-19|2020-07): matthew 2.5/2.5 votes"
+ },
+ "week-11-choose-who-you-ll-serve": {
+  "_episode": "Week 11: Choose Who You’ll Serve",
+  "refs": [
+   {
+    "book": "james",
+    "start": 4,
+    "end": 4
+   }
+  ],
+  "confidence": 0.95,
+  "basis": "wk-run 2023-08-13 (wk-run 2023-08-13|2023-08): james 3.2/3.2 votes"
+ }
+}

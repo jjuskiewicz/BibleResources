@@ -1,0 +1,12 @@
+issue,church,series,series_book,support,purity,date,title,current,ref_source,ai_kind,ai_conf,cluster
+mapped book differs from series,bridgetown,Knowing God: The Seven,john,8.0,0.88,2023-01-01,Part 1: Moses Meets YHWH,Exodus 3:13-14,regex,,,knowing god the seven|2023-01
+mapped book differs from series,cotcny,The Prodigal Church,revelation,6.0,0.83,2018-03-27,The Prodigal Church Series - A Model Church,1 Thessalonians 2:8,regex,,,the prodigal church|2018-02
+mapped book differs from series,cotcny,I AM,john,7.0,0.86,2019-02-12,I AM: The Good Shepherd (part 2) - Jon Tyson,Luke 15:4,regex,,,i am|2019-01
+mapped book differs from series,cotcny,Come & See,john,16.0,0.94,2024-09-02,Come & See: Come to Me - Jon Tyson,Matthew 11,regex,,,come see|2024-05
+mapped book differs from series,cotcny,Come to Me,john,8.25,0.88,2026-03-30,Come to Me | Rest For Your Soul - Jon Tyson,Matthew 11,regex,,,come to me|2026-02
+mapped book differs from series,eleven22,wk-run 2018-01-14,romans,25.5,0.92,2018-01-21,Wk 2: Prayers of a Pastor,Ephesians 3:14-21,regex,,,wk-run 2018-01-14|2018-01
+mapped book differs from series,eleven22,wk-run 2018-01-14,romans,25.5,0.92,2018-08-05,Wk 29: Submit to Authority,Matthew 22:20-21,regex,,,wk-run 2018-01-14|2018-01
+mapped book differs from series,eleven22,wk-run 2020-03-01,revelation,6.0,0.83,2020-03-08,Wk 2: Smyrna – Suffer Well,John 16:33,regex,,,wk-run 2020-03-01|2020-03
+mapped book differs from series,eleven22,wk-run 2020-04-19,matthew,12.0,0.83,2020-04-26,Wk 2: Salt and Light,Ephesians 2:8-10,regex,,,wk-run 2020-04-19|2020-04
+mapped book differs from series,eleven22,wk-run 2020-04-19,matthew,12.0,0.83,2020-05-17,Wk 5: Blind and Toothless,Romans 5:8,regex,,,wk-run 2020-04-19|2020-04
+mapped book differs from series,eleven22,wk-run 2023-02-05,philippians,9.0,0.89,2023-04-02,Wk 9: Secret to Contentment,Matthew 11:28-30,regex,,,wk-run 2023-02-05|2023-02

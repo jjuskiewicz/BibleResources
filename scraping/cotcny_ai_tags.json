@@ -1,0 +1,3019 @@
+{
+ "_meta": {
+  "generated": "2026-10-02",
+  "model": "claude-sonnet (subagents)",
+  "note": "AI tags for episodes the regex left unmapped. pass 1 = episode judged alone; pass 2 = re-judged with its whole series as context (replaces pass 1 for every episode pass 1 didn't settle at >= 0.9). kinds: book, topical, non_sermon (excluded from site at >= 0.7), unknown. Hand overrides always win."
+ },
+ "00dIAtpCGDATLVZP4Rf0SF": {
+  "_episode": "Making Sense of Church | The Temple - Jon Tyson",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Church as temple, text not given.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "02njxU9gGDiv84HM4drZ97": {
+  "_episode": "God Comes Where He's Wanted 2.0: Palm Sunday - Suzy Silk",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 21,
+    "end": 21
+   }
+  ],
+  "confidence": 0.4,
+  "rationale": "Palm Sunday triumphal entry; gospel uncertain.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book matthew 0.5"
+ },
+ "0Ap7gNApJ06LoY1BsMe3h9": {
+  "_episode": "Revelation of Jesus Christ - Corey Russell",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "revelation",
+    "start": 1,
+    "end": 1
+   }
+  ],
+  "confidence": 0.5,
+  "rationale": "Corey Russell on the revelation of Jesus Christ, likely Revelation 1.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "book revelation 0.5"
+ },
+ "0B8SdLT2rqhkj7tEdwdFhg": {
+  "_episode": "The Jesus Stuff: Truth - Ashley Anderson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 8,
+    "end": 8
+   }
+  ],
+  "confidence": 0.93,
+  "rationale": "Abide in my word, know the truth, John 8:31-32",
+  "pass": 1
+ },
+ "0BZA0fC843CDwcMYrH2zYG": {
+  "_episode": "Controversial Faith: How can a Good God Allow Evil and Suffering? - Suzy Silk",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.85,
+  "rationale": "Thematic teaching with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.85"
+ },
+ "0E8MhcEgO7gW20TMioplFF": {
+  "_episode": "Easter Sunday | God Conscious - Jon Tyson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 20,
+    "end": 20
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "Mary Magdalene at the empty tomb, John's gospel",
+  "pass": 1
+ },
+ "0IabCikKtd3k1NvOLGwPbu": {
+  "_episode": "Rediscovering Church: The Model Church - Suzy Silk",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "1-thessalonians",
+    "start": 1,
+    "end": 1
+   }
+  ],
+  "confidence": 0.93,
+  "rationale": "Thessalonians as model church, 1 Thess 1",
+  "pass": 1
+ },
+ "0JTRD0xL8LSvzGDwS6LPdR": {
+  "_episode": "Sowing for Awakening - David Thomas",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.85,
+  "rationale": "Guest message on travailing prayer.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "topical  0.85"
+ },
+ "0Jy0K8aEwIE4FQa17oJysb": {
+  "_episode": "Church in a Time of Crisis: Love In A time of Selfishness - Jon Tyson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "galatians",
+    "start": 5,
+    "end": 5
+   }
+  ],
+  "confidence": 0.85,
+  "rationale": "Fruit of the Spirit series, Galatians 5",
+  "pass": 1
+ },
+ "0KZsoBSCrwY2b2u83bzNdu": {
+  "_episode": "Formed: Participation - Jon Tyson",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Discipleship participation theme, no text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "0LwsVxoL91LsAYRYxc24hP": {
+  "_episode": "God Comes Where He's Wanted - Jon Tyson",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.6,
+  "rationale": "Series opener on altars/revival.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "topical  0.5"
+ },
+ "0PoGq6wEkO0rkB6hUGEJCq": {
+  "_episode": "Formed: Mortification - Jon Tyson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "romans",
+    "start": 8,
+    "end": 8
+   }
+  ],
+  "confidence": 0.5,
+  "rationale": "Mortification classically Romans 8:13.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book romans 0.4"
+ },
+ "0QokUgDU0WxVT6bNGPh7dD": {
+  "_episode": "God Comes Where He's Wanted: The Cry of the Lord - Suzy Silk",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Holiness and consecration theme, text not given.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "0UZOzRCcxCUGHGXK5xkWpn": {
+  "_episode": "The Jesus Stuff: The Table - Jon Tyson",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Who Jesus ate with, no single text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.5"
+ },
+ "0XbGwHBTwGYUUUDErm2Eoe": {
+  "_episode": "Race, Class, Reconciliation and the Kingdom of God: A Conversation with David Bailey",
+  "kind": "non_sermon",
+  "refs": [],
+  "confidence": 0.97,
+  "rationale": "Interview with David Bailey.",
+  "pass": 2,
+  "series_kind": "unclear",
+  "pass1": "topical  0.97"
+ },
+ "0bP8qA8Yeqx3xiA4DhAmDW": {
+  "_episode": "Missional Formation | Vocational Mission - Jon Tyson",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.85,
+  "rationale": "Vocational mission and workplace prayer.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.85"
+ },
+ "0gK3soz7WX1Z2d2oIKab3e": {
+  "_episode": "FOLLOW | Seeking - Ralph Castillo",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 6,
+    "end": 6
+   }
+  ],
+  "confidence": 0.92,
+  "rationale": "Seek first the kingdom, Matthew 6:33; Matthew series",
+  "pass": 1
+ },
+ "0gR3ltGvHCj9XajI9AYJCU": {
+  "_episode": "A Year of Answered Prayers",
+  "kind": "non_sermon",
+  "refs": [],
+  "confidence": 0.6,
+  "rationale": "Year-end church update.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "topical  0.95"
+ },
+ "0nJif0lEP6j5xfGk7WDJv7": {
+  "_episode": "The Jesus Stuff: Radical Obedience - Jon Tyson",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Radical obedience questions, no text given.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.6"
+ },
+ "0o3UosFiZhW3O2vxgJD1hy": {
+  "_episode": "Compelling Missional Disciples: God's Presence is Everything - Darren Rouanzoin",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Thematic teaching with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.5"
+ },
+ "0pGwbMO93zTaFwKhoDvQE2": {
+  "_episode": "Fall Vision Day 2018 - Here For This",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.85,
+  "rationale": "Vision conference talk on ministry priorities.",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "topical  0.95"
+ },
+ "0regOyzlHdtyhUnLyxagXA": {
+  "_episode": "Come & See: I Am the Bread of Life - Jon Tyson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 6,
+    "end": 6
+   }
+  ],
+  "confidence": 0.97,
+  "rationale": "I am the bread of life",
+  "pass": 1
+ },
+ "0yojn8RDLhQqtJ2aiRopCz": {
+  "_episode": "Formed: Vivification - Jon Tyson",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Vivification, text not revealed.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "0yw8Ze1RMsTt8YYL9P3Q00": {
+  "_episode": "Advent: Longing Contested - Jon Tyson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 1,
+    "end": 1
+   }
+  ],
+  "confidence": 0.85,
+  "rationale": "Joseph story, Matthew 1.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book matthew 0.8"
+ },
+ "10MgldmshqQS7vIbK6K96b": {
+  "_episode": "The Jesus Stuff: The Kingdom - Jon Tyson",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Teaching on what the Kingdom is, no single text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.55"
+ },
+ "118vJ7urA8ANtdLNAlkamj": {
+  "_episode": "Center for Vocational Mission | The Role of Prayer and the Workplace",
+  "kind": "non_sermon",
+  "refs": [],
+  "confidence": 0.95,
+  "rationale": "Interview with young leaders at a forum.",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "topical  0.95"
+ },
+ "12ZrTgS6xIwDfSdZillevu": {
+  "_episode": "Releasing the Spirit of Prayer - Corey Russell",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.75,
+  "rationale": "Teaching on releasing prayer.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "topical  0.75"
+ },
+ "15idtfQo6SWJs25nyKvixq": {
+  "_episode": "Altars: The Church - Suzy Silk",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "revelation",
+    "start": 2,
+    "end": 2
+   }
+  ],
+  "confidence": 0.5,
+  "rationale": "Church altar and first love, Revelation 2.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book revelation 0.45"
+ },
+ "16CR9ZyjBxOXXDXLvKmHJZ": {
+  "_episode": "Advent 2025: He Shall Be | Great - Jon Tyson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "luke"
+   }
+  ],
+  "confidence": 0.4,
+  "rationale": "Jesus' greatness and humility, probably Luke.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book luke 0.4"
+ },
+ "1Big3htJGC9lJFogOjCFxs": {
+  "_episode": "Defiant Joy: The Concerns of Christ - Suzy Silk",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "philippians",
+    "start": 2,
+    "end": 2
+   }
+  ],
+  "confidence": 0.97,
+  "rationale": "Last section of Philippians 2",
+  "pass": 1
+ },
+ "1C0MXbZ8sUcIC0XgUtx8TB": {
+  "_episode": "The Way of Jesus: Self-Denial - Jon Tyson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 16,
+    "end": 16
+   }
+  ],
+  "confidence": 0.45,
+  "rationale": "Deny self, take up cross, follow (Matt 16:24 or parallels).",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book matthew 0.4"
+ },
+ "1I1VNTJ1zxsE90VskIZFAg": {
+  "_episode": "Easter | Resurrecting Hope - Jon Tyson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "luke",
+    "start": 24,
+    "end": 24
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "Emmaus road story.",
+  "pass": 2,
+  "series_kind": "unclear",
+  "pass1": "book luke 0.7"
+ },
+ "1Icec1ceJOqKIwO4zWDYcT": {
+  "_episode": "Seeing Jesus: Through Doubt  - Jon Tyson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 20,
+    "end": 20
+   }
+  ],
+  "confidence": 0.95,
+  "rationale": "Thomas' doubt",
+  "pass": 1
+ },
+ "1JmhHG7BNiiW7b65HgbK5c": {
+  "_episode": "The Fifth Act | Finish Well - Ralph Castillo",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "acts",
+    "start": 20,
+    "end": 20
+   }
+  ],
+  "confidence": 0.97,
+  "rationale": "Paul's farewell to Ephesian elders",
+  "pass": 1
+ },
+ "1LSkjW54BpXjYOrgBHVsBm": {
+  "_episode": "Easter Sunday 2023 - Jon Tyson",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Easter message on resurrection; no text evident.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "unknown  0.0"
+ },
+ "1OIZFUiFoK14IBWQcyDLtd": {
+  "_episode": "Formed: Affliction - Suzy Silk",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Affliction teaching, text not revealed.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "1PIJz3QxPm7J0N88NWGW0f": {
+  "_episode": "Compelling Missional Disciples: Overview - Jon Tyson",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.85,
+  "rationale": "Series overview.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.85"
+ },
+ "1Qxqo9P3f6xjrioBHNWezv": {
+  "_episode": "We Want You Here: Praying Through Tears - Jon Tyson",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Prayer through tears, no text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.6"
+ },
+ "1UFR8tVa26xlrDnsJQrEKx": {
+  "_episode": "CHURCH.NYC: An Overcoming Spirit - Jon Tyson",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "No description; text not evident.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "1VOh020pOgwlhR3l9RBqE3": {
+  "_episode": "The Father's Love - Dr. Rob Reimer",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Guest talk on the Father's love.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "unknown  0.0"
+ },
+ "1Va8RJyZQizbJwWlBQcULN": {
+  "_episode": "To Us a Son is Given | Son of God - Jon Tyson",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Advent Son of God, text not given.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "1Vzay49OWxog3f6KC3H02L": {
+  "_episode": "Controversial Faith: Why Does God Care About My Sexuality? - Jon Tyson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "1-corinthians",
+    "start": 6,
+    "end": 6
+   }
+  ],
+  "confidence": 0.6,
+  "rationale": "Bought with a price, honor God with your bodies is 1 Corinthians 6:19-20.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book 1-corinthians 0.5"
+ },
+ "1WKMxIqMcxIiUG9u5aQxJx": {
+  "_episode": "Disruptive Discipleship: Those Who Hunger and Thirst - Jon Tyson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 5,
+    "end": 5
+   }
+  ],
+  "confidence": 0.95,
+  "rationale": "Beatitudes series, Matthew 5",
+  "pass": 1
+ },
+ "1WZ1s763Qa39vtTMNMzxR1": {
+  "_episode": "Compelling Missional Disciples: Identity Formation - Ashley Anderson",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.9,
+  "rationale": "Thematic teaching with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.9"
+ },
+ "1Xd6J211kzl3Sru8RxA5Uw": {
+  "_episode": "Seeing Jesus: Through Disappointment - Suzy Silk",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "luke",
+    "start": 24,
+    "end": 24
+   }
+  ],
+  "confidence": 0.96,
+  "rationale": "Road to Emmaus",
+  "pass": 1
+ },
+ "1argLUWxnhwVxm0lYKi6S4": {
+  "_episode": "Advent 2025: He Shall Be | Savior",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "luke",
+    "start": 2,
+    "end": 2
+   }
+  ],
+  "confidence": 0.55,
+  "rationale": "Savior, likely Luke 2:11.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book luke 0.5"
+ },
+ "1b5nrUcDIMPeJ7YzO8hSi0": {
+  "_episode": "The Way of Jesus: The Way of Dependance - Ashley Anderson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 15,
+    "end": 15
+   }
+  ],
+  "confidence": 0.93,
+  "rationale": "Abiding, John 15",
+  "pass": 1
+ },
+ "1fBfKSAqjjiHIK6A8g9RHL": {
+  "_episode": "Sin: Falling Short - Suzy Silk",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 26,
+    "end": 26
+   }
+  ],
+  "confidence": 0.6,
+  "rationale": "Gethsemane on the Holy Week Sunday.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book matthew 0.55"
+ },
+ "1fZMOSGCMn6YoIkxdXNFQ7": {
+  "_episode": "Compelling Missional Disciples: Intentional Formation - Jon Tyson",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.9,
+  "rationale": "Thematic teaching with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.9"
+ },
+ "1i4yTmfaIB3rMMUTWsBQ65": {
+  "_episode": "A Creative Minority: Narrative - Jon Tyson",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.6,
+  "rationale": "Creative Minority series is thematic.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.6"
+ },
+ "1jsDZkDaFWznmUX1Ch0sd6": {
+  "_episode": "Converting the Church: Resisting Mercy - Jon Tyson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 23,
+    "end": 23
+   }
+  ],
+  "confidence": 0.95,
+  "rationale": "Series on the seven woes to the Pharisees; siblings all Matthew 23",
+  "pass": 1
+ },
+ "1k8fl4mKHOaSYNuWEvkcws": {
+  "_episode": "Compelling Missional Disciples: Filling Formational Gaps - Jon Tyson",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.9,
+  "rationale": "Thematic teaching with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.9"
+ },
+ "1qzRU9IcPlkr6q9nLI5fgV": {
+  "_episode": "Rediscovering Church: The Word of God - Suzy Silk",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "1-thessalonians",
+    "start": 2,
+    "end": 2
+   }
+  ],
+  "confidence": 0.82,
+  "rationale": "Receiving the word of God, 1 Thess 2:13",
+  "pass": 1
+ },
+ "24d7gvSL6pGBv7JXixeTfK": {
+  "_episode": "Rediscovering Church: Strengthen and Encourage - Sam Gibson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "1-thessalonians",
+    "start": 3,
+    "end": 3
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "Strengthen and encourage in suffering, 1 Thess 3",
+  "pass": 1
+ },
+ "25tJiWHqNuvXgG6G3LQ3PR": {
+  "_episode": "The Prodigal Church Series - Sardis",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "revelation",
+    "start": 3,
+    "end": 3
+   }
+  ],
+  "confidence": 0.98,
+  "rationale": "Description says Revelation 3, Sardis",
+  "pass": 1
+ },
+ "2BCTIaicqo1vAwcnkXGKub": {
+  "_episode": "Seven Deadly Sins: Greed - Jon Tyson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "luke",
+    "start": 12,
+    "end": 12
+   }
+  ],
+  "confidence": 0.5,
+  "rationale": "Greed warnings likely Luke 12 rich fool.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book luke 0.4"
+ },
+ "2EY8FfCYHIZfFWC9A4NIzu": {
+  "_episode": "Controversial Faith: The Exclusivity of Jesus - Jon Tyson",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.6,
+  "rationale": "Thematic teaching with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.6"
+ },
+ "2EqcW6ZGTCl4BVUVMLgegd": {
+  "_episode": "Advent 2025: He Shall Be | Messiah - Suzy Silk",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Messiah and prophecy fulfilment across many texts.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "2Etuf45Ekyj6ZHemlIexu8": {
+  "_episode": "Church In A Time of Crisis: Restorative Goodness in a Time of Brokenness - Jon Tyson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "galatians",
+    "start": 5,
+    "end": 5
+   }
+  ],
+  "confidence": 0.8,
+  "rationale": "Fruit of the Spirit series, Galatians 5",
+  "pass": 1
+ },
+ "2FP41Q7f5R32kEKUXxShAu": {
+  "_episode": "Words from the Cross: It Is Finished - Jon Tyson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 19,
+    "end": 19
+   }
+  ],
+  "confidence": 0.96,
+  "rationale": "It is finished, John 19:30",
+  "pass": 1
+ },
+ "2HiIAK9x2m0az51MMXASGD": {
+  "_episode": "Revival: Prayer - Cory Russell",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Revival series launch on prayer and the Holy Spirit.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.5"
+ },
+ "2Hyv3QkWZU7LC6EeUfCcee": {
+  "_episode": "God Comes Where He's Wanted | The Region - Zach Meerkreebs",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "luke",
+    "start": 19,
+    "end": 19
+   }
+  ],
+  "confidence": 0.35,
+  "rationale": "Jesus heartbroken over Jerusalem suggests Luke 19:41.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book luke 0.3"
+ },
+ "2IJYtGXKcuLjU6dcy05rwO": {
+  "_episode": "Gentle + Humble | John Mark Comer",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 11,
+    "end": 11
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "Gentle and humble heart, Matthew 11:25-30",
+  "pass": 1
+ },
+ "2LDpUKSMEwo6M0qxNIoGPR": {
+  "_episode": "Missional Formation | Radical Daily Pursuit - Suzy Silk",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.7,
+  "rationale": "Daily pursuit and feasting on the Word.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.7"
+ },
+ "2XlIN3BhPKIa2aqbTbKTRO": {
+  "_episode": "Compelling Missional Disciples: Living An Attentive Life - Jon Tyson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "luke",
+    "start": 10,
+    "end": 10
+   }
+  ],
+  "confidence": 0.93,
+  "rationale": "Mary and Martha, Luke 10:38-42",
+  "pass": 1
+ },
+ "2YpQ2lCfz7Ze7lMAmuiAGu": {
+  "_episode": "A Creative Minority: Authority - Suzy Silk",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Thematic teaching with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.55"
+ },
+ "2ZUCshgERUTSG9C9I5HGF5": {
+  "_episode": "FOLLOW | Worshipping - Raegan Griffith",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 26,
+    "end": 26
+   }
+  ],
+  "confidence": 0.75,
+  "rationale": "Woman pouring perfume on Jesus, within Matthew series",
+  "pass": 1
+ },
+ "2ZrTdbJp986YlVNTpmZiO1": {
+  "_episode": "The Church in A Time of Crisis: Gentleness in a Time of Roughness - Suzy Silk",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Gentleness teaching, text not given.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "2fW6koOtZ0PXk3Xuv2Pwck": {
+  "_episode": "Controversial Faith: Why Can We Trust the Bible? - Suzy Silk",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.95,
+  "rationale": "Thematic teaching with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.95"
+ },
+ "2l2gIzzYgP0z48nsD5a97y": {
+  "_episode": "The Jesus Stuff: Dependence - Suzy Silk",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Dependence on Spirit and body, no text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.65"
+ },
+ "2noUzLouZBfl0WQE8fuFBB": {
+  "_episode": "Patient Endurance in a Time of Stress - Suzy Silk",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "galatians",
+    "start": 5,
+    "end": 5
+   }
+  ],
+  "confidence": 0.8,
+  "rationale": "Fruit of the Spirit study, patience is Galatians 5:22.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "book galatians 0.8"
+ },
+ "2oBjZ0afvxGYo1VjcRokEo": {
+  "_episode": "Resound (Advent 2023): Mary's Song - Suzy Silk",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "luke",
+    "start": 1,
+    "end": 1
+   }
+  ],
+  "confidence": 0.97,
+  "rationale": "Mary's Song recorded in Luke 1",
+  "pass": 1
+ },
+ "2p8PdnOp8MrACrl0GxAUho": {
+  "_episode": "God Comes Where He's Wanted: The Cry of the Heart - Jon Tyson",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Series sermon on the heart, no text given.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "2pWFhxonEPDzX6AVl59nTF": {
+  "_episode": "God Comes Where He's Wanted 2.0: The Lord's Prayer - Jon Tyson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 6,
+    "end": 6
+   }
+  ],
+  "confidence": 0.8,
+  "rationale": "Lord's Prayer (Matt 6:9-13).",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book matthew 0.75"
+ },
+ "2rzTsJ7zYU6gwim201Dfd3": {
+  "_episode": "Leverage: Life Without Regret - Jon Tyson",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Regret and living leveraged; no text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "2sI8CR6TXfZMohMykbB0Z4": {
+  "_episode": "Defiant Joy: Unity in the Lord - Darren Whitehead",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "philippians",
+    "start": 4,
+    "end": 4
+   }
+  ],
+  "confidence": 0.97,
+  "rationale": "Euodia and Syntyche, Phil 4",
+  "pass": 1
+ },
+ "2tVcxrtVmSqF2x18AfNy6T": {
+  "_episode": "Disruptive Discipleship: The Poor in Spirit - Jon Tyson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 5,
+    "end": 5
+   }
+  ],
+  "confidence": 0.95,
+  "rationale": "Beatitudes series, Matthew 5",
+  "pass": 1
+ },
+ "2xOSadiuvEDUk4CgvK9aQI": {
+  "_episode": "COTCNYC Official Launch - 5 Declarations",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.8,
+  "rationale": "Launch Sunday declarations talk with no evident text.",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "topical  0.85"
+ },
+ "31Tk6T7P03GCMFiYOdPl7q": {
+  "_episode": "SEEKING GOD: The Lost - Jon Tyson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "luke",
+    "start": 19,
+    "end": 19
+   },
+   {
+    "book": "matthew",
+    "start": 28,
+    "end": 28
+   }
+  ],
+  "confidence": 0.93,
+  "rationale": "Zacchaeus story plus Great Commission",
+  "pass": 1
+ },
+ "33Q8sHYc7YktsmPdnxWXpE": {
+  "_episode": "Christmas 2024: Celebrate & Remember",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.7,
+  "rationale": "Year-end celebration plus short message.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.8"
+ },
+ "340CaSY2T5EfbnAMCrNtnP": {
+  "_episode": "Compelling Missional Disciples: Cultural Renewal - Jon Tyson",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.9,
+  "rationale": "Thematic teaching with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.9"
+ },
+ "34qAI6ZHWu8hC8h9g1lKTr": {
+  "_episode": "We Want You Here: The God Who Seeks and Saves - Ashley Anderson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "luke",
+    "start": 19,
+    "end": 19
+   }
+  ],
+  "confidence": 0.6,
+  "rationale": "Seek and save the lost, Luke 19:10.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book luke 0.55"
+ },
+ "36bOrIovEge0l0w7jqZynE": {
+  "_episode": "The Prodigal Church Series - Ephesus",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "revelation",
+    "start": 2,
+    "end": 2
+   }
+  ],
+  "confidence": 0.98,
+  "rationale": "Description says Revelation 2, Ephesus",
+  "pass": 1
+ },
+ "397PxuMxAi23bEIsSttv5b": {
+  "_episode": "Easter Sunday - Resurrection of Jesus",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.65,
+  "rationale": "Easter sermon with no evident text.",
+  "pass": 2,
+  "series_kind": "unclear",
+  "pass1": "unknown  0.0"
+ },
+ "3DYwP5wTxaONMcNgdckfsh": {
+  "_episode": "Defiant Joy: The Peace of God - Ashley Anderson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "philippians",
+    "start": 4,
+    "end": 4
+   }
+  ],
+  "confidence": 0.97,
+  "rationale": "Philippians study on the peace of God, Phil 4",
+  "pass": 1
+ },
+ "3Fd5MEoBxSxKzBBx9Pi6hZ": {
+  "_episode": "Making Sense of Church | The Priesthood - Suzy Silk",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "1-peter",
+    "start": 2,
+    "end": 2
+   }
+  ],
+  "confidence": 0.6,
+  "rationale": "Priesthood of believers, 1 Peter 2:9.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book 1-peter 0.55"
+ },
+ "3J7H1Nw3lqLTa46INC3dNP": {
+  "_episode": "We Want You Here: Prayer, Grief, & Lament - Suzy Silk",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "habakkuk",
+    "start": 3,
+    "end": 3
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "Prayer of the prophet Habakkuk",
+  "pass": 1
+ },
+ "3Jj9Hq9MQG2Lr42fSnyRme": {
+  "_episode": "Compelling Missional Disciples: The Knowledge of God - Sam Gibson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "ephesians",
+    "start": 1,
+    "end": 1
+   }
+  ],
+  "confidence": 0.6,
+  "rationale": "Pursuit of wisdom and revelation in the knowledge of God echoes Ephesians 1:17.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book ephesians 0.6"
+ },
+ "3OrJASqZdL2SfYsuIaarx2": {
+  "_episode": "Seizing Divine Moments - Guy Wasko",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "1-samuel",
+    "start": 14,
+    "end": 14
+   }
+  ],
+  "confidence": 0.93,
+  "rationale": "Jonathan's story in 1 Samuel, showing up with nothing",
+  "pass": 1
+ },
+ "3PilFQ89A1HmeuiFS6PF9V": {
+  "_episode": "The Fifth Act | The Holy Spirit - Jon Tyson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "acts",
+    "start": 1,
+    "end": 1
+   }
+  ],
+  "confidence": 0.97,
+  "rationale": "Acts 1:8 Holy Spirit empowers witnesses",
+  "pass": 1
+ },
+ "3SRzxQpPYTnZhNfsqra4lN": {
+  "_episode": "Converting the Church: Whitewashed Tombs - Jon Tyson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 23,
+    "end": 23
+   }
+  ],
+  "confidence": 0.95,
+  "rationale": "Series on the seven woes to the Pharisees; siblings all Matthew 23",
+  "pass": 1
+ },
+ "3Su65T8XQZ2r3OkX1ZvTsR": {
+  "_episode": "Defiant Joy: Unity & Division  - Jon Tyson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "philippians",
+    "start": 1,
+    "end": 2
+   }
+  ],
+  "confidence": 0.97,
+  "rationale": "Philippians unity, 1:27 ff",
+  "pass": 1
+ },
+ "3WOc7v0aOD3dxbrRN2lqcr": {
+  "_episode": "Missional Formation | Revival + Awakening - Jon Tyson",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.85,
+  "rationale": "Distinctives and disciplines teaching.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.85"
+ },
+ "3XpT3BtDJdSlMHWHjv4bJ9": {
+  "_episode": "Sin: An Overview - Suzy Silk",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Overview of sin, no single text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "3bN5CmYJMJnOjpQu7VMpvm": {
+  "_episode": "Missional Formation | Come and Die - Jon Tyson",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.65,
+  "rationale": "Series closing call to discipleship.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.65"
+ },
+ "3ck6IEuNJWqtxc6yAz8q8F": {
+  "_episode": "Disruptive Discipleship: The Pure in Heart - Ashley Anderson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 5,
+    "end": 5
+   }
+  ],
+  "confidence": 0.95,
+  "rationale": "Beatitudes series, Matthew 5",
+  "pass": 1
+ },
+ "3dR9WUbSJcNrFi305yCXpx": {
+  "_episode": "The Church in a Time of Crisis - Jon Tyson",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.9,
+  "rationale": "Crisis response message.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "topical  0.9"
+ },
+ "3dVXvxmXS3QGVRP2cwbpcH": {
+  "_episode": "Come to Me | I am the Way, the Truth, the Life",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 14,
+    "end": 14
+   }
+  ],
+  "confidence": 0.97,
+  "rationale": "I am the way, truth, life",
+  "pass": 1
+ },
+ "3hBBGN44M2zoEyQZTpS4UW": {
+  "_episode": "Seven Deadly Sins: Gluttony - Suzy Silk",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Gluttony, text not given.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "3kaRG0QX7tAzIfPWSpf9vi": {
+  "_episode": "Crying Out: The Cry of the Heart - David Bailey",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "psalms"
+   }
+  ],
+  "confidence": 0.55,
+  "rationale": "Description says God gave language of lament through the Psalms.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book psalms 0.4"
+ },
+ "3lgcGFyMYcKXmoAsKQfR4T": {
+  "_episode": "The Jesus Stuff - Jon Tyson",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Series opener on how Jesus lived, no text evident.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "unknown  0.0"
+ },
+ "3oVgC1uL9dQ78ViGp78URj": {
+  "_episode": "Converting the Church: Everything for Show  - Jon Tyson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 23,
+    "end": 23
+   }
+  ],
+  "confidence": 0.95,
+  "rationale": "Series on the seven woes to the Pharisees; siblings all Matthew 23",
+  "pass": 1
+ },
+ "3qitOPuQig9CQpGG0LefsN": {
+  "_episode": "Advent: The Curiosity of Christmas - Jon Tyson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 2,
+    "end": 2
+   }
+  ],
+  "confidence": 0.95,
+  "rationale": "Wise Men in Matthew's gospel",
+  "pass": 1
+ },
+ "3rkB2EZw6970xvwWfhPmu0": {
+  "_episode": "To Us a Son is Given | Son of David - Suzy Silk",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Advent Son of David, text not given.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "3t0u9m1XkC3Amap9p2qVn5": {
+  "_episode": "Advent: Longing Deferred - Olivia Munn-Shirsath",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "proverbs",
+    "start": 13,
+    "end": 13
+   }
+  ],
+  "confidence": 0.5,
+  "rationale": "Longing deferred suggests Proverbs 13:12 (echoed in a later Advent series).",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book proverbs 0.5"
+ },
+ "3taDYy8gzQni5CYR9g9zb2": {
+  "_episode": "The Way of Jesus: The Way of Gratitude - Suzy Silk",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "luke",
+    "start": 17,
+    "end": 17
+   }
+  ],
+  "confidence": 0.96,
+  "rationale": "Ten lepers, Luke 17",
+  "pass": 1
+ },
+ "3wmP3Rx5WV3D6QBvtxR6cv": {
+  "_episode": "Rediscovering Church: The Invitation  - Keithen Schwahn",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "1-thessalonians"
+   }
+  ],
+  "confidence": 0.97,
+  "rationale": "Study through 1 Thessalonians, overview",
+  "pass": 1
+ },
+ "3x0DGAI0eVwNwuijU2Q74V": {
+  "_episode": "Making Sense of Church | The Army - Suzy Silk",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "ephesians",
+    "start": 6,
+    "end": 6
+   }
+  ],
+  "confidence": 0.92,
+  "rationale": "Description names Ephesians spiritual battle",
+  "pass": 1
+ },
+ "3zupE7tuP9Np6ZGWbjKGJ7": {
+  "_episode": "Crying Out: Prayer in a Time of Fruitlessness - Suzy Silk",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "habakkuk",
+    "start": 3,
+    "end": 3
+   }
+  ],
+  "confidence": 0.7,
+  "rationale": "Fruitlessness and treading the high places echo Habakkuk 3:17-19.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book habakkuk 0.7"
+ },
+ "44auS6j7SKRKPIqlxffply": {
+  "_episode": "Leverage: Gifts - Suzy Silk",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Spiritual gifts, text not given.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "45Gicl5jspSBKEolCCh8AM": {
+  "_episode": "God Comes Where He's Wanted 2.0: Forgiveness - Jon Tyson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 6,
+    "end": 6
+   }
+  ],
+  "confidence": 0.85,
+  "rationale": "Forgiveness in the context of the Lord's Prayer (Matt 6:14-15).",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book matthew 0.8"
+ },
+ "45MIg0gxCCVVByje5xbdB5": {
+  "_episode": "Altars: The Region - Jon Tyson",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.4,
+  "rationale": "NYC as altar; text not evident.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "45s0MzCrzsJ2YOzdPHdtYi": {
+  "_episode": "Advent Week IV: Lessons & Carols - Jon Tyson",
+  "kind": "non_sermon",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Lessons and Carols service, largely readings and carols.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.6"
+ },
+ "48kJQm0uU7FZjQYbeoHD5D": {
+  "_episode": "God Comes Where He's Wanted | The Altar of the Region - Jon Tyson and Sam Gibson",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Closing two-pastor conversation-style teaching on the region; could be non-sermon.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.7"
+ },
+ "49JkzTagUwCW8u4HR0ngJD": {
+  "_episode": "Defiant Joy: No Matter What - Matt Ro",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "philippians",
+    "start": 1,
+    "end": 1
+   }
+  ],
+  "confidence": 0.97,
+  "rationale": "For to me to live is Christ, Phil 1:21",
+  "pass": 1
+ },
+ "4BbnsCcgcUg6tcMNSOsBde": {
+  "_episode": "The Way of Jesus: The Way of Remembrance - Jon Tyson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "psalms",
+    "start": 16,
+    "end": 16
+   }
+  ],
+  "confidence": 0.4,
+  "rationale": "Setting the Lord before us echoes Psalm 16:8.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "4D6KJGnzJ1g0Dk9nqT41Qv": {
+  "_episode": "Defiant Joy: Grasping or Giving: Community in the way of Jesus - Jon Tyson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "philippians",
+    "start": 2,
+    "end": 2
+   }
+  ],
+  "confidence": 0.97,
+  "rationale": "Philippians 2 mindset of Christ",
+  "pass": 1
+ },
+ "4Dw5rE6Lyq8khYVDsfCOoo": {
+  "_episode": "Disruptive Discipleship: Blessed are the Persecuted - Jon Tyson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 5,
+    "end": 5
+   }
+  ],
+  "confidence": 0.95,
+  "rationale": "Blessed are the persecuted, Matthew 5",
+  "pass": 1
+ },
+ "4E6YVZaN66hWlfRzZuUnTp": {
+  "_episode": "Come to Me | Who is Jesus? - Jon Tyson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john"
+   }
+  ],
+  "confidence": 0.45,
+  "rationale": "Series on I Am statements in John; intro talk, text unclear",
+  "pass": 1
+ },
+ "4HaEBAEFWfLMlWtTR145oI": {
+  "_episode": "Come & See: The Simple Gospel - Tim Brown",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 20,
+    "end": 20
+   }
+  ],
+  "confidence": 0.93,
+  "rationale": "Come & See John study; John 20:30-31 stated purpose",
+  "pass": 1
+ },
+ "4IDpWtG0TgczLoixkpKNId": {
+  "_episode": "The Fifth Act | Peter's Bold Proclamation - Jon Tyson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "acts",
+    "start": 2,
+    "end": 2
+   }
+  ],
+  "confidence": 0.97,
+  "rationale": "Peter's Pentecost sermon",
+  "pass": 1
+ },
+ "4NPs5EhxTc54VYEquNM8Rj": {
+  "_episode": "Unexpected Jesus: Unexpected Kingdom - Jon Tyson",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Series kickoff on kingdom, text not given.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "4ORQSTpqiSN9MycahMak38": {
+  "_episode": "Unexpected Jesus: Unexpected Faithfulness - Jon Tyson",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Jesus' faithfulness, text not given.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "4ORSaEFi1CN8g2l664zo0n": {
+  "_episode": "The Fifth Act | The Gospel for the City - Tim Brown",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "acts",
+    "start": 17,
+    "end": 17
+   }
+  ],
+  "confidence": 0.97,
+  "rationale": "Paul in Athens",
+  "pass": 1
+ },
+ "4Q9OIdUpV0zIRB60VLwCEk": {
+  "_episode": "FREED | The Call to Freedom - Jon Tyson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "galatians",
+    "start": 5,
+    "end": 5
+   }
+  ],
+  "confidence": 0.85,
+  "rationale": "Description says Paul in Galatians frames freedom.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book galatians 0.25"
+ },
+ "4Qn7sHoU8cHMt4UjUBkx8p": {
+  "_episode": "Defiant Joy: Proclamation of the Gospel  - Suzy Silk",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "philippians",
+    "start": 1,
+    "end": 1
+   }
+  ],
+  "confidence": 0.97,
+  "rationale": "Philippians 1 gospel advanced while in prison",
+  "pass": 1
+ },
+ "4TGwvCvwHqOADpks8B2Eai": {
+  "_episode": "Sin: Idolatry - Olivia Munn-Shirsath",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "exodus",
+    "start": 32,
+    "end": 32
+   }
+  ],
+  "confidence": 0.65,
+  "rationale": "Impatience leading to idolatry suggests the golden calf.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book exodus 0.6"
+ },
+ "4USCgd9mjjeyNWAIUp8vAz": {
+  "_episode": "Advent 2025: He Shall Be | God with Us - Ralph Castillo",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 1,
+    "end": 1
+   }
+  ],
+  "confidence": 0.7,
+  "rationale": "God with us is Matthew 1:23.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book matthew 0.5"
+ },
+ "4V0mI1A0Mhg7QEV9qf1BNE": {
+  "_episode": "Unexpected Jesus: Unexpected Change - Jon Tyson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "psalms",
+    "start": 51,
+    "end": 51
+   }
+  ],
+  "confidence": 0.55,
+  "rationale": "Broken spirit and contrite heart echo Psalm 51.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book psalms 0.4"
+ },
+ "4WfNP5TV6gaM1fdbVidqhb": {
+  "_episode": "Seven Deadly Sins: Envy - Suzy Silk",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Envy, text not given.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "4Wu7mew6K3RmcP3pUM1kyR": {
+  "_episode": "God Comes Where He's Wanted | The Church - Sam Gibson",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Altar of the church, no text given.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "4ZVchIlzsFiP6vrKVv752t": {
+  "_episode": "The Jesus Stuff: God's Love - David Bennett",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.65,
+  "rationale": "Guest testimony-driven talk on God's love.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.7"
+ },
+ "4cl2hUrv3zMRUwjTMiC09Q": {
+  "_episode": "The Jesus Stuff: Justice Margin - Suzy Silk",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Justice and margin, no text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.6"
+ },
+ "4d3i34Ob0Xi4raq4UTIUN3": {
+  "_episode": "Making Sense of Church | The Bride - Jon Tyson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "ephesians",
+    "start": 5,
+    "end": 5
+   }
+  ],
+  "confidence": 0.35,
+  "rationale": "Church as radiant Bride suggests Eph 5.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book ephesians 0.3"
+ },
+ "4dBqA0kfDuZQst15azv7Jh": {
+  "_episode": "Formed: Into His Image - Jon Tyson",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Series kickoff on formation, no text evident.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "4gGGkpV2enaP6XcALJb8uI": {
+  "_episode": "Disruptive Discipleship: Those Who Mourn - Olivia Munn-Shirsath",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 5,
+    "end": 5
+   }
+  ],
+  "confidence": 0.95,
+  "rationale": "Beatitudes series, Matthew 5",
+  "pass": 1
+ },
+ "4gduZ4WrxATWe1zXVyqDja": {
+  "_episode": "A Creative Minority: Covenant - Jon Tyson",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.6,
+  "rationale": "Creative Minority series is thematic.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.6"
+ },
+ "4gmxvyNl86awNt7MlkKzIq": {
+  "_episode": "Missional Formation | Crucified and Consecrated - Sam Gibson",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.8,
+  "rationale": "Fasting and consecration.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.8"
+ },
+ "4hvbH2Nzxzppt5MA4Hck3O": {
+  "_episode": "Easter Sunday: Seeing Jesus  - Jon Tyson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 20,
+    "end": 20
+   }
+  ],
+  "confidence": 0.88,
+  "rationale": "Seeing Jesus in John's resurrection account.",
+  "pass": 2,
+  "series_kind": "unclear",
+  "pass1": "book john 0.85"
+ },
+ "4kSwOJoHK45hYtdTyuTwg3": {
+  "_episode": "Leverage: Money - Jon Tyson",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Money and giving vision, no single text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "4nJvjhTYmTApfTzCucTmrd": {
+  "_episode": "Making Sense of Church | The Family - Suzy Silk",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Church as family, text not given.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "4rasM5E6RihOsQ2fOuLwAx": {
+  "_episode": "Controversial Faith: The Church and Politics - Jon Tyson",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.85,
+  "rationale": "Thematic teaching with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.85"
+ },
+ "4t0N0ZXfgP0Y5yzjGz9NKi": {
+  "_episode": "The Way of Jesus: Introduction - Jon Tyson",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Series intro, text not given.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "4x6M1rD20CnZtgXEeX6mgQ": {
+  "_episode": "CHURCH.NYC: A Holy Ambition - Jon Tyson",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Thematic teaching with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.55"
+ },
+ "4xl6hGXk2aLDPY5GQIYiq4": {
+  "_episode": "Converting the Church: False Promises - Suzy Silk",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 23,
+    "end": 23
+   }
+  ],
+  "confidence": 0.95,
+  "rationale": "Series on the seven woes to the Pharisees; siblings all Matthew 23",
+  "pass": 1
+ },
+ "4yB4PH9Eh0G0GkJ5K6S19z": {
+  "_episode": "God Comes Where He's Wanted 2.0: Cultivating Revival - Jon Tyson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "2-kings",
+    "start": 22,
+    "end": 23
+   },
+   {
+    "book": "2-chronicles",
+    "start": 34,
+    "end": 35
+   }
+  ],
+  "confidence": 0.55,
+  "rationale": "Josiah's revival from 2 Kings and 2 Chronicles.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book 2-kings 2-chronicles 0.6"
+ },
+ "50wK1W4szPfrgwn7jNB6Nk": {
+  "_episode": "Vision Sunday: Cause for Confidence - Jon Tyson",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.8,
+  "rationale": "Vision Sunday.",
+  "pass": 2,
+  "series_kind": "unclear",
+  "pass1": "topical  0.8"
+ },
+ "56KhyRH1gtocfaEafNvHYT": {
+  "_episode": "The Way of Jesus: The Way of Devotion - Suzy Silk",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 13,
+    "end": 13
+   }
+  ],
+  "confidence": 0.93,
+  "rationale": "Parables of treasure and pearl, Matthew 13:44-46",
+  "pass": 1
+ },
+ "58aM7vJYjbesLhXpkhMRpm": {
+  "_episode": "Teach Us To Pray - Week 5 - Stand Up",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "1-samuel"
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "Description says teaches from 1 Samuel",
+  "pass": 1
+ },
+ "58vYjHQ6fZhUoPoTFWEJuA": {
+  "_episode": "Altars: The Heart - Jon Tyson",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.4,
+  "rationale": "Altars series hops books; passage unclear.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "597IbYwe0FXc8dURG1usi6": {
+  "_episode": "Church In A Time of Crisis: Defiant Joy in a Time of Despair - Jon Tyson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "galatians",
+    "start": 5,
+    "end": 5
+   }
+  ],
+  "confidence": 0.75,
+  "rationale": "Fruit of the Spirit series, Galatians 5",
+  "pass": 1
+ },
+ "5AC8ULhDDzzTGW7oMBYlyb": {
+  "_episode": "CHURCH.NYC: The Jesus Stuff - Jon Tyson",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.75,
+  "rationale": "Thematic teaching with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.8"
+ },
+ "5H7e3jUXm7pvTcCot0h6zD": {
+  "_episode": "The Way of Jesus: The Way of Confrontation - Jon Tyson",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Confrontation in formation, text not given.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "5Hu0pSf5KAuGTMoJs8ynw2": {
+  "_episode": "Unexpected Jesus : Unexpected Visitation - Pastor Rafael Castillo",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "luke",
+    "start": 24,
+    "end": 24
+   }
+  ],
+  "confidence": 0.96,
+  "rationale": "Emmaus road",
+  "pass": 1
+ },
+ "5Hv7yqoFNHkTXq33Fyz90x": {
+  "_episode": "Sin: Adultery - Ashley Anderson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "hosea"
+   }
+  ],
+  "confidence": 0.5,
+  "rationale": "Israel's covenant adultery theme points to Hosea.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book hosea 0.35"
+ },
+ "5IQbVGz7eKJMKv07AV6B2p": {
+  "_episode": "Converting the Church: Weightier Things - Jon Tyson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 23,
+    "end": 23
+   }
+  ],
+  "confidence": 0.95,
+  "rationale": "Series on the seven woes to the Pharisees; siblings all Matthew 23",
+  "pass": 1
+ },
+ "5M6KbNpOUw3I6DSQROHbPB": {
+  "_episode": "Church In A Time of Crisis: Transcendent Peace in a Time of Anxiety - Jon Tyson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "galatians",
+    "start": 5,
+    "end": 5
+   }
+  ],
+  "confidence": 0.5,
+  "rationale": "Peace in fruit of Spirit crisis series; Easter may use resurrection text",
+  "pass": 1
+ },
+ "5MAfqq0F7FxtIma1hgE8sW": {
+  "_episode": "FOLLOW | Multiplication - Billy Sprague",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 28,
+    "end": 28
+   }
+  ],
+  "confidence": 0.95,
+  "rationale": "Go and make disciples, Great Commission",
+  "pass": 1
+ },
+ "5Ps5EitBSDr1yaNaUMM3Xn": {
+  "_episode": "Spiritual Maturity and Community - Banning Liebscher",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.85,
+  "rationale": "Guest talks on community.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "topical  0.85"
+ },
+ "5RdcyNJyWYeOYl8kK1k2E9": {
+  "_episode": "Advent: Lessons & Carols - Suzy Silk",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "luke",
+    "start": 1,
+    "end": 1
+   }
+  ],
+  "confidence": 0.7,
+  "rationale": "Mary in the Lessons & Carols sermonette, Luke 1.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book luke 0.7"
+ },
+ "5SPBtLpLACJ5GJ3lqBpduM": {
+  "_episode": "Seven Deadly Sins: Sloth - Jon Tyson",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Sloth/acedia, text not given.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "5WNDxgqAHZaWP9Dpgee9nJ": {
+  "_episode": "Seven Deadly Sins: Pride - Ralph Castillo",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 6,
+    "end": 6
+   }
+  ],
+  "confidence": 0.7,
+  "rationale": "Practicing righteousness in secret is Matt 6.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book matthew 0.3"
+ },
+ "5YM3TuNBxfBYRQvJ0nxaf8": {
+  "_episode": "God Comes Where He's Wanted | The Altar of the Heart",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Altar of the heart, no text given.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "5aKfrVHTa3KOOwx824Nkyx": {
+  "_episode": "Church in a time of Crisis: Self-Control in a Time of Self-Fulfillment - Jon Tyson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "galatians",
+    "start": 5,
+    "end": 5
+   }
+  ],
+  "confidence": 0.88,
+  "rationale": "Fruit of the Spirit series, Galatians 5",
+  "pass": 1
+ },
+ "5cBsAp0aYX93LrH1WkhhIE": {
+  "_episode": "Seeing Jesus: Through Despair - Suzy Silk",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 20,
+    "end": 20
+   }
+  ],
+  "confidence": 0.95,
+  "rationale": "Mary Magdalene at the tomb",
+  "pass": 1
+ },
+ "5fkyaMAkj7UMfXBQIcr3Mk": {
+  "_episode": "The Way of Jesus: The Way of Mercy - Ralph Castillo",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "jonah"
+   }
+  ],
+  "confidence": 0.96,
+  "rationale": "Story of Jonah named",
+  "pass": 1
+ },
+ "5hD1LUIVImhLf9EOHM6Zgh": {
+  "_episode": "Crying Out: A Cry for Intervention - Jon Tyson",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.75,
+  "rationale": "Prayer-for-intervention message, no text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.8"
+ },
+ "5iGHjM0wVrUyFlSfIlPOoL": {
+  "_episode": "Unexpected Jesus: Unexpected Peace - Suzy Silk",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "mark",
+    "start": 4,
+    "end": 4
+   }
+  ],
+  "confidence": 0.45,
+  "rationale": "Jesus calming the storm; gospel uncertain.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book mark 0.45"
+ },
+ "5nbUw0sv9CXceSghAOa623": {
+  "_episode": "Crying Out: The Cry of the Poor in Spirit - Dr. Bryan Loritts",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 5,
+    "end": 5
+   }
+  ],
+  "confidence": 0.95,
+  "rationale": "Blessed are the poor in spirit, Sermon on the Mount",
+  "pass": 1
+ },
+ "5nnEhICCSozWTf9QGEFqRP": {
+  "_episode": "Seven Deadly Sins: Wrath - Tim Brown",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Wrath, text not given.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "5ov7by03sMSPyI4rzmLkK7": {
+  "_episode": "Missional Formation | Radical Minimum Standard - Jon Tyson",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.85,
+  "rationale": "Series launch on discipleship standard.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.85"
+ },
+ "5q8jJYeFeSK0pMOSmzJx28": {
+  "_episode": "Disruptive Discipleship: The Beatitudes - Jon Tyson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 5,
+    "end": 5
+   }
+  ],
+  "confidence": 0.95,
+  "rationale": "Beatitudes series, Matthew 5",
+  "pass": 1
+ },
+ "5qvWUofmvud18MYjhftAm2": {
+  "_episode": "We Want You Here: Growing in Love - Jon Tyson",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.8,
+  "rationale": "Bernard of Clairvaux stages of love, no text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.8"
+ },
+ "5rASK7zjQsV9bfSOWYD8DP": {
+  "_episode": "Disruptive Discipleship: Blessed are the Merciful - Dr. Derwin Gray",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 5,
+    "end": 5
+   },
+   {
+    "book": "luke",
+    "start": 10,
+    "end": 10
+   }
+  ],
+  "confidence": 0.85,
+  "rationale": "Fifth beatitude, with Good Samaritan illustration",
+  "pass": 1
+ },
+ "5s6FAoSQMvaJYnQk3b5cGp": {
+  "_episode": "The Jesus Stuff: Healing - Darren Rouanzoin",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Healing ministry of Jesus, no single text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.55"
+ },
+ "5uauFqi7RzqS668KnFQPkW": {
+  "_episode": "The Way of Jesus: The Way of Justice - Ashley Anderson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "luke",
+    "start": 4,
+    "end": 4
+   }
+  ],
+  "confidence": 0.8,
+  "rationale": "Jesus inaugurating His ministry announcing justice, Luke 4.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book luke 0.8"
+ },
+ "5uipxjLD4fYv0Ncs89xJLf": {
+  "_episode": "Defiant Joy: The Anatomy of a Movement - Jon Tyson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "philippians",
+    "start": 4,
+    "end": 4
+   }
+  ],
+  "confidence": 0.93,
+  "rationale": "Closing of Philippians series, Paul's final message",
+  "pass": 1
+ },
+ "5x7AvLdRRhlM535bbW7B5H": {
+  "_episode": "Church In A Time of Crisis: Kindness in a Time of Harshness - Jon Tyson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "galatians",
+    "start": 5,
+    "end": 5
+   }
+  ],
+  "confidence": 0.8,
+  "rationale": "Fruit of the Spirit series, Galatians 5",
+  "pass": 1
+ },
+ "5zIovZ1SJMQzjVEJh86rDm": {
+  "_episode": "Missional Formation | Disciple the Deficits - Suzy Silk",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.8,
+  "rationale": "Discipling deficits and confession.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.8"
+ },
+ "66VwuaMlgm330KcNJvqGOd": {
+  "_episode": "Formed: Justification - Suzy Silk",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "romans",
+    "start": 3,
+    "end": 5
+   }
+  ],
+  "confidence": 0.7,
+  "rationale": "Justification by faith is Romans 3-5.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book romans 0.5"
+ },
+ "6ANcnovUpt5cfHAyzsGoHK": {
+  "_episode": "Sin: Lawlessness - Jon Tyson",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Lawlessness, text not given.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "6CZKOIM2AbY80hGqtRvT8e": {
+  "_episode": "Church in a Time of Crisis: Faithfulness in a Time of Compromise - Jon Tyson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "galatians",
+    "start": 5,
+    "end": 5
+   }
+  ],
+  "confidence": 0.85,
+  "rationale": "Fruit of the Spirit series, Galatians 5",
+  "pass": 1
+ },
+ "6D7j1s3CvISiM0t5TYPyLg": {
+  "_episode": "Disruptive Discipleship: City on a Hill -  Jon Tyson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 5,
+    "end": 5
+   }
+  ],
+  "confidence": 0.95,
+  "rationale": "Salt and light closes the Beatitudes passage",
+  "pass": 1
+ },
+ "6ELxLeWVaNkJFeHsTbkv0l": {
+  "_episode": "A Creative Minority: Ethics - Olivia Munn-Shirsath",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.6,
+  "rationale": "Creative Minority series is thematic.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.6"
+ },
+ "6FOmu2DyeaCWfObxPxafZN": {
+  "_episode": "Unexpected Jesus: No Quid Pro Quo - Dr. Bryan Loritts",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "luke",
+    "start": 6,
+    "end": 6
+   }
+  ],
+  "confidence": 0.55,
+  "rationale": "Give up rights, love enemies suggests Luke 6.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book luke 0.45"
+ },
+ "6GAbTRh8hXXEB5lOiZUq3Y": {
+  "_episode": "The Way of Jesus: The Way of Prayer - Jon Tyson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "philippians",
+    "start": 4,
+    "end": 4
+   }
+  ],
+  "confidence": 0.5,
+  "rationale": "Peace of God amid anxiety, Phil 4:6-7.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book philippians 0.4"
+ },
+ "6J6Qv1X5dgsfAiB4Qmlc35": {
+  "_episode": "Seeing Jesus Through Denying Faith  - Jon Tyson",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "About Judas' betrayal; Gospel text not specified.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "unknown  0.0"
+ },
+ "6NfDs2xXNy08yEXzBheBlq": {
+  "_episode": "To Us a Son is Given | Son of Man - Jon Tyson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 20,
+    "end": 20
+   }
+  ],
+  "confidence": 0.93,
+  "rationale": "Mother of James and John asking Jesus, Matthew 20",
+  "pass": 1
+ },
+ "6QCbIlGVPDduQKcySpq33f": {
+  "_episode": "FOLLOW | Loving - Tim Brown",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 22,
+    "end": 22
+   }
+  ],
+  "confidence": 0.8,
+  "rationale": "Love God with heart soul mind strength, Matthew series",
+  "pass": 1
+ },
+ "6RlGflL6rQmEpo4P6c5Qn9": {
+  "_episode": "Fall Vision Sunday - Jon Tyson",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.92,
+  "rationale": "Vision Sunday.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "topical  0.92"
+ },
+ "6SUfTK9X7sZAuLn7zGUc7G": {
+  "_episode": "CHURCH.NYC: Culture of Honor - Suzy Silk",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Thematic teaching with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.5"
+ },
+ "6Sd3QpYDs4WBZdXuQbxBrF": {
+  "_episode": "Leverage: Time - Jon Tyson",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Stewarding time, text not given.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "6abK1LrxqF8X9Y5fEGHOfv": {
+  "_episode": "We Want You Here: Consecration in a Time of Compromise - Jon Tyson",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.6,
+  "rationale": "Consecration call, no text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.6"
+ },
+ "6b8CvnnfxiBdeU75SZWg3P": {
+  "_episode": "Making Sense of Church | The Flock - Jon Tyson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 10,
+    "end": 10
+   }
+  ],
+  "confidence": 0.88,
+  "rationale": "Good Shepherd and the flock.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book john 0.88"
+ },
+ "6cljiotDvFHZtlAnXtKhoE": {
+  "_episode": "Crying Out: A Cry For Others - Jon Tyson",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.65,
+  "rationale": "Teaching on sacrificial living, no text indicated.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.6"
+ },
+ "6hP93KUeX68neqQW2GLBBo": {
+  "_episode": "Disruptive Discipleship: Blessed Are The Meek - Suzy Silk",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 5,
+    "end": 5
+   }
+  ],
+  "confidence": 0.95,
+  "rationale": "Beatitudes series, Matthew 5",
+  "pass": 1
+ },
+ "6mXJquz3nXoFOX529TmbNA": {
+  "_episode": "Crying Out: A Cry for Encouragement - Jon Tyson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "hebrews",
+    "start": 10,
+    "end": 10
+   }
+  ],
+  "confidence": 0.45,
+  "rationale": "Part 2 is Hebrews 10; part 1 likely the same encouragement text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.7"
+ },
+ "6mmmqPKZYPmszl2XrXC6Cd": {
+  "_episode": "Defiant Joy: Live Up to Your Citizenship - Suzy Silk",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "philippians",
+    "start": 3,
+    "end": 3
+   }
+  ],
+  "confidence": 0.97,
+  "rationale": "Heavenly citizenship Phil 3:20",
+  "pass": 1
+ },
+ "6pZs00pnPZSQ2RTsTOtJ5b": {
+  "_episode": "Church in A Time of Crisis: Fruit of the Spirit in a Time of the Flesh - Jon Tyson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "galatians",
+    "start": 5,
+    "end": 5
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "Fruit of the Spirit series, Galatians 5",
+  "pass": 1
+ },
+ "6r8u4TtDTB7zjlLtjq45FT": {
+  "_episode": "We Want You Here: Resisting Temptation - Jon Tyson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 4,
+    "end": 4
+   }
+  ],
+  "confidence": 0.5,
+  "rationale": "Temptation theme, likely Jesus tempted.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book matthew 0.4"
+ },
+ "6reehufyqWrLVQyEG2r4AR": {
+  "_episode": "We Want You Here: Praying The Word - Sam Gibson",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Praying scripture, no single text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.6"
+ },
+ "6sgTGTWvvh36p8kzH3dExK": {
+  "_episode": "Defiant Joy: A Study Through Philippians  - Jon Tyson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "philippians",
+    "start": 1,
+    "end": 1
+   }
+  ],
+  "confidence": 0.97,
+  "rationale": "Philippians study kickoff",
+  "pass": 1
+ },
+ "6w2Hid6L4wXiP7qsJBjR8U": {
+  "_episode": "The Prodigal Church Series - Pergamum",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "revelation",
+    "start": 2,
+    "end": 2
+   }
+  ],
+  "confidence": 0.98,
+  "rationale": "Description says Revelation 2, Pergamum",
+  "pass": 1
+ },
+ "6wKIbNZeLwdNuMGxndLPL2": {
+  "_episode": "SEEKING GOD: Worshipers - Jon Tyson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 4,
+    "end": 4
+   }
+  ],
+  "confidence": 0.97,
+  "rationale": "Woman at the well",
+  "pass": 1
+ },
+ "6wX4YjdDgvV8lR0bs2MCBS": {
+  "_episode": "The Jesus Stuff: The Secret Place - Jon Tyson",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Secret place prayer, no text given.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.5"
+ },
+ "6ye4Y2d1JgWqKOzDzjKmL3": {
+  "_episode": "Crying Out: A Cry for Repentance - Jon Tyson",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Repentance arc (rebuild ruins, destroy idols) with no stated book.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "6yrDybdlZJmuejysvYP7ec": {
+  "_episode": "The Fifth Act | Unschooled, Ordinary Men - Suzy Silk",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "acts",
+    "start": 3,
+    "end": 4
+   }
+  ],
+  "confidence": 0.96,
+  "rationale": "Lame man healed and persecution by leaders",
+  "pass": 1
+ },
+ "6yt1auxbmpeJruQjtfBSe8": {
+  "_episode": "Formed: Election - Tim Brown",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "ephesians",
+    "start": 1,
+    "end": 1
+   }
+  ],
+  "confidence": 0.45,
+  "rationale": "Election doctrine; Eph 1 likely, Romans 9 possible.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book ephesians 0.5"
+ },
+ "6z4cmXUSbsvguYoP32SL66": {
+  "_episode": "Seeing Jesus: When Your Faith Fails - Jon Tyson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 21,
+    "end": 21
+   }
+  ],
+  "confidence": 0.85,
+  "rationale": "Peter restored after failure, John 21.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book john 0.7"
+ },
+ "70NXBVPtioyzXw7drDo0zu": {
+  "_episode": "We Want You Here: How We Fight Our Battles - Ralph Castillo",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "exodus",
+    "start": 17,
+    "end": 17
+   }
+  ],
+  "confidence": 0.96,
+  "rationale": "Israel's victory over Amalekites in Exodus",
+  "pass": 1
+ },
+ "7368gBBtxWosodqXDCTlnL": {
+  "_episode": "Defiant Joy: The Work of God - Suzy Silk",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "philippians",
+    "start": 1,
+    "end": 1
+   }
+  ],
+  "confidence": 0.97,
+  "rationale": "Philippians study, Paul rejoicing in prison",
+  "pass": 1
+ },
+ "76J0rqfS344dxN3yahHjag": {
+  "_episode": "God Comes Where He's Wanted | The Heart - Jon Tyson",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Series kickoff on the heart, no text given.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "76t5z4DQjSGLdjegSTxWjq": {
+  "_episode": "God Comes Where He's Wanted 2.0: Asbury Outpouring - Jon Tyson",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.85,
+  "rationale": "Reflections on Asbury outpouring.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.9"
+ },
+ "77G1bJmliGPsWiryLnIWh4": {
+  "_episode": "Making Sense of Church | Why Bother with the Church? - Jon Tyson",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.65,
+  "rationale": "Series opener on why the church matters.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.65"
+ },
+ "77J5CWvOFj0FxVdMGn4pzl": {
+  "_episode": "Compelling Missional Disciples: Reaching People with the Gospel - Tim Brown",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.9,
+  "rationale": "Thematic teaching with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.9"
+ },
+ "77S11ZVEbTWphpKBAH9D9b": {
+  "_episode": "Rediscovering Church: Between the Resurrection and the Return - Matt Ro",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "1-thessalonians",
+    "start": 4,
+    "end": 5
+   }
+  ],
+  "confidence": 0.93,
+  "rationale": "Between resurrection and return in 1 Thessalonians series; 4:13-5:11 fits",
+  "pass": 1
+ },
+ "77pGscLX0NXfcQvVmH78AF": {
+  "_episode": "Converting the Church: Shutting Doors in People's Faces - Ralph Castillo",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 23,
+    "end": 23
+   }
+  ],
+  "confidence": 0.95,
+  "rationale": "Series on the seven woes to the Pharisees; siblings all Matthew 23",
+  "pass": 1
+ },
+ "796JTRui68JWBbDtcPkuvE": {
+  "_episode": "The Prodigal Church Series - Thyatira",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "revelation",
+    "start": 2,
+    "end": 2
+   }
+  ],
+  "confidence": 0.98,
+  "rationale": "Description says Revelation 2, Thyatira",
+  "pass": 1
+ },
+ "7A12JfeteMJYmzi2zGKU4j": {
+  "_episode": "Above All Else - Banning Liebscher",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "proverbs",
+    "start": 4,
+    "end": 4
+   }
+  ],
+  "confidence": 0.7,
+  "rationale": "Guarding the heart, Proverbs 4:23.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "book proverbs 0.55"
+ },
+ "7AdrT0Lj9fgNppvKXic8Dw": {
+  "_episode": "Crying Out: A Cry for Wisdom - Suzy Silk",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Wisdom survey across scripture, no single book evident.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.6"
+ },
+ "7B2SWdzv1SjDhQT1BQ9Lm3": {
+  "_episode": "White As Snow",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Baptism story/message, no clear text.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "topical  0.85"
+ },
+ "7Fhl0N6a02zVgRSTJjYMr8": {
+  "_episode": "Defiant Joy: Thoroughly Converted  - Jon Tyson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "philippians",
+    "start": 3,
+    "end": 3
+   }
+  ],
+  "confidence": 0.97,
+  "rationale": "Beginning of Philippians 3",
+  "pass": 1
+ },
+ "7INeNgYicgjtUqlAKk0Xql": {
+  "_episode": "A Defiant Christmas: Defiant Peace - Jon Tyson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "isaiah",
+    "start": 9,
+    "end": 9
+   }
+  ],
+  "confidence": 0.5,
+  "rationale": "Defiant peace and the Prince of Peace suggests Isaiah 9:6.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book isaiah 0.5"
+ },
+ "7LIq8FwOv06of4BAn3r18a": {
+  "_episode": "The Way of Jesus: The Way of Encounter - Jon Tyson",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Personal T.I.M.E. practice, no text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "7dgTdd5gHyZpHaqW2P5FH8": {
+  "_episode": "Formed: Salvation - Jon Tyson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "romans",
+    "start": 10,
+    "end": 10
+   }
+  ],
+  "confidence": 0.85,
+  "rationale": "Confessing Jesus is Lord and believing resurrection is Romans 10:9.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book romans 0.85"
+ },
+ "7e6oPkcWCnUkQMzz9RvDTb": {
+  "_episode": "Fall Vision Day 2018 - The Kind Of Leaders We're Looking For",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "2-timothy",
+    "start": 2,
+    "end": 2
+   }
+  ],
+  "confidence": 0.92,
+  "rationale": "Sermon from 2 Timothy on entrusting leadership",
+  "pass": 1
+ },
+ "7eDGmdFsi3LNyzacllRnFL": {
+  "_episode": "Sin: An Overview - Suzy Silk",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Overview of sin, no single text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "7gdhuddNGU25ASyUxjKUF2": {
+  "_episode": "Unexpected Jesus: Unexpected Extravagance - Olivia Munn-Shirsath",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 12,
+    "end": 12
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "Mary of Bethany anointing Jesus' feet with costly perfume",
+  "pass": 1
+ },
+ "7kdXflBWT56WCO3jOpNa4z": {
+  "_episode": "A Creative Minority: Participation - Jon Tyson",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Thematic teaching with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.6"
+ },
+ "7nZFyOeRKkZ9CNPYU4nP1Y": {
+  "_episode": "God Comes Where He's Wanted: The Cry of the Home - Jon Tyson",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Series sermon on the home, no text given.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "7oKHGEjwL5GxMmrgvBC4fG": {
+  "_episode": "SEEKING GOD: Surrendered Hearts - Jon Tyson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "2-chronicles",
+    "start": 14,
+    "end": 16
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "King Asa, description cites 2 Chronicles",
+  "pass": 1
+ },
+ "7oksK6rLx0RQdGthY5cSts": {
+  "_episode": "God Comes Where He's Wanted: The Cry of the Church - Lee Cummings",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Altar of the church theme, text not given.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "7qgYaZWCE45fCvkiN0pcJt": {
+  "_episode": "Compelling Missional Disciples: Missional Work - Jon Tyson",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.9,
+  "rationale": "Thematic teaching with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.9"
+ },
+ "7r5yc0MsvYXo1ugwifvIuf": {
+  "_episode": "Unexpected Jesus: Unexpected Inclusion - Ashley Anderson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 4,
+    "end": 4
+   }
+  ],
+  "confidence": 0.97,
+  "rationale": "Woman at the well",
+  "pass": 1
+ },
+ "7rA6X9ifBl8PDdTNBFHi69": {
+  "_episode": "Missional Formation | Space + Risk - Al Gordon",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.7,
+  "rationale": "Space and risk, Spirit-filled mission.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.7"
+ },
+ "7tHyJnTU1v6GHfin3TjNNC": {
+  "_episode": "Compelling Missional Disciples: Crystallization of Discontent - Keithen Schwahn",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.9,
+  "rationale": "Thematic teaching with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.9"
+ },
+ "7xGxWPl7EfBu7V6vtuix44": {
+  "_episode": "Rediscovering Church: Letter From the Persecuted Church - Ashley Anderson",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "1-thessalonians"
+   },
+   {
+    "book": "2-thessalonians"
+   }
+  ],
+  "confidence": 0.65,
+  "rationale": "Persecution theme in Thessalonians study",
+  "pass": 1
+ },
+ "7zJ8XVsWtQvAx1QLXFdBIa": {
+  "_episode": "God Comes Where He's Wanted | The Home - Jon Tyson",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Homes and next generation, no text given.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "7zPcxsQpGUpLJ7T5j8rLCY": {
+  "_episode": "A Creative Minority: Practices - Jon Tyson",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.6,
+  "rationale": "Creative Minority series is thematic.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.6"
+ }
+}

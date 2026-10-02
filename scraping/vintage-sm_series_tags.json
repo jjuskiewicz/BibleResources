@@ -1,0 +1,106 @@
+{
+ "1z7aOivgrRPGI754KZDQN6": {
+  "_episode": "Encounters with Jesus, Part Eight: Jesus and Spiritual Blindness - Ger Jones - Santa Monica, August 7th, 2022",
+  "refs": [
+   {
+    "book": "john",
+    "start": 9,
+    "end": 9
+   }
+  ],
+  "confidence": 0.97,
+  "basis": "Encounters with Jesus (encounters with jesus|2022-06): john 4.5/4.5 votes"
+ },
+ "342tIUqiUjQIUfiKqiB2MA": {
+  "_episode": "Encounters with Jesus, Part Four: Jesus and Women - Amy Orr-Ewing - Santa Monica, June 26th, 2022",
+  "refs": [
+   {
+    "book": "john"
+   }
+  ],
+  "confidence": 0.97,
+  "basis": "Encounters with Jesus (encounters with jesus|2022-06): john 4.5/4.5 votes"
+ },
+ "3OZQ6zJfPvkRBoKne4YcyK": {
+  "_episode": "Encounters with Jesus, Part Ten: Jesus and Being Both God and Man - Ger Jones - Santa Monica, August 21st, 2022",
+  "refs": [
+   {
+    "book": "john",
+    "start": 1,
+    "end": 1
+   }
+  ],
+  "confidence": 0.97,
+  "basis": "Encounters with Jesus (encounters with jesus|2022-06): john 4.5/4.5 votes"
+ },
+ "3f8euv5OpYp83CD7OVNL4m": {
+  "_episode": "Encounters with Jesus, Part Two: Jesus and the Religious - Ger Jones - Santa Monica, June 12th, 2022",
+  "refs": [
+   {
+    "book": "john",
+    "start": 3,
+    "end": 3
+   }
+  ],
+  "confidence": 0.97,
+  "basis": "Encounters with Jesus (encounters with jesus|2022-06): john 4.5/4.5 votes"
+ },
+ "4RmHNdnDioQicTiMHU2WKe": {
+  "_episode": "Encounters with Jesus, Part One: Jesus and the Skeptic - Ger Jones - Santa Monica, June 5th, 2022",
+  "refs": [
+   {
+    "book": "john"
+   }
+  ],
+  "confidence": 0.97,
+  "basis": "Encounters with Jesus (encounters with jesus|2022-06): john 4.5/4.5 votes"
+ },
+ "4t4Pzg19XZuwS4nFhcx7jt": {
+  "_episode": "Encounters with Jesus, Part Eleven: Jesus the Servant - Ash Meaney - Santa Monica, August 28th, 2022",
+  "refs": [
+   {
+    "book": "john",
+    "start": 13,
+    "end": 13
+   }
+  ],
+  "confidence": 0.97,
+  "basis": "Encounters with Jesus (encounters with jesus|2022-06): john 4.5/4.5 votes"
+ },
+ "61UVdXNKdvcgQCrObALxjU": {
+  "_episode": "Encounters with Jesus, Part Three: Jesus and the Outcast - Ger Jones - Santa Monica, June 19th, 2022",
+  "refs": [
+   {
+    "book": "john",
+    "start": 4,
+    "end": 4
+   }
+  ],
+  "confidence": 0.97,
+  "basis": "Encounters with Jesus (encounters with jesus|2022-06): john 4.5/4.5 votes"
+ },
+ "6YgsqZv1i0RFMzPtpXov06": {
+  "_episode": "Encounters with Jesus, Part Five: Jesus and the Hungry - Ash Meaney - Santa Monica, July 3rd, 2022",
+  "refs": [
+   {
+    "book": "john",
+    "start": 6,
+    "end": 6
+   }
+  ],
+  "confidence": 0.97,
+  "basis": "Encounters with Jesus (encounters with jesus|2022-06): john 4.5/4.5 votes"
+ },
+ "6wC4W8mwnH42eWe6r6MM2w": {
+  "_episode": "Encounters with Jesus, Part Six: Jesus and the Blind Man - Ger Jones - Santa Monica, July 17th, 2022",
+  "refs": [
+   {
+    "book": "john",
+    "start": 9,
+    "end": 9
+   }
+  ],
+  "confidence": 0.97,
+  "basis": "Encounters with Jesus (encounters with jesus|2022-06): john 4.5/4.5 votes"
+ }
+}

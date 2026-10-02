@@ -1,0 +1,7306 @@
+{
+ "_meta": {
+  "generated": "2026-10-02",
+  "model": "claude-sonnet (subagents)",
+  "note": "AI tags for episodes the regex left unmapped. pass 1 = episode judged alone; pass 2 = re-judged with its whole series as context (replaces pass 1 for every episode pass 1 didn't settle at >= 0.9). kinds: book, topical, non_sermon (excluded from site at >= 0.7), unknown. Hand overrides always win."
+ },
+ "0195QhEfUsT7KUWe4kzPBA": {
+  "_episode": "[BONUS] Relate: a conversation about your love life - Episode 01: The Man",
+  "kind": "non_sermon",
+  "refs": [],
+  "confidence": 0.92,
+  "rationale": "Q&A style conversation bonus episode.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.8"
+ },
+ "02c0HSXb3oeswEKgG3bRxD": {
+  "_episode": "Wk 2: Watch Out!",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "1-peter",
+    "start": 5,
+    "end": 5
+   },
+   {
+    "book": "1-corinthians",
+    "start": 16,
+    "end": 16
+   }
+  ],
+  "confidence": 0.45,
+  "rationale": "Watch out, devoured, 1 Pet 5:8 / 1 Cor 16:13",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book 1-peter 1-corinthians 0.45"
+ },
+ "02wR5ev9XUXjYDew70WXfZ": {
+  "_episode": "Wk 1: Legacy of Faith",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Legacy of faith; no text evident",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "03rv8468tsZFmJqcErN1Wo": {
+  "_episode": "Wk 7: Love Lavishes",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.4,
+  "rationale": "Righteous deeds from right standing; text unclear",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book john 0.3"
+ },
+ "04vtfGMaAnrT78eV3qs9dN": {
+  "_episode": "Wk 25: It’s Not Too Late",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "romans",
+    "start": 11,
+    "end": 11
+   }
+  ],
+  "confidence": 0.8,
+  "rationale": "Not too late, Israel/Gentiles grafting: Romans 11.",
+  "pass": 1
+ },
+ "077SYd4AURlZcUvQFZEyN4": {
+  "_episode": "Saturated 2022 - Sunday: Pastor Joby Martin",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "acts",
+    "start": 8,
+    "end": 8
+   }
+  ],
+  "confidence": 0.85,
+  "rationale": "Quote is the Ethiopian eunuch baptism question, Acts 8:36",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "book acts 0.85"
+ },
+ "07jMsbcz6wHBbxCqLPgby3": {
+  "_episode": "Wk 1: Naked & Wounded",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "acts",
+    "start": 19,
+    "end": 19
+   }
+  ],
+  "confidence": 0.85,
+  "rationale": "Name of Jesus without saving knowledge is the sons of Sceva, Acts 19",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book acts 0.85"
+ },
+ "0940Cm8mGVjHNhPCrbfVGr": {
+  "_episode": "Saturated 2021 - Friday: Pastor Bruce Frank",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Conference main-session talk",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "unknown  0.0"
+ },
+ "0AM72f6f9zBGpqdtIPyPWa": {
+  "_episode": "Wk1: Faith",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "acts"
+   }
+  ],
+  "confidence": 0.5,
+  "rationale": "Series run is Acts-flavored; chapter unclear",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book acts 0.65"
+ },
+ "0AMtLdfcS9gO5K2SA1U3pg": {
+  "_episode": "Wk 5: Love Your Neighbor",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "luke",
+    "start": 10,
+    "end": 10
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "Good Samaritan, Luke 10:25-37.",
+  "pass": 1
+ },
+ "0APBa4ZkNRlvMJ7VNWAjB7": {
+  "_episode": "Wk 7: A Right Standing With God",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "romans",
+    "start": 3,
+    "end": 3
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "Right standing with God, Romans 3:21-31",
+  "pass": 1
+ },
+ "0AS3tPo9HFGeLDUKnFWtgl": {
+  "_episode": "Saturated 2018 - Thursday: Pastor Albert Tate",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Conference main-session talk",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "unknown  0.0"
+ },
+ "0B5RwG2FoMIO2nxvTV7p5A": {
+  "_episode": "Wk 3: Fearless",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "acts",
+    "start": 18,
+    "end": 18
+   }
+  ],
+  "confidence": 0.45,
+  "rationale": "Fearless; presence promised, likely Acts 18:9-10",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book acts 0.45"
+ },
+ "0B7RqlLnz5t51S9fI4Lhin": {
+  "_episode": "Wk 4: Mount of Beatitudes – Are You Chasing Blessing or the One Who Blesses",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 5,
+    "end": 5
+   }
+  ],
+  "confidence": 0.95,
+  "rationale": "Mount of Beatitudes.",
+  "pass": 1
+ },
+ "0BxX0oQCYgnyBdxq3249gW": {
+  "_episode": "Wk 4: All People",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "luke",
+    "start": 2,
+    "end": 2
+   }
+  ],
+  "confidence": 0.65,
+  "rationale": "Good news for all people",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book luke 0.65"
+ },
+ "0C0SxQyFE1pRdLC1oyLYWO": {
+  "_episode": "Wk 10: How to Raise a Daughter",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.65,
+  "rationale": "Raising a daughter, thematic",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.7"
+ },
+ "0EJRMNJL6N26STax2Rrzvp": {
+  "_episode": "Saturated 2023 - Wednesday: Pastor Matt Carter",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Conference main-session talk",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "unknown  0.0"
+ },
+ "0FlpkEtrHhoyI8XOOwqrlw": {
+  "_episode": "Wk 6: Integrity",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Integrity; no text evident",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "unknown  0.0"
+ },
+ "0FscIfXgw63jAMXytDPCbB": {
+  "_episode": "Wk 2: Grace",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "ephesians",
+    "start": 2,
+    "end": 2
+   }
+  ],
+  "confidence": 0.85,
+  "rationale": "Grace, Eph 2:1-10",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book ephesians 0.85"
+ },
+ "0Gc64EZuveKTyemTb2podd": {
+  "_episode": "Wk 2: Whose Side Are You On?",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Whose side; no text",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "0IBxbjDB28kQw03ACo5M65": {
+  "_episode": "Wk 19: Sovereign Grace",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "romans",
+    "start": 8,
+    "end": 9
+   }
+  ],
+  "confidence": 0.65,
+  "rationale": "God's love despite circumstances, see the cross; Romans 8 (maybe 9).",
+  "pass": 1
+ },
+ "0JsRMdpiPMzFOmPcY1D01q": {
+  "_episode": "Wk 18: Chosen",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "romans",
+    "start": 8,
+    "end": 8
+   }
+  ],
+  "confidence": 0.8,
+  "rationale": "Not slaves to fear, children of God = Romans 8:15.",
+  "pass": 1
+ },
+ "0K8IrPIauTo68dNq32fnd4": {
+  "_episode": "Wk 3: New Direction",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "jonah",
+    "start": 3,
+    "end": 3
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "Jonah series; repentance/new direction = Jonah 3.",
+  "pass": 1
+ },
+ "0KL6l5kdpGdHjXfODUl2OK": {
+  "_episode": "Wk 4: The Sovereignty of God in Our Pursuit of Purity",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "ruth",
+    "start": 3,
+    "end": 3
+   }
+  ],
+  "confidence": 0.82,
+  "rationale": "Ruth series; purity, Ruth at the threshing floor",
+  "pass": 1
+ },
+ "0LwXmKdu1occAuTBlDLkHp": {
+  "_episode": "Saturated 2017 - Friday: Pastor Eric Mason",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Conference main-session talk",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "unknown  0.0"
+ },
+ "0MsqeA4XPX2elAstNzLqiK": {
+  "_episode": "Wk 3: Love",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "acts"
+   }
+  ],
+  "confidence": 0.35,
+  "rationale": "Community theme; Acts guess uncertain",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book acts 0.4"
+ },
+ "0NH2NG1ZYrhE7jT193Dwnu": {
+  "_episode": "Wk 2: Calling",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "exodus",
+    "start": 3,
+    "end": 4
+   }
+  ],
+  "confidence": 0.85,
+  "rationale": "Calling of Moses with excuses",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book exodus 0.7"
+ },
+ "0O0kR8EklHia9B8Gucku7e": {
+  "_episode": "Wk 4: Pride",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Pride as spiritual cancer; no text",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "0OZ4EDnz5h6ji3k1jz6x2x": {
+  "_episode": "Unexpected Hope - Christmas Eve",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "luke",
+    "start": 2,
+    "end": 2
+   }
+  ],
+  "confidence": 0.55,
+  "rationale": "Christmas Eve rescue-mission message, likely Luke 2",
+  "pass": 2,
+  "series_kind": "unclear",
+  "pass1": "book luke 0.4"
+ },
+ "0OoRQbFJhsJ3n2wliI0sOH": {
+  "_episode": "Wk 1: Chosen",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "ephesians",
+    "start": 1,
+    "end": 1
+   }
+  ],
+  "confidence": 0.85,
+  "rationale": "Chosen, adopted, inheritance is Eph 1",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book ephesians 0.85"
+ },
+ "0RgWDFwZ6yLygYGx63e9yq": {
+  "_episode": "Wk 1: Pastor Ryan Kwon",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Guest-pastor sermon; title gives only speaker, no text or theme.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "unknown  0.0"
+ },
+ "0SEwxt0S0RdOgFKE7kfPZg": {
+  "_episode": "Wk 3: Peace",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "ephesians",
+    "start": 2,
+    "end": 2
+   }
+  ],
+  "confidence": 0.85,
+  "rationale": "Peace, Jew and Gentile, Eph 2:11-22",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book ephesians 0.85"
+ },
+ "0SHvxSbBYUwk4ncbWwlUKf": {
+  "_episode": "Wk 7: Press On",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "philippians",
+    "start": 3,
+    "end": 3
+   }
+  ],
+  "confidence": 0.95,
+  "rationale": "Press on is Phil 3:12-21.",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book philippians 0.85"
+ },
+ "0TLACZ8MW61bUjqvObFHa2": {
+  "_episode": "Week 9: Comparison Trap",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "james",
+    "start": 4,
+    "end": 4
+   }
+  ],
+  "confidence": 0.5,
+  "rationale": "Week 9 of James series; comparison, likely James 4",
+  "pass": 1
+ },
+ "0VB7GCSbajcERBCnzdAb0n": {
+  "_episode": "Stand Alone: A People for a Purpose",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "1-peter",
+    "start": 2,
+    "end": 2
+   }
+  ],
+  "confidence": 0.8,
+  "rationale": "People set apart for a purpose is 1 Peter 2:9",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "book 1-peter 0.65"
+ },
+ "0WVijv27RipFhaTIJBG8CV": {
+  "_episode": "Wk 5: The Sovereignty of God in Our Perfect Redeemer",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "ruth",
+    "start": 3,
+    "end": 4
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "Kinsman redeemer, Ruth 3-4",
+  "pass": 1
+ },
+ "0Y4jCSdlA7LiqXfENsAz3v": {
+  "_episode": "[BONUS] Relate: a conversation about your love life - Episode 06: The Vow",
+  "kind": "non_sermon",
+  "refs": [],
+  "confidence": 0.92,
+  "rationale": "Q&A style conversation bonus episode.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.8"
+ },
+ "0ZRemQEnHVMtsu2ft23UDa": {
+  "_episode": "Wk 4: Be Grateful",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "luke",
+    "start": 17,
+    "end": 17
+   }
+  ],
+  "confidence": 0.7,
+  "rationale": "Gratitude and many experiencing Jesus fits the ten lepers, Luke 17.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book luke 0.6"
+ },
+ "0bWn4LouIjieroxugSKvqx": {
+  "_episode": "Wk 8: Healing in His Wings",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "malachi",
+    "start": 4,
+    "end": 4
+   }
+  ],
+  "confidence": 0.55,
+  "rationale": "Healing in His wings is Mal 4:2, though series is John.",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book malachi 0.8"
+ },
+ "0clpiEQeIAGPoUm0pBNR54": {
+  "_episode": "Walk This Way: Be Free - Wk 12",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "galatians",
+    "start": 5,
+    "end": 5
+   }
+  ],
+  "confidence": 0.8,
+  "rationale": "Be Free Galatians series; walk by Spirit/ live in light",
+  "pass": 1
+ },
+ "0fbFOJr7WTjZxH9ZssBbXt": {
+  "_episode": "Wk 9: Love Believes",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "New heart message, no text evident",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "0gS2UwVbLaL7amueLajI67": {
+  "_episode": "Wk 32: Life on Mission",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "romans",
+    "start": 15,
+    "end": 15
+   }
+  ],
+  "confidence": 0.75,
+  "rationale": "Life on mission, Paul's ministry plans: Romans 15.",
+  "pass": 1
+ },
+ "0gg4WMXAmSqUk3slBAqitW": {
+  "_episode": "Wk 1: Spend Wisely",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.6,
+  "rationale": "Holiday-season stewardship theme, no text evident.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.45"
+ },
+ "0gw9SQkXMMDWVqOKu9fQKV": {
+  "_episode": "Wk 3: The Explicit Gospel",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "acts",
+    "start": 10,
+    "end": 10
+   }
+  ],
+  "confidence": 0.8,
+  "rationale": "Acts series; gospel explicit after Acts 10:28 sermon",
+  "pass": 1
+ },
+ "0kidpAxLbApzicIQyQydrf": {
+  "_episode": "Wk 2: The Bible Says: Trustworthiness of Scripture",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "2-peter",
+    "start": 1,
+    "end": 1
+   }
+  ],
+  "confidence": 0.6,
+  "rationale": "Trustworthiness of Scripture fits 2 Pet 1:16-21 in a 2 Peter run.",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "unknown  0.0"
+ },
+ "0lBVwEFOOJi2JFx8QVUKQc": {
+  "_episode": "Wk 8: Flirt or Follow?",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "luke",
+    "start": 9,
+    "end": 9
+   }
+  ],
+  "confidence": 0.4,
+  "rationale": "Follow Jesus on His terms",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book luke 0.4"
+ },
+ "0lDsfXkobqKUJw7Jd1cZvL": {
+  "_episode": "Saturated 2021 - Saturday: Pastor H.B. Charles",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Conference main-session talk",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "unknown  0.0"
+ },
+ "0lqCyJxwPM2TIpne2Fm26U": {
+  "_episode": "Wk 4: How Can You Save the World?",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "genesis",
+    "start": 6,
+    "end": 9
+   }
+  ],
+  "confidence": 0.8,
+  "rationale": "Jesus as the greater ark, Noah",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book genesis 0.8"
+ },
+ "0mVY7gMohtQGshQhVU7KjE": {
+  "_episode": "Wk 16: What is Wrong With Me?",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "romans",
+    "start": 7,
+    "end": 7
+   }
+  ],
+  "confidence": 0.88,
+  "rationale": "Sinners need a Savior, Romans 7",
+  "pass": 1
+ },
+ "0mp4amuCVXB5HdeCuU6eCl": {
+  "_episode": "Wk 5: Revival",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "luke",
+    "start": 15,
+    "end": 15
+   }
+  ],
+  "confidence": 0.4,
+  "rationale": "Come home, prodigal-style revival message",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "book luke 0.4"
+ },
+ "0nPZEyCpZfuf0AFVxq774n": {
+  "_episode": "Wk 3: Pergamum – Conquering Conformity",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "revelation",
+    "start": 2,
+    "end": 2
+   }
+  ],
+  "confidence": 0.97,
+  "rationale": "Pergamum, Rev 2:12-17.",
+  "pass": 1
+ },
+ "0oJxTjShhTyxfpPAAeM6XA": {
+  "_episode": "Wk 4: Christmas Eve",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Christmas Eve service sermon; likely Luke 2 but unconfirmed.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "0oT6diKVxkKBGSpFvnPQ8z": {
+  "_episode": "Wk 3: What Is Most Important?",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "genesis",
+    "start": 4,
+    "end": 4
+   }
+  ],
+  "confidence": 0.45,
+  "rationale": "First and best offering, Cain and Abel",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book genesis 0.45"
+ },
+ "0pvLmY6lwNUSF5wZnTW8id": {
+  "_episode": "Wk 3: Rescue Team",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "colossians",
+    "start": 1,
+    "end": 1
+   }
+  ],
+  "confidence": 0.7,
+  "rationale": "Rescue team, Col 1",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book colossians 0.65"
+ },
+ "0qxtI4fL6j8KiZ6FTWuQjp": {
+  "_episode": "Wk 1: Father",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Trinity: Father",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "0r67RKIhpqjFkB47zhsBiN": {
+  "_episode": "Wk 5: Blinded By the Light",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "acts",
+    "start": 9,
+    "end": 9
+   }
+  ],
+  "confidence": 0.6,
+  "rationale": "Blinded by the light, Saul",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book acts 0.3"
+ },
+ "0rMABOPZE5Ymjop8xFp7uI": {
+  "_episode": "Saturated 2018 - Friday: Pastor J.D. Greear",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Conference main-session talk",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "unknown  0.0"
+ },
+ "0rPhdxhLncIHENG3z2Qwfe": {
+  "_episode": "Wk 6: Pastor Cam Triggs",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Guest-pastor sermon; title gives only speaker, no text or theme.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "unknown  0.0"
+ },
+ "0s0RNkDZKHwQ2rfUcEpd4M": {
+  "_episode": "Wk 8: Love Does",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "1-john",
+    "start": 3,
+    "end": 3
+   }
+  ],
+  "confidence": 0.5,
+  "rationale": "Love in deed and truth, compassion",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book 1-john 0.4"
+ },
+ "0suS4oYnK2bNl0bvXKmHuH": {
+  "_episode": "Wk 2: Restoring Honor and Unity",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "acts",
+    "start": 15,
+    "end": 15
+   }
+  ],
+  "confidence": 0.8,
+  "rationale": "Acts 15 council unity; John 17 quote only supporting",
+  "pass": 1
+ },
+ "0tX1arFdmrHYNqQTLOVbnV": {
+  "_episode": "Saturated 2015 -Saturday: Pastor Ben Williams",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Conference main-session talk",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "unknown  0.0"
+ },
+ "0v4wpMSWnUntjye5PVZBSJ": {
+  "_episode": "[BONUS] Relate: a conversation about your love life - Episode 07: The Honeymoon",
+  "kind": "non_sermon",
+  "refs": [],
+  "confidence": 0.92,
+  "rationale": "Q&A style conversation bonus episode.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.8"
+ },
+ "0vwywg9jk6zdPYhhnYyrsT": {
+  "_episode": "Wk 2: The Rest Of The Story",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "acts",
+    "start": 28,
+    "end": 28
+   }
+  ],
+  "confidence": 0.93,
+  "rationale": "Rest of the Story, Acts 28:31 boldness without hindrance",
+  "pass": 1
+ },
+ "0xn1juq6snLs8S6teHq6mh": {
+  "_episode": "Wk 1: Fear Not",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "luke",
+    "start": 1,
+    "end": 1
+   }
+  ],
+  "confidence": 0.5,
+  "rationale": "Fear not, Advent",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "10CY6n5Yw70z5o560gLrpo": {
+  "_episode": "Wk 6: Mount of Transfiguration - Will You Cast Out the Demons That Torment",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 17,
+    "end": 17
+   }
+  ],
+  "confidence": 0.45,
+  "rationale": "Transfiguration and demon-possessed boy; Matt 17 (could be Mark 9/Luke 9).",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book matthew mark 0.45"
+ },
+ "11Wt3cxy4avvZ759TnFrpG": {
+  "_episode": "Wk 3: Show Me Your Glory",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "exodus",
+    "start": 33,
+    "end": 33
+   }
+  ],
+  "confidence": 0.85,
+  "rationale": "Show me your glory, Moses and tabernacle series",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book exodus 0.5"
+ },
+ "11XO0yFVvPJQ8YjTRk6g7P": {
+  "_episode": "Wk 3: To The Cross",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "acts"
+   }
+  ],
+  "confidence": 0.3,
+  "rationale": "Cling to the cross; Acts guess weak",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book acts 0.3"
+ },
+ "12MXqPvsl0n5shs32husDo": {
+  "_episode": "Wk 2: Signs",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 2,
+    "end": 2
+   }
+  ],
+  "confidence": 0.65,
+  "rationale": "Signs, miracles pointing to redemption",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book john 0.5"
+ },
+ "12xH0r6TFLJIyyRuPiKXm2": {
+  "_episode": "Wk 1: Kept for Christ",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "jude",
+    "start": 1,
+    "end": 1
+   }
+  ],
+  "confidence": 0.92,
+  "rationale": "\"Kept for Christ\" is Jude 1.",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book jude 0.85"
+ },
+ "14EL3ql3j1vmezKp9AT8Ju": {
+  "_episode": "Wk 6: The Kingdom of God and Satisfaction",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Contentment theme, no text evident.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "14GXOhepKuH1tYVpwGgb45": {
+  "_episode": "Stand Alone: Of First Importance",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "1-corinthians",
+    "start": 15,
+    "end": 15
+   }
+  ],
+  "confidence": 0.85,
+  "rationale": "Of first importance is 1 Cor 15:3",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "book 1-corinthians 0.8"
+ },
+ "14wCIL7eJdW62uVMy6U7dV": {
+  "_episode": "Saturated 2023 - Friday: J.D. Greear",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Conference main-session talk",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "unknown  0.0"
+ },
+ "15HTniQWOR8ZGlgTVdhOOI": {
+  "_episode": "Wk 1: In the Way",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "acts",
+    "start": 11,
+    "end": 11
+   }
+  ],
+  "confidence": 0.75,
+  "rationale": "\"Who am I to stand in God's way\" Acts 11:17",
+  "pass": 1
+ },
+ "162hdc4tJhuRRFVjJrmMEP": {
+  "_episode": "Week 10: How to Win a Fight",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "james",
+    "start": 4,
+    "end": 4
+   }
+  ],
+  "confidence": 0.85,
+  "rationale": "Fights from desires, James 4:1-3",
+  "pass": 1
+ },
+ "16AIcLz1PvZCii7zevhZD3": {
+  "_episode": "Wk 2: Hype or Hope",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "acts",
+    "start": 19,
+    "end": 19
+   }
+  ],
+  "confidence": 0.5,
+  "rationale": "Gospel transforming community, Ephesus Acts 19",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book acts 0.55"
+ },
+ "16OWnm8RgwREtSTTpbN4iR": {
+  "_episode": "Wk 2: God Help Me!",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "jonah",
+    "start": 2,
+    "end": 2
+   }
+  ],
+  "confidence": 0.85,
+  "rationale": "Cry out to God, Jonah 2.",
+  "pass": 1
+ },
+ "16dzCllS1mFSdr8BilEJUl": {
+  "_episode": "Wk 5: Humble Yourself",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "luke",
+    "start": 18,
+    "end": 18
+   }
+  ],
+  "confidence": 0.6,
+  "rationale": "Humble, Pharisee and tax collector",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book luke 0.5"
+ },
+ "17fPPqDRGj7hvAfsPdDZgG": {
+  "_episode": "Wk 6: You Shall Not Steal, Lie or Covet",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "exodus",
+    "start": 20,
+    "end": 20
+   }
+  ],
+  "confidence": 0.8,
+  "rationale": "Ten Commandments, steal/lie/covet",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book exodus 0.55"
+ },
+ "18MoTcBjPDaEd9eLIoD8Uy": {
+  "_episode": "Saturated Saturday: Pastor Ben Stuart",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Conference talk on Jesus' power and priorities.",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "unknown  0.0"
+ },
+ "1A4XK9kfwPmhO7FabgLV5O": {
+  "_episode": "Wk 12: All From One, One For All",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "romans",
+    "start": 5,
+    "end": 5
+   }
+  ],
+  "confidence": 0.95,
+  "rationale": "All from one, Adam and Christ, Romans 5:12-21",
+  "pass": 1
+ },
+ "1BFk2fTn4qkZdMxhHKGPG4": {
+  "_episode": "Wk 5: A Man Born Blind",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 9,
+    "end": 9
+   }
+  ],
+  "confidence": 0.92,
+  "rationale": "Man born blind, John 9",
+  "pass": 1
+ },
+ "1D9RTHCisTkRIb0uEO9ZSR": {
+  "_episode": "Wk 3: Bridging Pain and Sorrow",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 11,
+    "end": 11
+   }
+  ],
+  "confidence": 0.45,
+  "rationale": "Pain and sorrow, Jesus wept",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book john 0.3"
+ },
+ "1DqEDVXSO9NGFCR16nosD7": {
+  "_episode": "S01 E78 - Freedom",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.4,
+  "rationale": "Short numbered episode on freedom; could be podcast-style.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "unknown  0.0"
+ },
+ "1Eu4ByaeOJiRKBMJp6QG6D": {
+  "_episode": "Our Need for Control: Be Free - Wk 8",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "galatians"
+   }
+  ],
+  "confidence": 0.85,
+  "rationale": "Be Free Galatians series; works-based righteousness",
+  "pass": 1
+ },
+ "1Fg0xYAGO8J3EymIakWTKJ": {
+  "_episode": "Wk 2: Timing is Everything",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "genesis"
+   }
+  ],
+  "confidence": 0.45,
+  "rationale": "Timing of God and faith, Abraham theme after James 2:23",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "book genesis 0.4"
+ },
+ "1GLn4eHNAAFmmP8ygIdaGV": {
+  "_episode": "Wk 4: Unity (Thursday)",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "ephesians",
+    "start": 4,
+    "end": 4
+   }
+  ],
+  "confidence": 0.7,
+  "rationale": "Unity, Eph 4:1-16",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book ephesians 0.7"
+ },
+ "1GY9c8TDWjH7DALHdy2bOY": {
+  "_episode": "Wk 10: Down Goes Goliath",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "1-samuel",
+    "start": 17,
+    "end": 17
+   }
+  ],
+  "confidence": 0.97,
+  "rationale": "David and Goliath.",
+  "pass": 1
+ },
+ "1Gai1sC40EmfVqxrNvnioD": {
+  "_episode": "Wk 2: Hope",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "acts"
+   }
+  ],
+  "confidence": 0.5,
+  "rationale": "Same Acts run; chapter unclear",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book acts 0.7"
+ },
+ "1Gbm8Tmhmk5rL1NuaHmmIY": {
+  "_episode": "Wk 17: Take Off Your Grave Clothes",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 11,
+    "end": 11
+   }
+  ],
+  "confidence": 0.97,
+  "rationale": "Lazarus grave clothes, John 11.",
+  "pass": 1
+ },
+ "1HDFNilprIopEvlVqONBbS": {
+  "_episode": "Wk 12: Jesus Saves Us From Religion",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 7,
+    "end": 7
+   }
+  ],
+  "confidence": 0.85,
+  "rationale": "Beware religion, Sermon on the Mount ending",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book matthew 0.8"
+ },
+ "1HLODDO8Nuv9qQfvIEH0G1": {
+  "_episode": "Wk 5: Bridging Shame",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "luke",
+    "start": 7,
+    "end": 7
+   }
+  ],
+  "confidence": 0.75,
+  "rationale": "Your faith has saved you, go in peace",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book luke 0.75"
+ },
+ "1Hw86iNDhEXYEqDuMCOrxM": {
+  "_episode": "Saturated 2020 - Saturday: Bishop Vaughn McLaughlin",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Conference main-session talk",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "unknown  0.0"
+ },
+ "1IeUImWCcfcEI7SRksugqO": {
+  "_episode": "Wk 2: Prodigal God",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "luke",
+    "start": 15,
+    "end": 15
+   }
+  ],
+  "confidence": 0.97,
+  "rationale": "Prodigal son.",
+  "pass": 1
+ },
+ "1IiSrjCzwzTP5Ef3B8nKas": {
+  "_episode": "Wk 3: Holy Spirit",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Trinity: Holy Spirit",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "1KV8lEfzJ5vDa2g0ChSS7d": {
+  "_episode": "Wk 3: One More",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.6,
+  "rationale": "Generosity and reaching one more",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.6"
+ },
+ "1MO0GvMllsqDr9uskakjk1": {
+  "_episode": "Stand Alone: Giving Is A Gospel Issue",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.6,
+  "rationale": "Generosity grounded in the cross, thematic",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "topical  0.6"
+ },
+ "1MnHRFN6EOL9DsbzQ33XHq": {
+  "_episode": "Wk 2: No Fear",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "No fear; no text",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "unknown  0.0"
+ },
+ "1MsQCoDkigiqDOMNqn7wuz": {
+  "_episode": "[BONUS] Relate: a conversation about your love life - Episode 04: Dating",
+  "kind": "non_sermon",
+  "refs": [],
+  "confidence": 0.92,
+  "rationale": "Q&A style conversation bonus episode.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.8"
+ },
+ "1NyWiD5HDOzW8UZQ8fGWxU": {
+  "_episode": "Wk 1: Alive",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.25,
+  "rationale": "Alive; no text revealed",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "unknown  0.0"
+ },
+ "1O1XUU6uD5eJJmHbrvL8zM": {
+  "_episode": "Wk 11: What’s So Amazing About Grace?",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "romans",
+    "start": 5,
+    "end": 5
+   }
+  ],
+  "confidence": 0.88,
+  "rationale": "Amazing grace, Romans 5:1-11",
+  "pass": 1
+ },
+ "1OblLzxfZxcPXjRpqqRtaA": {
+  "_episode": "Wk 1: Good Soil",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 13,
+    "end": 13
+   }
+  ],
+  "confidence": 0.45,
+  "rationale": "Parable of the sower, good soil",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book matthew luke 0.4"
+ },
+ "1Pnfx2SxiW6dm7cGcavV1q": {
+  "_episode": "Do You Want To Be Free?: Be Free - Wk 1",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "galatians"
+   }
+  ],
+  "confidence": 0.88,
+  "rationale": "Be Free series, Galatians siblings; Jesus + nothing",
+  "pass": 1
+ },
+ "1PurNYlfbA1G0AJCIm08WC": {
+  "_episode": "Wk 2: To Hope",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "acts",
+    "start": 27,
+    "end": 27
+   }
+  ],
+  "confidence": 0.5,
+  "rationale": "Hold onto Jesus in hopeless situation, shipwreck Acts 27",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book acts 0.55"
+ },
+ "1QaNqQRbiOF3aqLxdWPVdV": {
+  "_episode": "Wk 4: Savior For All People",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "luke",
+    "start": 2,
+    "end": 2
+   }
+  ],
+  "confidence": 0.6,
+  "rationale": "Savior for all people, Christmas Eve text",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book luke 0.5"
+ },
+ "1R3v2z2BUWzVSfjb5fqvui": {
+  "_episode": "Wk 3: Anger",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 5,
+    "end": 5
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "Sermon on the Mount, anger Matt 5:21-26.",
+  "pass": 1
+ },
+ "1Rcx36KDlliYrx5OTu6saW": {
+  "_episode": "Grace Saves: Run Over by the Grace Train - Wk 1 (Saturated Sunday)",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Grace series week 1, text not given.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "1S6JxRPEx9N70uW587hucf": {
+  "_episode": "Wk 16: Good Shepherd",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 10,
+    "end": 10
+   }
+  ],
+  "confidence": 0.97,
+  "rationale": "Good Shepherd John 10.",
+  "pass": 1
+ },
+ "1SwNEVEPOqRJEilBksX8kH": {
+  "_episode": "Wk 3: Rock Stars",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "acts"
+   }
+  ],
+  "confidence": 0.5,
+  "rationale": "Rock Stars; John the Baptist quoted, Acts guess",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book acts 0.75"
+ },
+ "1TGuQskDURB0db28Sq2Sdy": {
+  "_episode": "Wk 2: For Fairness Sake",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "acts"
+   }
+  ],
+  "confidence": 0.4,
+  "rationale": "Fairness vs mercy, Acts guess",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book acts 0.4"
+ },
+ "1UA3YBM4W405e2RpptoFz7": {
+  "_episode": "Wk 13: Rock Solid",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 7,
+    "end": 7
+   }
+  ],
+  "confidence": 0.97,
+  "rationale": "Rock Solid, wise builder Matt 7:24-27.",
+  "pass": 1
+ },
+ "1UZ8alb1nMFTbzLzKAm23D": {
+  "_episode": "Stand Alone: The Practice of Praise",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.6,
+  "rationale": "Thematic on praise, quotes Harry Ironside",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "topical  0.8"
+ },
+ "1UgpuCsc3ivFgHJIpBNb7u": {
+  "_episode": "Wk 3: Rich Toward God",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "luke",
+    "start": 12,
+    "end": 12
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "Rich toward God, rich fool Luke 12:16-21",
+  "pass": 1
+ },
+ "1X4NUxJJ3hqmSbkjPN8Lyn": {
+  "_episode": "Wk 1: Wrath",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 18,
+    "end": 18
+   }
+  ],
+  "confidence": 0.5,
+  "rationale": "Anger rooted in unforgiveness, canceling debt, Matthew 18",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book matthew 0.4"
+ },
+ "1ZKqu9yvvXSyhLhABZsLi9": {
+  "_episode": "Wk 4: The Glory of God",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "1-corinthians",
+    "start": 1,
+    "end": 1
+   }
+  ],
+  "confidence": 0.45,
+  "rationale": "Glory of God, ties to 1 Cor 1 next week",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book 1-corinthians 0.4"
+ },
+ "1Zi54wgOngJcsGpXt0tMD0": {
+  "_episode": "Wk 3: False Prophets: The Explicit Gospel",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "2-peter",
+    "start": 2,
+    "end": 2
+   }
+  ],
+  "confidence": 0.78,
+  "rationale": "False prophets matches 2 Peter 2.",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "unknown  0.0"
+ },
+ "1Zsh4P6JWl0y7e0943Mq4Q": {
+  "_episode": "Wk 10: Hope Against Hope",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "romans",
+    "start": 4,
+    "end": 4
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "Hope against hope, Romans 4:18",
+  "pass": 1
+ },
+ "1dimSvhuG4wpCbDpjYKrx7": {
+  "_episode": "Wk 9: Don’t Waste Your Life",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Treasure Christ; no text evident",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "1iE8vudZLcmkiNNtAmZBuJ": {
+  "_episode": "Wk 5: One True God",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "First fruits, one true God",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.5"
+ },
+ "1iemxbFe9ecJQcehOtLsaM": {
+  "_episode": "Grace Pursues - Run Over by the Grace Train - Wk 5",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Grace pursues, text not given.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "1juvcdPqaB4Y6cPIOiY5af": {
+  "_episode": "Wk 5: Take Hold of True Life",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "1-timothy",
+    "start": 6,
+    "end": 6
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "Take hold of true life, rich in good works = 1 Tim 6:17-19.",
+  "pass": 1
+ },
+ "1kmZr4lyxXxpPFirt2VXtM": {
+  "_episode": "Singleness - Guest Pastor Ryan Kwon",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.65,
+  "rationale": "Guest sermon on singleness, likely 1 Cor 7 but no text given",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.7"
+ },
+ "1lMggzwtYN3rvVkWfHG558": {
+  "_episode": "Wk 8: Why Fast?",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 6,
+    "end": 6
+   }
+  ],
+  "confidence": 0.93,
+  "rationale": "Fasting, Matt 6:16-18.",
+  "pass": 1
+ },
+ "1mlNXTOsKObRfWp3rdgN3d": {
+  "_episode": "Saturated 2016 - Saturday: Pastor Ryan Stone",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Conference main-session talk",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "unknown  0.0"
+ },
+ "1nPuqK9AzCFaau1hV1f9Zm": {
+  "_episode": "Wk 4: Do You Do Well to Be Angry?",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "jonah",
+    "start": 4,
+    "end": 4
+   }
+  ],
+  "confidence": 0.97,
+  "rationale": "'Do you do well to be angry' Jonah 4:4.",
+  "pass": 1
+ },
+ "1oKiEZ7TR0rZJuLybkPDHK": {
+  "_episode": "He Is Risen Indeed - Easter 2025",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "luke",
+    "start": 24,
+    "end": 24
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "Why look for the living among the dead, Luke 24:5.",
+  "pass": 2,
+  "series_kind": "unclear",
+  "pass1": "book luke 0.85"
+ },
+ "1obO4pYSIPwqhbPdtSPleU": {
+  "_episode": "Good Friday 2017: Follow Me",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Good Friday sermon, no evident text.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "unknown  0.0"
+ },
+ "1p6YtDd9wardoOArGSaKqc": {
+  "_episode": "Saturated 2014 - Friday: Ryan Kwon",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Conference main-session talk, no text evident",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "unknown  0.0"
+ },
+ "1pJe37RwlKMAXIpWgVBn34": {
+  "_episode": "Wk 8: War",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "ephesians",
+    "start": 6,
+    "end": 6
+   }
+  ],
+  "confidence": 0.85,
+  "rationale": "War, armor of God Eph 6",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book ephesians 0.85"
+ },
+ "1qGZCSRyDC05zlq7hk2TOE": {
+  "_episode": "Wk 10: Come to Me",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 6,
+    "end": 6
+   }
+  ],
+  "confidence": 0.7,
+  "rationale": "John series wk10 'Come to Me'; bread of life John 6 or 7:37.",
+  "pass": 1
+ },
+ "1qaj8WkUE8957Km7amH68r": {
+  "_episode": "Abundant Friendship - Live Abundantly: Wk 3",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 15,
+    "end": 15
+   }
+  ],
+  "confidence": 0.45,
+  "rationale": "Jesus as friend, John 15:13-15, within abundant-life series.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book john 0.4"
+ },
+ "1toRh54IDeeu8tVTITC0lg": {
+  "_episode": "What We Have Seen and Heard: Testimony - Wk 5",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "acts",
+    "start": 4,
+    "end": 4
+   }
+  ],
+  "confidence": 0.7,
+  "rationale": "What we have seen and heard is Acts 4:20",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book acts 0.4"
+ },
+ "1tzjpv41wExKxjgH7ZvR1L": {
+  "_episode": "Wk 5: Love",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "1-corinthians",
+    "start": 16,
+    "end": 16
+   }
+  ],
+  "confidence": 0.55,
+  "rationale": "Love, 1 Cor 16:14 Act Like Men series",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book 1-corinthians 0.45"
+ },
+ "1vvzCD7PcoIcYWl0VcTzmS": {
+  "_episode": "Wk 1: Who is My Neighbor?",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "luke",
+    "start": 10,
+    "end": 10
+   }
+  ],
+  "confidence": 0.85,
+  "rationale": "Who is my neighbor, good Samaritan",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book luke 0.85"
+ },
+ "1x3RmnOcE4NyPobnXvtjRg": {
+  "_episode": "Saturated 2022 - Thursday: Pastor Clayton King",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Conference main-session talk",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "unknown  0.0"
+ },
+ "1x3eqjEEUFUimLswEjm40F": {
+  "_episode": "Wk 3: Tear off the Roof",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "mark",
+    "start": 2,
+    "end": 2
+   }
+  ],
+  "confidence": 0.6,
+  "rationale": "Tear off the roof is the paralytic (Mark 2/Luke 5) though series is John.",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book mark 0.6"
+ },
+ "1xlU9YEuz3SeJ47nCuhk49": {
+  "_episode": "Why Do You Worry? - When He Asks - Wk 2",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 6,
+    "end": 6
+   }
+  ],
+  "confidence": 0.8,
+  "rationale": "Why do you worry is Matthew 6:25-34",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book matthew 0.55"
+ },
+ "1yqazCq6Bfkx3KDEua1go1": {
+  "_episode": "Wk 3: Saturated 2013",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Sunday sermon of conference, no text.",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "unknown  0.0"
+ },
+ "1zuXceqYQS7meM70zBkcrv": {
+  "_episode": "Passover - In The Arena: Wk 5",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "exodus",
+    "start": 12,
+    "end": 12
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "Passover story",
+  "pass": 1
+ },
+ "20PHtf7ybKEDmR5CJkGsfu": {
+  "_episode": "Wk 5: Pastor Ben Stuart",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Guest-pastor sermon; title gives only speaker, no text or theme.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "unknown  0.0"
+ },
+ "20b5qcuHEt1AxRbddRZBgP": {
+  "_episode": "Wk 2: One Church",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "1-corinthians",
+    "start": 12,
+    "end": 12
+   }
+  ],
+  "confidence": 0.55,
+  "rationale": "One body with many members",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book 1-corinthians 0.45"
+ },
+ "225SsWrEKV44f6GtMm00O5": {
+  "_episode": "Vision Sunday 2021",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.8,
+  "rationale": "Vision Sunday.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "topical  0.8"
+ },
+ "22wCXcCdwSkflkqEbzm9ed": {
+  "_episode": "A Disciple Serves All People - Follow Me - Wk 1",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 13,
+    "end": 13
+   }
+  ],
+  "confidence": 0.45,
+  "rationale": "Jesus serving the undeserving; foot washing likely, Luke 6 possible.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book luke 0.5"
+ },
+ "233ZH6MFBoOn7tQiLOdhmz": {
+  "_episode": "Wk 3: The Kingdom of God and Power",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "mark",
+    "start": 10,
+    "end": 10
+   }
+  ],
+  "confidence": 0.5,
+  "rationale": "Greatness through serving is Mark 10:35-45 (or Matt 20).",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book mark 0.55"
+ },
+ "23DQlMYyRRz8HV1DaMHry5": {
+  "_episode": "Wk 4: Water to Wine",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 2,
+    "end": 2
+   }
+  ],
+  "confidence": 0.97,
+  "rationale": "Water to wine, John 2.",
+  "pass": 1
+ },
+ "23R2wjv136RB0Fxj2PabRt": {
+  "_episode": "Grace Celebrates - Run Over by the Grace Train - Wk 3",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "luke",
+    "start": 15,
+    "end": 15
+   }
+  ],
+  "confidence": 0.95,
+  "rationale": "Prodigal son",
+  "pass": 1
+ },
+ "2B2xGB22zrMKjlQn9ltCCP": {
+  "_episode": "Wk 2: Are You Tracking?",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.25,
+  "rationale": "Are you tracking; no text revealed",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "unknown  0.0"
+ },
+ "2BZRvM3zAgtoOFip4fZxf0": {
+  "_episode": "Wk 1: Glory of God",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "1-corinthians",
+    "start": 10,
+    "end": 10
+   }
+  ],
+  "confidence": 0.4,
+  "rationale": "Glory of God likely 1 Cor 10:31; thematic series.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book 1-corinthians 0.3"
+ },
+ "2C4XWB5uIfJlUk7053F7Ym": {
+  "_episode": "Shield of Faith: Stand Firm - Wk 5",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "ephesians",
+    "start": 6,
+    "end": 6
+   }
+  ],
+  "confidence": 0.92,
+  "rationale": "Shield of faith, Eph 6:16",
+  "pass": 1
+ },
+ "2C6au47J2h86P0cwROCG4g": {
+  "_episode": "[BONUS] Relate: a conversation about your love life - Episode 08: How to Fight",
+  "kind": "non_sermon",
+  "refs": [],
+  "confidence": 0.92,
+  "rationale": "Q&A style conversation bonus episode.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.8"
+ },
+ "2CPipMxPJiPnaoTIMoo7mE": {
+  "_episode": "Wk 2: Forgiveness",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 18,
+    "end": 18
+   }
+  ],
+  "confidence": 0.7,
+  "rationale": "Forgiveness, unforgiving servant",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book matthew 0.7"
+ },
+ "2CnINUK53KApbdBQrbNJp8": {
+  "_episode": "Wk 1: Sanctification",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "2-peter",
+    "start": 1,
+    "end": 1
+   }
+  ],
+  "confidence": 0.88,
+  "rationale": "2 Pet 1:3 \"divine power has given us everything\".",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book 2-peter 0.75"
+ },
+ "2DOzbOdzwul1HA1Ahz6FGD": {
+  "_episode": "Wk 3: Fear & Comfort",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "acts",
+    "start": 9,
+    "end": 9
+   }
+  ],
+  "confidence": 0.7,
+  "rationale": "Falls between Acts 8 and Acts 9:32 in Acts series; Saul past/cross",
+  "pass": 1
+ },
+ "2EtwSii8eWECf3rrhnWdnd": {
+  "_episode": "Wk 8: Deepen a Relationship with Jesus Christ",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.85,
+  "rationale": "Church vision: deepen",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "topical  0.85"
+ },
+ "2GZJHyewDIzYf2H55B7hBT": {
+  "_episode": "Week 3: Anger",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "james",
+    "start": 1,
+    "end": 1
+   }
+  ],
+  "confidence": 0.75,
+  "rationale": "Anger, James 1:19-20",
+  "pass": 1
+ },
+ "2Gy9sJrX3uTpO1o3btpeN2": {
+  "_episode": "Wk 7: Take Up your Mat...",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 5,
+    "end": 5
+   }
+  ],
+  "confidence": 0.5,
+  "rationale": "Take up your mat, healing at Bethesda",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book john mark 0.4"
+ },
+ "2IA7zp9mYO7eCMM3u1ueZU": {
+  "_episode": "Wk 1: Take Responsibility",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "acts"
+   }
+  ],
+  "confidence": 0.45,
+  "rationale": "Responsibility vs rights, Pauls citizenship, Acts guess",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book acts 0.45"
+ },
+ "2JnqzvPoD1ecKmKFnmSBkf": {
+  "_episode": "Passion Service 2024",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.7,
+  "rationale": "Passion service, no text evident.",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "topical  0.85"
+ },
+ "2L2CfaFrh7NKZx0ZrU0RfK": {
+  "_episode": "Week 7: Faith Works",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "james",
+    "start": 2,
+    "end": 2
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "Faith works, James 2:14-26",
+  "pass": 1
+ },
+ "2MbQLDiK0SCEqio8ma2fy3": {
+  "_episode": "Wk 8: How Did We Get Here?",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "How did we get here; national repentance theme",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "2MvXuxriuYybshh21IvUdO": {
+  "_episode": "Wk 24: The High Priestly Prayer",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 17,
+    "end": 17
+   }
+  ],
+  "confidence": 0.97,
+  "rationale": "High priestly prayer, John 17.",
+  "pass": 1
+ },
+ "2PzrCnYJivnwzdAQgGoVCF": {
+  "_episode": "Wk 7: Mount Calvary // Easter",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 19,
+    "end": 19
+   }
+  ],
+  "confidence": 0.6,
+  "rationale": "Calvary, it is finished",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book john 0.8"
+ },
+ "2Q3zXkeO9ScItFNLShtAyC": {
+  "_episode": "Wk 4: How to Pray",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "luke",
+    "start": 18,
+    "end": 18
+   }
+  ],
+  "confidence": 0.55,
+  "rationale": "Persistent prayer parable",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book luke luke 0.5"
+ },
+ "2Q77NX6ziZNPAN5QhrHDkJ": {
+  "_episode": "Wk 5: Step of Faith",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 14,
+    "end": 14
+   }
+  ],
+  "confidence": 0.75,
+  "rationale": "Greater works, step of faith",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book john 0.6"
+ },
+ "2SaQLSnrnmcpXFbh7CweA3": {
+  "_episode": "Wk 4: Sermon on the Mount - Beatitudes",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 5,
+    "end": 5
+   }
+  ],
+  "confidence": 0.95,
+  "rationale": "Sermon on the Mount Beatitudes.",
+  "pass": 1
+ },
+ "2SbNIUHwdjFXjgaT01EYEF": {
+  "_episode": "Boldly Proclaim the Mystery of the Gospel - Stand Firm - Wk 9",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "ephesians",
+    "start": 6,
+    "end": 6
+   }
+  ],
+  "confidence": 0.85,
+  "rationale": "Mystery of the gospel, Eph 6:19-20",
+  "pass": 1
+ },
+ "2T9uQZILCMC811QvmjEQyo": {
+  "_episode": "Wk 10: Judgment",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 7,
+    "end": 7
+   }
+  ],
+  "confidence": 0.93,
+  "rationale": "Judging, Matt 7:1-5.",
+  "pass": 1
+ },
+ "2Uec3L7rqkGUGyui0UUrw1": {
+  "_episode": "Wk 5: Anger Management",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 2,
+    "end": 2
+   }
+  ],
+  "confidence": 0.95,
+  "rationale": "Cleansing of the temple, John 2:13-22.",
+  "pass": 1
+ },
+ "2VTKIEx0UK41jqbXFED3d9": {
+  "_episode": "Wk 1: Bridging Eternity",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 14,
+    "end": 14
+   }
+  ],
+  "confidence": 0.3,
+  "rationale": "Bridge to God; John 14:6 plausible",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book john 0.3"
+ },
+ "2Y1vgSono4Alx6FJo4QaWe": {
+  "_episode": "Jesus and Your Mental Health - It Doesn’t Make Sense Wk. 1",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.85,
+  "rationale": "Mental health topical series.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.8"
+ },
+ "2ZEioZPv0v8SZtDC6iv8N1": {
+  "_episode": "Saturated 2015 - Friday: Pastor Eric Mason",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Conference main-session talk",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "unknown  0.0"
+ },
+ "2Zw0R96lQTqFrQfaYOxkUi": {
+  "_episode": "Stand Alone: Sabbath",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.3,
+  "rationale": "Sabbath sermon; text could be Exodus 20, Mark 2 or Hebrews 4, not revealed",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "unknown  0.0"
+ },
+ "2aMcvr7OiIB7HAVP73M2OC": {
+  "_episode": "Saturated 2023 - Thursday: Pastor Bryan Loritts",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Conference main-session talk",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "unknown  0.0"
+ },
+ "2bR1V4D2yxZXtMegCpoMtc": {
+  "_episode": "Wk 1: Sex",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "1-corinthians",
+    "start": 6,
+    "end": 6
+   }
+  ],
+  "confidence": 0.6,
+  "rationale": "Flee sexual immorality",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book 1-corinthians 0.6"
+ },
+ "2bTjSJBWh2J10Nz0tq2c8K": {
+  "_episode": "Saturated 2017 - Wednesday: Pastor Matt Chandler",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Conference main-session talk",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "unknown  0.0"
+ },
+ "2cUlwm7PHQZTy33WTqXUJN": {
+  "_episode": "Wk 1: Spirit of Power",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "2-timothy",
+    "start": 1,
+    "end": 1
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "Spirit of power, 2 Tim 1:7",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book 2-timothy 0.85"
+ },
+ "2cmAWYAq52DQNeQFW9YtMG": {
+  "_episode": "Wk 7: Gospel Centrality",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Gospel centrality; no text",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "unknown  0.0"
+ },
+ "2d6fOCOTdYkT7K0x9p2Yzt": {
+  "_episode": "Grace is Slow to Anger - Run Over by the Grace Train - Wk 8",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Anger and grace, text not given.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "2ejZMMnDfGRn5IS90dkDIk": {
+  "_episode": "Wk 11: Prayer",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 7,
+    "end": 7
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "Prayer boldness, Matt 7:7-11.",
+  "pass": 1
+ },
+ "2g3TpCDc3hm9tP3vkmlKRB": {
+  "_episode": "Wk 8: The Law and Faith",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "romans",
+    "start": 3,
+    "end": 4
+   }
+  ],
+  "confidence": 0.85,
+  "rationale": "Law and faith connected, Romans 3:31-4",
+  "pass": 1
+ },
+ "2g5ZhLtfga5U3mPfM5g1jT": {
+  "_episode": "Wk 3: Honor Your Father and Mother",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "exodus",
+    "start": 20,
+    "end": 20
+   }
+  ],
+  "confidence": 0.8,
+  "rationale": "Ten Commandments, honor parents",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book exodus ephesians 0.55"
+ },
+ "2gvYjXc7OI02r10CoCODDD": {
+  "_episode": "Wk 3: Surrender",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "acts",
+    "start": 19,
+    "end": 19
+   }
+  ],
+  "confidence": 0.4,
+  "rationale": "Surrender; Acts guess",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book acts 0.4"
+ },
+ "2gzDrncLSpzlNHt2usIxCm": {
+  "_episode": "Saturated 2018 - Sunday: Pastor Joby Martin",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 3,
+    "end": 3
+   }
+  ],
+  "confidence": 0.8,
+  "rationale": "Description paraphrases John 3:16 (God loved so gave)",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "book john 0.88"
+ },
+ "2h8kch1m7k90uWCVMdjo9G": {
+  "_episode": "In Step with The Spirit: Be Free - Wk 14",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "galatians",
+    "start": 5,
+    "end": 5
+   }
+  ],
+  "confidence": 0.95,
+  "rationale": "Description: closing Galatians, walking in step with Spirit",
+  "pass": 1
+ },
+ "2hJ2Kjj67NGyVraYs6aV8c": {
+  "_episode": "Wk 9: Holy Spirit",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 14,
+    "end": 16
+   }
+  ],
+  "confidence": 0.65,
+  "rationale": "Holy Spirit, peace and trouble: John 14-16.",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "unknown  0.0"
+ },
+ "2jTat0yZbrDt9xCwALYwrP": {
+  "_episode": "Wk 2: Redemption",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.25,
+  "rationale": "Redemption; no text revealed",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "2lacs0zZkd98BMoGVq8mmH": {
+  "_episode": "Wk 2: Money",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Money as idol, no text",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "2lerzdhz89YnMgFMZy52St": {
+  "_episode": "Submitted & Committed: Tetelestai - Wk 6",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "luke",
+    "start": 23,
+    "end": 23
+   }
+  ],
+  "confidence": 0.5,
+  "rationale": "Into your hands, Luke 23:46 fits submitted/committed",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "2mQGRxpUgyLC5Zsnl6uaBU": {
+  "_episode": "Wk 20: You Will Be Blessed",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 13,
+    "end": 13
+   }
+  ],
+  "confidence": 0.85,
+  "rationale": "Footwashing, 'you will be blessed' John 13:17.",
+  "pass": 1
+ },
+ "2nsSaBwOSZloQIwtIva7tK": {
+  "_episode": "No Other Gospel: Be Free - Wk 2",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "galatians",
+    "start": 1,
+    "end": 1
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "No Other Gospel, Gal 1:6-9",
+  "pass": 1
+ },
+ "2oa2dkDUvsVCbhpRBUZHgV": {
+  "_episode": "Wk 7: Bridging Culture",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Culture; no text evident",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "2ox1qb4wJck39dcRdOJsUj": {
+  "_episode": "Peter: Testimony - Wk 4",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 21,
+    "end": 21
+   }
+  ],
+  "confidence": 0.3,
+  "rationale": "Peter testimony; restoration at John 21 is a guess",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "2pJwYvxmCNCEAX4z5kloL7": {
+  "_episode": "Wk 1: Biblical Integrity",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Biblical integrity, church vision series",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "topical  0.45"
+ },
+ "2pYJ8DyIEz0KchJnwTI1wi": {
+  "_episode": "Saturated 2014 - Wednesday: Stovall Weems",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Conference main-session talk, no text evident",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "unknown  0.0"
+ },
+ "2qOXcorm3vIBX5k4wIioeo": {
+  "_episode": "Wk 4: Holy Spirit",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 16,
+    "end": 16
+   }
+  ],
+  "confidence": 0.35,
+  "rationale": "Holy Spirit glorifies Jesus",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book john 0.35"
+ },
+ "2rDq1IoN0gskYJ29xjM5jO": {
+  "_episode": "Wk 3: First and Best",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "First-fruits/giving theme, text not evident.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.5"
+ },
+ "2rePhuBhuUh9dw036pwMOD": {
+  "_episode": "Wk 4: Unity (Sunday)",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "ephesians",
+    "start": 4,
+    "end": 4
+   }
+  ],
+  "confidence": 0.7,
+  "rationale": "Unity, Eph 4",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book ephesians 0.7"
+ },
+ "2rv6MfNl6h7IARAeQhrWF5": {
+  "_episode": "Wk 12: The Lord Judge",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "1-samuel",
+    "start": 24,
+    "end": 26
+   }
+  ],
+  "confidence": 0.8,
+  "rationale": "David spares Saul, trust God as judge; 1 Sam 24/26.",
+  "pass": 1
+ },
+ "2s17h4o3GekPF7Yv9xC4P6": {
+  "_episode": "How Can I Be Saved?: Be Free - Wk 6",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "galatians",
+    "start": 2,
+    "end": 2
+   }
+  ],
+  "confidence": 0.8,
+  "rationale": "Be Free Galatians series; saved by faith, Gal 2:15-21",
+  "pass": 1
+ },
+ "2sWdSBx0DujTEXwEx5c34R": {
+  "_episode": "Wk 1: Blessed",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 5,
+    "end": 5
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "'Best Sermon Ever' series; Blessed = Beatitudes.",
+  "pass": 1
+ },
+ "2ssYLldu38in4DF0u03bm4": {
+  "_episode": "The Scandal of Grace: Tetelestai - Wk 2",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "luke",
+    "start": 23,
+    "end": 23
+   }
+  ],
+  "confidence": 0.5,
+  "rationale": "Scandal of grace likely the thief on the cross, Luke 23:43",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book luke 0.4"
+ },
+ "2wunPunFg2yWzzvB9uBpIe": {
+  "_episode": "Comparison Kills: Be Free - Wk 3",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "galatians"
+   }
+  ],
+  "confidence": 0.8,
+  "rationale": "Be Free Galatians series, wk 3 comparison (Gal 5-6)",
+  "pass": 1
+ },
+ "2x1jbZGW4TxuEaPIDeX9d8": {
+  "_episode": "Wk 3: A Pursuit of Holiness",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "romans",
+    "start": 6,
+    "end": 6
+   }
+  ],
+  "confidence": 0.55,
+  "rationale": "Holiness, slaves to God",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book romans 0.45"
+ },
+ "2x41GwlAVlwbIYSnsk9nIu": {
+  "_episode": "Wk 2: Hope | Saturated Sunday",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "1-peter",
+    "start": 3,
+    "end": 3
+   }
+  ],
+  "confidence": 0.85,
+  "rationale": "Hope and be prepared to give an answer is 1 Peter 3:15",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "book 1-peter 0.6"
+ },
+ "2xITDp35e6TOsNhzHSqt2A": {
+  "_episode": "Wk 2: Sent Life",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 10,
+    "end": 10
+   }
+  ],
+  "confidence": 0.45,
+  "rationale": "Continues abundant-life theme; sent life may draw on John 10 or 20.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book john 0.35"
+ },
+ "31GMoxyLzC85Qqp3WJT2nY": {
+  "_episode": "Wk 9: Poured Out and Worth It",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "2-timothy",
+    "start": 4,
+    "end": 4
+   }
+  ],
+  "confidence": 0.6,
+  "rationale": "Poured out, 2 Tim 4:6",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "book 2-timothy 0.45"
+ },
+ "31IWS1NUbtTqXvDMfj4AXb": {
+  "_episode": "The Word of God: Unwrapping Christmas - Wk 5",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.45,
+  "rationale": "Sermon on reading the Word, no single text evident",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "324UfYV2cSE8agekQFpp8k": {
+  "_episode": "Wk 4: Gluttony",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "1-corinthians",
+    "start": 6,
+    "end": 6
+   }
+  ],
+  "confidence": 0.5,
+  "rationale": "Honor God with your body, 1 Cor 6:19-20",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book 1-corinthians 0.55"
+ },
+ "32UeApNLG5EigX2lBIengP": {
+  "_episode": "Wk 14: The New You",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "romans",
+    "start": 6,
+    "end": 6
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "New you, freed from slavery to sin, Romans 6:15-23",
+  "pass": 1
+ },
+ "32uytGygLuID73Hl9Ren4z": {
+  "_episode": "Wk 11: Mustard Seed",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 13,
+    "end": 13
+   }
+  ],
+  "confidence": 0.5,
+  "rationale": "Mustard seed parable",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book matthew luke 0.5"
+ },
+ "33AOneAAbDxMVPEySeplQn": {
+  "_episode": "Christmas from the Heavenlies - Unwrapping Christmas: Wk 2",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.45,
+  "rationale": "Advent theme about spiritual war; text unclear (Rev 12/Luke 2).",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "34c9WPXSI60hRKfOVd7bqZ": {
+  "_episode": "Wk 2: Water to Wine",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 2,
+    "end": 2
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "Water to wine, John 2",
+  "pass": 1
+ },
+ "34nrQRaxnDjwK6IVwVRdtc": {
+  "_episode": "Saturated 2017 - Thursday: Pastor J.D. Greear",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Conference main-session talk",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "unknown  0.0"
+ },
+ "35OaSK9MVwTCzOvtA0h0eQ": {
+  "_episode": "Wk 1: In Due Time",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "1-samuel",
+    "start": 1,
+    "end": 1
+   }
+  ],
+  "confidence": 0.95,
+  "rationale": "Wk1 of 1 Samuel series; Hannah's prayer.",
+  "pass": 1
+ },
+ "37tT7iqtyAsnWgYE9TGeB4": {
+  "_episode": "Wk 4: The Kingdom of God and Sex",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "1-corinthians",
+    "start": 6,
+    "end": 6
+   }
+  ],
+  "confidence": 0.93,
+  "rationale": "Flee sexual immorality, bought with a price 1 Cor 6:18-20.",
+  "pass": 1
+ },
+ "38COGz6GClabMQgCZXiYZC": {
+  "_episode": "Wk 2: Spirit of Love",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "2-timothy",
+    "start": 1,
+    "end": 1
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "Spirit of love, 2 Tim 1:7",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book 2-timothy 0.85"
+ },
+ "38XHOq6i77eiOoGSRyZ5gz": {
+  "_episode": "Saturated 2019 - Thursday: Dr. Crawford Loritts",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Conference main-session talk",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "unknown  0.0"
+ },
+ "38czs2z5dqmGGMHizwKp6s": {
+  "_episode": "Saturated 2021 - Thursday: Pastor Josh Turner",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Conference main-session talk",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "unknown  0.0"
+ },
+ "38xhdEjipjtHbxPdti6ieY": {
+  "_episode": "Wk 3: Friends",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.4,
+  "rationale": "Friends; could be John 1 or Mark 2",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "3ACBhGQZX0wQd3H2Fmeo1X": {
+  "_episode": "Healthy is Hard Work - It Doesn’t Make Sense Wk. 2",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.8,
+  "rationale": "Mental health topical series.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.75"
+ },
+ "3ASFeKT6dIzPDbf6KbEnhU": {
+  "_episode": "This is War: Stand Firm - Wk 1",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "ephesians",
+    "start": 6,
+    "end": 6
+   }
+  ],
+  "confidence": 0.85,
+  "rationale": "Stand Firm armor series, Eph 6",
+  "pass": 1
+ },
+ "3BBYH9ZwE15pVoAbi6YP4X": {
+  "_episode": "Wk 1: Rebellion",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.25,
+  "rationale": "Rebellion; no text revealed",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "3BGwG7MAppW9bXTlGarz4I": {
+  "_episode": "Wk 5: Sardis",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "revelation",
+    "start": 3,
+    "end": 3
+   }
+  ],
+  "confidence": 0.97,
+  "rationale": "Sardis, Rev 3.",
+  "pass": 1
+ },
+ "3BSVhMHjCqfHSLPNWo5eaD": {
+  "_episode": "Wk 3: Wake Up!",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "acts",
+    "start": 12,
+    "end": 12
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "Peter woken, chains fall off, Acts 12",
+  "pass": 1
+ },
+ "3CKtgPCdBUg9lQZDbr6CfE": {
+  "_episode": "Wk 6: Envy",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Envy in sins series",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "3CaFBVnAulyXQyYGPZLwAm": {
+  "_episode": "Wk 1: Sovereign Election",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "ephesians",
+    "start": 1,
+    "end": 1
+   }
+  ],
+  "confidence": 0.45,
+  "rationale": "Sovereign election, Eph 1",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "book ephesians 0.3"
+ },
+ "3CqECtH4dULeIO0gpNK2wd": {
+  "_episode": "Wk 3: Mt Carmel",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "1-kings",
+    "start": 18,
+    "end": 18
+   }
+  ],
+  "confidence": 0.95,
+  "rationale": "Mt Carmel, Elijah vs Baal.",
+  "pass": 1
+ },
+ "3EVygKEl78BmInisG7Kqed": {
+  "_episode": "Saturated 2014 - Thursday: Dr. Eric Mason",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Conference main-session talk, no text evident",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "unknown  0.0"
+ },
+ "3FmRNXy6TpZnOgGfFe8GpX": {
+  "_episode": "Wk 1: Breaking the Cycle",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "judges",
+    "start": 2,
+    "end": 2
+   }
+  ],
+  "confidence": 0.35,
+  "rationale": "Breaking the cycle of repentance, possibly Judges",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "3GCRDRQAZCESpcpZ0C9saN": {
+  "_episode": "Wk 2: Remember the Sabbath",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "exodus",
+    "start": 20,
+    "end": 20
+   }
+  ],
+  "confidence": 0.8,
+  "rationale": "Ten Commandments, Sabbath",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book exodus matthew 0.45"
+ },
+ "3IVukCTloRynD8bs0ULPLC": {
+  "_episode": "Saturated 2018 - Wednesday: - Pastor Ryan Kwon",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Conference main-session talk",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "unknown  0.0"
+ },
+ "3IjljrYzEHUxdgsSaq3blx": {
+  "_episode": "Wk 6: Thyatira",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "revelation",
+    "start": 2,
+    "end": 2
+   }
+  ],
+  "confidence": 0.97,
+  "rationale": "Thyatira, Rev 2:18-29.",
+  "pass": 1
+ },
+ "3Io6KoO0jYnlB0EvaeqpEd": {
+  "_episode": "Wk 3: Obedience",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Obedience and call; no text",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "3IpipSRL9CmRNUsrkRGfei": {
+  "_episode": "Wk 6: Bridging the World",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "acts",
+    "start": 1,
+    "end": 1
+   }
+  ],
+  "confidence": 0.6,
+  "rationale": "Ends of the earth mission",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book acts 0.6"
+ },
+ "3JLiQXW38wm638d7MjeLPl": {
+  "_episode": "Wk 4: Bold Faith",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Bold faith sermon; text not revealed.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "3JSkmvRF45o7X7ZtN6ZwLC": {
+  "_episode": "Wk 2: Pastor Josh Turner",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Guest-pastor sermon; title gives only speaker, no text or theme.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "unknown  0.0"
+ },
+ "3LovfCfxAsLMzfMHqqWibW": {
+  "_episode": "Wk 28: Symptoms of a Gospel Infected Life",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "romans",
+    "start": 12,
+    "end": 12
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "Living sacrifice, love one another: Romans 12.",
+  "pass": 1
+ },
+ "3M2W0NkxUV09jEw39wjfx5": {
+  "_episode": "Wk 17: No Condemnation",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "romans",
+    "start": 8,
+    "end": 8
+   }
+  ],
+  "confidence": 0.85,
+  "rationale": "Wk 17 of weekly series; 'No Condemnation' is Romans 8:1, sequence runs Romans 8-16 through Sept 2018.",
+  "pass": 1
+ },
+ "3N3Bqf4RvFdj3vSSSg3iAM": {
+  "_episode": "Wk 4: Sex - When’s the Time?",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "1-corinthians",
+    "start": 6,
+    "end": 6
+   }
+  ],
+  "confidence": 0.6,
+  "rationale": "Flee sexual immorality, bought with a price, 1 Cor 6:18-20",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book 1-corinthians 0.65"
+ },
+ "3OIlRQ4gcAjmo0k60JgRql": {
+  "_episode": "Wk 18: Extravagant Gratitude",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 12,
+    "end": 12
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "Mary anoints Jesus, John 12.",
+  "pass": 1
+ },
+ "3PGmeLaopiSoQuA4NhSlcJ": {
+  "_episode": "Wk 1: Tap Out",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.6,
+  "rationale": "Tap Out; no info",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "3R8DoUUrTP52EXrhJRPbY4": {
+  "_episode": "Wk 3: Dating",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.7,
+  "rationale": "Dating, thematic marriage series",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.7"
+ },
+ "3RBtKrsi6cqPsKiowmQVxD": {
+  "_episode": "Saturated 2020 - Wednesday: Pastor Matt Carter",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Conference main-session talk",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "unknown  0.0"
+ },
+ "3RPf2zOMNU9dKgMVG6OKlJ": {
+  "_episode": "Wk 2: Mt Sinai",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "exodus",
+    "start": 19,
+    "end": 20
+   }
+  ],
+  "confidence": 0.85,
+  "rationale": "Mount Sinai and the law",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book exodus 0.85"
+ },
+ "3RYIP6sAuUKwTcoNLur3aE": {
+  "_episode": "Where Do You Boast?: Be Free - Wk 13",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "galatians",
+    "start": 6,
+    "end": 6
+   }
+  ],
+  "confidence": 0.85,
+  "rationale": "Where do you boast, Gal 6:14",
+  "pass": 1
+ },
+ "3RglhAqegH8Bgby4a3Lyt9": {
+  "_episode": "Saturated 2013 - Thursday: Dr. Van Gayton",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Conference session, no text.",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "unknown  0.0"
+ },
+ "3Sf9B18ZLrv2ecRlZ4pMnu": {
+  "_episode": "Wk 1: Pass the Torch",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Pass the torch; no text",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "unknown  0.0"
+ },
+ "3TV1zAmE5ScU6PMjoIzlYT": {
+  "_episode": "Wk 1: Where Are You Going?",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.25,
+  "rationale": "Where are you going; no text revealed",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "unknown  0.0"
+ },
+ "3TmIxxtSy1TyTLlxfy8vJ5": {
+  "_episode": "Stand Alone: The Plan is a Man",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.3,
+  "rationale": "Title/description suggest Christ-centered message but no text revealed",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "unknown  0.0"
+ },
+ "3UiTj5YnVhdeoNozH3WBHp": {
+  "_episode": "Wk 4: Strength",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Stewarding the body, no text",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.6"
+ },
+ "3VhruRF5Q703Ahdwc5afOC": {
+  "_episode": "God Is Not Finished: Tetelestai - Wk 7",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 19,
+    "end": 19
+   }
+  ],
+  "confidence": 0.75,
+  "rationale": "It is finished, John 19:30",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book john 0.75"
+ },
+ "3W0o2Bwem72Cy3ky6ZK8CD": {
+  "_episode": "Wk 26: Right Theology Leads to Right Doxology",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "romans",
+    "start": 11,
+    "end": 12
+   }
+  ],
+  "confidence": 0.8,
+  "rationale": "Theology to doxology: Romans 11:33-12:2.",
+  "pass": 1
+ },
+ "3WUxeZQf6MexmFP3rPdRWt": {
+  "_episode": "Wk 1: Resurrection | Easter 2023",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 20,
+    "end": 20
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "Description quotes John 20:31",
+  "pass": 1
+ },
+ "3Xye3Z6N9kiSb2JWckgJ8j": {
+  "_episode": "Saturated 2013 - Friday 2013: Pastor Stovall Weems",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Conference session, no text.",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "unknown  0.0"
+ },
+ "3YnF8AbQGVxSEKknuBmUPG": {
+  "_episode": "Wk 1: The Sovereignty of God in Pain",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "ruth",
+    "start": 1,
+    "end": 1
+   }
+  ],
+  "confidence": 0.88,
+  "rationale": "Sovereignty of God series maps to Ruth (pain, Naomi); Wk5-6 redeemer/posterity",
+  "pass": 1
+ },
+ "3ZgL6IZ0JXK6vLOaQ4NXcB": {
+  "_episode": "Wk 4: Pool of Bethesda",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 5,
+    "end": 5
+   }
+  ],
+  "confidence": 0.92,
+  "rationale": "Pool of Bethesda, John 5",
+  "pass": 1
+ },
+ "3bym0vGujf6Xk4j1JikYYc": {
+  "_episode": "Wk 14: Freedom",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 8,
+    "end": 8
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "Freedom, John 8:32-36.",
+  "pass": 1
+ },
+ "3d3svOWElY4WzGyfOvvXRZ": {
+  "_episode": "Wk 4: Marriage",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "ephesians",
+    "start": 5,
+    "end": 5
+   }
+  ],
+  "confidence": 0.6,
+  "rationale": "Marriage, Eph 5",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "book ephesians 0.6"
+ },
+ "3dTuRZDJpNnfjc80oyxjus": {
+  "_episode": "Wk 6: Lazarus",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 11,
+    "end": 11
+   }
+  ],
+  "confidence": 0.92,
+  "rationale": "Lazarus, John 11",
+  "pass": 1
+ },
+ "3dUPeFmohfvxrrFJqx9shO": {
+  "_episode": "Christmas from Eternity - Unwrapping Christmas Wk. 1",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 1,
+    "end": 1
+   }
+  ],
+  "confidence": 0.5,
+  "rationale": "Christmas from eternity; son of God became man suggests John 1.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book john 0.4"
+ },
+ "3fctqs0AM6t3P9AKTtWutw": {
+  "_episode": "Wk 4: The Lord is ONE",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "1-samuel",
+    "start": 5,
+    "end": 5
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "1 Samuel series; Lord is One, Dagon smashed (ch 5).",
+  "pass": 1
+ },
+ "3fpbtwykZHSnuGdFCuqAhy": {
+  "_episode": "Wk 3: Parents and Children",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "ephesians",
+    "start": 6,
+    "end": 6
+   }
+  ],
+  "confidence": 0.7,
+  "rationale": "Parents and children, Eph 6:1-4",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "book ephesians 0.55"
+ },
+ "3hmq1zbbWJa5DqC0JmNZpl": {
+  "_episode": "Wk 3: On Mission as a Church",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "acts",
+    "start": 19,
+    "end": 19
+   }
+  ],
+  "confidence": 0.4,
+  "rationale": "Word of the Lord spreading, Acts 19:20 guess",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book acts 0.4"
+ },
+ "3idJO60xArkFeRKldkrkHc": {
+  "_episode": "Wk 4: Your Best Life...Later",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "luke",
+    "start": 9,
+    "end": 9
+   }
+  ],
+  "confidence": 0.35,
+  "rationale": "Following Jesus because He is better than life, Luke 9 cost of discipleship guess",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "unknown  0.0"
+ },
+ "3ln4rquBDjYHw6jpxNdOv2": {
+  "_episode": "Wk 2: Mercy",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Advent-season theme sermon, no text evident.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "3mb9fsM0fHIk8jMLyO3pT8": {
+  "_episode": "Wk 5: Religion Fails",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "romans",
+    "start": 2,
+    "end": 3
+   }
+  ],
+  "confidence": 0.88,
+  "rationale": "Religion fails, Romans 2:17-3:20",
+  "pass": 1
+ },
+ "3mxKKXQySJGXzJy4UWglf2": {
+  "_episode": "Saturated 2020 - Thursday: Pastor J.D. Greear",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Conference main-session talk",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "unknown  0.0"
+ },
+ "3oEB8whkapFNgKvtz4FFS1": {
+  "_episode": "Wk 3: Unity, not Uniformity",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "acts",
+    "start": 15,
+    "end": 15
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "Unity not uniformity, Acts 15 debate / Paul-Barnabas split",
+  "pass": 1
+ },
+ "3p08pPWwc1mU2xpGnbV0ON": {
+  "_episode": "Whose Image Do You Bear? - When He Asks - Wk 5",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 22,
+    "end": 22
+   }
+  ],
+  "confidence": 0.8,
+  "rationale": "Whose image is Caesar-coin question, Matthew 22:20",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book matthew 0.75"
+ },
+ "3pFh84hGUrU17TjDJIcLSG": {
+  "_episode": "Wk 10: The Parable of the Great Banquet",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "luke",
+    "start": 14,
+    "end": 14
+   }
+  ],
+  "confidence": 0.95,
+  "rationale": "Parable of the Great Banquet Luke 14:15-24",
+  "pass": 1
+ },
+ "3pH4mNOtK8qPrJRybGw5sH": {
+  "_episode": "Wk 9: Saving Faith",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "romans",
+    "start": 4,
+    "end": 4
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "Saving faith, Abraham Romans 4",
+  "pass": 1
+ },
+ "3pmsMToX718ANzN8ekKpjW": {
+  "_episode": "Wk 4: Compassion Sunday",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.8,
+  "rationale": "Compassion Sunday giving message",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "topical  0.8"
+ },
+ "3qQLGN1bm8JtjvxIZU8yEL": {
+  "_episode": "Saturated 2015 - Wednesday: Pastor Josh Turner",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Conference main-session talk",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "unknown  0.0"
+ },
+ "3qgvEd7adDcINldR6aTilo": {
+  "_episode": "Wk 1: In This City",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "acts",
+    "start": 18,
+    "end": 18
+   }
+  ],
+  "confidence": 0.45,
+  "rationale": "In this City echoes Acts 18:10",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book acts 0.4"
+ },
+ "3qiBbS296AhEfUdFzljFBL": {
+  "_episode": "Wk 5: Our God is ONE: First Fruits",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "First fruits, repeated vision message",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "unknown  0.0"
+ },
+ "3rPAa3TSmWnjhRVgRuR8TT": {
+  "_episode": "Saturated 2019 - Wednesday: Pastor Bryan Loritts",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Conference main-session talk",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "unknown  0.0"
+ },
+ "3rgAZWVubNUQEeKCDfWfFs": {
+  "_episode": "Wk 1: Answer to Prayers",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "luke",
+    "start": 1,
+    "end": 1
+   }
+  ],
+  "confidence": 0.65,
+  "rationale": "Answer to prayers, Zechariah",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book luke 0.55"
+ },
+ "3sgKtIsNa9l2DQQD5jA12J": {
+  "_episode": "Wk 1: It Is Well",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "It is well; no text evident",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "unknown  0.0"
+ },
+ "3tJeqzlWZJ90hPNpHM4bce": {
+  "_episode": "They Will Overcome: Testimony - Wk 1",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "revelation",
+    "start": 12,
+    "end": 12
+   }
+  ],
+  "confidence": 0.75,
+  "rationale": "Blood of the lamb, word of testimony, not loving life is Rev 12:11",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book revelation 0.8"
+ },
+ "3ttgkVuBGnxf4RBK29zQDJ": {
+  "_episode": "Week 1: Trials",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "james",
+    "start": 1,
+    "end": 1
+   }
+  ],
+  "confidence": 0.75,
+  "rationale": "Trials week 1 of apparent James series",
+  "pass": 1
+ },
+ "3uTWcEF9Mcymq2umQ4a0bl": {
+  "_episode": "Wk 7: Our Father",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 6,
+    "end": 6
+   }
+  ],
+  "confidence": 0.93,
+  "rationale": "Our Father, Matt 6:9-13.",
+  "pass": 1
+ },
+ "3vTtvEjiNu8F4Fitp8iCTY": {
+  "_episode": "Wk 1: The Kingdom of God",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 6,
+    "end": 6
+   }
+  ],
+  "confidence": 0.7,
+  "rationale": "Lord's Prayer, kingdom come",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "book matthew 0.7"
+ },
+ "3votRvySa1ZcDPesI0jDAK": {
+  "_episode": "Iron Sharpens Iron: Be Free - Wk 5",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "galatians",
+    "start": 6,
+    "end": 6
+   }
+  ],
+  "confidence": 0.75,
+  "rationale": "Be Free Galatians series; accountability/confrontation, Gal 2 or 6",
+  "pass": 1
+ },
+ "3w7Ltau7fLtZooDNUp2bg9": {
+  "_episode": "Wk 2: The Sovereignty of God in Our Perseverance",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "ruth",
+    "start": 2,
+    "end": 2
+   }
+  ],
+  "confidence": 0.85,
+  "rationale": "Ruth series; work from favor, gleaning in Boaz field",
+  "pass": 1
+ },
+ "3xjBsxchgqhHt5x9IFwDiJ": {
+  "_episode": "Saturated 2016 - Thursday: Pastor Ray Cortese",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Conference main-session talk",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "unknown  0.0"
+ },
+ "3yLCoqOfBVzurL3cQmI1rJ": {
+  "_episode": "Wk 4: First Step",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "acts",
+    "start": 10,
+    "end": 11
+   }
+  ],
+  "confidence": 0.75,
+  "rationale": "Acts series; baptism after Cornelius",
+  "pass": 1
+ },
+ "408HwwVthoJS2rXoOLBLtp": {
+  "_episode": "Shoes of the Gospel of Peace: Stand Firm - Wk 4",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "ephesians",
+    "start": 6,
+    "end": 6
+   }
+  ],
+  "confidence": 0.95,
+  "rationale": "Shoes of gospel of peace, Eph 6:15",
+  "pass": 1
+ },
+ "40o9n9vqZkxqRpNEFHA97E": {
+  "_episode": "Wk 6: The Sovereignty of God in Our Posterity",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "ruth",
+    "start": 4,
+    "end": 4
+   }
+  ],
+  "confidence": 0.88,
+  "rationale": "Posterity, Obed and genealogy Ruth 4",
+  "pass": 1
+ },
+ "41cvjLsWLQMq89bySJf7y0": {
+  "_episode": "Wk 6: Go Against the Flow",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Go against the flow, Bible as anchor",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "unknown  0.0"
+ },
+ "43Kbt1oSs3eUV9rNwo08e4": {
+  "_episode": "Saturated 2019 - Friday: Pastor JR Vassar",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Conference main-session talk",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "unknown  0.0"
+ },
+ "43v8q6JkyDbVsC4hYBaeNb": {
+  "_episode": "Week 2: Temptation: Life or Death",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "james",
+    "start": 1,
+    "end": 1
+   }
+  ],
+  "confidence": 0.75,
+  "rationale": "Temptation, James 1:12-18",
+  "pass": 1
+ },
+ "46NYUZEAfZHqocfRxWcrab": {
+  "_episode": "Wk 4: It’s not about you.",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "acts",
+    "start": 17,
+    "end": 17
+   }
+  ],
+  "confidence": 0.45,
+  "rationale": "Jesus is King, likely Thessalonica Acts 17:7",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book acts 0.4"
+ },
+ "49xk3O4SFkHga6ZB5XFdEt": {
+  "_episode": "Wk 1: Destination",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "acts",
+    "start": 8,
+    "end": 8
+   }
+  ],
+  "confidence": 0.5,
+  "rationale": "Destination; Acts series, possibly the Ethiopian eunuch",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book acts 0.7"
+ },
+ "4ABAM3TfDnwKWkmg1RV5DS": {
+  "_episode": "Wk 6: By Grace Through Faith",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "philippians",
+    "start": 3,
+    "end": 3
+   }
+  ],
+  "confidence": 0.93,
+  "rationale": "Not resume but Christ: Phil 3:1-11.",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book philippians 0.7"
+ },
+ "4Ap3DHCxWXxUhA3TJhfIbU": {
+  "_episode": "Saturated 2013 - Wednesday: - Pastor George Davis",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Conference main-session talk",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "unknown  0.0"
+ },
+ "4B3HCDjo3ppejMD2jSP8f6": {
+  "_episode": "Wk 8: Peace",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "philippians",
+    "start": 4,
+    "end": 4
+   }
+  ],
+  "confidence": 0.95,
+  "rationale": "Anxiety and peace is Phil 4:4-9.",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book philippians 0.85"
+ },
+ "4Bl0ms1PvWlfvYSxg01zQP": {
+  "_episode": "Wk 33: To the Saints",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "romans",
+    "start": 16,
+    "end": 16
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "To the Saints, greeting honoring saints: Romans 16.",
+  "pass": 1
+ },
+ "4CFMoqfTNUOhXBmnlPAufn": {
+  "_episode": "Wk 23: God’s Outstretched Arms",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "romans",
+    "start": 10,
+    "end": 10
+   }
+  ],
+  "confidence": 0.8,
+  "rationale": "'Do you hear? Do you understand?' outstretched arms is Romans 10:18-21.",
+  "pass": 1
+ },
+ "4CsUWYk0x7U0Xx7XE6ytVG": {
+  "_episode": "Consecrate Yourselves - Saturated with Phil Hopper",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "joshua",
+    "start": 3,
+    "end": 3
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "Consecrate yourselves at the Jordan, Joshua 3",
+  "pass": 1
+ },
+ "4HtDi1biTCDsrXM70WAG9N": {
+  "_episode": "Saturated Wednesday: Pastor Jim Burgen",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.6,
+  "rationale": "Conference talk on church as place for broken.",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "topical  0.6"
+ },
+ "4IMsl5GlKs0OrBk4AKC8J4": {
+  "_episode": "Wk 8: Me First",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "1-samuel",
+    "start": 15,
+    "end": 15
+   }
+  ],
+  "confidence": 0.8,
+  "rationale": "Saul's disobedience ch 15; series 1 Samuel.",
+  "pass": 1
+ },
+ "4ISKczMGlxepb06aMhc1L6": {
+  "_episode": "Wk 10: Husbands and Wives",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "colossians",
+    "start": 3,
+    "end": 3
+   }
+  ],
+  "confidence": 0.88,
+  "rationale": "Husbands and wives, Col 3:18-19",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book colossians 0.88"
+ },
+ "4JugOziLEPgy285T2dzHyZ": {
+  "_episode": "Wk 3: Waiting",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Advent waiting theme, no text evident.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "4Ldkr6W2Aebw4BLwFaXvWJ": {
+  "_episode": "Prayer is Warfare - Stand Firm - Wk 8",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "ephesians",
+    "start": 6,
+    "end": 6
+   }
+  ],
+  "confidence": 0.92,
+  "rationale": "Prayer is warfare, Eph 6:18",
+  "pass": 1
+ },
+ "4O1ND9S6hvn2moDKwlUpmI": {
+  "_episode": "Wk 6: Laborers in the Vineyard",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 20,
+    "end": 20
+   }
+  ],
+  "confidence": 0.93,
+  "rationale": "Laborers in the vineyard Matt 20:1-16",
+  "pass": 1
+ },
+ "4OIGSqqcgoMqLnp3QV8Zvq": {
+  "_episode": "Wk 5: A Savior // CHRISTMAS EVE",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "luke",
+    "start": 2,
+    "end": 2
+   }
+  ],
+  "confidence": 0.85,
+  "rationale": "A Savior, Christmas Eve",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book luke 0.85"
+ },
+ "4PJBIDOFgZ86QmzhAURIlZ": {
+  "_episode": "Wk 5: Fear Not",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "philippians",
+    "start": 2,
+    "end": 2
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "Philippians series; falls after ch2 week.",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book philippians 0.6"
+ },
+ "4PocsfH2tTuCrFsVBPiSrp": {
+  "_episode": "Wk 7: How to Fight",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.65,
+  "rationale": "Conflict in marriage topic.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "4QRDqZLXdEbt4FB7eK4Xbj": {
+  "_episode": "Wk 28: Follow Me",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 21,
+    "end": 21
+   }
+  ],
+  "confidence": 0.95,
+  "rationale": "Follow me, John 21.",
+  "pass": 1
+ },
+ "4R1EsIXqnXooP17e1I5Jw2": {
+  "_episode": "Wk 4: Seek and Save",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "luke",
+    "start": 19,
+    "end": 19
+   }
+  ],
+  "confidence": 0.8,
+  "rationale": "Seek and save the lost, Luke 19:10",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book luke 0.85"
+ },
+ "4S4R6sHdfRhAKfkldruhei": {
+  "_episode": "Wk 5: The Kingdom of God and Work",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 25,
+    "end": 25
+   }
+  ],
+  "confidence": 0.55,
+  "rationale": "Leveraging what the King gave suggests the parable of talents.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book matthew 0.5"
+ },
+ "4Stkf1jz7dsvBZRweWQVKp": {
+  "_episode": "Wk 31: Gospel Unity",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "romans",
+    "start": 14,
+    "end": 15
+   }
+  ],
+  "confidence": 0.8,
+  "rationale": "Gospel unity, non-essentials: Romans 14-15.",
+  "pass": 1
+ },
+ "4VIK8yW2TUG3d38zmL1wkd": {
+  "_episode": "Wk 3: Love Obeys",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 14,
+    "end": 15
+   }
+  ],
+  "confidence": 0.35,
+  "rationale": "Love obeys; likely John 14-15 or 1 John 5",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book john 0.35"
+ },
+ "4Vs4uV60GXFwazq4L7z2YR": {
+  "_episode": "Stand Alone: The Model Prayer",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 6,
+    "end": 6
+   }
+  ],
+  "confidence": 0.85,
+  "rationale": "Model prayer is the Lords Prayer, Matthew 6",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "book matthew 0.8"
+ },
+ "4W2ECiOJuaQpK7lRjaBxDF": {
+  "_episode": "Wk 3: Your Story",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Your story evangelism, thematic",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "topical  0.6"
+ },
+ "4X6e2hZLDuIBevDCCN3oYq": {
+  "_episode": "[BONUS] Relate: a conversation about your love life - Episode 03: The Woman",
+  "kind": "non_sermon",
+  "refs": [],
+  "confidence": 0.92,
+  "rationale": "Q&A style conversation bonus episode.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.8"
+ },
+ "4Z7lljqPG9Y8EoiqiA6uAG": {
+  "_episode": "Wk 2: Unlikely Messengers",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "acts",
+    "start": 11,
+    "end": 11
+   }
+  ],
+  "confidence": 0.75,
+  "rationale": "Barnabas, good man full of Spirit and faith, Acts 11:24",
+  "pass": 1
+ },
+ "4bMLYEksCOCpVWgDuOHFp4": {
+  "_episode": "Wk 5: Walk",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "ephesians",
+    "start": 4,
+    "end": 5
+   }
+  ],
+  "confidence": 0.85,
+  "rationale": "Walk in Eph 4-5",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book ephesians 0.85"
+ },
+ "4c1K60vjpMX0BdmfEPd7Sw": {
+  "_episode": "Wk 9: King David",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "1-samuel",
+    "start": 16,
+    "end": 16
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "King David anointed, 1 Sam 16:7.",
+  "pass": 1
+ },
+ "4cIhPwdI11C00LME4zBp36": {
+  "_episode": "Sword of the Spirit: Stand Firm - Wk 7",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "ephesians",
+    "start": 6,
+    "end": 6
+   }
+  ],
+  "confidence": 0.95,
+  "rationale": "Sword of the Spirit, Eph 6:17",
+  "pass": 1
+ },
+ "4ckGaVIEUW4SOOK0KR0NfX": {
+  "_episode": "Wk 13: Love Overcomes",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "1-john",
+    "start": 5,
+    "end": 5
+   }
+  ],
+  "confidence": 0.65,
+  "rationale": "Overcoming the world by faith",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book 1-john john 0.5"
+ },
+ "4eF0QXmmmVWIaZtbLjRLnM": {
+  "_episode": "Wk 22: Saved and Sent",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "romans",
+    "start": 10,
+    "end": 10
+   }
+  ],
+  "confidence": 0.8,
+  "rationale": "Saved and sent: Romans 10:9-15.",
+  "pass": 1
+ },
+ "4eYYR7MnlMG1xvGrghTf3A": {
+  "_episode": "Wk 2: My Discontentment",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "My Discontentment; no text evident",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "4fOPGiapgopCi8EkHhyHPg": {
+  "_episode": "Wk 9: ’Til Death Do Us Part",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.65,
+  "rationale": "Faithfulness in marriage, thematic",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.7"
+ },
+ "4jXa0AsNzU0riWJlmVNlqk": {
+  "_episode": "Helmet of Salvation: Stand Firm - Wk 6",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "ephesians",
+    "start": 6,
+    "end": 6
+   }
+  ],
+  "confidence": 0.95,
+  "rationale": "Helmet of salvation, Eph 6:17",
+  "pass": 1
+ },
+ "4kK4wIHXNd6dl3cxcvSqFq": {
+  "_episode": "Wk 7: Laodicea | EASTER",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "revelation",
+    "start": 3,
+    "end": 3
+   }
+  ],
+  "confidence": 0.95,
+  "rationale": "Laodicea, Jesus knocking, Rev 3:20",
+  "pass": 1
+ },
+ "4pQMqkPuLjaE9JuZjpUcdd": {
+  "_episode": "Wk 4: The Church in Philadelphia",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "revelation",
+    "start": 3,
+    "end": 3
+   }
+  ],
+  "confidence": 0.97,
+  "rationale": "Philadelphia, Rev 3.",
+  "pass": 1
+ },
+ "4rWOYrZ7DcPEZiVsPRP7yn": {
+  "_episode": "Saturated 2021 - Wednesday: Pastor David Platt",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Conference main-session talk",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "unknown  0.0"
+ },
+ "4toIIMJVqKQrTw4PX0lHZn": {
+  "_episode": "Week 4: Be Doers of the Word",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "james",
+    "start": 1,
+    "end": 1
+   }
+  ],
+  "confidence": 0.85,
+  "rationale": "Be doers of the Word, James 1:22",
+  "pass": 1
+ },
+ "4vhR4f5ylC4Ips7UWFKYd5": {
+  "_episode": "Wk 7: Authority",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "ephesians",
+    "start": 6,
+    "end": 6
+   }
+  ],
+  "confidence": 0.8,
+  "rationale": "Authority, Eph 6:1-9",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book ephesians 0.8"
+ },
+ "4vzht8XEpvAu6s295q5OVt": {
+  "_episode": "Wk 3: In the Fire",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "daniel",
+    "start": 3,
+    "end": 3
+   }
+  ],
+  "confidence": 0.85,
+  "rationale": "Fiery furnace, even if He doesn't",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book daniel 0.8"
+ },
+ "4wUDnrpf5JHiHKPNNkrZVs": {
+  "_episode": "Wk 27: The Body",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "romans",
+    "start": 12,
+    "end": 12
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "The body, many members: Romans 12:3-8.",
+  "pass": 1
+ },
+ "4wtfaOLCYbIUssogykzSba": {
+  "_episode": "Wk 3: Speak, For Your Servant Hears",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "1-samuel",
+    "start": 3,
+    "end": 3
+   }
+  ],
+  "confidence": 0.95,
+  "rationale": "'Speak, for your servant hears' 1 Sam 3:10.",
+  "pass": 1
+ },
+ "4wwfD2Im7p5jFZqUjNhU3D": {
+  "_episode": "Saturated 2016 - Wednesday: Pastor Ryan Kwon",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Conference main-session talk",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "unknown  0.0"
+ },
+ "4xXTYaOxi6O3HdUiKvv1zO": {
+  "_episode": "Wk 3: Power",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.4,
+  "rationale": "Power; no text",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "4yHJlLSE9IOr3H1rVBqrSU": {
+  "_episode": "Wk 4: Love Shares",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "luke",
+    "start": 19,
+    "end": 19
+   }
+  ],
+  "confidence": 0.4,
+  "rationale": "Love shares good news",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book luke 0.35"
+ },
+ "4ySbJ9i43TpKrJWXUn8X9E": {
+  "_episode": "Wk 12: Thirsty",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 7,
+    "end": 7
+   }
+  ],
+  "confidence": 0.8,
+  "rationale": "Thirsty, John 7:37 rivers of living water.",
+  "pass": 1
+ },
+ "51ZUQf2m62bJATD0w04H4I": {
+  "_episode": "Wk 1: The Word Became Flesh",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 1,
+    "end": 1
+   }
+  ],
+  "confidence": 0.97,
+  "rationale": "John series wk1; Word became flesh John 1.",
+  "pass": 1
+ },
+ "53wvpIO88Uik2ChGnZqSh9": {
+  "_episode": "Wk 1: Grace and Peace",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "philippians",
+    "start": 1,
+    "end": 1
+   }
+  ],
+  "confidence": 0.93,
+  "rationale": "Grace and peace is Phil 1:1-2.",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book philippians 0.8"
+ },
+ "54vTYJhhlYy938nfuJX1Dj": {
+  "_episode": "Wk 11: Love Sacrifices",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "1-john",
+    "start": 4,
+    "end": 4
+   }
+  ],
+  "confidence": 0.8,
+  "rationale": "God is love, if God lives in us we love",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book 1-john 0.8"
+ },
+ "55Ltz7aLR3C34fQAGC72tV": {
+  "_episode": "Wk 1: My Guilt",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "My Guilt; no text evident",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "55kmhjMQPYEr9hJvoo8bYL": {
+  "_episode": "Wk 1: Why on Earth are We Here?",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "genesis",
+    "start": 1,
+    "end": 2
+   }
+  ],
+  "confidence": 0.55,
+  "rationale": "Creation purpose; opens a Genesis 1-9 series",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book genesis 0.6"
+ },
+ "57APJMnvsUYNzyJEaKV7TD": {
+  "_episode": "Wk 14: Saturated Sunday - Prayer and Anointing",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "james",
+    "start": 5,
+    "end": 5
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "Description quotes James 5:13-18",
+  "pass": 1
+ },
+ "5B2HI3XsxDFiGzLD7M5C68": {
+  "_episode": "Wk 6: Religion vs Relationship",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "colossians",
+    "start": 2,
+    "end": 2
+   }
+  ],
+  "confidence": 0.75,
+  "rationale": "Religion vs relationship",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book colossians 0.75"
+ },
+ "5BXWLoBwH1fGyckeGAa1Kc": {
+  "_episode": "Saturated 2020 - Sunday: Pastor Joby Martin",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "1-peter",
+    "start": 3,
+    "end": 3
+   }
+  ],
+  "confidence": 0.85,
+  "rationale": "Hope and always being prepared to give an answer is 1 Peter 3:15",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "book 1-peter 0.6"
+ },
+ "5BYhjQrhuDCNflHEQ6XhHF": {
+  "_episode": "A Good Dad: Tetelestai - Wk 4",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.3,
+  "rationale": "A Good Dad; cross-words series but text unclear",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "5D1w6eYwRgOPZZSEfS8vWR": {
+  "_episode": "The Breastplate of Righteousness: Stand Firm - Wk 3",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "ephesians",
+    "start": 6,
+    "end": 6
+   }
+  ],
+  "confidence": 0.95,
+  "rationale": "Breastplate of righteousness, Eph 6:14",
+  "pass": 1
+ },
+ "5DCITXZl7oREAyh3hQ803B": {
+  "_episode": "Grace From Start To Finish",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "colossians"
+   }
+  ],
+  "confidence": 0.92,
+  "rationale": "Description says Colossians is all about grace",
+  "pass": 1
+ },
+ "5DKTz2Uz2MQJrGrCiNgkl8": {
+  "_episode": "Saturated 2014 - Sunday: Joby Martin",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.4,
+  "rationale": "Sunday gospel-rescue message, no text evident",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "unknown  0.0"
+ },
+ "5HF9ZlovkyvSrxcVgeoRkF": {
+  "_episode": "Wk 2: God Saves",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "acts",
+    "start": 16,
+    "end": 16
+   }
+  ],
+  "confidence": 0.85,
+  "rationale": "God saves, Philippian jailer, Acts 16",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book acts 0.85"
+ },
+ "5I8ReYDf0qUecXmmDDuk4D": {
+  "_episode": "Wk 4: The End in Mind",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "revelation",
+    "start": 7,
+    "end": 7
+   }
+  ],
+  "confidence": 0.35,
+  "rationale": "Every nation worships, missions",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "book revelation 0.25"
+ },
+ "5IVKEC8D9mxmM0iMCi6Luy": {
+  "_episode": "With God There is Always a Meanwhile - Saturated with Lysa TerKeurst",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "genesis"
+   }
+  ],
+  "confidence": 0.95,
+  "rationale": "Joseph's story in Genesis",
+  "pass": 1
+ },
+ "5IZBQrQcxtfjkNcubDIRrd": {
+  "_episode": "Grace Forgives - Run Over by the Grace Train - Wk 7",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 18,
+    "end": 18
+   }
+  ],
+  "confidence": 0.85,
+  "rationale": "Forgiven debts and forgiving others, unforgiving servant.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book matthew 0.85"
+ },
+ "5IeBvh57b4GFmmD0sUTOMd": {
+  "_episode": "[BONUS] Relate: a conversation about your love life - Episode 11: How to Raise a Daughter",
+  "kind": "non_sermon",
+  "refs": [],
+  "confidence": 0.92,
+  "rationale": "Q&A style conversation bonus episode.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.8"
+ },
+ "5J6Mw27lIXDKFsaioqhkPx": {
+  "_episode": "Wk 2: Rescued From This Broken World",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Rescue theme; seat at King's table text unclear.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "5KHhq8kHRxSs8zbnQvCH9b": {
+  "_episode": "Week 5: Compassion",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "james",
+    "start": 2,
+    "end": 2
+   }
+  ],
+  "confidence": 0.7,
+  "rationale": "Compassion, James 2 / 1:27 in James series",
+  "pass": 1
+ },
+ "5LAzGmeYDhpGw8LHHsfTde": {
+  "_episode": "Wk 5: Love Sacrifices",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 3,
+    "end": 3
+   }
+  ],
+  "confidence": 0.85,
+  "rationale": "God so loved he gave",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book john 0.85"
+ },
+ "5LS4MgxE7CdCLocG2H1VOd": {
+  "_episode": "Why Do You Doubt? - When He Asks - Wk 4",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 2,
+    "end": 2
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "Wedding at Cana, Mary says do whatever he tells you",
+  "pass": 1
+ },
+ "5LXy0vkIGxdJ6fAqUCmnNq": {
+  "_episode": "Wk 7: The Good Samaritan",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "luke",
+    "start": 10,
+    "end": 10
+   }
+  ],
+  "confidence": 0.95,
+  "rationale": "Good Samaritan Luke 10:25-37",
+  "pass": 1
+ },
+ "5LpuaMAoOw7GYIcCK4JfDc": {
+  "_episode": "Wk 2: Scarlet Thread",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "joshua",
+    "start": 2,
+    "end": 2
+   }
+  ],
+  "confidence": 0.88,
+  "rationale": "Rahab and the scarlet thread",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book joshua 0.88"
+ },
+ "5Ls6qGrgFjyFV2CKZLaeyi": {
+  "_episode": "Wk 4: Rescued From Sin | Christmas Eve",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 1,
+    "end": 1
+   }
+  ],
+  "confidence": 0.6,
+  "rationale": "Christmas Eve, Jesus saves from sin echoes Matthew 1:21",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "book matthew 0.6"
+ },
+ "5MbfTabvHKRdnYGFF0J0Xs": {
+  "_episode": "Wk 4: On Mission IN the Church",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "acts",
+    "start": 20,
+    "end": 20
+   }
+  ],
+  "confidence": 0.5,
+  "rationale": "Spiritually dead man come to life fits Eutychus, Acts 20",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book acts 0.4"
+ },
+ "5MxprBxL8AwOLHvTCfk2ji": {
+  "_episode": "Wk 1: Community Transformation",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "acts",
+    "start": 17,
+    "end": 17
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "Turn the world upside down, Acts 17:6",
+  "pass": 1
+ },
+ "5NP42O2JxNHCiyKydopPly": {
+  "_episode": "Easter 2018",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Easter sermon on fear and faith, no text evident.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "book romans 0.3"
+ },
+ "5NjZFrxueBdbhUkR06DFWD": {
+  "_episode": "Wk 2: Walking on Water",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 14,
+    "end": 14
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "Walking on water.",
+  "pass": 1
+ },
+ "5OTv660F1jRAQrI5KaLv5t": {
+  "_episode": "Wk 2: Soul",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "luke",
+    "start": 12,
+    "end": 12
+   }
+  ],
+  "confidence": 0.3,
+  "rationale": "Soul, treasures of the world",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book luke 0.3"
+ },
+ "5QBDmJnOzoi38lnH4LbXnW": {
+  "_episode": "Wk 7: Discover",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.85,
+  "rationale": "Church vision: discover",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "topical  0.85"
+ },
+ "5SAakc4Iz76yqM6KIi8pkO": {
+  "_episode": "Wk 3: The Power of Salvation",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "romans",
+    "start": 1,
+    "end": 1
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "Power of salvation, Romans 1:16-17",
+  "pass": 1
+ },
+ "5TIjLzixrkchbr7vkDQUKa": {
+  "_episode": "Good Friday",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.45,
+  "rationale": "Good Friday, no information.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "unknown  0.0"
+ },
+ "5TaGcHkLM89jnw8sWWJdv2": {
+  "_episode": "Wk 2: Mount Sinai – Who Tells You Who You Are: You…or Jesus?",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "exodus",
+    "start": 19,
+    "end": 20
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "Mount Sinai, the law.",
+  "pass": 1
+ },
+ "5VBL3haprWiYnq0j9ld54G": {
+  "_episode": "A Disciple Stewards All That He Has - Follow Me - Wk 2",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Stewardship, text not given.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "5WQfIPxiK7stWoQaiSFc6H": {
+  "_episode": "Wk 2: Middle Management",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 25,
+    "end": 25
+   }
+  ],
+  "confidence": 0.5,
+  "rationale": "Time, talent, treasure; parable of talents",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book matthew 0.5"
+ },
+ "5YNxGA7hL6YIvTgHD1n4ml": {
+  "_episode": "Wk 6: Bridging the World | Saturated Sunday 2019",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "acts",
+    "start": 1,
+    "end": 1
+   }
+  ],
+  "confidence": 0.6,
+  "rationale": "Conduit of gospel to the ends of the earth echoes Acts 1:8",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "book acts 0.5"
+ },
+ "5Z3Q39XIgCFwGfm1lmAO9o": {
+  "_episode": "Wk 3: The Secret To Contentment",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "philippians",
+    "start": 4,
+    "end": 4
+   },
+   {
+    "book": "1-timothy",
+    "start": 6,
+    "end": 6
+   }
+  ],
+  "confidence": 0.5,
+  "rationale": "Secret of contentment",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book philippians 1-timothy 0.45"
+ },
+ "5bCZQEUaQS7Y6lT4PMF5Ao": {
+  "_episode": "Running on Empty - Elijah: Wk 1",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "1-kings",
+    "start": 17,
+    "end": 17
+   }
+  ],
+  "confidence": 0.85,
+  "rationale": "Elijah's entrance, 1 Kings 17",
+  "pass": 1
+ },
+ "5bE02gWrn1oR7F9Fbcn8Pu": {
+  "_episode": "A Seat At The Kings Table: The Testimony of Mephiboseth: Testimony - Wk. 3",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "2-samuel",
+    "start": 9,
+    "end": 9
+   }
+  ],
+  "confidence": 0.95,
+  "rationale": "Mephibosheth at the king's table",
+  "pass": 1
+ },
+ "5bIi6gGD8G9vmrYDzMicBD": {
+  "_episode": "Wk 5: A Movement",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.85,
+  "rationale": "Church vision: a movement",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "topical  0.85"
+ },
+ "5bUCCyAvxOEqQQ6oQ7tKhm": {
+  "_episode": "Wk 1: Fully God, Fully Man",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Advent: fully God, fully man, no single text",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "5bX94lOIIbQO4IZhSciAh9": {
+  "_episode": "Wk 22: Abide",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 15,
+    "end": 15
+   }
+  ],
+  "confidence": 0.97,
+  "rationale": "Abide, John 15.",
+  "pass": 1
+ },
+ "5dKr6cqQNbrL3FgStxEx02": {
+  "_episode": "Wk 2: Who? Not when.",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "acts",
+    "start": 19,
+    "end": 19
+   }
+  ],
+  "confidence": 0.45,
+  "rationale": "Mission as a church, Acts guess",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book acts 0.4"
+ },
+ "5ddkbuiZ3CwO9AnpP3XErE": {
+  "_episode": "Wk 8: A Maturing Love",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.65,
+  "rationale": "Maturing love, thematic",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.7"
+ },
+ "5eEEqFfNRpZGSPHiAABYrc": {
+  "_episode": "Wk 1: Doubts",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 11,
+    "end": 11
+   }
+  ],
+  "confidence": 0.5,
+  "rationale": "Doubts, series is Matthew",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book john 0.5"
+ },
+ "5eSZmeAIk52V1bsUHpEffQ": {
+  "_episode": "Wk 4: Life That Is Truly Life",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "1-timothy",
+    "start": 6,
+    "end": 6
+   }
+  ],
+  "confidence": 0.85,
+  "rationale": "Life that is truly life, 1 Tim 6:17-19",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book 1-timothy 0.85"
+ },
+ "5fCaAEesN0lGa3mg5xVQYS": {
+  "_episode": "Wk 1: Rescued From Human Tradition",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "colossians",
+    "start": 2,
+    "end": 2
+   }
+  ],
+  "confidence": 0.5,
+  "rationale": "Human tradition echoes Col 2:8 (or Mark 7).",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book colossians 0.5"
+ },
+ "5fKn6lTAWXAOil1FJiVlDC": {
+  "_episode": "Wk 7: Mary Anoints Jesus’ Feet",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 12,
+    "end": 12
+   }
+  ],
+  "confidence": 0.92,
+  "rationale": "Mary anoints Jesus' feet, John 12.",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book john 0.8"
+ },
+ "5h1nGlZgS10bLYL2ca8SRc": {
+  "_episode": "No Longer Slaves: Be Free - Wk 9",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "galatians",
+    "start": 4,
+    "end": 4
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "Adopted sons no longer slaves, Gal 4",
+  "pass": 1
+ },
+ "5hxdZZ799pdJbaGLsHhxaN": {
+  "_episode": "Stand Alone: Lord Teach Us to Pray",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "luke",
+    "start": 11,
+    "end": 11
+   }
+  ],
+  "confidence": 0.85,
+  "rationale": "Lord, teach us to pray is Luke 11:1",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "book luke 0.4"
+ },
+ "5iEg4BRo8bHJZmQ1oi388i": {
+  "_episode": "Wk 25: Whom Do You Seek?",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 18,
+    "end": 18
+   }
+  ],
+  "confidence": 0.95,
+  "rationale": "Whom do you seek, John 18:4.",
+  "pass": 1
+ },
+ "5kSUWYdxDM51pzulHZIVOP": {
+  "_episode": "Easter 2021",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "luke",
+    "start": 24,
+    "end": 24
+   }
+  ],
+  "confidence": 0.4,
+  "rationale": "Eyes opened to the risen Jesus suggests Luke 24.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "book luke 0.4"
+ },
+ "5klx7N1wGMhcpoyN60D5kB": {
+  "_episode": "Wk 3: Thy Will Be Done",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "luke",
+    "start": 22,
+    "end": 22
+   }
+  ],
+  "confidence": 0.45,
+  "rationale": "\"Not my will but yours\" is Gethsemane, Luke 22:42 (or Matt 26).",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book luke 0.5"
+ },
+ "5knvfTtPKHdpDxbVjgnlwZ": {
+  "_episode": "Easter 2017: Follow Me",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Easter sermon, no evident text beyond Follow Me theme.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "unknown  0.0"
+ },
+ "5lloIMIZAq3hs9DQPVl5MZ": {
+  "_episode": "Wk 1: Compassion",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Advent-season theme sermon, no text evident.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "5mZriyhGfMtG603sX85aM9": {
+  "_episode": "Wk 6: The Dangers Of Religion",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Dangers of religion; no text",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "5n3tzGq8FflGoOdK2T6JG7": {
+  "_episode": "Wk 3: Rescued From Condemnation",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "romans",
+    "start": 8,
+    "end": 8
+   }
+  ],
+  "confidence": 0.97,
+  "rationale": "Quotes Romans 8:1.",
+  "pass": 1
+ },
+ "5n7JrwpSNmvm50Li3Iieut": {
+  "_episode": "Wk 27: If the Tomb is Empty…",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 20,
+    "end": 20
+   }
+  ],
+  "confidence": 0.95,
+  "rationale": "Empty tomb, John 20.",
+  "pass": 1
+ },
+ "5njHRrLznG0S5yaPg9lPEV": {
+  "_episode": "Wk 1: The Good Shepherd",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 10,
+    "end": 10
+   }
+  ],
+  "confidence": 0.92,
+  "rationale": "Good Shepherd and abundant life, John 10.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book john 0.85"
+ },
+ "5oAbdkoj9gxkI2gRiNjC2q": {
+  "_episode": "Vision 2018",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.85,
+  "rationale": "Vision Sunday.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "topical  0.85"
+ },
+ "5oTKffT7jaArwanZh5N7dx": {
+  "_episode": "Act Like Men; Revisited - A Worthy Woman",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Women's event talk, mixes Romans 12 and Eve.",
+  "pass": 2,
+  "series_kind": "unclear",
+  "pass1": "topical  0.5"
+ },
+ "5q9xz11SVCodtnFuU32Mse": {
+  "_episode": "Wk 1: Ephesus – You Left Your First Love",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "revelation",
+    "start": 2,
+    "end": 2
+   }
+  ],
+  "confidence": 0.97,
+  "rationale": "Ephesus, seven churches.",
+  "pass": 1
+ },
+ "5qFjHVDh258jcJRVQBjSdQ": {
+  "_episode": "What Child is This? - Christmas Eve 2024 - When He Asks - Wk 6",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "luke",
+    "start": 2,
+    "end": 2
+   }
+  ],
+  "confidence": 0.4,
+  "rationale": "Christmas Eve What Child is This, likely Luke 2",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book luke 0.4"
+ },
+ "5r2e6JoG7vFE3GqfAnuAdj": {
+  "_episode": "Wk 2: The Promise Fulfilled",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "luke",
+    "start": 1,
+    "end": 1
+   }
+  ],
+  "confidence": 0.93,
+  "rationale": "Mary faith surrender worship, Luke 1:26-56",
+  "pass": 1
+ },
+ "5rCe2KR0qtMC00x6rCM27I": {
+  "_episode": "Wk 4: Bridging Division",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "luke",
+    "start": 19,
+    "end": 19
+   }
+  ],
+  "confidence": 0.45,
+  "rationale": "Division, rescue mission to save the lost",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book luke 0.6"
+ },
+ "5rJmzUbTayqaa0SdZlu85M": {
+  "_episode": "Wk 3: Dating",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.65,
+  "rationale": "Dating topic in a marriage/relationships series.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.5"
+ },
+ "5sZJgVPuxG3vVowgF5tDDa": {
+  "_episode": "Wk 1: Snake Bitten",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "acts",
+    "start": 28,
+    "end": 28
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "Snake bitten, Paul on Malta Acts 28:1-6",
+  "pass": 1
+ },
+ "5tqZ4pWDTjkErpw5ozuwZv": {
+  "_episode": "Wk 3: Greater Works",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 14,
+    "end": 14
+   }
+  ],
+  "confidence": 0.7,
+  "rationale": "Greater works, John 14:12",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "book john 0.7"
+ },
+ "5vjv7U15gIn25vSXpaWZnk": {
+  "_episode": "Wk 4: Road Rage",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "acts",
+    "start": 9,
+    "end": 9
+   }
+  ],
+  "confidence": 0.55,
+  "rationale": "Road Rage; path through suffering to resurrection suggests Saul on the road",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book acts 0.75"
+ },
+ "5xFMA5HD7ueRQsPH4XjPYp": {
+  "_episode": "Wk 2: What is That in Your Hand?",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "exodus",
+    "start": 4,
+    "end": 4
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "\"What is that in your hand\" is Exodus 4:2.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book exodus 0.85"
+ },
+ "5xn4azxBYabSWEZ2mk3oeA": {
+  "_episode": "Wk 3: The Sovereignty of God in Our Provision",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "ruth",
+    "start": 2,
+    "end": 2
+   }
+  ],
+  "confidence": 0.8,
+  "rationale": "Ruth series; provision, gleaning",
+  "pass": 1
+ },
+ "5yweMwjoKG1Vlflj5qS8x3": {
+  "_episode": "Wk 1: The Riches of His Grace",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Riches of grace; no text evident",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "5zeiPfnUiEDFdSC2xzZq2f": {
+  "_episode": "A Disciple Deepens Within the Faith Family - Follow Me - Wk 5",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Faith family, text not given.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "61sRLETwZdVyLlBVElhkFX": {
+  "_episode": "Wk 3: Drifted",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "hebrews",
+    "start": 2,
+    "end": 2
+   }
+  ],
+  "confidence": 0.5,
+  "rationale": "Drifted, Heb 2:1",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "book hebrews 0.4"
+ },
+ "61xFxXbhZfDTJmWtyTntnr": {
+  "_episode": "Wk 3: Pastor Albert Tate",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Guest-pastor sermon; title gives only speaker, no text or theme.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "unknown  0.0"
+ },
+ "63ndGb8q2oZpFpqfaL441b": {
+  "_episode": "What Kind of Person Am I? - When He Asks - Wk 3",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "luke",
+    "start": 12,
+    "end": 12
+   }
+  ],
+  "confidence": 0.4,
+  "rationale": "Stewardship of possessions for others fits Luke 12 or 16, uncertain",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book luke 0.4"
+ },
+ "63xRwNXQrfHXZLuyn5p4uz": {
+  "_episode": "Wk 6: The Honeymoon",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.65,
+  "rationale": "Sex in marriage topic; thematic series.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "6546hmtuNMyrM2Vkf8j1fe": {
+  "_episode": "Wk 3: Sloth",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Sloth in sins series",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "65GP75CsUU4xf1UMyA5HLD": {
+  "_episode": "Wk 11: Choose This Day",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "joshua",
+    "start": 24,
+    "end": 24
+   }
+  ],
+  "confidence": 0.8,
+  "rationale": "Choose this day, Joshua 24:15",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book joshua matthew 0.45"
+ },
+ "66SnMLWFmGEdsrzjYWkCsS": {
+  "_episode": "Wk 15: The Blind Man",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 9,
+    "end": 9
+   }
+  ],
+  "confidence": 0.97,
+  "rationale": "Blind man, John 9.",
+  "pass": 1
+ },
+ "66lGQBuNWekub3ifZYLOYJ": {
+  "_episode": "Wk 10: How to Raise a Daughter",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.65,
+  "rationale": "Parenting daughters topic.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.55"
+ },
+ "69pVqFnFk1br8tB3bMe0I3": {
+  "_episode": "Wk 4: God’s Kindness",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "romans",
+    "start": 2,
+    "end": 2
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "God's kindness, Romans 2:1-4",
+  "pass": 1
+ },
+ "6CslarcuGxk7Tv7Ui5nYZQ": {
+  "_episode": "Wk 4: Pastor Léonce Crump",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Guest-pastor sermon; title gives only speaker, no text or theme.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "unknown  0.0"
+ },
+ "6DIuhUOe9xgbqas6Ab4q9Y": {
+  "_episode": "Wk 5: Rescued Through Suffering",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "2-corinthians",
+    "start": 1,
+    "end": 1
+   }
+  ],
+  "confidence": 0.35,
+  "rationale": "Rescue through suffering; guess 2 Cor 1, uncertain.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book 2-corinthians 0.35"
+ },
+ "6ENW67hfy862OxDyeHk7xF": {
+  "_episode": "Wk 2: Son",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Trinity: Son",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "6EtvzIP1BVWaRp8Hm1NuXl": {
+  "_episode": "Wk 5: Here // Christmas Eve",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "luke",
+    "start": 2,
+    "end": 2
+   }
+  ],
+  "confidence": 0.45,
+  "rationale": "Christmas Eve, not missing Jesus",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book luke 0.4"
+ },
+ "6FFRK03oh7fA59jCiNGkdQ": {
+  "_episode": "[BONUS] Relate: a conversation about your love life - Episode 10: Til Death Do Us Part",
+  "kind": "non_sermon",
+  "refs": [],
+  "confidence": 0.92,
+  "rationale": "Q&A style conversation bonus episode.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.8"
+ },
+ "6GYRj5VgtQ8dhmhOHcvezH": {
+  "_episode": "Wk 2: What’s My Problem?",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "genesis",
+    "start": 3,
+    "end": 3
+   }
+  ],
+  "confidence": 0.5,
+  "rationale": "Problem/rescue mission after the fall",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book genesis 0.55"
+ },
+ "6GgNCrwJ9AsqRNtQNjeysT": {
+  "_episode": "Wk 1: To Influence",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "acts"
+   }
+  ],
+  "confidence": 0.4,
+  "rationale": "Influence; Acts-run guess",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book acts 0.4"
+ },
+ "6Ie3UZKW9Mh3giiJLX5RnF": {
+  "_episode": "Week 12: Don’t Waste Your Life",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "james",
+    "start": 4,
+    "end": 4
+   }
+  ],
+  "confidence": 0.7,
+  "rationale": "Don't waste life, James 4:13-17",
+  "pass": 1
+ },
+ "6J0Y7amMBqAfX4pw082qRf": {
+  "_episode": "Wk 2: Preeminent",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "colossians",
+    "start": 1,
+    "end": 1
+   }
+  ],
+  "confidence": 0.85,
+  "rationale": "Preeminent, Col 1:15-20",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book colossians 0.85"
+ },
+ "6J52joBSvjCcQpUaOfFi2W": {
+  "_episode": "Wk 21: Sovereign Grace",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "romans",
+    "start": 9,
+    "end": 9
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "God sovereignly chooses Israel, mercy: Romans 9.",
+  "pass": 1
+ },
+ "6LF3MIhOTZq1R3KC0hmNOs": {
+  "_episode": "Wk 3: Come and See",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 1,
+    "end": 1
+   }
+  ],
+  "confidence": 0.93,
+  "rationale": "Come and see, John 1:35-51.",
+  "pass": 1
+ },
+ "6Mlt3OcVDz3Af9glclhkC5": {
+  "_episode": "Wk 6: Love Belongs",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 15,
+    "end": 15
+   }
+  ],
+  "confidence": 0.45,
+  "rationale": "Abiding in Christ, belonging",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book john 0.45"
+ },
+ "6OR4C3SGxjQuVLEIQY6RPF": {
+  "_episode": "Wk 2: Disciple-Making Disciples",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "acts",
+    "start": 18,
+    "end": 19
+   }
+  ],
+  "confidence": 0.45,
+  "rationale": "Disciple-making; Priscilla/Apollos/Ephesus area",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book acts 0.45"
+ },
+ "6PS6C9Iou9CAVDAdslf8YY": {
+  "_episode": "Wk 4: So Close",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "acts",
+    "start": 24,
+    "end": 24
+   }
+  ],
+  "confidence": 0.8,
+  "rationale": "Faith of Felix, Acts 24",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book acts 0.8"
+ },
+ "6QTQRo3wCCmoj5JCsPIUXR": {
+  "_episode": "Wk 2: Providence",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "acts"
+   }
+  ],
+  "confidence": 0.35,
+  "rationale": "Providence, Acts run guess",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "unknown  0.0"
+ },
+ "6R24E7wq8vQWN4R6SyLVr5": {
+  "_episode": "Wk 1: Heart",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 18,
+    "end": 18
+   }
+  ],
+  "confidence": 0.35,
+  "rationale": "Forgiveness and church unity",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book matthew 0.35"
+ },
+ "6RiT9f7hhV0vzAS6rxHV6P": {
+  "_episode": "Wk 6: He is Faithful",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "romans",
+    "start": 3,
+    "end": 3
+   }
+  ],
+  "confidence": 0.88,
+  "rationale": "God is faithful, Romans 3:1-8",
+  "pass": 1
+ },
+ "6Rj0Rf5wKdVsqHJKDAzMnJ": {
+  "_episode": "Wk 6: (Born)²",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 3,
+    "end": 3
+   }
+  ],
+  "confidence": 0.95,
+  "rationale": "Born again, John 3:16.",
+  "pass": 1
+ },
+ "6S178X3Ae9yB34typXa6R4": {
+  "_episode": "Wk 19: The Gospel",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 12,
+    "end": 12
+   }
+  ],
+  "confidence": 0.55,
+  "rationale": "The Gospel wk19; likely John 12 (Greeks/grain of wheat) or 13.",
+  "pass": 1
+ },
+ "6Tlxs0OD0mPvcePfqs9rr2": {
+  "_episode": "Saturated 2017 - Sunday: Pastor Joby Martin",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Conference main-session talk",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "unknown  0.0"
+ },
+ "6TvRnPxHu1z1zIyJrhTZQh": {
+  "_episode": "Wk 5: The Vow",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.65,
+  "rationale": "Marriage covenant topic; no single text evident.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "6U73NQBbR5HCEtBKFqKQDg": {
+  "_episode": "Wk 7: Pride",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Pride in sins series",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "6V2nK1yOYpjnJuXgibvff1": {
+  "_episode": "Wk 2: Detour",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "acts"
+   }
+  ],
+  "confidence": 0.55,
+  "rationale": "Detour; Acts series run",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book acts 0.7"
+ },
+ "6W5UIZflDKXauoC7SHxFHO": {
+  "_episode": "[BONUS] Relate: a conversation about your love life - Episode 09: Maturing in Love",
+  "kind": "non_sermon",
+  "refs": [],
+  "confidence": 0.92,
+  "rationale": "Q&A style conversation bonus episode.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.8"
+ },
+ "6WUAyFHuytdEVPxHnraJ5O": {
+  "_episode": "Wk 2: You Feed Them",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "mark",
+    "start": 6,
+    "end": 6
+   }
+  ],
+  "confidence": 0.5,
+  "rationale": "Feeding the five thousand, you feed them",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "book mark 0.65"
+ },
+ "6YJr46SBhJCf63PoSiNF12": {
+  "_episode": "Wk 4: Growing in Grace",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "2-peter",
+    "start": 3,
+    "end": 3
+   }
+  ],
+  "confidence": 0.85,
+  "rationale": "Growing in grace is 2 Pet 3:18.",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book 2-peter 0.5"
+ },
+ "6YiPRcHNNVtJzbDmkGEzxi": {
+  "_episode": "Wk 6: God Loves a Cheerful Giver",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 6,
+    "end": 6
+   }
+  ],
+  "confidence": 0.75,
+  "rationale": "Giving, Matthew 6:1-4 between wks 5 and 7",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book matthew 0.5"
+ },
+ "6ZA1GLM3MIwTegk9PBTI7W": {
+  "_episode": "Wk 7: How To Win a Fight",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.65,
+  "rationale": "Conflict in marriage, thematic",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.65"
+ },
+ "6ZE8VsEeTYXF5E4lVaDBxp": {
+  "_episode": "Wk 2: Relationships Matter",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "philippians",
+    "start": 1,
+    "end": 1
+   }
+  ],
+  "confidence": 0.92,
+  "rationale": "Partnership in the gospel, Phil 1:3-11.",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book philippians 0.75"
+ },
+ "6ZU2xoiB3a4jDpqW9YO64Y": {
+  "_episode": "Wk 5: Farewell Address",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "1-samuel",
+    "start": 12,
+    "end": 12
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "Samuel's farewell address, 1 Sam 12.",
+  "pass": 1
+ },
+ "6Zj9McNaOkfZOzzmlCMVKZ": {
+  "_episode": "Wk 13: Baptism",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "romans",
+    "start": 6,
+    "end": 6
+   }
+  ],
+  "confidence": 0.95,
+  "rationale": "Baptism, Romans 6:1-14",
+  "pass": 1
+ },
+ "6aF9S015QwpTz7Q2iykCWQ": {
+  "_episode": "Wisdom for the Abundant Life - Live Abundantly: Wk. 1",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 10,
+    "end": 10
+   }
+  ],
+  "confidence": 0.55,
+  "rationale": "Series built on John 10 Good Shepherd/abundant life.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book john 0.55"
+ },
+ "6ac2NihklpaGOBN2qAXgQm": {
+  "_episode": "Wk 1: Running from God",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "jonah",
+    "start": 1,
+    "end": 1
+   }
+  ],
+  "confidence": 0.85,
+  "rationale": "Running from God, Jonah wk1.",
+  "pass": 1
+ },
+ "6b6eEVECnzG2cAZBkX1nDk": {
+  "_episode": "Wk 9: Two Masters",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 6,
+    "end": 6
+   }
+  ],
+  "confidence": 0.95,
+  "rationale": "Two masters, Matt 6:24.",
+  "pass": 1
+ },
+ "6bUkzgLahFszXZkLqQKtzV": {
+  "_episode": "Wk 5: You Shall Not Commit Adultery",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "exodus",
+    "start": 20,
+    "end": 20
+   }
+  ],
+  "confidence": 0.8,
+  "rationale": "Ten Commandments, adultery",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book 1-corinthians exodus 0.45"
+ },
+ "6bVaWct0JLKn0ID4HrMJwe": {
+  "_episode": "Wk 23: The Helper",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 14,
+    "end": 16
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "The Helper, John 14-16.",
+  "pass": 1
+ },
+ "6edWC0DiohUCNBAypeTYRS": {
+  "_episode": "Wk 6: Marriage",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "ephesians",
+    "start": 5,
+    "end": 5
+   }
+  ],
+  "confidence": 0.85,
+  "rationale": "Marriage, Eph 5:22-33",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book ephesians 0.85"
+ },
+ "6fOmqQSKGWyRphZrsZIXFz": {
+  "_episode": "Wk 8: Comparison Kills",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Comparison; no text",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "unknown  0.0"
+ },
+ "6fltSSpa6Wy5bEKfVUkxsP": {
+  "_episode": "Wk 5: Lust",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "1-corinthians",
+    "start": 6,
+    "end": 6
+   }
+  ],
+  "confidence": 0.75,
+  "rationale": "Flee sexual immorality, 1 Cor 6:18",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book 1-corinthians 0.7"
+ },
+ "6hxbkXMEyobrOhkz3pSFxc": {
+  "_episode": "Wk 2: Aiming to Please",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.25,
+  "rationale": "Aiming to please; no text revealed",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "unknown  0.0"
+ },
+ "6i9Oy4Ol7Jn6e159fvJn5W": {
+  "_episode": "Grace for Breakfast - Wk 9",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 21,
+    "end": 21
+   }
+  ],
+  "confidence": 0.35,
+  "rationale": "\"Grace for Breakfast\" likely John 21; weak.",
+  "pass": 2,
+  "series_kind": "unclear",
+  "pass1": "unknown  0.0"
+ },
+ "6iJbCIoesXjdasNwjyzfx9": {
+  "_episode": "Wk 30: Love Rules",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "romans",
+    "start": 13,
+    "end": 13
+   }
+  ],
+  "confidence": 0.8,
+  "rationale": "Love is greatest commandment/fulfills the law: Romans 13:8-10.",
+  "pass": 1
+ },
+ "6ild49ARsKjludpEC79NEJ": {
+  "_episode": "Saturated 2022 - Wednesday: Tim Tebow",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Conference main-session talk",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "topical  0.5"
+ },
+ "6jMAXKLuN4CNiHNFONLwZt": {
+  "_episode": "Wk 4: Scared? Me Too",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "God gives courage to the called; no text",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "6kQ8FQikk6VDvL0r8FANfo": {
+  "_episode": "Vision Weekend 2022: The Year of Worship",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.8,
+  "rationale": "Vision Sunday, year of worship",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "topical  0.8"
+ },
+ "6lowKUcHNFr18NNHxlJrwM": {
+  "_episode": "Wk 13: Throwing Stones",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 8,
+    "end": 8
+   }
+  ],
+  "confidence": 0.97,
+  "rationale": "Woman caught in adultery, John 8.",
+  "pass": 1
+ },
+ "6twR6GQ2hn9OHKfGq7j925": {
+  "_episode": "Wk 7: The Master We Serve",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.6,
+  "rationale": "No description",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "6uZQEcddz7Rxy5zzHbVj15": {
+  "_episode": "Wk 6: Mount of Transfiguration",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 17,
+    "end": 17
+   },
+   {
+    "book": "luke",
+    "start": 9,
+    "end": 9
+   }
+  ],
+  "confidence": 0.4,
+  "rationale": "Transfiguration",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book matthew 0.6"
+ },
+ "6v9UGRgGmZ2U32xq4mvMQx": {
+  "_episode": "Wk 1: Rich Young Ruler",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "mark",
+    "start": 10,
+    "end": 10
+   }
+  ],
+  "confidence": 0.55,
+  "rationale": "Rich young ruler, Mark 10 (parallels Matt 19/Luke 18).",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book mark 0.7"
+ },
+ "6vV4rdt1teJL0gihUS0Qbc": {
+  "_episode": "Wk 1 - Singleness and Dating",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.75,
+  "rationale": "Topical series on singleness/dating/family.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.7"
+ },
+ "6vwjsW6sx0fzAHQOThXFdN": {
+  "_episode": "Wk 2: How to Build Up Your Faith",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "jude",
+    "start": 1,
+    "end": 1
+   }
+  ],
+  "confidence": 0.88,
+  "rationale": "Building up faith is Jude 20-21.",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book jude 0.7"
+ },
+ "6vzCv2cMRXjo5sGmQk1iLx": {
+  "_episode": "Wk 3: Mind",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 4,
+    "end": 4
+   }
+  ],
+  "confidence": 0.65,
+  "rationale": "It is written, temptation",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book matthew 0.7"
+ },
+ "6xJq6DcPCVoTCF0Y6jeXfl": {
+  "_episode": "Wk 2: Humble Prayer",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "2-chronicles",
+    "start": 7,
+    "end": 7
+   }
+  ],
+  "confidence": 0.45,
+  "rationale": "Humble prayer in a revival series",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book 2-chronicles luke 0.35"
+ },
+ "6yGWyjRh5g9261rfR1I2hc": {
+  "_episode": "Stand Alone: The Lord’s Supper",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "1-corinthians",
+    "start": 11,
+    "end": 11
+   }
+  ],
+  "confidence": 0.6,
+  "rationale": "Lords Supper teaching, most likely 1 Cor 11 (new covenant)",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "book 1-corinthians 0.4"
+ },
+ "6zt6v3tQL8TMGioVAr5g9g": {
+  "_episode": "Wk 3: Religious Tradition",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "mark",
+    "start": 7,
+    "end": 7
+   }
+  ],
+  "confidence": 0.55,
+  "rationale": "Religious tradition fits Mark 7:1-13.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book mark 0.5"
+ },
+ "70R3xgnTfgPN327DmS04Z5": {
+  "_episode": "Wk 3: Reconciliation",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "2-corinthians",
+    "start": 5,
+    "end": 5
+   }
+  ],
+  "confidence": 0.85,
+  "rationale": "Ambassadors and ministry of reconciliation, 2 Cor 5:18-20",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book 2-corinthians 0.8"
+ },
+ "71fPSXpBKQpTlqVazhiVmz": {
+  "_episode": "Wk 26: The Cross",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 19,
+    "end": 19
+   }
+  ],
+  "confidence": 0.95,
+  "rationale": "The Cross, John 19.",
+  "pass": 1
+ },
+ "72IvzUfJop7L0Hp7MCkcx7": {
+  "_episode": "[BONUS] Relate: a conversation about your love life - Episode 05: Sex",
+  "kind": "non_sermon",
+  "refs": [],
+  "confidence": 0.92,
+  "rationale": "Q&A style conversation bonus episode.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.8"
+ },
+ "72TrGvPYJVvNkcZsV04wnb": {
+  "_episode": "Wk 8: The Woman at the Well",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 4,
+    "end": 4
+   }
+  ],
+  "confidence": 0.97,
+  "rationale": "Woman at the well.",
+  "pass": 1
+ },
+ "72WOMV6QnX6iQB3i6dc2td": {
+  "_episode": "Saturated 2015 -Thursday: Pastor Leonce Crump",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Conference main-session talk",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "unknown  0.0"
+ },
+ "72kB9RJu7h11AMPBlnfSlM": {
+  "_episode": "Week 8: Tame the Tongue",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "james",
+    "start": 3,
+    "end": 3
+   }
+  ],
+  "confidence": 0.92,
+  "rationale": "Tame the tongue, James 3",
+  "pass": 1
+ },
+ "72n5V5JQ7uASIopcrIkzVi": {
+  "_episode": "Wk 2: Mighty God",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "isaiah",
+    "start": 9,
+    "end": 9
+   }
+  ],
+  "confidence": 0.55,
+  "rationale": "Mighty God, Isaiah 9:6 names series",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book isaiah 0.55"
+ },
+ "72yvPFcREJ1rmsu5okKatL": {
+  "_episode": "Stand Alone - Disciple Making Disciples: What do we do with what God’s doing?",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Disciple-making community teaching, no single text evident",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "topical  0.6"
+ },
+ "73CC0WyBybLr3ofkY3rumT": {
+  "_episode": "What Really Happened On The Cross: Tetelestai - Wk 5",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.45,
+  "rationale": "Creation-to-cross overview with no single text",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.4"
+ },
+ "73MNL54GTO5YqmkoqEVeJA": {
+  "_episode": "Saturated 2020 - Friday: Pastor Doug Logan",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Conference main-session talk",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "unknown  0.0"
+ },
+ "73b0q0SSbfDt8I8boca2Fh": {
+  "_episode": "Wk 34: To The Only Wise God",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "romans",
+    "start": 16,
+    "end": 16
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "To the only wise God: Romans 16:25-27.",
+  "pass": 1
+ },
+ "74VfPmRFp7Az9LurAam9Eq": {
+  "_episode": "Wk 11: Toxic Relationships",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "1-samuel",
+    "start": 18,
+    "end": 20
+   }
+  ],
+  "confidence": 0.85,
+  "rationale": "Saul hurls spear at David; 1 Sam 18-19.",
+  "pass": 1
+ },
+ "77wwbbSFTlawZeEJ2bvE3M": {
+  "_episode": "Wk 4: Behold Our King",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Christmas, prophet priest king",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.5"
+ },
+ "785GCTa6t2j45g4KhV4wuv": {
+  "_episode": "Wk 1: One Name",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "One Name vision series",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.6"
+ },
+ "78TvQgNOB8qBvI3wMUwfK2": {
+  "_episode": "Standalone: Quit",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.3,
+  "rationale": "Rest in Jesus alone; text not revealed (perhaps Matthew 11)",
+  "pass": 2,
+  "series_kind": "unclear",
+  "pass1": "unknown  0.0"
+ },
+ "78Xk7ukdFa4m2XuCHnF4Hh": {
+  "_episode": "Wk 3: The Way",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "acts",
+    "start": 24,
+    "end": 24
+   }
+  ],
+  "confidence": 0.45,
+  "rationale": "The Way is Acts 24:14; Acts run continues",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book john 0.3"
+ },
+ "7AsJzYCe03UW1q64cP4iPR": {
+  "_episode": "Wk 6: My Limitations",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Platt quote on limitations; no text evident",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "7Be8rhv7V4RH6Fy4FeTp3T": {
+  "_episode": "Christmas Eve",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Christmas Eve service, no text evident.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "unknown  0.0"
+ },
+ "7E5Eytxfo2H4PmV4D5BW67": {
+  "_episode": "I Am The Man: Testimony - Wk 2",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 9,
+    "end": 9
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "I am the man, blind man healed, John 9",
+  "pass": 1
+ },
+ "7EYVeLzvsQJUk38Bjm8Gzh": {
+  "_episode": "Saturated 2022 - Saturday: Dr. Doug Logan",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Conference main-session talk",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "unknown  0.0"
+ },
+ "7EsnIGqGAE8tbYPfHhcZ8o": {
+  "_episode": "2023 Vision: Life Abundantly",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.75,
+  "rationale": "Vision Sunday on abundant life.",
+  "pass": 2,
+  "series_kind": "unclear",
+  "pass1": "topical  0.8"
+ },
+ "7G2mRdVGDUOedOl0XyxE0K": {
+  "_episode": "Wk 6: What Have You Done?",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "1-samuel",
+    "start": 13,
+    "end": 13
+   }
+  ],
+  "confidence": 0.85,
+  "rationale": "'What have you done?' Saul 1 Sam 13:11.",
+  "pass": 1
+ },
+ "7GsDTI3EdfYr7MYbQcdvxY": {
+  "_episode": "Wk 14: My Ministry",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "colossians",
+    "start": 4,
+    "end": 4
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "Fulfill the ministry, Col 4:17",
+  "pass": 1
+ },
+ "7Gyzjhnzob5zslw2fuOMd5": {
+  "_episode": "Wk 1: Thy Kingdom Come",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 6,
+    "end": 6
+   }
+  ],
+  "confidence": 0.4,
+  "rationale": "Thy Kingdom Come opener of a Kingdom series; likely Matthew (Lord's Prayer/Sermon on Mount).",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book matthew 0.4"
+ },
+ "7JhhW0qOUWjjTJ49Owbit7": {
+  "_episode": "[BONUS] Relate: a conversation about your love life - Episode 02: Singleness",
+  "kind": "non_sermon",
+  "refs": [],
+  "confidence": 0.92,
+  "rationale": "Q&A style conversation bonus episode.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.8"
+ },
+ "7K5sQMou9x4rVdF1Ttk0gS": {
+  "_episode": "Wk 2: The Heart of Worship",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Heart of worship; no info",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "unknown  0.0"
+ },
+ "7KPC34xgWDaLmNmhIY1h7k": {
+  "_episode": "Grace Does Not Condemn, Grace Cleanses - Run Over by the Grace Train - Wk 4",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 8,
+    "end": 8
+   }
+  ],
+  "confidence": 0.5,
+  "rationale": "No condemnation suggests the woman caught in adultery.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book john 0.5"
+ },
+ "7KUwUL9ToN5uPzxR45TIp3": {
+  "_episode": "Wk 1: Rebuild and Restore",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "acts",
+    "start": 15,
+    "end": 15
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "Not make trouble for Gentile believers, Acts 15:19",
+  "pass": 1
+ },
+ "7Lc8IDDvBozq83iQIYhWBq": {
+  "_episode": "Wk 1: The Plan and Purpose of the Gospel",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "romans",
+    "start": 1,
+    "end": 1
+   }
+  ],
+  "confidence": 0.95,
+  "rationale": "Romans series Wk1, plan and purpose of the gospel",
+  "pass": 1
+ },
+ "7M6q93pEgLghMOlUFc9a4A": {
+  "_episode": "Why Have You Forsaken Me?: Tetelestai - Wk 3",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 27,
+    "end": 27
+   }
+  ],
+  "confidence": 0.7,
+  "rationale": "Why have you forsaken me, Matthew 27:46",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book matthew 0.55"
+ },
+ "7MSm1iyMMuf400Ee2acQoV": {
+  "_episode": "Wk 5: Mount of Temptation – With What Weapon Will You Fight the Enemy?",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 4,
+    "end": 4
+   }
+  ],
+  "confidence": 0.95,
+  "rationale": "Mount of Temptation, 'It is written'.",
+  "pass": 1
+ },
+ "7a2Ujb9sxXVcgI2eaDMYvu": {
+  "_episode": "Wk 2: Love Accepts",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "romans",
+    "start": 15,
+    "end": 15
+   }
+  ],
+  "confidence": 0.4,
+  "rationale": "Love accepts, as Christ accepted us",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book romans 0.4"
+ },
+ "7bbKgfyvvMsPRiFxLvNfcU": {
+  "_episode": "Wk 3: Disciple-Making Disciples",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 28,
+    "end": 28
+   }
+  ],
+  "confidence": 0.45,
+  "rationale": "Disciple-making disciples",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "book matthew 0.4"
+ },
+ "7bkcbQ0D6yfLVBFX9CPXQU": {
+  "_episode": "Wk 1: Here I Am, Send Me",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "isaiah",
+    "start": 6,
+    "end": 6
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "Here I am, send me, Isaiah 6:8.",
+  "pass": 1
+ },
+ "7byxFavZKmb5DF0CHAzLrO": {
+  "_episode": "Wk 3: Forgiveness",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.6,
+  "rationale": "Forgiveness at family holidays; thematic.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "7clOOAnyl7djHIGffzEYKp": {
+  "_episode": "Wk 3: Mount Carmel – Why Are You Still Holding On to That Idol?",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "1-kings",
+    "start": 18,
+    "end": 18
+   }
+  ],
+  "confidence": 0.95,
+  "rationale": "Mount Carmel.",
+  "pass": 1
+ },
+ "7d8EQ5O86i0sUYB8zF57Yx": {
+  "_episode": "Why Call Me, ‘Lord, Lord,’ and Not Do What I Say? - When He Asks - Wk 1",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "luke",
+    "start": 6,
+    "end": 6
+   }
+  ],
+  "confidence": 0.7,
+  "rationale": "Why call me Lord, Lord is Luke 6:46",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book luke 0.6"
+ },
+ "7dwIqfkHYEaMOB3DTUUgCH": {
+  "_episode": "Wk 3: Self-Control",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "2-timothy",
+    "start": 1,
+    "end": 1
+   }
+  ],
+  "confidence": 0.85,
+  "rationale": "Self-control, 2 Tim 1:7",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book 2-timothy 0.85"
+ },
+ "7eWCKIljP9wk9n8uMaPbVy": {
+  "_episode": "Wk 7: Mortification and Vivification",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "colossians",
+    "start": 3,
+    "end": 3
+   }
+  ],
+  "confidence": 0.88,
+  "rationale": "Put to death sin, Col 3",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book colossians 0.88"
+ },
+ "7eZ9SK8RWuQJgGoC19sqHL": {
+  "_episode": "Wk 9: Do You Want to be Healed?",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 5,
+    "end": 5
+   }
+  ],
+  "confidence": 0.97,
+  "rationale": "Do you want to be healed, John 5.",
+  "pass": 1
+ },
+ "7f0oTcWKTQkq9P494vr7qh": {
+  "_episode": "Wk 3: Upon This Rock",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 16,
+    "end": 16
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "Upon this rock, Matt 16:18.",
+  "pass": 1
+ },
+ "7f5Ne4mHt98ZLd9A2G30Is": {
+  "_episode": "Wk 7: Nothing Can Stop Him",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "1-samuel",
+    "start": 14,
+    "end": 14
+   }
+  ],
+  "confidence": 0.75,
+  "rationale": "1 Samuel series; Jonathan 1 Sam 14 'nothing can hinder the Lord'.",
+  "pass": 1
+ },
+ "7fEjizzyzCrkiQFtkPhG67": {
+  "_episode": "Wk 7: Humility",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 3,
+    "end": 3
+   }
+  ],
+  "confidence": 0.85,
+  "rationale": "John series wk7; not center of universe, John 3:30.",
+  "pass": 1
+ },
+ "7fKToaM8POfWooRU2Ygi92": {
+  "_episode": "Wk 4: First Love",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "revelation",
+    "start": 2,
+    "end": 2
+   }
+  ],
+  "confidence": 0.6,
+  "rationale": "First love is Rev 2:4, Ephesus",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book revelation acts 0.45"
+ },
+ "7fdJAN9kR0qH0oCPgrOScW": {
+  "_episode": "Wk 4: Lust, Divorce and Oaths",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 5,
+    "end": 5
+   }
+  ],
+  "confidence": 0.92,
+  "rationale": "Lust, divorce, oaths Matt 5:27-37.",
+  "pass": 1
+ },
+ "7gb2J6lt8yhlm7NPecuyRJ": {
+  "_episode": "Wk 20: More Than Conquerors",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "romans",
+    "start": 8,
+    "end": 8
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "More than conquerors is Romans 8:37.",
+  "pass": 1
+ },
+ "7heYA4EfcAa8TvAcfhkup1": {
+  "_episode": "Wk 6: The Day is Coming",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "malachi",
+    "start": 4,
+    "end": 4
+   }
+  ],
+  "confidence": 0.85,
+  "rationale": "Son of righteousness with healing wings",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "book malachi 0.85"
+ },
+ "7i840HtYY1XypjPEXZ86ng": {
+  "_episode": "Wk 1: When God Says No",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "acts",
+    "start": 16,
+    "end": 16
+   }
+  ],
+  "confidence": 0.85,
+  "rationale": "God says no then saves the jailer, Acts 16",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book acts 0.85"
+ },
+ "7jCOd5KzFGzIoq1TZDEIg1": {
+  "_episode": "Wk 2: One More Generation",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "1-samuel",
+    "start": 2,
+    "end": 3
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "1 Samuel series; Eli's sons/raising children.",
+  "pass": 1
+ },
+ "7jPFqTK0fFydQmY5MJgV9n": {
+  "_episode": "Saturated 2022 - Friday: Pastor Ben Stuart",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Conference main-session talk",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "unknown  0.0"
+ },
+ "7kyaPGj95s1atoQq1tmsjq": {
+  "_episode": "Wk 24: Amazing Grace",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "romans",
+    "start": 11,
+    "end": 11
+   }
+  ],
+  "confidence": 0.65,
+  "rationale": "Grace, Son taking your place; sequence puts this in Romans 11.",
+  "pass": 1
+ },
+ "7lIZAVtX1abmIjCFF1Cse7": {
+  "_episode": "Wk 14: Love Lives",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 10,
+    "end": 10
+   }
+  ],
+  "confidence": 0.3,
+  "rationale": "Living the life Jesus has for you",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book john 0.3"
+ },
+ "7lMzIXkgzvKXyBDFneoDU4": {
+  "_episode": "Week 6: No Partiality",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "james",
+    "start": 2,
+    "end": 2
+   }
+  ],
+  "confidence": 0.85,
+  "rationale": "No partiality, James 2:1-13",
+  "pass": 1
+ },
+ "7lquT6GdY6pgUa3CT6YTPB": {
+  "_episode": "Wk 4: Savior of All",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "luke",
+    "start": 2,
+    "end": 2
+   }
+  ],
+  "confidence": 0.5,
+  "rationale": "Savior of all, nativity",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book luke 0.45"
+ },
+ "7m8JbbLfQjm7Weq0D0gqT4": {
+  "_episode": "Wk 8: Maturing in Love",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.65,
+  "rationale": "Maturing in marriage topic.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "7mZKxVC2T6viPAut3RCefY": {
+  "_episode": "Wk 15: Love Surrenders",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "romans",
+    "start": 5,
+    "end": 5
+   }
+  ],
+  "confidence": 0.5,
+  "rationale": "Where sin runs deep grace runs deeper",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book romans 0.55"
+ },
+ "7qJ4DTWfs74NM3Q0TQlNJZ": {
+  "_episode": "Wk 2: Bridging Religion",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 3,
+    "end": 3
+   }
+  ],
+  "confidence": 0.6,
+  "rationale": "Whoever believes in the Son has eternal life",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book john 0.55"
+ },
+ "7rGsGUh2oEBVfCh2THVhNF": {
+  "_episode": "Wk 4: Do Not Murder",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "exodus",
+    "start": 20,
+    "end": 20
+   }
+  ],
+  "confidence": 0.8,
+  "rationale": "Ten Commandments, murder",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book exodus matthew 0.4"
+ },
+ "7rJG47C2ntOfvEDDeBhzJC": {
+  "_episode": "Wk 6: The Honeymoon",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Sex in marriage; text unrevealed, maybe Song of Songs or 1 Cor 7",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "7rLKCW7CiRwfpW9V1aaaed": {
+  "_episode": "Eternal Life - The Church of Eleven22’s 2024 Vision",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.85,
+  "rationale": "Annual vision message.",
+  "pass": 2,
+  "series_kind": "unclear",
+  "pass1": "topical  0.85"
+ },
+ "7rOpZ6NxAJglKNTAZ43SIw": {
+  "_episode": "Wk 15: Compassion Weekend",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "romans",
+    "start": 6,
+    "end": 6
+   }
+  ],
+  "confidence": 0.6,
+  "rationale": "Compassion weekend, free by grace; Romans series",
+  "pass": 1
+ },
+ "7tEKgyQB7L7YRiHXneBkCZ": {
+  "_episode": "Wk 7: Mount Calvary - What Is Finished?",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 19,
+    "end": 19
+   }
+  ],
+  "confidence": 0.8,
+  "rationale": "\"It is finished\" is John 19:30.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book john 0.8"
+ },
+ "7ta8Q3ePOQYsytoWm68yXI": {
+  "_episode": "Wk 1: Extraordinary Obedience",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "luke",
+    "start": 1,
+    "end": 1
+   }
+  ],
+  "confidence": 0.5,
+  "rationale": "Advent obedience, Luke 1 characters",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book luke 0.3"
+ },
+ "7tdTLpiw8NisyexIecrQRG": {
+  "_episode": "Wk 4: Do Over",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 17,
+    "end": 17
+   }
+  ],
+  "confidence": 0.45,
+  "rationale": "Do over, series is Matthew",
+  "pass": 2,
+  "series_kind": "book_study",
+  "pass1": "book john 0.5"
+ },
+ "7u4tiN2v2L9HbCTcDmP6Yb": {
+  "_episode": "Wk 3: Great Joy",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "luke",
+    "start": 2,
+    "end": 2
+   }
+  ],
+  "confidence": 0.7,
+  "rationale": "Great joy, Luke 2:10",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book luke 0.7"
+ },
+ "7wVYK2QEny8bkGd9zv28ab": {
+  "_episode": "Wk 5: The Vow",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.65,
+  "rationale": "Marriage covenant, thematic",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.65"
+ },
+ "7wufRvyY0VgQR1nRlKtxy1": {
+  "_episode": "Wk 9: Til Death Do Us Part",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.65,
+  "rationale": "Fidelity in marriage topic.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "7xFGdteLamonwhQnEuycyM": {
+  "_episode": "Wk 4: One More Generation",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Raising the next generation",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.55"
+ },
+ "week-11-choose-who-you-ll-serve": {
+  "_episode": "Week 11: Choose Who You’ll Serve",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "james",
+    "start": 4,
+    "end": 4
+   }
+  ],
+  "confidence": 0.8,
+  "rationale": "Draw near to God, James 4:7-10",
+  "pass": 1
+ }
+}

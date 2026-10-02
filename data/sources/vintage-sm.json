@@ -20,7 +20,9 @@
     "url": "https://open.spotify.com/episode/5UhdNsthhVlsICuGILzt25",
     "tags": [],
     "source": "rss",
-    "durationMin": 45
+    "durationMin": 45,
+    "refSource": "regex",
+    "seriesKey": "four gospels one jesus|2026-09"
   },
   {
     "id": "vintage-sm-4Hny8xADlWZCabDqXwEVOx",
@@ -40,7 +42,8 @@
     "url": "https://open.spotify.com/episode/4Hny8xADlWZCabDqXwEVOx",
     "tags": [],
     "source": "rss",
-    "durationMin": 30
+    "durationMin": 30,
+    "refSource": "regex"
   },
   {
     "id": "vintage-sm-4WlayLOxtkG0uaTh4mkYpx",
@@ -60,7 +63,8 @@
     "url": "https://open.spotify.com/episode/4WlayLOxtkG0uaTh4mkYpx",
     "tags": [],
     "source": "rss",
-    "durationMin": 36
+    "durationMin": 36,
+    "refSource": "regex"
   },
   {
     "id": "vintage-sm-5hFTPHqGjCT7Nv1PaboULs",
@@ -80,7 +84,9 @@
     "url": "https://open.spotify.com/episode/5hFTPHqGjCT7Nv1PaboULs",
     "tags": [],
     "source": "rss",
-    "durationMin": 43
+    "durationMin": 43,
+    "refSource": "regex",
+    "seriesKey": "acts|2026-08"
   },
   {
     "id": "vintage-sm-6LzpVjezUHWTqEIXPHi0Nt",
@@ -98,7 +104,9 @@
     "url": "https://open.spotify.com/episode/6LzpVjezUHWTqEIXPHi0Nt",
     "tags": [],
     "source": "rss",
-    "durationMin": 45
+    "durationMin": 45,
+    "refSource": "regex",
+    "seriesKey": "acts|2026-08"
   },
   {
     "id": "vintage-sm-0dtWKawjMhp3wHTbQQ51nr",
@@ -116,7 +124,9 @@
     "url": "https://open.spotify.com/episode/0dtWKawjMhp3wHTbQQ51nr",
     "tags": [],
     "source": "rss",
-    "durationMin": 43
+    "durationMin": 43,
+    "refSource": "regex",
+    "seriesKey": "acts|2026-08"
   },
   {
     "id": "vintage-sm-1pY6p6AKhuaEExg40j30NO",
@@ -136,7 +146,8 @@
     "url": "https://open.spotify.com/episode/1pY6p6AKhuaEExg40j30NO",
     "tags": [],
     "source": "rss",
-    "durationMin": 40
+    "durationMin": 40,
+    "refSource": "regex"
   },
   {
     "id": "vintage-sm-4maQTmDNEMDr4tbO5Aq6JZ",
@@ -156,7 +167,9 @@
     "url": "https://open.spotify.com/episode/4maQTmDNEMDr4tbO5Aq6JZ",
     "tags": [],
     "source": "rss",
-    "durationMin": 34
+    "durationMin": 34,
+    "refSource": "regex",
+    "seriesKey": "the disobedient prophet|2026-08"
   },
   {
     "id": "vintage-sm-35csUAaQK6U9o7owAkfPMh",
@@ -174,7 +187,9 @@
     "url": "https://open.spotify.com/episode/35csUAaQK6U9o7owAkfPMh",
     "tags": [],
     "source": "rss",
-    "durationMin": 32
+    "durationMin": 32,
+    "refSource": "regex",
+    "seriesKey": "philippians|2026-06"
   },
   {
     "id": "vintage-sm-4X0OP51OPyE11p2TlU4M9c",
@@ -192,7 +207,9 @@
     "url": "https://open.spotify.com/episode/4X0OP51OPyE11p2TlU4M9c",
     "tags": [],
     "source": "rss",
-    "durationMin": 40
+    "durationMin": 40,
+    "refSource": "regex",
+    "seriesKey": "philippians|2026-06"
   },
   {
     "id": "vintage-sm-2oxvkobCU6gbxv7SiCiptG",
@@ -210,7 +227,9 @@
     "url": "https://open.spotify.com/episode/2oxvkobCU6gbxv7SiCiptG",
     "tags": [],
     "source": "rss",
-    "durationMin": 46
+    "durationMin": 46,
+    "refSource": "regex",
+    "seriesKey": "philippians|2026-06"
   },
   {
     "id": "vintage-sm-5DarkydwLQ8txPz2IB28G9",
@@ -228,7 +247,9 @@
     "url": "https://open.spotify.com/episode/5DarkydwLQ8txPz2IB28G9",
     "tags": [],
     "source": "rss",
-    "durationMin": 42
+    "durationMin": 42,
+    "refSource": "regex",
+    "seriesKey": "philippians|2026-06"
   },
   {
     "id": "vintage-sm-0mKEWnejwmKPq80UMa7pgB",
@@ -246,7 +267,9 @@
     "url": "https://open.spotify.com/episode/0mKEWnejwmKPq80UMa7pgB",
     "tags": [],
     "source": "rss",
-    "durationMin": 42
+    "durationMin": 42,
+    "refSource": "regex",
+    "seriesKey": "philippians|2026-06"
   },
   {
     "id": "vintage-sm-5RJ95m9bbQFkJdTTL1lrdX",
@@ -266,7 +289,8 @@
     "url": "https://open.spotify.com/episode/5RJ95m9bbQFkJdTTL1lrdX",
     "tags": [],
     "source": "rss",
-    "durationMin": 43
+    "durationMin": 43,
+    "refSource": "regex"
   },
   {
     "id": "vintage-sm-6p7qz4hs8dpDEuVD2Ze0Cp",
@@ -284,7 +308,9 @@
     "url": "https://open.spotify.com/episode/6p7qz4hs8dpDEuVD2Ze0Cp",
     "tags": [],
     "source": "rss",
-    "durationMin": 45
+    "durationMin": 45,
+    "refSource": "regex",
+    "seriesKey": "colossians|2026-05"
   },
   {
     "id": "vintage-sm-26bu96tBf7rmGKqemwnzGf",
@@ -302,7 +328,9 @@
     "url": "https://open.spotify.com/episode/26bu96tBf7rmGKqemwnzGf",
     "tags": [],
     "source": "rss",
-    "durationMin": 36
+    "durationMin": 36,
+    "refSource": "regex",
+    "seriesKey": "colossians|2026-05"
   },
   {
     "id": "vintage-sm-3XXrGVHMyA9zM66hHWzasu",
@@ -322,7 +350,9 @@
     "url": "https://open.spotify.com/episode/3XXrGVHMyA9zM66hHWzasu",
     "tags": [],
     "source": "rss",
-    "durationMin": 38
+    "durationMin": 38,
+    "refSource": "regex",
+    "seriesKey": "encountering the resurrected jesus|2026-04"
   },
   {
     "id": "vintage-sm-2Gf5sMkNlI0txfJGOae0dg",
@@ -342,7 +372,9 @@
     "url": "https://open.spotify.com/episode/2Gf5sMkNlI0txfJGOae0dg",
     "tags": [],
     "source": "rss",
-    "durationMin": 34
+    "durationMin": 34,
+    "refSource": "regex",
+    "seriesKey": "encountering the resurrected jesus|2026-04"
   },
   {
     "id": "vintage-sm-2N09CJ5vHuJymH3HTNznTM",
@@ -362,7 +394,8 @@
     "url": "https://open.spotify.com/episode/2N09CJ5vHuJymH3HTNznTM",
     "tags": [],
     "source": "rss",
-    "durationMin": 36
+    "durationMin": 36,
+    "refSource": "regex"
   },
   {
     "id": "vintage-sm-3TYMEXqZwlQmfn44rAcfvw",
@@ -380,7 +413,9 @@
     "url": "https://open.spotify.com/episode/3TYMEXqZwlQmfn44rAcfvw",
     "tags": [],
     "source": "rss",
-    "durationMin": 48
+    "durationMin": 48,
+    "refSource": "regex",
+    "seriesKey": "hebrews|2026-01"
   },
   {
     "id": "vintage-sm-11r3iQo0eePfXz3lKWXzbb",
@@ -398,7 +433,9 @@
     "url": "https://open.spotify.com/episode/11r3iQo0eePfXz3lKWXzbb",
     "tags": [],
     "source": "rss",
-    "durationMin": 41
+    "durationMin": 41,
+    "refSource": "regex",
+    "seriesKey": "hebrews|2026-01"
   },
   {
     "id": "vintage-sm-0Y7b5cUopdVEGgRfLXfJ96",
@@ -416,7 +453,9 @@
     "url": "https://open.spotify.com/episode/0Y7b5cUopdVEGgRfLXfJ96",
     "tags": [],
     "source": "rss",
-    "durationMin": 40
+    "durationMin": 40,
+    "refSource": "regex",
+    "seriesKey": "hebrews|2026-01"
   },
   {
     "id": "vintage-sm-0ddkzkqHxnuAWZB1a0BGkh",
@@ -434,7 +473,9 @@
     "url": "https://open.spotify.com/episode/0ddkzkqHxnuAWZB1a0BGkh",
     "tags": [],
     "source": "rss",
-    "durationMin": 36
+    "durationMin": 36,
+    "refSource": "regex",
+    "seriesKey": "hebrews|2026-01"
   },
   {
     "id": "vintage-sm-1w9JFcydfyQZfjcvf0hRIp",
@@ -454,7 +495,8 @@
     "url": "https://open.spotify.com/episode/1w9JFcydfyQZfjcvf0hRIp",
     "tags": [],
     "source": "rss",
-    "durationMin": 32
+    "durationMin": 32,
+    "refSource": "regex"
   },
   {
     "id": "vintage-sm-4KcyHrSZ3Lt1oGx6tlLKad",
@@ -474,7 +516,8 @@
     "url": "https://open.spotify.com/episode/4KcyHrSZ3Lt1oGx6tlLKad",
     "tags": [],
     "source": "rss",
-    "durationMin": 42
+    "durationMin": 42,
+    "refSource": "regex"
   },
   {
     "id": "vintage-sm-4qUl2e5vlHvmnP2ShT9hfZ",
@@ -494,7 +537,8 @@
     "url": "https://open.spotify.com/episode/4qUl2e5vlHvmnP2ShT9hfZ",
     "tags": [],
     "source": "rss",
-    "durationMin": 37
+    "durationMin": 37,
+    "refSource": "regex"
   },
   {
     "id": "vintage-sm-4wwZlqylNSTjyzA6yRk36a",
@@ -512,7 +556,9 @@
     "url": "https://open.spotify.com/episode/4wwZlqylNSTjyzA6yRk36a",
     "tags": [],
     "source": "rss",
-    "durationMin": 37
+    "durationMin": 37,
+    "refSource": "regex",
+    "seriesKey": "matthew|2025-11"
   },
   {
     "id": "vintage-sm-0TBJOd7rIL4Dtq9UmNWig4",
@@ -530,7 +576,9 @@
     "url": "https://open.spotify.com/episode/0TBJOd7rIL4Dtq9UmNWig4",
     "tags": [],
     "source": "rss",
-    "durationMin": 38
+    "durationMin": 38,
+    "refSource": "regex",
+    "seriesKey": "matthew|2025-11"
   },
   {
     "id": "vintage-sm-7xT31Mh1AQCdpxCo0YjVqK",
@@ -550,7 +598,8 @@
     "url": "https://open.spotify.com/episode/7xT31Mh1AQCdpxCo0YjVqK",
     "tags": [],
     "source": "rss",
-    "durationMin": 39
+    "durationMin": 39,
+    "refSource": "regex"
   },
   {
     "id": "vintage-sm-5XlgWTTkFs2mUrTy1GuGR7",
@@ -570,7 +619,8 @@
     "url": "https://open.spotify.com/episode/5XlgWTTkFs2mUrTy1GuGR7",
     "tags": [],
     "source": "rss",
-    "durationMin": 40
+    "durationMin": 40,
+    "refSource": "regex"
   },
   {
     "id": "vintage-sm-6wHfC77NS8X0vmHBAAWrzs",
@@ -590,7 +640,8 @@
     "url": "https://open.spotify.com/episode/6wHfC77NS8X0vmHBAAWrzs",
     "tags": [],
     "source": "rss",
-    "durationMin": 35
+    "durationMin": 35,
+    "refSource": "regex"
   },
   {
     "id": "vintage-sm-7w6oGsO6wdan41nXuomns1",
@@ -610,7 +661,8 @@
     "url": "https://open.spotify.com/episode/7w6oGsO6wdan41nXuomns1",
     "tags": [],
     "source": "rss",
-    "durationMin": 42
+    "durationMin": 42,
+    "refSource": "regex"
   },
   {
     "id": "vintage-sm-3WUSHuaHV159XIkJkuMCGg",
@@ -630,7 +682,8 @@
     "url": "https://open.spotify.com/episode/3WUSHuaHV159XIkJkuMCGg",
     "tags": [],
     "source": "rss",
-    "durationMin": 44
+    "durationMin": 44,
+    "refSource": "regex"
   },
   {
     "id": "vintage-sm-7Dx3ShhobU2mzpA8WUGjap",
@@ -650,7 +703,8 @@
     "url": "https://open.spotify.com/episode/7Dx3ShhobU2mzpA8WUGjap",
     "tags": [],
     "source": "rss",
-    "durationMin": 46
+    "durationMin": 46,
+    "refSource": "regex"
   },
   {
     "id": "vintage-sm-6jFDJYiwpiGJwWduinQiUE",
@@ -668,7 +722,9 @@
     "url": "https://open.spotify.com/episode/6jFDJYiwpiGJwWduinQiUE",
     "tags": [],
     "source": "rss",
-    "durationMin": 55
+    "durationMin": 55,
+    "refSource": "regex",
+    "seriesKey": "acts|2025-07"
   },
   {
     "id": "vintage-sm-5gFYSazsgVl267EG6dp0OT",
@@ -686,7 +742,9 @@
     "url": "https://open.spotify.com/episode/5gFYSazsgVl267EG6dp0OT",
     "tags": [],
     "source": "rss",
-    "durationMin": 47
+    "durationMin": 47,
+    "refSource": "regex",
+    "seriesKey": "philemon|2025-06"
   },
   {
     "id": "vintage-sm-2dDAVSuybFuKEgvgU6ii22",
@@ -704,7 +762,9 @@
     "url": "https://open.spotify.com/episode/2dDAVSuybFuKEgvgU6ii22",
     "tags": [],
     "source": "rss",
-    "durationMin": 45
+    "durationMin": 45,
+    "refSource": "regex",
+    "seriesKey": "philemon|2025-06"
   },
   {
     "id": "vintage-sm-6Cp1hsIwykWjtCm1cYcFZn",
@@ -722,7 +782,9 @@
     "url": "https://open.spotify.com/episode/6Cp1hsIwykWjtCm1cYcFZn",
     "tags": [],
     "source": "rss",
-    "durationMin": 42
+    "durationMin": 42,
+    "refSource": "regex",
+    "seriesKey": "jude|2025-06"
   },
   {
     "id": "vintage-sm-0m5Fxraqhgkbxy4FHQTEDj",
@@ -740,7 +802,9 @@
     "url": "https://open.spotify.com/episode/0m5Fxraqhgkbxy4FHQTEDj",
     "tags": [],
     "source": "rss",
-    "durationMin": 41
+    "durationMin": 41,
+    "refSource": "regex",
+    "seriesKey": "jude|2025-06"
   },
   {
     "id": "vintage-sm-2EGvdm0YCvfcVRleKhtWpk",
@@ -758,7 +822,31 @@
     "url": "https://open.spotify.com/episode/2EGvdm0YCvfcVRleKhtWpk",
     "tags": [],
     "source": "rss",
-    "durationMin": 41
+    "durationMin": 41,
+    "refSource": "regex",
+    "seriesKey": "jude|2025-06"
+  },
+  {
+    "id": "vintage-sm-2n83ohrvq0uknOS0xZqgEE",
+    "title": "The Good Samaritan",
+    "church": "vintage-sm",
+    "speaker": "Dr. Amy Orr-Ewing",
+    "date": "2025-05-19",
+    "series": "",
+    "passage": "",
+    "refs": [
+      {
+        "book": "luke",
+        "start": 10,
+        "end": 10
+      }
+    ],
+    "url": "https://open.spotify.com/episode/2n83ohrvq0uknOS0xZqgEE",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 40,
+    "refSource": "ai",
+    "aiConfidence": 0.95
   },
   {
     "id": "vintage-sm-1jGx3gkWoTupaBDGNLqaOT",
@@ -778,7 +866,8 @@
     "url": "https://open.spotify.com/episode/1jGx3gkWoTupaBDGNLqaOT",
     "tags": [],
     "source": "rss",
-    "durationMin": 39
+    "durationMin": 39,
+    "refSource": "regex"
   },
   {
     "id": "vintage-sm-2bXTegbTreYYbqhDOFHVmC",
@@ -796,7 +885,9 @@
     "url": "https://open.spotify.com/episode/2bXTegbTreYYbqhDOFHVmC",
     "tags": [],
     "source": "rss",
-    "durationMin": 48
+    "durationMin": 48,
+    "refSource": "regex",
+    "seriesKey": "john|2025-01"
   },
   {
     "id": "vintage-sm-7odnoFeSIV5gMOhe1k84M4",
@@ -814,7 +905,9 @@
     "url": "https://open.spotify.com/episode/7odnoFeSIV5gMOhe1k84M4",
     "tags": [],
     "source": "rss",
-    "durationMin": 43
+    "durationMin": 43,
+    "refSource": "regex",
+    "seriesKey": "john|2025-01"
   },
   {
     "id": "vintage-sm-6PJo7wF9MZexH7t5XIGuDG",
@@ -832,7 +925,9 @@
     "url": "https://open.spotify.com/episode/6PJo7wF9MZexH7t5XIGuDG",
     "tags": [],
     "source": "rss",
-    "durationMin": 32
+    "durationMin": 32,
+    "refSource": "regex",
+    "seriesKey": "john|2025-01"
   },
   {
     "id": "vintage-sm-50jazDFasOX3abFmWAc7XW",
@@ -850,7 +945,9 @@
     "url": "https://open.spotify.com/episode/50jazDFasOX3abFmWAc7XW",
     "tags": [],
     "source": "rss",
-    "durationMin": 39
+    "durationMin": 39,
+    "refSource": "regex",
+    "seriesKey": "john|2025-01"
   },
   {
     "id": "vintage-sm-5atK0BIf1f6e4lrtQ7azZ4",
@@ -868,7 +965,9 @@
     "url": "https://open.spotify.com/episode/5atK0BIf1f6e4lrtQ7azZ4",
     "tags": [],
     "source": "rss",
-    "durationMin": 44
+    "durationMin": 44,
+    "refSource": "regex",
+    "seriesKey": "john|2025-01"
   },
   {
     "id": "vintage-sm-6ibj9JgdU5MNTUwEThgFf3",
@@ -886,7 +985,9 @@
     "url": "https://open.spotify.com/episode/6ibj9JgdU5MNTUwEThgFf3",
     "tags": [],
     "source": "rss",
-    "durationMin": 42
+    "durationMin": 42,
+    "refSource": "regex",
+    "seriesKey": "john|2025-01"
   },
   {
     "id": "vintage-sm-6h2JvUPvr25G4wgdBkTQ3F",
@@ -904,7 +1005,9 @@
     "url": "https://open.spotify.com/episode/6h2JvUPvr25G4wgdBkTQ3F",
     "tags": [],
     "source": "rss",
-    "durationMin": 28
+    "durationMin": 28,
+    "refSource": "regex",
+    "seriesKey": "john|2025-01"
   },
   {
     "id": "vintage-sm-388jEeVpWfZW14rnQpp0Zg",
@@ -922,7 +1025,9 @@
     "url": "https://open.spotify.com/episode/388jEeVpWfZW14rnQpp0Zg",
     "tags": [],
     "source": "rss",
-    "durationMin": 39
+    "durationMin": 39,
+    "refSource": "regex",
+    "seriesKey": "john|2025-01"
   },
   {
     "id": "vintage-sm-25wawHR307GoJ2VOsQAix2",
@@ -942,7 +1047,9 @@
     "url": "https://open.spotify.com/episode/25wawHR307GoJ2VOsQAix2",
     "tags": [],
     "source": "rss",
-    "durationMin": 40
+    "durationMin": 40,
+    "refSource": "regex",
+    "seriesKey": "wk-run 2024-11-25|2024-11"
   },
   {
     "id": "vintage-sm-1ikdqNsIaEsYWWC6zj8CTj",
@@ -962,7 +1069,9 @@
     "url": "https://open.spotify.com/episode/1ikdqNsIaEsYWWC6zj8CTj",
     "tags": [],
     "source": "rss",
-    "durationMin": 35
+    "durationMin": 35,
+    "refSource": "regex",
+    "seriesKey": "wk-run 2024-11-25|2024-11"
   },
   {
     "id": "vintage-sm-5RK1Vn77K3WPNTQIi21jQv",
@@ -980,7 +1089,9 @@
     "url": "https://open.spotify.com/episode/5RK1Vn77K3WPNTQIi21jQv",
     "tags": [],
     "source": "rss",
-    "durationMin": 41
+    "durationMin": 41,
+    "refSource": "regex",
+    "seriesKey": "2 timothy|2024-08"
   },
   {
     "id": "vintage-sm-3hsK2gx7jxIdb7Wz4627kO",
@@ -998,7 +1109,9 @@
     "url": "https://open.spotify.com/episode/3hsK2gx7jxIdb7Wz4627kO",
     "tags": [],
     "source": "rss",
-    "durationMin": 42
+    "durationMin": 42,
+    "refSource": "regex",
+    "seriesKey": "2 timothy|2024-08"
   },
   {
     "id": "vintage-sm-3oSRenmC7HqQaciyUNkUw1",
@@ -1016,7 +1129,9 @@
     "url": "https://open.spotify.com/episode/3oSRenmC7HqQaciyUNkUw1",
     "tags": [],
     "source": "rss",
-    "durationMin": 48
+    "durationMin": 48,
+    "refSource": "regex",
+    "seriesKey": "2 timothy|2024-08"
   },
   {
     "id": "vintage-sm-4ns8nEm2gbPvek79gWYgDM",
@@ -1034,7 +1149,9 @@
     "url": "https://open.spotify.com/episode/4ns8nEm2gbPvek79gWYgDM",
     "tags": [],
     "source": "rss",
-    "durationMin": 44
+    "durationMin": 44,
+    "refSource": "regex",
+    "seriesKey": "2 timothy|2024-08"
   },
   {
     "id": "vintage-sm-5IiLEibORSYclDcKeXtJX6",
@@ -1052,7 +1169,9 @@
     "url": "https://open.spotify.com/episode/5IiLEibORSYclDcKeXtJX6",
     "tags": [],
     "source": "rss",
-    "durationMin": 44
+    "durationMin": 44,
+    "refSource": "regex",
+    "seriesKey": "2 timothy|2024-08"
   },
   {
     "id": "vintage-sm-2TE8qUL4OPRF6ARWchlEyC",
@@ -1070,7 +1189,9 @@
     "url": "https://open.spotify.com/episode/2TE8qUL4OPRF6ARWchlEyC",
     "tags": [],
     "source": "rss",
-    "durationMin": 39
+    "durationMin": 39,
+    "refSource": "regex",
+    "seriesKey": "2 timothy|2024-08"
   },
   {
     "id": "vintage-sm-6f4aNWa79MsTXD2anYNXic",
@@ -1088,7 +1209,9 @@
     "url": "https://open.spotify.com/episode/6f4aNWa79MsTXD2anYNXic",
     "tags": [],
     "source": "rss",
-    "durationMin": 41
+    "durationMin": 41,
+    "refSource": "regex",
+    "seriesKey": "2 timothy|2024-08"
   },
   {
     "id": "vintage-sm-7v3TFYlJIzXOUoNYii32XF",
@@ -1106,7 +1229,9 @@
     "url": "https://open.spotify.com/episode/7v3TFYlJIzXOUoNYii32XF",
     "tags": [],
     "source": "rss",
-    "durationMin": 43
+    "durationMin": 43,
+    "refSource": "regex",
+    "seriesKey": "2 timothy|2024-08"
   },
   {
     "id": "vintage-sm-1XoH22L9aO3pV0cr1d8tL2",
@@ -1124,7 +1249,9 @@
     "url": "https://open.spotify.com/episode/1XoH22L9aO3pV0cr1d8tL2",
     "tags": [],
     "source": "rss",
-    "durationMin": 47
+    "durationMin": 47,
+    "refSource": "regex",
+    "seriesKey": "2 timothy|2024-08"
   },
   {
     "id": "vintage-sm-5mrrQDf6fyRYrglDJRHbGo",
@@ -1142,7 +1269,9 @@
     "url": "https://open.spotify.com/episode/5mrrQDf6fyRYrglDJRHbGo",
     "tags": [],
     "source": "rss",
-    "durationMin": 29
+    "durationMin": 29,
+    "refSource": "regex",
+    "seriesKey": "colossians|2024-07"
   },
   {
     "id": "vintage-sm-2WKZ84GCvfIyxrCC8Z5Mqd",
@@ -1160,7 +1289,9 @@
     "url": "https://open.spotify.com/episode/2WKZ84GCvfIyxrCC8Z5Mqd",
     "tags": [],
     "source": "rss",
-    "durationMin": 29
+    "durationMin": 29,
+    "refSource": "regex",
+    "seriesKey": "philemon|2024-07"
   },
   {
     "id": "vintage-sm-4OVFd13ou36zHbLlfYx8Cl",
@@ -1178,7 +1309,9 @@
     "url": "https://open.spotify.com/episode/4OVFd13ou36zHbLlfYx8Cl",
     "tags": [],
     "source": "rss",
-    "durationMin": 38
+    "durationMin": 38,
+    "refSource": "regex",
+    "seriesKey": "1 peter|2024-06"
   },
   {
     "id": "vintage-sm-0ee9J6WFzUjwyOTTyoQjyB",
@@ -1196,7 +1329,9 @@
     "url": "https://open.spotify.com/episode/0ee9J6WFzUjwyOTTyoQjyB",
     "tags": [],
     "source": "rss",
-    "durationMin": 48
+    "durationMin": 48,
+    "refSource": "regex",
+    "seriesKey": "1 peter|2024-06"
   },
   {
     "id": "vintage-sm-5ttIjsbykCJaaJi2HFJldw",
@@ -1214,7 +1349,9 @@
     "url": "https://open.spotify.com/episode/5ttIjsbykCJaaJi2HFJldw",
     "tags": [],
     "source": "rss",
-    "durationMin": 53
+    "durationMin": 53,
+    "refSource": "regex",
+    "seriesKey": "1 peter|2024-06"
   },
   {
     "id": "vintage-sm-42W76T5frVXLGJ2oDHs1R7",
@@ -1232,7 +1369,9 @@
     "url": "https://open.spotify.com/episode/42W76T5frVXLGJ2oDHs1R7",
     "tags": [],
     "source": "rss",
-    "durationMin": 40
+    "durationMin": 40,
+    "refSource": "regex",
+    "seriesKey": "1 peter|2024-06"
   },
   {
     "id": "vintage-sm-3xCMz8cht8BCxfmyZVX1I5",
@@ -1250,7 +1389,9 @@
     "url": "https://open.spotify.com/episode/3xCMz8cht8BCxfmyZVX1I5",
     "tags": [],
     "source": "rss",
-    "durationMin": 40
+    "durationMin": 40,
+    "refSource": "regex",
+    "seriesKey": "1 peter|2024-06"
   },
   {
     "id": "vintage-sm-6VNLitUgmV2JVnYjKYZAce",
@@ -1268,7 +1409,9 @@
     "url": "https://open.spotify.com/episode/6VNLitUgmV2JVnYjKYZAce",
     "tags": [],
     "source": "rss",
-    "durationMin": 45
+    "durationMin": 45,
+    "refSource": "regex",
+    "seriesKey": "1 peter|2024-06"
   },
   {
     "id": "vintage-sm-06zlsHkDy0XTtkegZAF8TZ",
@@ -1286,7 +1429,8 @@
     "url": "https://open.spotify.com/episode/06zlsHkDy0XTtkegZAF8TZ",
     "tags": [],
     "source": "rss",
-    "durationMin": 44
+    "durationMin": 44,
+    "refSource": "regex"
   },
   {
     "id": "vintage-sm-0razVPtNHumMlDe91RBfZv",
@@ -1304,7 +1448,9 @@
     "url": "https://open.spotify.com/episode/0razVPtNHumMlDe91RBfZv",
     "tags": [],
     "source": "rss",
-    "durationMin": 40
+    "durationMin": 40,
+    "refSource": "regex",
+    "seriesKey": "exodus|2024-01"
   },
   {
     "id": "vintage-sm-5AhChtzgTRutnXloyov5wj",
@@ -1322,7 +1468,9 @@
     "url": "https://open.spotify.com/episode/5AhChtzgTRutnXloyov5wj",
     "tags": [],
     "source": "rss",
-    "durationMin": 46
+    "durationMin": 46,
+    "refSource": "regex",
+    "seriesKey": "exodus|2024-01"
   },
   {
     "id": "vintage-sm-10Vydas53sRb5GhZPu8THt",
@@ -1340,7 +1488,9 @@
     "url": "https://open.spotify.com/episode/10Vydas53sRb5GhZPu8THt",
     "tags": [],
     "source": "rss",
-    "durationMin": 40
+    "durationMin": 40,
+    "refSource": "regex",
+    "seriesKey": "exodus|2024-01"
   },
   {
     "id": "vintage-sm-2905QcdV3N5Ci7IhSxlinu",
@@ -1358,7 +1508,9 @@
     "url": "https://open.spotify.com/episode/2905QcdV3N5Ci7IhSxlinu",
     "tags": [],
     "source": "rss",
-    "durationMin": 39
+    "durationMin": 39,
+    "refSource": "regex",
+    "seriesKey": "exodus|2024-01"
   },
   {
     "id": "vintage-sm-47ZiWaNCfsGn6fijEv7F3w",
@@ -1376,7 +1528,9 @@
     "url": "https://open.spotify.com/episode/47ZiWaNCfsGn6fijEv7F3w",
     "tags": [],
     "source": "rss",
-    "durationMin": 25
+    "durationMin": 25,
+    "refSource": "regex",
+    "seriesKey": "mark|2023-11"
   },
   {
     "id": "vintage-sm-7fTUpHl9S9WSAGVa7XhGeG",
@@ -1394,7 +1548,9 @@
     "url": "https://open.spotify.com/episode/7fTUpHl9S9WSAGVa7XhGeG",
     "tags": [],
     "source": "rss",
-    "durationMin": 36
+    "durationMin": 36,
+    "refSource": "regex",
+    "seriesKey": "mark|2023-11"
   },
   {
     "id": "vintage-sm-0hdzPrmeNH7z2CQ4dt8jkF",
@@ -1412,7 +1568,9 @@
     "url": "https://open.spotify.com/episode/0hdzPrmeNH7z2CQ4dt8jkF",
     "tags": [],
     "source": "rss",
-    "durationMin": 53
+    "durationMin": 53,
+    "refSource": "regex",
+    "seriesKey": "mark|2023-11"
   },
   {
     "id": "vintage-sm-1B1ZAJDOeAjD9RlzNhtEOz",
@@ -1430,7 +1588,74 @@
     "url": "https://open.spotify.com/episode/1B1ZAJDOeAjD9RlzNhtEOz",
     "tags": [],
     "source": "rss",
-    "durationMin": 49
+    "durationMin": 49,
+    "refSource": "regex",
+    "seriesKey": "mark|2023-11"
+  },
+  {
+    "id": "vintage-sm-150XLpmqy7vtNnYjG2mrsh",
+    "title": "When YHWH Met Abram",
+    "church": "vintage-sm",
+    "speaker": "Jonny Bell",
+    "date": "2023-10-11",
+    "series": "",
+    "passage": "",
+    "refs": [
+      {
+        "book": "genesis",
+        "start": 12,
+        "end": 15
+      }
+    ],
+    "url": "https://open.spotify.com/episode/150XLpmqy7vtNnYjG2mrsh",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 43,
+    "refSource": "ai",
+    "aiConfidence": 0.9
+  },
+  {
+    "id": "vintage-sm-7bFZ44fSDjd2b3cicw3ZCz",
+    "title": "Why the Plagues?",
+    "church": "vintage-sm",
+    "speaker": "Ger Jones",
+    "date": "2023-10-02",
+    "series": "",
+    "passage": "",
+    "refs": [
+      {
+        "book": "exodus",
+        "start": 7,
+        "end": 12
+      }
+    ],
+    "url": "https://open.spotify.com/episode/7bFZ44fSDjd2b3cicw3ZCz",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 38,
+    "refSource": "ai",
+    "aiConfidence": 0.9
+  },
+  {
+    "id": "vintage-sm-2pbTWxkS1CdOPmmyRnrDhT",
+    "title": "Introduction to Philippians",
+    "church": "vintage-sm",
+    "speaker": "Jason Ballard",
+    "date": "2023-06-21",
+    "series": "Citizens",
+    "passage": "",
+    "refs": [
+      {
+        "book": "philippians"
+      }
+    ],
+    "url": "https://open.spotify.com/episode/2pbTWxkS1CdOPmmyRnrDhT",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 41,
+    "refSource": "ai",
+    "aiConfidence": 0.95,
+    "seriesKey": "citizens|2023-06"
   },
   {
     "id": "vintage-sm-5EdB3jop5kLsMl8u4vEQRj",
@@ -1450,7 +1675,8 @@
     "url": "https://open.spotify.com/episode/5EdB3jop5kLsMl8u4vEQRj",
     "tags": [],
     "source": "rss",
-    "durationMin": 40
+    "durationMin": 40,
+    "refSource": "regex"
   },
   {
     "id": "vintage-sm-genesis-1-3-grand-designs-ger-jones-june-4-2023",
@@ -1470,7 +1696,8 @@
     "url": "https://www.vintagechurchla.com/vintage-church-la-sermons/genesis-1-3-grand-designs-ger-jones-june-4-2023",
     "tags": [],
     "source": "rss",
-    "durationMin": 42
+    "durationMin": 42,
+    "refSource": "regex"
   },
   {
     "id": "vintage-sm-6yHiTIdc65yBvi7dXS7EtM",
@@ -1490,7 +1717,31 @@
     "url": "https://open.spotify.com/episode/6yHiTIdc65yBvi7dXS7EtM",
     "tags": [],
     "source": "rss",
-    "durationMin": 40
+    "durationMin": 40,
+    "refSource": "regex"
+  },
+  {
+    "id": "vintage-sm-6hWkF05fhyGQXwtMTTJnVj",
+    "title": "The Great Commission",
+    "church": "vintage-sm",
+    "speaker": "Ger Jones",
+    "date": "2023-04-24",
+    "series": "Life After Easter",
+    "passage": "",
+    "refs": [
+      {
+        "book": "matthew",
+        "start": 28,
+        "end": 28
+      }
+    ],
+    "url": "https://open.spotify.com/episode/6hWkF05fhyGQXwtMTTJnVj",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 41,
+    "refSource": "ai",
+    "aiConfidence": 0.9,
+    "seriesKey": "life after easter|2023-04"
   },
   {
     "id": "vintage-sm-5IFV5HZ0x9uRqXqAqeADc8",
@@ -1508,7 +1759,9 @@
     "url": "https://open.spotify.com/episode/5IFV5HZ0x9uRqXqAqeADc8",
     "tags": [],
     "source": "rss",
-    "durationMin": 41
+    "durationMin": 41,
+    "refSource": "regex",
+    "seriesKey": "ruth|2023-01"
   },
   {
     "id": "vintage-sm-0TCBxy8BBNDju0vviNDIlo",
@@ -1526,7 +1779,9 @@
     "url": "https://open.spotify.com/episode/0TCBxy8BBNDju0vviNDIlo",
     "tags": [],
     "source": "rss",
-    "durationMin": 41
+    "durationMin": 41,
+    "refSource": "regex",
+    "seriesKey": "ruth|2023-01"
   },
   {
     "id": "vintage-sm-46sIp5QuXhBSedxX9eOSNf",
@@ -1544,7 +1799,9 @@
     "url": "https://open.spotify.com/episode/46sIp5QuXhBSedxX9eOSNf",
     "tags": [],
     "source": "rss",
-    "durationMin": 44
+    "durationMin": 44,
+    "refSource": "regex",
+    "seriesKey": "ruth|2023-01"
   },
   {
     "id": "vintage-sm-58G0AlTS01WITJFkFn6sWQ",
@@ -1562,7 +1819,32 @@
     "url": "https://open.spotify.com/episode/58G0AlTS01WITJFkFn6sWQ",
     "tags": [],
     "source": "rss",
-    "durationMin": 41
+    "durationMin": 41,
+    "refSource": "regex",
+    "seriesKey": "ephesians|2022-10"
+  },
+  {
+    "id": "vintage-sm-2Vt2rcEKtmNAv9mGm2Z7i6",
+    "title": "Experiencing the Love of God",
+    "church": "vintage-sm",
+    "speaker": "",
+    "date": "2022-11-16",
+    "series": "Ephesians",
+    "passage": "",
+    "refs": [
+      {
+        "book": "ephesians",
+        "start": 3,
+        "end": 3
+      }
+    ],
+    "url": "https://open.spotify.com/episode/2Vt2rcEKtmNAv9mGm2Z7i6",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 32,
+    "refSource": "ai",
+    "aiConfidence": 0.95,
+    "seriesKey": "ephesians|2022-10"
   },
   {
     "id": "vintage-sm-5ojSA5MPSzEpa21Wix3kiW",
@@ -1580,7 +1862,9 @@
     "url": "https://open.spotify.com/episode/5ojSA5MPSzEpa21Wix3kiW",
     "tags": [],
     "source": "rss",
-    "durationMin": 37
+    "durationMin": 37,
+    "refSource": "regex",
+    "seriesKey": "ephesians|2022-10"
   },
   {
     "id": "vintage-sm-73pBft2qKnaoIR4Vf27obZ",
@@ -1598,7 +1882,9 @@
     "url": "https://open.spotify.com/episode/73pBft2qKnaoIR4Vf27obZ",
     "tags": [],
     "source": "rss",
-    "durationMin": 44
+    "durationMin": 44,
+    "refSource": "regex",
+    "seriesKey": "wk-run 2022-10-30|2022-10"
   },
   {
     "id": "vintage-sm-46jOjzyZnScgHpZ3xMWJ4j",
@@ -1616,7 +1902,9 @@
     "url": "https://open.spotify.com/episode/46jOjzyZnScgHpZ3xMWJ4j",
     "tags": [],
     "source": "rss",
-    "durationMin": 43
+    "durationMin": 43,
+    "refSource": "regex",
+    "seriesKey": "ephesians|2022-10"
   },
   {
     "id": "vintage-sm-3ioHpS2zjGTe80k1NFMQ06",
@@ -1634,7 +1922,258 @@
     "url": "https://open.spotify.com/episode/3ioHpS2zjGTe80k1NFMQ06",
     "tags": [],
     "source": "rss",
-    "durationMin": 40
+    "durationMin": 40,
+    "refSource": "regex",
+    "seriesKey": "ephesians|2022-10"
+  },
+  {
+    "id": "vintage-sm-4t4Pzg19XZuwS4nFhcx7jt",
+    "title": "Jesus the Servant",
+    "church": "vintage-sm",
+    "speaker": "Ash Meaney",
+    "date": "2022-08-29",
+    "series": "Encounters with Jesus",
+    "passage": "",
+    "refs": [
+      {
+        "book": "john",
+        "start": 13,
+        "end": 13
+      }
+    ],
+    "url": "https://open.spotify.com/episode/4t4Pzg19XZuwS4nFhcx7jt",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 29,
+    "refSource": "series",
+    "aiConfidence": 0.97,
+    "seriesKey": "encounters with jesus|2022-06"
+  },
+  {
+    "id": "vintage-sm-3OZQ6zJfPvkRBoKne4YcyK",
+    "title": "Jesus and Being Both God and Man",
+    "church": "vintage-sm",
+    "speaker": "Ger Jones",
+    "date": "2022-08-22",
+    "series": "Encounters with Jesus",
+    "passage": "",
+    "refs": [
+      {
+        "book": "john",
+        "start": 1,
+        "end": 1
+      }
+    ],
+    "url": "https://open.spotify.com/episode/3OZQ6zJfPvkRBoKne4YcyK",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 38,
+    "refSource": "series",
+    "aiConfidence": 0.97,
+    "seriesKey": "encounters with jesus|2022-06"
+  },
+  {
+    "id": "vintage-sm-1QyfH5J0i1XVshEAHEQB6p",
+    "title": "Jesus and the Search for a Good Shepherd",
+    "church": "vintage-sm",
+    "speaker": "Ger Jones",
+    "date": "2022-08-16",
+    "series": "Encounters with Jesus",
+    "passage": "",
+    "refs": [
+      {
+        "book": "john",
+        "start": 10,
+        "end": 10
+      }
+    ],
+    "url": "https://open.spotify.com/episode/1QyfH5J0i1XVshEAHEQB6p",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 36,
+    "refSource": "ai",
+    "aiConfidence": 0.9,
+    "seriesKey": "encounters with jesus|2022-06"
+  },
+  {
+    "id": "vintage-sm-1z7aOivgrRPGI754KZDQN6",
+    "title": "Jesus and Spiritual Blindness",
+    "church": "vintage-sm",
+    "speaker": "Ger Jones",
+    "date": "2022-08-10",
+    "series": "Encounters with Jesus",
+    "passage": "",
+    "refs": [
+      {
+        "book": "john",
+        "start": 9,
+        "end": 9
+      }
+    ],
+    "url": "https://open.spotify.com/episode/1z7aOivgrRPGI754KZDQN6",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 39,
+    "refSource": "series",
+    "aiConfidence": 0.97,
+    "seriesKey": "encounters with jesus|2022-06"
+  },
+  {
+    "id": "vintage-sm-7DAlBQiMi4lAOCNfDE5Tjf",
+    "title": "Jesus and the Wedding",
+    "church": "vintage-sm",
+    "speaker": "Jonny Bell",
+    "date": "2022-08-01",
+    "series": "Encounters with Jesus",
+    "passage": "",
+    "refs": [
+      {
+        "book": "john",
+        "start": 2,
+        "end": 2
+      }
+    ],
+    "url": "https://open.spotify.com/episode/7DAlBQiMi4lAOCNfDE5Tjf",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 33,
+    "refSource": "ai",
+    "aiConfidence": 0.85,
+    "seriesKey": "encounters with jesus|2022-06"
+  },
+  {
+    "id": "vintage-sm-6wC4W8mwnH42eWe6r6MM2w",
+    "title": "Jesus and the Blind Man",
+    "church": "vintage-sm",
+    "speaker": "Ger Jones",
+    "date": "2022-07-20",
+    "series": "Encounters with Jesus",
+    "passage": "",
+    "refs": [
+      {
+        "book": "john",
+        "start": 9,
+        "end": 9
+      }
+    ],
+    "url": "https://open.spotify.com/episode/6wC4W8mwnH42eWe6r6MM2w",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 41,
+    "refSource": "series",
+    "aiConfidence": 0.97,
+    "seriesKey": "encounters with jesus|2022-06"
+  },
+  {
+    "id": "vintage-sm-6YgsqZv1i0RFMzPtpXov06",
+    "title": "Jesus and the Hungry",
+    "church": "vintage-sm",
+    "speaker": "Ash Meaney",
+    "date": "2022-07-04",
+    "series": "Encounters with Jesus",
+    "passage": "",
+    "refs": [
+      {
+        "book": "john",
+        "start": 6,
+        "end": 6
+      }
+    ],
+    "url": "https://open.spotify.com/episode/6YgsqZv1i0RFMzPtpXov06",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 24,
+    "refSource": "series",
+    "aiConfidence": 0.97,
+    "seriesKey": "encounters with jesus|2022-06"
+  },
+  {
+    "id": "vintage-sm-342tIUqiUjQIUfiKqiB2MA",
+    "title": "Jesus and Women",
+    "church": "vintage-sm",
+    "speaker": "Dr. Amy Orr-Ewing",
+    "date": "2022-06-27",
+    "series": "Encounters with Jesus",
+    "passage": "",
+    "refs": [
+      {
+        "book": "john"
+      }
+    ],
+    "url": "https://open.spotify.com/episode/342tIUqiUjQIUfiKqiB2MA",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 36,
+    "refSource": "series",
+    "aiConfidence": 0.97,
+    "seriesKey": "encounters with jesus|2022-06"
+  },
+  {
+    "id": "vintage-sm-61UVdXNKdvcgQCrObALxjU",
+    "title": "Jesus and the Outcast",
+    "church": "vintage-sm",
+    "speaker": "Ger Jones",
+    "date": "2022-06-21",
+    "series": "Encounters with Jesus",
+    "passage": "",
+    "refs": [
+      {
+        "book": "john",
+        "start": 4,
+        "end": 4
+      }
+    ],
+    "url": "https://open.spotify.com/episode/61UVdXNKdvcgQCrObALxjU",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 34,
+    "refSource": "series",
+    "aiConfidence": 0.97,
+    "seriesKey": "encounters with jesus|2022-06"
+  },
+  {
+    "id": "vintage-sm-3f8euv5OpYp83CD7OVNL4m",
+    "title": "Jesus and the Religious",
+    "church": "vintage-sm",
+    "speaker": "Ger Jones",
+    "date": "2022-06-14",
+    "series": "Encounters with Jesus",
+    "passage": "",
+    "refs": [
+      {
+        "book": "john",
+        "start": 3,
+        "end": 3
+      }
+    ],
+    "url": "https://open.spotify.com/episode/3f8euv5OpYp83CD7OVNL4m",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 37,
+    "refSource": "series",
+    "aiConfidence": 0.97,
+    "seriesKey": "encounters with jesus|2022-06"
+  },
+  {
+    "id": "vintage-sm-4RmHNdnDioQicTiMHU2WKe",
+    "title": "Jesus and the Skeptic",
+    "church": "vintage-sm",
+    "speaker": "Ger Jones",
+    "date": "2022-06-10",
+    "series": "Encounters with Jesus",
+    "passage": "",
+    "refs": [
+      {
+        "book": "john"
+      }
+    ],
+    "url": "https://open.spotify.com/episode/4RmHNdnDioQicTiMHU2WKe",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 34,
+    "refSource": "series",
+    "aiConfidence": 0.97,
+    "seriesKey": "encounters with jesus|2022-06"
   },
   {
     "id": "vintage-sm-17NqxW469AHy6Tic4cI4BP",
@@ -1652,7 +2191,9 @@
     "url": "https://open.spotify.com/episode/17NqxW469AHy6Tic4cI4BP",
     "tags": [],
     "source": "rss",
-    "durationMin": 38
+    "durationMin": 38,
+    "refSource": "regex",
+    "seriesKey": "jonah|2022-01"
   },
   {
     "id": "vintage-sm-7cIMOJrXEucujfV8961QJ8",
@@ -1670,7 +2211,9 @@
     "url": "https://open.spotify.com/episode/7cIMOJrXEucujfV8961QJ8",
     "tags": [],
     "source": "rss",
-    "durationMin": 38
+    "durationMin": 38,
+    "refSource": "regex",
+    "seriesKey": "jonah|2022-01"
   },
   {
     "id": "vintage-sm-0TfFRhfTPgxbnb0UAiBO9f",
@@ -1688,7 +2231,9 @@
     "url": "https://open.spotify.com/episode/0TfFRhfTPgxbnb0UAiBO9f",
     "tags": [],
     "source": "rss",
-    "durationMin": 29
+    "durationMin": 29,
+    "refSource": "regex",
+    "seriesKey": "jonah|2022-01"
   },
   {
     "id": "vintage-sm-5JPt7Ydq4C646qK9bvZWhu",
@@ -1706,7 +2251,9 @@
     "url": "https://open.spotify.com/episode/5JPt7Ydq4C646qK9bvZWhu",
     "tags": [],
     "source": "rss",
-    "durationMin": 36
+    "durationMin": 36,
+    "refSource": "regex",
+    "seriesKey": "jonah|2022-01"
   },
   {
     "id": "vintage-sm-1uHYV55lMbR8lFiUPWEZAJ",
@@ -1724,7 +2271,9 @@
     "url": "https://open.spotify.com/episode/1uHYV55lMbR8lFiUPWEZAJ",
     "tags": [],
     "source": "rss",
-    "durationMin": 34
+    "durationMin": 34,
+    "refSource": "regex",
+    "seriesKey": "jonah|2022-01"
   },
   {
     "id": "vintage-sm-1wAisNnI110KisEwAfC7vW",
@@ -1742,7 +2291,9 @@
     "url": "https://open.spotify.com/episode/1wAisNnI110KisEwAfC7vW",
     "tags": [],
     "source": "rss",
-    "durationMin": 31
+    "durationMin": 31,
+    "refSource": "regex",
+    "seriesKey": "philemon|2021-09"
   },
   {
     "id": "vintage-sm-5hyzVxiX1jWaHiTzG4pm7l",
@@ -1760,7 +2311,9 @@
     "url": "https://open.spotify.com/episode/5hyzVxiX1jWaHiTzG4pm7l",
     "tags": [],
     "source": "rss",
-    "durationMin": 37
+    "durationMin": 37,
+    "refSource": "regex",
+    "seriesKey": "acts|2021-04"
   },
   {
     "id": "vintage-sm-6BNkqwYopRtk9mjqcUJMN2",
@@ -1778,7 +2331,9 @@
     "url": "https://open.spotify.com/episode/6BNkqwYopRtk9mjqcUJMN2",
     "tags": [],
     "source": "rss",
-    "durationMin": 33
+    "durationMin": 33,
+    "refSource": "regex",
+    "seriesKey": "acts|2021-04"
   },
   {
     "id": "vintage-sm-1BF7KqplhEfHXY60cPTXFe",
@@ -1796,7 +2351,9 @@
     "url": "https://open.spotify.com/episode/1BF7KqplhEfHXY60cPTXFe",
     "tags": [],
     "source": "rss",
-    "durationMin": 29
+    "durationMin": 29,
+    "refSource": "regex",
+    "seriesKey": "acts|2021-04"
   },
   {
     "id": "vintage-sm-6D27TGC0XxbZBoEg1E0tZA",
@@ -1814,7 +2371,9 @@
     "url": "https://open.spotify.com/episode/6D27TGC0XxbZBoEg1E0tZA",
     "tags": [],
     "source": "rss",
-    "durationMin": 28
+    "durationMin": 28,
+    "refSource": "regex",
+    "seriesKey": "acts|2021-04"
   },
   {
     "id": "vintage-sm-63B2LIE5RuewTGtYPIvC11",
@@ -1832,7 +2391,9 @@
     "url": "https://open.spotify.com/episode/63B2LIE5RuewTGtYPIvC11",
     "tags": [],
     "source": "rss",
-    "durationMin": 28
+    "durationMin": 28,
+    "refSource": "regex",
+    "seriesKey": "acts|2021-04"
   },
   {
     "id": "vintage-sm-1KoZZUSlPAhHK5FOL7avOv",
@@ -1850,7 +2411,9 @@
     "url": "https://open.spotify.com/episode/1KoZZUSlPAhHK5FOL7avOv",
     "tags": [],
     "source": "rss",
-    "durationMin": 30
+    "durationMin": 30,
+    "refSource": "regex",
+    "seriesKey": "acts|2021-04"
   },
   {
     "id": "vintage-sm-6nWZAmSaFXzEFBWVaKciZS",
@@ -1868,7 +2431,9 @@
     "url": "https://open.spotify.com/episode/6nWZAmSaFXzEFBWVaKciZS",
     "tags": [],
     "source": "rss",
-    "durationMin": 35
+    "durationMin": 35,
+    "refSource": "regex",
+    "seriesKey": "acts|2021-04"
   },
   {
     "id": "vintage-sm-2jZpx6be2V3LlL5XNAR8Pl",
@@ -1886,7 +2451,9 @@
     "url": "https://open.spotify.com/episode/2jZpx6be2V3LlL5XNAR8Pl",
     "tags": [],
     "source": "rss",
-    "durationMin": 32
+    "durationMin": 32,
+    "refSource": "regex",
+    "seriesKey": "acts|2021-04"
   },
   {
     "id": "vintage-sm-4inpA6Afm5iF5SvtkLuKI7",
@@ -1904,7 +2471,9 @@
     "url": "https://open.spotify.com/episode/4inpA6Afm5iF5SvtkLuKI7",
     "tags": [],
     "source": "rss",
-    "durationMin": 33
+    "durationMin": 33,
+    "refSource": "regex",
+    "seriesKey": "acts|2021-04"
   },
   {
     "id": "vintage-sm-0tavReSH6FHNdE68ueGtBz",
@@ -1922,7 +2491,9 @@
     "url": "https://open.spotify.com/episode/0tavReSH6FHNdE68ueGtBz",
     "tags": [],
     "source": "rss",
-    "durationMin": 31
+    "durationMin": 31,
+    "refSource": "regex",
+    "seriesKey": "acts|2021-04"
   },
   {
     "id": "vintage-sm-4bjoWT1p8ER1al5EcNex1A",
@@ -1940,7 +2511,9 @@
     "url": "https://open.spotify.com/episode/4bjoWT1p8ER1al5EcNex1A",
     "tags": [],
     "source": "rss",
-    "durationMin": 38
+    "durationMin": 38,
+    "refSource": "regex",
+    "seriesKey": "acts|2021-04"
   },
   {
     "id": "vintage-sm-60hbg2ntmLEN4nwD8SJm6p",
@@ -1958,7 +2531,9 @@
     "url": "https://open.spotify.com/episode/60hbg2ntmLEN4nwD8SJm6p",
     "tags": [],
     "source": "rss",
-    "durationMin": 35
+    "durationMin": 35,
+    "refSource": "regex",
+    "seriesKey": "acts|2021-04"
   },
   {
     "id": "vintage-sm-2iISr36PhMsn4fhYx89621",
@@ -1976,6 +2551,8 @@
     "url": "https://open.spotify.com/episode/2iISr36PhMsn4fhYx89621",
     "tags": [],
     "source": "rss",
-    "durationMin": 34
+    "durationMin": 34,
+    "refSource": "regex",
+    "seriesKey": "acts|2021-04"
   }
 ]

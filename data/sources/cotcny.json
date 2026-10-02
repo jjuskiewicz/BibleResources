@@ -17,7 +17,9 @@
     "url": "https://open.spotify.com/episode/2ea8GwCOmR4xUZzuuc2AR9",
     "tags": [],
     "source": "rss",
-    "durationMin": 51
+    "durationMin": 51,
+    "refSource": "regex",
+    "seriesKey": "manifesto of fruitfulness|2026-09"
   },
   {
     "id": "cotcny-1YGYwCGaqbnZQbVWkas4FF",
@@ -37,7 +39,9 @@
     "url": "https://open.spotify.com/episode/1YGYwCGaqbnZQbVWkas4FF",
     "tags": [],
     "source": "rss",
-    "durationMin": 62
+    "durationMin": 62,
+    "refSource": "regex",
+    "seriesKey": "manifesto of fruitfulness|2026-09"
   },
   {
     "id": "cotcny-4t3D72K7iKl2IQtaEFuro1",
@@ -57,7 +61,55 @@
     "url": "https://open.spotify.com/episode/4t3D72K7iKl2IQtaEFuro1",
     "tags": [],
     "source": "rss",
-    "durationMin": 53
+    "durationMin": 53,
+    "refSource": "regex",
+    "seriesKey": "manifesto of fruitfulness|2026-09"
+  },
+  {
+    "id": "cotcny-5MAfqq0F7FxtIma1hgE8sW",
+    "title": "Multiplication",
+    "church": "cotcny",
+    "speaker": "Billy Sprague",
+    "date": "2026-09-07",
+    "series": "FOLLOW",
+    "passage": "",
+    "refs": [
+      {
+        "book": "matthew",
+        "start": 28,
+        "end": 28
+      }
+    ],
+    "url": "https://open.spotify.com/episode/5MAfqq0F7FxtIma1hgE8sW",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 47,
+    "refSource": "ai",
+    "aiConfidence": 0.95,
+    "seriesKey": "follow|2026-06"
+  },
+  {
+    "id": "cotcny-2ZUCshgERUTSG9C9I5HGF5",
+    "title": "Worshipping",
+    "church": "cotcny",
+    "speaker": "Raegan Griffith",
+    "date": "2026-08-31",
+    "series": "FOLLOW",
+    "passage": "",
+    "refs": [
+      {
+        "book": "matthew",
+        "start": 26,
+        "end": 26
+      }
+    ],
+    "url": "https://open.spotify.com/episode/2ZUCshgERUTSG9C9I5HGF5",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 39,
+    "refSource": "series",
+    "aiConfidence": 0.97,
+    "seriesKey": "follow|2026-06"
   },
   {
     "id": "cotcny-4jGzo3cyckZ11Hq31vg4XO",
@@ -77,7 +129,9 @@
     "url": "https://open.spotify.com/episode/4jGzo3cyckZ11Hq31vg4XO",
     "tags": [],
     "source": "rss",
-    "durationMin": 49
+    "durationMin": 49,
+    "refSource": "regex",
+    "seriesKey": "follow|2026-06"
   },
   {
     "id": "cotcny-5CpZudvOnUkhk2di0BlGaO",
@@ -97,7 +151,32 @@
     "url": "https://open.spotify.com/episode/5CpZudvOnUkhk2di0BlGaO",
     "tags": [],
     "source": "rss",
-    "durationMin": 52
+    "durationMin": 52,
+    "refSource": "regex",
+    "seriesKey": "follow|2026-06"
+  },
+  {
+    "id": "cotcny-6QCbIlGVPDduQKcySpq33f",
+    "title": "Loving",
+    "church": "cotcny",
+    "speaker": "Tim Brown",
+    "date": "2026-08-10",
+    "series": "FOLLOW",
+    "passage": "",
+    "refs": [
+      {
+        "book": "matthew",
+        "start": 22,
+        "end": 22
+      }
+    ],
+    "url": "https://open.spotify.com/episode/6QCbIlGVPDduQKcySpq33f",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 52,
+    "refSource": "series",
+    "aiConfidence": 0.97,
+    "seriesKey": "follow|2026-06"
   },
   {
     "id": "cotcny-6ScZU5a50r3kkL6FMW2sXW",
@@ -117,7 +196,9 @@
     "url": "https://open.spotify.com/episode/6ScZU5a50r3kkL6FMW2sXW",
     "tags": [],
     "source": "rss",
-    "durationMin": 41
+    "durationMin": 41,
+    "refSource": "regex",
+    "seriesKey": "follow|2026-06"
   },
   {
     "id": "cotcny-3ZXFazC4TecBIBvzIwIN56",
@@ -137,7 +218,9 @@
     "url": "https://open.spotify.com/episode/3ZXFazC4TecBIBvzIwIN56",
     "tags": [],
     "source": "rss",
-    "durationMin": 45
+    "durationMin": 45,
+    "refSource": "regex",
+    "seriesKey": "follow|2026-06"
   },
   {
     "id": "cotcny-1Rmw38KLUTcqzRPa4lDgFj",
@@ -157,7 +240,32 @@
     "url": "https://open.spotify.com/episode/1Rmw38KLUTcqzRPa4lDgFj",
     "tags": [],
     "source": "rss",
-    "durationMin": 41
+    "durationMin": 41,
+    "refSource": "regex",
+    "seriesKey": "follow|2026-06"
+  },
+  {
+    "id": "cotcny-0gK3soz7WX1Z2d2oIKab3e",
+    "title": "Seeking",
+    "church": "cotcny",
+    "speaker": "Ralph Castillo",
+    "date": "2026-07-13",
+    "series": "FOLLOW",
+    "passage": "",
+    "refs": [
+      {
+        "book": "matthew",
+        "start": 6,
+        "end": 6
+      }
+    ],
+    "url": "https://open.spotify.com/episode/0gK3soz7WX1Z2d2oIKab3e",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 34,
+    "refSource": "ai",
+    "aiConfidence": 0.92,
+    "seriesKey": "follow|2026-06"
   },
   {
     "id": "cotcny-3WJs56MllxSZfOXircoIou",
@@ -177,7 +285,9 @@
     "url": "https://open.spotify.com/episode/3WJs56MllxSZfOXircoIou",
     "tags": [],
     "source": "rss",
-    "durationMin": 43
+    "durationMin": 43,
+    "refSource": "regex",
+    "seriesKey": "follow|2026-06"
   },
   {
     "id": "cotcny-1WAnqO2rywvXzt1DphDa5I",
@@ -197,7 +307,9 @@
     "url": "https://open.spotify.com/episode/1WAnqO2rywvXzt1DphDa5I",
     "tags": [],
     "source": "rss",
-    "durationMin": 50
+    "durationMin": 50,
+    "refSource": "regex",
+    "seriesKey": "follow|2026-06"
   },
   {
     "id": "cotcny-24HUi4u1mJnBRHcGd1x9oW",
@@ -217,7 +329,9 @@
     "url": "https://open.spotify.com/episode/24HUi4u1mJnBRHcGd1x9oW",
     "tags": [],
     "source": "rss",
-    "durationMin": 41
+    "durationMin": 41,
+    "refSource": "regex",
+    "seriesKey": "freed|2026-04"
   },
   {
     "id": "cotcny-2YaerA9BQDzXwYRfaBxWua",
@@ -237,7 +351,9 @@
     "url": "https://open.spotify.com/episode/2YaerA9BQDzXwYRfaBxWua",
     "tags": [],
     "source": "rss",
-    "durationMin": 46
+    "durationMin": 46,
+    "refSource": "regex",
+    "seriesKey": "freed|2026-04"
   },
   {
     "id": "cotcny-1elqrDQgijCndGuQP9wr2m",
@@ -257,7 +373,9 @@
     "url": "https://open.spotify.com/episode/1elqrDQgijCndGuQP9wr2m",
     "tags": [],
     "source": "rss",
-    "durationMin": 44
+    "durationMin": 44,
+    "refSource": "regex",
+    "seriesKey": "freed|2026-04"
   },
   {
     "id": "cotcny-4B3md0ht4kzoDh0gaXPoRu",
@@ -277,7 +395,9 @@
     "url": "https://open.spotify.com/episode/4B3md0ht4kzoDh0gaXPoRu",
     "tags": [],
     "source": "rss",
-    "durationMin": 40
+    "durationMin": 40,
+    "refSource": "regex",
+    "seriesKey": "freed|2026-04"
   },
   {
     "id": "cotcny-7q97rzafF9aGyNzExUqUFj",
@@ -297,7 +417,9 @@
     "url": "https://open.spotify.com/episode/7q97rzafF9aGyNzExUqUFj",
     "tags": [],
     "source": "rss",
-    "durationMin": 62
+    "durationMin": 62,
+    "refSource": "regex",
+    "seriesKey": "freed|2026-04"
   },
   {
     "id": "cotcny-5O8jz2ppfRtqZoJYQFGIx0",
@@ -317,7 +439,9 @@
     "url": "https://open.spotify.com/episode/5O8jz2ppfRtqZoJYQFGIx0",
     "tags": [],
     "source": "rss",
-    "durationMin": 45
+    "durationMin": 45,
+    "refSource": "regex",
+    "seriesKey": "freed|2026-04"
   },
   {
     "id": "cotcny-5STgr5mZH8ul69YelC355j",
@@ -337,7 +461,9 @@
     "url": "https://open.spotify.com/episode/5STgr5mZH8ul69YelC355j",
     "tags": [],
     "source": "rss",
-    "durationMin": 41
+    "durationMin": 41,
+    "refSource": "regex",
+    "seriesKey": "freed|2026-04"
   },
   {
     "id": "cotcny-1jcNUpef2Hn4HQmDep8VPz",
@@ -357,7 +483,9 @@
     "url": "https://open.spotify.com/episode/1jcNUpef2Hn4HQmDep8VPz",
     "tags": [],
     "source": "rss",
-    "durationMin": 47
+    "durationMin": 47,
+    "refSource": "regex",
+    "seriesKey": "freed|2026-04"
   },
   {
     "id": "cotcny-4362x7iDGGKI55of567iQf",
@@ -377,7 +505,9 @@
     "url": "https://open.spotify.com/episode/4362x7iDGGKI55of567iQf",
     "tags": [],
     "source": "rss",
-    "durationMin": 45
+    "durationMin": 45,
+    "refSource": "regex",
+    "seriesKey": "freed|2026-04"
   },
   {
     "id": "cotcny-0h3pF4HudoMQ3msXhWK8f7",
@@ -397,7 +527,55 @@
     "url": "https://open.spotify.com/episode/0h3pF4HudoMQ3msXhWK8f7",
     "tags": [],
     "source": "rss",
-    "durationMin": 57
+    "durationMin": 57,
+    "refSource": "regex",
+    "seriesKey": "freed|2026-04"
+  },
+  {
+    "id": "cotcny-4Q9OIdUpV0zIRB60VLwCEk",
+    "title": "The Call to Freedom",
+    "church": "cotcny",
+    "speaker": "Jon Tyson",
+    "date": "2026-04-13",
+    "series": "FREED",
+    "passage": "",
+    "refs": [
+      {
+        "book": "galatians",
+        "start": 5,
+        "end": 5
+      }
+    ],
+    "url": "https://open.spotify.com/episode/4Q9OIdUpV0zIRB60VLwCEk",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 40,
+    "refSource": "ai",
+    "aiConfidence": 0.85,
+    "seriesKey": "freed|2026-04"
+  },
+  {
+    "id": "cotcny-1I1VNTJ1zxsE90VskIZFAg",
+    "title": "Resurrecting Hope",
+    "church": "cotcny",
+    "speaker": "Jon Tyson",
+    "date": "2026-04-07",
+    "series": "Easter",
+    "passage": "",
+    "refs": [
+      {
+        "book": "luke",
+        "start": 24,
+        "end": 24
+      }
+    ],
+    "url": "https://open.spotify.com/episode/1I1VNTJ1zxsE90VskIZFAg",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 40,
+    "refSource": "ai",
+    "aiConfidence": 0.9,
+    "seriesKey": "easter|2026-04"
   },
   {
     "id": "cotcny-7ACS8CkAUuzDldMF0qRvS7",
@@ -417,7 +595,9 @@
     "url": "https://open.spotify.com/episode/7ACS8CkAUuzDldMF0qRvS7",
     "tags": [],
     "source": "rss",
-    "durationMin": 50
+    "durationMin": 50,
+    "refSource": "regex",
+    "seriesKey": "come to me|2026-02"
   },
   {
     "id": "cotcny-1ONk9pEjaW2iAcZSg0Ql7O",
@@ -437,7 +617,32 @@
     "url": "https://open.spotify.com/episode/1ONk9pEjaW2iAcZSg0Ql7O",
     "tags": [],
     "source": "rss",
-    "durationMin": 60
+    "durationMin": 60,
+    "refSource": "regex",
+    "seriesKey": "come to me|2026-02"
+  },
+  {
+    "id": "cotcny-3dVXvxmXS3QGVRP2cwbpcH",
+    "title": "I am the Way, the Truth, the Life",
+    "church": "cotcny",
+    "speaker": "Tim Brown",
+    "date": "2026-03-16",
+    "series": "Come to Me",
+    "passage": "",
+    "refs": [
+      {
+        "book": "john",
+        "start": 14,
+        "end": 14
+      }
+    ],
+    "url": "https://open.spotify.com/episode/3dVXvxmXS3QGVRP2cwbpcH",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 48,
+    "refSource": "ai",
+    "aiConfidence": 0.97,
+    "seriesKey": "come to me|2026-02"
   },
   {
     "id": "cotcny-3nlnvmKniIImXnRFUCwgkm",
@@ -457,7 +662,9 @@
     "url": "https://open.spotify.com/episode/3nlnvmKniIImXnRFUCwgkm",
     "tags": [],
     "source": "rss",
-    "durationMin": 64
+    "durationMin": 64,
+    "refSource": "regex",
+    "seriesKey": "come to me|2026-02"
   },
   {
     "id": "cotcny-02YuVxvuyB6Uc3Xg0lvmaS",
@@ -477,7 +684,9 @@
     "url": "https://open.spotify.com/episode/02YuVxvuyB6Uc3Xg0lvmaS",
     "tags": [],
     "source": "rss",
-    "durationMin": 54
+    "durationMin": 54,
+    "refSource": "regex",
+    "seriesKey": "come to me|2026-02"
   },
   {
     "id": "cotcny-5InH3M6RhWNkFRgMA4Zs3d",
@@ -497,7 +706,9 @@
     "url": "https://open.spotify.com/episode/5InH3M6RhWNkFRgMA4Zs3d",
     "tags": [],
     "source": "rss",
-    "durationMin": 61
+    "durationMin": 61,
+    "refSource": "regex",
+    "seriesKey": "come to me|2026-02"
   },
   {
     "id": "cotcny-44DzXouxxDdtW8RAdbHkRv",
@@ -517,7 +728,9 @@
     "url": "https://open.spotify.com/episode/44DzXouxxDdtW8RAdbHkRv",
     "tags": [],
     "source": "rss",
-    "durationMin": 62
+    "durationMin": 62,
+    "refSource": "regex",
+    "seriesKey": "come to me|2026-02"
   },
   {
     "id": "cotcny-0DoQahVCahVNNUZFMBfLQE",
@@ -537,7 +750,30 @@
     "url": "https://open.spotify.com/episode/0DoQahVCahVNNUZFMBfLQE",
     "tags": [],
     "source": "rss",
-    "durationMin": 56
+    "durationMin": 56,
+    "refSource": "regex",
+    "seriesKey": "come to me|2026-02"
+  },
+  {
+    "id": "cotcny-4E6YVZaN66hWlfRzZuUnTp",
+    "title": "Who is Jesus?",
+    "church": "cotcny",
+    "speaker": "Jon Tyson",
+    "date": "2026-02-02",
+    "series": "Come to Me",
+    "passage": "",
+    "refs": [
+      {
+        "book": "john"
+      }
+    ],
+    "url": "https://open.spotify.com/episode/4E6YVZaN66hWlfRzZuUnTp",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 59,
+    "refSource": "series",
+    "aiConfidence": 0.85,
+    "seriesKey": "come to me|2026-02"
   },
   {
     "id": "cotcny-6gYoO9peEXRUlDckTcMIdK",
@@ -557,7 +793,9 @@
     "url": "https://open.spotify.com/episode/6gYoO9peEXRUlDckTcMIdK",
     "tags": [],
     "source": "rss",
-    "durationMin": 62
+    "durationMin": 62,
+    "refSource": "regex",
+    "seriesKey": "god comes where he s wanted|2026-01"
   },
   {
     "id": "cotcny-4wlizTOYDLZbflHRe61ec7",
@@ -577,7 +815,9 @@
     "url": "https://open.spotify.com/episode/4wlizTOYDLZbflHRe61ec7",
     "tags": [],
     "source": "rss",
-    "durationMin": 62
+    "durationMin": 62,
+    "refSource": "regex",
+    "seriesKey": "god comes where he s wanted|2026-01"
   },
   {
     "id": "cotcny-7CmEfniDjHPihcEgxeEPtc",
@@ -597,7 +837,9 @@
     "url": "https://open.spotify.com/episode/7CmEfniDjHPihcEgxeEPtc",
     "tags": [],
     "source": "rss",
-    "durationMin": 45
+    "durationMin": 45,
+    "refSource": "regex",
+    "seriesKey": "making sense of church|2025-09"
   },
   {
     "id": "cotcny-4iJkvQy3e3rn01WcwA6uwO",
@@ -617,7 +859,9 @@
     "url": "https://open.spotify.com/episode/4iJkvQy3e3rn01WcwA6uwO",
     "tags": [],
     "source": "rss",
-    "durationMin": 59
+    "durationMin": 59,
+    "refSource": "regex",
+    "seriesKey": "making sense of church|2025-09"
   },
   {
     "id": "cotcny-4IPccVdcDGQcrXu15NjH2k",
@@ -637,7 +881,55 @@
     "url": "https://open.spotify.com/episode/4IPccVdcDGQcrXu15NjH2k",
     "tags": [],
     "source": "rss",
-    "durationMin": 55
+    "durationMin": 55,
+    "refSource": "regex",
+    "seriesKey": "making sense of church|2025-09"
+  },
+  {
+    "id": "cotcny-3x0DGAI0eVwNwuijU2Q74V",
+    "title": "The Army",
+    "church": "cotcny",
+    "speaker": "Suzy Silk",
+    "date": "2025-11-03",
+    "series": "Making Sense of Church",
+    "passage": "",
+    "refs": [
+      {
+        "book": "ephesians",
+        "start": 6,
+        "end": 6
+      }
+    ],
+    "url": "https://open.spotify.com/episode/3x0DGAI0eVwNwuijU2Q74V",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 53,
+    "refSource": "ai",
+    "aiConfidence": 0.92,
+    "seriesKey": "making sense of church|2025-09"
+  },
+  {
+    "id": "cotcny-2IJYtGXKcuLjU6dcy05rwO",
+    "title": "John Mark Comer",
+    "church": "cotcny",
+    "speaker": "John Mark Comer",
+    "date": "2025-10-13",
+    "series": "Gentle + Humble",
+    "passage": "",
+    "refs": [
+      {
+        "book": "matthew",
+        "start": 11,
+        "end": 11
+      }
+    ],
+    "url": "https://open.spotify.com/episode/2IJYtGXKcuLjU6dcy05rwO",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 63,
+    "refSource": "ai",
+    "aiConfidence": 0.9,
+    "seriesKey": "gentle humble|2025-10"
   },
   {
     "id": "cotcny-6n33vIr73zz7l57o7JziHX",
@@ -657,7 +949,55 @@
     "url": "https://open.spotify.com/episode/6n33vIr73zz7l57o7JziHX",
     "tags": [],
     "source": "rss",
-    "durationMin": 61
+    "durationMin": 61,
+    "refSource": "regex",
+    "seriesKey": "making sense of church|2025-09"
+  },
+  {
+    "id": "cotcny-6b8CvnnfxiBdeU75SZWg3P",
+    "title": "The Flock",
+    "church": "cotcny",
+    "speaker": "Jon Tyson",
+    "date": "2025-09-15",
+    "series": "Making Sense of Church",
+    "passage": "",
+    "refs": [
+      {
+        "book": "john",
+        "start": 10,
+        "end": 10
+      }
+    ],
+    "url": "https://open.spotify.com/episode/6b8CvnnfxiBdeU75SZWg3P",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 69,
+    "refSource": "ai",
+    "aiConfidence": 0.88,
+    "seriesKey": "making sense of church|2025-09"
+  },
+  {
+    "id": "cotcny-1JmhHG7BNiiW7b65HgbK5c",
+    "title": "Finish Well",
+    "church": "cotcny",
+    "speaker": "Ralph Castillo",
+    "date": "2025-09-01",
+    "series": "The Fifth Act",
+    "passage": "",
+    "refs": [
+      {
+        "book": "acts",
+        "start": 20,
+        "end": 20
+      }
+    ],
+    "url": "https://open.spotify.com/episode/1JmhHG7BNiiW7b65HgbK5c",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 39,
+    "refSource": "ai",
+    "aiConfidence": 0.97,
+    "seriesKey": "the fifth act|2025-04"
   },
   {
     "id": "cotcny-2ARW2nr0nldvGuOgd2uT0c",
@@ -677,7 +1017,9 @@
     "url": "https://open.spotify.com/episode/2ARW2nr0nldvGuOgd2uT0c",
     "tags": [],
     "source": "rss",
-    "durationMin": 51
+    "durationMin": 51,
+    "refSource": "regex",
+    "seriesKey": "the fifth act|2025-04"
   },
   {
     "id": "cotcny-4uwQOJPOg1YYPYT9XAyAi2",
@@ -697,7 +1039,32 @@
     "url": "https://open.spotify.com/episode/4uwQOJPOg1YYPYT9XAyAi2",
     "tags": [],
     "source": "rss",
-    "durationMin": 45
+    "durationMin": 45,
+    "refSource": "regex",
+    "seriesKey": "the fifth act|2025-04"
+  },
+  {
+    "id": "cotcny-4ORSaEFi1CN8g2l664zo0n",
+    "title": "The Gospel for the City",
+    "church": "cotcny",
+    "speaker": "Tim Brown",
+    "date": "2025-08-11",
+    "series": "The Fifth Act",
+    "passage": "",
+    "refs": [
+      {
+        "book": "acts",
+        "start": 17,
+        "end": 17
+      }
+    ],
+    "url": "https://open.spotify.com/episode/4ORSaEFi1CN8g2l664zo0n",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 53,
+    "refSource": "ai",
+    "aiConfidence": 0.97,
+    "seriesKey": "the fifth act|2025-04"
   },
   {
     "id": "cotcny-7KCEY0snrFbehlFpqBJVdn",
@@ -717,7 +1084,9 @@
     "url": "https://open.spotify.com/episode/7KCEY0snrFbehlFpqBJVdn",
     "tags": [],
     "source": "rss",
-    "durationMin": 52
+    "durationMin": 52,
+    "refSource": "regex",
+    "seriesKey": "the fifth act|2025-04"
   },
   {
     "id": "cotcny-18KmgsINI8siGr7NiSmwqF",
@@ -737,7 +1106,9 @@
     "url": "https://open.spotify.com/episode/18KmgsINI8siGr7NiSmwqF",
     "tags": [],
     "source": "rss",
-    "durationMin": 48
+    "durationMin": 48,
+    "refSource": "regex",
+    "seriesKey": "the fifth act|2025-04"
   },
   {
     "id": "cotcny-6CjjZhXZxBZgNOod8j2JjS",
@@ -757,7 +1128,9 @@
     "url": "https://open.spotify.com/episode/6CjjZhXZxBZgNOod8j2JjS",
     "tags": [],
     "source": "rss",
-    "durationMin": 62
+    "durationMin": 62,
+    "refSource": "regex",
+    "seriesKey": "the fifth act|2025-04"
   },
   {
     "id": "cotcny-3AyZF98w55lnO6UojlPiF7",
@@ -777,7 +1150,9 @@
     "url": "https://open.spotify.com/episode/3AyZF98w55lnO6UojlPiF7",
     "tags": [],
     "source": "rss",
-    "durationMin": 54
+    "durationMin": 54,
+    "refSource": "regex",
+    "seriesKey": "the fifth act|2025-04"
   },
   {
     "id": "cotcny-2WnLaybVJKvnjaKrJ7JVcY",
@@ -797,7 +1172,9 @@
     "url": "https://open.spotify.com/episode/2WnLaybVJKvnjaKrJ7JVcY",
     "tags": [],
     "source": "rss",
-    "durationMin": 50
+    "durationMin": 50,
+    "refSource": "regex",
+    "seriesKey": "the fifth act|2025-04"
   },
   {
     "id": "cotcny-63ojT0vKOVx53jFXspsMVR",
@@ -817,7 +1194,9 @@
     "url": "https://open.spotify.com/episode/63ojT0vKOVx53jFXspsMVR",
     "tags": [],
     "source": "rss",
-    "durationMin": 48
+    "durationMin": 48,
+    "refSource": "regex",
+    "seriesKey": "the fifth act|2025-04"
   },
   {
     "id": "cotcny-3lZkDW37Bc2v9C3SqaKR6x",
@@ -837,7 +1216,9 @@
     "url": "https://open.spotify.com/episode/3lZkDW37Bc2v9C3SqaKR6x",
     "tags": [],
     "source": "rss",
-    "durationMin": 48
+    "durationMin": 48,
+    "refSource": "regex",
+    "seriesKey": "the fifth act|2025-04"
   },
   {
     "id": "cotcny-600Ap0M971rJUooGYpGkpa",
@@ -857,7 +1238,9 @@
     "url": "https://open.spotify.com/episode/600Ap0M971rJUooGYpGkpa",
     "tags": [],
     "source": "rss",
-    "durationMin": 52
+    "durationMin": 52,
+    "refSource": "regex",
+    "seriesKey": "psalm 126|2025-06"
   },
   {
     "id": "cotcny-0y12E8KZGWOVXVxKUmKUjg",
@@ -877,7 +1260,9 @@
     "url": "https://open.spotify.com/episode/0y12E8KZGWOVXVxKUmKUjg",
     "tags": [],
     "source": "rss",
-    "durationMin": 52
+    "durationMin": 52,
+    "refSource": "regex",
+    "seriesKey": "the fifth act|2025-04"
   },
   {
     "id": "cotcny-6eoWe7uOug832fTAHf3enE",
@@ -897,7 +1282,9 @@
     "url": "https://open.spotify.com/episode/6eoWe7uOug832fTAHf3enE",
     "tags": [],
     "source": "rss",
-    "durationMin": 44
+    "durationMin": 44,
+    "refSource": "regex",
+    "seriesKey": "the fifth act|2025-04"
   },
   {
     "id": "cotcny-0cRWVdp3AEvGDf6Fo0hDGI",
@@ -917,7 +1304,9 @@
     "url": "https://open.spotify.com/episode/0cRWVdp3AEvGDf6Fo0hDGI",
     "tags": [],
     "source": "rss",
-    "durationMin": 60
+    "durationMin": 60,
+    "refSource": "regex",
+    "seriesKey": "the fifth act|2025-04"
   },
   {
     "id": "cotcny-0JoMYqVXFTB0182MdLl9Gj",
@@ -937,7 +1326,101 @@
     "url": "https://open.spotify.com/episode/0JoMYqVXFTB0182MdLl9Gj",
     "tags": [],
     "source": "rss",
-    "durationMin": 59
+    "durationMin": 59,
+    "refSource": "regex",
+    "seriesKey": "the fifth act|2025-04"
+  },
+  {
+    "id": "cotcny-6yrDybdlZJmuejysvYP7ec",
+    "title": "Unschooled, Ordinary Men",
+    "church": "cotcny",
+    "speaker": "Suzy Silk",
+    "date": "2025-05-12",
+    "series": "The Fifth Act",
+    "passage": "",
+    "refs": [
+      {
+        "book": "acts",
+        "start": 3,
+        "end": 4
+      }
+    ],
+    "url": "https://open.spotify.com/episode/6yrDybdlZJmuejysvYP7ec",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 55,
+    "refSource": "ai",
+    "aiConfidence": 0.96,
+    "seriesKey": "the fifth act|2025-04"
+  },
+  {
+    "id": "cotcny-4IDpWtG0TgczLoixkpKNId",
+    "title": "Peter's Bold Proclamation",
+    "church": "cotcny",
+    "speaker": "Jon Tyson",
+    "date": "2025-05-05",
+    "series": "The Fifth Act",
+    "passage": "",
+    "refs": [
+      {
+        "book": "acts",
+        "start": 2,
+        "end": 2
+      }
+    ],
+    "url": "https://open.spotify.com/episode/4IDpWtG0TgczLoixkpKNId",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 56,
+    "refSource": "ai",
+    "aiConfidence": 0.97,
+    "seriesKey": "the fifth act|2025-04"
+  },
+  {
+    "id": "cotcny-3PilFQ89A1HmeuiFS6PF9V",
+    "title": "The Holy Spirit",
+    "church": "cotcny",
+    "speaker": "Jon Tyson",
+    "date": "2025-04-28",
+    "series": "The Fifth Act",
+    "passage": "",
+    "refs": [
+      {
+        "book": "acts",
+        "start": 1,
+        "end": 1
+      }
+    ],
+    "url": "https://open.spotify.com/episode/3PilFQ89A1HmeuiFS6PF9V",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 57,
+    "refSource": "ai",
+    "aiConfidence": 0.97,
+    "seriesKey": "the fifth act|2025-04"
+  },
+  {
+    "id": "cotcny-0E8MhcEgO7gW20TMioplFF",
+    "title": "God Conscious",
+    "church": "cotcny",
+    "speaker": "Jon Tyson",
+    "date": "2025-04-21",
+    "series": "Easter Sunday",
+    "passage": "",
+    "refs": [
+      {
+        "book": "john",
+        "start": 20,
+        "end": 20
+      }
+    ],
+    "url": "https://open.spotify.com/episode/0E8MhcEgO7gW20TMioplFF",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 49,
+    "refSource": "ai",
+    "aiConfidence": 0.9,
+    "seriesKey": "easter sunday|2025-04"
   },
   {
     "id": "cotcny-1obHVawdw2nwEmjjII0oW8",
@@ -957,7 +1440,9 @@
     "url": "https://open.spotify.com/episode/1obHVawdw2nwEmjjII0oW8",
     "tags": [],
     "source": "rss",
-    "durationMin": 65
+    "durationMin": 65,
+    "refSource": "regex",
+    "seriesKey": "missional formation|2025-02"
   },
   {
     "id": "cotcny-3rk0n0TAKf5ywcGMraSldH",
@@ -977,7 +1462,9 @@
     "url": "https://open.spotify.com/episode/3rk0n0TAKf5ywcGMraSldH",
     "tags": [],
     "source": "rss",
-    "durationMin": 63
+    "durationMin": 63,
+    "refSource": "regex",
+    "seriesKey": "missional formation|2025-02"
   },
   {
     "id": "cotcny-0EBUquDSWbqd221cmpeSAk",
@@ -997,7 +1484,32 @@
     "url": "https://open.spotify.com/episode/0EBUquDSWbqd221cmpeSAk",
     "tags": [],
     "source": "rss",
-    "durationMin": 58
+    "durationMin": 58,
+    "refSource": "regex",
+    "seriesKey": "missional formation|2025-02"
+  },
+  {
+    "id": "cotcny-6NfDs2xXNy08yEXzBheBlq",
+    "title": "Son of Man",
+    "church": "cotcny",
+    "speaker": "Jon Tyson",
+    "date": "2024-12-09",
+    "series": "To Us a Son is Given",
+    "passage": "",
+    "refs": [
+      {
+        "book": "matthew",
+        "start": 20,
+        "end": 20
+      }
+    ],
+    "url": "https://open.spotify.com/episode/6NfDs2xXNy08yEXzBheBlq",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 47,
+    "refSource": "ai",
+    "aiConfidence": 0.93,
+    "seriesKey": "to us a son is given|2024-12"
   },
   {
     "id": "cotcny-7pm9zNxUEBHX1S9yP4Q1ls",
@@ -1017,7 +1529,9 @@
     "url": "https://open.spotify.com/episode/7pm9zNxUEBHX1S9yP4Q1ls",
     "tags": [],
     "source": "rss",
-    "durationMin": 59
+    "durationMin": 59,
+    "refSource": "regex",
+    "seriesKey": "formed|2024-09"
   },
   {
     "id": "cotcny-7FcjJjRt52GNSLDcErSZIb",
@@ -1037,7 +1551,9 @@
     "url": "https://open.spotify.com/episode/7FcjJjRt52GNSLDcErSZIb",
     "tags": [],
     "source": "rss",
-    "durationMin": 61
+    "durationMin": 61,
+    "refSource": "regex",
+    "seriesKey": "formed|2024-09"
   },
   {
     "id": "cotcny-77z8ubadtWIcjdio0P3M0R",
@@ -1057,7 +1573,32 @@
     "url": "https://open.spotify.com/episode/77z8ubadtWIcjdio0P3M0R",
     "tags": [],
     "source": "rss",
-    "durationMin": 54
+    "durationMin": 54,
+    "refSource": "regex",
+    "seriesKey": "formed|2024-09"
+  },
+  {
+    "id": "cotcny-7dgTdd5gHyZpHaqW2P5FH8",
+    "title": "Salvation",
+    "church": "cotcny",
+    "speaker": "Jon Tyson",
+    "date": "2024-09-30",
+    "series": "Formed",
+    "passage": "",
+    "refs": [
+      {
+        "book": "romans",
+        "start": 10,
+        "end": 10
+      }
+    ],
+    "url": "https://open.spotify.com/episode/7dgTdd5gHyZpHaqW2P5FH8",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 66,
+    "refSource": "ai",
+    "aiConfidence": 0.85,
+    "seriesKey": "formed|2024-09"
   },
   {
     "id": "cotcny-6eql3xgIxKjhvIbkCQj97B",
@@ -1077,7 +1618,9 @@
     "url": "https://open.spotify.com/episode/6eql3xgIxKjhvIbkCQj97B",
     "tags": [],
     "source": "rss",
-    "durationMin": 53
+    "durationMin": 53,
+    "refSource": "regex",
+    "seriesKey": "mark sayers|2024-09"
   },
   {
     "id": "cotcny-6TIRQMsAmfUkOGkODqRCZ3",
@@ -1097,7 +1640,9 @@
     "url": "https://open.spotify.com/episode/6TIRQMsAmfUkOGkODqRCZ3",
     "tags": [],
     "source": "rss",
-    "durationMin": 51
+    "durationMin": 51,
+    "refSource": "regex",
+    "seriesKey": "come see|2024-05"
   },
   {
     "id": "cotcny-5miC8zHQQTxoZRbc1Gp6PU",
@@ -1117,7 +1662,9 @@
     "url": "https://open.spotify.com/episode/5miC8zHQQTxoZRbc1Gp6PU",
     "tags": [],
     "source": "rss",
-    "durationMin": 57
+    "durationMin": 57,
+    "refSource": "regex",
+    "seriesKey": "come see|2024-05"
   },
   {
     "id": "cotcny-00rkzPhoWOtlkfgaJS3ATJ",
@@ -1137,7 +1684,9 @@
     "url": "https://open.spotify.com/episode/00rkzPhoWOtlkfgaJS3ATJ",
     "tags": [],
     "source": "rss",
-    "durationMin": 62
+    "durationMin": 62,
+    "refSource": "regex",
+    "seriesKey": "come see|2024-05"
   },
   {
     "id": "cotcny-6aW2WfTlwBDBvCTfOzfge3",
@@ -1157,7 +1706,9 @@
     "url": "https://open.spotify.com/episode/6aW2WfTlwBDBvCTfOzfge3",
     "tags": [],
     "source": "rss",
-    "durationMin": 60
+    "durationMin": 60,
+    "refSource": "regex",
+    "seriesKey": "come see|2024-05"
   },
   {
     "id": "cotcny-1A8QfrGic0bAcB1AdvJBRB",
@@ -1177,7 +1728,9 @@
     "url": "https://open.spotify.com/episode/1A8QfrGic0bAcB1AdvJBRB",
     "tags": [],
     "source": "rss",
-    "durationMin": 63
+    "durationMin": 63,
+    "refSource": "regex",
+    "seriesKey": "come see|2024-05"
   },
   {
     "id": "cotcny-0eHv9xIj8wD4tnkNk7xDPC",
@@ -1197,7 +1750,9 @@
     "url": "https://open.spotify.com/episode/0eHv9xIj8wD4tnkNk7xDPC",
     "tags": [],
     "source": "rss",
-    "durationMin": 37
+    "durationMin": 37,
+    "refSource": "regex",
+    "seriesKey": "come see|2024-05"
   },
   {
     "id": "cotcny-3mvB5tvuAbW7f2uRL7vI9i",
@@ -1217,7 +1772,9 @@
     "url": "https://open.spotify.com/episode/3mvB5tvuAbW7f2uRL7vI9i",
     "tags": [],
     "source": "rss",
-    "durationMin": 56
+    "durationMin": 56,
+    "refSource": "regex",
+    "seriesKey": "come see|2024-05"
   },
   {
     "id": "cotcny-7bSUK1M600NRXhR8iMewnq",
@@ -1237,7 +1794,9 @@
     "url": "https://open.spotify.com/episode/7bSUK1M600NRXhR8iMewnq",
     "tags": [],
     "source": "rss",
-    "durationMin": 59
+    "durationMin": 59,
+    "refSource": "regex",
+    "seriesKey": "come see|2024-05"
   },
   {
     "id": "cotcny-349jYczem6UHs2Hjl23i1g",
@@ -1257,7 +1816,9 @@
     "url": "https://open.spotify.com/episode/349jYczem6UHs2Hjl23i1g",
     "tags": [],
     "source": "rss",
-    "durationMin": 54
+    "durationMin": 54,
+    "refSource": "regex",
+    "seriesKey": "come see|2024-05"
   },
   {
     "id": "cotcny-3zmtyPTIwMvobqrGIM88H7",
@@ -1277,7 +1838,9 @@
     "url": "https://open.spotify.com/episode/3zmtyPTIwMvobqrGIM88H7",
     "tags": [],
     "source": "rss",
-    "durationMin": 51
+    "durationMin": 51,
+    "refSource": "regex",
+    "seriesKey": "come see|2024-05"
   },
   {
     "id": "cotcny-1xMG0a3Ei1YuAS9JuRogCl",
@@ -1297,7 +1860,9 @@
     "url": "https://open.spotify.com/episode/1xMG0a3Ei1YuAS9JuRogCl",
     "tags": [],
     "source": "rss",
-    "durationMin": 51
+    "durationMin": 51,
+    "refSource": "regex",
+    "seriesKey": "come see|2024-05"
   },
   {
     "id": "cotcny-6moYXNgxcf9WiNMB6KLeDP",
@@ -1317,7 +1882,9 @@
     "url": "https://open.spotify.com/episode/6moYXNgxcf9WiNMB6KLeDP",
     "tags": [],
     "source": "rss",
-    "durationMin": 65
+    "durationMin": 65,
+    "refSource": "regex",
+    "seriesKey": "come see|2024-05"
   },
   {
     "id": "cotcny-30qNBWhyo7Z1HD7XokzFgG",
@@ -1337,7 +1904,9 @@
     "url": "https://open.spotify.com/episode/30qNBWhyo7Z1HD7XokzFgG",
     "tags": [],
     "source": "rss",
-    "durationMin": 52
+    "durationMin": 52,
+    "refSource": "regex",
+    "seriesKey": "come see|2024-05"
   },
   {
     "id": "cotcny-7ILxx8IkrWydoZ9A0i5j16",
@@ -1357,7 +1926,55 @@
     "url": "https://open.spotify.com/episode/7ILxx8IkrWydoZ9A0i5j16",
     "tags": [],
     "source": "rss",
-    "durationMin": 57
+    "durationMin": 57,
+    "refSource": "regex",
+    "seriesKey": "come see|2024-05"
+  },
+  {
+    "id": "cotcny-0regOyzlHdtyhUnLyxagXA",
+    "title": "I Am the Bread of Life",
+    "church": "cotcny",
+    "speaker": "Jon Tyson",
+    "date": "2024-05-27",
+    "series": "Come & See",
+    "passage": "",
+    "refs": [
+      {
+        "book": "john",
+        "start": 6,
+        "end": 6
+      }
+    ],
+    "url": "https://open.spotify.com/episode/0regOyzlHdtyhUnLyxagXA",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 66,
+    "refSource": "ai",
+    "aiConfidence": 0.97,
+    "seriesKey": "come see|2024-05"
+  },
+  {
+    "id": "cotcny-4HaEBAEFWfLMlWtTR145oI",
+    "title": "The Simple Gospel",
+    "church": "cotcny",
+    "speaker": "Tim Brown",
+    "date": "2024-05-20",
+    "series": "Come & See",
+    "passage": "",
+    "refs": [
+      {
+        "book": "john",
+        "start": 20,
+        "end": 20
+      }
+    ],
+    "url": "https://open.spotify.com/episode/4HaEBAEFWfLMlWtTR145oI",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 60,
+    "refSource": "ai",
+    "aiConfidence": 0.93,
+    "seriesKey": "come see|2024-05"
   },
   {
     "id": "cotcny-5c4PSuhtbWgJxVXj2XxZd1",
@@ -1377,7 +1994,8 @@
     "url": "https://open.spotify.com/episode/5c4PSuhtbWgJxVXj2XxZd1",
     "tags": [],
     "source": "rss",
-    "durationMin": 60
+    "durationMin": 60,
+    "refSource": "regex"
   },
   {
     "id": "cotcny-07D4Iz2nMfAn3urADLoB3r",
@@ -1397,7 +2015,9 @@
     "url": "https://open.spotify.com/episode/07D4Iz2nMfAn3urADLoB3r",
     "tags": [],
     "source": "rss",
-    "durationMin": 69
+    "durationMin": 69,
+    "refSource": "regex",
+    "seriesKey": "seven deadly sins|2024-02"
   },
   {
     "id": "cotcny-01ckaKxVMQxH8XHsfAnB2J",
@@ -1417,7 +2037,32 @@
     "url": "https://open.spotify.com/episode/01ckaKxVMQxH8XHsfAnB2J",
     "tags": [],
     "source": "rss",
-    "durationMin": 57
+    "durationMin": 57,
+    "refSource": "regex",
+    "seriesKey": "leverage|2024-01"
+  },
+  {
+    "id": "cotcny-2oBjZ0afvxGYo1VjcRokEo",
+    "title": "Mary's Song",
+    "church": "cotcny",
+    "speaker": "Suzy Silk",
+    "date": "2023-12-18",
+    "series": "Resound (Advent 2023)",
+    "passage": "",
+    "refs": [
+      {
+        "book": "luke",
+        "start": 1,
+        "end": 1
+      }
+    ],
+    "url": "https://open.spotify.com/episode/2oBjZ0afvxGYo1VjcRokEo",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 36,
+    "refSource": "ai",
+    "aiConfidence": 0.97,
+    "seriesKey": "resound advent 2023|2023-12"
   },
   {
     "id": "cotcny-4HrM5s89VLZg4XHclHgxVe",
@@ -1437,7 +2082,9 @@
     "url": "https://open.spotify.com/episode/4HrM5s89VLZg4XHclHgxVe",
     "tags": [],
     "source": "rss",
-    "durationMin": 49
+    "durationMin": 49,
+    "refSource": "regex",
+    "seriesKey": "resound advent 2023|2023-12"
   },
   {
     "id": "cotcny-5ehJhOvLsosUQyap2a82pf",
@@ -1457,7 +2104,32 @@
     "url": "https://open.spotify.com/episode/5ehJhOvLsosUQyap2a82pf",
     "tags": [],
     "source": "rss",
-    "durationMin": 40
+    "durationMin": 40,
+    "refSource": "regex",
+    "seriesKey": "resound advent 2023|2023-12"
+  },
+  {
+    "id": "cotcny-2XlIN3BhPKIa2aqbTbKTRO",
+    "title": "Living An Attentive Life",
+    "church": "cotcny",
+    "speaker": "Jon Tyson",
+    "date": "2023-09-18",
+    "series": "Compelling Missional Disciples",
+    "passage": "",
+    "refs": [
+      {
+        "book": "luke",
+        "start": 10,
+        "end": 10
+      }
+    ],
+    "url": "https://open.spotify.com/episode/2XlIN3BhPKIa2aqbTbKTRO",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 56,
+    "refSource": "ai",
+    "aiConfidence": 0.93,
+    "seriesKey": "compelling missional disciples|2023-09"
   },
   {
     "id": "cotcny-6mbVgY1iStuBK8kAhKBe5e",
@@ -1477,7 +2149,32 @@
     "url": "https://open.spotify.com/episode/6mbVgY1iStuBK8kAhKBe5e",
     "tags": [],
     "source": "rss",
-    "durationMin": 49
+    "durationMin": 49,
+    "refSource": "regex",
+    "seriesKey": "rediscovering church|2023-07"
+  },
+  {
+    "id": "cotcny-77S11ZVEbTWphpKBAH9D9b",
+    "title": "Between the Resurrection and the Return",
+    "church": "cotcny",
+    "speaker": "Matt Ro",
+    "date": "2023-08-28",
+    "series": "Rediscovering Church",
+    "passage": "",
+    "refs": [
+      {
+        "book": "1-thessalonians",
+        "start": 4,
+        "end": 5
+      }
+    ],
+    "url": "https://open.spotify.com/episode/77S11ZVEbTWphpKBAH9D9b",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 48,
+    "refSource": "ai",
+    "aiConfidence": 0.93,
+    "seriesKey": "rediscovering church|2023-07"
   },
   {
     "id": "cotcny-2nbGSP35ab45ELLOeEZF5x",
@@ -1497,7 +2194,76 @@
     "url": "https://open.spotify.com/episode/2nbGSP35ab45ELLOeEZF5x",
     "tags": [],
     "source": "rss",
-    "durationMin": 73
+    "durationMin": 73,
+    "refSource": "regex",
+    "seriesKey": "rediscovering church|2023-07"
+  },
+  {
+    "id": "cotcny-7xGxWPl7EfBu7V6vtuix44",
+    "title": "Letter From the Persecuted Church",
+    "church": "cotcny",
+    "speaker": "Ashley Anderson",
+    "date": "2023-08-07",
+    "series": "Rediscovering Church",
+    "passage": "",
+    "refs": [
+      {
+        "book": "1-thessalonians"
+      }
+    ],
+    "url": "https://open.spotify.com/episode/7xGxWPl7EfBu7V6vtuix44",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 53,
+    "refSource": "series",
+    "aiConfidence": 0.97,
+    "seriesKey": "rediscovering church|2023-07"
+  },
+  {
+    "id": "cotcny-24d7gvSL6pGBv7JXixeTfK",
+    "title": "Strengthen and Encourage",
+    "church": "cotcny",
+    "speaker": "Sam Gibson",
+    "date": "2023-07-31",
+    "series": "Rediscovering Church",
+    "passage": "",
+    "refs": [
+      {
+        "book": "1-thessalonians",
+        "start": 3,
+        "end": 3
+      }
+    ],
+    "url": "https://open.spotify.com/episode/24d7gvSL6pGBv7JXixeTfK",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 53,
+    "refSource": "ai",
+    "aiConfidence": 0.9,
+    "seriesKey": "rediscovering church|2023-07"
+  },
+  {
+    "id": "cotcny-1qzRU9IcPlkr6q9nLI5fgV",
+    "title": "The Word of God",
+    "church": "cotcny",
+    "speaker": "Suzy Silk",
+    "date": "2023-07-24",
+    "series": "Rediscovering Church",
+    "passage": "",
+    "refs": [
+      {
+        "book": "1-thessalonians",
+        "start": 2,
+        "end": 2
+      }
+    ],
+    "url": "https://open.spotify.com/episode/1qzRU9IcPlkr6q9nLI5fgV",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 54,
+    "refSource": "series",
+    "aiConfidence": 0.97,
+    "seriesKey": "rediscovering church|2023-07"
   },
   {
     "id": "cotcny-3wVe0eir8mbiz0GGls4Jum",
@@ -1517,7 +2283,53 @@
     "url": "https://open.spotify.com/episode/3wVe0eir8mbiz0GGls4Jum",
     "tags": [],
     "source": "rss",
-    "durationMin": 62
+    "durationMin": 62,
+    "refSource": "regex",
+    "seriesKey": "rediscovering church|2023-07"
+  },
+  {
+    "id": "cotcny-0IabCikKtd3k1NvOLGwPbu",
+    "title": "The Model Church",
+    "church": "cotcny",
+    "speaker": "Suzy Silk",
+    "date": "2023-07-10",
+    "series": "Rediscovering Church",
+    "passage": "",
+    "refs": [
+      {
+        "book": "1-thessalonians",
+        "start": 1,
+        "end": 1
+      }
+    ],
+    "url": "https://open.spotify.com/episode/0IabCikKtd3k1NvOLGwPbu",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 56,
+    "refSource": "ai",
+    "aiConfidence": 0.93,
+    "seriesKey": "rediscovering church|2023-07"
+  },
+  {
+    "id": "cotcny-3wmP3Rx5WV3D6QBvtxR6cv",
+    "title": "The Invitation",
+    "church": "cotcny",
+    "speaker": "Keithen Schwahn",
+    "date": "2023-07-03",
+    "series": "Rediscovering Church",
+    "passage": "",
+    "refs": [
+      {
+        "book": "1-thessalonians"
+      }
+    ],
+    "url": "https://open.spotify.com/episode/3wmP3Rx5WV3D6QBvtxR6cv",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 60,
+    "refSource": "ai",
+    "aiConfidence": 0.97,
+    "seriesKey": "rediscovering church|2023-07"
   },
   {
     "id": "cotcny-6YodPF61bMjmKYj80y3UpP",
@@ -1537,7 +2349,8 @@
     "url": "https://open.spotify.com/episode/6YodPF61bMjmKYj80y3UpP",
     "tags": [],
     "source": "rss",
-    "durationMin": 59
+    "durationMin": 59,
+    "refSource": "regex"
   },
   {
     "id": "cotcny-5uZuXP5VceZWYbwuiYATll",
@@ -1557,7 +2370,78 @@
     "url": "https://open.spotify.com/episode/5uZuXP5VceZWYbwuiYATll",
     "tags": [],
     "source": "rss",
-    "durationMin": 47
+    "durationMin": 47,
+    "refSource": "regex",
+    "seriesKey": "we want you here|2023-04"
+  },
+  {
+    "id": "cotcny-70NXBVPtioyzXw7drDo0zu",
+    "title": "How We Fight Our Battles",
+    "church": "cotcny",
+    "speaker": "Ralph Castillo",
+    "date": "2023-05-22",
+    "series": "We Want You Here",
+    "passage": "",
+    "refs": [
+      {
+        "book": "exodus",
+        "start": 17,
+        "end": 17
+      }
+    ],
+    "url": "https://open.spotify.com/episode/70NXBVPtioyzXw7drDo0zu",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 38,
+    "refSource": "ai",
+    "aiConfidence": 0.96,
+    "seriesKey": "we want you here|2023-04"
+  },
+  {
+    "id": "cotcny-3J7H1Nw3lqLTa46INC3dNP",
+    "title": "Prayer, Grief, & Lament",
+    "church": "cotcny",
+    "speaker": "Suzy Silk",
+    "date": "2023-05-01",
+    "series": "We Want You Here",
+    "passage": "",
+    "refs": [
+      {
+        "book": "habakkuk",
+        "start": 3,
+        "end": 3
+      }
+    ],
+    "url": "https://open.spotify.com/episode/3J7H1Nw3lqLTa46INC3dNP",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 57,
+    "refSource": "ai",
+    "aiConfidence": 0.9,
+    "seriesKey": "we want you here|2023-04"
+  },
+  {
+    "id": "cotcny-45Gicl5jspSBKEolCCh8AM",
+    "title": "Forgiveness",
+    "church": "cotcny",
+    "speaker": "Jon Tyson",
+    "date": "2023-03-27",
+    "series": "God Comes Where He's Wanted 2.0",
+    "passage": "",
+    "refs": [
+      {
+        "book": "matthew",
+        "start": 6,
+        "end": 6
+      }
+    ],
+    "url": "https://open.spotify.com/episode/45Gicl5jspSBKEolCCh8AM",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 53,
+    "refSource": "ai",
+    "aiConfidence": 0.85,
+    "seriesKey": "god comes where he s wanted 2 0|2023-02"
   },
   {
     "id": "cotcny-5aKcOPtd7rqylcWxrdKjC6",
@@ -1577,7 +2461,9 @@
     "url": "https://open.spotify.com/episode/5aKcOPtd7rqylcWxrdKjC6",
     "tags": [],
     "source": "rss",
-    "durationMin": 48
+    "durationMin": 48,
+    "refSource": "regex",
+    "seriesKey": "god comes where he s wanted 2 0|2023-02"
   },
   {
     "id": "cotcny-5MqLcsivFxROODJpmygPOy",
@@ -1597,7 +2483,9 @@
     "url": "https://open.spotify.com/episode/5MqLcsivFxROODJpmygPOy",
     "tags": [],
     "source": "rss",
-    "durationMin": 47
+    "durationMin": 47,
+    "refSource": "regex",
+    "seriesKey": "god comes where he s wanted 2 0|2023-02"
   },
   {
     "id": "cotcny-6Rbo6VMpRAYdgrOyEupEhX",
@@ -1617,7 +2505,9 @@
     "url": "https://open.spotify.com/episode/6Rbo6VMpRAYdgrOyEupEhX",
     "tags": [],
     "source": "rss",
-    "durationMin": 63
+    "durationMin": 63,
+    "refSource": "regex",
+    "seriesKey": "god comes where he s wanted|2023-01"
   },
   {
     "id": "cotcny-6Mmqq7pS36XSuajFJbh8W1",
@@ -1637,7 +2527,9 @@
     "url": "https://open.spotify.com/episode/6Mmqq7pS36XSuajFJbh8W1",
     "tags": [],
     "source": "rss",
-    "durationMin": 46
+    "durationMin": 46,
+    "refSource": "regex",
+    "seriesKey": "advent week iii|2022-12"
   },
   {
     "id": "cotcny-0vpMaeI7ijsj6CrGcg5Lv1",
@@ -1657,7 +2549,9 @@
     "url": "https://open.spotify.com/episode/0vpMaeI7ijsj6CrGcg5Lv1",
     "tags": [],
     "source": "rss",
-    "durationMin": 43
+    "durationMin": 43,
+    "refSource": "regex",
+    "seriesKey": "advent week ii|2022-12"
   },
   {
     "id": "cotcny-0nrLQZRdMFLVzwa6iJSfDV",
@@ -1677,7 +2571,170 @@
     "url": "https://open.spotify.com/episode/0nrLQZRdMFLVzwa6iJSfDV",
     "tags": [],
     "source": "rss",
-    "durationMin": 43
+    "durationMin": 43,
+    "refSource": "regex",
+    "seriesKey": "advent week i|2022-11"
+  },
+  {
+    "id": "cotcny-0B8SdLT2rqhkj7tEdwdFhg",
+    "title": "Truth",
+    "church": "cotcny",
+    "speaker": "Ashley Anderson",
+    "date": "2022-11-21",
+    "series": "The Jesus Stuff",
+    "passage": "",
+    "refs": [
+      {
+        "book": "john",
+        "start": 8,
+        "end": 8
+      }
+    ],
+    "url": "https://open.spotify.com/episode/0B8SdLT2rqhkj7tEdwdFhg",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 58,
+    "refSource": "ai",
+    "aiConfidence": 0.93,
+    "seriesKey": "the jesus stuff|2022-09"
+  },
+  {
+    "id": "cotcny-5uipxjLD4fYv0Ncs89xJLf",
+    "title": "The Anatomy of a Movement",
+    "church": "cotcny",
+    "speaker": "Jon Tyson",
+    "date": "2022-09-05",
+    "series": "Defiant Joy",
+    "passage": "",
+    "refs": [
+      {
+        "book": "philippians",
+        "start": 4,
+        "end": 4
+      }
+    ],
+    "url": "https://open.spotify.com/episode/5uipxjLD4fYv0Ncs89xJLf",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 50,
+    "refSource": "ai",
+    "aiConfidence": 0.93,
+    "seriesKey": "defiant joy|2022-06"
+  },
+  {
+    "id": "cotcny-3DYwP5wTxaONMcNgdckfsh",
+    "title": "The Peace of God",
+    "church": "cotcny",
+    "speaker": "Ashley Anderson",
+    "date": "2022-08-29",
+    "series": "Defiant Joy",
+    "passage": "",
+    "refs": [
+      {
+        "book": "philippians",
+        "start": 4,
+        "end": 4
+      }
+    ],
+    "url": "https://open.spotify.com/episode/3DYwP5wTxaONMcNgdckfsh",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 52,
+    "refSource": "ai",
+    "aiConfidence": 0.97,
+    "seriesKey": "defiant joy|2022-06"
+  },
+  {
+    "id": "cotcny-2sI8CR6TXfZMohMykbB0Z4",
+    "title": "Unity in the Lord",
+    "church": "cotcny",
+    "speaker": "Darren Whitehead",
+    "date": "2022-08-22",
+    "series": "Defiant Joy",
+    "passage": "",
+    "refs": [
+      {
+        "book": "philippians",
+        "start": 4,
+        "end": 4
+      }
+    ],
+    "url": "https://open.spotify.com/episode/2sI8CR6TXfZMohMykbB0Z4",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 43,
+    "refSource": "ai",
+    "aiConfidence": 0.97,
+    "seriesKey": "defiant joy|2022-06"
+  },
+  {
+    "id": "cotcny-6mmmqPKZYPmszl2XrXC6Cd",
+    "title": "Live Up to Your Citizenship",
+    "church": "cotcny",
+    "speaker": "Suzy Silk",
+    "date": "2022-08-15",
+    "series": "Defiant Joy",
+    "passage": "",
+    "refs": [
+      {
+        "book": "philippians",
+        "start": 3,
+        "end": 3
+      }
+    ],
+    "url": "https://open.spotify.com/episode/6mmmqPKZYPmszl2XrXC6Cd",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 38,
+    "refSource": "ai",
+    "aiConfidence": 0.97,
+    "seriesKey": "defiant joy|2022-06"
+  },
+  {
+    "id": "cotcny-7Fhl0N6a02zVgRSTJjYMr8",
+    "title": "Thoroughly Converted",
+    "church": "cotcny",
+    "speaker": "Jon Tyson",
+    "date": "2022-08-08",
+    "series": "Defiant Joy",
+    "passage": "",
+    "refs": [
+      {
+        "book": "philippians",
+        "start": 3,
+        "end": 3
+      }
+    ],
+    "url": "https://open.spotify.com/episode/7Fhl0N6a02zVgRSTJjYMr8",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 49,
+    "refSource": "ai",
+    "aiConfidence": 0.97,
+    "seriesKey": "defiant joy|2022-06"
+  },
+  {
+    "id": "cotcny-1Big3htJGC9lJFogOjCFxs",
+    "title": "The Concerns of Christ",
+    "church": "cotcny",
+    "speaker": "Suzy Silk",
+    "date": "2022-08-04",
+    "series": "Defiant Joy",
+    "passage": "",
+    "refs": [
+      {
+        "book": "philippians",
+        "start": 2,
+        "end": 2
+      }
+    ],
+    "url": "https://open.spotify.com/episode/1Big3htJGC9lJFogOjCFxs",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 45,
+    "refSource": "ai",
+    "aiConfidence": 0.97,
+    "seriesKey": "defiant joy|2022-06"
   },
   {
     "id": "cotcny-0ArlUxaZNU2TMgJuCk8qYr",
@@ -1697,7 +2754,307 @@
     "url": "https://open.spotify.com/episode/0ArlUxaZNU2TMgJuCk8qYr",
     "tags": [],
     "source": "rss",
-    "durationMin": 57
+    "durationMin": 57,
+    "refSource": "regex",
+    "seriesKey": "defiant joy|2022-06"
+  },
+  {
+    "id": "cotcny-4D6KJGnzJ1g0Dk9nqT41Qv",
+    "title": "Grasping or Giving: Community in the way of Jesus",
+    "church": "cotcny",
+    "speaker": "Jon Tyson",
+    "date": "2022-07-18",
+    "series": "Defiant Joy",
+    "passage": "",
+    "refs": [
+      {
+        "book": "philippians",
+        "start": 2,
+        "end": 2
+      }
+    ],
+    "url": "https://open.spotify.com/episode/4D6KJGnzJ1g0Dk9nqT41Qv",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 53,
+    "refSource": "ai",
+    "aiConfidence": 0.97,
+    "seriesKey": "defiant joy|2022-06"
+  },
+  {
+    "id": "cotcny-3Su65T8XQZ2r3OkX1ZvTsR",
+    "title": "Unity & Division",
+    "church": "cotcny",
+    "speaker": "Jon Tyson",
+    "date": "2022-07-11",
+    "series": "Defiant Joy",
+    "passage": "",
+    "refs": [
+      {
+        "book": "philippians",
+        "start": 1,
+        "end": 2
+      }
+    ],
+    "url": "https://open.spotify.com/episode/3Su65T8XQZ2r3OkX1ZvTsR",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 50,
+    "refSource": "ai",
+    "aiConfidence": 0.97,
+    "seriesKey": "defiant joy|2022-06"
+  },
+  {
+    "id": "cotcny-49JkzTagUwCW8u4HR0ngJD",
+    "title": "No Matter What",
+    "church": "cotcny",
+    "speaker": "Matt Ro",
+    "date": "2022-07-06",
+    "series": "Defiant Joy",
+    "passage": "",
+    "refs": [
+      {
+        "book": "philippians",
+        "start": 1,
+        "end": 1
+      }
+    ],
+    "url": "https://open.spotify.com/episode/49JkzTagUwCW8u4HR0ngJD",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 54,
+    "refSource": "ai",
+    "aiConfidence": 0.97,
+    "seriesKey": "defiant joy|2022-06"
+  },
+  {
+    "id": "cotcny-4Qn7sHoU8cHMt4UjUBkx8p",
+    "title": "Proclamation of the Gospel",
+    "church": "cotcny",
+    "speaker": "Suzy Silk",
+    "date": "2022-06-29",
+    "series": "Defiant Joy",
+    "passage": "",
+    "refs": [
+      {
+        "book": "philippians",
+        "start": 1,
+        "end": 1
+      }
+    ],
+    "url": "https://open.spotify.com/episode/4Qn7sHoU8cHMt4UjUBkx8p",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 37,
+    "refSource": "ai",
+    "aiConfidence": 0.97,
+    "seriesKey": "defiant joy|2022-06"
+  },
+  {
+    "id": "cotcny-7368gBBtxWosodqXDCTlnL",
+    "title": "The Work of God",
+    "church": "cotcny",
+    "speaker": "Suzy Silk",
+    "date": "2022-06-14",
+    "series": "Defiant Joy",
+    "passage": "",
+    "refs": [
+      {
+        "book": "philippians",
+        "start": 1,
+        "end": 1
+      }
+    ],
+    "url": "https://open.spotify.com/episode/7368gBBtxWosodqXDCTlnL",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 36,
+    "refSource": "ai",
+    "aiConfidence": 0.97,
+    "seriesKey": "defiant joy|2022-06"
+  },
+  {
+    "id": "cotcny-6sgTGTWvvh36p8kzH3dExK",
+    "title": "A Study Through Philippians",
+    "church": "cotcny",
+    "speaker": "Jon Tyson",
+    "date": "2022-06-07",
+    "series": "Defiant Joy",
+    "passage": "",
+    "refs": [
+      {
+        "book": "philippians",
+        "start": 1,
+        "end": 1
+      }
+    ],
+    "url": "https://open.spotify.com/episode/6sgTGTWvvh36p8kzH3dExK",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 43,
+    "refSource": "ai",
+    "aiConfidence": 0.97,
+    "seriesKey": "defiant joy|2022-06"
+  },
+  {
+    "id": "cotcny-3OrJASqZdL2SfYsuIaarx2",
+    "title": "Seizing Divine Moments",
+    "church": "cotcny",
+    "speaker": "Guy Wasko",
+    "date": "2022-05-31",
+    "series": "",
+    "passage": "",
+    "refs": [
+      {
+        "book": "1-samuel",
+        "start": 14,
+        "end": 14
+      }
+    ],
+    "url": "https://open.spotify.com/episode/3OrJASqZdL2SfYsuIaarx2",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 34,
+    "refSource": "ai",
+    "aiConfidence": 0.93
+  },
+  {
+    "id": "cotcny-5cBsAp0aYX93LrH1WkhhIE",
+    "title": "Through Despair",
+    "church": "cotcny",
+    "speaker": "Suzy Silk",
+    "date": "2022-05-23",
+    "series": "Seeing Jesus",
+    "passage": "",
+    "refs": [
+      {
+        "book": "john",
+        "start": 20,
+        "end": 20
+      }
+    ],
+    "url": "https://open.spotify.com/episode/5cBsAp0aYX93LrH1WkhhIE",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 41,
+    "refSource": "ai",
+    "aiConfidence": 0.95,
+    "seriesKey": "seeing jesus|2022-04"
+  },
+  {
+    "id": "cotcny-1Icec1ceJOqKIwO4zWDYcT",
+    "title": "Through Doubt",
+    "church": "cotcny",
+    "speaker": "Jon Tyson",
+    "date": "2022-05-10",
+    "series": "Seeing Jesus",
+    "passage": "",
+    "refs": [
+      {
+        "book": "john",
+        "start": 20,
+        "end": 20
+      }
+    ],
+    "url": "https://open.spotify.com/episode/1Icec1ceJOqKIwO4zWDYcT",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 43,
+    "refSource": "ai",
+    "aiConfidence": 0.95,
+    "seriesKey": "seeing jesus|2022-04"
+  },
+  {
+    "id": "cotcny-1Xd6J211kzl3Sru8RxA5Uw",
+    "title": "Through Disappointment",
+    "church": "cotcny",
+    "speaker": "Suzy Silk",
+    "date": "2022-05-03",
+    "series": "Seeing Jesus",
+    "passage": "",
+    "refs": [
+      {
+        "book": "luke",
+        "start": 24,
+        "end": 24
+      }
+    ],
+    "url": "https://open.spotify.com/episode/1Xd6J211kzl3Sru8RxA5Uw",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 47,
+    "refSource": "ai",
+    "aiConfidence": 0.96,
+    "seriesKey": "seeing jesus|2022-04"
+  },
+  {
+    "id": "cotcny-6z4cmXUSbsvguYoP32SL66",
+    "title": "When Your Faith Fails",
+    "church": "cotcny",
+    "speaker": "Jon Tyson",
+    "date": "2022-04-27",
+    "series": "Seeing Jesus",
+    "passage": "",
+    "refs": [
+      {
+        "book": "john",
+        "start": 21,
+        "end": 21
+      }
+    ],
+    "url": "https://open.spotify.com/episode/6z4cmXUSbsvguYoP32SL66",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 41,
+    "refSource": "ai",
+    "aiConfidence": 0.85,
+    "seriesKey": "seeing jesus|2022-04"
+  },
+  {
+    "id": "cotcny-4hvbH2Nzxzppt5MA4Hck3O",
+    "title": "Seeing Jesus",
+    "church": "cotcny",
+    "speaker": "Jon Tyson",
+    "date": "2022-04-19",
+    "series": "Easter Sunday",
+    "passage": "",
+    "refs": [
+      {
+        "book": "john",
+        "start": 20,
+        "end": 20
+      }
+    ],
+    "url": "https://open.spotify.com/episode/4hvbH2Nzxzppt5MA4Hck3O",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 43,
+    "refSource": "ai",
+    "aiConfidence": 0.88,
+    "seriesKey": "easter sunday|2022-04"
+  },
+  {
+    "id": "cotcny-1jsDZkDaFWznmUX1Ch0sd6",
+    "title": "Resisting Mercy",
+    "church": "cotcny",
+    "speaker": "Jon Tyson",
+    "date": "2022-04-12",
+    "series": "Converting the Church",
+    "passage": "",
+    "refs": [
+      {
+        "book": "matthew",
+        "start": 23,
+        "end": 23
+      }
+    ],
+    "url": "https://open.spotify.com/episode/1jsDZkDaFWznmUX1Ch0sd6",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 48,
+    "refSource": "ai",
+    "aiConfidence": 0.95,
+    "seriesKey": "converting the church|2022-02"
   },
   {
     "id": "cotcny-4Js70CzPbBGWlJIzOTrKzS",
@@ -1717,7 +3074,32 @@
     "url": "https://open.spotify.com/episode/4Js70CzPbBGWlJIzOTrKzS",
     "tags": [],
     "source": "rss",
-    "durationMin": 38
+    "durationMin": 38,
+    "refSource": "regex",
+    "seriesKey": "converting the church|2022-02"
+  },
+  {
+    "id": "cotcny-3SRzxQpPYTnZhNfsqra4lN",
+    "title": "Whitewashed Tombs",
+    "church": "cotcny",
+    "speaker": "Jon Tyson",
+    "date": "2022-03-29",
+    "series": "Converting the Church",
+    "passage": "",
+    "refs": [
+      {
+        "book": "matthew",
+        "start": 23,
+        "end": 23
+      }
+    ],
+    "url": "https://open.spotify.com/episode/3SRzxQpPYTnZhNfsqra4lN",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 48,
+    "refSource": "ai",
+    "aiConfidence": 0.95,
+    "seriesKey": "converting the church|2022-02"
   },
   {
     "id": "cotcny-0oeD95TWFn7fTlwPfud0BU",
@@ -1737,7 +3119,55 @@
     "url": "https://open.spotify.com/episode/0oeD95TWFn7fTlwPfud0BU",
     "tags": [],
     "source": "rss",
-    "durationMin": 42
+    "durationMin": 42,
+    "refSource": "regex",
+    "seriesKey": "converting the church|2022-02"
+  },
+  {
+    "id": "cotcny-5IQbVGz7eKJMKv07AV6B2p",
+    "title": "Weightier Things",
+    "church": "cotcny",
+    "speaker": "Jon Tyson",
+    "date": "2022-03-14",
+    "series": "Converting the Church",
+    "passage": "",
+    "refs": [
+      {
+        "book": "matthew",
+        "start": 23,
+        "end": 23
+      }
+    ],
+    "url": "https://open.spotify.com/episode/5IQbVGz7eKJMKv07AV6B2p",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 49,
+    "refSource": "ai",
+    "aiConfidence": 0.95,
+    "seriesKey": "converting the church|2022-02"
+  },
+  {
+    "id": "cotcny-4xl6hGXk2aLDPY5GQIYiq4",
+    "title": "False Promises",
+    "church": "cotcny",
+    "speaker": "Suzy Silk",
+    "date": "2022-03-07",
+    "series": "Converting the Church",
+    "passage": "",
+    "refs": [
+      {
+        "book": "matthew",
+        "start": 23,
+        "end": 23
+      }
+    ],
+    "url": "https://open.spotify.com/episode/4xl6hGXk2aLDPY5GQIYiq4",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 35,
+    "refSource": "ai",
+    "aiConfidence": 0.95,
+    "seriesKey": "converting the church|2022-02"
   },
   {
     "id": "cotcny-49Z38bSkr9tKAJalzUgFSo",
@@ -1757,7 +3187,55 @@
     "url": "https://open.spotify.com/episode/49Z38bSkr9tKAJalzUgFSo",
     "tags": [],
     "source": "rss",
-    "durationMin": 56
+    "durationMin": 56,
+    "refSource": "regex",
+    "seriesKey": "converting the church|2022-02"
+  },
+  {
+    "id": "cotcny-77pGscLX0NXfcQvVmH78AF",
+    "title": "Shutting Doors in People's Faces",
+    "church": "cotcny",
+    "speaker": "Ralph Castillo",
+    "date": "2022-02-21",
+    "series": "Converting the Church",
+    "passage": "",
+    "refs": [
+      {
+        "book": "matthew",
+        "start": 23,
+        "end": 23
+      }
+    ],
+    "url": "https://open.spotify.com/episode/77pGscLX0NXfcQvVmH78AF",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 40,
+    "refSource": "ai",
+    "aiConfidence": 0.95,
+    "seriesKey": "converting the church|2022-02"
+  },
+  {
+    "id": "cotcny-3oVgC1uL9dQ78ViGp78URj",
+    "title": "Everything for Show",
+    "church": "cotcny",
+    "speaker": "Jon Tyson",
+    "date": "2022-02-15",
+    "series": "Converting the Church",
+    "passage": "",
+    "refs": [
+      {
+        "book": "matthew",
+        "start": 23,
+        "end": 23
+      }
+    ],
+    "url": "https://open.spotify.com/episode/3oVgC1uL9dQ78ViGp78URj",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 49,
+    "refSource": "ai",
+    "aiConfidence": 0.95,
+    "seriesKey": "converting the church|2022-02"
   },
   {
     "id": "cotcny-38egnbs6JRaQL7e5e83VfL",
@@ -1777,7 +3255,9 @@
     "url": "https://open.spotify.com/episode/38egnbs6JRaQL7e5e83VfL",
     "tags": [],
     "source": "rss",
-    "durationMin": 45
+    "durationMin": 45,
+    "refSource": "regex",
+    "seriesKey": "converting the church|2022-02"
   },
   {
     "id": "cotcny-5q8f5jUDB70uhPTvM0XcJ8",
@@ -1797,7 +3277,32 @@
     "url": "https://open.spotify.com/episode/5q8f5jUDB70uhPTvM0XcJ8",
     "tags": [],
     "source": "rss",
-    "durationMin": 40
+    "durationMin": 40,
+    "refSource": "regex",
+    "seriesKey": "seeking god|2022-01"
+  },
+  {
+    "id": "cotcny-6wKIbNZeLwdNuMGxndLPL2",
+    "title": "Worshipers",
+    "church": "cotcny",
+    "speaker": "Jon Tyson",
+    "date": "2022-01-25",
+    "series": "SEEKING GOD",
+    "passage": "",
+    "refs": [
+      {
+        "book": "john",
+        "start": 4,
+        "end": 4
+      }
+    ],
+    "url": "https://open.spotify.com/episode/6wKIbNZeLwdNuMGxndLPL2",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 49,
+    "refSource": "ai",
+    "aiConfidence": 0.97,
+    "seriesKey": "seeking god|2022-01"
   },
   {
     "id": "cotcny-1MSpjabF7OTOHU7c3FWZG3",
@@ -1817,7 +3322,196 @@
     "url": "https://open.spotify.com/episode/1MSpjabF7OTOHU7c3FWZG3",
     "tags": [],
     "source": "rss",
-    "durationMin": 61
+    "durationMin": 61,
+    "refSource": "regex",
+    "seriesKey": "seeking god|2022-01"
+  },
+  {
+    "id": "cotcny-31Tk6T7P03GCMFiYOdPl7q",
+    "title": "The Lost",
+    "church": "cotcny",
+    "speaker": "Jon Tyson",
+    "date": "2022-01-10",
+    "series": "SEEKING GOD",
+    "passage": "",
+    "refs": [
+      {
+        "book": "luke",
+        "start": 19,
+        "end": 19
+      },
+      {
+        "book": "matthew",
+        "start": 28,
+        "end": 28
+      }
+    ],
+    "url": "https://open.spotify.com/episode/31Tk6T7P03GCMFiYOdPl7q",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 49,
+    "refSource": "ai",
+    "aiConfidence": 0.93,
+    "seriesKey": "seeking god|2022-01"
+  },
+  {
+    "id": "cotcny-7oKHGEjwL5GxMmrgvBC4fG",
+    "title": "Surrendered Hearts",
+    "church": "cotcny",
+    "speaker": "Jon Tyson",
+    "date": "2022-01-03",
+    "series": "SEEKING GOD",
+    "passage": "",
+    "refs": [
+      {
+        "book": "2-chronicles",
+        "start": 14,
+        "end": 16
+      }
+    ],
+    "url": "https://open.spotify.com/episode/7oKHGEjwL5GxMmrgvBC4fG",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 50,
+    "refSource": "ai",
+    "aiConfidence": 0.9,
+    "seriesKey": "seeking god|2022-01"
+  },
+  {
+    "id": "cotcny-3qitOPuQig9CQpGG0LefsN",
+    "title": "The Curiosity of Christmas",
+    "church": "cotcny",
+    "speaker": "Jon Tyson",
+    "date": "2021-12-14",
+    "series": "Advent",
+    "passage": "",
+    "refs": [
+      {
+        "book": "matthew",
+        "start": 2,
+        "end": 2
+      }
+    ],
+    "url": "https://open.spotify.com/episode/3qitOPuQig9CQpGG0LefsN",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 28,
+    "refSource": "ai",
+    "aiConfidence": 0.95,
+    "seriesKey": "advent|2021-11"
+  },
+  {
+    "id": "cotcny-0yw8Ze1RMsTt8YYL9P3Q00",
+    "title": "Longing Contested",
+    "church": "cotcny",
+    "speaker": "Jon Tyson",
+    "date": "2021-12-07",
+    "series": "Advent",
+    "passage": "",
+    "refs": [
+      {
+        "book": "matthew",
+        "start": 1,
+        "end": 1
+      }
+    ],
+    "url": "https://open.spotify.com/episode/0yw8Ze1RMsTt8YYL9P3Q00",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 43,
+    "refSource": "ai",
+    "aiConfidence": 0.85,
+    "seriesKey": "advent|2021-11"
+  },
+  {
+    "id": "cotcny-3taDYy8gzQni5CYR9g9zb2",
+    "title": "The Way of Gratitude",
+    "church": "cotcny",
+    "speaker": "Suzy Silk",
+    "date": "2021-11-18",
+    "series": "The Way of Jesus",
+    "passage": "",
+    "refs": [
+      {
+        "book": "luke",
+        "start": 17,
+        "end": 17
+      }
+    ],
+    "url": "https://open.spotify.com/episode/3taDYy8gzQni5CYR9g9zb2",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 39,
+    "refSource": "ai",
+    "aiConfidence": 0.96,
+    "seriesKey": "the way of jesus|2021-09"
+  },
+  {
+    "id": "cotcny-5fkyaMAkj7UMfXBQIcr3Mk",
+    "title": "The Way of Mercy",
+    "church": "cotcny",
+    "speaker": "Ralph Castillo",
+    "date": "2021-10-28",
+    "series": "The Way of Jesus",
+    "passage": "",
+    "refs": [
+      {
+        "book": "jonah"
+      }
+    ],
+    "url": "https://open.spotify.com/episode/5fkyaMAkj7UMfXBQIcr3Mk",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 36,
+    "refSource": "ai",
+    "aiConfidence": 0.96,
+    "seriesKey": "the way of jesus|2021-09"
+  },
+  {
+    "id": "cotcny-1b5nrUcDIMPeJ7YzO8hSi0",
+    "title": "The Way of Dependance",
+    "church": "cotcny",
+    "speaker": "Ashley Anderson",
+    "date": "2021-10-21",
+    "series": "The Way of Jesus",
+    "passage": "",
+    "refs": [
+      {
+        "book": "john",
+        "start": 15,
+        "end": 15
+      }
+    ],
+    "url": "https://open.spotify.com/episode/1b5nrUcDIMPeJ7YzO8hSi0",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 46,
+    "refSource": "ai",
+    "aiConfidence": 0.93,
+    "seriesKey": "the way of jesus|2021-09"
+  },
+  {
+    "id": "cotcny-56KhyRH1gtocfaEafNvHYT",
+    "title": "The Way of Devotion",
+    "church": "cotcny",
+    "speaker": "Suzy Silk",
+    "date": "2021-09-28",
+    "series": "The Way of Jesus",
+    "passage": "",
+    "refs": [
+      {
+        "book": "matthew",
+        "start": 13,
+        "end": 13
+      }
+    ],
+    "url": "https://open.spotify.com/episode/56KhyRH1gtocfaEafNvHYT",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 43,
+    "refSource": "ai",
+    "aiConfidence": 0.93,
+    "seriesKey": "the way of jesus|2021-09"
   },
   {
     "id": "cotcny-1QdiZ9fbu8Ipv6ZbTKJ3RB",
@@ -1835,7 +3529,9 @@
     "url": "https://open.spotify.com/episode/1QdiZ9fbu8Ipv6ZbTKJ3RB",
     "tags": [],
     "source": "rss",
-    "durationMin": 46
+    "durationMin": 46,
+    "refSource": "regex",
+    "seriesKey": "colossians|2021-06"
   },
   {
     "id": "cotcny-55xwZpCYMmabG7MVOQlg9q",
@@ -1853,7 +3549,9 @@
     "url": "https://open.spotify.com/episode/55xwZpCYMmabG7MVOQlg9q",
     "tags": [],
     "source": "rss",
-    "durationMin": 37
+    "durationMin": 37,
+    "refSource": "regex",
+    "seriesKey": "colossians|2021-06"
   },
   {
     "id": "cotcny-6FNX1fNZF6mgNvBZHgRe9w",
@@ -1871,7 +3569,9 @@
     "url": "https://open.spotify.com/episode/6FNX1fNZF6mgNvBZHgRe9w",
     "tags": [],
     "source": "rss",
-    "durationMin": 50
+    "durationMin": 50,
+    "refSource": "regex",
+    "seriesKey": "colossians|2021-06"
   },
   {
     "id": "cotcny-7xmEABOC9Pc8fu0mFs3t1X",
@@ -1889,7 +3589,9 @@
     "url": "https://open.spotify.com/episode/7xmEABOC9Pc8fu0mFs3t1X",
     "tags": [],
     "source": "rss",
-    "durationMin": 37
+    "durationMin": 37,
+    "refSource": "regex",
+    "seriesKey": "colossians|2021-06"
   },
   {
     "id": "cotcny-2nfQ3R55bbLhZInh2DjIfT",
@@ -1907,7 +3609,9 @@
     "url": "https://open.spotify.com/episode/2nfQ3R55bbLhZInh2DjIfT",
     "tags": [],
     "source": "rss",
-    "durationMin": 44
+    "durationMin": 44,
+    "refSource": "regex",
+    "seriesKey": "colossians|2021-06"
   },
   {
     "id": "cotcny-5VJ2e2wJr6GbAi9dcdYfUv",
@@ -1925,7 +3629,9 @@
     "url": "https://open.spotify.com/episode/5VJ2e2wJr6GbAi9dcdYfUv",
     "tags": [],
     "source": "rss",
-    "durationMin": 37
+    "durationMin": 37,
+    "refSource": "regex",
+    "seriesKey": "colossians|2021-06"
   },
   {
     "id": "cotcny-4EjhzP6hVmREOCI0jlLGvQ",
@@ -1943,7 +3649,9 @@
     "url": "https://open.spotify.com/episode/4EjhzP6hVmREOCI0jlLGvQ",
     "tags": [],
     "source": "rss",
-    "durationMin": 55
+    "durationMin": 55,
+    "refSource": "regex",
+    "seriesKey": "colossians|2021-06"
   },
   {
     "id": "cotcny-217fg5cKNjxwyU0zBWvDJL",
@@ -1961,7 +3669,9 @@
     "url": "https://open.spotify.com/episode/217fg5cKNjxwyU0zBWvDJL",
     "tags": [],
     "source": "rss",
-    "durationMin": 37
+    "durationMin": 37,
+    "refSource": "regex",
+    "seriesKey": "colossians|2021-06"
   },
   {
     "id": "cotcny-7kTKfcDmfNRDXVfgT9BACK",
@@ -1979,7 +3689,9 @@
     "url": "https://open.spotify.com/episode/7kTKfcDmfNRDXVfgT9BACK",
     "tags": [],
     "source": "rss",
-    "durationMin": 52
+    "durationMin": 52,
+    "refSource": "regex",
+    "seriesKey": "colossians|2021-06"
   },
   {
     "id": "cotcny-2uOP7atEZtPEX8in9I2cJX",
@@ -1997,7 +3709,9 @@
     "url": "https://open.spotify.com/episode/2uOP7atEZtPEX8in9I2cJX",
     "tags": [],
     "source": "rss",
-    "durationMin": 42
+    "durationMin": 42,
+    "refSource": "regex",
+    "seriesKey": "colossians|2021-06"
   },
   {
     "id": "cotcny-2ZYI26kYfPWzc91G14dlha",
@@ -2015,7 +3729,9 @@
     "url": "https://open.spotify.com/episode/2ZYI26kYfPWzc91G14dlha",
     "tags": [],
     "source": "rss",
-    "durationMin": 29
+    "durationMin": 29,
+    "refSource": "regex",
+    "seriesKey": "colossians|2021-06"
   },
   {
     "id": "cotcny-2ZjmmffzXPJ26A7L4wFlPh",
@@ -2033,7 +3749,9 @@
     "url": "https://open.spotify.com/episode/2ZjmmffzXPJ26A7L4wFlPh",
     "tags": [],
     "source": "rss",
-    "durationMin": 30
+    "durationMin": 30,
+    "refSource": "regex",
+    "seriesKey": "colossians|2021-06"
   },
   {
     "id": "cotcny-76mWABFM4sbCVYVAu94Crg",
@@ -2051,7 +3769,9 @@
     "url": "https://open.spotify.com/episode/76mWABFM4sbCVYVAu94Crg",
     "tags": [],
     "source": "rss",
-    "durationMin": 43
+    "durationMin": 43,
+    "refSource": "regex",
+    "seriesKey": "colossians|2021-06"
   },
   {
     "id": "cotcny-2RUfHdcNqYTbjFZtvfIsMx",
@@ -2069,7 +3789,78 @@
     "url": "https://open.spotify.com/episode/2RUfHdcNqYTbjFZtvfIsMx",
     "tags": [],
     "source": "rss",
-    "durationMin": 34
+    "durationMin": 34,
+    "refSource": "regex",
+    "seriesKey": "colossians|2021-06"
+  },
+  {
+    "id": "cotcny-7r5yc0MsvYXo1ugwifvIuf",
+    "title": "Unexpected Inclusion",
+    "church": "cotcny",
+    "speaker": "Ashley Anderson",
+    "date": "2021-05-24",
+    "series": "Unexpected Jesus",
+    "passage": "",
+    "refs": [
+      {
+        "book": "john",
+        "start": 4,
+        "end": 4
+      }
+    ],
+    "url": "https://open.spotify.com/episode/7r5yc0MsvYXo1ugwifvIuf",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 45,
+    "refSource": "ai",
+    "aiConfidence": 0.97,
+    "seriesKey": "unexpected jesus|2021-04"
+  },
+  {
+    "id": "cotcny-5Hu0pSf5KAuGTMoJs8ynw2",
+    "title": "Unexpected Visitation",
+    "church": "cotcny",
+    "speaker": "Rafael Castillo",
+    "date": "2021-05-03",
+    "series": "Unexpected Jesus",
+    "passage": "",
+    "refs": [
+      {
+        "book": "luke",
+        "start": 24,
+        "end": 24
+      }
+    ],
+    "url": "https://open.spotify.com/episode/5Hu0pSf5KAuGTMoJs8ynw2",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 32,
+    "refSource": "ai",
+    "aiConfidence": 0.96,
+    "seriesKey": "unexpected jesus|2021-04"
+  },
+  {
+    "id": "cotcny-7gdhuddNGU25ASyUxjKUF2",
+    "title": "Unexpected Extravagance",
+    "church": "cotcny",
+    "speaker": "Olivia Munn-Shirsath",
+    "date": "2021-04-19",
+    "series": "Unexpected Jesus",
+    "passage": "",
+    "refs": [
+      {
+        "book": "john",
+        "start": 12,
+        "end": 12
+      }
+    ],
+    "url": "https://open.spotify.com/episode/7gdhuddNGU25ASyUxjKUF2",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 31,
+    "refSource": "ai",
+    "aiConfidence": 0.9,
+    "seriesKey": "unexpected jesus|2021-04"
   },
   {
     "id": "cotcny-0nr1o8aTP8Jg46SaKGPQQl",
@@ -2089,7 +3880,9 @@
     "url": "https://open.spotify.com/episode/0nr1o8aTP8Jg46SaKGPQQl",
     "tags": [],
     "source": "rss",
-    "durationMin": 38
+    "durationMin": 38,
+    "refSource": "regex",
+    "seriesKey": "sin|2021-03"
   },
   {
     "id": "cotcny-3vrxD4dC1pHiOo15fXRFO9",
@@ -2109,7 +3902,9 @@
     "url": "https://open.spotify.com/episode/3vrxD4dC1pHiOo15fXRFO9",
     "tags": [],
     "source": "rss",
-    "durationMin": 24
+    "durationMin": 24,
+    "refSource": "regex",
+    "seriesKey": "a defiant christmas|2020-11"
   },
   {
     "id": "cotcny-1iK87tVxrwCGJ3qyOlWDAw",
@@ -2129,7 +3924,55 @@
     "url": "https://open.spotify.com/episode/1iK87tVxrwCGJ3qyOlWDAw",
     "tags": [],
     "source": "rss",
-    "durationMin": 23
+    "durationMin": 23,
+    "refSource": "regex",
+    "seriesKey": "a defiant christmas|2020-11"
+  },
+  {
+    "id": "cotcny-6D7j1s3CvISiM0t5TYPyLg",
+    "title": "City on a Hill",
+    "church": "cotcny",
+    "speaker": "Jon Tyson",
+    "date": "2020-11-23",
+    "series": "Disruptive Discipleship",
+    "passage": "",
+    "refs": [
+      {
+        "book": "matthew",
+        "start": 5,
+        "end": 5
+      }
+    ],
+    "url": "https://open.spotify.com/episode/6D7j1s3CvISiM0t5TYPyLg",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 40,
+    "refSource": "ai",
+    "aiConfidence": 0.95,
+    "seriesKey": "disruptive discipleship|2020-09"
+  },
+  {
+    "id": "cotcny-4Dw5rE6Lyq8khYVDsfCOoo",
+    "title": "Blessed are the Persecuted",
+    "church": "cotcny",
+    "speaker": "Jon Tyson",
+    "date": "2020-11-16",
+    "series": "Disruptive Discipleship",
+    "passage": "",
+    "refs": [
+      {
+        "book": "matthew",
+        "start": 5,
+        "end": 5
+      }
+    ],
+    "url": "https://open.spotify.com/episode/4Dw5rE6Lyq8khYVDsfCOoo",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 49,
+    "refSource": "ai",
+    "aiConfidence": 0.95,
+    "seriesKey": "disruptive discipleship|2020-09"
   },
   {
     "id": "cotcny-1pTiRTlICjDg5ttDrpY6iJ",
@@ -2149,7 +3992,175 @@
     "url": "https://open.spotify.com/episode/1pTiRTlICjDg5ttDrpY6iJ",
     "tags": [],
     "source": "rss",
-    "durationMin": 41
+    "durationMin": 41,
+    "refSource": "regex",
+    "seriesKey": "disruptive discipleship|2020-09"
+  },
+  {
+    "id": "cotcny-3ck6IEuNJWqtxc6yAz8q8F",
+    "title": "The Pure in Heart",
+    "church": "cotcny",
+    "speaker": "Ashley Anderson",
+    "date": "2020-11-02",
+    "series": "Disruptive Discipleship",
+    "passage": "",
+    "refs": [
+      {
+        "book": "matthew",
+        "start": 5,
+        "end": 5
+      }
+    ],
+    "url": "https://open.spotify.com/episode/3ck6IEuNJWqtxc6yAz8q8F",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 39,
+    "refSource": "ai",
+    "aiConfidence": 0.95,
+    "seriesKey": "disruptive discipleship|2020-09"
+  },
+  {
+    "id": "cotcny-5rASK7zjQsV9bfSOWYD8DP",
+    "title": "Blessed are the Merciful",
+    "church": "cotcny",
+    "speaker": "Dr. Derwin Gray",
+    "date": "2020-10-27",
+    "series": "Disruptive Discipleship",
+    "passage": "",
+    "refs": [
+      {
+        "book": "matthew",
+        "start": 5,
+        "end": 5
+      },
+      {
+        "book": "luke",
+        "start": 10,
+        "end": 10
+      }
+    ],
+    "url": "https://open.spotify.com/episode/5rASK7zjQsV9bfSOWYD8DP",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 27,
+    "refSource": "ai",
+    "aiConfidence": 0.85,
+    "seriesKey": "disruptive discipleship|2020-09"
+  },
+  {
+    "id": "cotcny-1WKMxIqMcxIiUG9u5aQxJx",
+    "title": "Those Who Hunger and Thirst",
+    "church": "cotcny",
+    "speaker": "Jon Tyson",
+    "date": "2020-10-20",
+    "series": "Disruptive Discipleship",
+    "passage": "",
+    "refs": [
+      {
+        "book": "matthew",
+        "start": 5,
+        "end": 5
+      }
+    ],
+    "url": "https://open.spotify.com/episode/1WKMxIqMcxIiUG9u5aQxJx",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 44,
+    "refSource": "ai",
+    "aiConfidence": 0.95,
+    "seriesKey": "disruptive discipleship|2020-09"
+  },
+  {
+    "id": "cotcny-6hP93KUeX68neqQW2GLBBo",
+    "title": "Blessed Are The Meek",
+    "church": "cotcny",
+    "speaker": "Suzy Silk",
+    "date": "2020-10-13",
+    "series": "Disruptive Discipleship",
+    "passage": "",
+    "refs": [
+      {
+        "book": "matthew",
+        "start": 5,
+        "end": 5
+      }
+    ],
+    "url": "https://open.spotify.com/episode/6hP93KUeX68neqQW2GLBBo",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 40,
+    "refSource": "ai",
+    "aiConfidence": 0.95,
+    "seriesKey": "disruptive discipleship|2020-09"
+  },
+  {
+    "id": "cotcny-4gGGkpV2enaP6XcALJb8uI",
+    "title": "Those Who Mourn",
+    "church": "cotcny",
+    "speaker": "Olivia Munn-Shirsath",
+    "date": "2020-10-05",
+    "series": "Disruptive Discipleship",
+    "passage": "",
+    "refs": [
+      {
+        "book": "matthew",
+        "start": 5,
+        "end": 5
+      }
+    ],
+    "url": "https://open.spotify.com/episode/4gGGkpV2enaP6XcALJb8uI",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 31,
+    "refSource": "ai",
+    "aiConfidence": 0.95,
+    "seriesKey": "disruptive discipleship|2020-09"
+  },
+  {
+    "id": "cotcny-2tVcxrtVmSqF2x18AfNy6T",
+    "title": "The Poor in Spirit",
+    "church": "cotcny",
+    "speaker": "Jon Tyson",
+    "date": "2020-09-28",
+    "series": "Disruptive Discipleship",
+    "passage": "",
+    "refs": [
+      {
+        "book": "matthew",
+        "start": 5,
+        "end": 5
+      }
+    ],
+    "url": "https://open.spotify.com/episode/2tVcxrtVmSqF2x18AfNy6T",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 51,
+    "refSource": "ai",
+    "aiConfidence": 0.95,
+    "seriesKey": "disruptive discipleship|2020-09"
+  },
+  {
+    "id": "cotcny-5q8jJYeFeSK0pMOSmzJx28",
+    "title": "The Beatitudes",
+    "church": "cotcny",
+    "speaker": "Jon Tyson",
+    "date": "2020-09-21",
+    "series": "Disruptive Discipleship",
+    "passage": "",
+    "refs": [
+      {
+        "book": "matthew",
+        "start": 5,
+        "end": 5
+      }
+    ],
+    "url": "https://open.spotify.com/episode/5q8jJYeFeSK0pMOSmzJx28",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 35,
+    "refSource": "ai",
+    "aiConfidence": 0.95,
+    "seriesKey": "disruptive discipleship|2020-09"
   },
   {
     "id": "cotcny-4kU9R8EX1O7YREmEb5XaRL",
@@ -2169,7 +4180,9 @@
     "url": "https://open.spotify.com/episode/4kU9R8EX1O7YREmEb5XaRL",
     "tags": [],
     "source": "rss",
-    "durationMin": 44
+    "durationMin": 44,
+    "refSource": "regex",
+    "seriesKey": "crying out|2020-06"
   },
   {
     "id": "cotcny-4rsaVkHdnP3nzk52vh5CQS",
@@ -2189,7 +4202,32 @@
     "url": "https://open.spotify.com/episode/4rsaVkHdnP3nzk52vh5CQS",
     "tags": [],
     "source": "rss",
-    "durationMin": 42
+    "durationMin": 42,
+    "refSource": "regex",
+    "seriesKey": "crying out|2020-06"
+  },
+  {
+    "id": "cotcny-5nbUw0sv9CXceSghAOa623",
+    "title": "The Cry of the Poor in Spirit",
+    "church": "cotcny",
+    "speaker": "Dr. Bryan Loritts",
+    "date": "2020-08-03",
+    "series": "Crying Out",
+    "passage": "",
+    "refs": [
+      {
+        "book": "matthew",
+        "start": 5,
+        "end": 5
+      }
+    ],
+    "url": "https://open.spotify.com/episode/5nbUw0sv9CXceSghAOa623",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 34,
+    "refSource": "ai",
+    "aiConfidence": 0.95,
+    "seriesKey": "crying out|2020-06"
   },
   {
     "id": "cotcny-3u7XAXUMExRAuLxXppEvu1",
@@ -2209,7 +4247,9 @@
     "url": "https://open.spotify.com/episode/3u7XAXUMExRAuLxXppEvu1",
     "tags": [],
     "source": "rss",
-    "durationMin": 36
+    "durationMin": 36,
+    "refSource": "regex",
+    "seriesKey": "crying out|2020-06"
   },
   {
     "id": "cotcny-4uVBmdlO9UMO9PjVL0UzVl",
@@ -2229,7 +4269,9 @@
     "url": "https://open.spotify.com/episode/4uVBmdlO9UMO9PjVL0UzVl",
     "tags": [],
     "source": "rss",
-    "durationMin": 42
+    "durationMin": 42,
+    "refSource": "regex",
+    "seriesKey": "crying out|2020-06"
   },
   {
     "id": "cotcny-1Hq1mLCcsfpH5gtQS2886p",
@@ -2249,7 +4291,9 @@
     "url": "https://open.spotify.com/episode/1Hq1mLCcsfpH5gtQS2886p",
     "tags": [],
     "source": "rss",
-    "durationMin": 43
+    "durationMin": 43,
+    "refSource": "regex",
+    "seriesKey": "crying out|2020-06"
   },
   {
     "id": "cotcny-7o7it8G8q7KalKu3dTWWzC",
@@ -2269,7 +4313,9 @@
     "url": "https://open.spotify.com/episode/7o7it8G8q7KalKu3dTWWzC",
     "tags": [],
     "source": "rss",
-    "durationMin": 42
+    "durationMin": 42,
+    "refSource": "regex",
+    "seriesKey": "crying out|2020-06"
   },
   {
     "id": "cotcny-7sdDpQz0hlbCQddZysk7Mb",
@@ -2289,7 +4335,193 @@
     "url": "https://open.spotify.com/episode/7sdDpQz0hlbCQddZysk7Mb",
     "tags": [],
     "source": "rss",
-    "durationMin": 58
+    "durationMin": 58,
+    "refSource": "regex",
+    "seriesKey": "crying out|2020-06"
+  },
+  {
+    "id": "cotcny-5aKfrVHTa3KOOwx824Nkyx",
+    "title": "Self-Control in a Time of Self-Fulfillment",
+    "church": "cotcny",
+    "speaker": "Jon Tyson",
+    "date": "2020-05-25",
+    "series": "Church in a time of Crisis",
+    "passage": "",
+    "refs": [
+      {
+        "book": "galatians",
+        "start": 5,
+        "end": 5
+      }
+    ],
+    "url": "https://open.spotify.com/episode/5aKfrVHTa3KOOwx824Nkyx",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 43,
+    "refSource": "ai",
+    "aiConfidence": 0.88,
+    "seriesKey": "church in a time of crisis|2020-03"
+  },
+  {
+    "id": "cotcny-6CZKOIM2AbY80hGqtRvT8e",
+    "title": "Faithfulness in a Time of Compromise",
+    "church": "cotcny",
+    "speaker": "Jon Tyson",
+    "date": "2020-05-11",
+    "series": "Church in a Time of Crisis",
+    "passage": "",
+    "refs": [
+      {
+        "book": "galatians",
+        "start": 5,
+        "end": 5
+      }
+    ],
+    "url": "https://open.spotify.com/episode/6CZKOIM2AbY80hGqtRvT8e",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 38,
+    "refSource": "ai",
+    "aiConfidence": 0.85,
+    "seriesKey": "church in a time of crisis|2020-03"
+  },
+  {
+    "id": "cotcny-2Etuf45Ekyj6ZHemlIexu8",
+    "title": "Restorative Goodness in a Time of Brokenness",
+    "church": "cotcny",
+    "speaker": "Jon Tyson",
+    "date": "2020-05-04",
+    "series": "Church In A Time of Crisis",
+    "passage": "",
+    "refs": [
+      {
+        "book": "galatians",
+        "start": 5,
+        "end": 5
+      }
+    ],
+    "url": "https://open.spotify.com/episode/2Etuf45Ekyj6ZHemlIexu8",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 42,
+    "refSource": "series",
+    "aiConfidence": 0.97,
+    "seriesKey": "church in a time of crisis|2020-03"
+  },
+  {
+    "id": "cotcny-5x7AvLdRRhlM535bbW7B5H",
+    "title": "Kindness in a Time of Harshness",
+    "church": "cotcny",
+    "speaker": "Jon Tyson",
+    "date": "2020-04-27",
+    "series": "Church In A Time of Crisis",
+    "passage": "",
+    "refs": [
+      {
+        "book": "galatians",
+        "start": 5,
+        "end": 5
+      }
+    ],
+    "url": "https://open.spotify.com/episode/5x7AvLdRRhlM535bbW7B5H",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 46,
+    "refSource": "series",
+    "aiConfidence": 0.97,
+    "seriesKey": "church in a time of crisis|2020-03"
+  },
+  {
+    "id": "cotcny-5M6KbNpOUw3I6DSQROHbPB",
+    "title": "Transcendent Peace in a Time of Anxiety",
+    "church": "cotcny",
+    "speaker": "Jon Tyson",
+    "date": "2020-04-13",
+    "series": "Church In A Time of Crisis",
+    "passage": "",
+    "refs": [
+      {
+        "book": "galatians",
+        "start": 5,
+        "end": 5
+      }
+    ],
+    "url": "https://open.spotify.com/episode/5M6KbNpOUw3I6DSQROHbPB",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 42,
+    "refSource": "series",
+    "aiConfidence": 0.97,
+    "seriesKey": "church in a time of crisis|2020-03"
+  },
+  {
+    "id": "cotcny-597IbYwe0FXc8dURG1usi6",
+    "title": "Defiant Joy in a Time of Despair",
+    "church": "cotcny",
+    "speaker": "Jon Tyson",
+    "date": "2020-04-06",
+    "series": "Church In A Time of Crisis",
+    "passage": "",
+    "refs": [
+      {
+        "book": "galatians",
+        "start": 5,
+        "end": 5
+      }
+    ],
+    "url": "https://open.spotify.com/episode/597IbYwe0FXc8dURG1usi6",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 42,
+    "refSource": "series",
+    "aiConfidence": 0.97,
+    "seriesKey": "church in a time of crisis|2020-03"
+  },
+  {
+    "id": "cotcny-0Jy0K8aEwIE4FQa17oJysb",
+    "title": "Love In A time of Selfishness",
+    "church": "cotcny",
+    "speaker": "Jon Tyson",
+    "date": "2020-03-31",
+    "series": "Church in a Time of Crisis",
+    "passage": "",
+    "refs": [
+      {
+        "book": "galatians",
+        "start": 5,
+        "end": 5
+      }
+    ],
+    "url": "https://open.spotify.com/episode/0Jy0K8aEwIE4FQa17oJysb",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 40,
+    "refSource": "ai",
+    "aiConfidence": 0.85,
+    "seriesKey": "church in a time of crisis|2020-03"
+  },
+  {
+    "id": "cotcny-6pZs00pnPZSQ2RTsTOtJ5b",
+    "title": "Fruit of the Spirit in a Time of the Flesh",
+    "church": "cotcny",
+    "speaker": "Jon Tyson",
+    "date": "2020-03-24",
+    "series": "Church in A Time of Crisis",
+    "passage": "",
+    "refs": [
+      {
+        "book": "galatians",
+        "start": 5,
+        "end": 5
+      }
+    ],
+    "url": "https://open.spotify.com/episode/6pZs00pnPZSQ2RTsTOtJ5b",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 39,
+    "refSource": "ai",
+    "aiConfidence": 0.9,
+    "seriesKey": "church in a time of crisis|2020-03"
   },
   {
     "id": "cotcny-43pSIFXBvihTd712YfsAxf",
@@ -2309,7 +4541,9 @@
     "url": "https://open.spotify.com/episode/43pSIFXBvihTd712YfsAxf",
     "tags": [],
     "source": "rss",
-    "durationMin": 55
+    "durationMin": 55,
+    "refSource": "regex",
+    "seriesKey": "altars|2020-02"
   },
   {
     "id": "cotcny-7L6BKys8nTsAcxD75ADlih",
@@ -2329,7 +4563,9 @@
     "url": "https://open.spotify.com/episode/7L6BKys8nTsAcxD75ADlih",
     "tags": [],
     "source": "rss",
-    "durationMin": 40
+    "durationMin": 40,
+    "refSource": "regex",
+    "seriesKey": "emmanuel|2019-12"
   },
   {
     "id": "cotcny-47gpLreRLNsfsEYDvYF2nm",
@@ -2349,7 +4585,9 @@
     "url": "https://open.spotify.com/episode/47gpLreRLNsfsEYDvYF2nm",
     "tags": [],
     "source": "rss",
-    "durationMin": 44
+    "durationMin": 44,
+    "refSource": "regex",
+    "seriesKey": "emmanuel|2019-12"
   },
   {
     "id": "cotcny-3bjzgeIhQxjYE2qdNFu9qd",
@@ -2369,7 +4607,9 @@
     "url": "https://open.spotify.com/episode/3bjzgeIhQxjYE2qdNFu9qd",
     "tags": [],
     "source": "rss",
-    "durationMin": 39
+    "durationMin": 39,
+    "refSource": "regex",
+    "seriesKey": "emmanuel|2019-12"
   },
   {
     "id": "cotcny-7L1YippuIkOxnDdPkiYxjp",
@@ -2389,7 +4629,9 @@
     "url": "https://open.spotify.com/episode/7L1YippuIkOxnDdPkiYxjp",
     "tags": [],
     "source": "rss",
-    "durationMin": 46
+    "durationMin": 46,
+    "refSource": "regex",
+    "seriesKey": "fall vision day 2019|2019-09"
   },
   {
     "id": "cotcny-58N5thn0wp2DbrAwbCDe49",
@@ -2409,7 +4651,9 @@
     "url": "https://open.spotify.com/episode/58N5thn0wp2DbrAwbCDe49",
     "tags": [],
     "source": "rss",
-    "durationMin": 62
+    "durationMin": 62,
+    "refSource": "regex",
+    "seriesKey": "citizens|2019-07"
   },
   {
     "id": "cotcny-6mslMJe5JnEQhQWgcvc9Q1",
@@ -2429,7 +4673,9 @@
     "url": "https://open.spotify.com/episode/6mslMJe5JnEQhQWgcvc9Q1",
     "tags": [],
     "source": "rss",
-    "durationMin": 60
+    "durationMin": 60,
+    "refSource": "regex",
+    "seriesKey": "citizens|2019-07"
   },
   {
     "id": "cotcny-1fAHDV6OUJIpuFBDGqd99Q",
@@ -2449,7 +4695,9 @@
     "url": "https://open.spotify.com/episode/1fAHDV6OUJIpuFBDGqd99Q",
     "tags": [],
     "source": "rss",
-    "durationMin": 65
+    "durationMin": 65,
+    "refSource": "regex",
+    "seriesKey": "citizens|2019-07"
   },
   {
     "id": "cotcny-0U4KwuIUKMEslX66DJnMKo",
@@ -2469,7 +4717,9 @@
     "url": "https://open.spotify.com/episode/0U4KwuIUKMEslX66DJnMKo",
     "tags": [],
     "source": "rss",
-    "durationMin": 56
+    "durationMin": 56,
+    "refSource": "regex",
+    "seriesKey": "citizens|2019-07"
   },
   {
     "id": "cotcny-0ISJkmJcd21G2kO4Ht3bcQ",
@@ -2489,7 +4739,9 @@
     "url": "https://open.spotify.com/episode/0ISJkmJcd21G2kO4Ht3bcQ",
     "tags": [],
     "source": "rss",
-    "durationMin": 53
+    "durationMin": 53,
+    "refSource": "regex",
+    "seriesKey": "citizens|2019-07"
   },
   {
     "id": "cotcny-0mUmqj9xEg4E5piJ08ufNM",
@@ -2509,7 +4761,9 @@
     "url": "https://open.spotify.com/episode/0mUmqj9xEg4E5piJ08ufNM",
     "tags": [],
     "source": "rss",
-    "durationMin": 55
+    "durationMin": 55,
+    "refSource": "regex",
+    "seriesKey": "citizens|2019-07"
   },
   {
     "id": "cotcny-6JM5Eq8eFQ9V5anUeBkAgQ",
@@ -2529,7 +4783,9 @@
     "url": "https://open.spotify.com/episode/6JM5Eq8eFQ9V5anUeBkAgQ",
     "tags": [],
     "source": "rss",
-    "durationMin": 51
+    "durationMin": 51,
+    "refSource": "regex",
+    "seriesKey": "citizens|2019-07"
   },
   {
     "id": "cotcny-1pK7rJQ4oeKJJNyU8H2wtx",
@@ -2549,7 +4805,9 @@
     "url": "https://open.spotify.com/episode/1pK7rJQ4oeKJJNyU8H2wtx",
     "tags": [],
     "source": "rss",
-    "durationMin": 49
+    "durationMin": 49,
+    "refSource": "regex",
+    "seriesKey": "citizens|2019-07"
   },
   {
     "id": "cotcny-3kNVF5gsOxON2OQLi4MXcD",
@@ -2569,7 +4827,9 @@
     "url": "https://open.spotify.com/episode/3kNVF5gsOxON2OQLi4MXcD",
     "tags": [],
     "source": "rss",
-    "durationMin": 48
+    "durationMin": 48,
+    "refSource": "regex",
+    "seriesKey": "citizens|2019-07"
   },
   {
     "id": "cotcny-6llDvkbBawh0PMupoKNh1D",
@@ -2589,7 +4849,9 @@
     "url": "https://open.spotify.com/episode/6llDvkbBawh0PMupoKNh1D",
     "tags": [],
     "source": "rss",
-    "durationMin": 46
+    "durationMin": 46,
+    "refSource": "regex",
+    "seriesKey": "revival|2019-06"
   },
   {
     "id": "cotcny-5m1ylR7OeqfmrTK6DCbhB8",
@@ -2609,7 +4871,9 @@
     "url": "https://open.spotify.com/episode/5m1ylR7OeqfmrTK6DCbhB8",
     "tags": [],
     "source": "rss",
-    "durationMin": 52
+    "durationMin": 52,
+    "refSource": "regex",
+    "seriesKey": "revival|2019-06"
   },
   {
     "id": "cotcny-0bv5nebnP4pwOHUoudEZDe",
@@ -2629,7 +4893,9 @@
     "url": "https://open.spotify.com/episode/0bv5nebnP4pwOHUoudEZDe",
     "tags": [],
     "source": "rss",
-    "durationMin": 27
+    "durationMin": 27,
+    "refSource": "regex",
+    "seriesKey": "revival|2019-06"
   },
   {
     "id": "cotcny-5XBkrix8axTaJuukR8ZvEa",
@@ -2649,7 +4915,9 @@
     "url": "https://open.spotify.com/episode/5XBkrix8axTaJuukR8ZvEa",
     "tags": [],
     "source": "rss",
-    "durationMin": 43
+    "durationMin": 43,
+    "refSource": "regex",
+    "seriesKey": "revival|2019-06"
   },
   {
     "id": "cotcny-4qGJKlG92vs7mQ8Lmj3tPJ",
@@ -2669,7 +4937,9 @@
     "url": "https://open.spotify.com/episode/4qGJKlG92vs7mQ8Lmj3tPJ",
     "tags": [],
     "source": "rss",
-    "durationMin": 38
+    "durationMin": 38,
+    "refSource": "regex",
+    "seriesKey": "revival|2019-06"
   },
   {
     "id": "cotcny-11eRTp9Qqd4eAsnuUYuJQG",
@@ -2689,7 +4959,9 @@
     "url": "https://open.spotify.com/episode/11eRTp9Qqd4eAsnuUYuJQG",
     "tags": [],
     "source": "rss",
-    "durationMin": 44
+    "durationMin": 44,
+    "refSource": "regex",
+    "seriesKey": "kingdom values|2019-04"
   },
   {
     "id": "cotcny-49T28H2giUUCiGLtR5xiQC",
@@ -2709,7 +4981,9 @@
     "url": "https://open.spotify.com/episode/49T28H2giUUCiGLtR5xiQC",
     "tags": [],
     "source": "rss",
-    "durationMin": 54
+    "durationMin": 54,
+    "refSource": "regex",
+    "seriesKey": "kingdom values|2019-04"
   },
   {
     "id": "cotcny-4EI9s4oRJunl5Ech2rVrUx",
@@ -2729,7 +5003,9 @@
     "url": "https://open.spotify.com/episode/4EI9s4oRJunl5Ech2rVrUx",
     "tags": [],
     "source": "rss",
-    "durationMin": 53
+    "durationMin": 53,
+    "refSource": "regex",
+    "seriesKey": "kingdom values|2019-04"
   },
   {
     "id": "cotcny-3sIQHyEN9EJKpTeKV3fpVg",
@@ -2749,7 +5025,9 @@
     "url": "https://open.spotify.com/episode/3sIQHyEN9EJKpTeKV3fpVg",
     "tags": [],
     "source": "rss",
-    "durationMin": 39
+    "durationMin": 39,
+    "refSource": "regex",
+    "seriesKey": "kingdom values|2019-04"
   },
   {
     "id": "cotcny-6TGTxNCsVj6njtK1bN8LS8",
@@ -2769,7 +5047,32 @@
     "url": "https://open.spotify.com/episode/6TGTxNCsVj6njtK1bN8LS8",
     "tags": [],
     "source": "rss",
-    "durationMin": 57
+    "durationMin": 57,
+    "refSource": "regex",
+    "seriesKey": "kingdom values|2019-04"
+  },
+  {
+    "id": "cotcny-2FP41Q7f5R32kEKUXxShAu",
+    "title": "It Is Finished",
+    "church": "cotcny",
+    "speaker": "Jon Tyson",
+    "date": "2019-04-23",
+    "series": "Words from the Cross",
+    "passage": "",
+    "refs": [
+      {
+        "book": "john",
+        "start": 19,
+        "end": 19
+      }
+    ],
+    "url": "https://open.spotify.com/episode/2FP41Q7f5R32kEKUXxShAu",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 41,
+    "refSource": "ai",
+    "aiConfidence": 0.96,
+    "seriesKey": "words from the cross|2019-03"
   },
   {
     "id": "cotcny-79qSN0Sgs8ioaS8q0zNTOY",
@@ -2789,7 +5092,9 @@
     "url": "https://open.spotify.com/episode/79qSN0Sgs8ioaS8q0zNTOY",
     "tags": [],
     "source": "rss",
-    "durationMin": 39
+    "durationMin": 39,
+    "refSource": "regex",
+    "seriesKey": "words from the cross|2019-03"
   },
   {
     "id": "cotcny-1SZ9H71uPgATEnHzGaLHCF",
@@ -2809,7 +5114,9 @@
     "url": "https://open.spotify.com/episode/1SZ9H71uPgATEnHzGaLHCF",
     "tags": [],
     "source": "rss",
-    "durationMin": 50
+    "durationMin": 50,
+    "refSource": "regex",
+    "seriesKey": "words from the cross|2019-03"
   },
   {
     "id": "cotcny-24R8qNgghQQ39ECTGw6duQ",
@@ -2829,7 +5136,9 @@
     "url": "https://open.spotify.com/episode/24R8qNgghQQ39ECTGw6duQ",
     "tags": [],
     "source": "rss",
-    "durationMin": 40
+    "durationMin": 40,
+    "refSource": "regex",
+    "seriesKey": "words from the cross|2019-03"
   },
   {
     "id": "cotcny-22mkDTA1jp3krTbF0i9W8F",
@@ -2849,7 +5158,9 @@
     "url": "https://open.spotify.com/episode/22mkDTA1jp3krTbF0i9W8F",
     "tags": [],
     "source": "rss",
-    "durationMin": 59
+    "durationMin": 59,
+    "refSource": "regex",
+    "seriesKey": "words from the cross|2019-03"
   },
   {
     "id": "cotcny-6XAzN6K6jgylqrzNl4WgH0",
@@ -2869,7 +5180,9 @@
     "url": "https://open.spotify.com/episode/6XAzN6K6jgylqrzNl4WgH0",
     "tags": [],
     "source": "rss",
-    "durationMin": 52
+    "durationMin": 52,
+    "refSource": "regex",
+    "seriesKey": "words from the cross|2019-03"
   },
   {
     "id": "cotcny-6pBMdA4XW9xFdfSvZyLdmQ",
@@ -2889,7 +5202,9 @@
     "url": "https://open.spotify.com/episode/6pBMdA4XW9xFdfSvZyLdmQ",
     "tags": [],
     "source": "rss",
-    "durationMin": 47
+    "durationMin": 47,
+    "refSource": "regex",
+    "seriesKey": "words from the cross|2019-03"
   },
   {
     "id": "cotcny-2kF8uHV54AOBBsHxyDjEpl",
@@ -2909,7 +5224,9 @@
     "url": "https://open.spotify.com/episode/2kF8uHV54AOBBsHxyDjEpl",
     "tags": [],
     "source": "rss",
-    "durationMin": 52
+    "durationMin": 52,
+    "refSource": "regex",
+    "seriesKey": "i am|2019-01"
   },
   {
     "id": "cotcny-49tZVOgEOjgQI12F2J75n1",
@@ -2929,7 +5246,9 @@
     "url": "https://open.spotify.com/episode/49tZVOgEOjgQI12F2J75n1",
     "tags": [],
     "source": "rss",
-    "durationMin": 44
+    "durationMin": 44,
+    "refSource": "regex",
+    "seriesKey": "i am|2019-01"
   },
   {
     "id": "cotcny-0N7lV8N7gGPQjowLl5zeLt",
@@ -2949,7 +5268,9 @@
     "url": "https://open.spotify.com/episode/0N7lV8N7gGPQjowLl5zeLt",
     "tags": [],
     "source": "rss",
-    "durationMin": 47
+    "durationMin": 47,
+    "refSource": "regex",
+    "seriesKey": "i am|2019-01"
   },
   {
     "id": "cotcny-7kOQ8DYP5W1hml6yJ8uFSU",
@@ -2969,7 +5290,9 @@
     "url": "https://open.spotify.com/episode/7kOQ8DYP5W1hml6yJ8uFSU",
     "tags": [],
     "source": "rss",
-    "durationMin": 42
+    "durationMin": 42,
+    "refSource": "regex",
+    "seriesKey": "i am|2019-01"
   },
   {
     "id": "cotcny-3hizIohbsmHWXO2IAyiBnN",
@@ -2989,7 +5312,9 @@
     "url": "https://open.spotify.com/episode/3hizIohbsmHWXO2IAyiBnN",
     "tags": [],
     "source": "rss",
-    "durationMin": 41
+    "durationMin": 41,
+    "refSource": "regex",
+    "seriesKey": "i am|2019-01"
   },
   {
     "id": "cotcny-0kDxVQhbRm4diZusrBdom3",
@@ -3009,7 +5334,9 @@
     "url": "https://open.spotify.com/episode/0kDxVQhbRm4diZusrBdom3",
     "tags": [],
     "source": "rss",
-    "durationMin": 43
+    "durationMin": 43,
+    "refSource": "regex",
+    "seriesKey": "i am|2019-01"
   },
   {
     "id": "cotcny-6cSAyoDZQogefcdVVo4MiO",
@@ -3029,7 +5356,9 @@
     "url": "https://open.spotify.com/episode/6cSAyoDZQogefcdVVo4MiO",
     "tags": [],
     "source": "rss",
-    "durationMin": 50
+    "durationMin": 50,
+    "refSource": "regex",
+    "seriesKey": "i am|2019-01"
   },
   {
     "id": "cotcny-3yZzJugzUkmDnD3Qxwb002",
@@ -3049,7 +5378,8 @@
     "url": "https://open.spotify.com/episode/3yZzJugzUkmDnD3Qxwb002",
     "tags": [],
     "source": "rss",
-    "durationMin": 48
+    "durationMin": 48,
+    "refSource": "regex"
   },
   {
     "id": "cotcny-56cqWLjPFLNSfcfw3f8uS2",
@@ -3069,7 +5399,8 @@
     "url": "https://open.spotify.com/episode/56cqWLjPFLNSfcfw3f8uS2",
     "tags": [],
     "source": "rss",
-    "durationMin": 65
+    "durationMin": 65,
+    "refSource": "regex"
   },
   {
     "id": "cotcny-0qBHhuSR5SZ2QSwXhAI27c",
@@ -3089,7 +5420,8 @@
     "url": "https://open.spotify.com/episode/0qBHhuSR5SZ2QSwXhAI27c",
     "tags": [],
     "source": "rss",
-    "durationMin": 35
+    "durationMin": 35,
+    "refSource": "regex"
   },
   {
     "id": "cotcny-2VOvm6IneHCzAYqdS6AEGz",
@@ -3109,7 +5441,9 @@
     "url": "https://open.spotify.com/episode/2VOvm6IneHCzAYqdS6AEGz",
     "tags": [],
     "source": "rss",
-    "durationMin": 50
+    "durationMin": 50,
+    "refSource": "regex",
+    "seriesKey": "advent|2018-12"
   },
   {
     "id": "cotcny-3KapMAMh87nyVRFSeg2vg3",
@@ -3129,7 +5463,9 @@
     "url": "https://open.spotify.com/episode/3KapMAMh87nyVRFSeg2vg3",
     "tags": [],
     "source": "rss",
-    "durationMin": 40
+    "durationMin": 40,
+    "refSource": "regex",
+    "seriesKey": "advent|2018-12"
   },
   {
     "id": "cotcny-7tn7QOb4ifCN90Pl128y8A",
@@ -3149,7 +5485,8 @@
     "url": "https://open.spotify.com/episode/7tn7QOb4ifCN90Pl128y8A",
     "tags": [],
     "source": "rss",
-    "durationMin": 53
+    "durationMin": 53,
+    "refSource": "regex"
   },
   {
     "id": "cotcny-001tPpzoiewE2YUVcnhIYJ",
@@ -3169,7 +5506,8 @@
     "url": "https://open.spotify.com/episode/001tPpzoiewE2YUVcnhIYJ",
     "tags": [],
     "source": "rss",
-    "durationMin": 57
+    "durationMin": 57,
+    "refSource": "regex"
   },
   {
     "id": "cotcny-6EiecmJEyXg73eX56tiDyx",
@@ -3189,7 +5527,8 @@
     "url": "https://open.spotify.com/episode/6EiecmJEyXg73eX56tiDyx",
     "tags": [],
     "source": "rss",
-    "durationMin": 55
+    "durationMin": 55,
+    "refSource": "regex"
   },
   {
     "id": "cotcny-5cTsIZcCoOzV0CNPbgfXBZ",
@@ -3209,7 +5548,8 @@
     "url": "https://open.spotify.com/episode/5cTsIZcCoOzV0CNPbgfXBZ",
     "tags": [],
     "source": "rss",
-    "durationMin": 51
+    "durationMin": 51,
+    "refSource": "regex"
   },
   {
     "id": "cotcny-7ekoPtSWsvVVplHEWOHpMA",
@@ -3229,7 +5569,8 @@
     "url": "https://open.spotify.com/episode/7ekoPtSWsvVVplHEWOHpMA",
     "tags": [],
     "source": "rss",
-    "durationMin": 60
+    "durationMin": 60,
+    "refSource": "regex"
   },
   {
     "id": "cotcny-4FTw1EMH3uQU16KOH81bz7",
@@ -3249,7 +5590,8 @@
     "url": "https://open.spotify.com/episode/4FTw1EMH3uQU16KOH81bz7",
     "tags": [],
     "source": "rss",
-    "durationMin": 48
+    "durationMin": 48,
+    "refSource": "regex"
   },
   {
     "id": "cotcny-32OMOSQypCNAOWGVXJpK7v",
@@ -3269,7 +5611,32 @@
     "url": "https://open.spotify.com/episode/32OMOSQypCNAOWGVXJpK7v",
     "tags": [],
     "source": "rss",
-    "durationMin": 43
+    "durationMin": 43,
+    "refSource": "regex",
+    "seriesKey": "teach us to pray|2018-06"
+  },
+  {
+    "id": "cotcny-7e6oPkcWCnUkQMzz9RvDTb",
+    "title": "The Kind Of Leaders We're Looking For",
+    "church": "cotcny",
+    "speaker": "Jon Tyson",
+    "date": "2018-08-28",
+    "series": "Fall Vision Day 2018",
+    "passage": "",
+    "refs": [
+      {
+        "book": "2-timothy",
+        "start": 2,
+        "end": 2
+      }
+    ],
+    "url": "https://open.spotify.com/episode/7e6oPkcWCnUkQMzz9RvDTb",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 60,
+    "refSource": "ai",
+    "aiConfidence": 0.92,
+    "seriesKey": "fall vision day 2018|2018-08"
   },
   {
     "id": "cotcny-3deDQ5iQD2wMQoWdgjwysG",
@@ -3289,7 +5656,9 @@
     "url": "https://open.spotify.com/episode/3deDQ5iQD2wMQoWdgjwysG",
     "tags": [],
     "source": "rss",
-    "durationMin": 60
+    "durationMin": 60,
+    "refSource": "regex",
+    "seriesKey": "teach us to pray|2018-06"
   },
   {
     "id": "cotcny-3x0qN8Jwxgqy4VvGsXadfS",
@@ -3309,7 +5678,9 @@
     "url": "https://open.spotify.com/episode/3x0qN8Jwxgqy4VvGsXadfS",
     "tags": [],
     "source": "rss",
-    "durationMin": 42
+    "durationMin": 42,
+    "refSource": "regex",
+    "seriesKey": "teach us to pray|2018-06"
   },
   {
     "id": "cotcny-7jbjhFEcozm6DoiCYZGRtK",
@@ -3329,7 +5700,9 @@
     "url": "https://open.spotify.com/episode/7jbjhFEcozm6DoiCYZGRtK",
     "tags": [],
     "source": "rss",
-    "durationMin": 39
+    "durationMin": 39,
+    "refSource": "regex",
+    "seriesKey": "teach us to pray|2018-06"
   },
   {
     "id": "cotcny-7H1GhtYk088TSqh5ugp613",
@@ -3349,7 +5722,9 @@
     "url": "https://open.spotify.com/episode/7H1GhtYk088TSqh5ugp613",
     "tags": [],
     "source": "rss",
-    "durationMin": 52
+    "durationMin": 52,
+    "refSource": "regex",
+    "seriesKey": "teach us to pray|2018-06"
   },
   {
     "id": "cotcny-1qtgzl5Ybk9O2tU21gOMma",
@@ -3369,7 +5744,30 @@
     "url": "https://open.spotify.com/episode/1qtgzl5Ybk9O2tU21gOMma",
     "tags": [],
     "source": "rss",
-    "durationMin": 57
+    "durationMin": 57,
+    "refSource": "regex",
+    "seriesKey": "teach us to pray|2018-06"
+  },
+  {
+    "id": "cotcny-58aM7vJYjbesLhXpkhMRpm",
+    "title": "Week 5 - Stand Up",
+    "church": "cotcny",
+    "speaker": "Adam Durso",
+    "date": "2018-07-24",
+    "series": "Teach Us To Pray",
+    "passage": "",
+    "refs": [
+      {
+        "book": "1-samuel"
+      }
+    ],
+    "url": "https://open.spotify.com/episode/58aM7vJYjbesLhXpkhMRpm",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 36,
+    "refSource": "ai",
+    "aiConfidence": 0.9,
+    "seriesKey": "teach us to pray|2018-06"
   },
   {
     "id": "cotcny-1n20d22A0Iy0SwbAin8Zin",
@@ -3389,7 +5787,9 @@
     "url": "https://open.spotify.com/episode/1n20d22A0Iy0SwbAin8Zin",
     "tags": [],
     "source": "rss",
-    "durationMin": 51
+    "durationMin": 51,
+    "refSource": "regex",
+    "seriesKey": "teach us to pray|2018-06"
   },
   {
     "id": "cotcny-7vfTz0AouT0sAJdjwYrP1c",
@@ -3409,7 +5809,9 @@
     "url": "https://open.spotify.com/episode/7vfTz0AouT0sAJdjwYrP1c",
     "tags": [],
     "source": "rss",
-    "durationMin": 42
+    "durationMin": 42,
+    "refSource": "regex",
+    "seriesKey": "teach us to pray|2018-06"
   },
   {
     "id": "cotcny-0zfAtJRjXqN8ZfKYZeawKd",
@@ -3429,7 +5831,9 @@
     "url": "https://open.spotify.com/episode/0zfAtJRjXqN8ZfKYZeawKd",
     "tags": [],
     "source": "rss",
-    "durationMin": 60
+    "durationMin": 60,
+    "refSource": "regex",
+    "seriesKey": "teach us to pray|2018-06"
   },
   {
     "id": "cotcny-7jhiXab3BD51MSDy9g9TlV",
@@ -3449,7 +5853,9 @@
     "url": "https://open.spotify.com/episode/7jhiXab3BD51MSDy9g9TlV",
     "tags": [],
     "source": "rss",
-    "durationMin": 52
+    "durationMin": 52,
+    "refSource": "regex",
+    "seriesKey": "teach us to pray|2018-06"
   },
   {
     "id": "cotcny-2qCh4Ri2ErJfrH1mJKr73x",
@@ -3469,7 +5875,9 @@
     "url": "https://open.spotify.com/episode/2qCh4Ri2ErJfrH1mJKr73x",
     "tags": [],
     "source": "rss",
-    "durationMin": 53
+    "durationMin": 53,
+    "refSource": "regex",
+    "seriesKey": "the controversial jesus|2018-04"
   },
   {
     "id": "cotcny-3WmAkSmX5JfHxdLPubCa9G",
@@ -3489,7 +5897,9 @@
     "url": "https://open.spotify.com/episode/3WmAkSmX5JfHxdLPubCa9G",
     "tags": [],
     "source": "rss",
-    "durationMin": 71
+    "durationMin": 71,
+    "refSource": "regex",
+    "seriesKey": "the controversial jesus|2018-04"
   },
   {
     "id": "cotcny-74AmZdNPOvP99nyfAAWbba",
@@ -3509,7 +5919,9 @@
     "url": "https://open.spotify.com/episode/74AmZdNPOvP99nyfAAWbba",
     "tags": [],
     "source": "rss",
-    "durationMin": 71
+    "durationMin": 71,
+    "refSource": "regex",
+    "seriesKey": "the controversial jesus|2018-04"
   },
   {
     "id": "cotcny-3idh2DUY1l6PjbZPsXGCG0",
@@ -3529,7 +5941,9 @@
     "url": "https://open.spotify.com/episode/3idh2DUY1l6PjbZPsXGCG0",
     "tags": [],
     "source": "rss",
-    "durationMin": 66
+    "durationMin": 66,
+    "refSource": "regex",
+    "seriesKey": "the controversial jesus|2018-04"
   },
   {
     "id": "cotcny-7DLM4gZJqeaI6nqUlY0QKk",
@@ -3549,7 +5963,9 @@
     "url": "https://open.spotify.com/episode/7DLM4gZJqeaI6nqUlY0QKk",
     "tags": [],
     "source": "rss",
-    "durationMin": 79
+    "durationMin": 79,
+    "refSource": "regex",
+    "seriesKey": "the controversial jesus|2018-04"
   },
   {
     "id": "cotcny-3iPCHa0nWdy0lIpLjP9bsY",
@@ -3569,7 +5985,9 @@
     "url": "https://open.spotify.com/episode/3iPCHa0nWdy0lIpLjP9bsY",
     "tags": [],
     "source": "rss",
-    "durationMin": 56
+    "durationMin": 56,
+    "refSource": "regex",
+    "seriesKey": "the controversial jesus|2018-04"
   },
   {
     "id": "cotcny-1jaUlyz6NUydSS3zgEpJlu",
@@ -3589,7 +6007,9 @@
     "url": "https://open.spotify.com/episode/1jaUlyz6NUydSS3zgEpJlu",
     "tags": [],
     "source": "rss",
-    "durationMin": 70
+    "durationMin": 70,
+    "refSource": "regex",
+    "seriesKey": "the controversial jesus|2018-04"
   },
   {
     "id": "cotcny-2WfGbCTRJqu3L18OzTsOEY",
@@ -3609,7 +6029,9 @@
     "url": "https://open.spotify.com/episode/2WfGbCTRJqu3L18OzTsOEY",
     "tags": [],
     "source": "rss",
-    "durationMin": 87
+    "durationMin": 87,
+    "refSource": "regex",
+    "seriesKey": "the controversial jesus|2018-04"
   },
   {
     "id": "cotcny-1P0RVt5xeSRc6y3pG0j4bo",
@@ -3629,7 +6051,9 @@
     "url": "https://open.spotify.com/episode/1P0RVt5xeSRc6y3pG0j4bo",
     "tags": [],
     "source": "rss",
-    "durationMin": 60
+    "durationMin": 60,
+    "refSource": "regex",
+    "seriesKey": "the controversial jesus|2018-04"
   },
   {
     "id": "cotcny-4QxGJjQYaxvXxNUNIhOp4Q",
@@ -3649,7 +6073,9 @@
     "url": "https://open.spotify.com/episode/4QxGJjQYaxvXxNUNIhOp4Q",
     "tags": [],
     "source": "rss",
-    "durationMin": 53
+    "durationMin": 53,
+    "refSource": "regex",
+    "seriesKey": "the controversial jesus|2018-04"
   },
   {
     "id": "cotcny-53PfAvsVtgh4gqsqnVXc52",
@@ -3669,7 +6095,9 @@
     "url": "https://open.spotify.com/episode/53PfAvsVtgh4gqsqnVXc52",
     "tags": [],
     "source": "rss",
-    "durationMin": 46
+    "durationMin": 46,
+    "refSource": "regex",
+    "seriesKey": "the controversial jesus|2018-04"
   },
   {
     "id": "cotcny-1BzdT1neTn1VhWRlerX5NA",
@@ -3689,7 +6117,9 @@
     "url": "https://open.spotify.com/episode/1BzdT1neTn1VhWRlerX5NA",
     "tags": [],
     "source": "rss",
-    "durationMin": 44
+    "durationMin": 44,
+    "refSource": "regex",
+    "seriesKey": "the prodigal church|2018-02"
   },
   {
     "id": "cotcny-0E4o9mKibk4SsqphJ2GtOv",
@@ -3709,7 +6139,101 @@
     "url": "https://open.spotify.com/episode/0E4o9mKibk4SsqphJ2GtOv",
     "tags": [],
     "source": "rss",
-    "durationMin": 57
+    "durationMin": 57,
+    "refSource": "regex",
+    "seriesKey": "the prodigal church|2018-02"
+  },
+  {
+    "id": "cotcny-25tJiWHqNuvXgG6G3LQ3PR",
+    "title": "Sardis",
+    "church": "cotcny",
+    "speaker": "Jon Tyson",
+    "date": "2018-03-13",
+    "series": "The Prodigal Church",
+    "passage": "",
+    "refs": [
+      {
+        "book": "revelation",
+        "start": 3,
+        "end": 3
+      }
+    ],
+    "url": "https://open.spotify.com/episode/25tJiWHqNuvXgG6G3LQ3PR",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 52,
+    "refSource": "ai",
+    "aiConfidence": 0.98,
+    "seriesKey": "the prodigal church|2018-02"
+  },
+  {
+    "id": "cotcny-796JTRui68JWBbDtcPkuvE",
+    "title": "Thyatira",
+    "church": "cotcny",
+    "speaker": "Jon Tyson",
+    "date": "2018-03-06",
+    "series": "The Prodigal Church",
+    "passage": "",
+    "refs": [
+      {
+        "book": "revelation",
+        "start": 2,
+        "end": 2
+      }
+    ],
+    "url": "https://open.spotify.com/episode/796JTRui68JWBbDtcPkuvE",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 54,
+    "refSource": "ai",
+    "aiConfidence": 0.98,
+    "seriesKey": "the prodigal church|2018-02"
+  },
+  {
+    "id": "cotcny-6w2Hid6L4wXiP7qsJBjR8U",
+    "title": "Pergamum",
+    "church": "cotcny",
+    "speaker": "Suzy Silk",
+    "date": "2018-02-26",
+    "series": "The Prodigal Church",
+    "passage": "",
+    "refs": [
+      {
+        "book": "revelation",
+        "start": 2,
+        "end": 2
+      }
+    ],
+    "url": "https://open.spotify.com/episode/6w2Hid6L4wXiP7qsJBjR8U",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 52,
+    "refSource": "ai",
+    "aiConfidence": 0.98,
+    "seriesKey": "the prodigal church|2018-02"
+  },
+  {
+    "id": "cotcny-36bOrIovEge0l0w7jqZynE",
+    "title": "Ephesus",
+    "church": "cotcny",
+    "speaker": "Jon Tyson",
+    "date": "2018-02-20",
+    "series": "The Prodigal Church",
+    "passage": "",
+    "refs": [
+      {
+        "book": "revelation",
+        "start": 2,
+        "end": 2
+      }
+    ],
+    "url": "https://open.spotify.com/episode/36bOrIovEge0l0w7jqZynE",
+    "tags": [],
+    "source": "rss",
+    "durationMin": 55,
+    "refSource": "ai",
+    "aiConfidence": 0.98,
+    "seriesKey": "the prodigal church|2018-02"
   },
   {
     "id": "cotcny-6eRCJ7hTnaLnmmrTEjyVsX",
@@ -3729,7 +6253,9 @@
     "url": "https://open.spotify.com/episode/6eRCJ7hTnaLnmmrTEjyVsX",
     "tags": [],
     "source": "rss",
-    "durationMin": 59
+    "durationMin": 59,
+    "refSource": "regex",
+    "seriesKey": "the way of jesus|2018-01"
   },
   {
     "id": "cotcny-3DleMSD7xyjk5wuWlrbDaj",
@@ -3749,7 +6275,9 @@
     "url": "https://open.spotify.com/episode/3DleMSD7xyjk5wuWlrbDaj",
     "tags": [],
     "source": "rss",
-    "durationMin": 64
+    "durationMin": 64,
+    "refSource": "regex",
+    "seriesKey": "the way of jesus|2018-01"
   },
   {
     "id": "cotcny-0uw4BVxpQOlsqL46vQK3D0",
@@ -3769,7 +6297,9 @@
     "url": "https://open.spotify.com/episode/0uw4BVxpQOlsqL46vQK3D0",
     "tags": [],
     "source": "rss",
-    "durationMin": 51
+    "durationMin": 51,
+    "refSource": "regex",
+    "seriesKey": "the way of jesus|2018-01"
   },
   {
     "id": "cotcny-7gbDRcdUjEBQOBQy711ryj",
@@ -3789,7 +6319,9 @@
     "url": "https://open.spotify.com/episode/7gbDRcdUjEBQOBQy711ryj",
     "tags": [],
     "source": "rss",
-    "durationMin": 52
+    "durationMin": 52,
+    "refSource": "regex",
+    "seriesKey": "the way of jesus|2018-01"
   },
   {
     "id": "cotcny-4ki0ddekk3WnglvcFOnJSs",
@@ -3809,7 +6341,9 @@
     "url": "https://open.spotify.com/episode/4ki0ddekk3WnglvcFOnJSs",
     "tags": [],
     "source": "rss",
-    "durationMin": 51
+    "durationMin": 51,
+    "refSource": "regex",
+    "seriesKey": "the way of jesus|2018-01"
   },
   {
     "id": "cotcny-3bnQmXBq94xYSN536OyW9b",
@@ -3829,7 +6363,9 @@
     "url": "https://open.spotify.com/episode/3bnQmXBq94xYSN536OyW9b",
     "tags": [],
     "source": "rss",
-    "durationMin": 49
+    "durationMin": 49,
+    "refSource": "regex",
+    "seriesKey": "the way of jesus|2018-01"
   },
   {
     "id": "cotcny-7aPkpnA85JlIToqqPu2jL1",
@@ -3849,7 +6385,9 @@
     "url": "https://open.spotify.com/episode/7aPkpnA85JlIToqqPu2jL1",
     "tags": [],
     "source": "rss",
-    "durationMin": 22
+    "durationMin": 22,
+    "refSource": "regex",
+    "seriesKey": "christmas eve|2017-12"
   },
   {
     "id": "cotcny-40bOBrZxXatuKFDrZ2OARQ",
@@ -3869,7 +6407,9 @@
     "url": "https://open.spotify.com/episode/40bOBrZxXatuKFDrZ2OARQ",
     "tags": [],
     "source": "rss",
-    "durationMin": 31
+    "durationMin": 31,
+    "refSource": "regex",
+    "seriesKey": "advent|2017-11"
   },
   {
     "id": "cotcny-2Vi3i4jRuL5jkNpjp37C7S",
@@ -3889,7 +6429,9 @@
     "url": "https://open.spotify.com/episode/2Vi3i4jRuL5jkNpjp37C7S",
     "tags": [],
     "source": "rss",
-    "durationMin": 43
+    "durationMin": 43,
+    "refSource": "regex",
+    "seriesKey": "advent|2017-11"
   },
   {
     "id": "cotcny-5OgUioVIrU0hy0MA7TNVMI",
@@ -3909,7 +6451,9 @@
     "url": "https://open.spotify.com/episode/5OgUioVIrU0hy0MA7TNVMI",
     "tags": [],
     "source": "rss",
-    "durationMin": 47
+    "durationMin": 47,
+    "refSource": "regex",
+    "seriesKey": "advent|2017-11"
   },
   {
     "id": "cotcny-6TWguyY7ygG1nxB8oTaDRS",
@@ -3929,7 +6473,9 @@
     "url": "https://open.spotify.com/episode/6TWguyY7ygG1nxB8oTaDRS",
     "tags": [],
     "source": "rss",
-    "durationMin": 46
+    "durationMin": 46,
+    "refSource": "regex",
+    "seriesKey": "advent|2017-11"
   },
   {
     "id": "cotcny-75NkVrImdOjlm1AqDSv4cP",
@@ -3949,7 +6495,9 @@
     "url": "https://open.spotify.com/episode/75NkVrImdOjlm1AqDSv4cP",
     "tags": [],
     "source": "rss",
-    "durationMin": 49
+    "durationMin": 49,
+    "refSource": "regex",
+    "seriesKey": "holy ambition|2017-09"
   },
   {
     "id": "cotcny-34ww4Q2loUNljhcGHR2zby",
@@ -3969,7 +6517,9 @@
     "url": "https://open.spotify.com/episode/34ww4Q2loUNljhcGHR2zby",
     "tags": [],
     "source": "rss",
-    "durationMin": 53
+    "durationMin": 53,
+    "refSource": "regex",
+    "seriesKey": "holy ambition|2017-09"
   },
   {
     "id": "cotcny-2uLtZA8nj6ctsbdR1DWqNe",
@@ -3989,7 +6539,9 @@
     "url": "https://open.spotify.com/episode/2uLtZA8nj6ctsbdR1DWqNe",
     "tags": [],
     "source": "rss",
-    "durationMin": 56
+    "durationMin": 56,
+    "refSource": "regex",
+    "seriesKey": "holy ambition|2017-09"
   },
   {
     "id": "cotcny-5d16GaJ2GR48bVeUl2VE2Y",
@@ -4009,7 +6561,9 @@
     "url": "https://open.spotify.com/episode/5d16GaJ2GR48bVeUl2VE2Y",
     "tags": [],
     "source": "rss",
-    "durationMin": 53
+    "durationMin": 53,
+    "refSource": "regex",
+    "seriesKey": "holy ambition|2017-09"
   },
   {
     "id": "cotcny-3024LzJFQx4pPa9mlh1AaP",
@@ -4029,7 +6583,9 @@
     "url": "https://open.spotify.com/episode/3024LzJFQx4pPa9mlh1AaP",
     "tags": [],
     "source": "rss",
-    "durationMin": 50
+    "durationMin": 50,
+    "refSource": "regex",
+    "seriesKey": "holy ambition|2017-09"
   },
   {
     "id": "cotcny-4qVnIKS1nu17uM8w7qBAgW",
@@ -4049,7 +6605,9 @@
     "url": "https://open.spotify.com/episode/4qVnIKS1nu17uM8w7qBAgW",
     "tags": [],
     "source": "rss",
-    "durationMin": 52
+    "durationMin": 52,
+    "refSource": "regex",
+    "seriesKey": "holy ambition|2017-09"
   },
   {
     "id": "cotcny-4WIrXKirK74CejjnfkrCQg",
@@ -4069,7 +6627,9 @@
     "url": "https://open.spotify.com/episode/4WIrXKirK74CejjnfkrCQg",
     "tags": [],
     "source": "rss",
-    "durationMin": 55
+    "durationMin": 55,
+    "refSource": "regex",
+    "seriesKey": "holy ambition|2017-09"
   },
   {
     "id": "cotcny-1U598P4p08alfOL7JPFb6M",
@@ -4089,7 +6649,9 @@
     "url": "https://open.spotify.com/episode/1U598P4p08alfOL7JPFb6M",
     "tags": [],
     "source": "rss",
-    "durationMin": 43
+    "durationMin": 43,
+    "refSource": "regex",
+    "seriesKey": "holy ambition|2017-09"
   },
   {
     "id": "cotcny-3gmFy7neVJM3vHLoJLcatP",
@@ -4109,7 +6671,9 @@
     "url": "https://open.spotify.com/episode/3gmFy7neVJM3vHLoJLcatP",
     "tags": [],
     "source": "rss",
-    "durationMin": 50
+    "durationMin": 50,
+    "refSource": "regex",
+    "seriesKey": "holy ambition|2017-09"
   },
   {
     "id": "cotcny-4d9ooP8svNQ8KhRuvTHoM1",
@@ -4129,7 +6693,9 @@
     "url": "https://open.spotify.com/episode/4d9ooP8svNQ8KhRuvTHoM1",
     "tags": [],
     "source": "rss",
-    "durationMin": 46
+    "durationMin": 46,
+    "refSource": "regex",
+    "seriesKey": "making sense of church|2017-06"
   },
   {
     "id": "cotcny-43o8tOQNRhJJnHfTAfYjQK",
@@ -4149,7 +6715,9 @@
     "url": "https://open.spotify.com/episode/43o8tOQNRhJJnHfTAfYjQK",
     "tags": [],
     "source": "rss",
-    "durationMin": 83
+    "durationMin": 83,
+    "refSource": "regex",
+    "seriesKey": "making sense of church|2017-06"
   },
   {
     "id": "cotcny-5wYtVGG5217PgBAj2xCTtq",
@@ -4169,7 +6737,9 @@
     "url": "https://open.spotify.com/episode/5wYtVGG5217PgBAj2xCTtq",
     "tags": [],
     "source": "rss",
-    "durationMin": 62
+    "durationMin": 62,
+    "refSource": "regex",
+    "seriesKey": "making sense of church|2017-06"
   },
   {
     "id": "cotcny-02lgGq2Cy940N7JC0eG3n5",
@@ -4189,7 +6759,9 @@
     "url": "https://open.spotify.com/episode/02lgGq2Cy940N7JC0eG3n5",
     "tags": [],
     "source": "rss",
-    "durationMin": 60
+    "durationMin": 60,
+    "refSource": "regex",
+    "seriesKey": "making sense of church|2017-06"
   },
   {
     "id": "cotcny-4lHcqPe1tGcbrmWx57Up4h",
@@ -4209,7 +6781,9 @@
     "url": "https://open.spotify.com/episode/4lHcqPe1tGcbrmWx57Up4h",
     "tags": [],
     "source": "rss",
-    "durationMin": 51
+    "durationMin": 51,
+    "refSource": "regex",
+    "seriesKey": "making sense of church|2017-06"
   },
   {
     "id": "cotcny-63LzCeQ1sUu8o3oF5Rflb5",
@@ -4229,7 +6803,9 @@
     "url": "https://open.spotify.com/episode/63LzCeQ1sUu8o3oF5Rflb5",
     "tags": [],
     "source": "rss",
-    "durationMin": 38
+    "durationMin": 38,
+    "refSource": "regex",
+    "seriesKey": "making sense of church|2017-06"
   },
   {
     "id": "cotcny-5q0GrvY8PCdCP6Ta06snQE",
@@ -4249,7 +6825,9 @@
     "url": "https://open.spotify.com/episode/5q0GrvY8PCdCP6Ta06snQE",
     "tags": [],
     "source": "rss",
-    "durationMin": 54
+    "durationMin": 54,
+    "refSource": "regex",
+    "seriesKey": "making sense of church|2017-06"
   },
   {
     "id": "cotcny-4CxEVlxen1o3td8VQQbP7D",
@@ -4269,7 +6847,9 @@
     "url": "https://open.spotify.com/episode/4CxEVlxen1o3td8VQQbP7D",
     "tags": [],
     "source": "rss",
-    "durationMin": 52
+    "durationMin": 52,
+    "refSource": "regex",
+    "seriesKey": "making sense of church|2017-06"
   },
   {
     "id": "cotcny-6nHvkhrXXNaesTYM7xo8JU",
@@ -4289,7 +6869,9 @@
     "url": "https://open.spotify.com/episode/6nHvkhrXXNaesTYM7xo8JU",
     "tags": [],
     "source": "rss",
-    "durationMin": 56
+    "durationMin": 56,
+    "refSource": "regex",
+    "seriesKey": "making sense of church|2017-06"
   },
   {
     "id": "cotcny-6Pj9iz7c3Y5xyBUprr4u14",
@@ -4309,7 +6891,9 @@
     "url": "https://open.spotify.com/episode/6Pj9iz7c3Y5xyBUprr4u14",
     "tags": [],
     "source": "rss",
-    "durationMin": 40
+    "durationMin": 40,
+    "refSource": "regex",
+    "seriesKey": "making sense of church|2017-06"
   },
   {
     "id": "cotcny-54U0b1yuXGWPdD8s4Zdwq8",
@@ -4329,7 +6913,9 @@
     "url": "https://open.spotify.com/episode/54U0b1yuXGWPdD8s4Zdwq8",
     "tags": [],
     "source": "rss",
-    "durationMin": 44
+    "durationMin": 44,
+    "refSource": "regex",
+    "seriesKey": "making sense of church|2017-06"
   },
   {
     "id": "cotcny-1TBKPTJEJiW6GzCCoNy5Dg",
@@ -4349,7 +6935,9 @@
     "url": "https://open.spotify.com/episode/1TBKPTJEJiW6GzCCoNy5Dg",
     "tags": [],
     "source": "rss",
-    "durationMin": 54
+    "durationMin": 54,
+    "refSource": "regex",
+    "seriesKey": "making sense of church|2017-06"
   },
   {
     "id": "cotcny-0LnhKoLxPYGhB0H1pCJYK1",
@@ -4369,7 +6957,9 @@
     "url": "https://open.spotify.com/episode/0LnhKoLxPYGhB0H1pCJYK1",
     "tags": [],
     "source": "rss",
-    "durationMin": 48
+    "durationMin": 48,
+    "refSource": "regex",
+    "seriesKey": "making sense of church|2017-06"
   },
   {
     "id": "cotcny-4dFawcjgJviuVUtFk1gMDQ",
@@ -4389,7 +6979,9 @@
     "url": "https://open.spotify.com/episode/4dFawcjgJviuVUtFk1gMDQ",
     "tags": [],
     "source": "rss",
-    "durationMin": 36
+    "durationMin": 36,
+    "refSource": "regex",
+    "seriesKey": "making sense of church|2017-06"
   },
   {
     "id": "cotcny-5Q00bYF94KBfyn8dVwRtcC",
@@ -4409,7 +7001,9 @@
     "url": "https://open.spotify.com/episode/5Q00bYF94KBfyn8dVwRtcC",
     "tags": [],
     "source": "rss",
-    "durationMin": 45
+    "durationMin": 45,
+    "refSource": "regex",
+    "seriesKey": "making sense of church|2017-06"
   },
   {
     "id": "cotcny-6o6TcpZBG6LM5omrxOQPeX",
@@ -4429,7 +7023,9 @@
     "url": "https://open.spotify.com/episode/6o6TcpZBG6LM5omrxOQPeX",
     "tags": [],
     "source": "rss",
-    "durationMin": 40
+    "durationMin": 40,
+    "refSource": "regex",
+    "seriesKey": "making sense of church|2017-06"
   },
   {
     "id": "cotcny-051mcoiS4z7LL0E1LI12bU",
@@ -4449,7 +7045,9 @@
     "url": "https://open.spotify.com/episode/051mcoiS4z7LL0E1LI12bU",
     "tags": [],
     "source": "rss",
-    "durationMin": 41
+    "durationMin": 41,
+    "refSource": "regex",
+    "seriesKey": "making sense of church|2017-06"
   },
   {
     "id": "cotcny-48dmC9UvYliMtwqRHnyzw8",
@@ -4469,7 +7067,9 @@
     "url": "https://open.spotify.com/episode/48dmC9UvYliMtwqRHnyzw8",
     "tags": [],
     "source": "rss",
-    "durationMin": 33
+    "durationMin": 33,
+    "refSource": "regex",
+    "seriesKey": "making sense of church|2017-06"
   },
   {
     "id": "cotcny-0YCxWONROYxCtvoRM0T4nW",
@@ -4492,7 +7092,9 @@
     "url": "https://open.spotify.com/episode/0YCxWONROYxCtvoRM0T4nW",
     "tags": [],
     "source": "rss",
-    "durationMin": 46
+    "durationMin": 46,
+    "refSource": "regex",
+    "seriesKey": "making sense of church|2017-06"
   },
   {
     "id": "cotcny-2v8gZfNTySsI4KtpCDotrQ",
@@ -4515,6 +7117,8 @@
     "url": "https://open.spotify.com/episode/2v8gZfNTySsI4KtpCDotrQ",
     "tags": [],
     "source": "rss",
-    "durationMin": 26
+    "durationMin": 26,
+    "refSource": "regex",
+    "seriesKey": "making sense of church|2017-06"
   }
 ]

@@ -1,0 +1,1115 @@
+{
+ "_meta": {
+  "generated": "2026-10-02",
+  "model": "claude-sonnet (subagents)",
+  "note": "AI tags for episodes the regex left unmapped. pass 1 = episode judged alone; pass 2 = re-judged with its whole series as context (replaces pass 1 for every episode pass 1 didn't settle at >= 0.9). kinds: book, topical, non_sermon (excluded from site at >= 0.7), unknown. Hand overrides always win."
+ },
+ "09SAKitwdLqyymxGGhm0nV": {
+  "_episode": "Part 1: What is the Gospel?",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.8,
+  "rationale": "Evangelism teaching; opening conversation on the gospel.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.85"
+ },
+ "0FmlYXfx6EROgDeYBZusYW": {
+  "_episode": "Part 8: The Subtle Tragedy of Nicodemus",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john"
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "Nicodemus scenes are in John",
+  "pass": 1
+ },
+ "0GaF9sgJiiNY1FdmZfSsZY": {
+  "_episode": "Part 1: From Belief to Knowledge",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.4,
+  "rationale": "About Peter, true/false self; passage unclear in a series that hops books.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "0IUPW87MrSCTFUZnjoC3pX": {
+  "_episode": "Deliverance: Session 1 with Q&R",
+  "kind": "non_sermon",
+  "refs": [],
+  "confidence": 0.75,
+  "rationale": "Deliverance session with Q&R.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.8"
+ },
+ "0T0bTtzoMYweK97p75A7TD": {
+  "_episode": "Blessing the Nations",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew"
+   }
+  ],
+  "confidence": 0.7,
+  "rationale": "Matthew series; nations theme could be 28 or 1-2",
+  "pass": 1
+ },
+ "0WYYDsLCCIEAf2doLzG8kK": {
+  "_episode": "Part 3: Practice Hospitality",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.8,
+  "rationale": "Thematic teaching with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.8"
+ },
+ "0aL9TbMLxaSL6HqZAa5251": {
+  "_episode": "Part 4: Power: Dove",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Spirit as dove/power; thematic.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.5"
+ },
+ "0cwRlfROwpeZ4DbpDeQIIH": {
+  "_episode": "Session 3: Presence and Power of God",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.9,
+  "rationale": "Conference session.",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "topical  0.9"
+ },
+ "0i6ft2sWGNYtLluWxwKFDW": {
+  "_episode": "Indigenous Heritage: Family & Tribe",
+  "kind": "non_sermon",
+  "refs": [],
+  "confidence": 0.75,
+  "rationale": "Heritage month stories from members.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.9"
+ },
+ "0kDl0bwyRRZQgyLLf6mOeH": {
+  "_episode": "HSC25: Session 5",
+  "kind": "non_sermon",
+  "refs": [],
+  "confidence": 0.95,
+  "rationale": "Q&R with panel.",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "topical  0.95"
+ },
+ "0sw3j6v6Lx1phvG0bwNTBF": {
+  "_episode": "Q&R: The Ministry of Reconciliation",
+  "kind": "non_sermon",
+  "refs": [],
+  "confidence": 0.9,
+  "rationale": "Q&R after lecture.",
+  "pass": 2,
+  "series_kind": "unclear",
+  "pass1": "book 2-corinthians 0.35"
+ },
+ "0zL7zUdMjdabWxrOdBTo5Y": {
+  "_episode": "Hispanic Heritage: Embracing Community",
+  "kind": "non_sermon",
+  "refs": [],
+  "confidence": 0.75,
+  "rationale": "Heritage month stories from members.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.9"
+ },
+ "14TJS3jnNiDob5KRMhXc1c": {
+  "_episode": "Indigenous Heritage: Oregon’s Past & Future",
+  "kind": "non_sermon",
+  "refs": [],
+  "confidence": 0.75,
+  "rationale": "Heritage month stories from members.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.9"
+ },
+ "15G6b8qbpFPPWkeaJVauKH": {
+  "_episode": "Love is the Measure",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew"
+   }
+  ],
+  "confidence": 0.85,
+  "rationale": "Matthew series; love as measure, likely 22 or 25 so unspecified",
+  "pass": 1
+ },
+ "187TquHXGz3SM5YFdVoOPq": {
+  "_episode": "Lecture: Part 4: Women & Eldership — Threats & Invitations",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.9,
+  "rationale": "Lecture on women in eldership.",
+  "pass": 2,
+  "series_kind": "unclear",
+  "pass1": "topical  0.92"
+ },
+ "1NSphq3WfihmqDugeDLlWv": {
+  "_episode": "Justice Summit: Session 3",
+  "kind": "non_sermon",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Summit sessions are discussions about vision for justice.",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "topical  0.9"
+ },
+ "1O9ffLFtmnawh9rskUSXg4": {
+  "_episode": "Black History: Legacy & Identity",
+  "kind": "non_sermon",
+  "refs": [],
+  "confidence": 0.75,
+  "rationale": "Conversation/stories for Black History Month.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.9"
+ },
+ "1OxD3zJoOPdU5PMtTHQrgO": {
+  "_episode": "Prayer Training with Tyler Staton",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Training on prophecy/prayer; thematic.",
+  "pass": 2,
+  "series_kind": "unclear",
+  "pass1": "topical  0.85"
+ },
+ "1PYUm3tpMm0ZHA1UaCEkfV": {
+  "_episode": "Part 2: Be Still and Know",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "psalms",
+    "start": 46,
+    "end": 46
+   }
+  ],
+  "confidence": 0.55,
+  "rationale": "Be still and know, Psalm 46:10.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book psalms 0.45"
+ },
+ "1PcNqGFS2pkMSwvvbM1qtJ": {
+  "_episode": "Part 8: Preaching a Disruptive Gospel",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.7,
+  "rationale": "Thematic teaching with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.7"
+ },
+ "1QAn0hyzc8vhoL9E4lh5IP": {
+  "_episode": "Part 1: A Familiar Stranger",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.6,
+  "rationale": "Thematic teaching with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.6"
+ },
+ "1SIYGpkJsIExvziM8rCu9I": {
+  "_episode": "God is dead. You're next.",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew"
+   }
+  ],
+  "confidence": 0.75,
+  "rationale": "Matthew series label only; title ambiguous",
+  "pass": 1
+ },
+ "1VqlxNgZauT9hEOdJ1eXf0": {
+  "_episode": "Lecture: The Ministry of Reconciliation",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "2-corinthians",
+    "start": 5,
+    "end": 5
+   }
+  ],
+  "confidence": 0.7,
+  "rationale": "Ministry of reconciliation is 2 Corinthians 5:18-20.",
+  "pass": 2,
+  "series_kind": "unclear",
+  "pass1": "book 2-corinthians 0.4"
+ },
+ "1cbZXgNSVfPuwDiCkpUgVL": {
+  "_episode": "The Differentness of God",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew"
+   }
+  ],
+  "confidence": 0.8,
+  "rationale": "Matthew series label only",
+  "pass": 1
+ },
+ "1d6tZJcTStIPvJIu1sL74x": {
+  "_episode": "Q&R: Deconstruction & Reconstruction",
+  "kind": "non_sermon",
+  "refs": [],
+  "confidence": 0.92,
+  "rationale": "Q&R with Josh Porter.",
+  "pass": 2,
+  "series_kind": "unclear",
+  "pass1": "topical  0.8"
+ },
+ "1e7wTvXG6KmCRqIsZN4kuz": {
+  "_episode": "Lecture: Part 3: Women & Eldership — A Closer Look at The Four Pillars",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.9,
+  "rationale": "Lecture on women in eldership.",
+  "pass": 2,
+  "series_kind": "unclear",
+  "pass1": "topical  0.92"
+ },
+ "1wWYQYT4Bgs404WkcKLaDm": {
+  "_episode": "Q&R: Prayer & Paradise",
+  "kind": "non_sermon",
+  "refs": [],
+  "confidence": 0.95,
+  "rationale": "Q&R on prayer and paradise.",
+  "pass": 2,
+  "series_kind": "unclear",
+  "pass1": "book genesis 0.75"
+ },
+ "1xBvz1IQrOv33zyjTjqEax": {
+  "_episode": "Q&R: Deconstrucion & Doubt with A.J. Swoboda",
+  "kind": "non_sermon",
+  "refs": [],
+  "confidence": 0.95,
+  "rationale": "Q&R with guests.",
+  "pass": 2,
+  "series_kind": "unclear",
+  "pass1": "topical  0.95"
+ },
+ "28BsZ3ThsZUL3pG5GphmDV": {
+  "_episode": "Sonship, Kinship, and Citizenship in the Kingdom of God",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Sonship/kinship/citizenship; thematic.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.6"
+ },
+ "2AlEPTTbnUatbMhbEQV59c": {
+  "_episode": "AAPI Heritage: Family & Culture",
+  "kind": "non_sermon",
+  "refs": [],
+  "confidence": 0.7,
+  "rationale": "Members sharing heritage stories; not a sermon.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.9"
+ },
+ "2BzRCh17FcDgBcq8Zfb6hA": {
+  "_episode": "Part 9: Future Church for the Future World",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.6,
+  "rationale": "Easter message on the gospel; no text evident.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.6"
+ },
+ "2DgeJtrBrvUpJEYhjmGxZG": {
+  "_episode": "Lecture: Part 1: Women & Eldership — What Is Our Position?",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.9,
+  "rationale": "Lecture on women in eldership.",
+  "pass": 2,
+  "series_kind": "unclear",
+  "pass1": "topical  0.92"
+ },
+ "2EjV8SWPBY9f04LjKkc247": {
+  "_episode": "Steps Into Suffering",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew"
+   }
+  ],
+  "confidence": 0.85,
+  "rationale": "Gospel of Matthew series; Jesus' compassion, chapter unclear",
+  "pass": 1
+ },
+ "2J5kFjiipmdNdfzmMXiMj6": {
+  "_episode": "Part 7: A Community of Contribution in a Culture of Careerism",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.85,
+  "rationale": "Thematic teaching with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.85"
+ },
+ "2MKtzStl2Qh5sjbftnC1gR": {
+  "_episode": "Part 10: A Community of Justice, Mercy, and Peace in a Culture of Social Darwinism",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.8,
+  "rationale": "Thematic teaching with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.8"
+ },
+ "2R32OuyLedVulP93sa4334": {
+  "_episode": "Part 7: Live in a Way That Begs the Question",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.85,
+  "rationale": "Thematic teaching with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.85"
+ },
+ "2UkMm6qnFo9qRU70XcaExn": {
+  "_episode": "Justice Summit: Session 1",
+  "kind": "non_sermon",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Summit sessions are discussions about vision for justice.",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "topical  0.9"
+ },
+ "2VfrhyVrmlKc8r5bfu7UUw": {
+  "_episode": "Q&R: A God of Love. A World of Suffering.",
+  "kind": "non_sermon",
+  "refs": [],
+  "confidence": 0.95,
+  "rationale": "Q&R about Job with Tim Mackie; no sermon.",
+  "pass": 2,
+  "series_kind": "unclear",
+  "pass1": "book job 0.85"
+ },
+ "2ZlNG2ZScUipXod5WpR4ar": {
+  "_episode": "Session 2: A Life of Justice & Mercy",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.85,
+  "rationale": "Conference session.",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "topical  0.85"
+ },
+ "2fUaDtb9Y49KUt7fNcwrXM": {
+  "_episode": "Walking with God in a time of Chaos",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.75,
+  "rationale": "Guest talk on walking with God, no single text.",
+  "pass": 2,
+  "series_kind": "unclear",
+  "pass1": "topical  0.8"
+ },
+ "2mQlUuVc1TMhzFYNmTVfVk": {
+  "_episode": "Part 5: Methods & Context",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.9,
+  "rationale": "Thematic teaching with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.9"
+ },
+ "2rysrVFFu73Vpi5kp7MKWA": {
+  "_episode": "Indigenous Heritage: Truth & Reconciliation",
+  "kind": "non_sermon",
+  "refs": [],
+  "confidence": 0.75,
+  "rationale": "Heritage month stories from members.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.9"
+ },
+ "2sjUxTnnlcJ4PjhuHB08Sq": {
+  "_episode": "Part 6: Prophecy",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.6,
+  "rationale": "Thematic teaching with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.6"
+ },
+ "2vrILGLSCpksNbzxrClMfU": {
+  "_episode": "Honor & Shame",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew"
+   }
+  ],
+  "confidence": 0.8,
+  "rationale": "Matthew series label only",
+  "pass": 1
+ },
+ "2xg6QIgm0xjjXxY0o0kEjh": {
+  "_episode": "Resources for the Healing Journey",
+  "kind": "non_sermon",
+  "refs": [],
+  "confidence": 0.6,
+  "rationale": "Resources and best practices episode, not a sermon.",
+  "pass": 2,
+  "series_kind": "unclear",
+  "pass1": "topical  0.9"
+ },
+ "32Ksjx8YOEnEe4mcl1s4LP": {
+  "_episode": "AAPI Heritage: From Majority to Minority",
+  "kind": "non_sermon",
+  "refs": [],
+  "confidence": 0.7,
+  "rationale": "Members sharing heritage stories; not a sermon.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.9"
+ },
+ "35uvQE3nPfrpAUJ9kKGTFY": {
+  "_episode": "Session 1: The Spirit for the City",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.85,
+  "rationale": "Conference session.",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "topical  0.85"
+ },
+ "3AeDYI6q5qXEP5m9JtGEzf": {
+  "_episode": "Part 3: Hallowed Be Your Name (Adoration)",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 6,
+    "end": 6
+   }
+  ],
+  "confidence": 0.85,
+  "rationale": "Lord's Prayer: hallowed be your name.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book matthew 0.85"
+ },
+ "3D90a8yLL9AoLnwuG5fdjL": {
+  "_episode": "Part 3: Person: Breath",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Holy Spirit as breath; thematic.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.55"
+ },
+ "3DZMvcm05IS0rBbLsqkHMq": {
+  "_episode": "Part 6: Doing The Stuff",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.7,
+  "rationale": "Thematic teaching with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.7"
+ },
+ "3RFxmhaytZBqY6CM1SKtkG": {
+  "_episode": "Hispanic Heritage: Redemption & Celebration",
+  "kind": "non_sermon",
+  "refs": [],
+  "confidence": 0.75,
+  "rationale": "Heritage month stories from members.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.9"
+ },
+ "3fAUNb9xyPY4T3NZeQxtTp": {
+  "_episode": "Lecture: A God of Love. A World of Suffering.",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "job"
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "Lecture on the book of Job",
+  "pass": 1
+ },
+ "3mmB61v9dn3cGcEw1RQJSX": {
+  "_episode": "Rule of Life: Episode 2 with Dr. Jerry Sittser",
+  "kind": "non_sermon",
+  "refs": [],
+  "confidence": 0.85,
+  "rationale": "Conversation episode on rule of life.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.9"
+ },
+ "3srGqiCDypyHEYovX3Y67T": {
+  "_episode": "Part 7: Healing",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.6,
+  "rationale": "Thematic teaching with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.6"
+ },
+ "3yxs9hLxJtNKYE3chEWOzg": {
+  "_episode": "Part 3: A Community of Orthodoxy in a Culture of Ideological Idolatry",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.8,
+  "rationale": "Thematic teaching with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.8"
+ },
+ "3zn9YTGFbSv9WTCaZ70334": {
+  "_episode": "For the Sake of Others: Mark Sayers, pt. 2",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.85,
+  "rationale": "Guest lecture by Mark Sayers.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "topical  0.85"
+ },
+ "454TM66AWgQbk2fPMYXnlU": {
+  "_episode": "Part 1: It's Time to Dream Again",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.85,
+  "rationale": "Thematic teaching with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.85"
+ },
+ "46T9bGttpa0Ak5UPEA9me5": {
+  "_episode": "Rule of Life: Episode 1 with John Mark Comer",
+  "kind": "non_sermon",
+  "refs": [],
+  "confidence": 0.85,
+  "rationale": "Conversation episode on rule of life.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.9"
+ },
+ "4BNiGZg2x9sZX43WpBtWBn": {
+  "_episode": "Part 4: A Community of Holiness in a Culture of Moral Relativism",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.8,
+  "rationale": "Thematic teaching with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.8"
+ },
+ "4FFGMj9lKWrCSmLK1whYrW": {
+  "_episode": "Hospitality of Need with Kevan Chandler",
+  "kind": "non_sermon",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Guest storytelling/discussion with author Kevan Chandler.",
+  "pass": 2,
+  "series_kind": "unclear",
+  "pass1": "topical  0.9"
+ },
+ "4H1zN5P8GjMe8Pno8T0WIG": {
+  "_episode": "Deliverance: Session 2 with Q&R",
+  "kind": "non_sermon",
+  "refs": [],
+  "confidence": 0.75,
+  "rationale": "Deliverance session with Q&R.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.8"
+ },
+ "4K8aOGL7ZOAjTy7dYJzykC": {
+  "_episode": "For the Sake of Others: Mark Sayers, pt. 1",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.85,
+  "rationale": "Guest lecture by Mark Sayers.",
+  "pass": 2,
+  "series_kind": "mixed",
+  "pass1": "topical  0.85"
+ },
+ "4LPGk5CWvXXx5lroz6gwpx": {
+  "_episode": "Part 1: The Birth and Death of Suffering",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Suffering overview, thematic.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.55"
+ },
+ "4QTrkWOsJDh0ix9ZyJv75z": {
+  "_episode": "Part 2: A Community of Tight-knit Loving Relationships in a Culture of Individualism and Tribalism",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.85,
+  "rationale": "Thematic teaching with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.85"
+ },
+ "4VTlK6614aXQPr04NwXdlf": {
+  "_episode": "Part 2: Finding God in All Things",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.85,
+  "rationale": "Teaching on the Examen practice.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.85"
+ },
+ "4b6q4w3E7d3oYL9Mek8UwD": {
+  "_episode": "Godly Ambition",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 20,
+    "end": 20
+   }
+  ],
+  "confidence": 0.8,
+  "rationale": "Gospel of Matthew series; ambition/servanthood fits Matthew 20",
+  "pass": 1
+ },
+ "4dKpmqlAfW9uqfZLPiwZsm": {
+  "_episode": "Believing Amidst Disappointment",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 21,
+    "end": 21
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "Matthew series; triumphal entry into Jerusalem",
+  "pass": 1
+ },
+ "4kGovZ0V4ojzWbKnjUHxB1": {
+  "_episode": "Gethsemane Prayer",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 26,
+    "end": 26
+   }
+  ],
+  "confidence": 0.93,
+  "rationale": "Gethsemane in Matthew series",
+  "pass": 1
+ },
+ "4mXtcRrB2GzTdKPBWsf33D": {
+  "_episode": "Lecture: Prayer & Paradise",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "genesis",
+    "start": 1,
+    "end": 3
+   }
+  ],
+  "confidence": 0.8,
+  "rationale": "Tim Mackie lecture on prayer in the Garden from Genesis.",
+  "pass": 2,
+  "series_kind": "unclear",
+  "pass1": "book genesis 0.8"
+ },
+ "4zkdpQajWn8bmBwd6rjQ4m": {
+  "_episode": "Rule of Life: Episode 3 with Gemma Ryan",
+  "kind": "non_sermon",
+  "refs": [],
+  "confidence": 0.85,
+  "rationale": "Conversation episode on rule of life.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.9"
+ },
+ "524HfsQQJtxE6usxoByT4U": {
+  "_episode": "Practicing the Way of Jesus Together in Portland",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.9,
+  "rationale": "Vision talk.",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "topical  0.9"
+ },
+ "54mdy4HpS1g9RH0t8Xm7x1": {
+  "_episode": "Creation | New Creation",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 1,
+    "end": 1
+   }
+  ],
+  "confidence": 0.7,
+  "rationale": "Creation/new creation through the Word echoes John 1:1-5 in the Advent series.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book john 0.65"
+ },
+ "57t0iwSjehlucG1BmqpjwT": {
+  "_episode": "Part 4: Recognizing Where God is Already Working and Joining In",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.8,
+  "rationale": "Thematic teaching with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.8"
+ },
+ "5FkTquNg7anhqZirMMHoEe": {
+  "_episode": "Part 9: The Land of Inheritance",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.45,
+  "rationale": "Closing talk on inheritance; no text evident.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.55"
+ },
+ "5I1i2QinXKb84n4OQJMZu6": {
+  "_episode": "Part 2: The Four American Gospels",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.9,
+  "rationale": "Thematic teaching with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.9"
+ },
+ "5JlvwKrXHcHiSyRZK49oXX": {
+  "_episode": "Rule of Life: Episode 4 with Sister Heather Kristine",
+  "kind": "non_sermon",
+  "refs": [],
+  "confidence": 0.85,
+  "rationale": "Conversation episode on rule of life.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.9"
+ },
+ "5LBE03mjKCkxHVHTH9fzrI": {
+  "_episode": "Part 1: Pray As You Can",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Intro to prayer; likely Luke 11 but not evident.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.6"
+ },
+ "5YRWBgDGm0XYLxWGXQjZDR": {
+  "_episode": "Be With Jesus. Become Like Jesus. Do What Jesus Did.",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.9,
+  "rationale": "Vision talk.",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "topical  0.9"
+ },
+ "5eiZioab8Wle6pcbGD4azQ": {
+  "_episode": "Justice Summit: Session 2",
+  "kind": "non_sermon",
+  "refs": [],
+  "confidence": 0.5,
+  "rationale": "Summit sessions are discussions about vision for justice.",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "topical  0.9"
+ },
+ "5qmk8MmuogZVHKjcwnMdRQ": {
+  "_episode": "Part 8: A Community of Rest in a Culture of Exhaustion",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.8,
+  "rationale": "Thematic teaching with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.8"
+ },
+ "5tJ2fkx6I0F0KpaPj87P0I": {
+  "_episode": "Black History: Widening Our Imaginations",
+  "kind": "non_sermon",
+  "refs": [],
+  "confidence": 0.75,
+  "rationale": "Conversation/stories for Black History Month.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.9"
+ },
+ "5tNqYDyaUjC8FIDHniiaO1": {
+  "_episode": "Black History: Forgiveness & Spiritual Bypassing",
+  "kind": "non_sermon",
+  "refs": [],
+  "confidence": 0.75,
+  "rationale": "Conversation/stories for Black History Month.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.9"
+ },
+ "67mkeHJ8OEyVsFBaFUDpXR": {
+  "_episode": "Session 3: Kingdom Empowerment",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.85,
+  "rationale": "Conference session.",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "topical  0.85"
+ },
+ "6C9cCAdtjmD6QRC28JmOuf": {
+  "_episode": "The Way of Mercy, Integrity, & Humility",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 23,
+    "end": 23
+   }
+  ],
+  "confidence": 0.9,
+  "rationale": "Matthew series; confronting hypocrisy of leaders, Matthew 23",
+  "pass": 1
+ },
+ "6GC5cQRs1uFRB7QUa0fX36": {
+  "_episode": "AAPI Heritage: Embracing Identity",
+  "kind": "non_sermon",
+  "refs": [],
+  "confidence": 0.7,
+  "rationale": "Members sharing heritage stories; not a sermon.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.9"
+ },
+ "6MPSSwFOtyQo9AnfS2twSD": {
+  "_episode": "Prayer Room Celebration",
+  "kind": "non_sermon",
+  "refs": [],
+  "confidence": 0.85,
+  "rationale": "Celebration with stories from the prayer room.",
+  "pass": 2,
+  "series_kind": "unclear",
+  "pass1": "topical  0.95"
+ },
+ "6PpVDBDWLCXj1XAFFp4njt": {
+  "_episode": "Part 1: Teach us to Pray",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.8,
+  "rationale": "Thematic teaching with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.8"
+ },
+ "6Q9l4aAFafUBAAnZq4NArQ": {
+  "_episode": "Part 4: On Earth as It Is in Heaven (Intercession)",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 6,
+    "end": 6
+   }
+  ],
+  "confidence": 0.8,
+  "rationale": "Lord's Prayer: your kingdom come.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book matthew 0.75"
+ },
+ "6RgRa9jEcGJlnt9P0xn5ZQ": {
+  "_episode": "Hispanic Heritage: Oregon’s Past & Future",
+  "kind": "non_sermon",
+  "refs": [],
+  "confidence": 0.75,
+  "rationale": "Heritage month stories from members.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.9"
+ },
+ "6XlMjuwSoaR0F2CEKgF1Ab": {
+  "_episode": "Part 2: Not What I Expected",
+  "kind": "unknown",
+  "refs": [],
+  "confidence": 0.4,
+  "rationale": "Suffering series hops between books; this one has no evident text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "unknown  0.0"
+ },
+ "6YEYZEwQxVrVFwLsKcviSE": {
+  "_episode": "Session 2: Prophecy in the Local Church",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.9,
+  "rationale": "Conference session.",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "topical  0.9"
+ },
+ "6aFAOVQzLmf8k38MbNjtiX": {
+  "_episode": "Part 2: Presence: Water",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.55,
+  "rationale": "Holy Spirit as water; thematic across texts.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.55"
+ },
+ "6y07pDTSAyp7mMhtGzZIUA": {
+  "_episode": "Come and See",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 28,
+    "end": 28
+   }
+  ],
+  "confidence": 0.92,
+  "rationale": "Resurrection and stolen body story, Matthew 28",
+  "pass": 1
+ },
+ "724BTt3JYhH31ayDnsF8n0": {
+  "_episode": "Part 5: A Community of Peace in a Culture of Outrage and Fear",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.75,
+  "rationale": "Thematic teaching with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.75"
+ },
+ "73jNJdE8PAJgpsGzQKsnMO": {
+  "_episode": "Lecture: Deconstruction & Reconstuction",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.8,
+  "rationale": "Guest lecture on deconstruction.",
+  "pass": 2,
+  "series_kind": "unclear",
+  "pass1": "topical  0.8"
+ },
+ "793QXbwKNryis0IztDhdbL": {
+  "_episode": "Unhindered",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "acts",
+    "start": 28,
+    "end": 28
+   }
+  ],
+  "confidence": 0.92,
+  "rationale": "Final scene of Acts, house arrest",
+  "pass": 1
+ },
+ "7BOTdZE5AuqtNagMFnz3Rq": {
+  "_episode": "Deconstruction & Doubt with A.J. Swoboda",
+  "kind": "non_sermon",
+  "refs": [],
+  "confidence": 0.7,
+  "rationale": "Guest lecture/discussion on deconstruction with A.J. Swoboda; partly conversational.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.9"
+ },
+ "7qGDIis72EQdd1yWQID5Qy": {
+  "_episode": "Part 6: A Community of Peacemakers in a Culture of Political Polarization",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.8,
+  "rationale": "Thematic teaching with no single primary text.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "topical  0.8"
+ },
+ "7qrFiFcxcoSX5QLupapAuX": {
+  "_episode": "Session 1: Weapon of Praise",
+  "kind": "topical",
+  "refs": [],
+  "confidence": 0.9,
+  "rationale": "Conference session.",
+  "pass": 2,
+  "series_kind": "event",
+  "pass1": "topical  0.9"
+ },
+ "7wf9HcNXOEAYCCTDUJZbfG": {
+  "_episode": "Born of God",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "john",
+    "start": 1,
+    "end": 1
+   }
+  ],
+  "confidence": 0.7,
+  "rationale": "Advent series; 'Born of God' is John 1:12-13, next week John 1:14.",
+  "pass": 2,
+  "series_kind": "thematic",
+  "pass1": "book john 0.6"
+ },
+ "7xtlyc1uFFMpwUehL0MUJw": {
+  "_episode": "Render unto Caesar",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew",
+    "start": 22,
+    "end": 22
+   }
+  ],
+  "confidence": 0.93,
+  "rationale": "Render unto Caesar, Matthew 22",
+  "pass": 1
+ },
+ "7ylqaxJbql4lniLHsDS5rh": {
+  "_episode": "To Strengthen The Failing Heart",
+  "kind": "book",
+  "refs": [
+   {
+    "book": "matthew"
+   }
+  ],
+  "confidence": 0.75,
+  "rationale": "Matthew series label; description vague",
+  "pass": 1
+ }
+}
