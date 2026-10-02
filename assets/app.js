@@ -530,7 +530,21 @@ function toast(msg) {
 function bind() {
   const input = $('#q');
   let timer;
+  const clearBtn = $('#q-clear');
+  const syncClear = () => {
+    clearBtn.hidden = !input.value;
+    $('.search').classList.toggle('has-value', !!input.value);
+  };
+  const clearSearch = () => {
+    clearTimeout(timer);
+    input.value = ''; state.query = ''; syncClear(); render();
+  };
+  clearBtn.addEventListener('click', () => {
+    clearSearch();
+    input.focus(); // keep the keyboard up so you can type the next search
+  });
   input.addEventListener('input', () => {
+    syncClear();
     clearTimeout(timer);
     timer = setTimeout(() => { state.query = input.value; render(); revealResults(); }, 80);
   });
@@ -543,7 +557,7 @@ function bind() {
       else if (books.length === 1) go(books[0].id);
       else input.blur(); // dismiss the phone keyboard so results are visible
     } else if (e.key === 'Escape' && input.value) {
-      input.value = ''; state.query = ''; render();
+      clearSearch();
     }
   });
 

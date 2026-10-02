@@ -109,7 +109,16 @@ svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width:
   font: inherit; font-size: 16px; padding: 12px 0; outline: none;
 }
 .search input::placeholder { color: var(--faint); }
-.search input::-webkit-search-cancel-button { filter: grayscale(1); }
+/* Native clear button is inconsistent (missing on iOS), so we draw our own */
+.search input::-webkit-search-cancel-button, .search input::-webkit-search-decoration { -webkit-appearance: none; appearance: none; display: none; }
+.search .clear {
+  flex: none; display: grid; place-items: center; width: 28px; height: 28px; margin-right: -6px; padding: 0;
+  border: 0; border-radius: 50%; cursor: pointer;
+  background: var(--surface-2); color: var(--muted);
+}
+.search .clear svg { width: 15px; height: 15px; stroke-width: 2.5; }
+.search .clear:active { background: var(--border); color: var(--ink); }
+.search.has-value kbd { display: none; }
 .search kbd {
   font: 500 12px var(--sans); color: var(--muted);
   border: 1px solid var(--border); border-radius: 5px; padding: 1px 6px;
@@ -308,10 +317,14 @@ main { padding-top: 20px; padding-bottom: 40px; }
 
   /* Header: one compact line instead of ~200px of hero */
   .masthead { padding: calc(14px + env(safe-area-inset-top)) 0 10px; }
-  .brand { display: flex; align-items: baseline; gap: 8px; }
+  /* Title centered on the screen; eyebrow sits in the left gutter (equal 1fr columns keep the center true) */
+  .brand { display: grid; grid-template-columns: 1fr auto 1fr; align-items: baseline; column-gap: 8px; }
+  .brand .eyebrow { grid-column: 1; justify-self: start; white-space: nowrap; }
+  .brand h1 { grid-column: 2; text-align: center; white-space: nowrap; }
   .brand .eyebrow { font-size: 11px; }
   .brand h1 { font-size: 22px; margin: 0; }
   .lede { display: none; }
+  .search .clear { width: 32px; height: 32px; margin-right: -8px; }
 
   /* Sticky search: always reachable while scrolling the books */
   .toolbar { padding: 8px 0; background: var(--bg); }
@@ -405,4 +418,10 @@ main { padding-top: 20px; padding-bottom: 40px; }
   .chapters button.all { padding: 0 14px; }
   #d-list-label { display: none; }
   .chapters + .label + .sermons { padding-top: 6px; }
+}
+
+/* Very narrow phones: stack eyebrow over the centered title so they never collide */
+@media (max-width: 359px) {
+  .brand { grid-template-columns: 1fr; row-gap: 2px; justify-items: center; }
+  .brand .eyebrow, .brand h1 { grid-column: 1; justify-self: center; }
 }
