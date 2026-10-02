@@ -291,3 +291,8 @@ main { padding-top: 24px; padding-bottom: 40px; }
 .sermon .meta .sep { display: none; }
 .sermon .meta .who { display: inline-flex; align-items: center; gap: 6px; }
 .chapters button.all[aria-pressed="true"] { color: var(--surface); }
+
+/* Equal-height cards in a row; series/tags pinned to the bottom so rows line up */
+.sermons.cols > li { display: flex; }
+.sermons.cols .sermon { flex: 1; grid-template-rows: auto auto auto 1fr; }
+.sermons.cols .sermon .tags { align-self: end; }

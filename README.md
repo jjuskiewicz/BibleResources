@@ -1,6 +1,6 @@
-# Sermon Library
+# LA Farmers Sermon Library
 
-A static site for our men's group: browse the 66 books of the Bible, click one, and get links to sermons on it from the churches we attend. No build step, no backend. GitHub Pages serves the files as-is.
+A static site for the LA Farmers men's group: browse the 66 books of the Bible, click one, and get links to sermons on it from the churches we attend. No build step, no backend. GitHub Pages serves the files as-is.
 
 ## Run locally
 
