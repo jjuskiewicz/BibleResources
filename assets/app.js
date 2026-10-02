@@ -177,10 +177,8 @@ function refLabel(s) {
 
 const byDateDesc = (a, b) => (b.dateObj?.getTime() || 0) - (a.dateObj?.getTime() || 0);
 const fmtDate = (d) => d ? d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }) : '';
-const THIS_YEAR = new Date().getFullYear();
-/** Compact date for cards: "Sep 30" this year, "Mar 2, 2025" otherwise */
-const fmtShort = (d) => d ? d.toLocaleDateString('en-US', d.getFullYear() === THIS_YEAR
-  ? { month: 'short', day: 'numeric' } : { month: 'short', day: 'numeric', year: 'numeric' }) : '';
+/** Card date: always include the year ("Sep 28, 2026") so current-year sermons aren't ambiguous */
+const fmtShort = fmtDate;
 /** Full name on wide screens, short name on phones (CSS toggles .long/.short) */
 const churchName = (c) => c.short && c.short !== c.name
   ? `<span class="long">${esc(c.name)}</span><span class="short">${esc(c.short)}</span>`
