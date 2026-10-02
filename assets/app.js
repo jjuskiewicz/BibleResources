@@ -289,7 +289,8 @@ function sermonCard(s) {
     s.durationMin && `<span class="dur">${Math.round(s.durationMin)} min</span>`,
     seriesHtml,
   ].filter(Boolean).join('');
-  const when = s.dateObj ? `<time datetime="${esc(s.date)}" title="${fmtDate(s.dateObj)}">${fmtShort(s.dateObj)}</time>` : '';
+  const when = s.dateObj ? `<time datetime="${esc(s.date)}" title="${fmtDate(s.dateObj)}">${fmtShort(s.dateObj)}</time>`
+    : s.year ? `<time datetime="${esc(s.year)}" title="Exact date unknown">${esc(s.year)}</time>` : '';
   const tags = (s.tags || []).map((t) => `<span class="tag">#${esc(t)}</span>`).join('');
   return `
     <li>

@@ -6,3 +6,6 @@ __pycache__/
 
 # Raw RSS downloads (re-download any time with the curl commands in README)
 scraping/*_feed.xml
+
+# gospelinlife.com archive page cache (re-fetch with scraping/gil_scrape.py)
+scraping/gil_pages/

@@ -52,7 +52,7 @@ def main() -> int:
                 date.fromisoformat(s["date"])
             except ValueError:
                 errors.append(f"{tag}: date '{s['date']}' is not YYYY-MM-DD")
-        else:
+        elif not s.get("year"):
             warnings.append(f"{tag}: no date (sorts last)")
 
         for r in s.get("refs", []):

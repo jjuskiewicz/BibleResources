@@ -26,5 +26,12 @@
     "short": "Eleven22",
     "url": "",
     "color": "#8a3b3b"
+  },
+  {
+    "id": "keller",
+    "name": "Gospel in Life (Tim Keller)",
+    "short": "Keller",
+    "url": "https://gospelinlife.com",
+    "color": "#5b4a8a"
   }
 ]
