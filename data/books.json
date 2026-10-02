@@ -1,0 +1,721 @@
+{
+ "sections": [
+  {
+   "id": "law",
+   "name": "Law",
+   "testament": "OT"
+  },
+  {
+   "id": "history",
+   "name": "History",
+   "testament": "OT"
+  },
+  {
+   "id": "wisdom",
+   "name": "Wisdom & Poetry",
+   "testament": "OT"
+  },
+  {
+   "id": "major",
+   "name": "Major Prophets",
+   "testament": "OT"
+  },
+  {
+   "id": "minor",
+   "name": "Minor Prophets",
+   "testament": "OT"
+  },
+  {
+   "id": "gospels",
+   "name": "Gospels",
+   "testament": "NT"
+  },
+  {
+   "id": "acts",
+   "name": "Church History",
+   "testament": "NT"
+  },
+  {
+   "id": "pauline",
+   "name": "Pauline Letters",
+   "testament": "NT"
+  },
+  {
+   "id": "general",
+   "name": "General Letters",
+   "testament": "NT"
+  },
+  {
+   "id": "prophecy",
+   "name": "Prophecy",
+   "testament": "NT"
+  }
+ ],
+ "books": [
+  {
+   "id": "genesis",
+   "name": "Genesis",
+   "abbr": "Gen",
+   "chapters": 50,
+   "section": "law",
+   "aliases": [
+    "gn",
+    "ge"
+   ]
+  },
+  {
+   "id": "exodus",
+   "name": "Exodus",
+   "abbr": "Exod",
+   "chapters": 40,
+   "section": "law",
+   "aliases": [
+    "ex",
+    "exo"
+   ]
+  },
+  {
+   "id": "leviticus",
+   "name": "Leviticus",
+   "abbr": "Lev",
+   "chapters": 27,
+   "section": "law",
+   "aliases": [
+    "lv"
+   ]
+  },
+  {
+   "id": "numbers",
+   "name": "Numbers",
+   "abbr": "Num",
+   "chapters": 36,
+   "section": "law",
+   "aliases": [
+    "nm",
+    "nb"
+   ]
+  },
+  {
+   "id": "deuteronomy",
+   "name": "Deuteronomy",
+   "abbr": "Deut",
+   "chapters": 34,
+   "section": "law",
+   "aliases": [
+    "dt"
+   ]
+  },
+  {
+   "id": "joshua",
+   "name": "Joshua",
+   "abbr": "Josh",
+   "chapters": 24,
+   "section": "history",
+   "aliases": [
+    "jos"
+   ]
+  },
+  {
+   "id": "judges",
+   "name": "Judges",
+   "abbr": "Judg",
+   "chapters": 21,
+   "section": "history",
+   "aliases": [
+    "jdg"
+   ]
+  },
+  {
+   "id": "ruth",
+   "name": "Ruth",
+   "abbr": "Ruth",
+   "chapters": 4,
+   "section": "history",
+   "aliases": [
+    "rt"
+   ]
+  },
+  {
+   "id": "1-samuel",
+   "name": "1 Samuel",
+   "abbr": "1 Sam",
+   "chapters": 31,
+   "section": "history",
+   "aliases": [
+    "1 sm"
+   ]
+  },
+  {
+   "id": "2-samuel",
+   "name": "2 Samuel",
+   "abbr": "2 Sam",
+   "chapters": 24,
+   "section": "history",
+   "aliases": [
+    "2 sm"
+   ]
+  },
+  {
+   "id": "1-kings",
+   "name": "1 Kings",
+   "abbr": "1 Kgs",
+   "chapters": 22,
+   "section": "history",
+   "aliases": [
+    "1 ki"
+   ]
+  },
+  {
+   "id": "2-kings",
+   "name": "2 Kings",
+   "abbr": "2 Kgs",
+   "chapters": 25,
+   "section": "history",
+   "aliases": [
+    "2 ki"
+   ]
+  },
+  {
+   "id": "1-chronicles",
+   "name": "1 Chronicles",
+   "abbr": "1 Chr",
+   "chapters": 29,
+   "section": "history",
+   "aliases": [
+    "1 chron"
+   ]
+  },
+  {
+   "id": "2-chronicles",
+   "name": "2 Chronicles",
+   "abbr": "2 Chr",
+   "chapters": 36,
+   "section": "history",
+   "aliases": [
+    "2 chron"
+   ]
+  },
+  {
+   "id": "ezra",
+   "name": "Ezra",
+   "abbr": "Ezra",
+   "chapters": 10,
+   "section": "history",
+   "aliases": [
+    "ezr"
+   ]
+  },
+  {
+   "id": "nehemiah",
+   "name": "Nehemiah",
+   "abbr": "Neh",
+   "chapters": 13,
+   "section": "history",
+   "aliases": [
+    "ne"
+   ]
+  },
+  {
+   "id": "esther",
+   "name": "Esther",
+   "abbr": "Esth",
+   "chapters": 10,
+   "section": "history",
+   "aliases": [
+    "est"
+   ]
+  },
+  {
+   "id": "job",
+   "name": "Job",
+   "abbr": "Job",
+   "chapters": 42,
+   "section": "wisdom",
+   "aliases": [
+    "jb"
+   ]
+  },
+  {
+   "id": "psalms",
+   "name": "Psalms",
+   "abbr": "Ps",
+   "chapters": 150,
+   "section": "wisdom",
+   "aliases": [
+    "psalm",
+    "psa",
+    "pss"
+   ]
+  },
+  {
+   "id": "proverbs",
+   "name": "Proverbs",
+   "abbr": "Prov",
+   "chapters": 31,
+   "section": "wisdom",
+   "aliases": [
+    "pr",
+    "prv"
+   ]
+  },
+  {
+   "id": "ecclesiastes",
+   "name": "Ecclesiastes",
+   "abbr": "Eccl",
+   "chapters": 12,
+   "section": "wisdom",
+   "aliases": [
+    "ecc",
+    "qoh"
+   ]
+  },
+  {
+   "id": "song-of-songs",
+   "name": "Song of Songs",
+   "abbr": "Song",
+   "chapters": 8,
+   "section": "wisdom",
+   "aliases": [
+    "song of solomon",
+    "sos",
+    "canticles"
+   ]
+  },
+  {
+   "id": "isaiah",
+   "name": "Isaiah",
+   "abbr": "Isa",
+   "chapters": 66,
+   "section": "major",
+   "aliases": [
+    "is"
+   ]
+  },
+  {
+   "id": "jeremiah",
+   "name": "Jeremiah",
+   "abbr": "Jer",
+   "chapters": 52,
+   "section": "major",
+   "aliases": [
+    "je"
+   ]
+  },
+  {
+   "id": "lamentations",
+   "name": "Lamentations",
+   "abbr": "Lam",
+   "chapters": 5,
+   "section": "major",
+   "aliases": [
+    "la"
+   ]
+  },
+  {
+   "id": "ezekiel",
+   "name": "Ezekiel",
+   "abbr": "Ezek",
+   "chapters": 48,
+   "section": "major",
+   "aliases": [
+    "eze"
+   ]
+  },
+  {
+   "id": "daniel",
+   "name": "Daniel",
+   "abbr": "Dan",
+   "chapters": 12,
+   "section": "major",
+   "aliases": [
+    "dn"
+   ]
+  },
+  {
+   "id": "hosea",
+   "name": "Hosea",
+   "abbr": "Hos",
+   "chapters": 14,
+   "section": "minor",
+   "aliases": [
+    "ho"
+   ]
+  },
+  {
+   "id": "joel",
+   "name": "Joel",
+   "abbr": "Joel",
+   "chapters": 3,
+   "section": "minor",
+   "aliases": [
+    "jl"
+   ]
+  },
+  {
+   "id": "amos",
+   "name": "Amos",
+   "abbr": "Amos",
+   "chapters": 9,
+   "section": "minor",
+   "aliases": [
+    "am"
+   ]
+  },
+  {
+   "id": "obadiah",
+   "name": "Obadiah",
+   "abbr": "Obad",
+   "chapters": 1,
+   "section": "minor",
+   "aliases": [
+    "ob"
+   ]
+  },
+  {
+   "id": "jonah",
+   "name": "Jonah",
+   "abbr": "Jonah",
+   "chapters": 4,
+   "section": "minor",
+   "aliases": [
+    "jnh"
+   ]
+  },
+  {
+   "id": "micah",
+   "name": "Micah",
+   "abbr": "Mic",
+   "chapters": 7,
+   "section": "minor",
+   "aliases": [
+    "mi"
+   ]
+  },
+  {
+   "id": "nahum",
+   "name": "Nahum",
+   "abbr": "Nah",
+   "chapters": 3,
+   "section": "minor",
+   "aliases": [
+    "na"
+   ]
+  },
+  {
+   "id": "habakkuk",
+   "name": "Habakkuk",
+   "abbr": "Hab",
+   "chapters": 3,
+   "section": "minor",
+   "aliases": [
+    "hb"
+   ]
+  },
+  {
+   "id": "zephaniah",
+   "name": "Zephaniah",
+   "abbr": "Zeph",
+   "chapters": 3,
+   "section": "minor",
+   "aliases": [
+    "zep"
+   ]
+  },
+  {
+   "id": "haggai",
+   "name": "Haggai",
+   "abbr": "Hag",
+   "chapters": 2,
+   "section": "minor",
+   "aliases": [
+    "hg"
+   ]
+  },
+  {
+   "id": "zechariah",
+   "name": "Zechariah",
+   "abbr": "Zech",
+   "chapters": 14,
+   "section": "minor",
+   "aliases": [
+    "zec"
+   ]
+  },
+  {
+   "id": "malachi",
+   "name": "Malachi",
+   "abbr": "Mal",
+   "chapters": 4,
+   "section": "minor",
+   "aliases": [
+    "ml"
+   ]
+  },
+  {
+   "id": "matthew",
+   "name": "Matthew",
+   "abbr": "Matt",
+   "chapters": 28,
+   "section": "gospels",
+   "aliases": [
+    "mt"
+   ]
+  },
+  {
+   "id": "mark",
+   "name": "Mark",
+   "abbr": "Mark",
+   "chapters": 16,
+   "section": "gospels",
+   "aliases": [
+    "mk",
+    "mrk"
+   ]
+  },
+  {
+   "id": "luke",
+   "name": "Luke",
+   "abbr": "Luke",
+   "chapters": 24,
+   "section": "gospels",
+   "aliases": [
+    "lk"
+   ]
+  },
+  {
+   "id": "john",
+   "name": "John",
+   "abbr": "John",
+   "chapters": 21,
+   "section": "gospels",
+   "aliases": [
+    "jn",
+    "jhn"
+   ]
+  },
+  {
+   "id": "acts",
+   "name": "Acts",
+   "abbr": "Acts",
+   "chapters": 28,
+   "section": "acts",
+   "aliases": [
+    "ac"
+   ]
+  },
+  {
+   "id": "romans",
+   "name": "Romans",
+   "abbr": "Rom",
+   "chapters": 16,
+   "section": "pauline",
+   "aliases": [
+    "ro",
+    "rm"
+   ]
+  },
+  {
+   "id": "1-corinthians",
+   "name": "1 Corinthians",
+   "abbr": "1 Cor",
+   "chapters": 16,
+   "section": "pauline",
+   "aliases": []
+  },
+  {
+   "id": "2-corinthians",
+   "name": "2 Corinthians",
+   "abbr": "2 Cor",
+   "chapters": 13,
+   "section": "pauline",
+   "aliases": []
+  },
+  {
+   "id": "galatians",
+   "name": "Galatians",
+   "abbr": "Gal",
+   "chapters": 6,
+   "section": "pauline",
+   "aliases": [
+    "ga"
+   ]
+  },
+  {
+   "id": "ephesians",
+   "name": "Ephesians",
+   "abbr": "Eph",
+   "chapters": 6,
+   "section": "pauline",
+   "aliases": []
+  },
+  {
+   "id": "philippians",
+   "name": "Philippians",
+   "abbr": "Phil",
+   "chapters": 4,
+   "section": "pauline",
+   "aliases": [
+    "php",
+    "pp"
+   ]
+  },
+  {
+   "id": "colossians",
+   "name": "Colossians",
+   "abbr": "Col",
+   "chapters": 4,
+   "section": "pauline",
+   "aliases": []
+  },
+  {
+   "id": "1-thessalonians",
+   "name": "1 Thessalonians",
+   "abbr": "1 Thess",
+   "chapters": 5,
+   "section": "pauline",
+   "aliases": [
+    "1 th"
+   ]
+  },
+  {
+   "id": "2-thessalonians",
+   "name": "2 Thessalonians",
+   "abbr": "2 Thess",
+   "chapters": 3,
+   "section": "pauline",
+   "aliases": [
+    "2 th"
+   ]
+  },
+  {
+   "id": "1-timothy",
+   "name": "1 Timothy",
+   "abbr": "1 Tim",
+   "chapters": 6,
+   "section": "pauline",
+   "aliases": [
+    "1 ti"
+   ]
+  },
+  {
+   "id": "2-timothy",
+   "name": "2 Timothy",
+   "abbr": "2 Tim",
+   "chapters": 4,
+   "section": "pauline",
+   "aliases": [
+    "2 ti"
+   ]
+  },
+  {
+   "id": "titus",
+   "name": "Titus",
+   "abbr": "Titus",
+   "chapters": 3,
+   "section": "pauline",
+   "aliases": [
+    "ti"
+   ]
+  },
+  {
+   "id": "philemon",
+   "name": "Philemon",
+   "abbr": "Phlm",
+   "chapters": 1,
+   "section": "pauline",
+   "aliases": [
+    "phm",
+    "philem"
+   ]
+  },
+  {
+   "id": "hebrews",
+   "name": "Hebrews",
+   "abbr": "Heb",
+   "chapters": 13,
+   "section": "general",
+   "aliases": []
+  },
+  {
+   "id": "james",
+   "name": "James",
+   "abbr": "Jas",
+   "chapters": 5,
+   "section": "general",
+   "aliases": [
+    "jm"
+   ]
+  },
+  {
+   "id": "1-peter",
+   "name": "1 Peter",
+   "abbr": "1 Pet",
+   "chapters": 5,
+   "section": "general",
+   "aliases": [
+    "1 pt"
+   ]
+  },
+  {
+   "id": "2-peter",
+   "name": "2 Peter",
+   "abbr": "2 Pet",
+   "chapters": 3,
+   "section": "general",
+   "aliases": [
+    "2 pt"
+   ]
+  },
+  {
+   "id": "1-john",
+   "name": "1 John",
+   "abbr": "1 John",
+   "chapters": 5,
+   "section": "general",
+   "aliases": [
+    "1 jn"
+   ]
+  },
+  {
+   "id": "2-john",
+   "name": "2 John",
+   "abbr": "2 John",
+   "chapters": 1,
+   "section": "general",
+   "aliases": [
+    "2 jn"
+   ]
+  },
+  {
+   "id": "3-john",
+   "name": "3 John",
+   "abbr": "3 John",
+   "chapters": 1,
+   "section": "general",
+   "aliases": [
+    "3 jn"
+   ]
+  },
+  {
+   "id": "jude",
+   "name": "Jude",
+   "abbr": "Jude",
+   "chapters": 1,
+   "section": "general",
+   "aliases": [
+    "jud"
+   ]
+  },
+  {
+   "id": "revelation",
+   "name": "Revelation",
+   "abbr": "Rev",
+   "chapters": 22,
+   "section": "prophecy",
+   "aliases": [
+    "re",
+    "apocalypse"
+   ]
+  }
+ ]
+}

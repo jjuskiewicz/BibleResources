@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sermon Library</title>
+  <meta name="description" content="Browse the books of the Bible and find sermons from the churches our men's group attends.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='5' y='3' width='22' height='26' rx='3' fill='%238a3b3b'/%3E%3Cpath d='M16 9v14M11 13h10' stroke='%23fff' stroke-width='2.5' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,500;8..60,650&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <a class="skip" href="#library">Skip to books</a>
+
+  <header class="masthead">
+    <div class="wrap">
+      <div class="brand">
+        <p class="eyebrow">Men's Group</p>
+        <h1>Sermon Library</h1>
+        <p class="lede">Pick a book of the Bible to find sermons from the churches we attend.</p>
+      </div>
+
+      <div class="search" role="search">
+        <svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input id="q" type="search" autocomplete="off" spellcheck="false"
+               placeholder="Search a book, passage (John 3), topic, or speaker"
+               aria-label="Search books and sermons" aria-describedby="q-hint">
+        <kbd aria-hidden="true">/</kbd>
+      </div>
+      <p id="q-hint" class="hint" aria-live="polite"></p>
+    </div>
+  </header>
+
+  <div class="toolbar">
+    <div class="wrap toolbar-inner">
+      <div class="seg" role="radiogroup" aria-label="Testament">
+        <button role="radio" aria-checked="true" data-t="all">All</button>
+        <button role="radio" aria-checked="false" data-t="OT">Old Testament</button>
+        <button role="radio" aria-checked="false" data-t="NT">New Testament</button>
+      </div>
+      <div id="churches" class="chips" role="group" aria-label="Filter by church"></div>
+    </div>
+  </div>
+
+  <main class="wrap">
+    <p id="stats" class="stats"></p>
+    <section id="results" class="panel" hidden aria-live="polite"></section>
+    <section id="recent" class="panel" hidden></section>
+    <section id="library" aria-label="Books of the Bible"></section>
+    <p id="error" class="error" hidden></p>
+  </main>
+
+  <footer class="wrap foot">
+    <span>Sermons link out to each church's own site.</span>
+    <a id="suggest" href="#" hidden target="_blank" rel="noopener">Suggest a sermon</a>
+  </footer>
+
+  <div id="scrim" class="scrim" hidden></div>
+  <aside id="drawer" class="drawer" role="dialog" aria-modal="true" aria-labelledby="d-title" hidden>
+    <div class="drawer-head">
+      <div>
+        <p id="d-section" class="eyebrow"></p>
+        <h2 id="d-title"></h2>
+        <p id="d-meta" class="muted"></p>
+      </div>
+      <div class="drawer-actions">
+        <button id="d-share" class="icon-btn" aria-label="Copy link to this book">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1"/><path d="M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></svg>
+        </button>
+        <button id="d-close" class="icon-btn" aria-label="Close">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+        </button>
+      </div>
+    </div>
+    <div class="drawer-body">
+      <h3 class="label">Chapters</h3>
+      <div id="d-chapters" class="chapters" role="group" aria-label="Filter by chapter"></div>
+      <h3 id="d-list-label" class="label"></h3>
+      <ul id="d-list" class="sermons"></ul>
+    </div>
+    <div id="toast" class="toast" role="status" hidden></div>
+  </aside>
+
+  <script src="assets/app.js" defer></script>
+</body>
+</html>

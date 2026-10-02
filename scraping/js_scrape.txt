@@ -1,0 +1,47 @@
+(async function() {
+  // Step 1: Auto-click "Load more episodes" until it's gone
+  const loadMoreBtn = () => [...document.querySelectorAll('button')]
+    .find(b => b.textContent.includes('Load more episodes'));
+  let btn;
+  while ((btn = loadMoreBtn())) {
+    btn.click();
+    await new Promise(r => setTimeout(r, 1200)); // longer settle time
+  }
+
+  // Step 2: Extract everything useful from every episode row
+  const rows = document.querySelectorAll('[data-testid^="episode-"]');
+  const episodes = [...rows].map(row => {
+    const titleLink = row.querySelector('h3 a');
+    const title = titleLink?.textContent?.trim() || '';
+    const url = titleLink?.getAttribute('href')
+      ? new URL(titleLink.getAttribute('href'), location.origin).href
+      : '';
+
+    const desc = row.querySelector('p[data-encore-id="listRowDetails"]')?.textContent?.trim() || '';
+
+    // Date: a <p data-encore-id="text"> with no data-testid attribute
+    const dateEl = [...row.querySelectorAll('p[data-encore-id="text"]')]
+      .find(p => !p.dataset.testid);
+    const date = dateEl?.textContent?.trim() || '';
+
+    // Duration: the span inside the data-testid="episode-progress-*" element
+    const durationEl = row.querySelector('[data-testid^="episode-progress"] span')
+      || row.querySelector('[data-testid^="episode-progress"]');
+    const duration = durationEl?.textContent?.trim() || '';
+
+    const imageUrl = row.querySelector('img[data-testid="entity-image"]')?.getAttribute('src') || '';
+
+    return { title, url, date, duration, desc, imageUrl };
+  }).filter(ep => ep.title || ep.desc || ep.date); // skip fully-empty rows
+
+  console.log(`Scraped ${episodes.length} episodes (after filtering empties)`);
+  if (episodes.length) console.log('Sample:', episodes[0]);
+
+  // Step 3: Download as JSON file
+  const blob = new Blob([JSON.stringify(episodes, null, 2)], {type: 'application/json'});
+  const url2 = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url2;
+  a.download = 'spotify_episodes.json';
+  a.click();
+})();

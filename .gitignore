@@ -1,0 +1,8 @@
+# OS / Python junk
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+
+# Raw RSS downloads (re-download any time with the curl commands in README)
+scraping/*_feed.xml
