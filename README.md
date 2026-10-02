@@ -23,7 +23,7 @@ python3 -m http.server 8000
 index.html            page shell
 assets/styles.css     design tokens, light/dark, mobile bottom sheet
 assets/app.js         rendering, search, routing  (CONFIG block at top)
-data/books.json       66 books, sections, chapter counts, search aliases  (don't need to touch)
+data/books.json       66 books, sections, chapter counts, search aliases, BibleProject guide links  (don't need to touch)
 data/churches.json    the churches we pull from
 data/sermons.json     the sermons  <-- this is what you'll grow
 tools/validate_data.py  checks the data before you push

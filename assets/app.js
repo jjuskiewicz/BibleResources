@@ -422,6 +422,12 @@ function renderDrawer() {
   $('#d-section').textContent = `${section.testament === 'OT' ? 'Old' : 'New'} Testament · ${section.name}`;
   $('#d-title').textContent = book.name;
   $('#d-meta').textContent = `${plural(book.chapters, 'chapter')} · ${plural(all.length, 'sermon')}`;
+  const bp = $('#d-bp');
+  bp.hidden = !book.bibleproject;
+  if (book.bibleproject) {
+    bp.href = book.bibleproject;
+    bp.setAttribute('aria-label', `BibleProject guide to ${book.name} (opens in a new tab)`);
+  }
 
   let btns = `<button class="all" data-ch="" aria-pressed="${chapter == null}">All</button>`;
   for (let c = 1; c <= book.chapters; c++) {
@@ -670,7 +676,7 @@ function bindSheetSwipe() {
   const head = $('.drawer-head');
   let y0 = null, dy = 0;
   head.addEventListener('touchstart', (e) => {
-    if (!matchMedia('(max-width: 720px)').matches || e.target.closest('button')) return;
+    if (!matchMedia('(max-width: 720px)').matches || e.target.closest('button, a')) return;
     y0 = e.touches[0].clientY; dy = 0;
     drawer.style.transition = 'none';
   }, { passive: true });
