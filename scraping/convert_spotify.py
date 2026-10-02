@@ -364,7 +364,7 @@ def main() -> None:
         }
         ov = overrides.get(ep_id, {})
         if ov:
-            rec.update({k: v for k, v in ov.items() if k != "exclude"})
+            rec.update({k: v for k, v in ov.items() if k != "exclude" and not k.startswith("_")})  # "_episode" = human note
             status = "excluded" if ov.get("exclude") else ("mapped" if rec["refs"] else "unmapped")
             if "refs" in ov and "passage" not in ov:
                 rec["passage"] = ""  # site will generate from refs

@@ -226,11 +226,11 @@
   },
   {
    "id": "eleven22-3yIWAeyWXBFX0jDNktogoO",
-   "title": "Saturated Sunday",
+   "title": "Two Options",
    "church": "eleven22",
    "speaker": "Joby Martin",
    "date": "2026-09-21",
-   "series": "Two Options - Religion to Redemption",
+   "series": "Religion to Redemption",
    "passage": "Matthew 26",
    "refs": [
     {
@@ -240,7 +240,9 @@
     }
    ],
    "url": "https://open.spotify.com/episode/3yIWAeyWXBFX0jDNktogoO",
-   "tags": [],
+   "tags": [
+    "Saturated"
+   ],
    "source": "rss",
    "durationMin": 36
   },
@@ -1548,11 +1550,11 @@
   },
   {
    "id": "eleven22-4PLrQ8wIRobvzAA6vjbAwv",
-   "title": "Legalism Kills",
+   "title": "Legalism Kills: Where’s Your Faith?",
    "church": "eleven22",
    "speaker": "Joby Martin",
    "date": "2026-05-10",
-   "series": "Where’s Your Faith? - Old to New",
+   "series": "Old to New",
    "passage": "Matthew 12",
    "refs": [
     {
@@ -1608,11 +1610,11 @@
   },
   {
    "id": "eleven22-0YCxrjvNrP6Fev7AjFdtzl",
-   "title": "Sovereign Savior or Circumstances",
+   "title": "Sovereign Savior or Circumstances: Where’s Your Faith?",
    "church": "eleven22",
    "speaker": "Joby Martin",
    "date": "2026-05-04",
-   "series": "Where’s Your Faith? - Old to New",
+   "series": "Old to New",
    "passage": "Matthew 11",
    "refs": [
     {
@@ -5592,7 +5594,7 @@
    "church": "eleven22",
    "speaker": "Joby Martin",
    "date": "2025-01-06",
-   "series": "Vision Weekend 2025 - 1 Timothy",
+   "series": "1 Timothy",
    "passage": "1 Timothy",
    "refs": [
     {
@@ -5600,7 +5602,9 @@
     }
    ],
    "url": "https://open.spotify.com/episode/2hWbbYlvzq7Ma1yiGSEZqn",
-   "tags": [],
+   "tags": [
+    "Vision Weekend 2025"
+   ],
    "source": "rss",
    "durationMin": 60
   },
@@ -7152,11 +7156,11 @@
   },
   {
    "id": "eleven22-3eTneu2L6DM1RXoPoPIeuA",
-   "title": "Bewitched",
+   "title": "Bewitched: The Foolishness of Trying to Earn Your Salvation",
    "church": "eleven22",
    "speaker": "Ryan Britt",
    "date": "2024-05-19",
-   "series": "The Foolishness of Trying to Earn Your Salvation: Be Free",
+   "series": "Be Free",
    "passage": "Galatians 3:1-9",
    "refs": [
     {

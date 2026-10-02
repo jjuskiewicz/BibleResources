@@ -4,7 +4,7 @@ episode_id,status,date,series,title,speaker,minutes,passage,other_refs_in_desc,o
 7rkPbKDxRthKgkllVcVw6o,mapped,2026-09-21,Saturated Saturday,When God Doesn’t Do What You Think He Should,Jason Shepperd,49,2 Samuel 12,,,Saturated Saturday: When God Doesn’t Do What You Think He Should — Pastor Jason Shepperd
 5Hg6AQYMEISULtHTMuTXXK,mapped,2026-09-21,Saturated Friday,What Is Keeping You From Going All In?,Jonathan Pokluda,54,Luke 18,,,Saturated Friday: What Is Keeping You From Going All In? — Pastor Jonathan Pokluda
 4YN49AnDR1RP6OoEgl3H7i,mapped,2026-09-21,Saturated Wednesday,Are you sleeping in the garden?,Robbie Gallaty,52,Matthew 26,,,Saturated Wednesday: Are you sleeping in the garden? — Pastor Robbie Gallaty
-3yIWAeyWXBFX0jDNktogoO,mapped,2026-09-21,Two Options - Religion to Redemption,Saturated Sunday,Joby Martin,36,Matthew 26,,,Saturated Sunday: Two Options - Religion to Redemption - Matthew S6E7
+3yIWAeyWXBFX0jDNktogoO,mapped,2026-09-21,Religion to Redemption,Two Options,Joby Martin,36,Matthew 26,,yes,Saturated Sunday: Two Options - Religion to Redemption - Matthew S6E7
 1dLmOWl3s4FWhrv8OoLsIh,mapped,2026-09-14,Religion to Redemption,Don't Miss The Point,Joby Martin,58,Matthew 24,Matthew 23:36-39; Matthew 24:1-25:13; Daniel 7-12; John 14; Romans 8; Ephesians 1:13; Philippians 1; Revelation 19-21,,Don't Miss The Point - Religion to Redemption - Matthew S6E6
 2F256aJxvie8QegkFhQCwe,mapped,2026-09-06,Religion to Redemption,Condition of the Heart,Joby Martin,47,Matthew 23,Matthew 15:7-9; Revelation 2:1-5; John 14:15; Matthew 16:13-19; 1 Peter 2:9; Matthew 6:9,,Condition of the Heart - Religion to Redemption - Matthew S6E5
 4veqxQLo5BqG5XzdtlGsiN,mapped,2026-08-30,Religion to Redemption,No More Games,Joby Martin,50,Matthew 22,,,No More Games - Religion to Redemption - Matthew S6E4
@@ -23,8 +23,8 @@ episode_id,status,date,series,title,speaker,minutes,passage,other_refs_in_desc,o
 4U4lZkslQf9tALcRJFYbDh,mapped,2026-06-01,,A Prophet without Honor,Joby Martin,54,Matthew 13,,,A Prophet without Honor - Impossible to Possible: Matthew S5E1
 4fCsSsjlgFQG7eDJk6FDQB,mapped,2026-05-25,Old to New,Mustard Seed Faith,Joby Martin,56,Matthew 13,,,Mustard Seed Faith - Old to New - Matthew S4E7
 47et0DyM2cDb9Qz0X0Bljp,mapped,2026-05-18,Old to New,Parable of Sower,Joby Martin,55,Matthew 13,,,Parable of Sower - Old to New - Matthew S4E6
-4PLrQ8wIRobvzAA6vjbAwv,mapped,2026-05-10,Where’s Your Faith? - Old to New,Legalism Kills,Joby Martin,57,Matthew 12,,,Legalism Kills: Where’s Your Faith? - Old to New - Matthew S4E4
-0YCxrjvNrP6Fev7AjFdtzl,mapped,2026-05-04,Where’s Your Faith? - Old to New,Sovereign Savior or Circumstances,Joby Martin,62,Matthew 11,,,Sovereign Savior or Circumstances: Where’s Your Faith?- Old to New - Matthew S4E4
+4PLrQ8wIRobvzAA6vjbAwv,mapped,2026-05-10,Old to New,Legalism Kills: Where’s Your Faith?,Joby Martin,57,Matthew 12,,yes,Legalism Kills: Where’s Your Faith? - Old to New - Matthew S4E4
+0YCxrjvNrP6Fev7AjFdtzl,mapped,2026-05-04,Old to New,Sovereign Savior or Circumstances: Where’s Your Faith?,Joby Martin,62,Matthew 11,,yes,Sovereign Savior or Circumstances: Where’s Your Faith?- Old to New - Matthew S4E4
 44gHH5Wz71tfwj6ceHN3n7,mapped,2026-04-27,Old to New,"Harvest is Plentiful, the Laborers are Few",Joby Martin,58,Matthew 9,,,"Harvest is Plentiful, the Laborers are Few - Old to New - Matthew S4E3"
 348TVfLyLSDcVTzfZaN9xA,mapped,2026-04-19,Old to New,Woman with the Issue of Blood,Joby Martin,56,Matthew 9,Luke 8:40-56; Malachi 4:2; Romans 8:28,,Woman with the Issue of Blood - Old to New - Matthew S4E2
 7ynXPSkBwZouFe4pPtxgMy,mapped,2026-04-12,Old to New,"Jesus, the Friend of Sinners",Joby Martin,48,Matthew 9:9-13,Hosea 6:6,,"Jesus, the Friend of Sinners - Old to New - Matthew S4E1"
@@ -98,9 +98,9 @@ episode_id,status,date,series,title,speaker,minutes,passage,other_refs_in_desc,o
 6HWBUX6RFKGkVDnzafcSTs,mapped,2025-01-26,1 Timothy,Prayer,Joby Martin,54,1 Timothy,,,Prayer - 1 Timothy - Wk 4
 1eR6IT9Vf7lvOHtTo0GkX4,mapped,2025-01-19,1 Timothy,Jesus Saves Sinners,Joby Martin,56,1 Timothy,,,Jesus Saves Sinners - 1 Timothy - Wk 3
 4LfR7KmynwcQbOrHIMpziq,mapped,2025-01-13,1 Timothy,No Other Gospel,Joby Martin,59,1 Timothy,,,No Other Gospel - 1 Timothy - Wk 2
-2hWbbYlvzq7Ma1yiGSEZqn,mapped,2025-01-06,Vision Weekend 2025 - 1 Timothy,Disciple Making Disciples,Joby Martin,60,1 Timothy,,,Disciple Making Disciples - Vision Weekend 2025 - 1 Timothy - Wk 1
+2hWbbYlvzq7Ma1yiGSEZqn,mapped,2025-01-06,1 Timothy,Disciple Making Disciples,Joby Martin,60,1 Timothy,,yes,Disciple Making Disciples - Vision Weekend 2025 - 1 Timothy - Wk 1
 7pGnvxyrRD7MHRJzgYWe4c,mapped,2024-12-29,When He Asks,What Do You Want Me To Do For You?,Joby Martin,40,Mark 10:36,,,What Do You Want Me To Do For You? - When He Asks - Wk 7
-5qFjHVDh258jcJRVQBjSdQ,unmapped,2024-12-22,Christmas Eve 2024 - When He Asks,What Child is This?,Joby Martin,52,,,,What Child is This? - Christmas Eve 2024 - When He Asks - Wk 6
+5qFjHVDh258jcJRVQBjSdQ,unmapped,2024-12-22,When He Asks,What Child is This?,Joby Martin,52,,,yes,What Child is This? - Christmas Eve 2024 - When He Asks - Wk 6
 3p08pPWwc1mU2xpGnbV0ON,unmapped,2024-12-16,When He Asks,Whose Image Do You Bear?,Joby Martin,54,,,,Whose Image Do You Bear? - When He Asks - Wk 5
 5LS4MgxE7CdCLocG2H1VOd,unmapped,2024-12-08,When He Asks,Why Do You Doubt?,Joby Martin,59,,,,Why Do You Doubt? - When He Asks - Wk 4
 63ndGb8q2oZpFpqfaL441b,unmapped,2024-12-01,When He Asks,What Kind of Person Am I?,Joby Martin,43,,,,What Kind of Person Am I? - When He Asks - Wk 3
@@ -114,7 +114,7 @@ episode_id,status,date,series,title,speaker,minutes,passage,other_refs_in_desc,o
 7KPC34xgWDaLmNmhIY1h7k,unmapped,2024-10-06,Run Over by the Grace Train,"Grace Does Not Condemn, Grace Cleanses",Joby Martin,59,,,,"Grace Does Not Condemn, Grace Cleanses - Run Over by the Grace Train - Wk 4"
 23R2wjv136RB0Fxj2PabRt,unmapped,2024-09-29,Run Over by the Grace Train,Grace Celebrates,Joby Martin,57,,,,Grace Celebrates - Run Over by the Grace Train - Wk 3
 0gbzkQ5ETZz7vQ2zhMvcPy,mapped,2024-09-22,Run Over by the Grace Train,Grace Can't Be Lost,Joby Martin,57,Romans 3:20-22,,,Grace Can't Be Lost - Run Over by the Grace Train - Wk 2
-1Rcx36KDlliYrx5OTu6saW,unmapped,2024-09-15,Grace Saves,Run Over by the Grace Train - Wk 1 (Saturated Sunday),Joby Martin,40,,,,Grace Saves: Run Over by the Grace Train - Wk 1 (Saturated Sunday)
+1Rcx36KDlliYrx5OTu6saW,unmapped,2024-09-15,Grace Saves,Run Over by the Grace Train,Joby Martin,40,,,yes,Grace Saves: Run Over by the Grace Train - Wk 1 (Saturated Sunday)
 18MoTcBjPDaEd9eLIoD8Uy,unmapped,2024-09-15,,Saturated Saturday,Ben Stuart,47,,,,Saturated Saturday: Pastor Ben Stuart
 0pfFr06y8yYrFWsTC5J59F,mapped,2024-09-14,,Saturated Friday,Derwin Gray,48,Luke 10:25-29,,,Saturated Friday: Pastor Derwin Gray
 saturated-thursday-pastor-matt-chandler,mapped,2024-09-13,,Saturated Thursday,Matt Chandler,60,1 Corinthians 15:1-6,,,Saturated Thursday: Pastor Matt Chandler
@@ -135,7 +135,7 @@ saturated-thursday-pastor-matt-chandler,mapped,2024-09-13,,Saturated Thursday,Ma
 3d8ajmtUxKlVaclZM6c1oQ,mapped,2024-06-09,Be Free,Stop Going Back to Your Old Ways,Joby Martin,56,Galatians 4:9,,,Stop Going Back to Your Old Ways: Be Free - Wk 10
 5h1nGlZgS10bLYL2ca8SRc,unmapped,2024-06-02,Be Free,No Longer Slaves,Joby Martin,58,,,,No Longer Slaves: Be Free - Wk 9
 1Eu4ByaeOJiRKBMJp6QG6D,unmapped,2024-05-26,Be Free,Our Need for Control,Joby Martin,51,,,,Our Need for Control: Be Free - Wk 8
-3eTneu2L6DM1RXoPoPIeuA,mapped,2024-05-19,The Foolishness of Trying to Earn Your Salvation: Be Free,Bewitched,Ryan Britt,45,Galatians 3:1-9,,,Bewitched: The Foolishness of Trying to Earn Your Salvation: Be Free - Wk 7
+3eTneu2L6DM1RXoPoPIeuA,mapped,2024-05-19,Be Free,Bewitched: The Foolishness of Trying to Earn Your Salvation,Ryan Britt,45,Galatians 3:1-9,,yes,Bewitched: The Foolishness of Trying to Earn Your Salvation: Be Free - Wk 7
 2s17h4o3GekPF7Yv9xC4P6,unmapped,2024-05-12,Be Free,How Can I Be Saved?,Joby Martin,53,,,,How Can I Be Saved?: Be Free - Wk 6
 3votRvySa1ZcDPesI0jDAK,unmapped,2024-05-06,Be Free,Iron Sharpens Iron,Joby Martin,56,,,,Iron Sharpens Iron: Be Free - Wk 5
 1O1FYJWtHl5EZpsKA3m9Wo,mapped,2024-04-28,Be Free,It Shouldn't Have to Be This Difficult,Joby Martin,57,Galatians 2:1-10,,,It Shouldn't Have to Be This Difficult: Be Free - Wk 4
@@ -152,7 +152,7 @@ saturated-thursday-pastor-matt-chandler,mapped,2024-09-13,,Saturated Thursday,Ma
 5IlmVzvArlAVW284bMu97J,mapped,2024-02-18,Tetelestai,"Father, Forgive Them",Joby Martin,50,Luke 19:10,,,"Father, Forgive Them: Tetelestai - Wk 1"
 1toRh54IDeeu8tVTITC0lg,unmapped,2024-02-11,Testimony,What We Have Seen and Heard,Joby Martin,56,,,,What We Have Seen and Heard: Testimony - Wk 5
 2ox1qb4wJck39dcRdOJsUj,unmapped,2024-02-04,Testimony,Peter,Joby Martin,59,,,,Peter: Testimony - Wk 4
-5bE02gWrn1oR7F9Fbcn8Pu,unmapped,2024-01-28,The Testimony of Mephiboseth: Testimony,A Seat At The Kings Table,Joby Martin,52,,,,A Seat At The Kings Table: The Testimony of Mephiboseth: Testimony - Wk. 3
+5bE02gWrn1oR7F9Fbcn8Pu,unmapped,2024-01-28,Testimony,A Seat at the King’s Table: The Testimony of Mephibosheth,Joby Martin,52,,,yes,A Seat At The Kings Table: The Testimony of Mephiboseth: Testimony - Wk. 3
 7E5Eytxfo2H4PmV4D5BW67,unmapped,2024-01-21,Testimony,I Am The Man,Joby Martin,61,,,,I Am The Man: Testimony - Wk 2
 3tJeqzlWZJ90hPNpHM4bce,unmapped,2024-01-14,Testimony,They Will Overcome,Joby Martin,59,,,,They Will Overcome: Testimony - Wk 1
 7rLKCW7CiRwfpW9V1aaaed,unmapped,2024-01-07,Eternal Life,The Church of Eleven22’s 2024 Vision,Joby Martin,56,,,,Eternal Life - The Church of Eleven22’s 2024 Vision
@@ -172,7 +172,7 @@ saturated-thursday-pastor-matt-chandler,mapped,2024-09-13,,Saturated Thursday,Ma
 7yI0683Zm47Jur4tM9BTYJ,mapped,2023-10-02,,Husband and Wife,,59,Ephesians 5:21-24,,,Wk 3: Husband and Wife
 78jtMknki5T6vMUaoz57cB,mapped,2023-09-24,,Parenting,,52,Exodus 2:11-15,,,Wk 2: Parenting
 6vV4rdt1teJL0gihUS0Qbc,unmapped,2023-09-17,,Singleness and Dating,,47,,,,Wk 1 - Singleness and Dating
-57APJMnvsUYNzyJEaKV7TD,unmapped,2023-09-10,Saturated Sunday - Prayer and Anointing,Wk 14,Joby Martin,46,,,,Wk 14: Saturated Sunday - Prayer and Anointing
+57APJMnvsUYNzyJEaKV7TD,unmapped,2023-09-10,,Prayer and Anointing,Joby Martin,46,,,yes,Wk 14: Saturated Sunday - Prayer and Anointing
 14wCIL7eJdW62uVMy6U7dV,unmapped,2023-09-09,Saturated 2023,Friday: J.D. Greear,Joby Martin,53,,,,Saturated 2023 - Friday: J.D. Greear
 2aMcvr7OiIB7HAVP73M2OC,unmapped,2023-09-08,Saturated 2023,Thursday,Bryan Loritts,45,,,,Saturated 2023 - Thursday: Pastor Bryan Loritts
 0EJRMNJL6N26STax2Rrzvp,unmapped,2023-09-07,Saturated 2023,Wednesday,Matt Carter,59,,,,Saturated 2023 - Wednesday: Pastor Matt Carter
@@ -630,7 +630,7 @@ week-11-choose-who-you-ll-serve,unmapped,2023-08-20,,Choose Who You’ll Serve,,
 2gzDrncLSpzlNHt2usIxCm,unmapped,2018-09-16,Saturated 2018,Sunday,Joby Martin,46,,,,Saturated 2018 - Sunday: Pastor Joby Martin
 0rMABOPZE5Ymjop8xFp7uI,unmapped,2018-09-14,Saturated 2018,Friday: Pastor J.D. Greear,,51,,,,Saturated 2018 - Friday: Pastor J.D. Greear
 0AS3tPo9HFGeLDUKnFWtgl,unmapped,2018-09-13,Saturated 2018,Thursday,Albert Tate,51,,,,Saturated 2018 - Thursday: Pastor Albert Tate
-3IVukCTloRynD8bs0ULPLC,unmapped,2018-09-12,Saturated 2018,Wednesday:,Ryan Kwon,56,,,,Saturated 2018 - Wednesday: - Pastor Ryan Kwon
+3IVukCTloRynD8bs0ULPLC,unmapped,2018-09-12,Saturated,Saturated 2018: Wednesday,Ryan Kwon,56,,,yes,Saturated 2018 - Wednesday: - Pastor Ryan Kwon
 73b0q0SSbfDt8I8boca2Fh,unmapped,2018-09-09,,To The Only Wise God,,53,,,,Wk 34: To The Only Wise God
 4Bl0ms1PvWlfvYSxg01zQP,unmapped,2018-09-02,,To the Saints,,48,,,,Wk 33: To the Saints
 0gS2UwVbLaL7amueLajI67,unmapped,2018-08-26,,Life on Mission,,52,,,,Wk 32: Life on Mission
@@ -790,7 +790,7 @@ week-11-choose-who-you-ll-serve,unmapped,2023-08-20,,Choose Who You’ll Serve,,
 3x95m5Z9ax91LcdE9REO5T,mapped,2015-10-18,,Never Forget,,53,Deuteronomy 6:20,Deuteronomy 6-20,,Wk 6: Never Forget
 3yCizFKfMudm132d2RbeEi,mapped,2015-10-11,,Legacy,,54,Deuteronomy 6:4-9,,,Wk 5: Legacy
 2zLp3dNxNaxKSC1DfZuQIl,mapped,2015-09-20,,Love God With All Your Heart,,58,Galatians 4:6-7,,,Wk 2: Love God With All Your Heart
-0tX1arFdmrHYNqQTLOVbnV,unmapped,2015-09-19,,Saturated 2015 -Saturday,Ben Williams,36,,,,Saturated 2015 -Saturday: Pastor Ben Williams
+0tX1arFdmrHYNqQTLOVbnV,unmapped,2015-09-19,Saturated,Saturated 2015: Saturday,Ben Williams,36,,,yes,Saturated 2015 -Saturday: Pastor Ben Williams
 2ZEioZPv0v8SZtDC6iv8N1,unmapped,2015-09-18,Saturated 2015,Friday,Dr. Eric Mason,55,,,,Saturated 2015 - Friday: Pastor Eric Mason
 72WOMV6QnX6iQB3i6dc2td,unmapped,2015-09-17,Saturated 2015 -Thursday,Pastor Leonce Crump,,47,,,,Saturated 2015 -Thursday: Pastor Leonce Crump
 3qQLGN1bm8JtjvxIZU8yEL,unmapped,2015-09-16,Saturated 2015,Wednesday,Josh Turner,54,,,,Saturated 2015 - Wednesday: Pastor Josh Turner
@@ -904,7 +904,7 @@ week-11-choose-who-you-ll-serve,unmapped,2023-08-20,,Choose Who You’ll Serve,,
 4rlyligAHbK8NLmNunSOFn,excluded,2013-09-21,Saturated 2013,Saturday,Jerry Sweat,19,,,,Saturated 2013 - Saturday: Pastor Jerry Sweat
 3Xye3Z6N9kiSb2JWckgJ8j,unmapped,2013-09-20,Saturated 2013,Friday 2013,Stovall Weems,47,,,,Saturated 2013 - Friday 2013: Pastor Stovall Weems
 3RglhAqegH8Bgby4a3Lyt9,unmapped,2013-09-19,Saturated 2013,Thursday,Dr. Van Gayton,67,,,,Saturated 2013 - Thursday: Dr. Van Gayton
-4Ap3DHCxWXxUhA3TJhfIbU,unmapped,2013-09-18,Saturated 2013,Wednesday:,George Davis,48,,,,Saturated 2013 - Wednesday: - Pastor George Davis
+4Ap3DHCxWXxUhA3TJhfIbU,unmapped,2013-09-18,Saturated,Saturated 2013: Wednesday,George Davis,48,,,yes,Saturated 2013 - Wednesday: - Pastor George Davis
 16AIcLz1PvZCii7zevhZD3,unmapped,2013-09-15,,Hype or Hope,,49,,,,Wk 2: Hype or Hope
 07jMsbcz6wHBbxCqLPgby3,unmapped,2013-09-08,,Naked & Wounded,,54,,,,Wk 1: Naked & Wounded
 5MbfTabvHKRdnYGFF0J0Xs,unmapped,2013-09-01,,On Mission IN the Church,,54,,,,Wk 4: On Mission IN the Church
