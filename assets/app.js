@@ -13,6 +13,12 @@ const CONFIG = {
   maxResults: 24,
 };
 
+// Short labels for the jump-to-section row on phones (full names show on wider screens)
+const SECTION_SHORT = {
+  law: 'Law', history: 'History', wisdom: 'Wisdom', major: 'Major Prophets', minor: 'Minor Prophets',
+  gospels: 'Gospels', acts: 'Acts', pauline: 'Paul', general: 'General', prophecy: 'Revelation',
+};
+
 const FALLBACK_CHURCH_COLORS = ['#2f6b8a', '#b07a1f', '#8a4a8a', '#2d7d71', '#8a3b3b', '#5d4f97'];
 
 /* ============================================================
@@ -171,29 +177,42 @@ function refLabel(s) {
 
 const byDateDesc = (a, b) => (b.dateObj?.getTime() || 0) - (a.dateObj?.getTime() || 0);
 const fmtDate = (d) => d ? d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }) : '';
+const THIS_YEAR = new Date().getFullYear();
+/** Compact date for cards: "Sep 30" this year, "Mar 2, 2025" otherwise */
+const fmtShort = (d) => d ? d.toLocaleDateString('en-US', d.getFullYear() === THIS_YEAR
+  ? { month: 'short', day: 'numeric' } : { month: 'short', day: 'numeric', year: 'numeric' }) : '';
+/** Full name on wide screens, short name on phones (CSS toggles .long/.short) */
+const churchName = (c) => c.short && c.short !== c.name
+  ? `<span class="long">${esc(c.name)}</span><span class="short">${esc(c.short)}</span>`
+  : esc(c.name);
+const isTouch = matchMedia('(hover: none) and (pointer: coarse)').matches;
 
 /* ============================================================
    Rendering
    ============================================================ */
 const EXT_ICON = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg>';
 
-function sermonCard(s, { showBook = false } = {}) {
+function sermonCard(s) {
   const firstBook = state.bookById.get(s.refs[0].book);
   const color = `var(--${firstBook.section})`;
+  // A series named after the book ("John", "Acts") just repeats the passage line, so drop it.
+  const bookNames = new Set(s.refs.map((r) => norm(state.bookById.get(r.book).name)));
+  const series = s.series && !bookNames.has(norm(s.series)) ? s.series : '';
   const meta = [
-    `<span class="who"><span class="dot" style="--cc:${esc(s.churchObj.color)}"></span>${esc(s.churchObj.name)}</span>`,
+    `<span class="who"><span class="dot" style="--cc:${esc(s.churchObj.color)}"></span>${churchName(s.churchObj)}</span>`,
     s.speaker && `<span>${esc(s.speaker)}</span>`,
-  ].filter(Boolean).join('<span class="sep" aria-hidden="true">·</span>');
-  const when = s.dateObj ? `<time datetime="${esc(s.date)}">${fmtDate(s.dateObj)}</time>` : '';
-  const series = s.series ? `<span class="tag">${esc(s.series)}</span>` : '';
+    s.durationMin && `<span class="dur">${Math.round(s.durationMin)} min</span>`,
+    series && `<span class="series">${esc(series)}</span>`,
+  ].filter(Boolean).join('');
+  const when = s.dateObj ? `<time datetime="${esc(s.date)}" title="${fmtDate(s.dateObj)}">${fmtShort(s.dateObj)}</time>` : '';
   const tags = (s.tags || []).map((t) => `<span class="tag">#${esc(t)}</span>`).join('');
   return `
     <li>
       <a class="sermon" href="${esc(s.url)}" target="_blank" rel="noopener noreferrer" style="--c:${color}" title="Opens ${esc(s.churchObj.name)} in a new tab">
-        <span class="ref">${esc(refLabel(s))}${when}</span>
+        <span class="ref"><span class="pass">${esc(refLabel(s))}</span>${when}</span>
         <span class="title">${esc(s.title)}</span>
         <span class="meta">${meta}</span>
-        ${series || tags ? `<span class="tags">${series}${tags}</span>` : ''}
+        ${tags ? `<span class="tags">${tags}</span>` : ''}
         ${EXT_ICON}
       </a>
     </li>`;
@@ -204,7 +223,7 @@ function renderChurchChips() {
   const all = `<button class="chip" data-church="" aria-pressed="${state.churchFilter.size === 0}">All churches</button>`;
   const chips = [...state.churches.values()].map((c) => `
     <button class="chip" data-church="${esc(c.id)}" aria-pressed="${state.churchFilter.has(c.id)}">
-      <span class="dot" style="--cc:${esc(c.color)}"></span>${esc(c.name)}
+      <span class="dot" style="--cc:${esc(c.color)}"></span>${churchName(c)}
     </button>`).join('');
   el.innerHTML = all + chips;
 }
@@ -243,7 +262,7 @@ function renderLibrary(stats) {
           </button>`;
       }).join('');
       return `
-        <section class="section" style="--c:var(--${sec.id})" aria-labelledby="sec-${sec.id}">
+        <section class="section" data-sec="${sec.id}" style="--c:var(--${sec.id})" aria-labelledby="sec-${sec.id}">
           <div class="section-head">
             <h2 id="sec-${sec.id}">${esc(sec.name)}</h2>
             <span>${plural(books.length, 'book')} · ${plural(secCount, 'sermon')}</span>
@@ -253,19 +272,85 @@ function renderLibrary(stats) {
     }).join('');
 
   $('#library').innerHTML = html || `<div class="empty-state"><strong>No books match.</strong>Try another name.</div>`;
+  renderJump();
 }
+
+/* ============================================================
+   Jump to section (sticky row under search, highlights where you are)
+   ============================================================ */
+function renderJump() {
+  const nav = $('#jump');
+  const ids = [...document.querySelectorAll('#library .section')].map((el) => el.dataset.sec);
+  // Only useful when browsing the full list, not while a search is narrowing it
+  if (state.query.trim() || ids.length < 3) { nav.hidden = true; nav.innerHTML = ''; return; }
+  nav.hidden = false;
+  nav.innerHTML = ids.map((id) => {
+    const sec = state.sections.find((s) => s.id === id);
+    const short = SECTION_SHORT[id] || sec.name;
+    const label = short === sec.name ? esc(sec.name)
+      : `<span class="long">${esc(sec.name)}</span><span class="short">${esc(short)}</span>`;
+    return `<button type="button" data-jump="${id}" style="--c:var(--${id})" aria-label="${esc(sec.name)}"><span class="dot" style="--cc:var(--${id})"></span>${label}</button>`;
+  }).join('');
+  spy.pinned = null;
+  spy.current = undefined;
+  spy();
+}
+
+function jumpTo(id) {
+  const el = document.getElementById(`sec-${id}`)?.closest('.section');
+  if (!el) return;
+  const smooth = !matchMedia('(prefers-reduced-motion: reduce)').matches;
+  // Keep the tapped section highlighted until the user scrolls by hand
+  // (near the end of the page, short sections can't reach the top).
+  spy.pinned = id;
+  spy.current = id;
+  setActiveJump(id);
+  el.scrollIntoView({ block: 'start', behavior: smooth ? 'smooth' : 'auto' });
+}
+
+function setActiveJump(id) {
+  const nav = $('#jump');
+  let active = null;
+  nav.querySelectorAll('button').forEach((b) => {
+    const on = b.dataset.jump === id;
+    if (on) { b.setAttribute('aria-current', 'true'); active = b; } else b.removeAttribute('aria-current');
+  });
+  // Keep the active chip visible by scrolling the row only (never the page)
+  if (active) {
+    const left = active.offsetLeft - (nav.clientWidth - active.offsetWidth) / 2;
+    nav.scrollTo({ left: Math.max(0, left), behavior: 'smooth' });
+  }
+}
+
+/** Highlight the section currently under the sticky bar. */
+function spy() {
+  const nav = $('#jump');
+  if (nav.hidden || spy.pinned) return;
+  const barBottom = $('.toolbar').getBoundingClientRect().bottom;
+  const sections = [...document.querySelectorAll('#library .section')];
+  let current = null;
+  for (const el of sections) {
+    if (el.getBoundingClientRect().top <= barBottom + 24) current = el.dataset.sec;
+  }
+  const atBottom = window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 2;
+  if (atBottom && sections.length) current = sections[sections.length - 1].dataset.sec;
+  if (current !== spy.current) { spy.current = current; setActiveJump(current); }
+}
+
+const hintBtn = (target, label) =>
+  `<span class="long">Press Enter or </span><button type="button" data-open="${target}">Open ${esc(label)} <span aria-hidden="true">→</span></button>`;
 
 function renderHint() {
   const q = state.query.trim();
   const hint = $('#q-hint');
   const ref = q ? parseRef(q) : null;
   if (ref) {
-    hint.innerHTML = `Press Enter or <button type="button" data-open="${ref.book.id}/${ref.chapter}">open ${esc(ref.book.name)} ${ref.chapter}</button>`;
+    hint.innerHTML = hintBtn(`${ref.book.id}/${ref.chapter}`, `${ref.book.name} ${ref.chapter}`);
     return;
   }
   const books = q ? matchBooks(q) : [];
   if (books.length === 1) {
-    hint.innerHTML = `Press Enter or <button type="button" data-open="${books[0].id}">open ${esc(books[0].name)}</button>`;
+    hint.innerHTML = hintBtn(books[0].id, books[0].name);
   } else {
     hint.textContent = '';
   }
@@ -345,6 +430,8 @@ function renderDrawer() {
       aria-label="Chapter ${c}${has ? '' : ', no sermons'}">${c}</button>`;
   }
   $('#d-chapters').innerHTML = btns;
+  const sel = $('#d-chapters [aria-pressed="true"]');
+  if (sel && chapter != null) sel.scrollIntoView({ block: 'nearest', inline: 'center' });
 
   const list = chapter == null
     ? all
@@ -387,7 +474,9 @@ function openDrawer(bookId, chapter) {
     $('#drawer').hidden = false;
     $('#scrim').hidden = false;
     document.body.classList.add('locked');
-    $('#d-close').focus();
+    // Keyboard users land on Close; on phones, focus the sheet itself so no focus ring flashes.
+    if (isTouch) $('#drawer').focus({ preventScroll: true });
+    else $('#d-close').focus();
     $('.drawer-body').scrollTop = 0;
   }
 }
@@ -443,7 +532,7 @@ function bind() {
   let timer;
   input.addEventListener('input', () => {
     clearTimeout(timer);
-    timer = setTimeout(() => { state.query = input.value; render(); }, 80);
+    timer = setTimeout(() => { state.query = input.value; render(); revealResults(); }, 80);
   });
   input.addEventListener('keydown', (e) => {
     if (e.key === 'Enter') {
@@ -452,6 +541,7 @@ function bind() {
       const books = matchBooks(state.query);
       if (ref) go(ref.book.id, ref.chapter);
       else if (books.length === 1) go(books[0].id);
+      else input.blur(); // dismiss the phone keyboard so results are visible
     } else if (e.key === 'Escape' && input.value) {
       input.value = ''; state.query = ''; render();
     }
@@ -513,6 +603,13 @@ function bind() {
   $('#d-close').addEventListener('click', () => go(null));
   $('#scrim').addEventListener('click', () => go(null));
   $('#d-share').addEventListener('click', async () => {
+    // Phones: native share sheet (Messages, WhatsApp...). Desktop: copy to clipboard.
+    if (isTouch && navigator.share) {
+      const { bookId, chapter } = state.open;
+      const name = state.bookById.get(bookId).name + (chapter ? ` ${chapter}` : '');
+      try { await navigator.share({ title: `${name} sermons`, url: location.href }); } catch { /* dismissed */ }
+      return;
+    }
     try {
       await navigator.clipboard.writeText(location.href);
       toast('Link copied');
@@ -521,7 +618,66 @@ function bind() {
     }
   });
 
+  bindSheetSwipe();
+
+  $('#jump').addEventListener('click', (e) => {
+    const b = e.target.closest('button[data-jump]');
+    if (b) jumpTo(b.dataset.jump);
+  });
+  let spyFrame = 0;
+  window.addEventListener('scroll', () => {
+    if (spyFrame) return;
+    spyFrame = requestAnimationFrame(() => { spyFrame = 0; spy(); });
+  }, { passive: true });
+  const unpin = () => { if (spy.pinned) { spy.pinned = null; spy(); } };
+  ['wheel', 'touchstart', 'keydown'].forEach((ev) => window.addEventListener(ev, (e) => {
+    if (ev === 'touchstart' && e.target.closest('#jump')) return; // tapping another chip
+    unpin();
+  }, { passive: true }));
+  // Sections land just below the sticky bar, whatever its current height
+  new ResizeObserver(([entry]) => {
+    document.documentElement.style.setProperty('--bar-h', `${Math.round(entry.target.getBoundingClientRect().height)}px`);
+  }).observe($('.toolbar'));
+
   window.addEventListener('hashchange', route);
+}
+
+/** If the user typed while scrolled down the book list, jump back up so results are visible. */
+function revealResults() {
+  const main = $('main');
+  const bar = $('.toolbar').getBoundingClientRect().height;
+  const top = main.getBoundingClientRect().top + window.scrollY - bar;
+  if (window.scrollY > top + 4) window.scrollTo({ top, behavior: 'instant' });
+}
+
+/** Phones: drag the sheet's header down to dismiss it. */
+function bindSheetSwipe() {
+  const drawer = $('#drawer');
+  const head = $('.drawer-head');
+  let y0 = null, dy = 0;
+  head.addEventListener('touchstart', (e) => {
+    if (!matchMedia('(max-width: 720px)').matches || e.target.closest('button')) return;
+    y0 = e.touches[0].clientY; dy = 0;
+    drawer.style.transition = 'none';
+  }, { passive: true });
+  head.addEventListener('touchmove', (e) => {
+    if (y0 == null) return;
+    dy = Math.max(0, e.touches[0].clientY - y0);
+    drawer.style.transform = `translateY(${dy}px)`;
+  }, { passive: true });
+  const end = () => {
+    if (y0 == null) return;
+    y0 = null;
+    drawer.style.transition = 'transform .18s ease';
+    if (dy > 90) {
+      drawer.style.transform = 'translateY(100%)';
+      setTimeout(() => { go(null); drawer.style.transform = ''; drawer.style.transition = ''; }, 170);
+    } else {
+      drawer.style.transform = '';
+    }
+  };
+  head.addEventListener('touchend', end);
+  head.addEventListener('touchcancel', end);
 }
 
 /* ============================================================

@@ -35,11 +35,11 @@ tools/validate_data.py  checks the data before you push
 
 ```json
 [
-  { "id": "church-a", "name": "Sample Church A", "url": "https://example.com", "color": "#2f6b8a" }
+  { "id": "church-a", "name": "Sample Church A", "short": "Church A", "url": "https://example.com", "color": "#2f6b8a" }
 ]
 ```
 
-`color` is optional (used for the dot next to the church name).
+`color` is optional (used for the dot next to the church name). `short` is optional; phones show it on cards and filter chips instead of the full name.
 
 ### sermons.json
 
@@ -86,6 +86,8 @@ uv run tools/validate_data.py
 - Book drawer with a chapter picker (chapters with sermons are highlighted) and sermons grouped by chapter.
 - Shareable deep links: `#/john` or `#/john/3`. The link button in the drawer copies it.
 - Keyboard: `/` focuses search, `Esc` closes the drawer. Light/dark follow the OS. Drawer is a bottom sheet on phones.
+- Phones: compact header, sticky search, 4-across book grid, 3-line sermon cards (passage/date, title, church · speaker · length · series). The book sheet has a sticky, swipeable strip of only the chapters that have sermons; drag the sheet header down to close; the link button opens the native share sheet.
+- Jump-to-section row under the search bar (Law, History, Wisdom...). Tapping one scrolls there; it highlights the section you're in as you scroll and hides while a search is active.
 
 ## Config
 

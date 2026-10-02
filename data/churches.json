@@ -2,24 +2,28 @@
   {
     "id": "cotcny",
     "name": "Church of the City New York",
+    "short": "Church of the City",
     "url": "",
     "color": "#2f6b8a"
   },
   {
     "id": "vintage-sm",
     "name": "Vintage Church Santa Monica",
+    "short": "Vintage SM",
     "url": "",
     "color": "#b07a1f"
   },
   {
     "id": "bridgetown",
     "name": "Bridgetown Church",
+    "short": "Bridgetown",
     "url": "",
     "color": "#2d7d71"
   },
   {
     "id": "eleven22",
     "name": "Church Eleven22",
+    "short": "Eleven22",
     "url": "",
     "color": "#8a3b3b"
   }
