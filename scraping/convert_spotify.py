@@ -85,7 +85,7 @@ def find_refs(text: str) -> list[dict]:
 
 WHOLE_BOOK_RX = re.compile(
     rf"(?:^|\s[-\u2013|]\s|:\s)(?:{_BOOK_ALT})"
-    r"(?=\s*(?::|$|\s[-\u2013|]\s|\s*,|\s+(?:Pt\.?|Part|Series|Week)\b))"
+    r"(?=\s*(?::|$|\s[-\u2013|]\s|\s*,|\s+(?:Pt\.?|Part|Series|Week|Wk)\b|\s+S\d+\s?E\d+))"
 )
 
 
@@ -129,7 +129,8 @@ nancy natalie nate nathan nicholas nick nicole noah olivia pam pat patrick paul 
 raegan ralph randy ray rebecca rich richard rick rob robert robin ron ronald ruth ryan sam samuel sandra sara sarah
 scott sean seth shane shannon sharon shawn stephanie stephen steve steven sue susan suzy tammy tara ted teresa terry
 thomas tim timothy tina todd tom tommy tony tracy travis trevor tyler valerie vanessa victor vince wanda wayne
-wendy will william zach zachary
+wendy will william zach zachary jennie lysa albert robbie levi louie priscilla max francis
+jonathan crawford lecrae
 """.split())
 SPEAKER_SUFFIX = re.compile(rf"(?:\s+[-\u2013]\s+|\s+ft\.?\s+)(?P<sp>{NAME}(?:\s+(?:and|&)\s+{NAME})?)\s*$")
 DESC_WITH = re.compile(rf"\bwith\s+(?P<sp>(?:(?:Sister|Brother|Fr)\.?\s+)?{NAME}(?:\s+(?:and|&)\s+{NAME})?)")
@@ -166,9 +167,25 @@ NON_NAMES = {"Week", "Part", "Series", "Sunday", "Advent", "Easter", "Lent", "Th
 STRIP_PHRASES: list[str] = []  # set from --strip, e.g. campus names
 
 
-def parse_title(raw: str) -> tuple[str, str, str]:
-    """-> (series, title, speaker)"""
+def norm_title(raw: str) -> str:
     t = re.sub(r"\s+", " ", raw).strip()
+    return re.sub(r"\s*\u2014\s*", " - ", t)  # em dash "Title — Speaker" -> "Title - Speaker"
+
+
+TITLE_FIRST = {"on": False}  # from --title-first: "Title - Series - Wk 3" (vs "Series - Title - Week 3")
+SERIES_PREFIXES: list[str] = []  # from --series-prefix: a segment starting with these is the series
+# Trailing episode marker: "Death to Life - Matthew S7E1", "God at Work - 1 Timothy - Wk 10"
+TRAILER = re.compile(r"\s[-\u2013]\s(?:[^-\u2013]*?\s)?(?:S\d+\s?E\d+|Wk\.?\s*\d+|Week\s*\d+)\s*$", re.I)
+# "Saturated Thursday: Jennie Allen", "Mary's Voice: Dr. Amy Orr-Ewing"
+COLON_SPEAKER = re.compile(
+    rf"(?:(?:(?:Sun|Mon|Tues|Wednes|Thurs|Fri|Satur)day|\d{{4}}):\s+(?:Pastor\s+)?(?P<sp>{NAME})"
+    rf"|:\s+(?P<sp2>(?:Dr|Bishop)\.?\s+{NAME}))\s*$"
+)
+
+
+def parse_title(raw: str, allow_speaker: bool = True) -> tuple[str, str, str]:
+    """-> (series, title, speaker)"""
+    t = norm_title(raw)
     for _ in range(2):  # "- Campus, Date" or "- Date - Campus"
         t = TRAILING_DATE.sub("", t)
         for phrase in STRIP_PHRASES:  # campus names
@@ -176,10 +193,15 @@ def parse_title(raw: str) -> tuple[str, str, str]:
     t = re.sub(r"(\S)- ", r"\1 - ", t)          # "Ger Jones- Santa Monica"
     t = re.sub(r"[\s\-\u2013]+$", "", t)         # dangling " -"
     speaker = ""
-    m = SPEAKER_SUFFIX.search(t)
+    m = SPEAKER_SUFFIX.search(t) if allow_speaker else None
     if m and not (set(m["sp"].split()) & NON_NAMES):
         speaker, t = re.sub(r"^Pastor\s+", "", m["sp"]), t[: m.start()].strip()
+    elif allow_speaker and (cm := COLON_SPEAKER.search(t)) and not (set((cm["sp"] or cm["sp2"]).split()) & NON_NAMES):
+        speaker, t = cm["sp"] or cm["sp2"], t[: cm.start() + cm.group(0).index(":")].strip()
     series = ""
+    title_first = False
+    if (tm := TRAILER.search(t)) and tm.start() > 0:
+        t, title_first = t[: tm.start()].strip(), TITLE_FIRST["on"]
     # Leading passage: "Matthew 2:1-12; The Journey to Jesus" -> title "The Journey to Jesus"
     lead = REF_RX.match(t)
     if lead and re.match(r"\s*[;:\-\u2013]\s+\S", t[lead.end():]):
@@ -189,8 +211,10 @@ def parse_title(raw: str) -> tuple[str, str, str]:
         ((sep, t.find(sep)) for sep in (": ", " - ") if sep in t), key=lambda x: x[1])
     if seps:
         series, t = (x.strip() for x in t.split(seps[0][0], 1))
+        if title_first or any(t.startswith(px) for px in SERIES_PREFIXES):
+            series, t = t, series  # "Title - Series - Wk 3" / "Title - Saturated Thursday"
         series = re.sub(r"\s+(?:Series\s+)?(?:Pt\.?|Part)\s*(?:\d+|[IVX]+|One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|Eleven|Twelve)\b\.?$|\s+Series$", "", series, flags=re.I).rstrip(" ,;-")
-        if re.fullmatch(r"(?:Part|Pt\.?|Episode|Session)\s*\w+", series, flags=re.I):
+        if re.fullmatch(r"(?:Part|Pt\.?|Episode|Session|Wk\.?|Week)\s*\w+|S\d+\s?E\d+", series, flags=re.I):
             series = ""
     return series, t or raw.strip(), speaker
 
@@ -234,7 +258,7 @@ NOT_SERMON = re.compile(r"(\b(devotional|bonus episode|interview|podcast trailer
 
 def title_for_books(raw: str) -> str:
     """Title with the speaker/date suffix removed, so "... - John Mark Comer" can't tag Mark/John."""
-    t = TRAILING_DATE.sub("", re.sub(r"\s+", " ", raw).strip())
+    t = TRAILING_DATE.sub("", norm_title(raw))
     m = SPEAKER_SUFFIX.search(t)
     return t[: m.start()] if m else t
 
@@ -246,11 +270,17 @@ def main() -> None:
     ap.add_argument("--church", required=True, help="church id from data/churches.json")
     ap.add_argument("--scraped-on", type=date.fromisoformat, help="YYYY-MM-DD; defaults to the input file's mtime")
     ap.add_argument("--source", default="spotify", help='recorded on each sermon, e.g. "rss"')
+    ap.add_argument("--title-first", action="store_true",
+                    help='titles are "Title - Series - Wk N" (Church Eleven22) rather than "Series - Title"')
+    ap.add_argument("--series-prefix", action="append", default=[],
+                    help='title segment starting with this is the series, e.g. "Saturated" (repeatable)')
     ap.add_argument("--strip", action="append", default=[], help='phrase to remove from titles, e.g. "Santa Monica" (repeatable)')
     ap.add_argument("--min-minutes", type=float, default=20, help="shorter episodes are treated as devotionals/clips")
     args = ap.parse_args()
 
     STRIP_PHRASES.extend(args.strip)
+    SERIES_PREFIXES.extend(args.series_prefix)
+    TITLE_FIRST["on"] = args.title_first
     scraped_on = args.scraped_on or date.fromtimestamp(args.input.stat().st_mtime)
     episodes = json.loads(args.input.read_text())
     ov_path = ROOT / "scraping" / f"{args.church}_overrides.json"
@@ -270,24 +300,27 @@ def main() -> None:
         series, title, speaker = parse_title(ep["title"])
         dated = bool(TRAILING_DATE.search(ep["title"])) or any(ph in ep["title"] for ph in STRIP_PHRASES)
         first = re.sub(r"^(?:Dr|Rev|Bishop)\.?\s+", "", speaker).split()[0].lower() if speaker else ""
-        raw_t = TRAILING_DATE.sub("", re.sub(r"\s+", " ", ep["title"]).strip())
+        raw_t = TRAILING_DATE.sub("", norm_title(ep["title"]))
         after_week = bool(speaker) and bool(
             re.search(rf"Week\s*\d+\s*[-\u2013]\s*{re.escape(speaker)}\s*$", raw_t))
         trusted = speaker and (
             suffix_counts[speaker] > 1 or speaker.startswith("Dr") or dated or first in FIRST_NAMES
             or speaker.split(" and ")[0].split()[-1] in ep["desc"])
         if speaker and (after_week or not trusted):
-            title, speaker = f"{title} - {speaker}", ""
+            series, title, _ = parse_title(ep["title"], allow_speaker=False)
+            speaker = ""
         if not speaker:
             # "Rule of Life: Episode 3 with Gemma Ryan" - only for known given names, so
             # "Eat with Tax Collectors" / "Small Things with Great Love" are left alone. Title is kept.
-            tw = DESC_WITH.search(title)
+            tw = DESC_WITH.search(title) or DESC_WITH.search(series)  # "Saturated with Lysa TerKeurst"
             if tw:
                 cand = clean_name(tw["sp"], 3)
                 given = re.sub(r"^(?:Dr|Rev|Bishop|Sister|Brother|Fr)\.?\s+", "", cand).split()[0].lower()
                 honor = cand != re.sub(r"^(?:Dr|Rev|Bishop|Sister|Brother|Fr)\.?\s+", "", cand)
                 if (given in FIRST_NAMES or honor) and not (set(cand.split()) & NON_NAMES):
                     speaker = cand
+                    if tw.string is series:
+                        series = series[: tw.start()].strip()
         if not speaker:
             m = DESC_SPEAKER.search(ep["desc"])
             cap = 4

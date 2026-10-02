@@ -70,10 +70,10 @@ episode_id,status,date,series,title,speaker,minutes,passage,other_refs_in_desc,o
 2vJDRBFtjZirdVTsLtJNek,mapped,2025-07-06,Genesis,Fall,Josh Ryan,67,Genesis 3,,,Genesis - Fall
 3EzbixijIjEikOWVafYyBi,mapped,2025-06-30,,Genesis 2v4-25,Tyler Staton,55,Genesis 2:4-25,,,Genesis 2v4-25
 0kPjzWKvAdyCmpJcB1dKzn,mapped,2025-06-30,,Genesis 1v1-2v3,Tyler Staton and Tim Mackie,62,Genesis 1:1-2:3,,,Genesis 1v1-2v3
-1W2ZLES3j0YnakPUR34bUQ,mapped,2025-06-15,,God is Love - Relational Love,Bethany Allen,48,1 John 4,,,God is Love - Relational Love
-3qRfk8ia02P9L6u71BbTgT,mapped,2025-06-08,,God is Love - Creating Love,Gerald Griffin,42,Acts 2,1 John 4:8,,God is Love - Creating Love
+1W2ZLES3j0YnakPUR34bUQ,mapped,2025-06-15,God is Love,Relational Love,Bethany Allen,48,1 John 4,,,God is Love - Relational Love
+3qRfk8ia02P9L6u71BbTgT,mapped,2025-06-08,God is Love,Creating Love,Gerald Griffin,42,Acts 2,1 John 4:8,,God is Love - Creating Love
 39nXUIupypHC8YeYN6sDRq,mapped,2025-05-25,God is Love,Self-Giving Love,Gavin Bennett,42,John 15:9-13,1 John 4:8,,God is Love - Self-Giving Love
-6zW1fYx9pK6nqyKL70QRE9,mapped,2025-05-19,,God is Love - Rescuing Love,Tyler Staton,50,Colossians 1,1 John 4:8,,God is Love - Rescuing Love
+6zW1fYx9pK6nqyKL70QRE9,mapped,2025-05-19,God is Love,Rescuing Love,Tyler Staton,50,Colossians 1,1 John 4:8,,God is Love - Rescuing Love
 4JkdTFTNQSJDXJoI7LKduo,mapped,2025-05-11,,An Ocean of Peace,,53,Colossians 3:15,,,An Ocean of Peace
 4rFq8ysoAL4vnmcqEVq4a3,mapped,2025-05-04,,God is Love,Tyler Staton,53,1 John 4,,,God is Love
 67W2e9OaHaTQPWvAru2Js3,mapped,2025-04-27,,Becoming Your True Self,Ken Shigematsu,40,Ephesians 3:14-19,,,Becoming Your True Self
@@ -258,11 +258,11 @@ episode_id,status,date,series,title,speaker,minutes,passage,other_refs_in_desc,o
 3qc4QV1xUkmbNC98tzjBB2,mapped,2023-09-17,,Together in Portland,,48,Luke 6:12-16,,,Part 2: Together in Portland
 23v9p6GzQbK2Trkgy9elEV,mapped,2023-09-10,,Practicing the Way of Jesus,,53,Mark 8:34-35,,,Part 1: Practicing the Way of Jesus
 71xZm1U8ngQLVaAlfTcnnV,mapped,2023-09-03,,Unveiled Faces,,47,Exodus 34:29-35,,,Part 13: Unveiled Faces
-187TquHXGz3SM5YFdVoOPq,unmapped,2023-08-30,Lecture,Part 4: Women & Eldership — Threats & Invitations,Tyler Staton,25,,,,Lecture: Part 4: Women & Eldership — Threats & Invitations
-1e7wTvXG6KmCRqIsZN4kuz,unmapped,2023-08-30,Lecture,Part 3: Women & Eldership — A Closer Look at The Four Pillars,Tyler Staton,62,,,,Lecture: Part 3: Women & Eldership — A Closer Look at The Four Pillars
+187TquHXGz3SM5YFdVoOPq,unmapped,2023-08-30,Lecture,Part 4: Women & Eldership - Threats & Invitations,Tyler Staton,25,,,,Lecture: Part 4: Women & Eldership — Threats & Invitations
+1e7wTvXG6KmCRqIsZN4kuz,unmapped,2023-08-30,Lecture,Part 3: Women & Eldership - A Closer Look at The Four Pillars,Tyler Staton,62,,,,Lecture: Part 3: Women & Eldership — A Closer Look at The Four Pillars
 2PbrTpycoB1H5FUWXKJ0Ka,mapped,2023-08-27,,God Dwells Among Us,,50,Exodus 25:1-9,,,Part 12: God Dwells Among Us
-0uracYNo3eul2AIORRLdO2,excluded,2023-08-23,Lecture,Part 2: Women & Eldership — What Does This Mean For Me?,Tyler Staton,20,,,,Lecture: Part 2: Women & Eldership — What Does This Mean For Me?
-2DgeJtrBrvUpJEYhjmGxZG,unmapped,2023-08-23,Lecture,Part 1: Women & Eldership — What Is Our Position?,Tyler Staton,62,,,,Lecture: Part 1: Women & Eldership — What Is Our Position?
+0uracYNo3eul2AIORRLdO2,excluded,2023-08-23,Lecture,Part 2: Women & Eldership - What Does This Mean For Me?,Tyler Staton,20,,,,Lecture: Part 2: Women & Eldership — What Does This Mean For Me?
+2DgeJtrBrvUpJEYhjmGxZG,unmapped,2023-08-23,Lecture,Part 1: Women & Eldership - What Is Our Position?,Tyler Staton,62,,,,Lecture: Part 1: Women & Eldership — What Is Our Position?
 1xalbVkD5TXPBEAcdC49Ul,mapped,2023-08-20,,In My Name,,41,Exodus 34:6-7,,,Part 11: In My Name
 5GmIU4xNKJqzXWeM01xNxS,mapped,2023-08-13,,The Pain of Idols & The Power of Intercession,,45,Exodus 33:12-33,,,Part 10: The Pain of Idols & The Power of Intercession
 4Q8595XTvWh4a9PPTFAa8F,mapped,2023-08-06,,A Kingdom of Priests,,46,Exodus 28:1-12,,,Part 9: A Kingdom of Priests

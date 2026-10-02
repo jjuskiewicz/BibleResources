@@ -19,8 +19,8 @@ episode_id,status,date,series,title,speaker,minutes,passage,other_refs_in_desc,o
 6p7qz4hs8dpDEuVD2Ze0Cp,mapped,2026-05-25,Colossians,New Life. New Wardrobe.,Ger Jones,45,Colossians,,,Colossians Pt 3: New Life. New Wardrobe. - Ger Jones
 26bu96tBf7rmGKqemwnzGf,mapped,2026-05-19,Colossians,Jesus and Our Other Gods,Ger Jones,36,Colossians,,,Colossians Pt 2: Jesus and Our Other Gods - Ger Jones
 5F9Y2XkiiWlhCpGKJlGSio,unmapped,2026-05-11,,The Awe and Intimacy of Jesus,Victor Maynard,38,,,,The Awe and Intimacy of Jesus - Victor Maynard
-0aUSvVmzEfxVjBe1CyJ7aC,unmapped,2026-05-05,,Forgiveness Part 2,Amy Orr-Ewing,44,,,,Forgiveness Part 2 - Amy Orr-Ewing
-6ndug63Lpuls1onneQ5vhj,unmapped,2026-04-27,,Forgiveness Part 1,Amy Orr-Ewing,43,,,,Forgiveness Part 1 - Amy Orr-Ewing
+0aUSvVmzEfxVjBe1CyJ7aC,unmapped,2026-05-05,,Forgiveness Part 2,Dr. Amy Orr-Ewing,44,,,,Forgiveness Part 2 - Amy Orr-Ewing
+6ndug63Lpuls1onneQ5vhj,unmapped,2026-04-27,,Forgiveness Part 1,Dr. Amy Orr-Ewing,43,,,,Forgiveness Part 1 - Amy Orr-Ewing
 3XXrGVHMyA9zM66hHWzasu,mapped,2026-04-21,Encountering the Resurrected Jesus,Restoring Hope to the Disappointed - Luke 24,Ger Jones,38,Luke 24,,,Encountering the Resurrected Jesus: Restoring Hope to the Disappointed - Luke 24 - Ger Jones
 2Gf5sMkNlI0txfJGOae0dg,mapped,2026-04-14,Encountering the Resurrected Jesus,Restoring Peter - John 21,Ger Jones,34,John 21,,,Encountering the Resurrected Jesus: Restoring Peter - John 21 - Ger Jones
 1Jwe9eiNyQM6uSTSVKcyAA,unmapped,2026-04-07,Easter,Peace be with you!,Ger Jones,36,,,,Easter - Peace be with you! - Ger Jones
@@ -54,8 +54,8 @@ episode_id,status,date,series,title,speaker,minutes,passage,other_refs_in_desc,o
 1kuOn3D9dKE2agia0ENAlX,unmapped,2025-09-29,,The Exalted Christ,David Dealy,48,,,,The Exalted Christ - David Dealy
 2BZBqldilPvHd0pG7N09hU,unmapped,2025-09-22,Alpha,"Explore Jesus without pressure, preaching or judgement",Ger Jones,41,,,,"Alpha: Explore Jesus without pressure, preaching or judgement - Ger Jones"
 5j0dwOAdhVUD10a4Jh5Pa3,unmapped,2025-09-17,,Light in the Darkness,Ger Jones,37,,,,Light in the Darkness - Ger Jones
-2SRTsgkHHYLA3sfMpgmIAQ,unmapped,2025-09-08,,Awakening to the Holiness of God,Amy Orr-Ewing,44,,,,Awakening to the Holiness of God - Amy Orr-Ewing
-3FcPp1wmczzfmbSEJZxupM,unmapped,2025-09-01,,Seeing His Glory Like John & Moses,Amy Orr-Ewing,41,,,,Seeing His Glory Like John & Moses - Amy Orr-Ewing
+2SRTsgkHHYLA3sfMpgmIAQ,unmapped,2025-09-08,,Awakening to the Holiness of God,Dr. Amy Orr-Ewing,44,,,,Awakening to the Holiness of God - Amy Orr-Ewing
+3FcPp1wmczzfmbSEJZxupM,unmapped,2025-09-01,,Seeing His Glory Like John & Moses,Dr. Amy Orr-Ewing,41,,,,Seeing His Glory Like John & Moses - Amy Orr-Ewing
 435zlBHRMK2cPQ289ZFAYF,unmapped,2025-08-25,,The Nature of Desire,Bishop Todd Hunter,25,,,,The Nature of Desire - Bishop Todd Hunter
 6wHfC77NS8X0vmHBAAWrzs,mapped,2025-08-19,,Trusting the Keeper of our Lives,Ger Jones,35,Psalm 121,,,Psalms 121: Trusting the Keeper of our Lives - Ger Jones
 7w6oGsO6wdan41nXuomns1,mapped,2025-08-12,,Checking the Foundations,Ger Jones,42,Psalm 127,,,Psalm 127: Checking the Foundations - Ger Jones
@@ -70,7 +70,7 @@ episode_id,status,date,series,title,speaker,minutes,passage,other_refs_in_desc,o
 2EGvdm0YCvfcVRleKhtWpk,mapped,2025-06-12,Jude,Overview,Ger Jones,41,Jude,,,Jude Part 1: Overview - Ger Jones
 0emVbDarhgtc50MeZBAFXi,unmapped,2025-06-02,100th Anniversary,Joining God in His Story for Los Angeles,Ger Jones,30,,,,100th Anniversary: Joining God in His Story for Los Angeles - Ger Jones
 7bOy1pVPp6wTB7tQrZIHe9,unmapped,2025-05-25,,Finding Rest in Christ,Ger Jones,39,,,,Finding Rest in Christ - Ger Jones
-2n83ohrvq0uknOS0xZqgEE,unmapped,2025-05-19,,The Good Samaritan,Amy Orr-Ewing,40,,,,The Good Samaritan - Amy Orr-Ewing
+2n83ohrvq0uknOS0xZqgEE,unmapped,2025-05-19,,The Good Samaritan,Dr. Amy Orr-Ewing,40,,,,The Good Samaritan - Amy Orr-Ewing
 3emoC2PDKMFzuTrZ0bDTf3,unmapped,2025-05-05,How God Heals,Virtuous Cycles,Jeff Han,38,,,,How God Heals: Virtuous Cycles - Jeff Han
 1jGx3gkWoTupaBDGNLqaOT,mapped,2025-04-27,,Failure is not Final,Ger Jones,39,John 21,,,John 21: Failure is not Final - Ger Jones
 4NdeTa2DOoqGij0m3FjKh2,unmapped,2025-04-20,,Easter,Ger Jones,45,,,,Easter - Ger Jones
@@ -154,7 +154,7 @@ episode_id,status,date,series,title,speaker,minutes,passage,other_refs_in_desc,o
 2zWMooU8JemZFR88ssr3Vi,unmapped,2023-12-18,,Learning How to Worship,,46,,,,Learning How to Worship
 0hdzPrmeNH7z2CQ4dt8jkF,mapped,2023-11-27,Mark,Pt. 2 - Who is Jesus?,,53,Mark,,,Mark: Pt. 2 - Who is Jesus?
 1B1ZAJDOeAjD9RlzNhtEOz,mapped,2023-11-20,Mark,Pt. I - Resilience,,49,Mark,,,Mark: Pt. I - Resilience
-1zM96o0uwqVhJXRsECYw0J,unmapped,2023-11-14,Mary's Voice,Dr. Amy Orr-Ewing,,35,,,,Mary's Voice: Dr. Amy Orr-Ewing
+1zM96o0uwqVhJXRsECYw0J,unmapped,2023-11-14,,Mary's Voice,Dr. Amy Orr-Ewing,35,,,,Mary's Voice: Dr. Amy Orr-Ewing
 17OwudX1loQsr2r8AvVsuV,unmapped,2023-11-12,,Being With God,John Mark Comer,50,,,,"Part 4: Being With God - John Mark Comer - November 5, 2023"
 3aeBdo7CPAazAFpG5V18La,unmapped,2023-10-31,,Listening to God,John Mark Comer,48,,,,"Part 3: Listening to God - John Mark Comer - October 29, 2023"
 10TAwniCFiqo8TmbVtP9QJ,unmapped,2023-10-23,,Talking to God,John Mark Comer,46,,,,"Part 2: Talking to God - John Mark Comer - October 22, 2023"
@@ -234,7 +234,7 @@ be-filled-with-the-holy-spirit-ft-bishop-hunter-santa-monica,unmapped,2022-11-28
 6wC4W8mwnH42eWe6r6MM2w,unmapped,2022-07-20,Encounters with Jesus,Jesus and the Blind Man,Ger Jones,41,,,,"Encounters with Jesus, Part Six: Jesus and the Blind Man - Ger Jones - Santa Monica, July 17th, 2022"
 0ABU5HEPbEmHbZ1tdwtBTp,unmapped,2022-07-12,,God Is Thinking About You,Bishop Kenneth Ulmer,30,,,,"God Is Thinking About You - Bishop Kenneth Ulmer - Santa Monica, July 10th, 2022"
 6YgsqZv1i0RFMzPtpXov06,unmapped,2022-07-04,Encounters with Jesus,Jesus and the Hungry,Ash Meaney,24,,,,"Encounters with Jesus, Part Five: Jesus and the Hungry - Ash Meaney - Santa Monica, July 3rd, 2022"
-342tIUqiUjQIUfiKqiB2MA,unmapped,2022-06-27,Encounters with Jesus,Jesus and Women,Amy Orr-Ewing,36,,,,"Encounters with Jesus, Part Four: Jesus and Women - Amy Orr-Ewing - Santa Monica, June 26th, 2022"
+342tIUqiUjQIUfiKqiB2MA,unmapped,2022-06-27,Encounters with Jesus,Jesus and Women,Dr. Amy Orr-Ewing,36,,,,"Encounters with Jesus, Part Four: Jesus and Women - Amy Orr-Ewing - Santa Monica, June 26th, 2022"
 61UVdXNKdvcgQCrObALxjU,unmapped,2022-06-21,Encounters with Jesus,Jesus and the Outcast,Ger Jones,34,,,,"Encounters with Jesus, Part Three: Jesus and the Outcast - Ger Jones - Santa Monica, June 19th, 2022"
 3f8euv5OpYp83CD7OVNL4m,unmapped,2022-06-14,Encounters with Jesus,Jesus and the Religious,Ger Jones,37,,,,"Encounters with Jesus, Part Two: Jesus and the Religious - Ger Jones - Santa Monica, June 12th, 2022"
 4RmHNdnDioQicTiMHU2WKe,unmapped,2022-06-10,Encounters with Jesus,Jesus and the Skeptic,Ger Jones,34,,,,"Encounters with Jesus, Part One: Jesus and the Skeptic - Ger Jones - Santa Monica, June 5th, 2022"

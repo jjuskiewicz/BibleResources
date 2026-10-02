@@ -125,9 +125,15 @@ curl -L "https://feed.podbean.com/bridgetown/feed.xml" -o scraping/bridgetown_fe
 uv run scraping/rss_to_episodes.py scraping/bridgetown_feed.xml -o scraping/bridgetown_rss_episodes.json --spotify scraping/bridgetown_spotify_episodes.json
 uv run scraping/convert_spotify.py scraping/bridgetown_rss_episodes.json --church bridgetown --source rss
 
+# Church Eleven22: Podbean feed, linked to Spotify episodes ("Title - Series - Wk N" titles)
+curl -L "https://feed.podbean.com/coe22/feed.xml" -o scraping/coe22_feed.xml
+uv run scraping/rss_to_episodes.py scraping/coe22_feed.xml -o scraping/eleven22_rss_episodes.json --spotify scraping/eleven22_spotify_episodes.json
+uv run scraping/convert_spotify.py scraping/eleven22_rss_episodes.json --church eleven22 --source rss --title-first --series-prefix Saturated
+
 uv run tools/build_sermons.py && uv run tools/validate_data.py
 ```
 
+- `--title-first` / `--series-prefix`: per-church title shapes (Eleven22 puts the title before the series; "Saturated ..." segments are the series).
 - `--strip` removes campus/location text from titles ("... - Ger Jones - Santa Monica, July 10th, 2022").
 - Book-series titles with no chapter ("John Pt 5: ...", "Acts: Loving a Broken City", "Hebrews Pt. 3 - ...") are tagged to the whole book and show under "Whole book" in the drawer.
 - Spotify's relative dates ("Wednesday", "Yesterday", "3 days ago") are resolved against `--scraped-on`.

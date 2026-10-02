@@ -459,7 +459,7 @@ episode_id,status,date,series,title,speaker,minutes,passage,other_refs_in_desc,o
 7ekoPtSWsvVVplHEWOHpMA,mapped,2018-09-18,,Worship Must Be Stronger Than Idolatry,Jon Tyson,60,Romans 1,,,Worship Must Be Stronger Than Idolatry - Jon Tyson
 4FTw1EMH3uQU16KOH81bz7,mapped,2018-09-10,,This Must Be Stronger Than That,Jon Tyson,48,Ephesians 3,,,This Must Be Stronger Than That - Jon Tyson
 32OMOSQypCNAOWGVXJpK7v,mapped,2018-09-03,Teach Us To Pray,Week 11 - Missional Prayer,Suzy Silk,43,Luke 10,,,Teach Us To Pray - Week 11 - Missional Prayer
-0pGwbMO93zTaFwKhoDvQE2,unmapped,2018-08-28,,Fall Vision Day 2018 - Here For This,,57,,,,Fall Vision Day 2018 - Here For This
+0pGwbMO93zTaFwKhoDvQE2,unmapped,2018-08-28,Fall Vision Day 2018,Here For This,,57,,,,Fall Vision Day 2018 - Here For This
 7e6oPkcWCnUkQMzz9RvDTb,unmapped,2018-08-28,Fall Vision Day 2018,The Kind Of Leaders We're Looking For,Jon Tyson,60,,,,Fall Vision Day 2018 - The Kind Of Leaders We're Looking For
 3deDQ5iQD2wMQoWdgjwysG,mapped,2018-08-27,Teach Us To Pray,Week 10 - Prayer For Spiritual Awakening,Jon Tyson,60,Habakkuk 3,,,Teach Us To Pray - Week 10 - Prayer For Spiritual Awakening
 3x0qN8Jwxgqy4VvGsXadfS,mapped,2018-08-21,Teach Us To Pray,Week 9 - Divine Intercession,Rich Villodas,42,Acts 12,,,Teach Us To Pray - Week 9 - Divine Intercession
@@ -479,7 +479,7 @@ episode_id,status,date,series,title,speaker,minutes,passage,other_refs_in_desc,o
 3iPCHa0nWdy0lIpLjP9bsY,mapped,2018-05-15,The Controversial Jesus,Jesus and Privilege,Jon Tyson,56,Philippians 2,,,The Controversial Jesus - Jesus and Privilege
 1jaUlyz6NUydSS3zgEpJlu,mapped,2018-05-08,The Controversial Jesus,"Jesus, Gender, and the Trans Community",Jon Tyson,70,Genesis 1,Matthew 19; Galatians 6:2,,"The Controversial Jesus - Jesus, Gender, and the Trans Community"
 2WfGbCTRJqu3L18OzTsOEY,mapped,2018-05-01,The Controversial Jesus,Jesus and the Gay Community,Jon Tyson,87,1 Corinthians 6:11,,,The Controversial Jesus - Jesus and the Gay Community
-1P0RVt5xeSRc6y3pG0j4bo,mapped,2018-04-23,,The Controversial Jesus - Sexual Formation,Jon Tyson,60,Matthew 5,,,The Controversial Jesus - Sexual Formation
+1P0RVt5xeSRc6y3pG0j4bo,mapped,2018-04-23,The Controversial Jesus,Sexual Formation,Jon Tyson,60,Matthew 5,,,The Controversial Jesus - Sexual Formation
 4QxGJjQYaxvXxNUNIhOp4Q,mapped,2018-04-17,The Controversial Jesus,Controversial Singleness,Jon Tyson,53,Matthew 19,,,The Controversial Jesus - Controversial Singleness
 53PfAvsVtgh4gqsqnVXc52,mapped,2018-04-10,The Controversial Jesus,Controversial Compassion,Jon Tyson,46,Luke 7,Isaiah 30:18,,The Controversial Jesus - Controversial Compassion
 397PxuMxAi23bEIsSttv5b,unmapped,2018-04-03,Easter Sunday,Resurrection of Jesus,Jon Tyson,47,,,,Easter Sunday - Resurrection of Jesus
@@ -491,9 +491,9 @@ episode_id,status,date,series,title,speaker,minutes,passage,other_refs_in_desc,o
 12ZrTgS6xIwDfSdZillevu,unmapped,2018-02-26,,Releasing the Spirit of Prayer,Corey Russell,45,,,,Releasing the Spirit of Prayer - Corey Russell
 6w2Hid6L4wXiP7qsJBjR8U,unmapped,2018-02-26,The Prodigal Church,Pergamum,Suzy Silk,52,,,,The Prodigal Church Series - Pergamum
 36bOrIovEge0l0w7jqZynE,unmapped,2018-02-20,The Prodigal Church,Ephesus,Jon Tyson,55,,,,The Prodigal Church Series - Ephesus
-6eRCJ7hTnaLnmmrTEjyVsX,mapped,2018-02-13,,The Way of Jesus Series - Cultural Renewal,Jon Tyson,59,Colossians 1,,,The Way of Jesus Series - Cultural Renewal
-3DleMSD7xyjk5wuWlrbDaj,mapped,2018-02-06,,The Way of Jesus Series - Social Renewal,Suzy Silk,64,Ephesians 2,Joel 2,,The Way of Jesus Series - Social Renewal
-0uw4BVxpQOlsqL46vQK3D0,mapped,2018-01-30,,The Way of Jesus Series - Spiritual Renewal,Jon Tyson,51,John 3,,,The Way of Jesus Series - Spiritual Renewal
+6eRCJ7hTnaLnmmrTEjyVsX,mapped,2018-02-13,The Way of Jesus,Cultural Renewal,Jon Tyson,59,Colossians 1,,,The Way of Jesus Series - Cultural Renewal
+3DleMSD7xyjk5wuWlrbDaj,mapped,2018-02-06,The Way of Jesus,Social Renewal,Suzy Silk,64,Ephesians 2,Joel 2,,The Way of Jesus Series - Social Renewal
+0uw4BVxpQOlsqL46vQK3D0,mapped,2018-01-30,The Way of Jesus,Spiritual Renewal,Jon Tyson,51,John 3,,,The Way of Jesus Series - Spiritual Renewal
 7gbDRcdUjEBQOBQy711ryj,mapped,2018-01-23,The Way of Jesus,The Way of Practice,Jon Tyson,52,Matthew 7,,,The Way of Jesus Series - The Way of Practice
 4ki0ddekk3WnglvcFOnJSs,mapped,2018-01-16,The Way of Jesus,The Way of Formation,Jon Tyson,51,Mark 12,,,The Way of Jesus Series - The Way of Formation
 3bnQmXBq94xYSN536OyW9b,mapped,2018-01-09,The Way of Jesus,The Way of Vision,Jon Tyson,49,Mark 1,,,The Way of Jesus Series - The Way of Vision
@@ -516,23 +516,23 @@ episode_id,status,date,series,title,speaker,minutes,passage,other_refs_in_desc,o
 1U598P4p08alfOL7JPFb6M,mapped,2017-09-26,Holy Ambition,Longing for the Right Place,Suzy Silk,43,Nehemiah 2:1-10,,,Holy Ambition Series - Longing for the Right Place
 3gmFy7neVJM3vHLoJLcatP,mapped,2017-09-19,Holy Ambition,Life of Consequence,Jon Tyson,50,Nehemiah 1,,,Holy Ambition Series - Life of Consequence
 2xOSadiuvEDUk4CgvK9aQI,unmapped,2017-09-13,COTCNYC Official Launch,5 Declarations,Jon Tyson,56,,,,COTCNYC Official Launch - 5 Declarations
-4d9ooP8svNQ8KhRuvTHoM1,mapped,2017-09-06,Making Sense of Church,Ephesians - Week 20,Suzy Silk,46,Ephesians 6:10-20,,,Making Sense of Church - Ephesians - Week 20
-43o8tOQNRhJJnHfTAfYjQK,mapped,2017-08-29,Making Sense of Church,Ephesians - Week 19,Jon Tyson,83,Ephesians 6:5-9,,,Making Sense of Church - Ephesians - Week 19
-5wYtVGG5217PgBAj2xCTtq,mapped,2017-08-21,Making Sense of Church,Ephesians - Week 18,Jon Tyson,62,Ephesians 6:1-4,,,Making Sense of Church - Ephesians - Week 18
-02lgGq2Cy940N7JC0eG3n5,mapped,2017-08-16,Making Sense of Church,Ephesians - Week 17,Jon Tyson,60,Ephesians 5:21-33,,,Making Sense of Church - Ephesians - Week 17
-4lHcqPe1tGcbrmWx57Up4h,mapped,2017-08-08,Making Sense of Church,Ephesians - Week 16,Jon Tyson,51,Ephesians 5:15-20,,,Making Sense of Church - Ephesians - Week 16
-63LzCeQ1sUu8o3oF5Rflb5,mapped,2017-08-01,Making Sense of Church,Ephesians - Week 15,,38,Ephesians 5:8-14,,,Making Sense of Church - Ephesians - Week 15
-5q0GrvY8PCdCP6Ta06snQE,mapped,2017-07-24,Making Sense of Church,Ephesians - Week 14,Suzy Silk,54,Ephesians 5:1-14,,,Making Sense of Church - Ephesians - Week 14
-4CxEVlxen1o3td8VQQbP7D,mapped,2017-07-18,Making Sense of Church,Ephesians - Week 13,Jon Tyson,52,Ephesians 4:17-32,,,Making Sense of Church - Ephesians - Week 13
-6nHvkhrXXNaesTYM7xo8JU,mapped,2017-07-11,Making Sense of Church,Ephesians - Week 12,Jon Tyson,56,Ephesians 4:1-16,,,Making Sense of Church - Ephesians - Week 12
-6Pj9iz7c3Y5xyBUprr4u14,mapped,2017-07-03,Making Sense of Church,Ephesians - Week 11,Suzy Silk,40,Ephesians 3:14-21,,,Making Sense of Church - Ephesians - Week 11
-54U0b1yuXGWPdD8s4Zdwq8,mapped,2017-06-26,Making Sense of Church,Ephesians - Week 10,Suzy Silk,44,Ephesians 3:1-13,,,Making Sense of Church - Ephesians - Week 10
-1TBKPTJEJiW6GzCCoNy5Dg,mapped,2017-06-20,Making Sense of Church,Ephesians - Week 9,Jon Tyson,54,Ephesians 2:11-22,,,Making Sense of Church - Ephesians - Week 9
-0LnhKoLxPYGhB0H1pCJYK1,mapped,2017-06-14,Making Sense of Church,Ephesians - Week 8,Jon Tyson,48,Ephesians 2:1-10,,,Making Sense of Church - Ephesians - Week 8
-4dFawcjgJviuVUtFk1gMDQ,mapped,2017-06-06,Making Sense of Church,Ephesians - Week 7,Corey Russell,36,Ephesians 1:15-23,,,Making Sense of Church - Ephesians - Week 7
-5Q00bYF94KBfyn8dVwRtcC,mapped,2017-06-06,Making Sense of Church,Ephesians - Week 6,Jon Tyson,45,Ephesians 1:11-14,,,Making Sense of Church - Ephesians - Week 6
-6o6TcpZBG6LM5omrxOQPeX,mapped,2017-06-06,Making Sense of Church,Ephesians - Week 5,Suzy Silk,40,Ephesians 1:6-12,,,Making Sense of Church - Ephesians - Week 5
-051mcoiS4z7LL0E1LI12bU,mapped,2017-06-06,Making Sense of Church,Ephesians - Week 4,Jon Tyson,41,Ephesians 1:3-6,,,Making Sense of Church - Ephesians - Week 4
-48dmC9UvYliMtwqRHnyzw8,mapped,2017-06-06,Making Sense of Church,Ephesians - Week 3,Jon Tyson,33,Ephesians 1:1-2,,,Making Sense of Church - Ephesians - Week 3
-0YCxWONROYxCtvoRM0T4nW,mapped,2017-06-06,Making Sense of Church,Ephesians - Week 2,Jon Tyson,46,Ephesians; Acts 19:23-40,,,Making Sense of Church - Ephesians - Week 2
-2v8gZfNTySsI4KtpCDotrQ,mapped,2017-06-06,Making Sense of Church,Ephesians - Week 1,Jon Tyson,26,Ephesians; Acts 19:1-20,,,Making Sense of Church - Ephesians - Week 1
+4d9ooP8svNQ8KhRuvTHoM1,mapped,2017-09-06,Making Sense of Church,Ephesians,Suzy Silk,46,Ephesians 6:10-20,,,Making Sense of Church - Ephesians - Week 20
+43o8tOQNRhJJnHfTAfYjQK,mapped,2017-08-29,Making Sense of Church,Ephesians,Jon Tyson,83,Ephesians 6:5-9,,,Making Sense of Church - Ephesians - Week 19
+5wYtVGG5217PgBAj2xCTtq,mapped,2017-08-21,Making Sense of Church,Ephesians,Jon Tyson,62,Ephesians 6:1-4,,,Making Sense of Church - Ephesians - Week 18
+02lgGq2Cy940N7JC0eG3n5,mapped,2017-08-16,Making Sense of Church,Ephesians,Jon Tyson,60,Ephesians 5:21-33,,,Making Sense of Church - Ephesians - Week 17
+4lHcqPe1tGcbrmWx57Up4h,mapped,2017-08-08,Making Sense of Church,Ephesians,Jon Tyson,51,Ephesians 5:15-20,,,Making Sense of Church - Ephesians - Week 16
+63LzCeQ1sUu8o3oF5Rflb5,mapped,2017-08-01,Making Sense of Church,Ephesians,,38,Ephesians 5:8-14,,,Making Sense of Church - Ephesians - Week 15
+5q0GrvY8PCdCP6Ta06snQE,mapped,2017-07-24,Making Sense of Church,Ephesians,Suzy Silk,54,Ephesians 5:1-14,,,Making Sense of Church - Ephesians - Week 14
+4CxEVlxen1o3td8VQQbP7D,mapped,2017-07-18,Making Sense of Church,Ephesians,Jon Tyson,52,Ephesians 4:17-32,,,Making Sense of Church - Ephesians - Week 13
+6nHvkhrXXNaesTYM7xo8JU,mapped,2017-07-11,Making Sense of Church,Ephesians,Jon Tyson,56,Ephesians 4:1-16,,,Making Sense of Church - Ephesians - Week 12
+6Pj9iz7c3Y5xyBUprr4u14,mapped,2017-07-03,Making Sense of Church,Ephesians,Suzy Silk,40,Ephesians 3:14-21,,,Making Sense of Church - Ephesians - Week 11
+54U0b1yuXGWPdD8s4Zdwq8,mapped,2017-06-26,Making Sense of Church,Ephesians,Suzy Silk,44,Ephesians 3:1-13,,,Making Sense of Church - Ephesians - Week 10
+1TBKPTJEJiW6GzCCoNy5Dg,mapped,2017-06-20,Making Sense of Church,Ephesians,Jon Tyson,54,Ephesians 2:11-22,,,Making Sense of Church - Ephesians - Week 9
+0LnhKoLxPYGhB0H1pCJYK1,mapped,2017-06-14,Making Sense of Church,Ephesians,Jon Tyson,48,Ephesians 2:1-10,,,Making Sense of Church - Ephesians - Week 8
+4dFawcjgJviuVUtFk1gMDQ,mapped,2017-06-06,Making Sense of Church,Ephesians,Corey Russell,36,Ephesians 1:15-23,,,Making Sense of Church - Ephesians - Week 7
+5Q00bYF94KBfyn8dVwRtcC,mapped,2017-06-06,Making Sense of Church,Ephesians,Jon Tyson,45,Ephesians 1:11-14,,,Making Sense of Church - Ephesians - Week 6
+6o6TcpZBG6LM5omrxOQPeX,mapped,2017-06-06,Making Sense of Church,Ephesians,Suzy Silk,40,Ephesians 1:6-12,,,Making Sense of Church - Ephesians - Week 5
+051mcoiS4z7LL0E1LI12bU,mapped,2017-06-06,Making Sense of Church,Ephesians,Jon Tyson,41,Ephesians 1:3-6,,,Making Sense of Church - Ephesians - Week 4
+48dmC9UvYliMtwqRHnyzw8,mapped,2017-06-06,Making Sense of Church,Ephesians,Jon Tyson,33,Ephesians 1:1-2,,,Making Sense of Church - Ephesians - Week 3
+0YCxWONROYxCtvoRM0T4nW,mapped,2017-06-06,Making Sense of Church,Ephesians,Jon Tyson,46,Ephesians; Acts 19:23-40,,,Making Sense of Church - Ephesians - Week 2
+2v8gZfNTySsI4KtpCDotrQ,mapped,2017-06-06,Making Sense of Church,Ephesians,Jon Tyson,26,Ephesians; Acts 19:1-20,,,Making Sense of Church - Ephesians - Week 1
