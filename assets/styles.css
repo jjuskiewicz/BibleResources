@@ -118,7 +118,32 @@ svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width:
 }
 .search .clear svg { width: 15px; height: 15px; stroke-width: 2.5; }
 .search .clear:active { background: var(--border); color: var(--ink); }
-.search.has-value kbd { display: none; }
+.search.has-value kbd, .search.scoped kbd { display: none; }
+
+/* Series/speaker token: a colored, removable filter living inside the search box */
+.search .scope {
+  flex: 0 1 auto; min-width: 0; max-width: 60%;
+  display: inline-flex; align-items: center; gap: 6px;
+  margin: 6px -2px 6px 0; padding: 4px 6px 4px 9px; border-radius: 8px; cursor: pointer;
+  border: 1px solid color-mix(in srgb, var(--sc) 45%, var(--border));
+  background: color-mix(in srgb, var(--sc) 14%, var(--surface));
+  color: var(--ink); font-size: 13.5px; font-weight: 600; line-height: 1.3;
+}
+.search .scope .kind, .hint .token-mini .kind {
+  flex: none; font-size: 10px; font-weight: 600; letter-spacing: .07em; text-transform: uppercase;
+  color: color-mix(in srgb, var(--sc) 75%, var(--ink));
+}
+.search .scope .val { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.search .scope svg { width: 14px; height: 14px; stroke-width: 2.5; color: var(--muted); }
+.search.scoped { border-color: color-mix(in srgb, var(--sc, var(--focus)) 40%, var(--border)); }
+.hint .token-mini {
+  display: inline-flex; align-items: baseline; gap: 5px; margin: 2px 6px 2px 0; padding: 2px 9px;
+  border: 1px solid color-mix(in srgb, var(--sc) 40%, var(--border)); border-radius: 999px;
+  background: color-mix(in srgb, var(--sc) 10%, var(--surface));
+  color: var(--ink); font-weight: 500; text-decoration: none;
+}
+.scope-head { align-items: flex-end; border-left: 3px solid var(--sc); padding-left: 10px; }
+.scope-head .eyebrow { color: color-mix(in srgb, var(--sc) 75%, var(--ink)); margin-bottom: 2px; }
 .search kbd {
   font: 500 12px var(--sans); color: var(--muted);
   border: 1px solid var(--border); border-radius: 5px; padding: 1px 6px;
@@ -216,6 +241,7 @@ main { padding-top: 20px; padding-bottom: 40px; }
 .sermons { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
 .sermons.cols { grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); }
 .sermon {
+  position: relative;
   display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 3px 12px; align-items: start;
   padding: 12px 14px; border: 1px solid var(--border); border-radius: 8px;
   background: var(--surface); text-decoration: none;
@@ -223,9 +249,28 @@ main { padding-top: 20px; padding-bottom: 40px; }
 }
 .sermon:active { background: var(--surface-2); }
 .sermon .ref { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; min-width: 0; font-size: 12px; font-weight: 600; letter-spacing: .02em; color: var(--c, var(--muted)); }
-.sermon .ref .pass { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.sermon .ref .pass { display: flex; gap: 4px; min-width: 0; overflow: hidden; white-space: nowrap; margin-left: -7px; }
 .sermon .ref time { font-weight: 400; letter-spacing: 0; color: var(--muted); white-space: nowrap; font-variant-numeric: tabular-nums; }
-.sermon .title { font-family: var(--serif); font-size: 17px; font-weight: 650; line-height: 1.3; grid-column: 1; }
+.sermon .title { font-family: var(--serif); font-size: 17px; font-weight: 650; line-height: 1.3; grid-column: 1; color: inherit; text-decoration: none; }
+/* The whole card opens the sermon: the title link's hit area is stretched over the card,
+   and the pills/links below sit above it so they get their own clicks. */
+.sermon .title::after { content: ""; position: absolute; inset: 0; border-radius: inherit; }
+.sermon .title:focus-visible { outline: none; }
+.sermon:has(.title:focus-visible) { outline: 2px solid var(--focus); outline-offset: 2px; }
+.sermon .pill, .sermon .facet { position: relative; z-index: 1; cursor: pointer; }
+.sermon .pill {
+  flex: 0 1 auto; min-width: 0; overflow: hidden; text-overflow: ellipsis;
+  border: 0; border-radius: 999px; padding: 1px 7px;
+  font: inherit; letter-spacing: inherit; color: var(--pc);
+  background: color-mix(in srgb, var(--pc) 10%, transparent);
+  transition: background .12s ease;
+}
+.sermon .pill:active { background: color-mix(in srgb, var(--pc) 22%, transparent); }
+.sermon .facet {
+  border: 0; background: none; padding: 0; font: inherit; color: inherit; text-align: left;
+  text-decoration: underline dotted; text-decoration-color: var(--faint); text-underline-offset: 3px;
+}
+.sermon .facet.series { font-style: italic; }
 .sermon .meta { display: flex; flex-wrap: wrap; align-items: center; gap: 2px 12px; font-size: 13px; color: var(--muted); grid-column: 1; min-width: 0; }
 .sermon .meta .who { display: inline-flex; align-items: center; gap: 6px; }
 .sermon .meta .series { font-style: italic; }
@@ -248,6 +293,10 @@ main { padding-top: 20px; padding-bottom: 40px; }
   .tile:hover { transform: translateY(-1px); box-shadow: var(--shadow); border-color: var(--c); }
   .sermon:hover { border-color: var(--muted); background: var(--surface-2); }
   .sermon:hover > svg { color: var(--ink); }
+  .sermon .pill:hover { background: color-mix(in srgb, var(--pc) 22%, transparent); }
+  .sermon .facet:hover { color: var(--ink); text-decoration-style: solid; text-decoration-color: currentColor; }
+  .search .scope:hover { background: color-mix(in srgb, var(--sc) 24%, var(--surface)); }
+  .hint .token-mini:hover { border-color: var(--sc); }
   .icon-btn:hover { color: var(--ink); border-color: var(--muted); }
 }
 
@@ -392,7 +441,10 @@ main { padding-top: 20px; padding-bottom: 40px; }
   .sermon .meta > * { flex: none; }
   .sermon .meta { column-gap: 0; }
   .sermon .meta > * + *::before { content: "·"; margin: 0 5px; color: var(--faint); }
-  .sermon .meta .series { flex: 0 1 auto; min-width: 0; overflow: hidden; text-overflow: ellipsis; }
+  .sermon .meta .series { flex: 0 1 auto; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .search .scope { max-width: 55%; font-size: 13px; }
+  .scope-head { flex-direction: column; align-items: flex-start; gap: 2px; }
+  .scope-head .muted { font-size: 12.5px; }
   .group-label { margin: 12px 0 5px; font-size: 11.5px; text-transform: uppercase; letter-spacing: .06em; }
 
   /* Recently added: swipe row, next card peeking */
