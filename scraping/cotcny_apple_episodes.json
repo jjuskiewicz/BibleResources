@@ -1,0 +1,3768 @@
+[
+  {
+    "guid": "22908de2-f16d-48b0-b7e0-8eae557606fb",
+    "appleId": "1000793285963",
+    "url": "https://podcasts.apple.com/us/podcast/manifesto-of-fruitfulness-the-fruit-of-eternity-sam-gibson/id1245313998?i=1000793285963",
+    "title": "Manifesto of Fruitfulness | The Fruit of Eternity - Sam Gibson",
+    "date": "2026-10-05"
+  },
+  {
+    "guid": "d54a5c03-ba4b-480f-822f-37ddca999780",
+    "appleId": "1000792072112",
+    "url": "https://podcasts.apple.com/us/podcast/manifesto-of-fruitfulness-the-fruit-of-the-spirit-jon-tyson/id1245313998?i=1000792072112",
+    "title": "Manifesto of Fruitfulness | The Fruit of the Spirit - Jon Tyson",
+    "date": "2026-09-28"
+  },
+  {
+    "guid": "b3f840af-fb69-497a-bd6b-bd6d0a1fb26f",
+    "appleId": "1000791000138",
+    "url": "https://podcasts.apple.com/us/podcast/manifesto-of-fruitfulness-the-100x-life-jon-tyson/id1245313998?i=1000791000138",
+    "title": "Manifesto of Fruitfulness | The 100x Life - Jon Tyson",
+    "date": "2026-09-21"
+  },
+  {
+    "guid": "755c573d-eb0d-4508-8050-e83390da3e32",
+    "appleId": "1000789599622",
+    "url": "https://podcasts.apple.com/us/podcast/manifesto-of-fruitfulness-an-invitation-to-a/id1245313998?i=1000789599622",
+    "title": "Manifesto of Fruitfulness  | An invitation to a life of joy and love - Jon Tyson",
+    "date": "2026-09-14"
+  },
+  {
+    "guid": "a4efac09-2b0b-44bd-a57c-b810ef2bcc1e",
+    "appleId": "1000788352948",
+    "url": "https://podcasts.apple.com/us/podcast/follow-multiplication-billy-sprague/id1245313998?i=1000788352948",
+    "title": "FOLLOW | Multiplication - Billy Sprague",
+    "date": "2026-09-07"
+  },
+  {
+    "guid": "58b7d6e0-9bdc-49da-aa0c-f87e134f2e34",
+    "appleId": "1000787014864",
+    "url": "https://podcasts.apple.com/us/podcast/follow-worshipping-raegan-griffith/id1245313998?i=1000787014864",
+    "title": "FOLLOW | Worshipping - Raegan Griffith",
+    "date": "2026-08-31"
+  },
+  {
+    "guid": "3a3bee59-631e-45e9-a8bf-64b08c4f3394",
+    "appleId": "1000785620563",
+    "url": "https://podcasts.apple.com/us/podcast/follow-confronting-tim-brown/id1245313998?i=1000785620563",
+    "title": "FOLLOW | Confronting - Tim Brown",
+    "date": "2026-08-24"
+  },
+  {
+    "guid": "952b5610-8438-4419-a29f-6c571becda43",
+    "appleId": "1000783944946",
+    "url": "https://podcasts.apple.com/us/podcast/follow-servanthood-keithen-schwahn/id1245313998?i=1000783944946",
+    "title": "FOLLOW | Servanthood - Keithen Schwahn",
+    "date": "2026-08-17"
+  },
+  {
+    "guid": "a1a7e1b3-2ba7-41ae-ab51-918eafa32ade",
+    "appleId": "1000782049093",
+    "url": "https://podcasts.apple.com/us/podcast/follow-loving-tim-brown/id1245313998?i=1000782049093",
+    "title": "FOLLOW | Loving - Tim Brown",
+    "date": "2026-08-10"
+  },
+  {
+    "guid": "939f88ab-0a31-48f7-8d76-5b11338ecb27",
+    "appleId": "1000779881964",
+    "url": "https://podcasts.apple.com/us/podcast/follow-rest-ralph-castillo/id1245313998?i=1000779881964",
+    "title": "FOLLOW | Rest - Ralph Castillo",
+    "date": "2026-08-04"
+  },
+  {
+    "guid": "6dfac215-cfa0-4e4e-b5f1-a00ca44a16b1",
+    "appleId": "1000778602878",
+    "url": "https://podcasts.apple.com/us/podcast/follow-healing-dr-ron-walborn/id1245313998?i=1000778602878",
+    "title": "FOLLOW | Healing - Dr. Ron Walborn",
+    "date": "2026-07-27"
+  },
+  {
+    "guid": "a69ca474-ec99-4bfd-9801-cb7c3eaf785b",
+    "appleId": "1000777614237",
+    "url": "https://podcasts.apple.com/us/podcast/follow-obedience-dr-wanda-walborn/id1245313998?i=1000777614237",
+    "title": "FOLLOW | Obedience - Dr. Wanda Walborn",
+    "date": "2026-07-20"
+  },
+  {
+    "guid": "72f1c01c-1cfd-4323-8499-a1ee25338b94",
+    "appleId": "1000776657808",
+    "url": "https://podcasts.apple.com/us/podcast/follow-seeking-ralph-castillo/id1245313998?i=1000776657808",
+    "title": "FOLLOW | Seeking - Ralph Castillo",
+    "date": "2026-07-13"
+  },
+  {
+    "guid": "ab9a573c-9a4f-46ab-bd86-5b2d86496914",
+    "appleId": "1000775689337",
+    "url": "https://podcasts.apple.com/us/podcast/follow-resist-raegan-griffith/id1245313998?i=1000775689337",
+    "title": "FOLLOW | Resist - Raegan Griffith",
+    "date": "2026-07-06"
+  },
+  {
+    "guid": "6ed766d9-d4a7-41ea-afcc-a5e4e88f94ee",
+    "appleId": "1000774751407",
+    "url": "https://podcasts.apple.com/us/podcast/follow-apprenticeship-keithen-schwahn/id1245313998?i=1000774751407",
+    "title": "FOLLOW | Apprenticeship - Keithen Schwahn",
+    "date": "2026-06-29"
+  },
+  {
+    "guid": "f47d2699-c508-4f84-bd85-c03e7022d4ab",
+    "appleId": "1000773795970",
+    "url": "https://podcasts.apple.com/us/podcast/freed-oppression-sam-gibson/id1245313998?i=1000773795970",
+    "title": "FREED | Oppression - Sam Gibson",
+    "date": "2026-06-22"
+  },
+  {
+    "guid": "409d6ced-c513-4064-b9a3-78481b039f22",
+    "appleId": "1000772842207",
+    "url": "https://podcasts.apple.com/us/podcast/freed-fear-luke-lefevre/id1245313998?i=1000772842207",
+    "title": "FREED | Fear - Luke Lefevre",
+    "date": "2026-06-15"
+  },
+  {
+    "guid": "3eb97f22-0e4e-47ff-aef1-b7e94c4ffcc9",
+    "appleId": "1000771734498",
+    "url": "https://podcasts.apple.com/us/podcast/freed-unforgiveness-tim-brown/id1245313998?i=1000771734498",
+    "title": "Freed | Unforgiveness - Tim Brown",
+    "date": "2026-06-08"
+  },
+  {
+    "guid": "cd6204d2-b410-4ede-8906-c4bb619e168d",
+    "appleId": "1000770637592",
+    "url": "https://podcasts.apple.com/us/podcast/freed-rejection-sam-gibson/id1245313998?i=1000770637592",
+    "title": "Freed | Rejection - Sam Gibson",
+    "date": "2026-06-01"
+  },
+  {
+    "guid": "9b340495-2d2c-444e-ae83-f82298dc862d",
+    "appleId": "1000769537291",
+    "url": "https://podcasts.apple.com/us/podcast/freed-shame-jon-tyson/id1245313998?i=1000769537291",
+    "title": "Freed | Shame - Jon Tyson",
+    "date": "2026-05-25"
+  },
+  {
+    "guid": "8ca386c8-a4a6-4836-99a6-c5b5df25c4b5",
+    "appleId": "1000769103897",
+    "url": "https://podcasts.apple.com/us/podcast/freed-anxiety-raegan-griffith/id1245313998?i=1000769103897",
+    "title": "FREED | Anxiety - Raegan Griffith",
+    "date": "2026-05-18"
+  },
+  {
+    "guid": "bdb9079f-1ebc-4b92-b017-455afa315396",
+    "appleId": "1000767247481",
+    "url": "https://podcasts.apple.com/us/podcast/freed-idolatry-ralph-castillo/id1245313998?i=1000767247481",
+    "title": "Freed | Idolatry - Ralph Castillo",
+    "date": "2026-05-11"
+  },
+  {
+    "guid": "13fe5270-92d1-4b2d-815b-94ca69dd413a",
+    "appleId": "1000766112460",
+    "url": "https://podcasts.apple.com/us/podcast/freed-lies-tim-brown/id1245313998?i=1000766112460",
+    "title": "Freed | Lies - Tim Brown",
+    "date": "2026-05-04"
+  },
+  {
+    "guid": "051baf43-1441-47ca-8b36-4ff35359b85a",
+    "appleId": "1000763893896",
+    "url": "https://podcasts.apple.com/us/podcast/freed-sin-sam-gibson/id1245313998?i=1000763893896",
+    "title": "Freed | Sin - Sam Gibson",
+    "date": "2026-04-27"
+  },
+  {
+    "guid": "e87dd3ea-0593-4136-bc41-95d7235edee7",
+    "appleId": "1000762884779",
+    "url": "https://podcasts.apple.com/us/podcast/freed-past-jon-tyson/id1245313998?i=1000762884779",
+    "title": "FREED | Past - Jon Tyson",
+    "date": "2026-04-20"
+  },
+  {
+    "guid": "a72ed71b-c8e1-4809-9c24-4d8af6c2995a",
+    "appleId": "1000761161670",
+    "url": "https://podcasts.apple.com/us/podcast/freed-the-call-to-freedom-jon-tyson/id1245313998?i=1000761161670",
+    "title": "FREED | The Call to Freedom - Jon Tyson",
+    "date": "2026-04-13"
+  },
+  {
+    "guid": "a8d12664-6d46-4ece-9dce-e76a3e882641",
+    "appleId": "1000760044501",
+    "url": "https://podcasts.apple.com/us/podcast/easter-resurrecting-hope-jon-tyson/id1245313998?i=1000760044501",
+    "title": "Easter | Resurrecting Hope - Jon Tyson",
+    "date": "2026-04-07"
+  },
+  {
+    "guid": "8e38ff98-cf52-462b-8c62-56e09fc28fd7",
+    "appleId": "1000758290292",
+    "url": "https://podcasts.apple.com/us/podcast/come-to-me-rest-for-your-soul-jon-tyson/id1245313998?i=1000758290292",
+    "title": "Come to Me | Rest For Your Soul - Jon Tyson",
+    "date": "2026-03-30"
+  },
+  {
+    "guid": "182db192-23ef-4979-9838-0a04eef533be",
+    "appleId": "1000756868888",
+    "url": "https://podcasts.apple.com/us/podcast/come-to-me-resurrection-keithen-schwahn/id1245313998?i=1000756868888",
+    "title": "Come to Me | Resurrection - Keithen Schwahn",
+    "date": "2026-03-23"
+  },
+  {
+    "guid": "674b3bba-d921-412c-9f97-faa11ae6e933",
+    "appleId": "1000755811253",
+    "url": "https://podcasts.apple.com/us/podcast/come-to-me-i-am-the-way-the-truth-the-life/id1245313998?i=1000755811253",
+    "title": "Come to Me | I am the Way, the Truth, the Life",
+    "date": "2026-03-16"
+  },
+  {
+    "guid": "821f90e3-5133-4184-82fe-1faae44867c2",
+    "appleId": "1000754549771",
+    "url": "https://podcasts.apple.com/us/podcast/come-to-me-shepherd-jon-tyson/id1245313998?i=1000754549771",
+    "title": "Come to Me | Shepherd - Jon Tyson",
+    "date": "2026-03-10"
+  },
+  {
+    "guid": "cce85b7f-3d0c-4a26-83af-31a16c60e5eb",
+    "appleId": "1000752701544",
+    "url": "https://podcasts.apple.com/us/podcast/come-to-me-door-jon-tyson/id1245313998?i=1000752701544",
+    "title": "Come to Me | Door - Jon Tyson",
+    "date": "2026-03-02"
+  },
+  {
+    "guid": "9365178d-2a0f-4942-806e-79cc85ab51ac",
+    "appleId": "1000751661239",
+    "url": "https://podcasts.apple.com/us/podcast/come-to-me-i-am-the-vine-jon-tyson/id1245313998?i=1000751661239",
+    "title": "Come to Me | I Am the Vine - Jon Tyson",
+    "date": "2026-02-26"
+  },
+  {
+    "guid": "0a1cee38-6e22-414e-a5bb-f04cc67d5861",
+    "appleId": "1000750170037",
+    "url": "https://podcasts.apple.com/us/podcast/come-to-me-i-am-the-light-of-the-world-jon-tyson/id1245313998?i=1000750170037",
+    "title": "Come to Me  | I Am the Light of the World - Jon Tyson",
+    "date": "2026-02-17"
+  },
+  {
+    "guid": "6a92bf5e-3de7-42ab-9739-cb3a7a130d5a",
+    "appleId": "1000748951282",
+    "url": "https://podcasts.apple.com/us/podcast/come-to-me-i-am-the-bread-of-life-suzy-silk/id1245313998?i=1000748951282",
+    "title": "Come to Me | I Am the Bread of Life - Suzy Silk",
+    "date": "2026-02-09"
+  },
+  {
+    "guid": "33055e43-b87c-4f24-afa7-3be1b84d0320",
+    "appleId": "1000747781562",
+    "url": "https://podcasts.apple.com/us/podcast/come-to-me-who-is-jesus-jon-tyson/id1245313998?i=1000747781562",
+    "title": "Come to Me | Who is Jesus? - Jon Tyson",
+    "date": "2026-02-02"
+  },
+  {
+    "guid": "4b876ebd-ac9f-44f3-949d-b2840f720c5c",
+    "appleId": "1000746571356",
+    "url": "https://podcasts.apple.com/us/podcast/god-comes-where-hes-wanted-the-altar-of-the-region/id1245313998?i=1000746571356",
+    "title": "God Comes Where He's Wanted | The Altar of the Region - Jon Tyson and Sam Gibson",
+    "date": "2026-01-25"
+  },
+  {
+    "guid": "d6727c9e-4e2d-4529-bdb3-2fc25cc2a512",
+    "appleId": "1000746212576",
+    "url": "https://podcasts.apple.com/us/podcast/bonus-episode-jon-tyson-interviews-his-dad-on-prayer/id1245313998?i=1000746212576",
+    "title": "Bonus Episode | Jon Tyson interviews his Dad on Prayer",
+    "date": "2026-01-22"
+  },
+  {
+    "guid": "3fbb3bd9-7e37-411b-9843-df4533468a4a",
+    "appleId": "1000745836537",
+    "url": "https://podcasts.apple.com/us/podcast/god-comes-where-hes-wanted-the-altar-of-the-church-jon-tyson/id1245313998?i=1000745836537",
+    "title": "God Comes Where He's Wanted | The Altar of the Church - Jon Tyson",
+    "date": "2026-01-20"
+  },
+  {
+    "guid": "cf81cf20-3a5c-4618-859b-ab85a7c35a68",
+    "appleId": "1000744886844",
+    "url": "https://podcasts.apple.com/us/podcast/god-comes-where-hes-wanted-the-altar-of-the/id1245313998?i=1000744886844",
+    "title": "God Comes Where He's Wanted | The Altar of the Home - Keithen Schwahn",
+    "date": "2026-01-12"
+  },
+  {
+    "guid": "9ba7969b-95b0-47fc-84db-fbaaa2f54cc2",
+    "appleId": "1000743851596",
+    "url": "https://podcasts.apple.com/us/podcast/god-comes-where-hes-wanted-the-altar-of-the-heart/id1245313998?i=1000743851596",
+    "title": "God Comes Where He's Wanted | The Altar of the Heart",
+    "date": "2026-01-05"
+  },
+  {
+    "guid": "4f31c8f5-1c95-46a9-b0dd-d28a2b9f4e9e",
+    "appleId": "1000742380728",
+    "url": "https://podcasts.apple.com/us/podcast/advent-2025-he-shall-be-savior/id1245313998?i=1000742380728",
+    "title": "Advent 2025: He Shall Be | Savior",
+    "date": "2025-12-22"
+  },
+  {
+    "guid": "ee09250c-aade-4b31-89ee-3d6a80f1d13e",
+    "appleId": "1000741412283",
+    "url": "https://podcasts.apple.com/us/podcast/advent-2025-he-shall-be-messiah-suzy-silk/id1245313998?i=1000741412283",
+    "title": "Advent 2025: He Shall Be | Messiah - Suzy Silk",
+    "date": "2025-12-15"
+  },
+  {
+    "guid": "381c4679-2c4d-4d31-9673-a5d6bb14c898",
+    "appleId": "1000740490654",
+    "url": "https://podcasts.apple.com/us/podcast/advent-2025-he-shall-be-great-jon-tyson/id1245313998?i=1000740490654",
+    "title": "Advent 2025: He Shall Be | Great - Jon Tyson",
+    "date": "2025-12-09"
+  },
+  {
+    "guid": "d3ea56a3-9d9b-4f04-a67f-8f56811d4ad0",
+    "appleId": "1000739158395",
+    "url": "https://podcasts.apple.com/us/podcast/advent-2025-he-shall-be-god-with-us-ralph-castillo/id1245313998?i=1000739158395",
+    "title": "Advent 2025: He Shall Be | God with Us - Ralph Castillo",
+    "date": "2025-12-01"
+  },
+  {
+    "guid": "221f8c16-5808-48a9-9712-48dcacfe222f",
+    "appleId": "1000738178103",
+    "url": "https://podcasts.apple.com/us/podcast/making-sense-of-church-the-body-sam-gibson/id1245313998?i=1000738178103",
+    "title": "Making Sense of Church | The Body - Sam Gibson",
+    "date": "2025-11-24"
+  },
+  {
+    "guid": "69e4a5a1-651e-4abf-adf6-d9f54d99f4c6",
+    "appleId": "1000737312703",
+    "url": "https://podcasts.apple.com/us/podcast/center-for-vocational-mission-the-role-of/id1245313998?i=1000737312703",
+    "title": "Center for Vocational Mission | The Role of Prayer and the Workplace",
+    "date": "2025-11-18"
+  },
+  {
+    "guid": "9e2482ab-e9c5-4fb3-aecc-089360d86771",
+    "appleId": "1000737150671",
+    "url": "https://podcasts.apple.com/us/podcast/making-sense-of-church-the-new-humanity-jon-tyson/id1245313998?i=1000737150671",
+    "title": "Making Sense of Church | The New Humanity - Jon Tyson",
+    "date": "2025-11-17"
+  },
+  {
+    "guid": "29625a6c-7589-471f-9756-abb8d947bb61",
+    "appleId": "1000736418188",
+    "url": "https://podcasts.apple.com/us/podcast/living-the-liturgy-2025-thank-you-for-the-arts/id1245313998?i=1000736418188",
+    "title": "Living The Liturgy 2025 | Thank You for the Arts",
+    "date": "2025-11-12"
+  },
+  {
+    "guid": "6261512d-2417-4333-ab29-2f414635d32e",
+    "appleId": "1000736170616",
+    "url": "https://podcasts.apple.com/us/podcast/making-sense-of-church-the-city-on-a-hill-guy-mason/id1245313998?i=1000736170616",
+    "title": "Making Sense of Church | The City on a Hill - Guy Mason",
+    "date": "2025-11-10"
+  },
+  {
+    "guid": "9c1ee9c9-fb6f-490f-abbc-d562ad9c2051",
+    "appleId": "1000736348079",
+    "url": "https://podcasts.apple.com/us/podcast/living-the-liturgy-2025-thank-you-for-the-next-generation/id1245313998?i=1000736348079",
+    "title": "Living The Liturgy 2025 | Thank You for the Next Generation",
+    "date": "2025-11-06"
+  },
+  {
+    "guid": "3051d0d9-2188-4833-b6c6-5564b15a4319",
+    "appleId": "1000735076530",
+    "url": "https://podcasts.apple.com/us/podcast/making-sense-of-church-the-army-suzy-silk/id1245313998?i=1000735076530",
+    "title": "Making Sense of Church | The Army - Suzy Silk",
+    "date": "2025-11-03"
+  },
+  {
+    "guid": "a1f98623-4759-4c60-90a4-1eaaa48d99a4",
+    "appleId": "1000733717900",
+    "url": "https://podcasts.apple.com/us/podcast/making-sense-of-church-the-priesthood-suzy-silk/id1245313998?i=1000733717900",
+    "title": "Making Sense of Church | The Priesthood - Suzy Silk",
+    "date": "2025-10-27"
+  },
+  {
+    "guid": "428cc9a7-2625-414e-9885-9f75723dfc60",
+    "appleId": "1000733175136",
+    "url": "https://podcasts.apple.com/us/podcast/making-sense-of-church-the-temple-jon-tyson/id1245313998?i=1000733175136",
+    "title": "Making Sense of Church | The Temple - Jon Tyson",
+    "date": "2025-10-23"
+  },
+  {
+    "guid": "8df5ef3c-2756-4088-a702-9cc77702be8b",
+    "appleId": "1000731670727",
+    "url": "https://podcasts.apple.com/us/podcast/gentle-humble-john-mark-comer/id1245313998?i=1000731670727",
+    "title": "Gentle + Humble | John Mark Comer",
+    "date": "2025-10-13"
+  },
+  {
+    "guid": "e8fbb28c-98ef-427c-8796-fcb246fdea7b",
+    "appleId": "1000730457559",
+    "url": "https://podcasts.apple.com/us/podcast/making-sense-of-church-the-people-jon-tyson/id1245313998?i=1000730457559",
+    "title": "Making Sense of Church | The People - Jon Tyson",
+    "date": "2025-10-06"
+  },
+  {
+    "guid": "6511344c-ca1c-44bc-a914-ccef59a652e5",
+    "appleId": "1000729150077",
+    "url": "https://podcasts.apple.com/us/podcast/making-sense-of-church-the-family-suzy-silk/id1245313998?i=1000729150077",
+    "title": "Making Sense of Church | The Family - Suzy Silk",
+    "date": "2025-09-29"
+  },
+  {
+    "guid": "35dd65c6-d59a-4d80-9838-fc1399f89ed8",
+    "appleId": "1000727909864",
+    "url": "https://podcasts.apple.com/us/podcast/making-sense-of-church-the-bride-jon-tyson/id1245313998?i=1000727909864",
+    "title": "Making Sense of Church | The Bride - Jon Tyson",
+    "date": "2025-09-22"
+  },
+  {
+    "guid": "143ff346-d890-4e0e-aebd-abd597e1b542",
+    "appleId": "1000726934714",
+    "url": "https://podcasts.apple.com/us/podcast/making-sense-of-church-the-flock-jon-tyson/id1245313998?i=1000726934714",
+    "title": "Making Sense of Church | The Flock - Jon Tyson",
+    "date": "2025-09-15"
+  },
+  {
+    "guid": "8a6e0ff6-24df-4a35-a6eb-fd9f45a6041e",
+    "appleId": "1000725573949",
+    "url": "https://podcasts.apple.com/us/podcast/making-sense-of-church-why-bother-with-the-church-jon-tyson/id1245313998?i=1000725573949",
+    "title": "Making Sense of Church | Why Bother with the Church? - Jon Tyson",
+    "date": "2025-09-08"
+  },
+  {
+    "guid": "23bc9243-5e4d-48f9-957b-a7e9a3767b32",
+    "appleId": "1000724419655",
+    "url": "https://podcasts.apple.com/us/podcast/the-fifth-act-finish-well-ralph-castillo/id1245313998?i=1000724419655",
+    "title": "The Fifth Act | Finish Well - Ralph Castillo",
+    "date": "2025-09-01"
+  },
+  {
+    "guid": "1c572623-e67f-4049-9d95-67c18b7e451c",
+    "appleId": "1000723435001",
+    "url": "https://podcasts.apple.com/us/podcast/the-fifth-act-spiritual-multiplication-suzy-silk/id1245313998?i=1000723435001",
+    "title": "The Fifth Act | Spiritual Multiplication - Suzy Silk",
+    "date": "2025-08-25"
+  },
+  {
+    "guid": "00439c48-b238-49ac-9fe7-cd0f5501cd5a",
+    "appleId": "1000722559784",
+    "url": "https://podcasts.apple.com/us/podcast/the-fifth-act-cultural-impact-in-ephesus-ben-stuart/id1245313998?i=1000722559784",
+    "title": "The Fifth Act | Cultural Impact in Ephesus - Ben Stuart",
+    "date": "2025-08-18"
+  },
+  {
+    "guid": "799b0618-b1ac-4b58-bf78-9c7b9a29d892",
+    "appleId": "1000721540920",
+    "url": "https://podcasts.apple.com/us/podcast/the-fifth-act-the-gospel-for-the-city-tim-brown/id1245313998?i=1000721540920",
+    "title": "The Fifth Act | The Gospel for the City - Tim Brown",
+    "date": "2025-08-11"
+  },
+  {
+    "guid": "0f7d273b-cfc2-40dc-a9b3-e4a5ddadb88a",
+    "appleId": "1000720640894",
+    "url": "https://podcasts.apple.com/us/podcast/the-fifth-act-one-yes-at-a-time-ralph-castillo/id1245313998?i=1000720640894",
+    "title": "The Fifth Act | One \"Yes\" at a Time - Ralph Castillo",
+    "date": "2025-08-04"
+  },
+  {
+    "guid": "cc490e9d-ac67-4e27-9cf8-ce676df79631",
+    "appleId": "1000719489346",
+    "url": "https://podcasts.apple.com/us/podcast/the-fifth-act-living-in-the-final-act-suzy-silk/id1245313998?i=1000719489346",
+    "title": "The Fifth Act | Living in the Final Act - Suzy Silk",
+    "date": "2025-07-28"
+  },
+  {
+    "guid": "dd38313b-4a33-48fa-bb0e-08d1c74dfc16",
+    "appleId": "1000718366995",
+    "url": "https://podcasts.apple.com/us/podcast/the-fifth-act-the-church-at-antioch-jon-tyson/id1245313998?i=1000718366995",
+    "title": "The Fifth Act | The Church at Antioch - Jon Tyson",
+    "date": "2025-07-21"
+  },
+  {
+    "guid": "596b32d4-15a7-4641-ac47-8173469eebe2",
+    "appleId": "1000717197119",
+    "url": "https://podcasts.apple.com/us/podcast/the-fifth-act-the-shocking-gift-of-the-spirit-suzy-silk/id1245313998?i=1000717197119",
+    "title": "the Fifth Act | The Shocking Gift of the Spirit - Suzy Silk",
+    "date": "2025-07-14"
+  },
+  {
+    "guid": "35caac39-ee99-4e28-b83e-aa295d3af028",
+    "appleId": "1000716228459",
+    "url": "https://podcasts.apple.com/us/podcast/the-fifth-act-risk-reputation-keithen-schwahn/id1245313998?i=1000716228459",
+    "title": "The Fifth Act | Risk + Reputation - Keithen Schwahn",
+    "date": "2025-07-07"
+  },
+  {
+    "guid": "05758d4d-59c8-48a9-8faa-875583f7274c",
+    "appleId": "1000715157851",
+    "url": "https://podcasts.apple.com/us/podcast/the-fifth-act-the-conversion-of-saul-tim-brown/id1245313998?i=1000715157851",
+    "title": "The Fifth Act | The Conversion of Saul - Tim Brown",
+    "date": "2025-06-30"
+  },
+  {
+    "guid": "d204401e-391f-4ccc-8820-fef45ce07d60",
+    "appleId": "1000714203951",
+    "url": "https://podcasts.apple.com/us/podcast/the-fifth-act-the-ministry-of-philip-suzy-silk/id1245313998?i=1000714203951",
+    "title": "The Fifth Act | The Ministry of Philip - Suzy Silk",
+    "date": "2025-06-23"
+  },
+  {
+    "guid": "cdfaf231-42ef-430f-81b5-04ac843ae6c0",
+    "appleId": "1000713143239",
+    "url": "https://podcasts.apple.com/us/podcast/psalm-126-like-those-who-dreamed-jon-tyson/id1245313998?i=1000713143239",
+    "title": "Psalm 126 | Like Those Who Dreamed - Jon Tyson",
+    "date": "2025-06-16"
+  },
+  {
+    "guid": "a53c9c38-af9d-46b1-8871-52d97f123806",
+    "appleId": "1000712147716",
+    "url": "https://podcasts.apple.com/us/podcast/the-fifth-act-reputation-spirit-wisdom-annie-f-downs/id1245313998?i=1000712147716",
+    "title": "The Fifth Act | Reputation. Spirit. Wisdom. - Annie F. Downs",
+    "date": "2025-06-09"
+  },
+  {
+    "guid": "2c286508-4d3c-4f61-a174-a48d0a256a9b",
+    "appleId": "1000710937235",
+    "url": "https://podcasts.apple.com/us/podcast/the-fifth-act-we-are-witnesses-suzy-silk/id1245313998?i=1000710937235",
+    "title": "The Fifth Act | We Are Witnesses - Suzy Silk",
+    "date": "2025-06-02"
+  },
+  {
+    "guid": "f7456e2b-eec2-4ed5-ba93-a76c911fdd64",
+    "appleId": "1000710111831",
+    "url": "https://podcasts.apple.com/us/podcast/the-fifth-act-the-threat-to-revival-keithen-schwahn/id1245313998?i=1000710111831",
+    "title": "The Fifth Act | The Threat to Revival  - Keithen Schwahn",
+    "date": "2025-05-27"
+  },
+  {
+    "guid": "471300d8-4bc8-4476-8529-12799806db5a",
+    "appleId": "1000709055344",
+    "url": "https://podcasts.apple.com/us/podcast/the-fifth-act-responding-to-resistance-jon-tyson/id1245313998?i=1000709055344",
+    "title": "The Fifth Act | Responding to Resistance - Jon Tyson",
+    "date": "2025-05-19"
+  },
+  {
+    "guid": "f464a945-22d9-40af-8409-911dbfb4146f",
+    "appleId": "1000708190669",
+    "url": "https://podcasts.apple.com/us/podcast/the-fifth-act-unschooled-ordinary-men-suzy-silk/id1245313998?i=1000708190669",
+    "title": "The Fifth Act | Unschooled, Ordinary Men - Suzy Silk",
+    "date": "2025-05-12"
+  },
+  {
+    "guid": "e8ca63eb-7f9e-4917-a625-9facc445b88b",
+    "appleId": "1000706362783",
+    "url": "https://podcasts.apple.com/us/podcast/the-fifth-act-peters-bold-proclamation-jon-tyson/id1245313998?i=1000706362783",
+    "title": "The Fifth Act | Peter's Bold Proclamation - Jon Tyson",
+    "date": "2025-05-05"
+  },
+  {
+    "guid": "a86dc8a1-e551-494c-af9a-337980fbe4d5",
+    "appleId": "1000705329333",
+    "url": "https://podcasts.apple.com/us/podcast/the-fifth-act-the-holy-spirit-jon-tyson/id1245313998?i=1000705329333",
+    "title": "The Fifth Act | The Holy Spirit - Jon Tyson",
+    "date": "2025-04-28"
+  },
+  {
+    "guid": "757689fa-8814-422b-a693-47496c2f4a05",
+    "appleId": "1000704317777",
+    "url": "https://podcasts.apple.com/us/podcast/easter-sunday-god-conscious-jon-tyson/id1245313998?i=1000704317777",
+    "title": "Easter Sunday | God Conscious - Jon Tyson",
+    "date": "2025-04-21"
+  },
+  {
+    "guid": "1b73eac4-4e55-496e-9ab6-492888793c2b",
+    "appleId": "1000703474471",
+    "url": "https://podcasts.apple.com/us/podcast/missional-formation-come-and-die-jon-tyson/id1245313998?i=1000703474471",
+    "title": "Missional Formation | Come and Die - Jon Tyson",
+    "date": "2025-04-14"
+  },
+  {
+    "guid": "e91a36a8-742f-43de-86a0-90d2640f3873",
+    "appleId": "1000702578771",
+    "url": "https://podcasts.apple.com/us/podcast/missional-formation-vocational-mission-jon-tyson/id1245313998?i=1000702578771",
+    "title": "Missional Formation | Vocational Mission - Jon Tyson",
+    "date": "2025-04-07"
+  },
+  {
+    "guid": "b9b5fd68-95db-4fdf-92bb-4880bcca672e",
+    "appleId": "1000701588653",
+    "url": "https://podcasts.apple.com/us/podcast/missional-formation-the-redemptive-edge-ashley-anderson/id1245313998?i=1000701588653",
+    "title": "Missional Formation | The Redemptive Edge - Ashley Anderson",
+    "date": "2025-03-31"
+  },
+  {
+    "guid": "65c2a73e-a66b-4194-8d09-8657de006a29",
+    "appleId": "1000700607749",
+    "url": "https://podcasts.apple.com/us/podcast/missional-formation-disciple-making-jon-tyson/id1245313998?i=1000700607749",
+    "title": "Missional Formation | Disciple Making - Jon Tyson",
+    "date": "2025-03-24"
+  },
+  {
+    "guid": "7e2896e5-cb2a-4a9a-b07f-32f4b890846c",
+    "appleId": "1000699503056",
+    "url": "https://podcasts.apple.com/us/podcast/missional-formation-crucified-and-consecrated-sam-gibson/id1245313998?i=1000699503056",
+    "title": "Missional Formation | Crucified and Consecrated - Sam Gibson",
+    "date": "2025-03-17"
+  },
+  {
+    "guid": "3896404e-f728-4786-a49b-809db367e725",
+    "appleId": "1000698619040",
+    "url": "https://podcasts.apple.com/us/podcast/missional-formation-communitas-jon-tyson/id1245313998?i=1000698619040",
+    "title": "Missional Formation | Communitas - Jon Tyson",
+    "date": "2025-03-10"
+  },
+  {
+    "guid": "26a87969-df7c-4f56-b3e8-9d57eb5149fb",
+    "appleId": "1000697443054",
+    "url": "https://podcasts.apple.com/us/podcast/missional-formation-disciple-the-deficits-suzy-silk/id1245313998?i=1000697443054",
+    "title": "Missional Formation | Disciple the Deficits - Suzy Silk",
+    "date": "2025-03-03"
+  },
+  {
+    "guid": "36efbab3-fe5b-48a3-9b47-b29cee067f09",
+    "appleId": "1000695584527",
+    "url": "https://podcasts.apple.com/us/podcast/missional-formation-space-risk-al-gordon/id1245313998?i=1000695584527",
+    "title": "Missional Formation | Space + Risk - Al Gordon",
+    "date": "2025-02-24"
+  },
+  {
+    "guid": "02c2acc3-5a55-4e57-a15e-16cc873b0935",
+    "appleId": "1000693069099",
+    "url": "https://podcasts.apple.com/us/podcast/missional-formation-radical-daily-pursuit-suzy-silk/id1245313998?i=1000693069099",
+    "title": "Missional Formation | Radical Daily Pursuit - Suzy Silk",
+    "date": "2025-02-17"
+  },
+  {
+    "guid": "8344cb14-7d14-47e3-ad69-e383eb148e3c",
+    "appleId": "1000690861199",
+    "url": "https://podcasts.apple.com/us/podcast/missional-formation-revival-awakening-jon-tyson/id1245313998?i=1000690861199",
+    "title": "Missional Formation | Revival + Awakening - Jon Tyson",
+    "date": "2025-02-10"
+  },
+  {
+    "guid": "581e7406-9470-451a-a9c8-1c5872c4536a",
+    "appleId": "1000688720290",
+    "url": "https://podcasts.apple.com/us/podcast/missional-formation-radical-minimum-standard-jon-tyson/id1245313998?i=1000688720290",
+    "title": "Missional Formation | Radical Minimum Standard - Jon Tyson",
+    "date": "2025-02-04"
+  },
+  {
+    "guid": "af3e3eba-4e2d-414b-b415-2ca40edb6d75",
+    "appleId": "1000685797254",
+    "url": "https://podcasts.apple.com/us/podcast/god-comes-where-hes-wanted-the-region-zach-meerkreebs/id1245313998?i=1000685797254",
+    "title": "God Comes Where He's Wanted | The Region - Zach Meerkreebs",
+    "date": "2025-01-27"
+  },
+  {
+    "guid": "034d6b7e-175c-4ddc-bb50-1add8f32807f",
+    "appleId": "1000684714010",
+    "url": "https://podcasts.apple.com/us/podcast/god-comes-where-hes-wanted-the-church-sam-gibson/id1245313998?i=1000684714010",
+    "title": "God Comes Where He's Wanted | The Church - Sam Gibson",
+    "date": "2025-01-20"
+  },
+  {
+    "guid": "feeec55a-f2a5-431d-b6f7-f83a61bffaa7",
+    "appleId": "1000683800282",
+    "url": "https://podcasts.apple.com/us/podcast/god-comes-where-hes-wanted-the-home-jon-tyson/id1245313998?i=1000683800282",
+    "title": "God Comes Where He's Wanted | The Home - Jon Tyson",
+    "date": "2025-01-13"
+  },
+  {
+    "guid": "cbaccc0b-9097-490d-b720-8c7f74588b80",
+    "appleId": "1000682899099",
+    "url": "https://podcasts.apple.com/us/podcast/god-comes-where-hes-wanted-the-heart-jon-tyson/id1245313998?i=1000682899099",
+    "title": "God Comes Where He's Wanted | The Heart - Jon Tyson",
+    "date": "2025-01-06"
+  },
+  {
+    "guid": "dec57457-857c-49e6-a201-90ed48b126ae",
+    "appleId": "1000682118422",
+    "url": "https://podcasts.apple.com/us/podcast/advent-devotional-the-supremacy-of-the-son/id1245313998?i=1000682118422",
+    "title": "Advent Devotional: The Supremacy of the Son",
+    "date": "2024-12-30"
+  },
+  {
+    "guid": "c9861973-1a60-43a0-810f-072e1fc64e29",
+    "appleId": "1000682015771",
+    "url": "https://podcasts.apple.com/us/podcast/advent-devotional-the-victorious-son/id1245313998?i=1000682015771",
+    "title": "Advent Devotional: The Victorious Son",
+    "date": "2024-12-29"
+  },
+  {
+    "guid": "7e6e1863-98dc-4f79-8702-c78e88fa7542",
+    "appleId": "1000681838345",
+    "url": "https://podcasts.apple.com/us/podcast/advent-devotional-the-obedient-son/id1245313998?i=1000681838345",
+    "title": "Advent Devotional: The Obedient Son",
+    "date": "2024-12-27"
+  },
+  {
+    "guid": "1deb203a-39fe-4cce-b9c7-538efdd7862f",
+    "appleId": "1000681647076",
+    "url": "https://podcasts.apple.com/us/podcast/advent-devotional-a-son-for-all-of-us/id1245313998?i=1000681647076",
+    "title": "Advent Devotional: A Son for All of Us",
+    "date": "2024-12-25"
+  },
+  {
+    "guid": "323d11ca-ca60-4d48-b601-a7f4f8128b46",
+    "appleId": "1000681462286",
+    "url": "https://podcasts.apple.com/us/podcast/christmas-2024-celebrate-remember/id1245313998?i=1000681462286",
+    "title": "Christmas 2024: Celebrate & Remember",
+    "date": "2024-12-23"
+  },
+  {
+    "guid": "1ff43e88-24f8-42f0-be85-103b6541cba9",
+    "appleId": "1000681398356",
+    "url": "https://podcasts.apple.com/us/podcast/advent-devotional-the-son-we-need/id1245313998?i=1000681398356",
+    "title": "Advent Devotional: The Son We Need",
+    "date": "2024-12-23"
+  },
+  {
+    "guid": "662bb117-99d7-4eea-90c6-f439adb08a9c",
+    "appleId": "1000681111304",
+    "url": "https://podcasts.apple.com/us/podcast/advent-devotional-authority-of-the-son/id1245313998?i=1000681111304",
+    "title": "Advent Devotional: Authority of the Son",
+    "date": "2024-12-20"
+  },
+  {
+    "guid": "a63243ff-2f2b-4108-aa3d-b0eaf2aefe54",
+    "appleId": "1000680808545",
+    "url": "https://podcasts.apple.com/us/podcast/advent-devotional-god-with-us/id1245313998?i=1000680808545",
+    "title": "Advent Devotional: God with Us",
+    "date": "2024-12-18"
+  },
+  {
+    "guid": "3bece94d-4b97-4c4d-8306-fdbb8b052843",
+    "appleId": "1000680591341",
+    "url": "https://podcasts.apple.com/us/podcast/to-us-a-son-is-given-son-of-god/id1245313998?i=1000680591341",
+    "title": "To Us a Son is Given | Son of God",
+    "date": "2024-12-16"
+  },
+  {
+    "guid": "32f4afdd-fbab-4ab2-a4c9-e3519b46ea09",
+    "appleId": "1000680540992",
+    "url": "https://podcasts.apple.com/us/podcast/advent-devotional-divinity-of-the-son/id1245313998?i=1000680540992",
+    "title": "Advent Devotional: Divinity of the Son",
+    "date": "2024-12-16"
+  },
+  {
+    "guid": "bed64658-e870-4f9b-b2c2-ebfff604305e",
+    "appleId": "1000680250816",
+    "url": "https://podcasts.apple.com/us/podcast/advent-devotional-exaltation-of-the-son/id1245313998?i=1000680250816",
+    "title": "Advent Devotional: Exaltation of the Son",
+    "date": "2024-12-13"
+  },
+  {
+    "guid": "982e071a-6aa9-453b-99b4-199fcec3bf42",
+    "appleId": "1000679995118",
+    "url": "https://podcasts.apple.com/us/podcast/advent-devotional-suffering-of-the-son/id1245313998?i=1000679995118",
+    "title": "Advent Devotional: Suffering of the Son",
+    "date": "2024-12-11"
+  },
+  {
+    "guid": "3f2c61ae-430f-46ed-963b-393299ad9960",
+    "appleId": "1000679789576",
+    "url": "https://podcasts.apple.com/us/podcast/to-us-a-son-is-given-son-of-man-jon-tyson/id1245313998?i=1000679789576",
+    "title": "To Us a Son is Given | Son of Man - Jon Tyson",
+    "date": "2024-12-09"
+  },
+  {
+    "guid": "1029ca7f-3b8f-4789-82e7-29643a4ea0b6",
+    "appleId": "1000679731905",
+    "url": "https://podcasts.apple.com/us/podcast/advent-devotional-humanity-of-the-son/id1245313998?i=1000679731905",
+    "title": "Advent Devotional: Humanity of the Son",
+    "date": "2024-12-09"
+  },
+  {
+    "guid": "361a67b7-6dd1-4fee-9980-19ff679d5fa3",
+    "appleId": "1000679459544",
+    "url": "https://podcasts.apple.com/us/podcast/advent-devotional-king-of-mercy/id1245313998?i=1000679459544",
+    "title": "Advent Devotional: King of Mercy",
+    "date": "2024-12-06"
+  },
+  {
+    "guid": "76a97a2d-7192-438a-bd68-fb5650f0bf44",
+    "appleId": "1000679190340",
+    "url": "https://podcasts.apple.com/us/podcast/advent-devotional-jesus-son-of-david/id1245313998?i=1000679190340",
+    "title": "Advent Devotional: Jesus, Son of David",
+    "date": "2024-12-04"
+  },
+  {
+    "guid": "2259d917-6533-4b55-b640-f9c138e6c190",
+    "appleId": "1000678950261",
+    "url": "https://podcasts.apple.com/us/podcast/to-us-a-son-is-given-son-of-david-suzy-silk/id1245313998?i=1000678950261",
+    "title": "To Us a Son is Given | Son of David - Suzy Silk",
+    "date": "2024-12-02"
+  },
+  {
+    "guid": "94ce68db-f37a-48df-83f6-2e92fe904ef9",
+    "appleId": "1000678884276",
+    "url": "https://podcasts.apple.com/us/podcast/advent-devotional-messianic-king/id1245313998?i=1000678884276",
+    "title": "Advent Devotional: Messianic King",
+    "date": "2024-12-02"
+  },
+  {
+    "guid": "a70d3932-1133-4934-912b-1d4072a5912c",
+    "appleId": "1000678284432",
+    "url": "https://podcasts.apple.com/us/podcast/formed-multiplication-tim-brown/id1245313998?i=1000678284432",
+    "title": "Formed: Multiplication - Tim Brown",
+    "date": "2024-11-26"
+  },
+  {
+    "guid": "7a939207-db26-4d4a-ac84-3cab0acf5459",
+    "appleId": "1000677352980",
+    "url": "https://podcasts.apple.com/us/podcast/formed-participation-jon-tyson/id1245313998?i=1000677352980",
+    "title": "Formed: Participation - Jon Tyson",
+    "date": "2024-11-18"
+  },
+  {
+    "guid": "e209a885-1203-4dca-8cb0-cb6c20209445",
+    "appleId": "1000676521097",
+    "url": "https://podcasts.apple.com/us/podcast/formed-vivification-jon-tyson/id1245313998?i=1000676521097",
+    "title": "Formed: Vivification - Jon Tyson",
+    "date": "2024-11-11"
+  },
+  {
+    "guid": "cd14b6ca-7295-44e4-b304-366929722c85",
+    "appleId": "1000675650792",
+    "url": "https://podcasts.apple.com/us/podcast/formed-mortification-jon-tyson/id1245313998?i=1000675650792",
+    "title": "Formed: Mortification - Jon Tyson",
+    "date": "2024-11-04"
+  },
+  {
+    "guid": "a6aa7b1b-f339-45fc-baa0-3dcf973109b7",
+    "appleId": "1000674733416",
+    "url": "https://podcasts.apple.com/us/podcast/formed-affliction-suzy-silk/id1245313998?i=1000674733416",
+    "title": "Formed: Affliction - Suzy Silk",
+    "date": "2024-10-28"
+  },
+  {
+    "guid": "5c2dea3c-6288-487f-9077-cf7ec13fc872",
+    "appleId": "1000673873763",
+    "url": "https://podcasts.apple.com/us/podcast/formed-sanctification-jon-tyson/id1245313998?i=1000673873763",
+    "title": "Formed: Sanctification - Jon Tyson",
+    "date": "2024-10-21"
+  },
+  {
+    "guid": "854c4d1d-c603-4044-b262-9dd9020e89e3",
+    "appleId": "1000673069890",
+    "url": "https://podcasts.apple.com/us/podcast/formed-regeneration-guy-mason/id1245313998?i=1000673069890",
+    "title": "Formed: Regeneration - Guy Mason",
+    "date": "2024-10-14"
+  },
+  {
+    "guid": "1646912a-f410-4776-8f06-07037f2956f7",
+    "appleId": "1000672138991",
+    "url": "https://podcasts.apple.com/us/podcast/formed-justification-suzy-silk/id1245313998?i=1000672138991",
+    "title": "Formed: Justification - Suzy Silk",
+    "date": "2024-10-07"
+  },
+  {
+    "guid": "4451453d-f831-41aa-aab5-248cb1090283",
+    "appleId": "1000671317981",
+    "url": "https://podcasts.apple.com/us/podcast/formed-salvation-jon-tyson/id1245313998?i=1000671317981",
+    "title": "Formed: Salvation - Jon Tyson",
+    "date": "2024-09-30"
+  },
+  {
+    "guid": "aa083f30-a473-406d-b4f4-0a7ca73c45db",
+    "appleId": "1000670428551",
+    "url": "https://podcasts.apple.com/us/podcast/mark-sayers-from-platforms-to-pillars/id1245313998?i=1000670428551",
+    "title": "Mark Sayers: From Platforms to Pillars",
+    "date": "2024-09-23"
+  },
+  {
+    "guid": "90e5d442-82ff-43f1-aade-3c3436757771",
+    "appleId": "1000669727611",
+    "url": "https://podcasts.apple.com/us/podcast/formed-election-tim-brown/id1245313998?i=1000669727611",
+    "title": "Formed: Election - Tim Brown",
+    "date": "2024-09-16"
+  },
+  {
+    "guid": "f043dc56-06df-4015-a90b-e9e9a4a8b012",
+    "appleId": "1000668909885",
+    "url": "https://podcasts.apple.com/us/podcast/formed-into-his-image-jon-tyson/id1245313998?i=1000668909885",
+    "title": "Formed: Into His Image - Jon Tyson",
+    "date": "2024-09-09"
+  },
+  {
+    "guid": "d1646f3f-01eb-4586-837d-01579f38157c",
+    "appleId": "1000668067684",
+    "url": "https://podcasts.apple.com/us/podcast/come-see-come-to-me-jon-tyson/id1245313998?i=1000668067684",
+    "title": "Come & See: Come to Me - Jon Tyson",
+    "date": "2024-09-02"
+  },
+  {
+    "guid": "f94f6141-49ca-4100-a655-565904dd9360",
+    "appleId": "1000666660416",
+    "url": "https://podcasts.apple.com/us/podcast/come-see-resurrection-of-jesus-suzy-silk/id1245313998?i=1000666660416",
+    "title": "Come & See: Resurrection of Jesus - Suzy Silk",
+    "date": "2024-08-26"
+  },
+  {
+    "guid": "6022d5a2-6802-4578-bb38-6d73535b7992",
+    "appleId": "1000666002166",
+    "url": "https://podcasts.apple.com/us/podcast/come-see-resurrecting-lazarus-suzy-silk/id1245313998?i=1000666002166",
+    "title": "Come & See: Resurrecting Lazarus - Suzy Silk",
+    "date": "2024-08-20"
+  },
+  {
+    "guid": "eeaa1cfd-fd13-45e5-9892-bc7531defcf5",
+    "appleId": "1000665060490",
+    "url": "https://podcasts.apple.com/us/podcast/come-see-healing-a-blind-man-jon-tyson/id1245313998?i=1000665060490",
+    "title": "Come & See: Healing a Blind Man - Jon Tyson",
+    "date": "2024-08-12"
+  },
+  {
+    "guid": "02f09b86-c690-4db9-8153-273f30874e34",
+    "appleId": "1000664400922",
+    "url": "https://podcasts.apple.com/us/podcast/come-see-feeding-the-5-000-tim-brown/id1245313998?i=1000664400922",
+    "title": "Come & See: Feeding the 5,000 - Tim Brown",
+    "date": "2024-08-05"
+  },
+  {
+    "guid": "dd9812a6-4387-4fb4-8f04-52a67f7ce186",
+    "appleId": "1000663703429",
+    "url": "https://podcasts.apple.com/us/podcast/come-see-healing-the-noblemans-son-ralph-castillo/id1245313998?i=1000663703429",
+    "title": "Come & See: Healing the Nobleman's Son - Ralph Castillo",
+    "date": "2024-07-29"
+  },
+  {
+    "guid": "79d0662e-85a0-4b06-ba11-ef6148e1a861",
+    "appleId": "1000662989435",
+    "url": "https://podcasts.apple.com/us/podcast/come-see-healing-at-the-pool-jon-tyson/id1245313998?i=1000662989435",
+    "title": "Come & See: Healing at the Pool - Jon Tyson",
+    "date": "2024-07-22"
+  },
+  {
+    "guid": "6eb6eb0f-6ffb-4056-aae7-87b308b9d3ef",
+    "appleId": "1000662296805",
+    "url": "https://podcasts.apple.com/us/podcast/come-see-water-to-wine-keithen-schwahn/id1245313998?i=1000662296805",
+    "title": "Come & See: Water to Wine - Keithen Schwahn",
+    "date": "2024-07-15"
+  },
+  {
+    "guid": "d6864cc1-7c7d-46f5-b66e-3887f813a9a1",
+    "appleId": "1000661548350",
+    "url": "https://podcasts.apple.com/us/podcast/come-see-i-am-the-vine-ashley-anderson/id1245313998?i=1000661548350",
+    "title": "Come & See: I Am the Vine - Ashley Anderson",
+    "date": "2024-07-08"
+  },
+  {
+    "guid": "61b504c9-4ebf-4f58-90cd-b5b489ad0b99",
+    "appleId": "1000660830083",
+    "url": "https://podcasts.apple.com/us/podcast/come-see-i-am-the-way-the-truth-and-the-life-sam-gibson/id1245313998?i=1000660830083",
+    "title": "Come & See: I Am the Way, the Truth, and the Life - Sam Gibson",
+    "date": "2024-07-01"
+  },
+  {
+    "guid": "a316d6b3-53bb-4daa-b4ca-6ba866cfaed3",
+    "appleId": "1000660095352",
+    "url": "https://podcasts.apple.com/us/podcast/come-see-i-am-the-the-resurrection-jon-tyson/id1245313998?i=1000660095352",
+    "title": "Come & See: I Am the the Resurrection - Jon Tyson",
+    "date": "2024-06-24"
+  },
+  {
+    "guid": "96296c4d-a70c-4104-9c46-c288dd3861f3",
+    "appleId": "1000659286673",
+    "url": "https://podcasts.apple.com/us/podcast/come-see-i-am-the-good-shepherd-suzy-silk/id1245313998?i=1000659286673",
+    "title": "Come & See: I Am the Good Shepherd  - Suzy Silk",
+    "date": "2024-06-17"
+  },
+  {
+    "guid": "3fad7485-1e57-49cb-9d86-2cd59d3b406c",
+    "appleId": "1000658467601",
+    "url": "https://podcasts.apple.com/us/podcast/come-see-i-am-the-door-ashley-anderson/id1245313998?i=1000658467601",
+    "title": "Come & See: I Am the Door - Ashley Anderson",
+    "date": "2024-06-10"
+  },
+  {
+    "guid": "bbefcd8a-a6b4-4805-8776-7328b2464b04",
+    "appleId": "1000657696553",
+    "url": "https://podcasts.apple.com/us/podcast/come-see-i-am-the-light-of-the-world-suzy-silk/id1245313998?i=1000657696553",
+    "title": "Come & See: I Am the Light of the World - Suzy Silk",
+    "date": "2024-06-03"
+  },
+  {
+    "guid": "0bcf1348-7824-4d1a-a3ab-b3c6002dfca0",
+    "appleId": "1000656917709",
+    "url": "https://podcasts.apple.com/us/podcast/come-see-i-am-the-bread-of-life-jon-tyson/id1245313998?i=1000656917709",
+    "title": "Come & See: I Am the Bread of Life - Jon Tyson",
+    "date": "2024-05-27"
+  },
+  {
+    "guid": "2e5e59b8-0c7b-487c-98a7-10e4cb78c332",
+    "appleId": "1000656177289",
+    "url": "https://podcasts.apple.com/us/podcast/come-see-the-simple-gospel-tim-brown/id1245313998?i=1000656177289",
+    "title": "Come & See: The Simple Gospel - Tim Brown",
+    "date": "2024-05-20"
+  },
+  {
+    "guid": "4b5501c5-6342-4c5f-bb8e-0654cec8a75f",
+    "appleId": "1000655472433",
+    "url": "https://podcasts.apple.com/us/podcast/controversial-faith-q-a-panel/id1245313998?i=1000655472433",
+    "title": "Controversial Faith: Q&A Panel",
+    "date": "2024-05-13"
+  },
+  {
+    "guid": "77144103-8e28-404a-bdc7-33386af2a278",
+    "appleId": "1000654689348",
+    "url": "https://podcasts.apple.com/us/podcast/controversial-faith-why-does-god-care-about-my-sexuality/id1245313998?i=1000654689348",
+    "title": "Controversial Faith: Why Does God Care About My Sexuality? - Jon Tyson",
+    "date": "2024-05-06"
+  },
+  {
+    "guid": "3ba7ff59-8637-4ae8-a6eb-a4ba77a61683",
+    "appleId": "1000653931108",
+    "url": "https://podcasts.apple.com/us/podcast/controversial-faith-how-can-a-good-god-allow-evil/id1245313998?i=1000653931108",
+    "title": "Controversial Faith: How can a Good God Allow Evil and Suffering? - Suzy Silk",
+    "date": "2024-04-29"
+  },
+  {
+    "guid": "9d22b740-b3ab-408e-b86f-9e7e7a99a536",
+    "appleId": "1000653248377",
+    "url": "https://podcasts.apple.com/us/podcast/controversial-faith-the-church-and-politics-jon-tyson/id1245313998?i=1000653248377",
+    "title": "Controversial Faith: The Church and Politics - Jon Tyson",
+    "date": "2024-04-22"
+  },
+  {
+    "guid": "09708668-f136-43d7-8865-37c056ebc8f2",
+    "appleId": "1000652522766",
+    "url": "https://podcasts.apple.com/us/podcast/controversial-faith-why-can-we-trust-the-bible-suzy-silk/id1245313998?i=1000652522766",
+    "title": "Controversial Faith: Why Can We Trust the Bible? - Suzy Silk",
+    "date": "2024-04-15"
+  },
+  {
+    "guid": "4fd4932e-c91b-4a58-9a1f-25fc2fb124fb",
+    "appleId": "1000651787006",
+    "url": "https://podcasts.apple.com/us/podcast/controversial-faith-the-exclusivity-of-jesus-jon-tyson/id1245313998?i=1000651787006",
+    "title": "Controversial Faith: The Exclusivity of Jesus - Jon Tyson",
+    "date": "2024-04-08"
+  },
+  {
+    "guid": "e3c9a4ee-740e-4ac9-bb4b-e8b2f84fd3b4",
+    "appleId": "1000651091833",
+    "url": "https://podcasts.apple.com/us/podcast/easter-sunday-2024-jon-tyson/id1245313998?i=1000651091833",
+    "title": "Easter Sunday 2024 - Jon Tyson",
+    "date": "2024-04-01"
+  },
+  {
+    "guid": "17813b57-7ecd-420a-95d6-896ebc71edb1",
+    "appleId": "1000650371717",
+    "url": "https://podcasts.apple.com/us/podcast/seven-deadly-sins-envy-suzy-silk/id1245313998?i=1000650371717",
+    "title": "Seven Deadly Sins: Envy - Suzy Silk",
+    "date": "2024-03-25"
+  },
+  {
+    "guid": "3f184f98-88df-423c-81d1-838dcff5707d",
+    "appleId": "1000649620574",
+    "url": "https://podcasts.apple.com/us/podcast/seven-deadly-sins-pride-ralph-castillo/id1245313998?i=1000649620574",
+    "title": "Seven Deadly Sins: Pride - Ralph Castillo",
+    "date": "2024-03-18"
+  },
+  {
+    "guid": "f3daafd3-d1c0-4988-8b2f-e11d95a16cfb",
+    "appleId": "1000648782367",
+    "url": "https://podcasts.apple.com/us/podcast/seven-deadly-sins-sloth-jon-tyson/id1245313998?i=1000648782367",
+    "title": "Seven Deadly Sins: Sloth - Jon Tyson",
+    "date": "2024-03-11"
+  },
+  {
+    "guid": "33db880a-5a74-4e0f-be2c-7382d994622f",
+    "appleId": "1000647985298",
+    "url": "https://podcasts.apple.com/us/podcast/seven-deadly-sins-wrath-tim-brown/id1245313998?i=1000647985298",
+    "title": "Seven Deadly Sins: Wrath - Tim Brown",
+    "date": "2024-03-04"
+  },
+  {
+    "guid": "5fd33542-6750-401f-8d16-c1e19ed4b483",
+    "appleId": "1000646938496",
+    "url": "https://podcasts.apple.com/us/podcast/seven-deadly-sins-lust-jon-tyson/id1245313998?i=1000646938496",
+    "title": "Seven Deadly Sins: Lust - Jon Tyson",
+    "date": "2024-02-26"
+  },
+  {
+    "guid": "5bab1486-777b-4b4a-ae30-bc2a9bbf5ea0",
+    "appleId": "1000645894703",
+    "url": "https://podcasts.apple.com/us/podcast/seven-deadly-sins-gluttony-suzy-silk/id1245313998?i=1000645894703",
+    "title": "Seven Deadly Sins: Gluttony - Suzy Silk",
+    "date": "2024-02-19"
+  },
+  {
+    "guid": "b9542764-9481-42e8-9416-4d5fe5a18159",
+    "appleId": "1000645052574",
+    "url": "https://podcasts.apple.com/us/podcast/seven-deadly-sins-greed-jon-tyson/id1245313998?i=1000645052574",
+    "title": "Seven Deadly Sins: Greed - Jon Tyson",
+    "date": "2024-02-12"
+  },
+  {
+    "guid": "b4cbf1da-2c9c-46c9-9d91-fda826e4de3d",
+    "appleId": "1000644349990",
+    "url": "https://podcasts.apple.com/us/podcast/leverage-money-jon-tyson/id1245313998?i=1000644349990",
+    "title": "Leverage: Money - Jon Tyson",
+    "date": "2024-02-06"
+  },
+  {
+    "guid": "2061c1a8-8d84-4a35-b34c-df1c70a7e6ab",
+    "appleId": "1000643416839",
+    "url": "https://podcasts.apple.com/us/podcast/leverage-love-jon-tyson/id1245313998?i=1000643416839",
+    "title": "Leverage: Love - Jon Tyson",
+    "date": "2024-01-29"
+  },
+  {
+    "guid": "94540d69-fbb8-4dce-946a-d60b6f6607b3",
+    "appleId": "1000642553996",
+    "url": "https://podcasts.apple.com/us/podcast/leverage-time-jon-tyson/id1245313998?i=1000642553996",
+    "title": "Leverage: Time - Jon Tyson",
+    "date": "2024-01-22"
+  },
+  {
+    "guid": "5ff07b5f-cb89-4ed2-a20f-0034b3810917",
+    "appleId": "1000641728600",
+    "url": "https://podcasts.apple.com/us/podcast/leverage-gifts-suzy-silk/id1245313998?i=1000641728600",
+    "title": "Leverage: Gifts - Suzy Silk",
+    "date": "2024-01-15"
+  },
+  {
+    "guid": "a94d2311-b278-4cab-981b-c603e864b29d",
+    "appleId": "1000640934233",
+    "url": "https://podcasts.apple.com/us/podcast/leverage-life-without-regret-jon-tyson/id1245313998?i=1000640934233",
+    "title": "Leverage: Life Without Regret - Jon Tyson",
+    "date": "2024-01-08"
+  },
+  {
+    "guid": "1efaed4e-bf65-40aa-8161-e0e556833823",
+    "appleId": "1000639650459",
+    "url": "https://podcasts.apple.com/us/podcast/advent-devotional-the-angels-song-the-first-noel/id1245313998?i=1000639650459",
+    "title": "Advent Devotional: The Angel's Song & The First Noel",
+    "date": "2023-12-25"
+  },
+  {
+    "guid": "ed226803-a6de-4e45-af7a-15fbe22e400a",
+    "appleId": "1000639437044",
+    "url": "https://podcasts.apple.com/us/podcast/advent-devotional-the-shepherds-proclamation-advent-hymn/id1245313998?i=1000639437044",
+    "title": "Advent Devotional: The Shepherds' Proclamation & Advent Hymn",
+    "date": "2023-12-22"
+  },
+  {
+    "guid": "ed7f4517-bd29-4bad-b6c7-5f35454883dc",
+    "appleId": "1000639200660",
+    "url": "https://podcasts.apple.com/us/podcast/advent-devotional-the-earths-new-song-o-come-all-ye-faithful/id1245313998?i=1000639200660",
+    "title": "Advent Devotional: The Earth's New Song & O Come All Ye Faithful",
+    "date": "2023-12-20"
+  },
+  {
+    "guid": "23f676e5-6147-4f51-bfbe-4f5d37a0f691",
+    "appleId": "1000638969870",
+    "url": "https://podcasts.apple.com/us/podcast/resound-advent-2023-marys-song-suzy-silk/id1245313998?i=1000638969870",
+    "title": "Resound (Advent 2023): Mary's Song - Suzy Silk",
+    "date": "2023-12-18"
+  },
+  {
+    "guid": "2ce697b7-e8de-47b0-8504-79a3f9de68e2",
+    "appleId": "1000638926259",
+    "url": "https://podcasts.apple.com/us/podcast/advent-devotional-marys-song-magnificat/id1245313998?i=1000638926259",
+    "title": "Advent Devotional: Mary's Song & Magnificat",
+    "date": "2023-12-18"
+  },
+  {
+    "guid": "df5a2979-eb81-40c5-99a8-f217c2cad200",
+    "appleId": "1000638673802",
+    "url": "https://podcasts.apple.com/us/podcast/advent-devotional-elizabeths-blessing-angels-we-have/id1245313998?i=1000638673802",
+    "title": "Advent Devotional: Elizabeth's Blessing & Angels We Have Heard On High",
+    "date": "2023-12-15"
+  },
+  {
+    "guid": "21d69fe1-4070-4d5e-9b57-133e7d8a40d2",
+    "appleId": "1000638425599",
+    "url": "https://podcasts.apple.com/us/podcast/advent-devotional-the-nations-song-silent-night/id1245313998?i=1000638425599",
+    "title": "Advent Devotional: The Nation's Song & Silent Night",
+    "date": "2023-12-13"
+  },
+  {
+    "guid": "e765311f-ab74-4af2-8b74-ad3129641d77",
+    "appleId": "1000638205696",
+    "url": "https://podcasts.apple.com/us/podcast/resound-advent-2023-zechariahs-song-jon-tyson/id1245313998?i=1000638205696",
+    "title": "Resound (Advent 2023): Zechariah's Song - Jon Tyson",
+    "date": "2023-12-11"
+  },
+  {
+    "guid": "a2528543-9b19-487d-b8df-c35a1ca25415",
+    "appleId": "1000638171078",
+    "url": "https://podcasts.apple.com/us/podcast/advent-devotional-zechariahs-song-behold/id1245313998?i=1000638171078",
+    "title": "Advent Devotional: Zechariah's Song & Behold",
+    "date": "2023-12-11"
+  },
+  {
+    "guid": "1fe6fa4c-b66d-4447-9e02-e81fcd67392d",
+    "appleId": "1000637921814",
+    "url": "https://podcasts.apple.com/us/podcast/advent-devotional-annas-proclamation-advent-hymn/id1245313998?i=1000637921814",
+    "title": "Advent Devotional: Anna's Proclamation & Advent Hymn",
+    "date": "2023-12-08"
+  },
+  {
+    "guid": "14e73ea3-735e-4096-87e8-92f187de6151",
+    "appleId": "1000637669268",
+    "url": "https://podcasts.apple.com/us/podcast/advent-devotional-isaiahs-song-come-up-here-let-us-adore-him/id1245313998?i=1000637669268",
+    "title": "Advent Devotional: Isaiah's Song & Come Up Here (Let Us Adore Him)",
+    "date": "2023-12-06"
+  },
+  {
+    "guid": "4d7271ce-3bce-48a8-abf0-923d9d26443e",
+    "appleId": "1000637463722",
+    "url": "https://podcasts.apple.com/us/podcast/resound-advent-2023-simeons-song-suzy-silk/id1245313998?i=1000637463722",
+    "title": "Resound (Advent 2023): Simeon's Song - Suzy Silk",
+    "date": "2023-12-04"
+  },
+  {
+    "guid": "c9dcd0e7-0382-4fc6-854b-f94b482f95f9",
+    "appleId": "1000637414777",
+    "url": "https://podcasts.apple.com/us/podcast/advent-devotional-simeons-song-o-come-o-come-emmanuel/id1245313998?i=1000637414777",
+    "title": "Advent Devotional: Simeon's Song & O Come O Come Emmanuel",
+    "date": "2023-12-04"
+  },
+  {
+    "guid": "6893d7cc-31c1-424b-b8ea-67938e84c9ea",
+    "appleId": "1000636681153",
+    "url": "https://podcasts.apple.com/us/podcast/compelling-missional-disciples-reaching-people-with/id1245313998?i=1000636681153",
+    "title": "Compelling Missional Disciples: Reaching People with the Gospel - Tim Brown",
+    "date": "2023-11-27"
+  },
+  {
+    "guid": "c308b85b-b882-4472-a08c-3b1e46a541b9",
+    "appleId": "1000636436481",
+    "url": "https://podcasts.apple.com/us/podcast/compelling-missional-disciples-missional-work-jon-tyson/id1245313998?i=1000636436481",
+    "title": "Compelling Missional Disciples: Missional Work - Jon Tyson",
+    "date": "2023-11-20"
+  },
+  {
+    "guid": "f63e4e18-ca9f-4ce0-ab7b-720bdd73ee17",
+    "appleId": "1000634674414",
+    "url": "https://podcasts.apple.com/us/podcast/compelling-missional-disciples-cultural-renewal-jon/id1245313998?i=1000634674414",
+    "title": "Compelling Missional Disciples: Cultural Renewal - Jon Tyson",
+    "date": "2023-11-13"
+  },
+  {
+    "guid": "7931ff3e-6dcb-4ea3-863f-7a272f9b178c",
+    "appleId": "1000633872745",
+    "url": "https://podcasts.apple.com/us/podcast/compelling-missional-disciples-crystallization-of/id1245313998?i=1000633872745",
+    "title": "Compelling Missional Disciples: Crystallization of Discontent - Keithen Schwahn",
+    "date": "2023-11-06"
+  },
+  {
+    "guid": "a923179d-b628-4809-84f3-6b30dfebb54c",
+    "appleId": "1000633121014",
+    "url": "https://podcasts.apple.com/us/podcast/compelling-missional-disciples-filling-formational/id1245313998?i=1000633121014",
+    "title": "Compelling Missional Disciples: Filling Formational Gaps - Jon Tyson",
+    "date": "2023-10-30"
+  },
+  {
+    "guid": "ad03bf13-702e-4f1c-98e9-2a2b2c5e406f",
+    "appleId": "1000632320296",
+    "url": "https://podcasts.apple.com/us/podcast/compelling-missional-disciples-intentional-formation/id1245313998?i=1000632320296",
+    "title": "Compelling Missional Disciples: Intentional Formation - Jon Tyson",
+    "date": "2023-10-23"
+  },
+  {
+    "guid": "3df35fef-8e35-4928-85ca-45c70595e38f",
+    "appleId": "1000631504013",
+    "url": "https://podcasts.apple.com/us/podcast/compelling-missional-disciples-identity-formation-ashley/id1245313998?i=1000631504013",
+    "title": "Compelling Missional Disciples: Identity Formation - Ashley Anderson",
+    "date": "2023-10-16"
+  },
+  {
+    "guid": "4c54d95c-4c37-45c5-bce2-b752cc729e59",
+    "appleId": "1000630713776",
+    "url": "https://podcasts.apple.com/us/podcast/compelling-missional-disciples-gods-presence-is-everything/id1245313998?i=1000630713776",
+    "title": "Compelling Missional Disciples: God's Presence is Everything - Darren Rouanzoin",
+    "date": "2023-10-09"
+  },
+  {
+    "guid": "10bd92da-38b6-4769-b986-1db89b1cc1ef",
+    "appleId": "1000630196338",
+    "url": "https://podcasts.apple.com/us/podcast/church-of-the-city-new-york-announcements-jon-tyson/id1245313998?i=1000630196338",
+    "title": "Church of the City New York Announcements - Jon Tyson",
+    "date": "2023-10-04"
+  },
+  {
+    "guid": "8cdf38cb-e22c-42de-8c6d-8f496a31273f",
+    "appleId": "1000629092862",
+    "url": "https://podcasts.apple.com/us/podcast/compelling-missional-disciples-the-knowledge-of-god/id1245313998?i=1000629092862",
+    "title": "Compelling Missional Disciples: The Knowledge of God - Sam Gibson",
+    "date": "2023-09-25"
+  },
+  {
+    "guid": "610dfbf7-b2c0-48f4-b3c6-1d66efac0af2",
+    "appleId": "1000628288970",
+    "url": "https://podcasts.apple.com/us/podcast/compelling-missional-disciples-living-an-attentive/id1245313998?i=1000628288970",
+    "title": "Compelling Missional Disciples: Living An Attentive Life - Jon Tyson",
+    "date": "2023-09-18"
+  },
+  {
+    "guid": "73d19088-4eff-4087-ae8a-0b56511df324",
+    "appleId": "1000627488286",
+    "url": "https://podcasts.apple.com/us/podcast/compelling-missional-disciples-overview-jon-tyson/id1245313998?i=1000627488286",
+    "title": "Compelling Missional Disciples: Overview - Jon Tyson",
+    "date": "2023-09-11"
+  },
+  {
+    "guid": "613505b3-411e-471d-aa66-ddaca862bad6",
+    "appleId": "1000626704216",
+    "url": "https://podcasts.apple.com/us/podcast/rediscovering-church-the-commitment-sam-gibson/id1245313998?i=1000626704216",
+    "title": "Rediscovering Church: The Commitment - Sam Gibson",
+    "date": "2023-09-04"
+  },
+  {
+    "guid": "a0a56991-fc34-4b0e-be3a-17893b08f808",
+    "appleId": "1000625983259",
+    "url": "https://podcasts.apple.com/us/podcast/rediscovering-church-between-the-resurrection-and/id1245313998?i=1000625983259",
+    "title": "Rediscovering Church: Between the Resurrection and the Return - Matt Ro",
+    "date": "2023-08-28"
+  },
+  {
+    "guid": "46b63c5d-cb9f-4820-8a64-59296220a77a",
+    "appleId": "1000625134598",
+    "url": "https://podcasts.apple.com/us/podcast/rediscovering-church-sexual-formation-in-the-way/id1245313998?i=1000625134598",
+    "title": "Rediscovering Church: Sexual Formation in the Way of Jesus - Jon Tyson",
+    "date": "2023-08-21"
+  },
+  {
+    "guid": "8d0f56e6-174c-4303-a6cb-8b9b01dbee2a",
+    "appleId": "1000624414248",
+    "url": "https://podcasts.apple.com/us/podcast/sowing-for-awakening-david-thomas/id1245313998?i=1000624414248",
+    "title": "Sowing for Awakening - David Thomas",
+    "date": "2023-08-14"
+  },
+  {
+    "guid": "bf8b05b6-2765-4bfc-860e-0d84f1f632f4",
+    "appleId": "1000623700024",
+    "url": "https://podcasts.apple.com/us/podcast/rediscovering-church-letter-from-the-persecuted/id1245313998?i=1000623700024",
+    "title": "Rediscovering Church: Letter From the Persecuted Church - Ashley Anderson",
+    "date": "2023-08-07"
+  },
+  {
+    "guid": "6fa6152e-2db3-4550-afbe-ea1b0ee08840",
+    "appleId": "1000623076634",
+    "url": "https://podcasts.apple.com/us/podcast/rediscovering-church-strengthen-and-encourage-sam-gibson/id1245313998?i=1000623076634",
+    "title": "Rediscovering Church: Strengthen and Encourage - Sam Gibson",
+    "date": "2023-07-31"
+  },
+  {
+    "guid": "3fb34464-69ad-4785-a630-41ad6fb08e7d",
+    "appleId": "1000622160591",
+    "url": "https://podcasts.apple.com/us/podcast/rediscovering-church-the-word-of-god-suzy-silk/id1245313998?i=1000622160591",
+    "title": "Rediscovering Church: The Word of God - Suzy Silk",
+    "date": "2023-07-24"
+  },
+  {
+    "guid": "ae3de428-9039-40ac-976a-8ee9003383ee",
+    "appleId": "1000621422853",
+    "url": "https://podcasts.apple.com/us/podcast/rediscovering-church-restoring-leadership-credibility/id1245313998?i=1000621422853",
+    "title": "Rediscovering Church: Restoring Leadership Credibility to a Scandalized Church - Jon Tyson",
+    "date": "2023-07-17"
+  },
+  {
+    "guid": "9d2ee202-976a-4d5c-b28e-133828110403",
+    "appleId": "1000620599431",
+    "url": "https://podcasts.apple.com/us/podcast/rediscovering-church-the-model-church-suzy-silk/id1245313998?i=1000620599431",
+    "title": "Rediscovering Church: The Model Church - Suzy Silk",
+    "date": "2023-07-10"
+  },
+  {
+    "guid": "f282bb96-14ef-4b17-a826-ebd831966d5f",
+    "appleId": "1000619153260",
+    "url": "https://podcasts.apple.com/us/podcast/rediscovering-church-the-invitation-keithen-schwahn/id1245313998?i=1000619153260",
+    "title": "Rediscovering Church: The Invitation  - Keithen Schwahn",
+    "date": "2023-07-03"
+  },
+  {
+    "guid": "e59e37c0-b517-4c4f-9194-52d4e70dbde8",
+    "appleId": "1000618372562",
+    "url": "https://podcasts.apple.com/us/podcast/we-want-you-here-consecration-in-a-time-of/id1245313998?i=1000618372562",
+    "title": "We Want You Here: Consecration in a Time of Compromise - Jon Tyson",
+    "date": "2023-06-26"
+  },
+  {
+    "guid": "806925e7-c6d0-44ef-bbd5-805f678124e9",
+    "appleId": "1000617487542",
+    "url": "https://podcasts.apple.com/us/podcast/we-want-you-here-the-god-who-seeks-and-saves-ashley-anderson/id1245313998?i=1000617487542",
+    "title": "We Want You Here: The God Who Seeks and Saves - Ashley Anderson",
+    "date": "2023-06-19"
+  },
+  {
+    "guid": "ef7d7f44-5052-4a79-922d-9937d308ef15",
+    "appleId": "1000616714884",
+    "url": "https://podcasts.apple.com/us/podcast/compassion-sunday-jon-tyson/id1245313998?i=1000616714884",
+    "title": "Compassion Sunday - Jon Tyson",
+    "date": "2023-06-12"
+  },
+  {
+    "guid": "0d23e31b-19e8-4257-84ef-7237ccf63d80",
+    "appleId": "1000615736715",
+    "url": "https://podcasts.apple.com/us/podcast/we-want-you-here-joining-the-chorus-suzy-silk/id1245313998?i=1000615736715",
+    "title": "We Want You Here: Joining the Chorus - Suzy Silk",
+    "date": "2023-06-05"
+  },
+  {
+    "guid": "f12643f7-880b-4fde-abef-1ed606636e52",
+    "appleId": "1000614800562",
+    "url": "https://podcasts.apple.com/us/podcast/we-want-you-here-praying-through-tears-jon-tyson/id1245313998?i=1000614800562",
+    "title": "We Want You Here: Praying Through Tears - Jon Tyson",
+    "date": "2023-05-29"
+  },
+  {
+    "guid": "746f0d96-9436-4d67-a450-171e21591907",
+    "appleId": "1000614019650",
+    "url": "https://podcasts.apple.com/us/podcast/we-want-you-here-how-we-fight-our-battles-ralph-castillo/id1245313998?i=1000614019650",
+    "title": "We Want You Here: How We Fight Our Battles - Ralph Castillo",
+    "date": "2023-05-22"
+  },
+  {
+    "guid": "12094de8-5bc7-42d1-94a5-d0e4def52f7f",
+    "appleId": "1000612205817",
+    "url": "https://podcasts.apple.com/us/podcast/we-want-you-here-resisting-temptation-jon-tyson/id1245313998?i=1000612205817",
+    "title": "We Want You Here: Resisting Temptation - Jon Tyson",
+    "date": "2023-05-08"
+  },
+  {
+    "guid": "948c18ae-2bba-42bf-a5fe-f800e304bca6",
+    "appleId": "1000611323088",
+    "url": "https://podcasts.apple.com/us/podcast/we-want-you-here-prayer-grief-lament-suzy-silk/id1245313998?i=1000611323088",
+    "title": "We Want You Here: Prayer, Grief, & Lament - Suzy Silk",
+    "date": "2023-05-01"
+  },
+  {
+    "guid": "898453c0-a4c3-4aab-97dc-a4b4bfeb868a",
+    "appleId": "1000610427246",
+    "url": "https://podcasts.apple.com/us/podcast/we-want-you-here-praying-the-word-sam-gibson/id1245313998?i=1000610427246",
+    "title": "We Want You Here: Praying The Word - Sam Gibson",
+    "date": "2023-04-24"
+  },
+  {
+    "guid": "3b93115e-e37b-46db-b5a2-28a88f072086",
+    "appleId": "1000609500891",
+    "url": "https://podcasts.apple.com/us/podcast/we-want-you-here-growing-in-love-jon-tyson/id1245313998?i=1000609500891",
+    "title": "We Want You Here: Growing in Love - Jon Tyson",
+    "date": "2023-04-18"
+  },
+  {
+    "guid": "e11f94ae-061f-4167-bc44-de36766a8855",
+    "appleId": "1000608213790",
+    "url": "https://podcasts.apple.com/us/podcast/easter-sunday-2023-jon-tyson/id1245313998?i=1000608213790",
+    "title": "Easter Sunday 2023 - Jon Tyson",
+    "date": "2023-04-10"
+  },
+  {
+    "guid": "67c42a2e-c37b-4139-ba88-4fca76daa84a",
+    "appleId": "1000607183271",
+    "url": "https://podcasts.apple.com/us/podcast/god-comes-where-hes-wanted-2-0-palm-sunday-suzy-silk/id1245313998?i=1000607183271",
+    "title": "God Comes Where He's Wanted 2.0: Palm Sunday - Suzy Silk",
+    "date": "2023-04-03"
+  },
+  {
+    "guid": "c9ea83d0-3ad9-4da9-9bce-7885f37313de",
+    "appleId": "1000606145250",
+    "url": "https://podcasts.apple.com/us/podcast/god-comes-where-hes-wanted-2-0-forgiveness-jon-tyson/id1245313998?i=1000606145250",
+    "title": "God Comes Where He's Wanted 2.0: Forgiveness - Jon Tyson",
+    "date": "2023-03-27"
+  },
+  {
+    "guid": "76eca2b5-262a-446d-a661-619c1191aee8",
+    "appleId": "1000605016978",
+    "url": "https://podcasts.apple.com/us/podcast/god-comes-where-hes-wanted-2-0-the-lords-prayer-jon-tyson/id1245313998?i=1000605016978",
+    "title": "God Comes Where He's Wanted 2.0: The Lord's Prayer - Jon Tyson",
+    "date": "2023-03-20"
+  },
+  {
+    "guid": "dd677e1d-2f98-45f4-b915-01ac658875c3",
+    "appleId": "1000603963674",
+    "url": "https://podcasts.apple.com/us/podcast/god-comes-where-hes-wanted-2-0-ask-seek-knock-ashley-anderson/id1245313998?i=1000603963674",
+    "title": "God Comes Where He's Wanted 2.0: Ask, Seek, Knock - Ashley Anderson",
+    "date": "2023-03-13"
+  },
+  {
+    "guid": "90305fff-7f72-4f21-8659-3d191e6ccb59",
+    "appleId": "1000603004575",
+    "url": "https://podcasts.apple.com/us/podcast/god-comes-where-hes-wanted-2-0-asking-for-a-friend-suzy-silk/id1245313998?i=1000603004575",
+    "title": "God Comes Where He's Wanted 2.0: Asking for a Friend - Suzy Silk",
+    "date": "2023-03-06"
+  },
+  {
+    "guid": "fa484823-2c42-4857-a458-1bd5cd1ac859",
+    "appleId": "1000601925085",
+    "url": "https://podcasts.apple.com/us/podcast/god-comes-where-hes-wanted-2-0-cultivating-revival-jon-tyson/id1245313998?i=1000601925085",
+    "title": "God Comes Where He's Wanted 2.0: Cultivating Revival - Jon Tyson",
+    "date": "2023-02-27"
+  },
+  {
+    "guid": "5e2666ea-4142-497a-a6a3-0250e2251381",
+    "appleId": "1000600640770",
+    "url": "https://podcasts.apple.com/us/podcast/god-comes-where-hes-wanted-2-0-asbury-outpouring-jon-tyson/id1245313998?i=1000600640770",
+    "title": "God Comes Where He's Wanted 2.0: Asbury Outpouring - Jon Tyson",
+    "date": "2023-02-20"
+  },
+  {
+    "guid": "3e023b51-a2b5-432e-9c79-89e4db92adb9",
+    "appleId": "1000599405861",
+    "url": "https://podcasts.apple.com/us/podcast/god-comes-where-hes-wanted-the-cry-of-the-lord-suzy-silk/id1245313998?i=1000599405861",
+    "title": "God Comes Where He's Wanted: The Cry of the Lord - Suzy Silk",
+    "date": "2023-02-13"
+  },
+  {
+    "guid": "83488443-3ba9-4319-8e0b-458fb95a2e55",
+    "appleId": "1000598728823",
+    "url": "https://podcasts.apple.com/us/podcast/god-comes-where-hes-wanted-the-cry-of-the-region-sam-gibson/id1245313998?i=1000598728823",
+    "title": "God Comes Where He's Wanted: The Cry of the Region - Sam Gibson",
+    "date": "2023-02-08"
+  },
+  {
+    "guid": "95e4f886-c9c9-4077-b947-2b98bb19fc9c",
+    "appleId": "1000597166648",
+    "url": "https://podcasts.apple.com/us/podcast/god-comes-where-hes-wanted-the-cry-of-the-church-lee-cummings/id1245313998?i=1000597166648",
+    "title": "God Comes Where He's Wanted: The Cry of the Church - Lee Cummings",
+    "date": "2023-01-30"
+  },
+  {
+    "guid": "9ec94d9b-c608-4c4a-b8fd-16c3b14a66f3",
+    "appleId": "1000597078260",
+    "url": "https://podcasts.apple.com/us/podcast/elder-installment/id1245313998?i=1000597078260",
+    "title": "Elder Installment",
+    "date": "2023-01-29"
+  },
+  {
+    "guid": "b78d1dfe-b90d-4c36-8566-a80ebf9938ef",
+    "appleId": "1000595988342",
+    "url": "https://podcasts.apple.com/us/podcast/god-comes-where-hes-wanted-the-cry-of-the-home-jon-tyson/id1245313998?i=1000595988342",
+    "title": "God Comes Where He's Wanted: The Cry of the Home - Jon Tyson",
+    "date": "2023-01-23"
+  },
+  {
+    "guid": "35fff7a7-5200-442f-a2b0-d609d58d08f5",
+    "appleId": "1000594544551",
+    "url": "https://podcasts.apple.com/us/podcast/god-comes-where-hes-wanted-the-cry-of-the-heart-jon-tyson/id1245313998?i=1000594544551",
+    "title": "God Comes Where He's Wanted: The Cry of the Heart - Jon Tyson",
+    "date": "2023-01-16"
+  },
+  {
+    "guid": "18b12650-f4c9-4b36-aada-4f2e81f50ff7",
+    "appleId": "1000593561377",
+    "url": "https://podcasts.apple.com/us/podcast/god-comes-where-hes-wanted-jon-tyson/id1245313998?i=1000593561377",
+    "title": "God Comes Where He's Wanted - Jon Tyson",
+    "date": "2023-01-10"
+  },
+  {
+    "guid": "ac44c892-13e3-4888-bdc2-fe11767cf50e",
+    "appleId": "1000590644047",
+    "url": "https://podcasts.apple.com/us/podcast/advent-week-iv-lessons-carols-jon-tyson/id1245313998?i=1000590644047",
+    "title": "Advent Week IV: Lessons & Carols - Jon Tyson",
+    "date": "2022-12-19"
+  },
+  {
+    "guid": "fc3e34f9-c0d2-4388-9227-f9a1754db82c",
+    "appleId": "1000589948270",
+    "url": "https://podcasts.apple.com/us/podcast/advent-week-iii-there-is-a-way-jon-tyson/id1245313998?i=1000589948270",
+    "title": "Advent Week III: There is a Way - Jon Tyson",
+    "date": "2022-12-12"
+  },
+  {
+    "guid": "a9dcfd32-98af-49b1-8eaf-fce366ebfcfe",
+    "appleId": "1000588738778",
+    "url": "https://podcasts.apple.com/us/podcast/advent-week-ii-there-is-a-darkness-jon-tyson/id1245313998?i=1000588738778",
+    "title": "Advent Week II: There is a Darkness - Jon Tyson",
+    "date": "2022-12-05"
+  },
+  {
+    "guid": "2014682d-6871-4c6d-b8f6-9dde4eb65ebd",
+    "appleId": "1000587775383",
+    "url": "https://podcasts.apple.com/us/podcast/advent-week-i-there-is-a-light-suzy-silk/id1245313998?i=1000587775383",
+    "title": "Advent Week I: There is a Light - Suzy Silk",
+    "date": "2022-11-28"
+  },
+  {
+    "guid": "d001af16-369d-404a-b023-797ded91c74a",
+    "appleId": "1000587003279",
+    "url": "https://podcasts.apple.com/us/podcast/the-jesus-stuff-truth-ashley-anderson/id1245313998?i=1000587003279",
+    "title": "The Jesus Stuff: Truth - Ashley Anderson",
+    "date": "2022-11-21"
+  },
+  {
+    "guid": "3d439f09-0824-4c5b-bc3b-5ce47a6857f0",
+    "appleId": "1000585384329",
+    "url": "https://podcasts.apple.com/us/podcast/the-jesus-stuff-gods-love-david-bennett/id1245313998?i=1000585384329",
+    "title": "The Jesus Stuff: God's Love - David Bennett",
+    "date": "2022-11-07"
+  },
+  {
+    "guid": "988b58d4-ba43-4b8e-b1c1-1fbc197e8398",
+    "appleId": "1000584563089",
+    "url": "https://podcasts.apple.com/us/podcast/the-jesus-stuff-justice-margin-suzy-silk/id1245313998?i=1000584563089",
+    "title": "The Jesus Stuff: Justice Margin - Suzy Silk",
+    "date": "2022-10-31"
+  },
+  {
+    "guid": "56fa53b8-2d06-4ecd-b005-97d290fa2e70",
+    "appleId": "1000583707820",
+    "url": "https://podcasts.apple.com/us/podcast/the-jesus-stuff-the-table-jon-tyson/id1245313998?i=1000583707820",
+    "title": "The Jesus Stuff: The Table - Jon Tyson",
+    "date": "2022-10-24"
+  },
+  {
+    "guid": "d4d25fde-0d8f-4977-ad45-ee57ba1db8b6",
+    "appleId": "1000582916593",
+    "url": "https://podcasts.apple.com/us/podcast/the-jesus-stuff-the-secret-place-jon-tyson/id1245313998?i=1000582916593",
+    "title": "The Jesus Stuff: The Secret Place - Jon Tyson",
+    "date": "2022-10-17"
+  },
+  {
+    "guid": "032f5925-7713-408d-a501-450bf326647c",
+    "appleId": "1000582167502",
+    "url": "https://podcasts.apple.com/us/podcast/the-jesus-stuff-dependence-suzy-silk/id1245313998?i=1000582167502",
+    "title": "The Jesus Stuff: Dependence - Suzy Silk",
+    "date": "2022-10-10"
+  },
+  {
+    "guid": "cbd5ca0b-217d-4351-9c09-4d2a81b1eb2a",
+    "appleId": "1000581408595",
+    "url": "https://podcasts.apple.com/us/podcast/the-jesus-stuff-healing-darren-rouanzoin/id1245313998?i=1000581408595",
+    "title": "The Jesus Stuff: Healing - Darren Rouanzoin",
+    "date": "2022-10-03"
+  },
+  {
+    "guid": "86f3aab2-a44d-4a81-8668-36ed640b1f8f",
+    "appleId": "1000580723219",
+    "url": "https://podcasts.apple.com/us/podcast/the-jesus-stuff-the-kingdom-jon-tyson/id1245313998?i=1000580723219",
+    "title": "The Jesus Stuff: The Kingdom - Jon Tyson",
+    "date": "2022-09-26"
+  },
+  {
+    "guid": "201d7e9b-9c7f-453a-8fd5-3c5b271dc609",
+    "appleId": "1000579951718",
+    "url": "https://podcasts.apple.com/us/podcast/the-jesus-stuff-radical-obedience-jon-tyson/id1245313998?i=1000579951718",
+    "title": "The Jesus Stuff: Radical Obedience - Jon Tyson",
+    "date": "2022-09-19"
+  },
+  {
+    "guid": "3e04d1c6-25cf-46da-9553-20e7c87739d0",
+    "appleId": "1000579224636",
+    "url": "https://podcasts.apple.com/us/podcast/the-jesus-stuff-jon-tyson/id1245313998?i=1000579224636",
+    "title": "The Jesus Stuff - Jon Tyson",
+    "date": "2022-09-12"
+  },
+  {
+    "guid": "64d2af03-d9ca-4ec6-b2b7-42d61b2be593",
+    "appleId": "1000578422834",
+    "url": "https://podcasts.apple.com/us/podcast/defiant-joy-the-anatomy-of-a-movement-jon-tyson/id1245313998?i=1000578422834",
+    "title": "Defiant Joy: The Anatomy of a Movement - Jon Tyson",
+    "date": "2022-09-05"
+  },
+  {
+    "guid": "8902e959-324a-4482-872f-e97ab26edf1a",
+    "appleId": "1000577676854",
+    "url": "https://podcasts.apple.com/us/podcast/defiant-joy-the-peace-of-god-ashley-anderson/id1245313998?i=1000577676854",
+    "title": "Defiant Joy: The Peace of God - Ashley Anderson",
+    "date": "2022-08-29"
+  },
+  {
+    "guid": "710f8156-c517-4abd-a34e-a29a4e6a86b7",
+    "appleId": "1000576978514",
+    "url": "https://podcasts.apple.com/us/podcast/defiant-joy-unity-in-the-lord-darren-whitehead/id1245313998?i=1000576978514",
+    "title": "Defiant Joy: Unity in the Lord - Darren Whitehead",
+    "date": "2022-08-22"
+  },
+  {
+    "guid": "90e528c6-8186-4f2c-a418-ac4776b2e39f",
+    "appleId": "1000576136170",
+    "url": "https://podcasts.apple.com/us/podcast/defiant-joy-live-up-to-your-citizenship-suzy-silk/id1245313998?i=1000576136170",
+    "title": "Defiant Joy: Live Up to Your Citizenship - Suzy Silk",
+    "date": "2022-08-15"
+  },
+  {
+    "guid": "08b89ff2-24ae-4f43-a08c-990134cb50d0",
+    "appleId": "1000575389939",
+    "url": "https://podcasts.apple.com/us/podcast/defiant-joy-thoroughly-converted-jon-tyson/id1245313998?i=1000575389939",
+    "title": "Defiant Joy: Thoroughly Converted  - Jon Tyson",
+    "date": "2022-08-08"
+  },
+  {
+    "guid": "2596eb41-e2a5-4cc4-8604-d02fa1042531",
+    "appleId": "1000575034802",
+    "url": "https://podcasts.apple.com/us/podcast/defiant-joy-the-concerns-of-christ-suzy-silk/id1245313998?i=1000575034802",
+    "title": "Defiant Joy: The Concerns of Christ - Suzy Silk",
+    "date": "2022-08-04"
+  },
+  {
+    "guid": "0ce688ae-b690-49c1-ae00-f0a3a115d23e",
+    "appleId": "1000571161726",
+    "url": "https://podcasts.apple.com/us/podcast/defiant-joy-complain-or-contribute-keithen-schwahn/id1245313998?i=1000571161726",
+    "title": "Defiant Joy: Complain or Contribute - Keithen Schwahn",
+    "date": "2022-07-26"
+  },
+  {
+    "guid": "148fc6f5-d1ed-4757-a078-f662f982d146",
+    "appleId": "1000570374494",
+    "url": "https://podcasts.apple.com/us/podcast/defiant-joy-grasping-or-giving-community-in-the-way/id1245313998?i=1000570374494",
+    "title": "Defiant Joy: Grasping or Giving: Community in the way of Jesus - Jon Tyson",
+    "date": "2022-07-18"
+  },
+  {
+    "guid": "7d4f7e2e-938f-42ca-9237-7880a3ca2483",
+    "appleId": "1000569583262",
+    "url": "https://podcasts.apple.com/us/podcast/defiant-joy-unity-division-jon-tyson/id1245313998?i=1000569583262",
+    "title": "Defiant Joy: Unity & Division  - Jon Tyson",
+    "date": "2022-07-11"
+  },
+  {
+    "guid": "ed883f3d-89d6-4a38-9ce9-07852b98c057",
+    "appleId": "1000569010382",
+    "url": "https://podcasts.apple.com/us/podcast/defiant-joy-no-matter-what-matt-ro/id1245313998?i=1000569010382",
+    "title": "Defiant Joy: No Matter What - Matt Ro",
+    "date": "2022-07-06"
+  },
+  {
+    "guid": "1e1fb9ca-c775-4f02-8af4-652e0f874949",
+    "appleId": "1000568072960",
+    "url": "https://podcasts.apple.com/us/podcast/defiant-joy-proclamation-of-the-gospel-suzy-silk/id1245313998?i=1000568072960",
+    "title": "Defiant Joy: Proclamation of the Gospel  - Suzy Silk",
+    "date": "2022-06-29"
+  },
+  {
+    "guid": "28646a9a-b771-4480-9dcd-ad6c4af30345",
+    "appleId": "1000568070197",
+    "url": "https://podcasts.apple.com/us/podcast/above-all-else-banning-liebscher/id1245313998?i=1000568070197",
+    "title": "Above All Else - Banning Liebscher",
+    "date": "2022-06-29"
+  },
+  {
+    "guid": "d42f2bce-a38b-467d-bfd7-abe2aaa13e76",
+    "appleId": "1000566324744",
+    "url": "https://podcasts.apple.com/us/podcast/defiant-joy-the-work-of-god-suzy-silk/id1245313998?i=1000566324744",
+    "title": "Defiant Joy: The Work of God - Suzy Silk",
+    "date": "2022-06-14"
+  },
+  {
+    "guid": "e13097ab-dd4c-4af8-9360-ac08addf7b9a",
+    "appleId": "1000565550552",
+    "url": "https://podcasts.apple.com/us/podcast/defiant-joy-a-study-through-philippians-jon-tyson/id1245313998?i=1000565550552",
+    "title": "Defiant Joy: A Study Through Philippians  - Jon Tyson",
+    "date": "2022-06-07"
+  },
+  {
+    "guid": "3a3f3897-18b5-4d5d-946c-8d36588a59fe",
+    "appleId": "1000564679366",
+    "url": "https://podcasts.apple.com/us/podcast/seizing-divine-moments-guy-wasko/id1245313998?i=1000564679366",
+    "title": "Seizing Divine Moments - Guy Wasko",
+    "date": "2022-05-31"
+  },
+  {
+    "guid": "7743f176-b05c-435f-bab1-923187df1ff1",
+    "appleId": "1000563322980",
+    "url": "https://podcasts.apple.com/us/podcast/seeing-jesus-through-despair-suzy-silk/id1245313998?i=1000563322980",
+    "title": "Seeing Jesus: Through Despair - Suzy Silk",
+    "date": "2022-05-23"
+  },
+  {
+    "guid": "8c9d3ae7-ed91-4853-b42c-cf645ff29cad",
+    "appleId": "1000561950703",
+    "url": "https://podcasts.apple.com/us/podcast/seeing-jesus-through-denying-faith-jon-tyson/id1245313998?i=1000561950703",
+    "title": "Seeing Jesus Through Denying Faith  - Jon Tyson",
+    "date": "2022-05-17"
+  },
+  {
+    "guid": "c6f03742-9bbc-4cec-a05b-ebab11c0d39b",
+    "appleId": "1000560320495",
+    "url": "https://podcasts.apple.com/us/podcast/seeing-jesus-through-doubt-jon-tyson/id1245313998?i=1000560320495",
+    "title": "Seeing Jesus: Through Doubt  - Jon Tyson",
+    "date": "2022-05-10"
+  },
+  {
+    "guid": "61110edf-95c1-492b-9a5f-0dbe419cbf61",
+    "appleId": "1000559721325",
+    "url": "https://podcasts.apple.com/us/podcast/seeing-jesus-through-disappointment-suzy-silk/id1245313998?i=1000559721325",
+    "title": "Seeing Jesus: Through Disappointment - Suzy Silk",
+    "date": "2022-05-03"
+  },
+  {
+    "guid": "23d46c09-208c-417a-bd93-00ea844db5da",
+    "appleId": "1000558810305",
+    "url": "https://podcasts.apple.com/us/podcast/seeing-jesus-when-your-faith-fails-jon-tyson/id1245313998?i=1000558810305",
+    "title": "Seeing Jesus: When Your Faith Fails - Jon Tyson",
+    "date": "2022-04-27"
+  },
+  {
+    "guid": "f74c6fc5-9a01-4370-84c0-7702155378e8",
+    "appleId": "1000557985839",
+    "url": "https://podcasts.apple.com/us/podcast/easter-sunday-seeing-jesus-jon-tyson/id1245313998?i=1000557985839",
+    "title": "Easter Sunday: Seeing Jesus  - Jon Tyson",
+    "date": "2022-04-19"
+  },
+  {
+    "guid": "8388fc4d-002b-4ab0-a168-34195e3fcfa6",
+    "appleId": "1000557375369",
+    "url": "https://podcasts.apple.com/us/podcast/converting-the-church-resisting-mercy-jon-tyson/id1245313998?i=1000557375369",
+    "title": "Converting the Church: Resisting Mercy - Jon Tyson",
+    "date": "2022-04-12"
+  },
+  {
+    "guid": "d75134b7-ac6a-4fe7-b1c2-d606070d0a17",
+    "appleId": "1000556252795",
+    "url": "https://podcasts.apple.com/us/podcast/converting-the-church-kill-the-prophets-suzy-silk/id1245313998?i=1000556252795",
+    "title": "Converting the Church: Kill the Prophets - Suzy Silk",
+    "date": "2022-04-05"
+  },
+  {
+    "guid": "f60f725b-9667-45f0-8772-35668c69b3a5",
+    "appleId": "1000555628235",
+    "url": "https://podcasts.apple.com/us/podcast/converting-the-church-whitewashed-tombs-jon-tyson/id1245313998?i=1000555628235",
+    "title": "Converting the Church: Whitewashed Tombs - Jon Tyson",
+    "date": "2022-03-29"
+  },
+  {
+    "guid": "eecf95cc-a7f4-4982-99cf-ab28ae2e0e48",
+    "appleId": "1000554863222",
+    "url": "https://podcasts.apple.com/us/podcast/converting-the-church-inside-vs-outside-ashley-anderson/id1245313998?i=1000554863222",
+    "title": "Converting the Church: Inside vs. Outside  - Ashley Anderson",
+    "date": "2022-03-22"
+  },
+  {
+    "guid": "3b7f6750-be2e-4d96-a9b1-e994cf22631d",
+    "appleId": "1000553986143",
+    "url": "https://podcasts.apple.com/us/podcast/converting-the-church-weightier-things-jon-tyson/id1245313998?i=1000553986143",
+    "title": "Converting the Church: Weightier Things - Jon Tyson",
+    "date": "2022-03-14"
+  },
+  {
+    "guid": "f06e806c-5ffb-4509-b151-7d2a594d57df",
+    "appleId": "1000553167568",
+    "url": "https://podcasts.apple.com/us/podcast/converting-the-church-false-promises-suzy-silk/id1245313998?i=1000553167568",
+    "title": "Converting the Church: False Promises - Suzy Silk",
+    "date": "2022-03-07"
+  },
+  {
+    "guid": "a9f944ed-1bd0-4975-8458-fac121820456",
+    "appleId": "1000552601019",
+    "url": "https://podcasts.apple.com/us/podcast/converting-the-church-converts-of-hell-jon-tyson/id1245313998?i=1000552601019",
+    "title": "Converting the Church: Converts of Hell - Jon Tyson",
+    "date": "2022-03-01"
+  },
+  {
+    "guid": "0da86fe5-09aa-4fe3-ab6e-8e4d559c3b6a",
+    "appleId": "1000551820394",
+    "url": "https://podcasts.apple.com/us/podcast/converting-the-church-shutting-doors-in-peoples-faces/id1245313998?i=1000551820394",
+    "title": "Converting the Church: Shutting Doors in People's Faces - Ralph Castillo",
+    "date": "2022-02-21"
+  },
+  {
+    "guid": "829566f0-b241-4bd5-a3d0-65e2d7aadbb6",
+    "appleId": "1000551118807",
+    "url": "https://podcasts.apple.com/us/podcast/converting-the-church-everything-for-show-jon-tyson/id1245313998?i=1000551118807",
+    "title": "Converting the Church: Everything for Show  - Jon Tyson",
+    "date": "2022-02-15"
+  },
+  {
+    "guid": "9f3d4b7c-650b-4628-911a-b42344cc84aa",
+    "appleId": "1000550378139",
+    "url": "https://podcasts.apple.com/us/podcast/converting-the-church-heavy-burdens-jon-tyson/id1245313998?i=1000550378139",
+    "title": "Converting the Church: Heavy Burdens - Jon Tyson",
+    "date": "2022-02-07"
+  },
+  {
+    "guid": "6d051b6c-22c6-4385-ad79-5ddd4e1fd6a4",
+    "appleId": "1000549618844",
+    "url": "https://podcasts.apple.com/us/podcast/seeking-god-advocates-suzy-silk/id1245313998?i=1000549618844",
+    "title": "SEEKING GOD: Advocates - Suzy Silk",
+    "date": "2022-02-01"
+  },
+  {
+    "guid": "e176fbe4-317c-472a-9593-f4a9b15d9e3a",
+    "appleId": "1000548894308",
+    "url": "https://podcasts.apple.com/us/podcast/seeking-god-worshipers-jon-tyson/id1245313998?i=1000548894308",
+    "title": "SEEKING GOD: Worshipers - Jon Tyson",
+    "date": "2022-01-25"
+  },
+  {
+    "guid": "4e4dee9d-578e-4e73-aa58-6cf6e49a5fd6",
+    "appleId": "1000548201592",
+    "url": "https://podcasts.apple.com/us/podcast/seeking-god-intercessors-corey-russell/id1245313998?i=1000548201592",
+    "title": "SEEKING GOD: Intercessors - Corey Russell",
+    "date": "2022-01-18"
+  },
+  {
+    "guid": "e16f8f76-924e-4ff7-b0e0-33e0f00d7126",
+    "appleId": "1000547454196",
+    "url": "https://podcasts.apple.com/us/podcast/seeking-god-the-lost-jon-tyson/id1245313998?i=1000547454196",
+    "title": "SEEKING GOD: The Lost - Jon Tyson",
+    "date": "2022-01-10"
+  },
+  {
+    "guid": "c177ebfb-c8ad-4b92-b3db-91f3355d9825",
+    "appleId": "1000546814240",
+    "url": "https://podcasts.apple.com/us/podcast/seeking-god-surrendered-hearts-jon-tyson/id1245313998?i=1000546814240",
+    "title": "SEEKING GOD: Surrendered Hearts - Jon Tyson",
+    "date": "2022-01-03"
+  },
+  {
+    "guid": "d00b111b-4dee-4c7f-8bdc-7e8c72f7f957",
+    "appleId": "1000545562108",
+    "url": "https://podcasts.apple.com/us/podcast/advent-lessons-carols-suzy-silk/id1245313998?i=1000545562108",
+    "title": "Advent: Lessons & Carols - Suzy Silk",
+    "date": "2021-12-20"
+  },
+  {
+    "guid": "9ce6dad4-074a-445a-b498-be12fa6118c3",
+    "appleId": "1000544890265",
+    "url": "https://podcasts.apple.com/us/podcast/advent-the-curiosity-of-christmas-jon-tyson/id1245313998?i=1000544890265",
+    "title": "Advent: The Curiosity of Christmas - Jon Tyson",
+    "date": "2021-12-14"
+  },
+  {
+    "guid": "36a3350b-fb62-4989-8d61-1910971145a8",
+    "appleId": "1000544167680",
+    "url": "https://podcasts.apple.com/us/podcast/advent-longing-contested-jon-tyson/id1245313998?i=1000544167680",
+    "title": "Advent: Longing Contested - Jon Tyson",
+    "date": "2021-12-07"
+  },
+  {
+    "guid": "a1e618cb-dd23-4ae9-ab17-c0a961279627",
+    "appleId": "1000543457171",
+    "url": "https://podcasts.apple.com/us/podcast/advent-longing-deferred-olivia-munn-shirsath/id1245313998?i=1000543457171",
+    "title": "Advent: Longing Deferred - Olivia Munn-Shirsath",
+    "date": "2021-11-30"
+  },
+  {
+    "guid": "4fef54a4-a6b6-413e-8e9e-ea22c14504f8",
+    "appleId": "1000542754317",
+    "url": "https://podcasts.apple.com/us/podcast/the-way-of-jesus-the-way-of-justice-ashley-anderson/id1245313998?i=1000542754317",
+    "title": "The Way of Jesus: The Way of Justice - Ashley Anderson",
+    "date": "2021-11-22"
+  },
+  {
+    "guid": "6ac4912d-66b0-4eaf-be2d-e09ec1ac9541",
+    "appleId": "1000542289466",
+    "url": "https://podcasts.apple.com/us/podcast/the-way-of-jesus-the-way-of-gratitude-suzy-silk/id1245313998?i=1000542289466",
+    "title": "The Way of Jesus: The Way of Gratitude - Suzy Silk",
+    "date": "2021-11-18"
+  },
+  {
+    "guid": "943179c9-8103-4157-acc8-032d3d7cff4a",
+    "appleId": "1000541296680",
+    "url": "https://podcasts.apple.com/us/podcast/the-way-of-jesus-the-way-of-encounter-jon-tyson/id1245313998?i=1000541296680",
+    "title": "The Way of Jesus: The Way of Encounter - Jon Tyson",
+    "date": "2021-11-10"
+  },
+  {
+    "guid": "e51054d0-68d4-4852-b692-903347bbc1aa",
+    "appleId": "1000540433962",
+    "url": "https://podcasts.apple.com/us/podcast/the-way-of-jesus-the-way-of-prayer-jon-tyson/id1245313998?i=1000540433962",
+    "title": "The Way of Jesus: The Way of Prayer - Jon Tyson",
+    "date": "2021-11-01"
+  },
+  {
+    "guid": "805cdc47-86ff-4e85-a45f-e5eafdcc227d",
+    "appleId": "1000539957740",
+    "url": "https://podcasts.apple.com/us/podcast/the-way-of-jesus-the-way-of-mercy-ralph-castillo/id1245313998?i=1000539957740",
+    "title": "The Way of Jesus: The Way of Mercy - Ralph Castillo",
+    "date": "2021-10-28"
+  },
+  {
+    "guid": "4bab9db9-5400-4e58-9e21-31e6554d0848",
+    "appleId": "1000539238047",
+    "url": "https://podcasts.apple.com/us/podcast/the-way-of-jesus-the-way-of-dependance-ashley-anderson/id1245313998?i=1000539238047",
+    "title": "The Way of Jesus: The Way of Dependance - Ashley Anderson",
+    "date": "2021-10-21"
+  },
+  {
+    "guid": "29c593c1-98bc-4691-810d-9f5894e4f13e",
+    "appleId": "1000538246840",
+    "url": "https://podcasts.apple.com/us/podcast/the-way-of-jesus-the-way-of-remembrance-jon-tyson/id1245313998?i=1000538246840",
+    "title": "The Way of Jesus: The Way of Remembrance - Jon Tyson",
+    "date": "2021-10-11"
+  },
+  {
+    "guid": "61f2ba56-281e-435e-b6fc-8aa8af9299b7",
+    "appleId": "1000537505582",
+    "url": "https://podcasts.apple.com/us/podcast/the-way-of-jesus-the-way-of-confrontation-jon-tyson/id1245313998?i=1000537505582",
+    "title": "The Way of Jesus: The Way of Confrontation - Jon Tyson",
+    "date": "2021-10-04"
+  },
+  {
+    "guid": "12c1d8ca-cd3a-4fff-9aae-da5e121bd34b",
+    "appleId": "1000536902238",
+    "url": "https://podcasts.apple.com/us/podcast/the-way-of-jesus-the-way-of-devotion-suzy-silk/id1245313998?i=1000536902238",
+    "title": "The Way of Jesus: The Way of Devotion - Suzy Silk",
+    "date": "2021-09-28"
+  },
+  {
+    "guid": "8ea6caf0-00c1-49a0-839c-516c25d8fd48",
+    "appleId": "1000536193033",
+    "url": "https://podcasts.apple.com/us/podcast/the-way-of-jesus-self-denial-jon-tyson/id1245313998?i=1000536193033",
+    "title": "The Way of Jesus: Self-Denial - Jon Tyson",
+    "date": "2021-09-21"
+  },
+  {
+    "guid": "0425db85-e7e4-4d04-a7da-7c0a8ac1f6f0",
+    "appleId": "1000535373944",
+    "url": "https://podcasts.apple.com/us/podcast/the-way-of-jesus-introduction-jon-tyson/id1245313998?i=1000535373944",
+    "title": "The Way of Jesus: Introduction - Jon Tyson",
+    "date": "2021-09-15"
+  },
+  {
+    "guid": "d7ce1afc-309c-4ed9-941d-47b6cb2ada24",
+    "appleId": "1000534481981",
+    "url": "https://podcasts.apple.com/us/podcast/colossians-the-movement-you-long-for-suzy-silk/id1245313998?i=1000534481981",
+    "title": "Colossians: The Movement You Long For - Suzy Silk",
+    "date": "2021-09-06"
+  },
+  {
+    "guid": "2ef99e2b-f96a-481b-89cd-13a1a599c595",
+    "appleId": "1000533712103",
+    "url": "https://podcasts.apple.com/us/podcast/colossians-the-mission-you-long-for-adam-durso/id1245313998?i=1000533712103",
+    "title": "Colossians: The Mission You Long For - Adam Durso",
+    "date": "2021-08-30"
+  },
+  {
+    "guid": "2584398a-3129-473e-9b8b-db241893d8f4",
+    "appleId": "1000532821041",
+    "url": "https://podcasts.apple.com/us/podcast/colossians-the-family-you-long-for-olivia-munn-shirsath/id1245313998?i=1000532821041",
+    "title": "Colossians: The Family You Long for - Olivia Munn-Shirsath",
+    "date": "2021-08-23"
+  },
+  {
+    "guid": "cac70015-ce7b-4972-9acc-f237ac485700",
+    "appleId": "1000532176751",
+    "url": "https://podcasts.apple.com/us/podcast/colossians-the-peace-you-long-for-ralph-castillo/id1245313998?i=1000532176751",
+    "title": "Colossians: The Peace You Long For - Ralph Castillo",
+    "date": "2021-08-16"
+  },
+  {
+    "guid": "fb018b86-f656-4fc5-ad14-3ea083cc3f2a",
+    "appleId": "1000531526607",
+    "url": "https://podcasts.apple.com/us/podcast/colossians-the-transformation-you-long-for-ashley/id1245313998?i=1000531526607",
+    "title": "Colossians: The Transformation You Long For - Ashley Anderson",
+    "date": "2021-08-09"
+  },
+  {
+    "guid": "3240a9dd-332b-4e1d-8527-72d2acb7382f",
+    "appleId": "1000530765701",
+    "url": "https://podcasts.apple.com/us/podcast/colossians-the-freedom-you-long-for-suzy-silk/id1245313998?i=1000530765701",
+    "title": "Colossians: The Freedom You Long For - Suzy Silk",
+    "date": "2021-08-02"
+  },
+  {
+    "guid": "8ae6c750-c0e1-45d5-8ec4-6a5a0b3c0786",
+    "appleId": "1000530070414",
+    "url": "https://podcasts.apple.com/us/podcast/colossians-the-victory-you-long-for-phil-manginelli/id1245313998?i=1000530070414",
+    "title": "Colossians: The Victory You Long For - Phil Manginelli",
+    "date": "2021-07-26"
+  },
+  {
+    "guid": "dd3a1d78-0153-4e4f-b8d1-2dc2d198d8e2",
+    "appleId": "1000529365082",
+    "url": "https://podcasts.apple.com/us/podcast/colossians-the-stability-you-long-for-suzy-silk/id1245313998?i=1000529365082",
+    "title": "Colossians: The Stability You Long For - Suzy Silk",
+    "date": "2021-07-19"
+  },
+  {
+    "guid": "236441b3-9237-4058-9b1a-0b50d8e3d803",
+    "appleId": "1000528633874",
+    "url": "https://podcasts.apple.com/us/podcast/colossians-the-maturity-you-long-for-jon-tyson/id1245313998?i=1000528633874",
+    "title": "Colossians: The Maturity You Long For - Jon Tyson",
+    "date": "2021-07-12"
+  },
+  {
+    "guid": "7ceae21e-71e3-49eb-805c-85178918206a",
+    "appleId": "1000527993433",
+    "url": "https://podcasts.apple.com/us/podcast/colossians-the-holiness-you-long-for-jon-tyson/id1245313998?i=1000527993433",
+    "title": "Colossians: The Holiness You Long For - Jon Tyson",
+    "date": "2021-07-06"
+  },
+  {
+    "guid": "632bf02d-6447-4dc6-9ab8-649965b13b3d",
+    "appleId": "1000527175219",
+    "url": "https://podcasts.apple.com/us/podcast/colossians-the-savior-you-long-for-olivia-munn-shirsath/id1245313998?i=1000527175219",
+    "title": "Colossians: The Savior You Long For - Olivia Munn-Shirsath",
+    "date": "2021-06-28"
+  },
+  {
+    "guid": "3c718b06-6d10-48e6-a2c6-c952aeaf3d44",
+    "appleId": "1000526285791",
+    "url": "https://podcasts.apple.com/us/podcast/colossians-the-power-you-long-for-ralph-castillo/id1245313998?i=1000526285791",
+    "title": "Colossians: The Power You Long For - Ralph Castillo",
+    "date": "2021-06-21"
+  },
+  {
+    "guid": "8b10c944-b769-428a-a530-6d34cb6e41dd",
+    "appleId": "1000525513514",
+    "url": "https://podcasts.apple.com/us/podcast/colossians-the-good-news-you-long-for-jon-tyson/id1245313998?i=1000525513514",
+    "title": "Colossians: The Good News You Long For - Jon Tyson",
+    "date": "2021-06-15"
+  },
+  {
+    "guid": "95fd853e-5616-455d-aaa3-5fc5f42c386d",
+    "appleId": "1000524541709",
+    "url": "https://podcasts.apple.com/us/podcast/colossians-the-life-you-long-for-jon-tyson/id1245313998?i=1000524541709",
+    "title": "Colossians: The Life You Long For - Jon Tyson",
+    "date": "2021-06-07"
+  },
+  {
+    "guid": "d8540dab-71b5-4785-85f2-5983fe5325ad",
+    "appleId": "1000523688847",
+    "url": "https://podcasts.apple.com/us/podcast/unexpected-jesus-unexpected-change-jon-tyson/id1245313998?i=1000523688847",
+    "title": "Unexpected Jesus: Unexpected Change - Jon Tyson",
+    "date": "2021-05-31"
+  },
+  {
+    "guid": "7ed326aa-a7db-480d-b8cb-332d71aaa4ed",
+    "appleId": "1000522942674",
+    "url": "https://podcasts.apple.com/us/podcast/unexpected-jesus-unexpected-inclusion-ashley-anderson/id1245313998?i=1000522942674",
+    "title": "Unexpected Jesus: Unexpected Inclusion - Ashley Anderson",
+    "date": "2021-05-24"
+  },
+  {
+    "guid": "15e0264a-5d4e-4b8a-bc4c-6dbda64f4ada",
+    "appleId": "1000522056834",
+    "url": "https://podcasts.apple.com/us/podcast/unexpected-jesus-unexpected-faithfulness-jon-tyson/id1245313998?i=1000522056834",
+    "title": "Unexpected Jesus: Unexpected Faithfulness - Jon Tyson",
+    "date": "2021-05-17"
+  },
+  {
+    "guid": "cbcfefc9-5f10-4a73-a906-fb35c7bb7acf",
+    "appleId": "1000521153968",
+    "url": "https://podcasts.apple.com/us/podcast/unexpected-jesus-unexpected-peace-suzy-silk/id1245313998?i=1000521153968",
+    "title": "Unexpected Jesus: Unexpected Peace - Suzy Silk",
+    "date": "2021-05-10"
+  },
+  {
+    "guid": "90cb9fcd-e5bf-4cc2-a5e9-51dc20497aa3",
+    "appleId": "1000519906749",
+    "url": "https://podcasts.apple.com/us/podcast/unexpected-jesus-unexpected-visitation-pastor-rafael/id1245313998?i=1000519906749",
+    "title": "Unexpected Jesus : Unexpected Visitation - Pastor Rafael Castillo",
+    "date": "2021-05-03"
+  },
+  {
+    "guid": "3273e6f4-dd83-427a-8782-afb5493e031e",
+    "appleId": "1000518707786",
+    "url": "https://podcasts.apple.com/us/podcast/unexpected-jesus-no-quid-pro-quo-dr-bryan-loritts/id1245313998?i=1000518707786",
+    "title": "Unexpected Jesus: No Quid Pro Quo - Dr. Bryan Loritts",
+    "date": "2021-04-26"
+  },
+  {
+    "guid": "9f627f27-37d4-4600-87c6-8399585a3956",
+    "appleId": "1000517782308",
+    "url": "https://podcasts.apple.com/us/podcast/unexpected-jesus-unexpected-extravagance-olivia-munn/id1245313998?i=1000517782308",
+    "title": "Unexpected Jesus: Unexpected Extravagance - Olivia Munn-Shirsath",
+    "date": "2021-04-19"
+  },
+  {
+    "guid": "340dc717-85ff-4ddf-81d7-813a5c3097fc",
+    "appleId": "1000516838375",
+    "url": "https://podcasts.apple.com/us/podcast/unexpected-jesus-unexpected-kingdom-jon-tyson/id1245313998?i=1000516838375",
+    "title": "Unexpected Jesus: Unexpected Kingdom - Jon Tyson",
+    "date": "2021-04-12"
+  },
+  {
+    "guid": "b81fb7e8-4029-42ff-b0d9-afc33a4b324c",
+    "appleId": "1000514903413",
+    "url": "https://podcasts.apple.com/us/podcast/sin-falling-short-suzy-silk/id1245313998?i=1000514903413",
+    "title": "Sin: Falling Short - Suzy Silk",
+    "date": "2021-03-29"
+  },
+  {
+    "guid": "6e73e712-cf66-41e0-b68b-190499588345",
+    "appleId": "1000513968069",
+    "url": "https://podcasts.apple.com/us/podcast/sin-lawlessness-jon-tyson/id1245313998?i=1000513968069",
+    "title": "Sin: Lawlessness - Jon Tyson",
+    "date": "2021-03-22"
+  },
+  {
+    "guid": "6e16ec9b-abf4-4d5e-8421-e9c6f9e4335f",
+    "appleId": "1000513448947",
+    "url": "https://podcasts.apple.com/us/podcast/sin-adultery-ashley-anderson/id1245313998?i=1000513448947",
+    "title": "Sin: Adultery - Ashley Anderson",
+    "date": "2021-03-17"
+  },
+  {
+    "guid": "40cdae7c-1aad-4f10-b97b-483b9f2ed4e1",
+    "appleId": "1000512131989",
+    "url": "https://podcasts.apple.com/us/podcast/sin-idolatry-olivia-munn-shirsath/id1245313998?i=1000512131989",
+    "title": "Sin: Idolatry - Olivia Munn-Shirsath",
+    "date": "2021-03-08"
+  },
+  {
+    "guid": "91eb498a-62ba-45b3-8813-c651c1b040a8",
+    "appleId": "1000511787163",
+    "url": "https://podcasts.apple.com/us/podcast/sin-rebellion-jon-tyson/id1245313998?i=1000511787163",
+    "title": "Sin: Rebellion - Jon Tyson",
+    "date": "2021-03-06"
+  },
+  {
+    "guid": "f028bc05-bc50-4624-b1fd-9ddffe849e85",
+    "appleId": "1000510386972",
+    "url": "https://podcasts.apple.com/us/podcast/sin-an-overview-suzy-silk/id1245313998?i=1000510386972",
+    "title": "Sin: An Overview - Suzy Silk",
+    "date": "2021-03-03"
+  },
+  {
+    "guid": "c649d9cb-5fa5-42b0-8e64-d9f7dc1625ca",
+    "appleId": "1000509127300",
+    "url": "https://podcasts.apple.com/us/podcast/a-creative-minority-participation-jon-tyson/id1245313998?i=1000509127300",
+    "title": "A Creative Minority: Participation - Jon Tyson",
+    "date": "2021-02-15"
+  },
+  {
+    "guid": "bff3fb6c-d68b-488a-8f57-613e1bda6944",
+    "appleId": "1000508218614",
+    "url": "https://podcasts.apple.com/us/podcast/a-creative-minority-authority-suzy-silk/id1245313998?i=1000508218614",
+    "title": "A Creative Minority: Authority - Suzy Silk",
+    "date": "2021-02-08"
+  },
+  {
+    "guid": "157b7767-c92a-490c-9db6-bd93591d6789",
+    "appleId": "1000507333402",
+    "url": "https://podcasts.apple.com/us/podcast/a-creative-minority-practices-jon-tyson/id1245313998?i=1000507333402",
+    "title": "A Creative Minority: Practices - Jon Tyson",
+    "date": "2021-02-01"
+  },
+  {
+    "guid": "e4a76d5c-6c12-4e57-9316-e4ce824cd299",
+    "appleId": "1000506526935",
+    "url": "https://podcasts.apple.com/us/podcast/a-creative-minority-ethics-olivia-munn-shirsath/id1245313998?i=1000506526935",
+    "title": "A Creative Minority: Ethics - Olivia Munn-Shirsath",
+    "date": "2021-01-25"
+  },
+  {
+    "guid": "8295c5e2-981b-4b75-a2e5-d32c0d677a76",
+    "appleId": "1000505670663",
+    "url": "https://podcasts.apple.com/us/podcast/a-creative-minority-narrative-jon-tyson/id1245313998?i=1000505670663",
+    "title": "A Creative Minority: Narrative - Jon Tyson",
+    "date": "2021-01-18"
+  },
+  {
+    "guid": "9fa6b7af-4974-4361-b6b5-a110d7d54b56",
+    "appleId": "1000504897710",
+    "url": "https://podcasts.apple.com/us/podcast/a-creative-minority-covenant-jon-tyson/id1245313998?i=1000504897710",
+    "title": "A Creative Minority: Covenant - Jon Tyson",
+    "date": "2021-01-10"
+  },
+  {
+    "guid": "53d0e929-1553-489d-82ea-91fd2d679e83",
+    "appleId": "1000504336018",
+    "url": "https://podcasts.apple.com/us/podcast/vision-sunday-cause-for-confidence-jon-tyson/id1245313998?i=1000504336018",
+    "title": "Vision Sunday: Cause for Confidence - Jon Tyson",
+    "date": "2021-01-04"
+  },
+  {
+    "guid": "2ce356ea-e316-4995-90ad-34f1c4187248",
+    "appleId": "1000503826939",
+    "url": "https://podcasts.apple.com/us/podcast/a-year-for-the-books-jon-tyson/id1245313998?i=1000503826939",
+    "title": "A Year for the Books - Jon Tyson",
+    "date": "2020-12-29"
+  },
+  {
+    "guid": "7c07a613-3c37-4c05-ae02-f9314cc80048",
+    "appleId": "1000503213907",
+    "url": "https://podcasts.apple.com/us/podcast/a-defiant-christmas-defiant-love-jon-tyson/id1245313998?i=1000503213907",
+    "title": "A Defiant Christmas: Defiant Love - Jon Tyson",
+    "date": "2020-12-22"
+  },
+  {
+    "guid": "0685cc25-bf05-443f-b051-72b231f24aa9",
+    "appleId": "1000502364964",
+    "url": "https://podcasts.apple.com/us/podcast/a-defiant-christmas-defiant-joy-suzy-silk/id1245313998?i=1000502364964",
+    "title": "A Defiant Christmas: Defiant Joy - Suzy Silk",
+    "date": "2020-12-14"
+  },
+  {
+    "guid": "a5df9f3c-0ac2-47c1-8073-29949818b5e6",
+    "appleId": "1000501550735",
+    "url": "https://podcasts.apple.com/us/podcast/a-defiant-christmas-defiant-peace-jon-tyson/id1245313998?i=1000501550735",
+    "title": "A Defiant Christmas: Defiant Peace - Jon Tyson",
+    "date": "2020-12-07"
+  },
+  {
+    "guid": "4f71b032-e628-48a2-9ba5-2407584ed916",
+    "appleId": "1000500821700",
+    "url": "https://podcasts.apple.com/us/podcast/a-defiant-christmas-defiant-hope-suzy-silk/id1245313998?i=1000500821700",
+    "title": "A Defiant Christmas: Defiant Hope - Suzy Silk",
+    "date": "2020-11-30"
+  },
+  {
+    "guid": "6300afff-fb50-444c-b055-bccd5752bf8f",
+    "appleId": "1000499980838",
+    "url": "https://podcasts.apple.com/us/podcast/disruptive-discipleship-city-on-a-hill-jon-tyson/id1245313998?i=1000499980838",
+    "title": "Disruptive Discipleship: City on a Hill -  Jon Tyson",
+    "date": "2020-11-23"
+  },
+  {
+    "guid": "42a06ff9-7089-4ecd-b19a-10d765be8805",
+    "appleId": "1000498869042",
+    "url": "https://podcasts.apple.com/us/podcast/disruptive-discipleship-blessed-are-the-persecuted/id1245313998?i=1000498869042",
+    "title": "Disruptive Discipleship: Blessed are the Persecuted - Jon Tyson",
+    "date": "2020-11-16"
+  },
+  {
+    "guid": "780edbc9-e956-4a6e-98db-5a0c9ab1e4cf",
+    "appleId": "1000497687010",
+    "url": "https://podcasts.apple.com/us/podcast/disruptive-discipleship-calling-all-peacemakers-jon/id1245313998?i=1000497687010",
+    "title": "Disruptive Discipleship: Calling All Peacemakers - Jon Tyson",
+    "date": "2020-11-08"
+  },
+  {
+    "guid": "d9befe24-fefc-4138-8171-5f7b6235be77",
+    "appleId": "1000496942967",
+    "url": "https://podcasts.apple.com/us/podcast/disruptive-discipleship-the-pure-in-heart-ashley-anderson/id1245313998?i=1000496942967",
+    "title": "Disruptive Discipleship: The Pure in Heart - Ashley Anderson",
+    "date": "2020-11-02"
+  },
+  {
+    "guid": "8ef63ff9-5773-4b19-bda8-2d1d56b754be",
+    "appleId": "1000496253509",
+    "url": "https://podcasts.apple.com/us/podcast/disruptive-discipleship-blessed-are-the-merciful-dr/id1245313998?i=1000496253509",
+    "title": "Disruptive Discipleship: Blessed are the Merciful - Dr. Derwin Gray",
+    "date": "2020-10-27"
+  },
+  {
+    "guid": "aaf4ab8d-1fdc-4954-a6b1-503595a7a7bf",
+    "appleId": "1000495344019",
+    "url": "https://podcasts.apple.com/us/podcast/disruptive-discipleship-those-who-hunger-and-thirst/id1245313998?i=1000495344019",
+    "title": "Disruptive Discipleship: Those Who Hunger and Thirst - Jon Tyson",
+    "date": "2020-10-20"
+  },
+  {
+    "guid": "46f30543-542e-4d2e-ba17-7b9bd8a70519",
+    "appleId": "1000494592282",
+    "url": "https://podcasts.apple.com/us/podcast/disruptive-discipleship-blessed-are-the-meek-suzy-silk/id1245313998?i=1000494592282",
+    "title": "Disruptive Discipleship: Blessed Are The Meek - Suzy Silk",
+    "date": "2020-10-13"
+  },
+  {
+    "guid": "10071a6f-bf0a-4322-bd7a-7df4bb9c4b55",
+    "appleId": "1000493669441",
+    "url": "https://podcasts.apple.com/us/podcast/disruptive-discipleship-those-who-mourn-olivia-munn/id1245313998?i=1000493669441",
+    "title": "Disruptive Discipleship: Those Who Mourn - Olivia Munn-Shirsath",
+    "date": "2020-10-05"
+  },
+  {
+    "guid": "8b89a16b-9be4-4990-b362-6635a529cebd",
+    "appleId": "1000492830007",
+    "url": "https://podcasts.apple.com/us/podcast/disruptive-discipleship-the-poor-in-spirit-jon-tyson/id1245313998?i=1000492830007",
+    "title": "Disruptive Discipleship: The Poor in Spirit - Jon Tyson",
+    "date": "2020-09-28"
+  },
+  {
+    "guid": "221d0719-d301-42e7-8a94-11d6d0a74e01",
+    "appleId": "1000492014140",
+    "url": "https://podcasts.apple.com/us/podcast/disruptive-discipleship-the-beatitudes-jon-tyson/id1245313998?i=1000492014140",
+    "title": "Disruptive Discipleship: The Beatitudes - Jon Tyson",
+    "date": "2020-09-21"
+  },
+  {
+    "guid": "59087164-b767-4550-bdc1-d1b967e95332",
+    "appleId": "1000491222766",
+    "url": "https://podcasts.apple.com/us/podcast/fall-vision-sunday-jon-tyson/id1245313998?i=1000491222766",
+    "title": "Fall Vision Sunday - Jon Tyson",
+    "date": "2020-09-14"
+  },
+  {
+    "guid": "d0ed6d0f-a71a-4f15-b159-d50c7f24a90f",
+    "appleId": "1000490347966",
+    "url": "https://podcasts.apple.com/us/podcast/crying-out-a-cry-for-the-harvest-suzy-silk/id1245313998?i=1000490347966",
+    "title": "Crying Out: A Cry for the Harvest - Suzy Silk",
+    "date": "2020-09-07"
+  },
+  {
+    "guid": "60c07fd1-21ff-4259-8a0b-b91522c07e38",
+    "appleId": "1000489712133",
+    "url": "https://podcasts.apple.com/us/podcast/crying-out-prioritizing-prayer-dimas-salaberrios/id1245313998?i=1000489712133",
+    "title": "Crying Out: Prioritizing Prayer - Dimas Salaberrios",
+    "date": "2020-08-31"
+  },
+  {
+    "guid": "1c7d55b7-6c19-4bf9-977c-277892c40f25",
+    "appleId": "1000489032949",
+    "url": "https://podcasts.apple.com/us/podcast/crying-out-a-cry-for-repentance-jon-tyson/id1245313998?i=1000489032949",
+    "title": "Crying Out: A Cry for Repentance - Jon Tyson",
+    "date": "2020-08-24"
+  },
+  {
+    "guid": "814c26c1-7ea4-406c-80e4-0c441016dea3",
+    "appleId": "1000488425511",
+    "url": "https://podcasts.apple.com/us/podcast/crying-out-a-cry-for-intervention-jon-tyson/id1245313998?i=1000488425511",
+    "title": "Crying Out: A Cry for Intervention - Jon Tyson",
+    "date": "2020-08-17"
+  },
+  {
+    "guid": "2fc9de00-9e4b-4c25-b4bb-30abfd4fda58",
+    "appleId": "1000487674886",
+    "url": "https://podcasts.apple.com/us/podcast/crying-out-a-cry-for-wisdom-suzy-silk/id1245313998?i=1000487674886",
+    "title": "Crying Out: A Cry for Wisdom - Suzy Silk",
+    "date": "2020-08-10"
+  },
+  {
+    "guid": "a9153083-9580-49ca-8e08-b7be8b686a35",
+    "appleId": "1000486960540",
+    "url": "https://podcasts.apple.com/us/podcast/crying-out-the-cry-of-the-poor-in-spirit-dr-bryan-loritts/id1245313998?i=1000486960540",
+    "title": "Crying Out: The Cry of the Poor in Spirit - Dr. Bryan Loritts",
+    "date": "2020-08-03"
+  },
+  {
+    "guid": "20297885-01ab-47c9-a595-fe0e5ba2fcfc",
+    "appleId": "1000486261074",
+    "url": "https://podcasts.apple.com/us/podcast/crying-out-a-cry-for-encouragement-part-2-jon-tyson/id1245313998?i=1000486261074",
+    "title": "Crying Out: A Cry for Encouragement Part 2 - Jon Tyson",
+    "date": "2020-07-27"
+  },
+  {
+    "guid": "20584d81-828d-4bcd-b1fc-3343d763a913",
+    "appleId": "1000485514554",
+    "url": "https://podcasts.apple.com/us/podcast/crying-out-a-cry-for-encouragement-jon-tyson/id1245313998?i=1000485514554",
+    "title": "Crying Out: A Cry for Encouragement - Jon Tyson",
+    "date": "2020-07-20"
+  },
+  {
+    "guid": "3093277b-c33d-46a3-840d-0ec043e267ae",
+    "appleId": "1000484708913",
+    "url": "https://podcasts.apple.com/us/podcast/crying-out-prayer-in-a-time-of-fruitlessness-suzy-silk/id1245313998?i=1000484708913",
+    "title": "Crying Out: Prayer in a Time of Fruitlessness - Suzy Silk",
+    "date": "2020-07-13"
+  },
+  {
+    "guid": "7ea5cc5a-1a53-4fe3-8fb3-8e2078efd92f",
+    "appleId": "1000482863846",
+    "url": "https://podcasts.apple.com/us/podcast/crying-out-crying-out-for-others-jon-tyson/id1245313998?i=1000482863846",
+    "title": "Crying Out: Crying Out For Others - Jon Tyson",
+    "date": "2020-07-06"
+  },
+  {
+    "guid": "dc40e8ac-e0c9-4243-8ac2-faa5c4dc70a0",
+    "appleId": "1000480127627",
+    "url": "https://podcasts.apple.com/us/podcast/crying-out-coaching-tips-to-bridge-racial-barriers/id1245313998?i=1000480127627",
+    "title": "Crying Out: Coaching Tips to Bridge Racial Barriers - Dr. David Ireland",
+    "date": "2020-06-29"
+  },
+  {
+    "guid": "1e155fac-a6e6-480f-b75f-638bbd317011",
+    "appleId": "1000479079317",
+    "url": "https://podcasts.apple.com/us/podcast/crying-out-a-cry-for-breakthrough-jon-tyson/id1245313998?i=1000479079317",
+    "title": "Crying Out: A Cry for Breakthrough - Jon Tyson",
+    "date": "2020-06-22"
+  },
+  {
+    "guid": "4936d2d5-3973-4a6f-8562-3b75713a1388",
+    "appleId": "1000478011003",
+    "url": "https://podcasts.apple.com/us/podcast/crying-out-the-cry-of-the-heart-david-bailey/id1245313998?i=1000478011003",
+    "title": "Crying Out: The Cry of the Heart - David Bailey",
+    "date": "2020-06-15"
+  },
+  {
+    "guid": "169da45f-c17b-4aea-a2d2-84345bd6b698",
+    "appleId": "1000477171791",
+    "url": "https://podcasts.apple.com/us/podcast/crying-out-prophetic-lament-suzy-silk/id1245313998?i=1000477171791",
+    "title": "Crying Out: Prophetic Lament - Suzy Silk",
+    "date": "2020-06-08"
+  },
+  {
+    "guid": "3e78245c-2029-489e-bb22-190f050e8da9",
+    "appleId": "1000476415968",
+    "url": "https://podcasts.apple.com/us/podcast/crying-out-that-you-may-pray-jon-tyson/id1245313998?i=1000476415968",
+    "title": "Crying Out: That You May Pray - Jon Tyson",
+    "date": "2020-06-01"
+  },
+  {
+    "guid": "6399ccd1-ef8b-45ad-a7f9-73f42b56b4ea",
+    "appleId": "1000475970776",
+    "url": "https://podcasts.apple.com/us/podcast/self-control-in-a-time-of-self-fulfillment-devotional-2/id1245313998?i=1000475970776",
+    "title": "Self-Control in a Time of Self-Fulfillment: Devotional 2",
+    "date": "2020-05-27"
+  },
+  {
+    "guid": "5908b9c8-d9f4-425b-a750-8fb2ddfd3c44",
+    "appleId": "1000475885567",
+    "url": "https://podcasts.apple.com/us/podcast/self-control-in-a-time-of-self-fulfillment-devotional-1/id1245313998?i=1000475885567",
+    "title": "Self-Control in a Time of Self-Fulfillment: Devotional 1",
+    "date": "2020-05-27"
+  },
+  {
+    "guid": "bddf2bf1-b745-4c77-8411-e58a599c51d1",
+    "appleId": "1000475708626",
+    "url": "https://podcasts.apple.com/us/podcast/church-in-a-time-of-crisis-self-control-in-a/id1245313998?i=1000475708626",
+    "title": "Church in a time of Crisis: Self-Control in a Time of Self-Fulfillment - Jon Tyson",
+    "date": "2020-05-25"
+  },
+  {
+    "guid": "2d7b61c9-c6bc-4e46-b703-1e715a554466",
+    "appleId": "1000475502682",
+    "url": "https://podcasts.apple.com/us/podcast/gentleness-in-a-time-of-roughness-devotional-5/id1245313998?i=1000475502682",
+    "title": "Gentleness in a Time of Roughness: Devotional 5",
+    "date": "2020-05-23"
+  },
+  {
+    "guid": "01aeb136-c1f6-4eb2-a592-e6cf778dc65d",
+    "appleId": "1000475410734",
+    "url": "https://podcasts.apple.com/us/podcast/gentleness-in-a-time-of-roughness-devotional-4/id1245313998?i=1000475410734",
+    "title": "Gentleness in a Time of Roughness: Devotional 4",
+    "date": "2020-05-22"
+  },
+  {
+    "guid": "918e949a-5c5b-4af9-a42d-316541383a3a",
+    "appleId": "1000475305630",
+    "url": "https://podcasts.apple.com/us/podcast/gentleness-in-a-time-of-roughness-devotional-3/id1245313998?i=1000475305630",
+    "title": "Gentleness in a Time of Roughness: Devotional 3",
+    "date": "2020-05-21"
+  },
+  {
+    "guid": "ad41c088-e77f-4d27-bc04-9275e4c987ac",
+    "appleId": "1000475193969",
+    "url": "https://podcasts.apple.com/us/podcast/gentleness-in-a-time-of-roughness-devotional-2/id1245313998?i=1000475193969",
+    "title": "Gentleness in a Time of Roughness: Devotional 2",
+    "date": "2020-05-20"
+  },
+  {
+    "guid": "323a47de-39d4-46af-af90-d9610db855f0",
+    "appleId": "1000475084056",
+    "url": "https://podcasts.apple.com/us/podcast/gentleness-in-a-time-of-roughness-devotional-1/id1245313998?i=1000475084056",
+    "title": "Gentleness in a Time of Roughness: Devotional 1",
+    "date": "2020-05-19"
+  },
+  {
+    "guid": "f33ee625-59c6-4954-a4b0-95b1fb7199a2",
+    "appleId": "1000474965475",
+    "url": "https://podcasts.apple.com/us/podcast/the-church-in-a-time-of-crisis-gentleness/id1245313998?i=1000474965475",
+    "title": "The Church in A Time of Crisis: Gentleness in a Time of Roughness - Suzy Silk",
+    "date": "2020-05-18"
+  },
+  {
+    "guid": "fd6f4120-f68d-41ca-9352-62445b8a32f7",
+    "appleId": "1000474800648",
+    "url": "https://podcasts.apple.com/us/podcast/faithfulness-in-a-time-of-compromise-devotional-5/id1245313998?i=1000474800648",
+    "title": "Faithfulness in a Time of Compromise: Devotional 5",
+    "date": "2020-05-16"
+  },
+  {
+    "guid": "05fdf153-af4d-4aac-bc61-7d03fc7b1e4b",
+    "appleId": "1000474708949",
+    "url": "https://podcasts.apple.com/us/podcast/faithfulness-in-a-time-of-compromise-devotional-2/id1245313998?i=1000474708949",
+    "title": "Faithfulness in a Time of Compromise: Devotional 2",
+    "date": "2020-05-15"
+  },
+  {
+    "guid": "8fbfba1d-a0a5-4b6e-9cf7-100778ba9ecd",
+    "appleId": "1000474563579",
+    "url": "https://podcasts.apple.com/us/podcast/faithfulness-in-a-time-of-compromise-devotional-3/id1245313998?i=1000474563579",
+    "title": "Faithfulness in a Time of Compromise: Devotional 3",
+    "date": "2020-05-14"
+  },
+  {
+    "guid": "93058f64-0e61-47d8-b6ec-8b79d7ffbdcb",
+    "appleId": "1000474459390",
+    "url": "https://podcasts.apple.com/us/podcast/faithfulness-in-a-time-of-compromise-devotional-2/id1245313998?i=1000474459390",
+    "title": "Faithfulness in a Time of Compromise: Devotional 2",
+    "date": "2020-05-13"
+  },
+  {
+    "guid": "4d1c941d-4e58-4891-bb19-609bf15277c3",
+    "appleId": "1000474391790",
+    "url": "https://podcasts.apple.com/us/podcast/race-class-reconciliation-and-the-kingdom/id1245313998?i=1000474391790",
+    "title": "Race, Class, Reconciliation and the Kingdom of God: A Conversation with David Bailey",
+    "date": "2020-05-12"
+  },
+  {
+    "guid": "31ea499e-7108-4f6d-b442-d8619ea71890",
+    "appleId": "1000474350086",
+    "url": "https://podcasts.apple.com/us/podcast/faithfulness-in-a-time-of-compromise-devotional-1/id1245313998?i=1000474350086",
+    "title": "Faithfulness in a Time of Compromise: Devotional 1",
+    "date": "2020-05-12"
+  },
+  {
+    "guid": "e256cc27-4378-4fdc-89c4-89f99d0e86b2",
+    "appleId": "1000474238147",
+    "url": "https://podcasts.apple.com/us/podcast/church-in-a-time-of-crisis-faithfulness-in/id1245313998?i=1000474238147",
+    "title": "Church in a Time of Crisis: Faithfulness in a Time of Compromise - Jon Tyson",
+    "date": "2020-05-11"
+  },
+  {
+    "guid": "ab3ebf71-381c-4411-a01f-af8013cff823",
+    "appleId": "1000473982077",
+    "url": "https://podcasts.apple.com/us/podcast/restorative-goodness-in-a-time-of-brokenness-devotional-4/id1245313998?i=1000473982077",
+    "title": "Restorative Goodness in a Time of Brokenness: Devotional 4",
+    "date": "2020-05-08"
+  },
+  {
+    "guid": "055204a6-3b87-4896-ba72-9aa740e24f8e",
+    "appleId": "1000473898909",
+    "url": "https://podcasts.apple.com/us/podcast/restorative-goodness-in-a-time-of-brokenness-devotional-3/id1245313998?i=1000473898909",
+    "title": "Restorative Goodness in a Time of Brokenness: Devotional 3",
+    "date": "2020-05-07"
+  },
+  {
+    "guid": "06ed8c8c-454c-4703-9739-953c5ce04637",
+    "appleId": "1000473758970",
+    "url": "https://podcasts.apple.com/us/podcast/restorative-goodness-in-a-time-of-brokenness-devotional-2/id1245313998?i=1000473758970",
+    "title": "Restorative Goodness in a Time of Brokenness: Devotional 2",
+    "date": "2020-05-06"
+  },
+  {
+    "guid": "829ae440-5318-47f2-b6e0-4f26540ea588",
+    "appleId": "1000473649022",
+    "url": "https://podcasts.apple.com/us/podcast/restorative-goodness-in-a-time-of-brokenness-devotional-1/id1245313998?i=1000473649022",
+    "title": "Restorative Goodness in a Time of Brokenness: Devotional 1",
+    "date": "2020-05-05"
+  },
+  {
+    "guid": "d01fdc4b-91c3-4054-959b-9cf174ab087e",
+    "appleId": "1000473555757",
+    "url": "https://podcasts.apple.com/us/podcast/church-in-a-time-of-crisis-restorative-goodness/id1245313998?i=1000473555757",
+    "title": "Church In A Time of Crisis: Restorative Goodness in a Time of Brokenness - Jon Tyson",
+    "date": "2020-05-04"
+  },
+  {
+    "guid": "0dbd3c4b-5c30-4ead-96db-7a414681a249",
+    "appleId": "1000473033683",
+    "url": "https://podcasts.apple.com/us/podcast/kindness-in-a-time-of-harshness-devotional-2/id1245313998?i=1000473033683",
+    "title": "Kindness in a Time of Harshness: Devotional 2",
+    "date": "2020-04-29"
+  },
+  {
+    "guid": "a00540c6-92a4-46b9-b5e5-e8da606547fa",
+    "appleId": "1000472911959",
+    "url": "https://podcasts.apple.com/us/podcast/kindness-in-a-time-of-harshness-devotional-1/id1245313998?i=1000472911959",
+    "title": "Kindness in a Time of Harshness: Devotional 1",
+    "date": "2020-04-28"
+  },
+  {
+    "guid": "198afb76-383f-4d51-91be-6a4d2c778455",
+    "appleId": "1000472805320",
+    "url": "https://podcasts.apple.com/us/podcast/church-in-a-time-of-crisis-kindness-in-a/id1245313998?i=1000472805320",
+    "title": "Church In A Time of Crisis: Kindness in a Time of Harshness - Jon Tyson",
+    "date": "2020-04-27"
+  },
+  {
+    "guid": "5c4e83af-5545-4933-8d77-c213bc4563f5",
+    "appleId": "1000472612172",
+    "url": "https://podcasts.apple.com/us/podcast/patient-endurance-in-a-time-of-stress-devotional-5/id1245313998?i=1000472612172",
+    "title": "Patient Endurance in a Time of Stress: Devotional 5",
+    "date": "2020-04-25"
+  },
+  {
+    "guid": "3b3f0512-bdb1-4dce-8fa6-6f846ffc3fc6",
+    "appleId": "1000472516250",
+    "url": "https://podcasts.apple.com/us/podcast/patient-endurance-in-a-time-of-stress-devotional-4/id1245313998?i=1000472516250",
+    "title": "Patient Endurance in a Time of Stress: Devotional 4",
+    "date": "2020-04-24"
+  },
+  {
+    "guid": "38a60eb1-e0d5-47ab-b39c-f3b4c8a2bffc",
+    "appleId": "1000472399839",
+    "url": "https://podcasts.apple.com/us/podcast/patient-endurance-in-a-time-of-stress-devotional-3/id1245313998?i=1000472399839",
+    "title": "Patient Endurance in a Time of Stress: Devotional 3",
+    "date": "2020-04-23"
+  },
+  {
+    "guid": "a98c9ca2-ac96-4174-ab92-edff7a1922a2",
+    "appleId": "1000472286791",
+    "url": "https://podcasts.apple.com/us/podcast/patient-endurance-in-a-time-of-stress-devotional-2/id1245313998?i=1000472286791",
+    "title": "Patient Endurance in a Time of Stress: Devotional 2",
+    "date": "2020-04-22"
+  },
+  {
+    "guid": "cc7f77b2-9365-4ad1-af06-5d37c6e3b580",
+    "appleId": "1000472181887",
+    "url": "https://podcasts.apple.com/us/podcast/patient-endurance-in-a-time-of-stress-devotional-1/id1245313998?i=1000472181887",
+    "title": "Patient Endurance in a Time of Stress: Devotional 1",
+    "date": "2020-04-21"
+  },
+  {
+    "guid": "f9d20ff1-7ec1-4128-ba88-1bcad995d2d9",
+    "appleId": "1000472068630",
+    "url": "https://podcasts.apple.com/us/podcast/patient-endurance-in-a-time-of-stress-suzy-silk/id1245313998?i=1000472068630",
+    "title": "Patient Endurance in a Time of Stress - Suzy Silk",
+    "date": "2020-04-20"
+  },
+  {
+    "guid": "eeba670a-bbaa-4b29-8a87-2ea2e5627de5",
+    "appleId": "1000471776203",
+    "url": "https://podcasts.apple.com/us/podcast/transcendent-peace-in-a-time-of-anxiety-devotional-4/id1245313998?i=1000471776203",
+    "title": "Transcendent Peace in a Time of Anxiety: Devotional 4",
+    "date": "2020-04-17"
+  },
+  {
+    "guid": "44bbf7a7-9caf-4294-8955-232ccf6fc193",
+    "appleId": "1000471668273",
+    "url": "https://podcasts.apple.com/us/podcast/transcendent-peace-in-a-time-of-anxiety-devotional-3/id1245313998?i=1000471668273",
+    "title": "Transcendent Peace in a Time of Anxiety: Devotional 3",
+    "date": "2020-04-16"
+  },
+  {
+    "guid": "d5a4819e-8494-46a1-ad6b-146a57b00e96",
+    "appleId": "1000471560981",
+    "url": "https://podcasts.apple.com/us/podcast/transcendent-peace-in-a-time-of-anxiety-devotional-2/id1245313998?i=1000471560981",
+    "title": "Transcendent Peace in a Time of Anxiety: Devotional 2",
+    "date": "2020-04-15"
+  },
+  {
+    "guid": "24939c6d-1478-47bf-adc9-95e4f7c24d08",
+    "appleId": "1000471450738",
+    "url": "https://podcasts.apple.com/us/podcast/transcendent-peace-in-a-time-of-anxiety-devotional-1/id1245313998?i=1000471450738",
+    "title": "Transcendent Peace in a Time of Anxiety: Devotional 1",
+    "date": "2020-04-14"
+  },
+  {
+    "guid": "ae18f9e1-98b6-494d-8ad1-dcbab44af5d4",
+    "appleId": "1000471366915",
+    "url": "https://podcasts.apple.com/us/podcast/church-in-a-time-of-crisis-transcendent-peace-in/id1245313998?i=1000471366915",
+    "title": "Church In A Time of Crisis: Transcendent Peace in a Time of Anxiety - Jon Tyson",
+    "date": "2020-04-13"
+  },
+  {
+    "guid": "57a44183-f6c5-4043-87f4-2555a7d16fc1",
+    "appleId": "1000471090284",
+    "url": "https://podcasts.apple.com/us/podcast/defiant-joy-in-a-time-of-despair-devotional-4/id1245313998?i=1000471090284",
+    "title": "Defiant Joy in a Time of Despair: Devotional 4",
+    "date": "2020-04-10"
+  },
+  {
+    "guid": "c880e7ac-b665-45a2-b435-94c4eeb12f7e",
+    "appleId": "1000470990622",
+    "url": "https://podcasts.apple.com/us/podcast/defiant-joy-in-a-time-of-despair-devotional-3/id1245313998?i=1000470990622",
+    "title": "Defiant Joy in a Time of Despair: Devotional 3",
+    "date": "2020-04-09"
+  },
+  {
+    "guid": "6af198b2-e523-46b0-9ab0-49324025f68c",
+    "appleId": "1000470910216",
+    "url": "https://podcasts.apple.com/us/podcast/defiant-joy-in-a-time-of-despair-devotional-2/id1245313998?i=1000470910216",
+    "title": "Defiant Joy in a Time of Despair: Devotional 2",
+    "date": "2020-04-08"
+  },
+  {
+    "guid": "6dba08bf-3fb6-42a4-b4d6-f1ec08b539ee",
+    "appleId": "1000470763684",
+    "url": "https://podcasts.apple.com/us/podcast/defiant-joy-in-a-time-of-despair-devotional-1/id1245313998?i=1000470763684",
+    "title": "Defiant Joy in a Time of Despair: Devotional 1",
+    "date": "2020-04-07"
+  },
+  {
+    "guid": "3152925e-38e1-451c-a856-586814b3166d",
+    "appleId": "1000470663047",
+    "url": "https://podcasts.apple.com/us/podcast/church-in-a-time-of-crisis-defiant-joy-in-a/id1245313998?i=1000470663047",
+    "title": "Church In A Time of Crisis: Defiant Joy in a Time of Despair - Jon Tyson",
+    "date": "2020-04-06"
+  },
+  {
+    "guid": "7f330d63-1a45-4d22-bf39-b99f14217f92",
+    "appleId": "1000470185430",
+    "url": "https://podcasts.apple.com/us/podcast/love-in-a-time-of-selfishness-devotional-3/id1245313998?i=1000470185430",
+    "title": "Love In A Time of Selfishness: Devotional 3",
+    "date": "2020-04-01"
+  },
+  {
+    "guid": "ccf4f8c7-a166-4f0b-935e-796dd01a13c6",
+    "appleId": "1000470081147",
+    "url": "https://podcasts.apple.com/us/podcast/church-in-a-time-of-crisis-love-in-a/id1245313998?i=1000470081147",
+    "title": "Church in a Time of Crisis: Love In A time of Selfishness - Jon Tyson",
+    "date": "2020-03-31"
+  },
+  {
+    "guid": "f233763e-1aeb-4585-a28f-0fac38b68eb5",
+    "appleId": "1000470075738",
+    "url": "https://podcasts.apple.com/us/podcast/love-in-a-time-of-selfishness-devotional-2/id1245313998?i=1000470075738",
+    "title": "Love In A Time of Selfishness: Devotional 2",
+    "date": "2020-03-31"
+  },
+  {
+    "guid": "630cad08-c94f-4460-a2ee-8693e2f4940d",
+    "appleId": "1000469982511",
+    "url": "https://podcasts.apple.com/us/podcast/love-in-a-time-of-selfishness-devotional-1/id1245313998?i=1000469982511",
+    "title": "Love In A Time of Selfishness: Devotional 1",
+    "date": "2020-03-30"
+  },
+  {
+    "guid": "56c1277f-830c-4b21-8c9a-a04ee32cb92a",
+    "appleId": "1000469715601",
+    "url": "https://podcasts.apple.com/us/podcast/fruit-of-the-spirit-in-a-time-of-the-flesh-devotional-4/id1245313998?i=1000469715601",
+    "title": "Fruit of the Spirit in a Time of the Flesh: Devotional 4",
+    "date": "2020-03-27"
+  },
+  {
+    "guid": "d1066a7b-6318-417b-8461-20e5b43f1c39",
+    "appleId": "1000469616950",
+    "url": "https://podcasts.apple.com/us/podcast/fruit-of-the-spirit-in-a-time-of-the-flesh-devotional-3/id1245313998?i=1000469616950",
+    "title": "Fruit of the Spirit in a Time of the Flesh: Devotional 3",
+    "date": "2020-03-26"
+  },
+  {
+    "guid": "f69d86f4-853b-4bf9-b87d-a0813d510a7f",
+    "appleId": "1000469476989",
+    "url": "https://podcasts.apple.com/us/podcast/fruit-of-the-spirit-in-a-time-of-the-flesh-devotional-2/id1245313998?i=1000469476989",
+    "title": "Fruit of the Spirit in a Time of the Flesh: Devotional 2",
+    "date": "2020-03-25"
+  },
+  {
+    "guid": "d19f8d60-f287-4631-b778-b4d5492067a0",
+    "appleId": "1000469377913",
+    "url": "https://podcasts.apple.com/us/podcast/fruit-of-the-spirit-in-a-time-of-the-flesh-devotional-1/id1245313998?i=1000469377913",
+    "title": "Fruit of the Spirit in a Time of the Flesh: Devotional 1",
+    "date": "2020-03-24"
+  },
+  {
+    "guid": "7020e3ef-fd56-4178-b69d-a90ab378553a",
+    "appleId": "1000469377914",
+    "url": "https://podcasts.apple.com/us/podcast/church-in-a-time-of-crisis-fruit-of-the-spirit/id1245313998?i=1000469377914",
+    "title": "Church in A Time of Crisis: Fruit of the Spirit in a Time of the Flesh - Jon Tyson",
+    "date": "2020-03-24"
+  },
+  {
+    "guid": "324adf66-2745-41ac-97e4-7b547e2cc524",
+    "appleId": "1000468821127",
+    "url": "https://podcasts.apple.com/us/podcast/the-church-in-a-time-of-crisis-jon-tyson/id1245313998?i=1000468821127",
+    "title": "The Church in a Time of Crisis  - Jon Tyson",
+    "date": "2020-03-18"
+  },
+  {
+    "guid": "1188fc81-5b5e-4caa-8a79-fc5dbcc2263a",
+    "appleId": "1000467444436",
+    "url": "https://podcasts.apple.com/us/podcast/sin-an-overview-suzy-silk/id1245313998?i=1000467444436",
+    "title": "Sin: An Overview - Suzy Silk",
+    "date": "2020-03-04"
+  },
+  {
+    "guid": "5bf28f49-5356-4891-95e6-bbe81fea24d5",
+    "appleId": "1000466757827",
+    "url": "https://podcasts.apple.com/us/podcast/altars-the-region-jon-tyson/id1245313998?i=1000466757827",
+    "title": "Altars: The Region - Jon Tyson",
+    "date": "2020-02-26"
+  },
+  {
+    "guid": "d413f87c-66ca-48e1-a8b1-9a441ab79ad8",
+    "appleId": "1000466084961",
+    "url": "https://podcasts.apple.com/us/podcast/altars-the-church-suzy-silk/id1245313998?i=1000466084961",
+    "title": "Altars: The Church - Suzy Silk",
+    "date": "2020-02-19"
+  },
+  {
+    "guid": "85ac8980-c096-47c4-a3a1-ade148e520cf",
+    "appleId": "1000465291579",
+    "url": "https://podcasts.apple.com/us/podcast/altars-the-home-jon-tyson/id1245313998?i=1000465291579",
+    "title": "Altars: The Home - Jon Tyson",
+    "date": "2020-02-11"
+  },
+  {
+    "guid": "31eac91a-6795-499a-ba2b-d70f607225ca",
+    "appleId": "1000464595419",
+    "url": "https://podcasts.apple.com/us/podcast/altars-the-heart-jon-tyson/id1245313998?i=1000464595419",
+    "title": "Altars: The Heart - Jon Tyson",
+    "date": "2020-02-04"
+  },
+  {
+    "guid": "da4e66c5-d4b6-4a50-9917-764a30659a60",
+    "appleId": "1000464329681",
+    "url": "https://podcasts.apple.com/us/podcast/church-nyc-an-overcoming-spirit-jon-tyson/id1245313998?i=1000464329681",
+    "title": "CHURCH.NYC: An Overcoming Spirit - Jon Tyson",
+    "date": "2020-02-01"
+  },
+  {
+    "guid": "332fe0ac-92be-4d10-beaf-ed2a1d2dadcd",
+    "appleId": "1000463324279",
+    "url": "https://podcasts.apple.com/us/podcast/church-nyc-culture-of-honor-suzy-silk/id1245313998?i=1000463324279",
+    "title": "CHURCH.NYC: Culture of Honor - Suzy Silk",
+    "date": "2020-01-22"
+  },
+  {
+    "guid": "08c8ee37-2bcc-48ed-a1b3-001a730e9875",
+    "appleId": "1000462408077",
+    "url": "https://podcasts.apple.com/us/podcast/church-nyc-holy-ambition-jon-tyson/id1245313998?i=1000462408077",
+    "title": "CHURCH.NYC: Holy Ambition - Jon Tyson",
+    "date": "2020-01-13"
+  },
+  {
+    "guid": "fbf2d25f-89ad-44eb-92b8-d41238939214",
+    "appleId": "1000461738822",
+    "url": "https://podcasts.apple.com/us/podcast/church-nyc-the-jesus-stuff-jon-tyson/id1245313998?i=1000461738822",
+    "title": "CHURCH.NYC: The Jesus Stuff - Jon Tyson",
+    "date": "2020-01-06"
+  },
+  {
+    "guid": "27134aa5-05b8-4b93-8e41-88a9a2fd96bd",
+    "appleId": "1000459798289",
+    "url": "https://podcasts.apple.com/us/podcast/emmanuel-us-jon-tyson/id1245313998?i=1000459798289",
+    "title": "Emmanuel: Us - Jon Tyson",
+    "date": "2019-12-16"
+  },
+  {
+    "guid": "883ac82c-f5b4-4555-8437-f8dc5f011d3b",
+    "appleId": "1000459117568",
+    "url": "https://podcasts.apple.com/us/podcast/emmanuel-with-jon-tyson/id1245313998?i=1000459117568",
+    "title": "Emmanuel: With - Jon Tyson",
+    "date": "2019-12-09"
+  },
+  {
+    "guid": "589bfef9-cf4b-4390-b821-602d005decce",
+    "appleId": "1000458438283",
+    "url": "https://podcasts.apple.com/us/podcast/emmanuel-who-is-god-suzy-silk/id1245313998?i=1000458438283",
+    "title": "Emmanuel: Who is God - Suzy Silk",
+    "date": "2019-12-02"
+  },
+  {
+    "guid": "68d1d3786adf41a6a663474d11edebff",
+    "appleId": "1000449060579",
+    "url": "https://podcasts.apple.com/us/podcast/fall-vision-day-2019-culture-jon-tyson/id1245313998?i=1000449060579",
+    "title": "Fall Vision Day 2019: Culture - Jon Tyson",
+    "date": "2019-09-09"
+  },
+  {
+    "guid": "683cf8536a0b4957b6ef65274b548a18",
+    "appleId": "1000448605136",
+    "url": "https://podcasts.apple.com/us/podcast/citizens-lead-with-hope-suzy-silk/id1245313998?i=1000448605136",
+    "title": "Citizens: Lead with Hope – Suzy Silk",
+    "date": "2019-09-04"
+  },
+  {
+    "guid": "a8a14e1919bc494c8824c84af66d805e",
+    "appleId": "1000448040418",
+    "url": "https://podcasts.apple.com/us/podcast/citizens-a-patient-hope-jon-tyson/id1245313998?i=1000448040418",
+    "title": "Citizens: A Patient Hope – Jon Tyson",
+    "date": "2019-08-28"
+  },
+  {
+    "guid": "1d742550aad3496a8812777b258f03bd",
+    "appleId": "1000447442270",
+    "url": "https://podcasts.apple.com/us/podcast/citizens-a-counter-culture-of-hope-jon-tyson/id1245313998?i=1000447442270",
+    "title": "Citizens: A Counter-Culture of Hope - Jon Tyson",
+    "date": "2019-08-21"
+  },
+  {
+    "guid": "e9bd75714b674252adeadb4caae7f260",
+    "appleId": "1000447059808",
+    "url": "https://podcasts.apple.com/us/podcast/citizens-eager-hope-suzy-silk/id1245313998?i=1000447059808",
+    "title": "Citizens: Eager Hope - Suzy Silk",
+    "date": "2019-08-16"
+  },
+  {
+    "guid": "699e501402b04847afbb058aeb2f2a8b",
+    "appleId": "1000446297860",
+    "url": "https://podcasts.apple.com/us/podcast/citizens-hope-under-pressure-jon-tyson/id1245313998?i=1000446297860",
+    "title": "Citizens: Hope Under Pressure - Jon Tyson",
+    "date": "2019-08-06"
+  },
+  {
+    "guid": "695ebbaf42c44a85bc4d56352102c795",
+    "appleId": "1000445723109",
+    "url": "https://podcasts.apple.com/us/podcast/citizens-a-beautiful-hope-jon-tyson/id1245313998?i=1000445723109",
+    "title": "Citizens: A Beautiful Hope - Jon Tyson",
+    "date": "2019-07-30"
+  },
+  {
+    "guid": "16eadb5e4dc94df8a4762dc755aab2f9",
+    "appleId": "1000445148083",
+    "url": "https://podcasts.apple.com/us/podcast/citizens-community-of-hope-jon-tyson/id1245313998?i=1000445148083",
+    "title": "Citizens: Community of Hope - Jon Tyson",
+    "date": "2019-07-23"
+  },
+  {
+    "guid": "bb65c8abd4df401baf7b225d6fbf2873",
+    "appleId": "1000444610287",
+    "url": "https://podcasts.apple.com/us/podcast/citizens-fix-your-hope-tyler-prieb/id1245313998?i=1000444610287",
+    "title": "Citizens: Fix Your Hope - Tyler Prieb",
+    "date": "2019-07-16"
+  },
+  {
+    "guid": "c6b228fb27724ad28ee373cb06ab56d6",
+    "appleId": "1000444070259",
+    "url": "https://podcasts.apple.com/us/podcast/citizens-living-hope-suzy-silk/id1245313998?i=1000444070259",
+    "title": "Citizens: Living Hope - Suzy Silk",
+    "date": "2019-07-09"
+  },
+  {
+    "guid": "66ab5388809945f3b5c7852c495e9096",
+    "appleId": "1000443433849",
+    "url": "https://podcasts.apple.com/us/podcast/revival-simple-prayers-dimetra-barrios/id1245313998?i=1000443433849",
+    "title": "Revival: Simple Prayers - Dimetra Barrios",
+    "date": "2019-07-02"
+  },
+  {
+    "guid": "84e83af863914beebd3d06bff856ed09",
+    "appleId": "1000442998579",
+    "url": "https://podcasts.apple.com/us/podcast/revival-from-proficiency-to-spiritual-power-mark-sayers/id1245313998?i=1000442998579",
+    "title": "Revival: From Proficiency to Spiritual Power - Mark Sayers",
+    "date": "2019-06-28"
+  },
+  {
+    "guid": "d9513c2876414f0c802fc2b0d7c87e2a",
+    "appleId": "1000442110623",
+    "url": "https://podcasts.apple.com/us/podcast/revival-revival-of-the-heart-stephanie-london/id1245313998?i=1000442110623",
+    "title": "Revival: Revival of the Heart - Stephanie London",
+    "date": "2019-06-20"
+  },
+  {
+    "guid": "af724a98cfff4a21928f479bd12ca003",
+    "appleId": "1000442110624",
+    "url": "https://podcasts.apple.com/us/podcast/revival-small-beginnings-suzy-silk/id1245313998?i=1000442110624",
+    "title": "Revival: Small Beginnings - Suzy Silk",
+    "date": "2019-06-20"
+  },
+  {
+    "guid": "2fa828c2533648268c9a274829471678",
+    "appleId": "1000441513353",
+    "url": "https://podcasts.apple.com/us/podcast/revival-surrender-adam-durso/id1245313998?i=1000441513353",
+    "title": "Revival: Surrender - Adam Durso",
+    "date": "2019-06-14"
+  },
+  {
+    "guid": "09477e1bbfbe460c98da06118fad7882",
+    "appleId": "1000441513352",
+    "url": "https://podcasts.apple.com/us/podcast/revival-prayer-cory-russell/id1245313998?i=1000441513352",
+    "title": "Revival: Prayer - Cory Russell",
+    "date": "2019-06-14"
+  },
+  {
+    "guid": "cc6d3526ff5e43e48bb6c88a157ab838",
+    "appleId": "1000440981194",
+    "url": "https://podcasts.apple.com/us/podcast/spiritual-maturity-and-community-banning-liebscher/id1245313998?i=1000440981194",
+    "title": "Spiritual Maturity and Community - Banning Liebscher",
+    "date": "2019-06-09"
+  },
+  {
+    "guid": "e5f0ba17a12d406bbe857af62809d749",
+    "appleId": "1000440185702",
+    "url": "https://podcasts.apple.com/us/podcast/kingdom-values-power-suzy-silk/id1245313998?i=1000440185702",
+    "title": "Kingdom Values: Power - Suzy Silk",
+    "date": "2019-05-30"
+  },
+  {
+    "guid": "f920c50d4ef64092aee1b38056f50cf6",
+    "appleId": "1000438961202",
+    "url": "https://podcasts.apple.com/us/podcast/kingdom-values-mission-tyler-prieb/id1245313998?i=1000438961202",
+    "title": "Kingdom Values: Mission - Tyler Prieb",
+    "date": "2019-05-21"
+  },
+  {
+    "guid": "26acb36c68a4426ab6a73f87fe5293c4",
+    "appleId": "1000438074534",
+    "url": "https://podcasts.apple.com/us/podcast/kingdom-values-community-jon-tyson/id1245313998?i=1000438074534",
+    "title": "Kingdom Values: Community - Jon Tyson",
+    "date": "2019-05-14"
+  },
+  {
+    "guid": "ffdb4c829f9b4874a8bff348e8ec7a20",
+    "appleId": "1000437922799",
+    "url": "https://podcasts.apple.com/us/podcast/kingdom-values-identity-suzy-silk/id1245313998?i=1000437922799",
+    "title": "Kingdom Values: Identity - Suzy Silk",
+    "date": "2019-05-13"
+  },
+  {
+    "guid": "0c9d4bd2d9de48cf9b4d1e5a4b9b1c02",
+    "appleId": "1000436896587",
+    "url": "https://podcasts.apple.com/us/podcast/the-gospel-kingdom-values-week-1-jon-tyson/id1245313998?i=1000436896587",
+    "title": "The Gospel - Kingdom Values: Week 1 - Jon Tyson",
+    "date": "2019-04-30"
+  },
+  {
+    "guid": "d5fd79ada7cb4f90a7d4f4e626998c09",
+    "appleId": "1000436153317",
+    "url": "https://podcasts.apple.com/us/podcast/words-from-the-cross-it-is-finished-jon-tyson/id1245313998?i=1000436153317",
+    "title": "Words from the Cross: It Is Finished - Jon Tyson",
+    "date": "2019-04-23"
+  },
+  {
+    "guid": "32be45206d8b4edf8a7e374f967c09be",
+    "appleId": "1000435106787",
+    "url": "https://podcasts.apple.com/us/podcast/words-from-the-cross-trust-jon-tyson/id1245313998?i=1000435106787",
+    "title": "Words from the Cross: Trust - Jon Tyson",
+    "date": "2019-04-17"
+  },
+  {
+    "guid": "830d77f7d02e4ddbaf2b51ef655db173",
+    "appleId": "1000434552350",
+    "url": "https://podcasts.apple.com/us/podcast/words-from-the-cross-adoption-jon-tyson/id1245313998?i=1000434552350",
+    "title": "Words from the Cross: Adoption - Jon Tyson",
+    "date": "2019-04-09"
+  },
+  {
+    "guid": "df8c6ca57cf14114a76af55bd307b2d5",
+    "appleId": "1000433962515",
+    "url": "https://podcasts.apple.com/us/podcast/words-from-the-cross-deliverance-jon-tyson/id1245313998?i=1000433962515",
+    "title": "Words from the Cross: Deliverance - Jon Tyson",
+    "date": "2019-04-02"
+  },
+  {
+    "guid": "4dc55a941ba2426f84632f1d5f448352",
+    "appleId": "1000433503856",
+    "url": "https://podcasts.apple.com/us/podcast/today-you-will-be-with-me-in-paradise-suzy-silk/id1245313998?i=1000433503856",
+    "title": "Today You Will Be With Me in Paradise - Suzy Silk",
+    "date": "2019-03-26"
+  },
+  {
+    "guid": "590d5700aa9e42ad9eeaa97fb27d57bd",
+    "appleId": "1000432405740",
+    "url": "https://podcasts.apple.com/us/podcast/behold-your-son-suzy-silk/id1245313998?i=1000432405740",
+    "title": "Behold Your Son - Suzy Silk",
+    "date": "2019-03-19"
+  },
+  {
+    "guid": "6d81e088db8e462080ac3fe99a739528",
+    "appleId": "1000431629500",
+    "url": "https://podcasts.apple.com/us/podcast/words-from-the-cross-forgiveness-jon-tyson/id1245313998?i=1000431629500",
+    "title": "Words from the Cross: Forgiveness - Jon Tyson",
+    "date": "2019-03-12"
+  },
+  {
+    "guid": "3af63afd79654bd2b10b0c3958962304",
+    "appleId": "1000431224521",
+    "url": "https://podcasts.apple.com/us/podcast/i-am-the-vine-jon-tyson/id1245313998?i=1000431224521",
+    "title": "I AM: The Vine - Jon Tyson",
+    "date": "2019-03-06"
+  },
+  {
+    "guid": "c6ff41862a8446d69f3fb37ff7f572b9",
+    "appleId": "1000430678816",
+    "url": "https://podcasts.apple.com/us/podcast/i-am-the-way-truth-life-suzy-silk/id1245313998?i=1000430678816",
+    "title": "I AM: The Way, Truth, Life - Suzy Silk",
+    "date": "2019-02-26"
+  },
+  {
+    "guid": "7448ab51478445e3a6857c3c0169e4b7",
+    "appleId": "1000430189051",
+    "url": "https://podcasts.apple.com/us/podcast/i-am-the-door-jon-tyson/id1245313998?i=1000430189051",
+    "title": "I AM: The Door - Jon Tyson",
+    "date": "2019-02-19"
+  },
+  {
+    "guid": "d44ee3e47d48402fa7347b06524b8f0b",
+    "appleId": "1000429708380",
+    "url": "https://podcasts.apple.com/us/podcast/i-am-the-good-shepherd-part-2-jon-tyson/id1245313998?i=1000429708380",
+    "title": "I AM: The Good Shepherd (part 2) - Jon Tyson",
+    "date": "2019-02-12"
+  },
+  {
+    "guid": "51edb5f8dd51441b911fbadcff64b60d",
+    "appleId": "1000429250913",
+    "url": "https://podcasts.apple.com/us/podcast/i-am-the-good-shepherd-jon-tyson/id1245313998?i=1000429250913",
+    "title": "I AM: The Good Shepherd - Jon Tyson",
+    "date": "2019-02-05"
+  },
+  {
+    "guid": "76cc520c0f0340ee9302ed8a59534a8e",
+    "appleId": "1000428716644",
+    "url": "https://podcasts.apple.com/us/podcast/i-am-the-light-of-the-world-suzy-silk/id1245313998?i=1000428716644",
+    "title": "I AM: The Light of the World - Suzy Silk",
+    "date": "2019-01-29"
+  },
+  {
+    "guid": "7f537e60b5fb4fe7a309b8ff56cc45d7",
+    "appleId": "1000428232471",
+    "url": "https://podcasts.apple.com/us/podcast/i-am-the-bread-of-life-jon-tyson/id1245313998?i=1000428232471",
+    "title": "I AM: The Bread of Life - Jon Tyson",
+    "date": "2019-01-22"
+  },
+  {
+    "guid": "e0fc45040ae94de1b78219fbbc4868fa",
+    "appleId": "1000427717260",
+    "url": "https://podcasts.apple.com/us/podcast/prioritizing-the-presence-of-god-pete-grieg/id1245313998?i=1000427717260",
+    "title": "Prioritizing the Presence of God - Pete Grieg",
+    "date": "2019-01-15"
+  },
+  {
+    "guid": "a11edefc38af4d1ab6003e3573ae0d10",
+    "appleId": "1000427258611",
+    "url": "https://podcasts.apple.com/us/podcast/creating-a-culture-of-honor-jon-tyson/id1245313998?i=1000427258611",
+    "title": "Creating a Culture of Honor - Jon Tyson",
+    "date": "2019-01-08"
+  },
+  {
+    "guid": "6ecd299d4efe4cc3b1a2794d9ac19ca9",
+    "appleId": "1000426042832",
+    "url": "https://podcasts.apple.com/us/podcast/good-news-great-joy-all-people-jon-tyson/id1245313998?i=1000426042832",
+    "title": "Good News Great Joy All People - Jon Tyson",
+    "date": "2018-12-18"
+  },
+  {
+    "guid": "7ce3775590274ea59a935d980043dded",
+    "appleId": "1000425609414",
+    "url": "https://podcasts.apple.com/us/podcast/advent-the-promise-of-peace-suzy-silk/id1245313998?i=1000425609414",
+    "title": "Advent: The Promise of Peace - Suzy Silk",
+    "date": "2018-12-11"
+  },
+  {
+    "guid": "88ca4c7d61d1465ab8181630c97eb784",
+    "appleId": "1000425132113",
+    "url": "https://podcasts.apple.com/us/podcast/advent-the-threat-of-hope-jon-tyson/id1245313998?i=1000425132113",
+    "title": "Advent: The Threat Of Hope - Jon Tyson",
+    "date": "2018-12-04"
+  },
+  {
+    "guid": "20876a3e48a54a1f8c81d7e880b3bc21",
+    "appleId": "1000424665408",
+    "url": "https://podcasts.apple.com/us/podcast/secrecy-must-be-stronger-than-applause-suzy-silk/id1245313998?i=1000424665408",
+    "title": "Secrecy Must Be Stronger Than Applause - Suzy Silk",
+    "date": "2018-11-27"
+  },
+  {
+    "guid": "7e64156ad4184daca98222b00b8c5a6c",
+    "appleId": "1000423314599",
+    "url": "https://podcasts.apple.com/us/podcast/grieving-must-be-stronger-than-dismissing-suzy-silk/id1245313998?i=1000423314599",
+    "title": "Grieving Must Be Stronger Than Dismissing - Suzy Silk",
+    "date": "2018-11-06"
+  },
+  {
+    "guid": "90c6bf1dbd0041c38e873bd3938b4c19",
+    "appleId": "1000421940048",
+    "url": "https://podcasts.apple.com/us/podcast/commitment-must-be-stronger-than-preference-suzy-silk/id1245313998?i=1000421940048",
+    "title": "Commitment Must Be Stronger Than Preference -  Suzy Silk",
+    "date": "2018-10-16"
+  },
+  {
+    "guid": "59c528e277864e6caa341ceab4aadf60",
+    "appleId": "1000420424851",
+    "url": "https://podcasts.apple.com/us/podcast/truth-must-be-stronger-than-lies-suzy-silk/id1245313998?i=1000420424851",
+    "title": "Truth Must Be Stronger Than Lies - Suzy Silk",
+    "date": "2018-09-25"
+  },
+  {
+    "guid": "3e01227571b9462d8c959faa77f14112",
+    "appleId": "1000419979503",
+    "url": "https://podcasts.apple.com/us/podcast/worship-must-be-stronger-than-idolatry-jon-tyson/id1245313998?i=1000419979503",
+    "title": "Worship Must Be Stronger Than Idolatry - Jon Tyson",
+    "date": "2018-09-18"
+  },
+  {
+    "guid": "acf0456a74d745488e868bddff70e1cd",
+    "appleId": "1000419528543",
+    "url": "https://podcasts.apple.com/us/podcast/this-must-be-stronger-than-that-week-1-the-church/id1245313998?i=1000419528543",
+    "title": "This Must Be Stronger Than That - Week 1 - The Church",
+    "date": "2018-09-10"
+  },
+  {
+    "guid": "c71e02460a8b426ab030c6a78fd86228",
+    "appleId": "1000418995938",
+    "url": "https://podcasts.apple.com/us/podcast/teach-us-to-pray-week-11-missional-prayer/id1245313998?i=1000418995938",
+    "title": "Teach Us To Pray - Week 11 - Missional Prayer",
+    "date": "2018-09-03"
+  },
+  {
+    "guid": "fdf3d5cc3c3c47ab92d76a0027d44a05",
+    "appleId": "1000418675023",
+    "url": "https://podcasts.apple.com/us/podcast/fall-vision-day-2018-here-for-this/id1245313998?i=1000418675023",
+    "title": "Fall Vision Day 2018 - Here For This",
+    "date": "2018-08-28"
+  },
+  {
+    "guid": "407e779db96a4c1a8657c1149055fe8b",
+    "appleId": "1000418675022",
+    "url": "https://podcasts.apple.com/us/podcast/fall-vision-day-2018-the-kind-of-leaders-were-looking-for/id1245313998?i=1000418675022",
+    "title": "Fall Vision Day 2018 - The Kind Of Leaders We're Looking For",
+    "date": "2018-08-28"
+  },
+  {
+    "guid": "cd8330d7f0104b1f8c94ef724b535a67",
+    "appleId": "1000418593876",
+    "url": "https://podcasts.apple.com/us/podcast/teach-us-to-pray-week-10-prayer-for-spiritual-awakening/id1245313998?i=1000418593876",
+    "title": "Teach Us To Pray - Week 10 - Prayer For Spiritual Awakening",
+    "date": "2018-08-27"
+  },
+  {
+    "guid": "b1d2d0eafeab49618a9958964f47d551",
+    "appleId": "1000418228702",
+    "url": "https://podcasts.apple.com/us/podcast/teach-us-to-pray-week-9-divine-intercession/id1245313998?i=1000418228702",
+    "title": "Teach Us To Pray - Week 9 - Divine Intercession",
+    "date": "2018-08-21"
+  },
+  {
+    "guid": "948d2904004e41dbaf632e47d9f294d5",
+    "appleId": "1000417786045",
+    "url": "https://podcasts.apple.com/us/podcast/teach-us-to-pray-week-8-cant-stop-wont-stop/id1245313998?i=1000417786045",
+    "title": "Teach Us To Pray - Week 8 - Can't Stop, Won't Stop",
+    "date": "2018-08-14"
+  },
+  {
+    "guid": "549e026ecd734c2ba6dada0467c1dd27",
+    "appleId": "1000417333787",
+    "url": "https://podcasts.apple.com/us/podcast/teach-us-to-pray-week-7-the-art-of-contemplation/id1245313998?i=1000417333787",
+    "title": "Teach Us To Pray - Week 7 - The Art of Contemplation",
+    "date": "2018-08-07"
+  },
+  {
+    "guid": "f2d4df540b3d49ae842492919b554990",
+    "appleId": "1000416940669",
+    "url": "https://podcasts.apple.com/us/podcast/teach-us-to-pray-week-6-prayer-of-relinquishment/id1245313998?i=1000416940669",
+    "title": "Teach Us To Pray - Week 6 - Prayer Of Relinquishment",
+    "date": "2018-07-31"
+  },
+  {
+    "guid": "a70288ad97a54766adfca751a6ceed65",
+    "appleId": "1000416501319",
+    "url": "https://podcasts.apple.com/us/podcast/teach-us-to-pray-week-5-stand-up/id1245313998?i=1000416501319",
+    "title": "Teach Us To Pray - Week 5 - Stand Up",
+    "date": "2018-07-24"
+  },
+  {
+    "guid": "c73e124014a5465d9740e82a67b12fc3",
+    "appleId": "1000415971090",
+    "url": "https://podcasts.apple.com/us/podcast/teach-us-to-pray-week-4-experience-glory/id1245313998?i=1000415971090",
+    "title": "Teach Us To Pray - Week 4 - Experience Glory",
+    "date": "2018-07-16"
+  },
+  {
+    "guid": "f41d95229272411e89e3c7907809c8a2",
+    "appleId": "1000415551619",
+    "url": "https://podcasts.apple.com/us/podcast/teach-us-to-pray-week-3-passionate-prayer-pursues/id1245313998?i=1000415551619",
+    "title": "Teach Us To Pray - Week 3 - Passionate Prayer Pursues",
+    "date": "2018-07-10"
+  },
+  {
+    "guid": "1d2f8ac85c3549bb8b2d1e04ad3bf872",
+    "appleId": "1000415165131",
+    "url": "https://podcasts.apple.com/us/podcast/teach-us-to-pray-week-2-attention-leads-to-adoration/id1245313998?i=1000415165131",
+    "title": "Teach Us To Pray - Week 2 - Attention Leads To Adoration",
+    "date": "2018-07-03"
+  },
+  {
+    "guid": "1fd20f3c217c463a9a69d421b7da16e8",
+    "appleId": "1000414693099",
+    "url": "https://podcasts.apple.com/us/podcast/teach-us-to-pray-week-1-pray-what-youve-got/id1245313998?i=1000414693099",
+    "title": "Teach Us To Pray - Week 1 - Pray What You've Got",
+    "date": "2018-06-26"
+  },
+  {
+    "guid": "5c6f9dfdb5fd48bd992af1231db121d6",
+    "appleId": "1000414129301",
+    "url": "https://podcasts.apple.com/us/podcast/the-controversial-jesus-the-controversial-disciple/id1245313998?i=1000414129301",
+    "title": "The Controversial Jesus - The Controversial Disciple",
+    "date": "2018-06-19"
+  },
+  {
+    "guid": "f91cc12c80df4d0d8a3ba8a4b8542376",
+    "appleId": "1000413557120",
+    "url": "https://podcasts.apple.com/us/podcast/the-controversial-jesus-jesus-and-mammon/id1245313998?i=1000413557120",
+    "title": "The Controversial Jesus - Jesus and Mammon",
+    "date": "2018-06-12"
+  },
+  {
+    "guid": "53b80f44770f4405b1615795d12a32b1",
+    "appleId": "1000413079174",
+    "url": "https://podcasts.apple.com/us/podcast/the-controversial-jesus-jesus-and-violence/id1245313998?i=1000413079174",
+    "title": "The Controversial Jesus - Jesus and Violence",
+    "date": "2018-06-05"
+  },
+  {
+    "guid": "28e45264561e446487ade107fbc6a524",
+    "appleId": "1000412489820",
+    "url": "https://podcasts.apple.com/us/podcast/the-controversial-jesus-jesus-and-politics/id1245313998?i=1000412489820",
+    "title": "The Controversial Jesus - Jesus and Politics",
+    "date": "2018-05-29"
+  },
+  {
+    "guid": "877bae4d4e3f4fe48f5308df38ec6e9e",
+    "appleId": "1000412033539",
+    "url": "https://podcasts.apple.com/us/podcast/the-controversial-jesus-jesus-women-and-leadership/id1245313998?i=1000412033539",
+    "title": "The Controversial Jesus - Jesus, Women, and Leadership",
+    "date": "2018-05-22"
+  },
+  {
+    "guid": "1f2ade46fba5c65573f0fa8d9961e240",
+    "appleId": "1000411579607",
+    "url": "https://podcasts.apple.com/us/podcast/the-controversial-jesus-jesus-and-privilege/id1245313998?i=1000411579607",
+    "title": "The Controversial Jesus - Jesus and Privilege",
+    "date": "2018-05-15"
+  },
+  {
+    "guid": "b1c9e2ba222edcf44e6f49595cd2588d",
+    "appleId": "1000410991777",
+    "url": "https://podcasts.apple.com/us/podcast/the-controversial-jesus-jesus-gender-and/id1245313998?i=1000410991777",
+    "title": "The Controversial Jesus - Jesus, Gender, and the Trans Community",
+    "date": "2018-05-08"
+  },
+  {
+    "guid": "d3a71e67cdf6fd4d7c3262591732a815",
+    "appleId": "1000410405163",
+    "url": "https://podcasts.apple.com/us/podcast/the-controversial-jesus-jesus-and-the-gay-community/id1245313998?i=1000410405163",
+    "title": "The Controversial Jesus - Jesus and the Gay Community",
+    "date": "2018-05-01"
+  },
+  {
+    "guid": "b6723fa4ba8ea2a95d077313bec0a523",
+    "appleId": "1000409634876",
+    "url": "https://podcasts.apple.com/us/podcast/the-controversial-jesus-sexual-formation/id1245313998?i=1000409634876",
+    "title": "The Controversial Jesus - Sexual Formation",
+    "date": "2018-04-23"
+  },
+  {
+    "guid": "bc1ce12aac91f26ec42a18abf662e1fb",
+    "appleId": "1000409069297",
+    "url": "https://podcasts.apple.com/us/podcast/the-controversial-jesus-controversial-singleness/id1245313998?i=1000409069297",
+    "title": "The Controversial Jesus - Controversial Singleness",
+    "date": "2018-04-17"
+  },
+  {
+    "guid": "9d3dd3c7670c09cd00e172978ce27416",
+    "appleId": "1000408583180",
+    "url": "https://podcasts.apple.com/us/podcast/the-controversial-jesus-controversial-compassion/id1245313998?i=1000408583180",
+    "title": "The Controversial Jesus - Controversial Compassion",
+    "date": "2018-04-10"
+  },
+  {
+    "guid": "6ef13025e01ec271fadb16ce38069355",
+    "appleId": "1000408070497",
+    "url": "https://podcasts.apple.com/us/podcast/easter-sunday-resurrection-of-jesus/id1245313998?i=1000408070497",
+    "title": "Easter Sunday - Resurrection of Jesus",
+    "date": "2018-04-03"
+  },
+  {
+    "guid": "085f2eb41b3354f3cb5a70a2df8c4d09",
+    "appleId": "1000407587264",
+    "url": "https://podcasts.apple.com/us/podcast/the-prodigal-church-series-a-model-church/id1245313998?i=1000407587264",
+    "title": "The Prodigal Church Series - A Model Church",
+    "date": "2018-03-27"
+  },
+  {
+    "guid": "d91346b637b0f86899768b3585d5afba",
+    "appleId": "1000406893445",
+    "url": "https://podcasts.apple.com/us/podcast/the-prodigal-church-series-laodicea/id1245313998?i=1000406893445",
+    "title": "The Prodigal Church Series - Laodicea",
+    "date": "2018-03-19"
+  },
+  {
+    "guid": "65d1e0a091f892d50c09ec72b7e714af",
+    "appleId": "1000406206836",
+    "url": "https://podcasts.apple.com/us/podcast/the-prodigal-church-series-sardis/id1245313998?i=1000406206836",
+    "title": "The Prodigal Church Series - Sardis",
+    "date": "2018-03-13"
+  },
+  {
+    "guid": "bd51de8b93e609eef9a1fd30d226dc14",
+    "appleId": "1000405097136",
+    "url": "https://podcasts.apple.com/us/podcast/the-prodigal-church-series-thyatira/id1245313998?i=1000405097136",
+    "title": "The Prodigal Church Series - Thyatira",
+    "date": "2018-03-06"
+  },
+  {
+    "guid": "549819c275b41c631c1ea290cc7e6572",
+    "appleId": "1000403896153",
+    "url": "https://podcasts.apple.com/us/podcast/revelation-of-jesus-christ-corey-russell/id1245313998?i=1000403896153",
+    "title": "Revelation of Jesus Christ - Corey Russell",
+    "date": "2018-02-26"
+  },
+  {
+    "guid": "797a5242290c2131e9d9e2da425c6848",
+    "appleId": "1000403896152",
+    "url": "https://podcasts.apple.com/us/podcast/releasing-the-spirit-of-prayer-corey-russell/id1245313998?i=1000403896152",
+    "title": "Releasing the Spirit of Prayer - Corey Russell",
+    "date": "2018-02-26"
+  },
+  {
+    "guid": "628f2c5924af27663284b92640b02618",
+    "appleId": "1000403886679",
+    "url": "https://podcasts.apple.com/us/podcast/the-prodigal-church-series-pergamum/id1245313998?i=1000403886679",
+    "title": "The Prodigal Church Series - Pergamum",
+    "date": "2018-02-26"
+  },
+  {
+    "guid": "fe0870911a7a106411d8ceead219e2a8",
+    "appleId": "1000403046536",
+    "url": "https://podcasts.apple.com/us/podcast/the-prodigal-church-series-ephesus/id1245313998?i=1000403046536",
+    "title": "The Prodigal Church Series - Ephesus",
+    "date": "2018-02-20"
+  },
+  {
+    "guid": "22cc0c25586f911f9bea8b160b5002cf",
+    "appleId": "1000402181607",
+    "url": "https://podcasts.apple.com/us/podcast/the-way-of-jesus-series-cultural-renewal/id1245313998?i=1000402181607",
+    "title": "The Way of Jesus Series - Cultural Renewal",
+    "date": "2018-02-13"
+  },
+  {
+    "guid": "1f705608096a6ad9949a485674652916",
+    "appleId": "1000401556203",
+    "url": "https://podcasts.apple.com/us/podcast/the-way-of-jesus-series-social-renewal/id1245313998?i=1000401556203",
+    "title": "The Way of Jesus Series - Social Renewal",
+    "date": "2018-02-06"
+  },
+  {
+    "guid": "6ff8fe8bea71bb3eb2ba7f5dd4c322a2",
+    "appleId": "1000401057419",
+    "url": "https://podcasts.apple.com/us/podcast/the-way-of-jesus-series-spiritual-renewal/id1245313998?i=1000401057419",
+    "title": "The Way of Jesus Series - Spiritual Renewal",
+    "date": "2018-01-30"
+  },
+  {
+    "guid": "596a36af4689c7be676cf41e715873d1",
+    "appleId": "1000400511341",
+    "url": "https://podcasts.apple.com/us/podcast/the-way-of-jesus-series-the-way-of-practice/id1245313998?i=1000400511341",
+    "title": "The Way of Jesus Series - The Way of Practice",
+    "date": "2018-01-23"
+  },
+  {
+    "guid": "97fe0872cfa21453e0e34a454b15ade9",
+    "appleId": "1000399989642",
+    "url": "https://podcasts.apple.com/us/podcast/the-way-of-jesus-series-the-way-of-formation/id1245313998?i=1000399989642",
+    "title": "The Way of Jesus Series - The Way of Formation",
+    "date": "2018-01-16"
+  },
+  {
+    "guid": "3d92541d8ec6707a4a6c975470244000",
+    "appleId": "1000399432756",
+    "url": "https://podcasts.apple.com/us/podcast/the-way-of-jesus-series-the-way-of-vision/id1245313998?i=1000399432756",
+    "title": "The Way of Jesus Series - The Way of Vision",
+    "date": "2018-01-09"
+  },
+  {
+    "guid": "fe1bb985848565ff4dc326a62b5ada56",
+    "appleId": "1000398527885",
+    "url": "https://podcasts.apple.com/us/podcast/christmas-eve-the-word-became-flesh/id1245313998?i=1000398527885",
+    "title": "Christmas Eve - The Word Became Flesh",
+    "date": "2017-12-27"
+  },
+  {
+    "guid": "11e3526c0ff126d7d5ffd5971087fa3b",
+    "appleId": "1000398223319",
+    "url": "https://podcasts.apple.com/us/podcast/white-as-snow/id1245313998?i=1000398223319",
+    "title": "White As Snow",
+    "date": "2017-12-24"
+  },
+  {
+    "guid": "8cf03f8502b70a1ec78b11ea12a53e49",
+    "appleId": "1000397768686",
+    "url": "https://podcasts.apple.com/us/podcast/advent-series-a-joyful-god/id1245313998?i=1000397768686",
+    "title": "Advent Series - A Joyful God",
+    "date": "2017-12-19"
+  },
+  {
+    "guid": "98f7d882f81e5d5b374ac7e23860c7cb",
+    "appleId": "1000397364649",
+    "url": "https://podcasts.apple.com/us/podcast/a-year-of-answered-prayers/id1245313998?i=1000397364649",
+    "title": "A Year of Answered Prayers",
+    "date": "2017-12-14"
+  },
+  {
+    "guid": "a34c202936558da95597b160ac9e4b94",
+    "appleId": "1000397342560",
+    "url": "https://podcasts.apple.com/us/podcast/mission-justice-future/id1245313998?i=1000397342560",
+    "title": "Mission. Justice. Future.",
+    "date": "2017-12-14"
+  },
+  {
+    "guid": "f0eb5246d168362c36f7c603e229e17f",
+    "appleId": "1000397151406",
+    "url": "https://podcasts.apple.com/us/podcast/advent-series-a-righteous-king/id1245313998?i=1000397151406",
+    "title": "Advent Series - A Righteous King",
+    "date": "2017-12-12"
+  },
+  {
+    "guid": "6e821f187a1e6523e92ffd02b75b677b",
+    "appleId": "1000396305803",
+    "url": "https://podcasts.apple.com/us/podcast/advent-series-the-government-of-god/id1245313998?i=1000396305803",
+    "title": "Advent Series -  The Government Of God",
+    "date": "2017-12-05"
+  },
+  {
+    "guid": "c47d2f20d7c23aff9a47a63f8314cdb1",
+    "appleId": "1000395368904",
+    "url": "https://podcasts.apple.com/us/podcast/advent-series-intro-the-god-you-long-for/id1245313998?i=1000395368904",
+    "title": "Advent Series - Intro - The God You Long For",
+    "date": "2017-11-28"
+  },
+  {
+    "guid": "09cb3e175be19446c30c0112daca3991",
+    "appleId": "1000395134628",
+    "url": "https://podcasts.apple.com/us/podcast/holy-ambition-series-holy-celebration/id1245313998?i=1000395134628",
+    "title": "Holy Ambition Series - Holy Celebration",
+    "date": "2017-11-22"
+  },
+  {
+    "guid": "0af8f39c97a6135069cd4f90ea871a9c",
+    "appleId": "1000394793800",
+    "url": "https://podcasts.apple.com/us/podcast/holy-ambition-series-holy-culture/id1245313998?i=1000394793800",
+    "title": "Holy Ambition Series - Holy Culture",
+    "date": "2017-11-14"
+  },
+  {
+    "guid": "5500f2a8197c06906bbeac1a901d8a02",
+    "appleId": "1000394467778",
+    "url": "https://podcasts.apple.com/us/podcast/holy-ambition-series-holy-response/id1245313998?i=1000394467778",
+    "title": "Holy Ambition Series - Holy Response",
+    "date": "2017-11-06"
+  },
+  {
+    "guid": "a930192c82a84903a60ce7102ed7dd00",
+    "appleId": "1000394215342",
+    "url": "https://podcasts.apple.com/us/podcast/holy-ambition-series-holy-integrity/id1245313998?i=1000394215342",
+    "title": "Holy Ambition Series - Holy Integrity",
+    "date": "2017-10-31"
+  },
+  {
+    "guid": "ab6fde8f79763bfcfa55e52fd9dc578a",
+    "appleId": "1000393907534",
+    "url": "https://podcasts.apple.com/us/podcast/holy-ambition-series-holy-confrontation/id1245313998?i=1000393907534",
+    "title": "Holy Ambition Series - Holy Confrontation",
+    "date": "2017-10-23"
+  },
+  {
+    "guid": "753791e6dc4c97d9798a74ff445410a3",
+    "appleId": "1000393635585",
+    "url": "https://podcasts.apple.com/us/podcast/holy-ambition-series-holy-resistance/id1245313998?i=1000393635585",
+    "title": "Holy Ambition Series - Holy Resistance",
+    "date": "2017-10-17"
+  },
+  {
+    "guid": "c4144d22713998777a1a28b6e59e4df5",
+    "appleId": "1000393295822",
+    "url": "https://podcasts.apple.com/us/podcast/the-fathers-love-dr-rob-reimer/id1245313998?i=1000393295822",
+    "title": "The Father's Love - Dr. Rob Reimer",
+    "date": "2017-10-10"
+  },
+  {
+    "guid": "f7a2329ed0846ebcf27585dc7a5c30ca",
+    "appleId": "1000393005690",
+    "url": "https://podcasts.apple.com/us/podcast/holy-ambition-series-heres-whats-possible/id1245313998?i=1000393005690",
+    "title": "Holy Ambition Series - Here's What's Possible",
+    "date": "2017-10-03"
+  },
+  {
+    "guid": "7eae64a3330dbf44868a9f90034e1ffa",
+    "appleId": "1000392704879",
+    "url": "https://podcasts.apple.com/us/podcast/holy-ambition-series-longing-for-the-right-place/id1245313998?i=1000392704879",
+    "title": "Holy Ambition Series - Longing for the Right Place",
+    "date": "2017-09-26"
+  },
+  {
+    "guid": "914f352faf315b488c2df7c45e71b7db",
+    "appleId": "1000392419388",
+    "url": "https://podcasts.apple.com/us/podcast/holy-ambition-series-life-of-consequence/id1245313998?i=1000392419388",
+    "title": "Holy Ambition Series - Life of Consequence",
+    "date": "2017-09-19"
+  },
+  {
+    "guid": "0c9e5318a913dddafa90ba6185744643",
+    "appleId": "1000392207666",
+    "url": "https://podcasts.apple.com/us/podcast/cotc-official-launch-5-declarations/id1245313998?i=1000392207666",
+    "title": "COTC Official Launch - 5 Declarations",
+    "date": "2017-09-13"
+  },
+  {
+    "guid": "de071282de8d928d192150b7aae13743",
+    "appleId": "1000391914262",
+    "url": "https://podcasts.apple.com/us/podcast/making-sense-of-church-ephesians-week-20/id1245313998?i=1000391914262",
+    "title": "Making Sense of Church - Ephesians - Week 20",
+    "date": "2017-09-06"
+  },
+  {
+    "guid": "60de1172cea384b90080feaf217dfeb5",
+    "appleId": "1000391572687",
+    "url": "https://podcasts.apple.com/us/podcast/making-sense-of-church-ephesians-week-19/id1245313998?i=1000391572687",
+    "title": "Making Sense of Church - Ephesians - Week 19",
+    "date": "2017-08-29"
+  },
+  {
+    "guid": "1fd556767e2750e5ff0ccc1ed1d889f0",
+    "appleId": "1000391305444",
+    "url": "https://podcasts.apple.com/us/podcast/making-sense-of-church-ephesians-week-18/id1245313998?i=1000391305444",
+    "title": "Making Sense of Church - Ephesians - Week 18",
+    "date": "2017-08-21"
+  },
+  {
+    "guid": "6a47b9bf8e4675c730b30e6a05dc556f",
+    "appleId": "1000391110706",
+    "url": "https://podcasts.apple.com/us/podcast/making-sense-of-church-ephesians-week-17/id1245313998?i=1000391110706",
+    "title": "Making Sense of Church - Ephesians - Week 17",
+    "date": "2017-08-16"
+  },
+  {
+    "guid": "0618ce45c480c6c3a50a5e15df0c46cf",
+    "appleId": "1000390804985",
+    "url": "https://podcasts.apple.com/us/podcast/making-sense-of-church-ephesians-week-16/id1245313998?i=1000390804985",
+    "title": "Making Sense of Church - Ephesians - Week 16",
+    "date": "2017-08-08"
+  },
+  {
+    "guid": "224e68f23ef22e762e8a64eb928c7b44",
+    "appleId": "1000390543666",
+    "url": "https://podcasts.apple.com/us/podcast/making-sense-of-church-ephesians-week-15/id1245313998?i=1000390543666",
+    "title": "Making Sense of Church - Ephesians - Week 15",
+    "date": "2017-08-01"
+  },
+  {
+    "guid": "12f453a89d563cfcd7e790db34e382c7",
+    "appleId": "1000390275555",
+    "url": "https://podcasts.apple.com/us/podcast/making-sense-of-church-ephesians-week-14/id1245313998?i=1000390275555",
+    "title": "Making Sense of Church - Ephesians - Week 14",
+    "date": "2017-07-24"
+  },
+  {
+    "guid": "b6735f8adab44b090570bf19fbb50bdd",
+    "appleId": "1000390004832",
+    "url": "https://podcasts.apple.com/us/podcast/making-sense-of-church-ephesians-week-13/id1245313998?i=1000390004832",
+    "title": "Making Sense of Church - Ephesians - Week 13",
+    "date": "2017-07-18"
+  },
+  {
+    "guid": "a5501a725da689c35baf67bf98ba1307",
+    "appleId": "1000389753670",
+    "url": "https://podcasts.apple.com/us/podcast/making-sense-of-church-ephesians-week-12/id1245313998?i=1000389753670",
+    "title": "Making Sense of Church - Ephesians - Week 12",
+    "date": "2017-07-11"
+  },
+  {
+    "guid": "64954a2c3fbdd7469d38a1a1686a440e",
+    "appleId": "1000389488499",
+    "url": "https://podcasts.apple.com/us/podcast/making-sense-of-church-ephesians-week-11/id1245313998?i=1000389488499",
+    "title": "Making Sense of Church - Ephesians - Week 11",
+    "date": "2017-07-03"
+  },
+  {
+    "guid": "85481c51ab770c89d021a37665d186c7",
+    "appleId": "1000389109181",
+    "url": "https://podcasts.apple.com/us/podcast/making-sense-of-church-ephesians-week-10/id1245313998?i=1000389109181",
+    "title": "Making Sense of Church - Ephesians - Week 10",
+    "date": "2017-06-26"
+  },
+  {
+    "guid": "68c474b2d95935dbbb7b0a4f8e836084",
+    "appleId": "1000386774750",
+    "url": "https://podcasts.apple.com/us/podcast/making-sense-of-church-ephesians-week-9/id1245313998?i=1000386774750",
+    "title": "Making Sense of Church - Ephesians - Week 9",
+    "date": "2017-06-20"
+  },
+  {
+    "guid": "7f8e8f90c872ed4f746a6993661efd0c",
+    "appleId": "1000386540026",
+    "url": "https://podcasts.apple.com/us/podcast/making-sense-of-church-ephesians-week-8/id1245313998?i=1000386540026",
+    "title": "Making Sense of Church - Ephesians - Week 8",
+    "date": "2017-06-14"
+  },
+  {
+    "guid": "9b4847ae46b906c2d3d527428e09b7e7",
+    "appleId": "1000386270403",
+    "url": "https://podcasts.apple.com/us/podcast/making-sense-of-church-ephesians-week-7/id1245313998?i=1000386270403",
+    "title": "Making Sense of Church - Ephesians - Week 7",
+    "date": "2017-06-06"
+  },
+  {
+    "guid": "c976e17ab909923e4af8f86e4db881ac",
+    "appleId": "1000386225205",
+    "url": "https://podcasts.apple.com/us/podcast/making-sense-of-church-ephesians-week-6/id1245313998?i=1000386225205",
+    "title": "Making Sense of Church - Ephesians - Week 6",
+    "date": "2017-06-06"
+  },
+  {
+    "guid": "2be0a07ffbe64356143dc40b70eb09c0",
+    "appleId": "1000386225326",
+    "url": "https://podcasts.apple.com/us/podcast/making-sense-of-church-ephesians-week-5/id1245313998?i=1000386225326",
+    "title": "Making Sense of Church - Ephesians - Week 5",
+    "date": "2017-06-06"
+  },
+  {
+    "guid": "2f0a255c6204a0a9aa7308e2c2d0fdb4",
+    "appleId": "1000386225203",
+    "url": "https://podcasts.apple.com/us/podcast/making-sense-of-church-ephesians-week-4/id1245313998?i=1000386225203",
+    "title": "Making Sense of Church - Ephesians - Week 4",
+    "date": "2017-06-06"
+  },
+  {
+    "guid": "9169c3de3a7946e1b48833e741c8f744",
+    "appleId": "1000386225202",
+    "url": "https://podcasts.apple.com/us/podcast/making-sense-of-church-ephesians-week-3/id1245313998?i=1000386225202",
+    "title": "Making Sense of Church - Ephesians - Week 3",
+    "date": "2017-06-06"
+  },
+  {
+    "guid": "7d723ef652a0ec6641d3e02f5eb1ba51",
+    "appleId": "1000386225204",
+    "url": "https://podcasts.apple.com/us/podcast/making-sense-of-church-ephesians-week-2/id1245313998?i=1000386225204",
+    "title": "Making Sense of Church - Ephesians - Week 2",
+    "date": "2017-06-06"
+  },
+  {
+    "guid": "702bb6fb02249f5fd359a124b7dabb92",
+    "appleId": "1000386225327",
+    "url": "https://podcasts.apple.com/us/podcast/making-sense-of-church-ephesians-week-1/id1245313998?i=1000386225327",
+    "title": "Making Sense of Church - Ephesians - Week 1",
+    "date": "2017-06-06"
+  }
+]

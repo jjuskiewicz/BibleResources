@@ -44,6 +44,9 @@ def main() -> int:
         url = s.get("url", "")
         if url and not re.match(r"^https?://", url):
             errors.append(f"{tag}: url must start with http(s)://")
+        apple = s.get("appleUrl", "")
+        if apple and not apple.startswith("https://podcasts.apple.com/"):
+            errors.append(f"{tag}: appleUrl must be a podcasts.apple.com link")
         if url in seen_urls:
             warnings.append(f"{tag}: same url as sermons[{seen_urls[url]}]")
         seen_urls.setdefault(url, i)

@@ -1,0 +1,68 @@
+// Apple Podcasts episode scraper -> {guid, appleId, url, title, date} for every episode.
+// Run in the DevTools console on the show page, e.g.
+//   https://podcasts.apple.com/us/podcast/church-of-the-city-new-york/id1245313998
+// Downloads <showId>_apple_episodes.json. Join to the RSS feed on guid (exact match).
+// Uses Apple's own catalog API (the same one the page calls), so no clicking or scrolling.
+// If it can't find the API token: DevTools > Network > filter "amp-api" > click a request >
+// copy the Authorization header value (after "Bearer ") into TOKEN below and run again.
+(async function () {
+  const TOKEN = '';                       // optional manual override
+  const PAGE = 25;                        // Apple's max page size for episodes
+  const showId = location.pathname.match(/id(\d+)/)?.[1];
+  const country = location.pathname.split('/')[1] || 'us';
+  if (!showId) return console.error('No show id in URL - open the show page first.');
+
+  // 1. Find the anonymous developer token (a JWT) baked into the page's JS bundles.
+  async function findToken() {
+    if (TOKEN) return TOKEN;
+    const urls = new Set([
+      ...[...document.querySelectorAll('script[src]')].map(s => s.src),
+      ...performance.getEntriesByType('resource').map(r => r.name),
+    ]);
+    const js = [...urls].filter(u => u.startsWith(location.origin) && u.includes('/assets/') && u.endsWith('.js'));
+    js.sort((a, b) => (b.includes('index') ? 1 : 0) - (a.includes('index') ? 1 : 0)); // entry bundle first
+    for (const u of js) {
+      const m = (await (await fetch(u)).text()).match(/eyJ[\w-]+\.eyJ[\w-]+\.[\w-]+/);
+      if (m) { console.log('Token found in', u); return m[0]; }
+    }
+    return null;
+  }
+  const token = await findToken();
+  if (!token) return console.error('No token found - set TOKEN manually (see comment at top).');
+
+  // 2. Page through every episode.
+  const api = 'https://amp-api.podcasts.apple.com';
+  let next = `/v1/catalog/${country}/podcasts/${showId}/episodes?limit=${PAGE}&offset=0&l=en-US`;
+  const episodes = [];
+  while (next) {
+    const res = await fetch(api + next + (next.includes('l=') ? '' : '&l=en-US'), {
+      headers: { Authorization: `Bearer ${token}` },
+    });
+    if (!res.ok) { console.error(`HTTP ${res.status} on ${next}`, await res.text()); break; }
+    const body = await res.json();
+    for (const e of body.data || []) {
+      const a = e.attributes || {};
+      episodes.push({
+        guid: a.guid || '',
+        appleId: e.id,
+        url: a.url || `https://podcasts.apple.com/${country}/podcast/id${showId}?i=${e.id}`,
+        title: a.name || '',
+        date: (a.releaseDateTime || '').slice(0, 10),
+      });
+    }
+    console.log(`${episodes.length} episodes so far`);
+    next = body.next || null;
+    await new Promise(r => setTimeout(r, 300)); // be polite
+  }
+
+  const noGuid = episodes.filter(e => !e.guid).length;
+  console.log(`Scraped ${episodes.length} episodes (${noGuid} without guid)`);
+  if (episodes.length) console.log('Sample:', episodes[0]);
+
+  // 3. Download as JSON.
+  const blob = new Blob([JSON.stringify(episodes, null, 2)], { type: 'application/json' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = `${showId}_apple_episodes.json`;
+  a.click();
+})();

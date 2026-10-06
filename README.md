@@ -111,25 +111,34 @@ data/sources/manual.json                   hand-entered sermons from anywhere
 
 Per church:
 
+Apple Podcasts links: `apple_episodes.py` pulls every episode of a show from Apple's catalog API (guid + episode link)
+and `rss_to_episodes.py --apple` joins them to the feed on the RSS `<guid>`, so matching is exact. Needs
+podcasts.apple.com and amp-api.podcasts.apple.com reachable; `--search "Show name"` finds a new church's Apple show id
+(check the printed feed URL matches). `apple_scrape.txt` is the same thing as a browser-console script.
+
 ```bash
 # Church of the City NY: RSS feed (Libsyn), linked to Spotify episodes
 curl -L "https://rss.libsyn.com/shows/100249/destinations/527009.xml" -o scraping/cotcny_feed.xml
-uv run scraping/rss_to_episodes.py scraping/cotcny_feed.xml -o scraping/cotcny_rss_episodes.json --spotify scraping/cotcny_spotify_episodes.json
+uv run scraping/apple_episodes.py 1245313998 -o scraping/cotcny_apple_episodes.json
+uv run scraping/rss_to_episodes.py scraping/cotcny_feed.xml -o scraping/cotcny_rss_episodes.json --spotify scraping/cotcny_spotify_episodes.json --apple scraping/cotcny_apple_episodes.json
 uv run scraping/convert_spotify.py scraping/cotcny_rss_episodes.json --church cotcny --source rss
 
 # Vintage: RSS feed (preferred - exact dates, no browser scraping), borrowing Spotify links by title+date
 curl -L "https://vintagetwopoint0.squarespace.com/vintage-church-la-sermons?format=rss" -o scraping/vintage_feed.xml
-uv run scraping/rss_to_episodes.py scraping/vintage_feed.xml -o scraping/vintage_rss_episodes.json --spotify scraping/vintage_spotify_episodes.json
+uv run scraping/apple_episodes.py 1205019953 -o scraping/vintage_apple_episodes.json
+uv run scraping/rss_to_episodes.py scraping/vintage_feed.xml -o scraping/vintage_rss_episodes.json --spotify scraping/vintage_spotify_episodes.json --apple scraping/vintage_apple_episodes.json
 uv run scraping/convert_spotify.py scraping/vintage_rss_episodes.json --church vintage-sm --source rss --strip "Santa Monica"
 
 # Bridgetown Church (Portland): Podbean feed, linked to Spotify episodes
 curl -L "https://feed.podbean.com/bridgetown/feed.xml" -o scraping/bridgetown_feed.xml
-uv run scraping/rss_to_episodes.py scraping/bridgetown_feed.xml -o scraping/bridgetown_rss_episodes.json --spotify scraping/bridgetown_spotify_episodes.json
+uv run scraping/apple_episodes.py 84246334 -o scraping/bridgetown_apple_episodes.json
+uv run scraping/rss_to_episodes.py scraping/bridgetown_feed.xml -o scraping/bridgetown_rss_episodes.json --spotify scraping/bridgetown_spotify_episodes.json --apple scraping/bridgetown_apple_episodes.json
 uv run scraping/convert_spotify.py scraping/bridgetown_rss_episodes.json --church bridgetown --source rss
 
 # Church Eleven22: Podbean feed, linked to Spotify episodes ("Title - Series - Wk N" titles)
 curl -L "https://feed.podbean.com/coe22/feed.xml" -o scraping/coe22_feed.xml
-uv run scraping/rss_to_episodes.py scraping/coe22_feed.xml -o scraping/eleven22_rss_episodes.json --spotify scraping/eleven22_spotify_episodes.json
+uv run scraping/apple_episodes.py 599849932 -o scraping/eleven22_apple_episodes.json
+uv run scraping/rss_to_episodes.py scraping/coe22_feed.xml -o scraping/eleven22_rss_episodes.json --spotify scraping/eleven22_spotify_episodes.json --apple scraping/eleven22_apple_episodes.json
 uv run scraping/convert_spotify.py scraping/eleven22_rss_episodes.json --church eleven22 --source rss --title-first --series-prefix Saturated
 
 # Tim Keller (gospelinlife.com): server-rendered archive, 20/page; scripture + series come structured from the site

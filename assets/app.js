@@ -287,6 +287,9 @@ function sermonCard(s) {
     `<span class="who"><span class="dot" style="--cc:${esc(s.churchObj.color)}"></span>${churchName(s.churchObj)}</span>`,
     speakerHtml(s),
     s.durationMin && `<span class="dur">${Math.round(s.durationMin)} min</span>`,
+    // The card itself opens the main link (usually Spotify); Apple gets its own link above the card's hit area.
+    // Placed before the series so on phones (one meta line) the series is what truncates, not this.
+    s.appleUrl && `<a class="alt" href="${esc(s.appleUrl)}" target="_blank" rel="noopener noreferrer" aria-label="Listen on Apple Podcasts"><span class="long">Apple Podcasts</span><span class="short">Apple</span></a>`,
     seriesHtml,
   ].filter(Boolean).join('');
   const when = s.dateObj ? `<time datetime="${esc(s.date)}" title="${fmtDate(s.dateObj)}">${fmtShort(s.dateObj)}</time>`

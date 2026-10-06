@@ -370,6 +370,7 @@ def main() -> None:
             "passage": "; ".join(r["_label"] for r in refs),
             "refs": [{k: v for k, v in r.items() if not k.startswith("_")} for r in refs],
             "url": ep["url"],
+            **({"appleUrl": ep["appleUrl"]} if ep.get("appleUrl") else {}),
             "tags": [],
             "source": args.source,
             "durationMin": round(mins),

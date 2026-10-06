@@ -257,7 +257,12 @@ main { padding-top: 20px; padding-bottom: 40px; }
 .sermon .title::after { content: ""; position: absolute; inset: 0; border-radius: inherit; }
 .sermon .title:focus-visible { outline: none; }
 .sermon:has(.title:focus-visible) { outline: 2px solid var(--focus); outline-offset: 2px; }
-.sermon .pill, .sermon .facet { position: relative; z-index: 1; cursor: pointer; }
+.sermon .pill, .sermon .facet, .sermon .alt { position: relative; z-index: 1; cursor: pointer; }
+.sermon .alt {
+  color: inherit; white-space: nowrap;
+  text-decoration: underline; text-decoration-color: var(--faint); text-underline-offset: 3px;
+}
+.sermon .alt:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; border-radius: 2px; }
 .sermon .pill {
   flex: 0 1 auto; min-width: 0; overflow: hidden; text-overflow: ellipsis;
   border: 0; border-radius: 999px; padding: 1px 7px;
@@ -295,6 +300,7 @@ main { padding-top: 20px; padding-bottom: 40px; }
   .sermon:hover > svg { color: var(--ink); }
   .sermon .pill:hover { background: color-mix(in srgb, var(--pc) 22%, transparent); }
   .sermon .facet:hover { color: var(--ink); text-decoration-style: solid; text-decoration-color: currentColor; }
+  .sermon .alt:hover { color: var(--ink); text-decoration-color: currentColor; }
   .search .scope:hover { background: color-mix(in srgb, var(--sc) 24%, var(--surface)); }
   .hint .token-mini:hover { border-color: var(--sc); }
   .icon-btn:hover { color: var(--ink); border-color: var(--muted); }

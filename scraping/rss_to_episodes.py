@@ -3,10 +3,11 @@ so convert_spotify.py can process it unchanged.
 
 Usage:
     uv run scraping/rss_to_episodes.py scraping/vintage_feed.xml -o scraping/vintage_rss_episodes.json \
-        [--spotify scraping/vintage_spotify_episodes.json]
+        [--spotify scraping/vintage_spotify_episodes.json] [--apple scraping/vintage_apple_episodes.json]
 
 --spotify: when an RSS item's title matches a Spotify episode, use the Spotify link (nicer for listening);
            otherwise the item's <link> (church site) or the audio enclosure is used.
+--apple:   output of apple_episodes.py; joined on the RSS <guid> (exact), adds "appleUrl".
 Feeds carry full dates and full show notes, so no year inference and more passages found.
 """
 
@@ -78,6 +79,7 @@ def main() -> None:
     ap.add_argument("feed", type=Path)
     ap.add_argument("-o", "--out", type=Path, required=True)
     ap.add_argument("--spotify", type=Path, help="Spotify scrape to borrow episode links from")
+    ap.add_argument("--apple", type=Path, help="apple_episodes.py output; adds appleUrl by guid")
     args = ap.parse_args()
 
     spotify = {}
@@ -85,8 +87,12 @@ def main() -> None:
         for e in json.loads(args.spotify.read_text()):  # same title can repeat ("Easter - Ger Jones")
             spotify.setdefault(key(e["title"]), []).append(e)
 
+    apple = {}
+    if args.apple and args.apple.exists():
+        apple = {e["guid"]: e["url"] for e in json.loads(args.apple.read_text()) if e.get("guid")}
+
     items = ET.parse(args.feed).getroot().iter("item")
-    episodes, matched = [], 0
+    episodes, matched, apple_matched = [], 0, 0
     for it in items:
         title = html.unescape(text(it, "title"))
         enc = it.find("enclosure")
@@ -98,16 +104,20 @@ def main() -> None:
             link, matched = sp, matched + 1
         desc = strip_html(text(it, f"{CONTENT}encoded") or text(it, "description") or text(it, f"{ITUNES}summary"))
         author = text(it, f"{ITUNES}author")
+        guid = text(it, "guid")
+        apple_url = apple.get(guid, "")
+        apple_matched += bool(apple_url)
         episodes.append({
             "title": title, "url": link, "date": date,
             "duration": duration(text(it, f"{ITUNES}duration")),
             "desc": desc,
             "author": author,  # often just the church name in church feeds, so not used for speaker
             "imageUrl": "", "audioUrl": enc.get("url") if enc is not None else "",
+            "guid": guid, "appleUrl": apple_url,
         })
 
     args.out.write_text(json.dumps(episodes, indent=2, ensure_ascii=False) + "\n")
-    print(f"{len(episodes)} items -> {args.out}  ({matched} linked to Spotify)")
+    print(f"{len(episodes)} items -> {args.out}  ({matched} linked to Spotify, {apple_matched} to Apple)")
 
 
 if __name__ == "__main__":
