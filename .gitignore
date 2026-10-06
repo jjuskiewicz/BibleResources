@@ -9,3 +9,11 @@ scraping/*_feed.xml
 
 # gospelinlife.com archive page cache (re-fetch with scraping/gil_scrape.py)
 scraping/gil_pages/
+
+# BibleProject guide cache + parsed guides (copyrighted; local tagging input only, not for publishing)
+scraping/bp_pages/
+scraping/bibleproject_guides.json
+
+# gospelinlife.com per-sermon details (re-fetch with scraping/gil_details.py)
+scraping/keller_details.json
+scraping/logs/

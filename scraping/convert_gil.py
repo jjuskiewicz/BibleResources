@@ -8,6 +8,9 @@ Writes:
     scraping/keller_review.csv   every sermon + extracted refs, for spot checks
 Reads (optional):
     scraping/keller_overrides.json   {"<wp_id>": {"refs": [...], "passage": "...", "exclude": true, ...}}
+    scraping/keller_details.json     per-sermon page details from gil_details.py: overview -> "notes" (trimmed for
+                                     the site; the full text stays in keller_details.json for tagging),
+                                     topics -> "tags", duration -> "durationMin"
 
 The site's Scripture field is already structured ("Esther 3:1-6; 6:1-10"), so refs come from that field only,
 with the book carried across ";"-separated parts that omit it. Displayed passage = the site's text verbatim.
@@ -34,6 +37,8 @@ SRC = HERE / "keller_episodes.json"
 OVERRIDES = HERE / "keller_overrides.json"
 OUT = ROOT / "data" / "sources" / f"{CHURCH}.json"
 REVIEW = HERE / f"{CHURCH}_review.csv"
+DETAILS = HERE / "keller_details.json"
+NOTES_CHARS = 900  # site show-notes length; older overviews are the sermon's opening, ~5k chars
 
 
 SPEAKER = "Tim Keller"
@@ -77,9 +82,23 @@ def whole_book(text: str) -> list[dict]:
     return []
 
 
+def trim_notes(text: str, limit: int = NOTES_CHARS) -> str:
+    """Whole paragraphs up to ~limit chars; a long first paragraph is cut at a sentence end."""
+    out = ""
+    for para in text.split("\n\n"):
+        if out and len(out) + len(para) > limit:
+            return out + "\n\n…"
+        out = f"{out}\n\n{para}" if out else para
+    if len(out) <= limit:
+        return out
+    cut = max(out.rfind(". ", 0, limit), out.rfind("? ", 0, limit), out.rfind("” ", 0, limit))
+    return (out[: cut + 1] if cut > limit // 2 else out[:limit].rsplit(" ", 1)[0]) + " …"
+
+
 def main() -> None:
     rows = json.loads(SRC.read_text(encoding="utf-8"))
     overrides = json.loads(OVERRIDES.read_text()) if OVERRIDES.exists() else {}
+    details = json.loads(DETAILS.read_text(encoding="utf-8")) if DETAILS.exists() else {}
     out, review = [], []
     for r in rows:
         key = str(r["wp_id"])
@@ -111,6 +130,13 @@ def main() -> None:
             "source": "gospelinlife",
             "refSource": "site",
         }
+        det = details.get(key) or {}
+        if det.get("overview"):
+            rec["notes"] = trim_notes(det["overview"])
+        if det.get("topics"):
+            rec["tags"] = det["topics"]
+        if det.get("durationMin"):
+            rec["durationMin"] = det["durationMin"]
         rec.update({k: v for k, v in ov.items() if k not in ("exclude", "include")})
         if ov.get("refs") and not reason:
             status = "override"

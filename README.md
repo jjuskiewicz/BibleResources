@@ -148,9 +148,16 @@ uv run scraping/convert_spotify.py scraping/eleven22_rss_episodes.json --church 
 
 # Tim Keller (gospelinlife.com): server-rendered archive, 20/page; scripture + series come structured from the site
 uv run scraping/gil_scrape.py --dates    # ~82 pages at 1 req/s, cached in scraping/gil_pages/; --dates fills exact preached dates from /wp-json (~17 requests)
+uv run scraping/gil_details.py          # one request per sermon page (~35 min, resumable): overview -> notes, topics -> tags, duration
 uv run scraping/convert_gil.py           # -> data/sources/keller.json + scraping/keller_review.csv
 
 uv run tools/build_sermons.py && uv run tools/validate_data.py
+```
+
+BibleProject guides (input for judging whether a sermon teaches its passage; local only, gitignored):
+
+```bash
+uv run scraping/bp_guides.py             # 60 guide pages for 66 books -> scraping/bibleproject_guides.json (sections with verse ranges)
 ```
 
 - `--title-first` / `--series-prefix`: per-church title shapes (Eleven22 puts the title before the series; "Saturated ..." segments are the series).
