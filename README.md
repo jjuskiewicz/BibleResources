@@ -147,7 +147,7 @@ uv run scraping/rss_to_episodes.py scraping/coe22_feed.xml -o scraping/eleven22_
 uv run scraping/convert_spotify.py scraping/eleven22_rss_episodes.json --church eleven22 --source rss --title-first --series-prefix Saturated
 
 # Tim Keller (gospelinlife.com): server-rendered archive, 20/page; scripture + series come structured from the site
-uv run scraping/gil_scrape.py            # ~82 pages at 1 req/s, cached in scraping/gil_pages/ (add --dates to try exact dates)
+uv run scraping/gil_scrape.py --dates    # ~82 pages at 1 req/s, cached in scraping/gil_pages/; --dates fills exact preached dates from /wp-json (~17 requests)
 uv run scraping/convert_gil.py           # -> data/sources/keller.json + scraping/keller_review.csv
 
 uv run tools/build_sermons.py && uv run tools/validate_data.py

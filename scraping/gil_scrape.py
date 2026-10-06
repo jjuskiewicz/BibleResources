@@ -2,7 +2,8 @@
 
 The archive is server-rendered WordPress (ElasticPress facets), 20 sermons per page. Each card carries a
 data-sermon JSON blob (WP post id, title, permalink, audio/video) plus series, "Tim Keller (YEAR)" and scripture.
-The list only shows the YEAR; --dates tries the WP REST API for exact post dates (falls back to year-only).
+The list only shows the YEAR; --dates fills exact dates from the WP REST API (/wp-json/wp/v2/sermon). Checked
+Oct 2026: those are the preached dates (91% Sundays, all agree with the listed year), so always pass --dates.
 
 Usage (run on a machine that can reach gospelinlife.com):
     uv run scraping/gil_scrape.py                  # fetch all pages (cached), write scraping/keller_episodes.json
