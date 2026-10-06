@@ -7,11 +7,11 @@ const CONFIG = {
   booksUrl: 'data/books.json',
   churchesUrl: 'data/churches.json',
   sermonsUrl: 'data/sermons.json',
-  notesUrl: 'data/notes.json',     // show notes, fetched lazily for the sermon page
+  notesUrl: 'data/notes.json',     // show notes, fetched lazily (sermon page + search)
   // e.g. 'https://github.com/<you>/<repo>/issues/new?template=sermon.md'  (null hides the link)
   suggestUrl: null,
   recentCount: 6,
-  maxResults: 24,
+  maxResults: 24,   // search results shown at first; "Show more" adds this many again
 };
 
 // Short labels for the jump-to-section row on phones (full names show on wider screens)
@@ -41,6 +41,9 @@ const state = {
   series: new Map(),       // id -> { id, name, church, color, sermons }
   speakers: new Map(),     // id -> { id, name, color, sermons }
   lastFocus: null,
+  notes: null,             // id -> show notes text, once data/notes.json has loaded
+  shown: 0,                // how many search results are rendered
+  shownFor: '',            // the query `shown` belongs to (a new query starts over)
 };
 
 const SEARCH_PLACEHOLDER = 'Book, passage (John 3), topic, speaker';
@@ -199,7 +202,14 @@ function normalizeSermon(s, i) {
     refs,
     churchObj: church || { id: s.church, name: s.church || 'Unknown church', color: 'var(--faint)' },
     dateObj: date && !isNaN(date) ? date : null,
-    _hay: norm([s.title, s.speaker, s.series, s.passage, church?.name, ...(s.tags || [])].join(' ')),
+    // Searchable fields, weighted in searchSermons. Notes are added when notes.json arrives.
+    _f: {
+      title: norm(s.title),
+      series: norm(s.series),
+      speaker: norm(s.speaker),
+      other: norm([s.passage, church?.name, church?.short, ...(s.tags || [])].join(' ')),
+      notes: '',
+    },
   };
 }
 
@@ -304,7 +314,7 @@ function speakerHtml(s) {
   return `<span class="speaker">${parts.join(names.length === 2 ? ' and ' : ', ')}</span>`;
 }
 
-function sermonCard(s) {
+function sermonCard(s, extra = '') {
   const firstBook = state.bookById.get(s.refs[0].book);
   const color = `var(--${firstBook.section})`;
   // A series named after the book ("John", "Acts") just repeats the passage line, so drop it.
@@ -336,6 +346,7 @@ function sermonCard(s) {
         <a class="title" href="#/sermon/${esc(s.id)}" data-sermon="${esc(s.id)}">${esc(s.title)}</a>
         <span class="meta">${meta}</span>
         ${tags ? `<span class="tags">${tags}</span>` : ''}
+        ${extra}
         <span class="listen">${icons}</span>
       </article>
     </li>`;
@@ -504,7 +515,8 @@ function renderResults(sermons) {
   if (group) return renderScopeResults(group, sermons, q);
   if (q.length < 2) { panel.hidden = true; return; }
 
-  const hits = searchSermons(sermons, q).sort(byDateDesc);
+  const hits = searchSermons(sermons, q);
+  if (state.shownFor !== q) { state.shownFor = q; state.shown = CONFIG.maxResults; }
 
   if (!hits.length) {
     panel.hidden = matchBooks(state.query).length > 0; // book matches are shown in the grid
@@ -514,7 +526,8 @@ function renderResults(sermons) {
   panel.hidden = false;
   panel.innerHTML = `
     <div class="panel-head"><h2>Sermons matching “${esc(state.query)}”</h2><span class="muted">${hits.length}</span></div>
-    <ul class="sermons cols">${hits.slice(0, CONFIG.maxResults).map((s) => sermonCard(s)).join('')}</ul>`;
+    <ul class="sermons cols">${hits.slice(0, state.shown).map((s) => sermonCard(s, noteExcerpt(s))).join('')}</ul>
+    ${hits.length > state.shown ? `<button type="button" class="more-btn" data-more>Show ${Math.min(CONFIG.maxResults * 2, hits.length - state.shown)} more <span class="muted">· ${state.shown} of ${hits.length}</span></button>` : ''}`;
 }
 
 /** Series view (in order, oldest first) or speaker view (newest first), optionally narrowed by typed text. */
@@ -550,13 +563,68 @@ function renderScopeResults(group, sermons, q) {
     ${body}`;
 }
 
+/* Search ranking: every typed word has to start a word somewhere in the sermon.
+   Each word scores by the best field it hits; a title containing the whole phrase gets a bonus.
+   Ties go to the newer sermon. Passage searches ("John 3") list that chapter's sermons newest-first, then whole-book ones. */
+const FIELD_WEIGHT = { title: 10, series: 6, speaker: 6, other: 3, notes: 1 };
+const reEsc = (t) => t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+
+const wholeBookOnly = (s, bookId) => (s.refs.some((r) => r.book === bookId && r.start != null) ? 0 : 1);
+
 function searchSermons(sermons, q) {
   const ref = parseRef(state.query);
   if (ref) {
-    return sermons.filter((s) => s.refs.some((r) => r.book === ref.book.id && (r.start == null || (ref.chapter >= r.start && ref.chapter <= r.end))));
+    return sermons
+      .filter((s) => s.refs.some((r) => r.book === ref.book.id && (r.start == null || (ref.chapter >= r.start && ref.chapter <= r.end))))
+      // Sermons on that chapter first; whole-book ones ("John" with no chapter) after them
+      .sort((a, b) => wholeBookOnly(a, ref.book.id) - wholeBookOnly(b, ref.book.id) || byDateDesc(a, b));
   }
-  const terms = q.split(' ');
-  return sermons.filter((s) => terms.every((t) => s._hay.includes(t)));
+  const terms = q.split(' ').filter(Boolean);
+  const res = terms.map((t) => new RegExp(`(?:^|[^a-z0-9])${reEsc(t)}`));
+  const phrase = terms.length > 1 ? q : null;
+  const out = [];
+  for (const s of sermons) {
+    let score = 0;
+    let notesOnly = false;
+    for (const re of res) {
+      let best = 0;
+      for (const f in FIELD_WEIGHT) if (FIELD_WEIGHT[f] > best && re.test(s._f[f])) best = FIELD_WEIGHT[f];
+      if (!best) { score = 0; break; }
+      if (best === FIELD_WEIGHT.notes) notesOnly = true;
+      score += best;
+    }
+    if (!score) continue;
+    if (phrase && s._f.title.includes(phrase)) score += 10;
+    s._score = score;
+    s._viaNotes = notesOnly;
+    out.push(s);
+  }
+  return out.sort((a, b) => b._score - a._score || byDateDesc(a, b));
+}
+
+/** A short show-notes snippet around the first typed word, for results found only through the notes. */
+function noteExcerpt(s) {
+  const text = s._viaNotes && state.notes?.[s.id];
+  if (!text) return '';
+  const words = norm(state.query).split(' ').filter((w) => w.length > 2 && !s._f.title.includes(w));
+  for (const w of words) {
+    const m = new RegExp(`(^|[^a-z0-9])(${reEsc(w)}[a-z]*)`, 'i').exec(text);
+    if (!m) continue;
+    const at = m.index + m[1].length;
+    const from = Math.max(0, text.lastIndexOf(' ', Math.max(0, at - 60)) + 1);
+    const to = Math.min(text.length, at + m[2].length + 70);
+    const clip = (from > 0 ? '…' : '') + esc(text.slice(from, at)) + `<mark>${esc(m[2])}</mark>` + esc(text.slice(at + m[2].length, to)) + (to < text.length ? '…' : '');
+    return `<span class="hit">${clip}</span>`;
+  }
+  return '';
+}
+
+/** notes.json landed: make the notes searchable, and refresh an open search. */
+function attachNotes(notes) {
+  if (state.notes || !notes || !Object.keys(notes).length) return;
+  state.notes = notes;
+  for (const s of state.sermons) s._f.notes = norm(notes[s.id] || '');
+  if (norm(state.query).length >= 2 || state.scope) render();
 }
 
 /** The colored token inside the search box while a series/speaker view is on. */
@@ -902,6 +970,7 @@ function bind() {
   });
   input.addEventListener('input', () => {
     syncClear();
+    if (!state.notes) loadNotes().then(attachNotes);
     clearTimeout(timer);
     timer = setTimeout(() => { state.query = input.value; render(); revealResults(); }, 80);
   });
@@ -939,6 +1008,11 @@ function bind() {
     if (g) {
       const [id, ch] = g.dataset.goto.split('/');
       go(id, ch ? Number(ch) : null);
+      return;
+    }
+    if (e.target.closest('[data-more]')) {
+      state.shown += CONFIG.maxResults * 2;
+      renderResults(visibleSermons());
       return;
     }
     const sc = e.target.closest('[data-scope]');
@@ -1108,5 +1182,5 @@ function bindSheetSwipe() {
   render();
   route();
   // Warm the show notes once the page is idle so the first sermon page opens with them
-  (window.requestIdleCallback || ((f) => setTimeout(f, 2000)))(() => loadNotes());
+  (window.requestIdleCallback || ((f) => setTimeout(f, 2000)))(() => loadNotes().then(attachNotes));
 })();
