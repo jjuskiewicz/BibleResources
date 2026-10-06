@@ -8,7 +8,6 @@ const CONFIG = {
   churchesUrl: 'data/churches.json',
   sermonsUrl: 'data/sermons.json',
   notesUrl: 'data/notes.json',     // show notes, fetched lazily for the sermon page
-  relatedCount: 4,                 // "Same passage, other churches" on the sermon page
   // e.g. 'https://github.com/<you>/<repo>/issues/new?template=sermon.md'  (null hides the link)
   suggestUrl: null,
   recentCount: 6,
@@ -525,7 +524,7 @@ function renderScopeResults(group, sermons, q) {
   const visible = new Set(sermons);
   const pool = group.sermons.filter((s) => visible.has(s));
   const hits = (q.length >= 2 ? searchSermons(pool, q) : pool)
-    .sort(isSeries ? (a, b) => -byDateDesc(a, b) : byDateDesc);
+    .sort(isSeries ? seriesOrder : byDateDesc);
 
   const dates = group.sermons.map((s) => s.dateObj).filter(Boolean).sort((a, b) => a - b);
   const month = (d) => d.toLocaleDateString('en-US', { month: 'short', year: 'numeric' });
@@ -688,27 +687,21 @@ function loadNotes() {
   return notesPromise;
 }
 
-/** Chapters a ref covers, or null for a whole-book ref. */
-const refChapters = (r) => (r.start == null ? null : Array.from({ length: r.end - r.start + 1 }, (_, i) => r.start + i));
+/** Series order: by date; year-only sermons (Keller) by year, then by the site's post number. */
+function seriesOrder(a, b) {
+  const t = (x) => x.dateObj?.getTime() ?? (x.year ? Date.UTC(x.year, 0, 1) : 0);
+  const n = (x) => Number(String(x.id).match(/(\d+)$/)?.[1] ?? 0);
+  return t(a) - t(b) || n(a) - n(b);
+}
 
-/** Closest sermons on the same passage from other churches: chapter overlap (Jaccard), then newest. */
-function samePassage(s) {
-  const scored = [];
-  for (const t of state.sermons) {
-    if (t.church === s.church) continue;
-    let best = 0;
-    for (const a of s.refs) {
-      for (const b of t.refs) {
-        if (a.book !== b.book) continue;
-        const ca = refChapters(a), cb = refChapters(b);
-        if (!ca || !cb) { if (!ca && !cb) best = Math.max(best, 0.5); continue; } // whole-book overview <-> overview
-        const inter = ca.filter((c) => cb.includes(c)).length;
-        if (inter) best = Math.max(best, inter / new Set([...ca, ...cb]).size);
-      }
-    }
-    if (best) scored.push([best, t]);
-  }
-  return scored.sort((x, y) => y[0] - x[0] || byDateDesc(x[1], y[1])).slice(0, CONFIG.relatedCount).map((x) => x[1]);
+/** One compact row in the sermon page's series list; the open sermon is marked, not linked. */
+function seriesRow(t, i, current) {
+  const when = t.dateObj ? fmtDate(t.dateObj) : t.year || '';
+  const sub = [refLabel(t), t.speaker !== current.speaker && t.speaker, when].filter(Boolean).map(esc).join(' · ');
+  const inner = `<span class="n">${i + 1}</span><span class="t">${esc(t.title)}<small>${sub}</small></span>`;
+  return t === current
+    ? `<li><div class="s-row current" aria-current="page">${inner}<span class="here">Viewing</span></div></li>`
+    : `<li><a class="s-row" href="#/sermon/${esc(t.id)}" data-sermon="${esc(t.id)}">${inner}</a></li>`;
 }
 
 function renderSermon(s) {
@@ -741,32 +734,21 @@ function renderSermon(s) {
 
   let seriesHtml = '';
   if (group) {
-    const inOrder = [...group.sermons].sort((a, b) => -byDateDesc(a, b));
+    const inOrder = [...group.sermons].sort(seriesOrder);
     const i = inOrder.indexOf(s);
-    const prev = inOrder[i - 1], next = inOrder[i + 1];
     seriesHtml = `
       <section class="s-block">
-        <h3 class="label">More in this series</h3>
-        <p class="s-sub">Message ${i + 1} of ${inOrder.length} in ${facet('series', group.id, group.name, ' series')}</p>
-        <ul class="sermons">
-          ${prev ? `<li class="group-label">Previous</li>${sermonCard(prev)}` : ''}
-          ${next ? `<li class="group-label">Next</li>${sermonCard(next)}` : ''}
-        </ul>
+        <h3 class="label">This series</h3>
+        <p class="s-sub">${facet('series', group.id, group.name, ' series')} · message ${i + 1} of ${inOrder.length}</p>
+        <ol class="series-list">${inOrder.map((t, j) => seriesRow(t, j, s)).join('')}</ol>
       </section>`;
   }
-  const related = samePassage(s);
-  const relatedHtml = related.length ? `
-    <section class="s-block">
-      <h3 class="label">Same passage, other churches</h3>
-      <ul class="sermons">${related.map((t) => sermonCard(t)).join('')}</ul>
-    </section>` : '';
 
   $('#d-sermon').innerHTML = `
     <div class="listen-btns">${buttons}</div>
     <dl class="facts">${facts}</dl>
     <section id="d-notes" class="s-block notes" hidden></section>
-    ${seriesHtml}
-    ${relatedHtml}`;
+    ${seriesHtml}`;
 
   loadNotes().then((notes) => {
     if (state.open?.sermonId !== s.id) return;
