@@ -264,6 +264,15 @@ def title_for_books(raw: str) -> str:
 
 
 # ---------- main ----------
+def clean_notes(desc: str) -> str:
+    """Episode description worth showing on the sermon page, or "" for empty/boilerplate ones."""
+    d = re.sub(r"\s+", " ", desc or "").strip()
+    d = re.sub(r'^From the series "[^"]*"\.?\s*', "", d)  # Bridgetown prefix; series is shown already
+    if len(d) < 60 or re.match(r"^Church of the City New York - COTCNYC", d):
+        return ""
+    return d
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("input", type=Path)
@@ -371,6 +380,8 @@ def main() -> None:
             "refs": [{k: v for k, v in r.items() if not k.startswith("_")} for r in refs],
             "url": ep["url"],
             **({"appleUrl": ep["appleUrl"]} if ep.get("appleUrl") else {}),
+            # Show notes for the sermon page; build_sermons.py moves these into data/notes.json
+            **({"notes": notes} if (notes := clean_notes(ep.get("desc", ""))) else {}),
             "tags": [],
             "source": args.source,
             "durationMin": round(mins),
@@ -400,7 +411,10 @@ def main() -> None:
         link = series_links.get(ep_id)
         if link:
             rec["seriesKey"] = link["key"]
-            if not rec["series"] and link["basis"] == "desc":  # 'From the series "X"' - a real name, not a wk-run
+            # 'From the series "X"' gives a real name (a wk-run name is just a placeholder). Once written to the
+            # review CSV that name comes back as basis "explicit" on the next series_links.py run, so accept both
+            # or the name flips on/off every rebuild.
+            if not rec["series"] and link["basis"] != "wk-run":
                 rec["series"] = link["name"]
         if not rec["refs"]:
             rec.pop("refSource", None)

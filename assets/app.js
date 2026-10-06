@@ -7,6 +7,8 @@ const CONFIG = {
   booksUrl: 'data/books.json',
   churchesUrl: 'data/churches.json',
   sermonsUrl: 'data/sermons.json',
+  notesUrl: 'data/notes.json',     // show notes, fetched lazily for the sermon page
+  relatedCount: 4,                 // "Same passage, other churches" on the sermon page
   // e.g. 'https://github.com/<you>/<repo>/issues/new?template=sermon.md'  (null hides the link)
   suggestUrl: null,
   recentCount: 6,
@@ -30,10 +32,12 @@ const state = {
   bookById: new Map(),
   churches: new Map(),
   sermons: [],
+  sermonById: new Map(),
   testament: 'all',
   churchFilter: new Set(), // empty = all
   query: '',
-  open: null,              // { bookId, chapter }
+  open: null,              // { bookId, chapter } or { sermonId }
+  bookScroll: null,        // { key, top } so Back from a sermon lands where you were in the list
   scope: null,             // { kind: 'series' | 'speaker', id }
   series: new Map(),       // id -> { id, name, church, color, sermons }
   speakers: new Map(),     // id -> { id, name, color, sermons }
@@ -121,6 +125,7 @@ async function load() {
 
   const raw = Array.isArray(sermonData) ? sermonData : sermonData.sermons || [];
   state.sermons = raw.map(normalizeSermon).filter(Boolean);
+  state.sermonById = new Map(state.sermons.map((s) => [s.id, s]));
   buildGroups();
 }
 
@@ -242,7 +247,34 @@ const isTouch = matchMedia('(hover: none) and (pointer: coarse)').matches;
 /* ============================================================
    Rendering
    ============================================================ */
-const EXT_ICON = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg>';
+/* ---------- Listening links ---------- */
+const ICON = {
+  spotify: '<span class="brand-ico spotify" aria-hidden="true"></span>',
+  apple: '<span class="brand-ico apple" aria-hidden="true"></span>',
+  web: '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"/></svg>',
+  audio: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 15v-3a8 8 0 0 1 16 0v3"/><rect x="3" y="14" width="5" height="7" rx="1.5"/><rect x="16" y="14" width="5" height="7" rx="1.5"/></svg>',
+};
+const hostOf = (u) => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch { return ''; } };
+const SITE_NAMES = { 'gospelinlife.com': 'Gospel in Life' };
+
+/** Last service the viewer listened on ("spotify" / "apple"), so the sermon page leads with it. */
+const PREF_KEY = 'listenOn';
+const getPref = () => { try { return localStorage.getItem(PREF_KEY); } catch { return null; } };
+const setPref = (v) => { try { localStorage.setItem(PREF_KEY, v); } catch { /* private mode */ } };
+
+/** Every place a sermon can be heard, in a fixed order: Spotify, Apple, church site, audio file. */
+function listenLinks(s) {
+  const out = [];
+  const host = hostOf(s.url);
+  if (host === 'open.spotify.com') out.push({ kind: 'spotify', url: s.url, name: 'Spotify' });
+  if (s.appleUrl) out.push({ kind: 'apple', url: s.appleUrl, name: 'Apple Podcasts' });
+  if (s.url && host !== 'open.spotify.com') out.push({ kind: 'web', url: s.url, name: SITE_NAMES[host] || host || 'Church site' });
+  if (s.audio) out.push({ kind: 'audio', url: s.audio, name: 'Audio file' });
+  return out;
+}
+
+const listenAttrs = (l) =>
+  `href="${esc(l.url)}" target="_blank" rel="noopener noreferrer" data-listen="${l.kind}"`;
 
 /** One pill per book reference; each opens that book (and chapter) page. */
 function refPills(s) {
@@ -287,22 +319,25 @@ function sermonCard(s) {
     `<span class="who"><span class="dot" style="--cc:${esc(s.churchObj.color)}"></span>${churchName(s.churchObj)}</span>`,
     speakerHtml(s),
     s.durationMin && `<span class="dur">${Math.round(s.durationMin)} min</span>`,
-    // The card itself opens the main link (usually Spotify); Apple gets its own link above the card's hit area.
-    // Placed before the series so on phones (one meta line) the series is what truncates, not this.
-    s.appleUrl && `<a class="alt" href="${esc(s.appleUrl)}" target="_blank" rel="noopener noreferrer" aria-label="Listen on Apple Podcasts"><span class="long">Apple Podcasts</span><span class="short">Apple</span></a>`,
     seriesHtml,
   ].filter(Boolean).join('');
   const when = s.dateObj ? `<time datetime="${esc(s.date)}" title="${fmtDate(s.dateObj)}">${fmtShort(s.dateObj)}</time>`
     : s.year ? `<time datetime="${esc(s.year)}" title="Exact date unknown">${esc(s.year)}</time>` : '';
   const tags = (s.tags || []).map((t) => `<span class="tag">#${esc(t)}</span>`).join('');
+  // One-tap listening: up to two services as icon buttons; the rest of the card opens the sermon page.
+  // The audio file only gets an icon when there's no Spotify/Apple pair (e.g. Keller: site + audio).
+  const all = listenLinks(s);
+  const players = all.filter((l) => l.kind !== 'audio');
+  const icons = (players.length >= 2 ? players : all).slice(0, 2).map((l) =>
+    `<a class="ico ${l.kind}" ${listenAttrs(l)} aria-label="Listen on ${esc(l.name)}" title="Listen on ${esc(l.name)}">${ICON[l.kind]}</a>`).join('');
   return `
     <li>
       <article class="sermon" style="--c:${color}">
         <span class="ref"><span class="pass">${refPills(s)}</span>${when}</span>
-        <a class="title" href="${esc(s.url)}" target="_blank" rel="noopener noreferrer" title="Opens ${esc(s.churchObj.name)} in a new tab">${esc(s.title)}</a>
+        <a class="title" href="#/sermon/${esc(s.id)}" data-sermon="${esc(s.id)}">${esc(s.title)}</a>
         <span class="meta">${meta}</span>
         ${tags ? `<span class="tags">${tags}</span>` : ''}
-        ${EXT_ICON}
+        <span class="listen">${icons}</span>
       </article>
     </li>`;
 }
@@ -567,11 +602,24 @@ function render() {
    Drawer (book detail)
    ============================================================ */
 function renderDrawer() {
+  const drawer = $('#drawer');
+  const isSermon = !!state.open.sermonId;
+  drawer.classList.toggle('is-sermon', isSermon);
+  $('#d-book').hidden = isSermon;
+  $('#d-sermon').hidden = !isSermon;
+  $('#d-back').hidden = !isSermon;
+  $('#d-share').hidden = isSermon;
+  if (isSermon) return renderSermon(state.sermonById.get(state.open.sermonId));
+  renderBook();
+}
+
+function renderBook() {
   const { bookId, chapter } = state.open;
   const book = state.bookById.get(bookId);
   const section = state.sections.find((s) => s.id === book.section);
   const drawer = $('#drawer');
   drawer.style.setProperty('--c', `var(--${book.section})`);
+  $('#drawer').setAttribute('aria-labelledby', 'd-title');
 
   const all = visibleSermons().filter((s) => s.refs.some((r) => r.book === bookId));
   const chaptersWith = new Set();
@@ -631,13 +679,129 @@ function renderDrawer() {
   $('#d-list').innerHTML = html;
 }
 
-function openDrawer(bookId, chapter) {
-  const wasOpen = !!state.open;
-  const switched = wasOpen && state.open.bookId !== bookId;
-  state.open = { bookId, chapter: chapter ?? null };
+/* ============================================================
+   Sermon page (inside the same panel; Back returns to the list)
+   ============================================================ */
+let notesPromise = null;
+function loadNotes() {
+  notesPromise ||= getJSON(CONFIG.notesUrl).catch((err) => { console.warn(err); notesPromise = null; return {}; });
+  return notesPromise;
+}
+
+/** Chapters a ref covers, or null for a whole-book ref. */
+const refChapters = (r) => (r.start == null ? null : Array.from({ length: r.end - r.start + 1 }, (_, i) => r.start + i));
+
+/** Closest sermons on the same passage from other churches: chapter overlap (Jaccard), then newest. */
+function samePassage(s) {
+  const scored = [];
+  for (const t of state.sermons) {
+    if (t.church === s.church) continue;
+    let best = 0;
+    for (const a of s.refs) {
+      for (const b of t.refs) {
+        if (a.book !== b.book) continue;
+        const ca = refChapters(a), cb = refChapters(b);
+        if (!ca || !cb) { if (!ca && !cb) best = Math.max(best, 0.5); continue; } // whole-book overview <-> overview
+        const inter = ca.filter((c) => cb.includes(c)).length;
+        if (inter) best = Math.max(best, inter / new Set([...ca, ...cb]).size);
+      }
+    }
+    if (best) scored.push([best, t]);
+  }
+  return scored.sort((x, y) => y[0] - x[0] || byDateDesc(x[1], y[1])).slice(0, CONFIG.relatedCount).map((x) => x[1]);
+}
+
+function renderSermon(s) {
+  const drawer = $('#drawer');
+  drawer.style.setProperty('--c', s.churchObj.color);
+  $('#d-section').innerHTML = `<span class="dot" style="--cc:${esc(s.churchObj.color)}"></span>${esc(s.churchObj.name)}`;
+  $('#d-title').textContent = s.title;
+  $('#d-meta').textContent = [
+    s.dateObj ? fmtDate(s.dateObj) : s.year,
+    s.durationMin && `${Math.round(s.durationMin)} min`,
+  ].filter(Boolean).join(' · ');
+  $('#d-bp').hidden = true;
+
+  // Big buttons: the service this viewer last used goes first
+  const pref = getPref();
+  const links = listenLinks(s).sort((a, b) => (b.kind === pref) - (a.kind === pref));
+  const buttons = links.map((l, i) => `
+    <a class="listen-btn ${l.kind}${i === 0 ? ' primary' : ''}" ${listenAttrs(l)}>
+      ${ICON[l.kind]}<span class="lb-text"><small>${l.kind === 'audio' ? 'Play the' : 'Listen on'}</small>${esc(l.name)}</span>
+    </a>`).join('');
+
+  const bookNames = new Set(s.refs.map((r) => norm(state.bookById.get(r.book).name)));
+  const seriesName = s.series && !bookNames.has(norm(s.series)) ? s.series : '';
+  const group = s._seriesId ? state.series.get(s._seriesId) : null;
+  const facts = [
+    ['Passage', `<span class="pass">${refPills(s)}</span>`],
+    s.speaker && ['Speaker', speakerHtml(s)],
+    seriesName && ['Series', group ? facet('series', group.id, group.name, ' series') : `<span class="series">${esc(seriesName)}</span>`],
+  ].filter(Boolean).map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join('');
+
+  let seriesHtml = '';
+  if (group) {
+    const inOrder = [...group.sermons].sort((a, b) => -byDateDesc(a, b));
+    const i = inOrder.indexOf(s);
+    const prev = inOrder[i - 1], next = inOrder[i + 1];
+    seriesHtml = `
+      <section class="s-block">
+        <h3 class="label">More in this series</h3>
+        <p class="s-sub">Message ${i + 1} of ${inOrder.length} in ${facet('series', group.id, group.name, ' series')}</p>
+        <ul class="sermons">
+          ${prev ? `<li class="group-label">Previous</li>${sermonCard(prev)}` : ''}
+          ${next ? `<li class="group-label">Next</li>${sermonCard(next)}` : ''}
+        </ul>
+      </section>`;
+  }
+  const related = samePassage(s);
+  const relatedHtml = related.length ? `
+    <section class="s-block">
+      <h3 class="label">Same passage, other churches</h3>
+      <ul class="sermons">${related.map((t) => sermonCard(t)).join('')}</ul>
+    </section>` : '';
+
+  $('#d-sermon').innerHTML = `
+    <div class="listen-btns">${buttons}</div>
+    <dl class="facts">${facts}</dl>
+    <section id="d-notes" class="s-block notes" hidden></section>
+    ${seriesHtml}
+    ${relatedHtml}`;
+
+  loadNotes().then((notes) => {
+    if (state.open?.sermonId !== s.id) return;
+    const text = notes[s.id];
+    const box = $('#d-notes');
+    if (!box || !text) return;
+    box.innerHTML = `<h3 class="label">About this sermon</h3><p>${esc(text)}</p>`;
+    box.hidden = false;
+  });
+}
+
+const bookKey = (o) => `${o.bookId}/${o.chapter ?? ''}`;
+
+/** Show the panel in book or sermon mode, keeping the book list's scroll position across a sermon visit. */
+function showDrawer(next) {
+  const prev = state.open;
+  const body = $('.drawer-body');
+  if (prev?.bookId) state.bookScroll = { key: bookKey(prev), top: body.scrollTop };
+  state.open = next;
   renderDrawer();
-  if (switched) $('.drawer-body').scrollTop = 0;
-  if (!wasOpen) {
+  if (next.bookId && state.bookScroll?.key === bookKey(next) && prev?.sermonId) body.scrollTop = state.bookScroll.top;
+  else if (!prev || prev.sermonId !== next.sermonId || prev.bookId !== next.bookId) body.scrollTop = 0;
+  openPanel(!prev);
+}
+
+function openSermon(id) {
+  showDrawer({ sermonId: id });
+}
+
+function openDrawer(bookId, chapter) {
+  showDrawer({ bookId, chapter: chapter ?? null });
+}
+
+function openPanel(firstOpen) {
+  if (firstOpen) {
     state.lastFocus = document.activeElement;
     $('#drawer').hidden = false;
     $('#scrim').hidden = false;
@@ -652,6 +816,7 @@ function openDrawer(bookId, chapter) {
 function closeDrawer(restoreFocus = true) {
   if (!state.open) return;
   const bookId = state.open.bookId;
+  state.bookScroll = null;
   state.open = null;
   $('#drawer').hidden = true;
   $('#scrim').hidden = true;
@@ -662,36 +827,49 @@ function closeDrawer(restoreFocus = true) {
 }
 
 /* ============================================================
-   Routing: #/john, #/john/3, #/series/<id>, #/speaker/<id>
+   Routing: #/john, #/john/3, #/series/<id>, #/speaker/<id>, #/sermon/<id>
    (shareable links for group texts)
    ============================================================ */
 const scopeHash = (sc) => `#/${sc.kind}/${sc.id}`;
 
+/** In-app navigation. history.state.app counts entries made inside the site, so Back on a
+ *  sermon page can use the browser's history when there is some, and fall back when the page
+ *  was opened straight from a shared link. */
+function nav(hash) {
+  if (location.hash === hash) { route(); return; }
+  history.pushState({ app: (history.state?.app || 0) + 1 }, '', hash || location.pathname + location.search);
+  route();
+}
+
 function go(bookId, chapter) {
   // Closing a book returns to the series/speaker view it was opened from
-  const hash = bookId ? `#/${bookId}${chapter ? `/${chapter}` : ''}` : state.scope ? scopeHash(state.scope) : '';
-  if (location.hash !== hash) {
-    if (hash) location.hash = hash;
-    else { history.pushState(null, '', location.pathname + location.search); route(); }
-  } else {
-    route();
-  }
+  nav(bookId ? `#/${bookId}${chapter ? `/${chapter}` : ''}` : state.scope ? scopeHash(state.scope) : '');
 }
 
 function setScope(kind, id) {
-  const hash = scopeHash({ kind, id });
-  if (location.hash !== hash) location.hash = hash;
-  else route();
+  nav(scopeHash({ kind, id }));
+}
+
+function back() {
+  if (history.state?.app) { history.back(); return; }
+  const s = state.sermonById.get(state.open?.sermonId);
+  const r = s?.refs[0];
+  go(r?.book ?? null, r?.start ?? null); // opened from a shared link: go to that passage
 }
 
 function clearScope() {
   if (!state.scope) return;
-  if (location.hash === scopeHash(state.scope)) history.pushState(null, '', location.pathname + location.search);
+  if (location.hash === scopeHash(state.scope)) history.pushState({ app: (history.state?.app || 0) + 1 }, '', location.pathname + location.search);
   state.scope = null;
   render();
 }
 
 function route() {
+  const sm = location.hash.match(/^#\/sermon\/([A-Za-z0-9_-]+)$/);
+  if (sm && state.sermonById.has(sm[1])) {
+    openSermon(sm[1]);
+    return;
+  }
   const sc = location.hash.match(/^#\/(series|speaker)\/([a-z0-9-]+)$/);
   if (sc && scopeGroup({ kind: sc[1], id: sc[2] })) {
     const changed = state.scope?.kind !== sc[1] || state.scope?.id !== sc[2];
@@ -766,6 +944,15 @@ function bind() {
 
   // Book pills and series/speaker links on sermon cards (anywhere on the page)
   document.addEventListener('click', (e) => {
+    const l = e.target.closest('[data-listen]');
+    if (l) { if (l.dataset.listen === 'spotify' || l.dataset.listen === 'apple') setPref(l.dataset.listen); return; }
+    const sm = e.target.closest('a[data-sermon]');
+    if (sm) {
+      if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || e.button) return; // new tab/window: let the link work
+      e.preventDefault();
+      nav(`#/sermon/${sm.dataset.sermon}`);
+      return;
+    }
     const g = e.target.closest('[data-goto]');
     if (g) {
       const [id, ch] = g.dataset.goto.split('/');
@@ -786,7 +973,7 @@ function bind() {
       go(null);
     } else if (e.key === 'Tab' && state.open) {
       // keep focus inside the dialog
-      const focusables = [...$('#drawer').querySelectorAll('button:not([disabled]), a[href]')];
+      const focusables = [...$('#drawer').querySelectorAll('button:not([disabled]), a[href]')].filter((el) => el.offsetParent);
       const first = focusables[0], last = focusables[focusables.length - 1];
       if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
       else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
@@ -833,11 +1020,13 @@ function bind() {
   });
 
   $('#d-close').addEventListener('click', () => go(null));
+  $('#d-back').addEventListener('click', back);
   $('#scrim').addEventListener('click', () => go(null));
   $('#d-share').addEventListener('click', async () => {
     // Phones: native share sheet (Messages, WhatsApp...). Desktop: copy to clipboard.
     if (isTouch && navigator.share) {
       const { bookId, chapter } = state.open;
+      if (!bookId) return;
       const name = state.bookById.get(bookId).name + (chapter ? ` ${chapter}` : '');
       try { await navigator.share({ title: `${name} sermons`, url: location.href }); } catch { /* dismissed */ }
       return;
@@ -936,4 +1125,6 @@ function bindSheetSwipe() {
   bind();
   render();
   route();
+  // Warm the show notes once the page is idle so the first sermon page opens with them
+  (window.requestIdleCallback || ((f) => setTimeout(f, 2000)))(() => loadNotes());
 })();

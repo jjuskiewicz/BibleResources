@@ -25,6 +25,8 @@
   --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
   --sans: Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
   --radius: 10px;
+  --spotify: #1db954;
+  --apple-podcasts: #8c3fd0;
   color-scheme: light;
 }
 
@@ -50,6 +52,8 @@
     --pauline: #8ea6e3;
     --general: #a99be0;
     --prophecy: #cc8bcc;
+    --spotify: #1ed760;
+    --apple-podcasts: #b77cf0;
     color-scheme: dark;
   }
 }
@@ -257,31 +261,43 @@ main { padding-top: 20px; padding-bottom: 40px; }
 .sermon .title::after { content: ""; position: absolute; inset: 0; border-radius: inherit; }
 .sermon .title:focus-visible { outline: none; }
 .sermon:has(.title:focus-visible) { outline: 2px solid var(--focus); outline-offset: 2px; }
-.sermon .pill, .sermon .facet, .sermon .alt { position: relative; z-index: 1; cursor: pointer; }
-.sermon .alt {
-  color: inherit; white-space: nowrap;
-  text-decoration: underline; text-decoration-color: var(--faint); text-underline-offset: 3px;
-}
-.sermon .alt:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; border-radius: 2px; }
-.sermon .pill {
+.sermon .pill, .sermon .facet, .sermon .ico { position: relative; z-index: 1; cursor: pointer; }
+:is(.sermon, .facts) .pill {
   flex: 0 1 auto; min-width: 0; overflow: hidden; text-overflow: ellipsis;
   border: 0; border-radius: 999px; padding: 1px 7px;
   font: inherit; letter-spacing: inherit; color: var(--pc);
   background: color-mix(in srgb, var(--pc) 10%, transparent);
   transition: background .12s ease;
 }
-.sermon .pill:active { background: color-mix(in srgb, var(--pc) 22%, transparent); }
-.sermon .facet {
+:is(.sermon, .facts) .pill:active { background: color-mix(in srgb, var(--pc) 22%, transparent); }
+:is(.sermon, .facts, .s-sub) .facet {
   border: 0; background: none; padding: 0; font: inherit; color: inherit; text-align: left;
   text-decoration: underline dotted; text-decoration-color: var(--faint); text-underline-offset: 3px;
 }
-.sermon .facet.series { font-style: italic; }
+:is(.sermon, .facts, .s-sub) .facet { cursor: pointer; }
+:is(.sermon, .facts, .s-sub) .facet.series { font-style: italic; }
 .sermon .meta { display: flex; flex-wrap: wrap; align-items: center; gap: 2px 12px; font-size: 13px; color: var(--muted); grid-column: 1; min-width: 0; }
 .sermon .meta .who { display: inline-flex; align-items: center; gap: 6px; }
 .sermon .meta .series { font-style: italic; }
 .sermon .tags { grid-column: 1; display: flex; flex-wrap: wrap; gap: 4px; margin-top: 4px; }
 .sermon .tag { font-size: 11px; padding: 1px 7px; border-radius: 999px; background: var(--surface-2); color: var(--muted); }
-.sermon > svg { grid-column: 2; grid-row: 1 / span 3; align-self: center; color: var(--faint); }
+.sermon .listen { grid-column: 2; grid-row: 1 / span 3; align-self: center; display: flex; flex-direction: column; gap: 4px; }
+
+/* Listen icons: brand marks are CSS masks over the SVG files, so they take a color */
+.brand-ico { display: block; width: 22px; height: 22px; background: currentColor; flex: none; }
+.brand-ico.spotify { -webkit-mask: url("spotify.svg") center / contain no-repeat; mask: url("spotify.svg") center / contain no-repeat; }
+.brand-ico.apple { -webkit-mask: url("apple-podcasts.svg") center / contain no-repeat; mask: url("apple-podcasts.svg") center / contain no-repeat; }
+.spotify { color: var(--spotify); }
+.apple { color: var(--apple-podcasts); }
+.web, .audio { color: var(--muted); }
+.sermon .ico {
+  width: 38px; height: 38px; display: grid; place-items: center;
+  border: 1px solid transparent; border-radius: 9px; text-decoration: none;
+  transition: background .12s ease, border-color .12s ease;
+}
+.sermon .ico svg { width: 20px; height: 20px; }
+.sermon .ico:active { background: var(--surface-2); border-color: var(--border); }
+.sermon .ico:focus-visible { outline: 2px solid var(--focus); outline-offset: 1px; }
 .group-label { font-size: 12px; font-weight: 600; color: var(--muted); margin: 14px 0 6px; }
 .group-label:first-child { margin-top: 0; }
 
@@ -297,10 +313,10 @@ main { padding-top: 20px; padding-bottom: 40px; }
 @media (hover: hover) {
   .tile:hover { transform: translateY(-1px); box-shadow: var(--shadow); border-color: var(--c); }
   .sermon:hover { border-color: var(--muted); background: var(--surface-2); }
-  .sermon:hover > svg { color: var(--ink); }
-  .sermon .pill:hover { background: color-mix(in srgb, var(--pc) 22%, transparent); }
-  .sermon .facet:hover { color: var(--ink); text-decoration-style: solid; text-decoration-color: currentColor; }
-  .sermon .alt:hover { color: var(--ink); text-decoration-color: currentColor; }
+  .sermon .ico:hover { background: var(--surface); border-color: var(--border); }
+  :is(.sermon, .facts) .pill:hover { background: color-mix(in srgb, var(--pc) 22%, transparent); }
+  :is(.sermon, .facts, .s-sub) .facet:hover { color: var(--ink); text-decoration-style: solid; text-decoration-color: currentColor; }
+  .listen-btn:hover { border-color: currentColor; }
   .search .scope:hover { background: color-mix(in srgb, var(--sc) 24%, var(--surface)); }
   .hint .token-mini:hover { border-color: var(--sc); }
   .icon-btn:hover { color: var(--ink); border-color: var(--muted); }
@@ -340,6 +356,33 @@ main { padding-top: 20px; padding-bottom: 40px; }
   border: 1px solid var(--border); border-radius: 8px; background: var(--surface); cursor: pointer; color: var(--muted);
 }
 .drawer:focus { outline: none; }
+.icon-btn[hidden] { display: none; }
+.drawer-titles { flex: 1; min-width: 0; }
+.icon-btn.back { margin: 2px -6px 0 -4px; }
+.drawer.is-sermon .drawer-head h2 { font-size: 24px; line-height: 1.2; }
+.drawer.is-sermon .drawer-head .eyebrow { display: flex; align-items: center; gap: 6px; }
+
+.listen-btns { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 18px; }
+.listen-btn {
+  flex: 1 1 150px; display: flex; align-items: center; gap: 10px; min-height: 52px; padding: 8px 14px;
+  border: 1px solid var(--border); border-radius: 12px; background: var(--surface); text-decoration: none;
+  transition: border-color .12s ease, background .12s ease;
+}
+.listen-btn .brand-ico, .listen-btn svg { width: 26px; height: 26px; }
+.listen-btn .lb-text { display: flex; flex-direction: column; line-height: 1.2; color: var(--ink); font-weight: 600; font-size: 15px; min-width: 0; overflow-wrap: break-word; }
+.listen-btn small { font-size: 11.5px; font-weight: 500; color: var(--muted); }
+.listen-btn.primary { border-color: color-mix(in srgb, currentColor 55%, var(--border)); background: color-mix(in srgb, currentColor 9%, var(--surface)); }
+.listen-btn:active { background: var(--surface-2); }
+.listen-btn:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+
+.facts { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 8px 14px; margin: 0 0 22px; font-size: 14px; align-items: baseline; }
+.facts dt { font: 600 11.5px/1.6 var(--sans); letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+.facts dd { margin: 0; min-width: 0; }
+.facts .pass { display: flex; flex-wrap: wrap; gap: 4px; margin-left: -7px; font-size: 13px; font-weight: 600; }
+.facts .pill { position: static; }
+.s-block { margin: 0 0 22px; }
+.notes p { margin: 0; font-size: 14.5px; line-height: 1.6; white-space: pre-line; }
+.s-sub { margin: -4px 0 10px; font-size: 13.5px; color: var(--muted); }
 .drawer-body { overflow-y: auto; padding: 18px 20px 32px; flex: 1; overscroll-behavior: contain; }
 
 .chapters { display: grid; grid-template-columns: repeat(auto-fill, minmax(38px, 1fr)); gap: 4px; margin-bottom: 24px; }
@@ -438,8 +481,8 @@ main { padding-top: 20px; padding-bottom: 40px; }
   /* Sermon cards: ref/date, title, one meta line */
   .sermons { gap: 6px; }
   .sermons.cols { grid-template-columns: 1fr; }
-  .sermon { grid-template-columns: minmax(0, 1fr); gap: 2px; padding: 9px 12px; }
-  .sermon > svg { display: none; }
+  .sermon { gap: 2px 6px; padding: 9px 6px 9px 12px; }
+  .sermon .ico { width: 38px; height: 36px; }
   .sermon .ref { font-size: 11.5px; }
   .sermon .title { font-size: 15.5px; line-height: 1.25;
     display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
@@ -473,7 +516,9 @@ main { padding-top: 20px; padding-bottom: 40px; }
   .drawer-body { padding: 0 14px calc(24px + env(safe-area-inset-bottom)); }
 
   /* Chapters: sticky one-line strip of only the chapters that have sermons */
-  .drawer-body > .label:first-child { display: none; }
+  #d-book > .label:first-child { display: none; }
+  #d-sermon { padding-top: 14px; }
+  .drawer.is-sermon .drawer-head h2 { font-size: 20px; }
   .chapters {
     position: sticky; top: 0; z-index: 2;
     display: flex; gap: 5px; overflow-x: auto; scrollbar-width: none;

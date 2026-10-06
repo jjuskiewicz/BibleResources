@@ -26,6 +26,8 @@ assets/app.js         rendering, search, routing  (CONFIG block at top)
 data/books.json       66 books, sections, chapter counts, search aliases, BibleProject guide links  (don't need to touch)
 data/churches.json    the churches we pull from
 data/sermons.json     the sermons  <-- this is what you'll grow
+data/notes.json       show notes per sermon id (generated; loaded only when a sermon page opens)
+assets/spotify.svg, assets/apple-podcasts.svg   listen icons (used as CSS masks, so CSS sets their color)
 tools/validate_data.py  checks the data before you push
 ```
 
@@ -65,7 +67,9 @@ tools/validate_data.py  checks the data before you push
 |---|---|---|
 | `title` | yes | |
 | `church` | yes | must match an `id` in churches.json |
-| `url` | yes | link to the sermon page / video / podcast episode |
+| `url` | yes | link to the sermon page / video / podcast episode (a Spotify link gets the Spotify icon) |
+| `appleUrl` | no | Apple Podcasts episode link (filled by `rss_to_episodes.py --apple`) |
+| `audio` | no | direct audio file; offered as "Play the audio file" |
 | `refs` | yes | one or more `{book, start, end}`. `book` is a books.json id (`genesis`, `1-samuel`, `song-of-songs`); names like `"1 Sam"` also resolve. Omit `start`/`end` for a whole-book overview. `end` defaults to `start`. |
 | `passage` | no | display text; if omitted it's generated from `refs` |
 | `speaker`, `date` (YYYY-MM-DD), `series`, `tags` | no | all searchable |
@@ -85,6 +89,7 @@ uv run tools/validate_data.py
 - Testament toggle and multi-select church filter.
 - Book drawer with a chapter picker (chapters with sermons are highlighted) and sermons grouped by chapter.
 - Shareable deep links: `#/john` or `#/john/3`. The link button in the drawer copies it.
+- Sermon cards: one-tap listen icons (Spotify / Apple, or site / audio when that's all there is); tapping the rest of the card opens the sermon page (`#/sermon/<id>`) in the same panel: big listen buttons (the service you used last goes first, remembered per browser), passage/speaker/series, show notes, previous/next in the series, and the closest sermons on the same passage from other churches. Back returns to the list where you left it; a shared sermon link's Back goes to that passage.
 - Keyboard: `/` focuses search, `Esc` closes the drawer. Light/dark follow the OS. Drawer is a bottom sheet on phones.
 - Phones: compact header, sticky search, 4-across book grid, 3-line sermon cards (passage/date, title, church · speaker · length · series). The book sheet has a sticky, swipeable strip of only the chapters that have sermons; drag the sheet header down to close; the link button opens the native share sheet.
 - Jump-to-section row under the search bar (Law, History, Wisdom...). Tapping one scrolls there; it highlights the section you're in as you scroll and hides while a search is active.

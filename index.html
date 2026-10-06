@@ -71,7 +71,10 @@
   <aside id="drawer" class="drawer" tabindex="-1" role="dialog" aria-modal="true" aria-labelledby="d-title" hidden>
     <div class="drawer-head">
       <span class="grabber" aria-hidden="true"></span>
-      <div>
+      <button id="d-back" class="icon-btn back" type="button" aria-label="Back" hidden>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+      </button>
+      <div class="drawer-titles">
         <p id="d-section" class="eyebrow"></p>
         <h2 id="d-title"></h2>
         <div class="meta-row">
@@ -89,10 +92,13 @@
       </div>
     </div>
     <div class="drawer-body">
-      <h3 class="label">Chapters</h3>
-      <div id="d-chapters" class="chapters" role="group" aria-label="Filter by chapter"></div>
-      <h3 id="d-list-label" class="label"></h3>
-      <ul id="d-list" class="sermons"></ul>
+      <div id="d-book">
+        <h3 class="label">Chapters</h3>
+        <div id="d-chapters" class="chapters" role="group" aria-label="Filter by chapter"></div>
+        <h3 id="d-list-label" class="label"></h3>
+        <ul id="d-list" class="sermons"></ul>
+      </div>
+      <div id="d-sermon" hidden></div>
     </div>
     <div id="toast" class="toast" role="status" hidden></div>
   </aside>
