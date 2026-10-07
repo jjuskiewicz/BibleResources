@@ -23,7 +23,7 @@ python3 -m http.server 8000
 index.html            page shell
 assets/styles.css     design tokens, light/dark, mobile bottom sheet
 assets/app.js         rendering, search, routing  (CONFIG block at top)
-data/books.json       66 books, sections, chapter counts, search aliases, BibleProject guide links  (don't need to touch)
+data/books.json       66 books, sections, chapter counts, search aliases, BibleProject guide links, Blue Letter Bible codes  (don't need to touch)
 data/churches.json    the churches we pull from
 data/sermons.json     the sermons  <-- this is what you'll grow
 data/notes.json       show notes per sermon id (generated; loaded only when a sermon page opens)
@@ -106,6 +106,7 @@ Top of `assets/app.js`:
 - `suggestUrl`: set to a GitHub "new issue" URL (or a Google Form) to show "Suggest a sermon" links.
 - `recentCount`: how many items in "Latest sermons" (newest by preached date).
 - `maxResults`, `speakerPage`, `inBooks`: search results per page, speaker-page sermons per page, books in the search "In" row.
+- `bibleVersion`, `bibleVersions`: default translation for the "Read" links to BibleGateway and Blue Letter Bible (`NIV`), and the versions the small picker next to them offers (NIV, ESV, NLT, KJV). A visitor's pick is remembered in their browser. Any version added must exist on both sites under the same code (BLB uses it lowercased). A book page shows the Read links under the chapter buttons once a chapter is picked; a sermon page shows them in a "Read" row (BibleGateway gets every passage with verse ranges, Blue Letter Bible opens at the first passage's starting verse; whole-book refs like "Mark" are skipped). Blue Letter Bible book codes are the `blb` field in `data/books.json`.
 
 ## Data pipeline
 

@@ -14,6 +14,10 @@ const CONFIG = {
   maxResults: 24,   // search results shown at first; "Show more" adds this many again
   speakerPage: 30,  // speaker page in the panel: sermons shown at first, "Show more" adds this many
   inBooks: 12,      // search: how many books the "In" row lists
+  // "Read" links (BibleGateway / Blue Letter Bible): the default translation and the ones the picker offers.
+  // Each must exist on both sites under the same code (BLB uses it lowercased: /esv/jhn/3/16/).
+  bibleVersion: 'NIV',
+  bibleVersions: ['NIV', 'ESV', 'NLT', 'KJV'],
 };
 
 // Short labels for the jump-to-section row (full names stay in the tooltip / screen reader label)
@@ -404,6 +408,21 @@ const PREF_KEY = 'listenOn';
 const getPref = () => { try { return localStorage.getItem(PREF_KEY); } catch { return null; } };
 const setPref = (v) => { try { localStorage.setItem(PREF_KEY, v); } catch { /* private mode */ } };
 
+// Bible version for the "Read" links, remembered per browser
+const VERSION_KEY = 'bibleVersion';
+function bibleVersion() {
+  let v = null;
+  try { v = localStorage.getItem(VERSION_KEY); } catch { /* private mode */ }
+  return CONFIG.bibleVersions.includes(v) ? v : CONFIG.bibleVersion;
+}
+function setBibleVersion(v) {
+  if (!CONFIG.bibleVersions.includes(v)) return;
+  try { localStorage.setItem(VERSION_KEY, v); } catch { /* private mode */ }
+  memVersion = v;
+}
+let memVersion = null; // so the choice still holds this visit when storage is blocked
+const currentVersion = () => memVersion || bibleVersion();
+
 /** Book panel "Book studies only" toggle, remembered per browser. */
 const STUDY_KEY = 'studyOnly';
 try { state.studyOnly = localStorage.getItem(STUDY_KEY) === '1'; } catch { /* private mode */ }
@@ -454,6 +473,79 @@ function listenLinks(s) {
 
 const listenAttrs = (l) =>
   `href="${esc(l.url)}" target="_blank" rel="noopener noreferrer" data-listen="${l.kind}"`;
+
+/* ---------- "Read" links: BibleGateway and Blue Letter Bible ---------- */
+const bgUrl = (search) =>
+  `https://www.biblegateway.com/passage/?search=${encodeURIComponent(search)}&version=${encodeURIComponent(currentVersion())}`;
+// blueletterbible.org/niv/jhn/8/31/ opens John 8 at verse 31; book codes live in books.json ("blb")
+const blbUrl = (book, chapter, verse = 1) =>
+  `https://www.blueletterbible.org/${encodeURIComponent(currentVersion().toLowerCase())}/${book.blb}/${chapter}/${verse}/`;
+
+const EXT_ARROW = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>';
+
+/**
+ * The sermon's passages as [{ book, text: "8:31-36" }].
+ * Reads the display passage, carrying the book (and chapter) into continuations like
+ * "John 8:31-36; 56-59" or "1 Samuel 1:4-11; 2:1-10", so verse ranges survive.
+ * Falls back to the chapter refs when the passage doesn't parse. Whole-book refs ("Mark")
+ * are left out: there's no passage to open.
+ */
+function passageParts(s) {
+  const fromPassage = () => {
+    if (!s.passage) return null;
+    const out = [];
+    let book = null, chapter = null;
+    for (const raw of s.passage.replace(/\s*[-–]\s*/g, '-').split(/\s*;\s*/)) {
+      const part = raw.trim();
+      const n = norm(part);
+      const b = s.refs.map((r) => state.bookById.get(r.book)).find((x) => x._keys.some((k) => n.startsWith(k)));
+      let text;
+      if (b) {
+        book = b;
+        text = part.match(/\s(\d+(?:[:,-].*)?)$/)?.[1];        // drop the book name, keep "8:31-36"
+        if (!text) { chapter = null; continue; }                  // whole book ("1 Timothy"): skip
+      } else if (book && /^\d+:\d/.test(part)) {
+        text = part;                                              // "2:1-10"
+      } else if (book && chapter && /^\d+(-\d+)?(,\s*\d+(-\d+)?)*$/.test(part)) {
+        text = `${chapter}:${part}`;                              // "56-59" after "8:31-36"
+      } else return null;
+      out.push({ book, text });
+      chapter = text.match(/(\d+):\d+(?!.*:)/)?.[1] ?? (text.includes(':') ? null : text.match(/^\d+/)?.[0]);
+    }
+    return out;
+  };
+  const fromRefs = () => s.refs.filter((r) => r.start != null).map((r) => ({
+    book: state.bookById.get(r.book),
+    text: r.start === r.end ? `${r.start}` : `${r.start}-${r.end}`,
+  }));
+  return fromPassage() ?? fromRefs();
+}
+
+/** The version tag ("NIV ▾"): a native select styled as the small tag, so phones get their own picker. */
+function versionPicker() {
+  const cur = currentVersion();
+  const opts = CONFIG.bibleVersions.map((v) => `<option value="${esc(v)}"${v === cur ? ' selected' : ''}>${esc(v)}</option>`).join('');
+  return `<span class="ver-pick"><select data-ver aria-label="Bible version for Read links" title="Change Bible version">${opts}</select><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m7 10 5 5 5-5"/></svg></span>`;
+}
+
+/** The "BibleGateway" and "Blue Letter Bible" pills. `what` names the passage for tooltips and screen readers. */
+function readPills(what, bg, blb, blbWhat = what) {
+  const v = esc(currentVersion());
+  const a = (href, site, label, title) =>
+    `<a class="read-link" href="${esc(href)}" target="_blank" rel="noopener noreferrer" title="${esc(title)} on ${site}"
+      aria-label="Read ${esc(title)} (${v}) on ${site} (opens in a new tab)">${label}${EXT_ARROW}</a>`;
+  return a(bg, 'BibleGateway', 'BibleGateway', what) + a(blb, 'Blue Letter Bible', 'Blue Letter Bible', blbWhat);
+}
+
+/** Read links for a sermon: BibleGateway gets every passage; Blue Letter Bible opens the first one. */
+function sermonRead(s) {
+  const parts = passageParts(s);
+  if (!parts.length) return '';
+  const names = [...new Set(parts.map((p) => `${p.book.name} ${p.text}`))];
+  const first = parts[0];
+  const [, ch, v] = first.text.match(/^(\d+)(?::(\d+))?/);
+  return readPills(names.join('; '), bgUrl(names.join('; ')), blbUrl(first.book, ch, v || 1), names[0]);
+}
 
 /** One pill per book reference; each opens that book (and chapter) page. */
 function refPills(s) {
@@ -794,6 +886,7 @@ function renderDrawer() {
   $('#d-back').hidden = !backTarget();
   $('#d-share').hidden = kind !== 'book';
   $('#d-bp').hidden = true;
+  $('#d-read').hidden = true;
   $('#d-filters').innerHTML = '';
   if (kind === 'sermon') return renderSermon(state.sermonById.get(state.open.sermonId));
   if (kind === 'book') return renderBook();
@@ -826,6 +919,15 @@ function renderBook() {
     bp.href = book.bibleproject;
     bp.setAttribute('aria-label', `BibleProject guide to ${book.name} (opens in a new tab)`);
   }
+  // A chapter is picked: read it on BibleGateway / Blue Letter Bible
+  const read = $('#d-read');
+  read.hidden = chapter == null;
+  if (chapter != null) {
+    const ref = `${book.name} ${chapter}`;
+    read.innerHTML = `<span class="read-label">Read ${versionPicker()}</span>`
+      + readPills(ref, bgUrl(ref), blbUrl(book, chapter));
+  }
+
 
   const qbar = $('#d-qbar');
   qbar.hidden = !bq;
@@ -969,9 +1071,11 @@ function renderSermon(s) {
   const seriesName = s.series && !bookNames.has(norm(s.series)) ? s.series : '';
   const group = s._seriesId ? state.series.get(s._seriesId) : null;
   // The whole series is listed further down this page, so the name here is plain text, not a link.
+  const read = sermonRead(s);
   const facts = [
     ['Passage', `<span class="pass">${refPills(s)}${s.study?.length
       ? `<span class="study-mark" title="Teaches this passage in context, not a topical sermon that cites it">Study</span>` : ''}</span>`],
+    read && [`Read ${versionPicker()}`, `<span class="read-row">${read}</span>`],
     s.speaker && ['Speaker', speakerHtml(s)],
     seriesName && ['Series', `<span class="series">${esc(group?.name || seriesName)}</span>`],
     s.tags?.length && ['Topics', `<span class="tags">${s.tags.map((t) => `<span class="tag">${esc(t)}</span>`).join('')}</span>`],
@@ -1282,6 +1386,18 @@ function bind() {
   $('#d-study').addEventListener('click', () => {
     setStudyOnly(!state.studyOnly);
     renderBook();
+  });
+
+  // Bible version picker (book and sermon pages): re-render the panel, keep focus on the picker
+  $('#drawer').addEventListener('change', (e) => {
+    const sel = e.target.closest('select[data-ver]');
+    if (!sel) return;
+    const inRead = !!sel.closest('#d-read');
+    setBibleVersion(sel.value);
+    const scroll = $('.drawer-body')?.scrollTop;
+    renderDrawer();
+    if (scroll != null) $('.drawer-body').scrollTop = scroll;
+    $(inRead ? '#d-read select[data-ver]' : '#d-sermon select[data-ver]')?.focus();
   });
 
   $('#d-chapters').addEventListener('click', (e) => {

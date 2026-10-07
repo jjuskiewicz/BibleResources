@@ -62,7 +62,8 @@
     "gn",
     "ge"
    ],
-   "bibleproject": "https://bibleproject.com/guides/book-of-genesis/"
+   "bibleproject": "https://bibleproject.com/guides/book-of-genesis/",
+   "blb": "gen"
   },
   {
    "id": "exodus",
@@ -74,7 +75,8 @@
     "ex",
     "exo"
    ],
-   "bibleproject": "https://bibleproject.com/guides/book-of-exodus/"
+   "bibleproject": "https://bibleproject.com/guides/book-of-exodus/",
+   "blb": "exo"
   },
   {
    "id": "leviticus",
@@ -85,7 +87,8 @@
    "aliases": [
     "lv"
    ],
-   "bibleproject": "https://bibleproject.com/guides/book-of-leviticus/"
+   "bibleproject": "https://bibleproject.com/guides/book-of-leviticus/",
+   "blb": "lev"
   },
   {
    "id": "numbers",
@@ -97,7 +100,8 @@
     "nm",
     "nb"
    ],
-   "bibleproject": "https://bibleproject.com/guides/book-of-numbers/"
+   "bibleproject": "https://bibleproject.com/guides/book-of-numbers/",
+   "blb": "num"
   },
   {
    "id": "deuteronomy",
@@ -108,7 +112,8 @@
    "aliases": [
     "dt"
    ],
-   "bibleproject": "https://bibleproject.com/guides/book-of-deuteronomy/"
+   "bibleproject": "https://bibleproject.com/guides/book-of-deuteronomy/",
+   "blb": "deu"
   },
   {
    "id": "joshua",
@@ -119,7 +124,8 @@
    "aliases": [
     "jos"
    ],
-   "bibleproject": "https://bibleproject.com/guides/book-of-joshua/"
+   "bibleproject": "https://bibleproject.com/guides/book-of-joshua/",
+   "blb": "jos"
   },
   {
    "id": "judges",
@@ -130,7 +136,8 @@
    "aliases": [
     "jdg"
    ],
-   "bibleproject": "https://bibleproject.com/guides/book-of-judges/"
+   "bibleproject": "https://bibleproject.com/guides/book-of-judges/",
+   "blb": "jdg"
   },
   {
    "id": "ruth",
@@ -141,7 +148,8 @@
    "aliases": [
     "rt"
    ],
-   "bibleproject": "https://bibleproject.com/guides/book-of-ruth/"
+   "bibleproject": "https://bibleproject.com/guides/book-of-ruth/",
+   "blb": "rth"
   },
   {
    "id": "1-samuel",
@@ -152,7 +160,8 @@
    "aliases": [
     "1 sm"
    ],
-   "bibleproject": "https://bibleproject.com/guides/books-of-samuel/"
+   "bibleproject": "https://bibleproject.com/guides/books-of-samuel/",
+   "blb": "1sa"
   },
   {
    "id": "2-samuel",
@@ -163,7 +172,8 @@
    "aliases": [
     "2 sm"
    ],
-   "bibleproject": "https://bibleproject.com/guides/books-of-samuel/"
+   "bibleproject": "https://bibleproject.com/guides/books-of-samuel/",
+   "blb": "2sa"
   },
   {
    "id": "1-kings",
@@ -174,7 +184,8 @@
    "aliases": [
     "1 ki"
    ],
-   "bibleproject": "https://bibleproject.com/guides/books-of-kings/"
+   "bibleproject": "https://bibleproject.com/guides/books-of-kings/",
+   "blb": "1ki"
   },
   {
    "id": "2-kings",
@@ -185,7 +196,8 @@
    "aliases": [
     "2 ki"
    ],
-   "bibleproject": "https://bibleproject.com/guides/books-of-kings/"
+   "bibleproject": "https://bibleproject.com/guides/books-of-kings/",
+   "blb": "2ki"
   },
   {
    "id": "1-chronicles",
@@ -196,7 +208,8 @@
    "aliases": [
     "1 chron"
    ],
-   "bibleproject": "https://bibleproject.com/guides/books-of-chronicles/"
+   "bibleproject": "https://bibleproject.com/guides/books-of-chronicles/",
+   "blb": "1ch"
   },
   {
    "id": "2-chronicles",
@@ -207,7 +220,8 @@
    "aliases": [
     "2 chron"
    ],
-   "bibleproject": "https://bibleproject.com/guides/books-of-chronicles/"
+   "bibleproject": "https://bibleproject.com/guides/books-of-chronicles/",
+   "blb": "2ch"
   },
   {
    "id": "ezra",
@@ -218,7 +232,8 @@
    "aliases": [
     "ezr"
    ],
-   "bibleproject": "https://bibleproject.com/guides/book-of-ezra-nehemiah/"
+   "bibleproject": "https://bibleproject.com/guides/book-of-ezra-nehemiah/",
+   "blb": "ezr"
   },
   {
    "id": "nehemiah",
@@ -229,7 +244,8 @@
    "aliases": [
     "ne"
    ],
-   "bibleproject": "https://bibleproject.com/guides/book-of-ezra-nehemiah/"
+   "bibleproject": "https://bibleproject.com/guides/book-of-ezra-nehemiah/",
+   "blb": "neh"
   },
   {
    "id": "esther",
@@ -240,7 +256,8 @@
    "aliases": [
     "est"
    ],
-   "bibleproject": "https://bibleproject.com/guides/book-of-esther/"
+   "bibleproject": "https://bibleproject.com/guides/book-of-esther/",
+   "blb": "est"
   },
   {
    "id": "job",
@@ -251,7 +268,8 @@
    "aliases": [
     "jb"
    ],
-   "bibleproject": "https://bibleproject.com/guides/book-of-job/"
+   "bibleproject": "https://bibleproject.com/guides/book-of-job/",
+   "blb": "job"
   },
   {
    "id": "psalms",
@@ -264,7 +282,8 @@
     "psa",
     "pss"
    ],
-   "bibleproject": "https://bibleproject.com/guides/book-of-psalms/"
+   "bibleproject": "https://bibleproject.com/guides/book-of-psalms/",
+   "blb": "psa"
   },
   {
    "id": "proverbs",
@@ -276,7 +295,8 @@
     "pr",
     "prv"
    ],
-   "bibleproject": "https://bibleproject.com/guides/book-of-proverbs/"
+   "bibleproject": "https://bibleproject.com/guides/book-of-proverbs/",
+   "blb": "pro"
   },
   {
    "id": "ecclesiastes",
@@ -288,7 +308,8 @@
     "ecc",
     "qoh"
    ],
-   "bibleproject": "https://bibleproject.com/guides/book-of-ecclesiastes/"
+   "bibleproject": "https://bibleproject.com/guides/book-of-ecclesiastes/",
+   "blb": "ecc"
   },
   {
    "id": "song-of-songs",
@@ -301,7 +322,8 @@
     "sos",
     "canticles"
    ],
-   "bibleproject": "https://bibleproject.com/guides/book-of-song-of-songs/"
+   "bibleproject": "https://bibleproject.com/guides/book-of-song-of-songs/",
+   "blb": "sng"
   },
   {
    "id": "isaiah",
@@ -312,7 +334,8 @@
    "aliases": [
     "is"
    ],
-   "bibleproject": "https://bibleproject.com/guides/book-of-isaiah/"
+   "bibleproject": "https://bibleproject.com/guides/book-of-isaiah/",
+   "blb": "isa"
   },
   {
    "id": "jeremiah",
@@ -323,7 +346,8 @@
    "aliases": [
     "je"
    ],
-   "bibleproject": "https://bibleproject.com/guides/book-of-jeremiah/"
+   "bibleproject": "https://bibleproject.com/guides/book-of-jeremiah/",
+   "blb": "jer"
   },
   {
    "id": "lamentations",
@@ -334,7 +358,8 @@
    "aliases": [
     "la"
    ],
-   "bibleproject": "https://bibleproject.com/guides/book-of-lamentations/"
+   "bibleproject": "https://bibleproject.com/guides/book-of-lamentations/",
+   "blb": "lam"
   },
   {
    "id": "ezekiel",
@@ -345,7 +370,8 @@
    "aliases": [
     "eze"
    ],
-   "bibleproject": "https://bibleproject.com/guides/book-of-ezekiel/"
+   "bibleproject": "https://bibleproject.com/guides/book-of-ezekiel/",
+   "blb": "eze"
   },
   {
    "id": "daniel",
@@ -356,7 +382,8 @@
    "aliases": [
     "dn"
    ],
-   "bibleproject": "https://bibleproject.com/guides/book-of-daniel/"
+   "bibleproject": "https://bibleproject.com/guides/book-of-daniel/",
+   "blb": "dan"
   },
   {
    "id": "hosea",
@@ -367,7 +394,8 @@
    "aliases": [
     "ho"
    ],
-   "bibleproject": "https://bibleproject.com/guides/book-of-hosea/"
+   "bibleproject": "https://bibleproject.com/guides/book-of-hosea/",
+   "blb": "hos"
   },
   {
    "id": "joel",
@@ -378,7 +406,8 @@
    "aliases": [
     "jl"
    ],
-   "bibleproject": "https://bibleproject.com/guides/book-of-joel/"
+   "bibleproject": "https://bibleproject.com/guides/book-of-joel/",
+   "blb": "joe"
   },
   {
    "id": "amos",
@@ -389,7 +418,8 @@
    "aliases": [
     "am"
    ],
-   "bibleproject": "https://bibleproject.com/guides/book-of-amos/"
+   "bibleproject": "https://bibleproject.com/guides/book-of-amos/",
+   "blb": "amo"
   },
   {
    "id": "obadiah",
@@ -400,7 +430,8 @@
    "aliases": [
     "ob"
    ],
-   "bibleproject": "https://bibleproject.com/guides/book-of-obadiah/"
+   "bibleproject": "https://bibleproject.com/guides/book-of-obadiah/",
+   "blb": "oba"
   },
   {
    "id": "jonah",
@@ -411,7 +442,8 @@
    "aliases": [
     "jnh"
    ],
-   "bibleproject": "https://bibleproject.com/guides/book-of-jonah/"
+   "bibleproject": "https://bibleproject.com/guides/book-of-jonah/",
+   "blb": "jon"
   },
   {
    "id": "micah",
@@ -422,7 +454,8 @@
    "aliases": [
     "mi"
    ],
-   "bibleproject": "https://bibleproject.com/guides/book-of-micah/"
+   "bibleproject": "https://bibleproject.com/guides/book-of-micah/",
+   "blb": "mic"
   },
   {
    "id": "nahum",
@@ -433,7 +466,8 @@
    "aliases": [
     "na"
    ],
-   "bibleproject": "https://bibleproject.com/guides/book-of-nahum/"
+   "bibleproject": "https://bibleproject.com/guides/book-of-nahum/",
+   "blb": "nah"
   },
   {
    "id": "habakkuk",
@@ -444,7 +478,8 @@
    "aliases": [
     "hb"
    ],
-   "bibleproject": "https://bibleproject.com/guides/book-of-habakkuk/"
+   "bibleproject": "https://bibleproject.com/guides/book-of-habakkuk/",
+   "blb": "hab"
   },
   {
    "id": "zephaniah",
@@ -455,7 +490,8 @@
    "aliases": [
     "zep"
    ],
-   "bibleproject": "https://bibleproject.com/guides/book-of-zephaniah/"
+   "bibleproject": "https://bibleproject.com/guides/book-of-zephaniah/",
+   "blb": "zep"
   },
   {
    "id": "haggai",
@@ -466,7 +502,8 @@
    "aliases": [
     "hg"
    ],
-   "bibleproject": "https://bibleproject.com/guides/book-of-haggai/"
+   "bibleproject": "https://bibleproject.com/guides/book-of-haggai/",
+   "blb": "hag"
   },
   {
    "id": "zechariah",
@@ -477,7 +514,8 @@
    "aliases": [
     "zec"
    ],
-   "bibleproject": "https://bibleproject.com/guides/book-of-zechariah/"
+   "bibleproject": "https://bibleproject.com/guides/book-of-zechariah/",
+   "blb": "zec"
   },
   {
    "id": "malachi",
@@ -488,7 +526,8 @@
    "aliases": [
     "ml"
    ],
-   "bibleproject": "https://bibleproject.com/guides/book-of-malachi/"
+   "bibleproject": "https://bibleproject.com/guides/book-of-malachi/",
+   "blb": "mal"
   },
   {
    "id": "matthew",
@@ -499,7 +538,8 @@
    "aliases": [
     "mt"
    ],
-   "bibleproject": "https://bibleproject.com/guides/book-of-matthew/"
+   "bibleproject": "https://bibleproject.com/guides/book-of-matthew/",
+   "blb": "mat"
   },
   {
    "id": "mark",
@@ -511,7 +551,8 @@
     "mk",
     "mrk"
    ],
-   "bibleproject": "https://bibleproject.com/guides/book-of-mark/"
+   "bibleproject": "https://bibleproject.com/guides/book-of-mark/",
+   "blb": "mar"
   },
   {
    "id": "luke",
@@ -522,7 +563,8 @@
    "aliases": [
     "lk"
    ],
-   "bibleproject": "https://bibleproject.com/guides/book-of-luke/"
+   "bibleproject": "https://bibleproject.com/guides/book-of-luke/",
+   "blb": "luk"
   },
   {
    "id": "john",
@@ -534,7 +576,8 @@
     "jn",
     "jhn"
    ],
-   "bibleproject": "https://bibleproject.com/guides/book-of-john/"
+   "bibleproject": "https://bibleproject.com/guides/book-of-john/",
+   "blb": "jhn"
   },
   {
    "id": "acts",
@@ -545,7 +588,8 @@
    "aliases": [
     "ac"
    ],
-   "bibleproject": "https://bibleproject.com/guides/book-of-acts/"
+   "bibleproject": "https://bibleproject.com/guides/book-of-acts/",
+   "blb": "act"
   },
   {
    "id": "romans",
@@ -557,7 +601,8 @@
     "ro",
     "rm"
    ],
-   "bibleproject": "https://bibleproject.com/guides/book-of-romans/"
+   "bibleproject": "https://bibleproject.com/guides/book-of-romans/",
+   "blb": "rom"
   },
   {
    "id": "1-corinthians",
@@ -566,7 +611,8 @@
    "chapters": 16,
    "section": "pauline",
    "aliases": [],
-   "bibleproject": "https://bibleproject.com/guides/book-of-1-corinthians/"
+   "bibleproject": "https://bibleproject.com/guides/book-of-1-corinthians/",
+   "blb": "1co"
   },
   {
    "id": "2-corinthians",
@@ -575,7 +621,8 @@
    "chapters": 13,
    "section": "pauline",
    "aliases": [],
-   "bibleproject": "https://bibleproject.com/guides/book-of-2-corinthians/"
+   "bibleproject": "https://bibleproject.com/guides/book-of-2-corinthians/",
+   "blb": "2co"
   },
   {
    "id": "galatians",
@@ -586,7 +633,8 @@
    "aliases": [
     "ga"
    ],
-   "bibleproject": "https://bibleproject.com/guides/book-of-galatians/"
+   "bibleproject": "https://bibleproject.com/guides/book-of-galatians/",
+   "blb": "gal"
   },
   {
    "id": "ephesians",
@@ -595,7 +643,8 @@
    "chapters": 6,
    "section": "pauline",
    "aliases": [],
-   "bibleproject": "https://bibleproject.com/guides/book-of-ephesians/"
+   "bibleproject": "https://bibleproject.com/guides/book-of-ephesians/",
+   "blb": "eph"
   },
   {
    "id": "philippians",
@@ -607,7 +656,8 @@
     "php",
     "pp"
    ],
-   "bibleproject": "https://bibleproject.com/guides/book-of-philippians/"
+   "bibleproject": "https://bibleproject.com/guides/book-of-philippians/",
+   "blb": "phl"
   },
   {
    "id": "colossians",
@@ -616,7 +666,8 @@
    "chapters": 4,
    "section": "pauline",
    "aliases": [],
-   "bibleproject": "https://bibleproject.com/guides/book-of-colossians/"
+   "bibleproject": "https://bibleproject.com/guides/book-of-colossians/",
+   "blb": "col"
   },
   {
    "id": "1-thessalonians",
@@ -627,7 +678,8 @@
    "aliases": [
     "1 th"
    ],
-   "bibleproject": "https://bibleproject.com/guides/book-of-1-thessalonians/"
+   "bibleproject": "https://bibleproject.com/guides/book-of-1-thessalonians/",
+   "blb": "1th"
   },
   {
    "id": "2-thessalonians",
@@ -638,7 +690,8 @@
    "aliases": [
     "2 th"
    ],
-   "bibleproject": "https://bibleproject.com/guides/book-of-2-thessalonians/"
+   "bibleproject": "https://bibleproject.com/guides/book-of-2-thessalonians/",
+   "blb": "2th"
   },
   {
    "id": "1-timothy",
@@ -649,7 +702,8 @@
    "aliases": [
     "1 ti"
    ],
-   "bibleproject": "https://bibleproject.com/guides/book-of-1-timothy/"
+   "bibleproject": "https://bibleproject.com/guides/book-of-1-timothy/",
+   "blb": "1ti"
   },
   {
    "id": "2-timothy",
@@ -660,7 +714,8 @@
    "aliases": [
     "2 ti"
    ],
-   "bibleproject": "https://bibleproject.com/guides/book-of-2-timothy/"
+   "bibleproject": "https://bibleproject.com/guides/book-of-2-timothy/",
+   "blb": "2ti"
   },
   {
    "id": "titus",
@@ -671,7 +726,8 @@
    "aliases": [
     "ti"
    ],
-   "bibleproject": "https://bibleproject.com/guides/book-of-titus/"
+   "bibleproject": "https://bibleproject.com/guides/book-of-titus/",
+   "blb": "tit"
   },
   {
    "id": "philemon",
@@ -683,7 +739,8 @@
     "phm",
     "philem"
    ],
-   "bibleproject": "https://bibleproject.com/guides/book-of-philemon/"
+   "bibleproject": "https://bibleproject.com/guides/book-of-philemon/",
+   "blb": "phm"
   },
   {
    "id": "hebrews",
@@ -692,7 +749,8 @@
    "chapters": 13,
    "section": "general",
    "aliases": [],
-   "bibleproject": "https://bibleproject.com/guides/book-of-hebrews/"
+   "bibleproject": "https://bibleproject.com/guides/book-of-hebrews/",
+   "blb": "heb"
   },
   {
    "id": "james",
@@ -703,7 +761,8 @@
    "aliases": [
     "jm"
    ],
-   "bibleproject": "https://bibleproject.com/guides/book-of-james/"
+   "bibleproject": "https://bibleproject.com/guides/book-of-james/",
+   "blb": "jas"
   },
   {
    "id": "1-peter",
@@ -714,7 +773,8 @@
    "aliases": [
     "1 pt"
    ],
-   "bibleproject": "https://bibleproject.com/guides/book-of-1-peter/"
+   "bibleproject": "https://bibleproject.com/guides/book-of-1-peter/",
+   "blb": "1pe"
   },
   {
    "id": "2-peter",
@@ -725,7 +785,8 @@
    "aliases": [
     "2 pt"
    ],
-   "bibleproject": "https://bibleproject.com/guides/book-of-2-peter/"
+   "bibleproject": "https://bibleproject.com/guides/book-of-2-peter/",
+   "blb": "2pe"
   },
   {
    "id": "1-john",
@@ -736,7 +797,8 @@
    "aliases": [
     "1 jn"
    ],
-   "bibleproject": "https://bibleproject.com/guides/books-of-1-3-john/"
+   "bibleproject": "https://bibleproject.com/guides/books-of-1-3-john/",
+   "blb": "1jo"
   },
   {
    "id": "2-john",
@@ -747,7 +809,8 @@
    "aliases": [
     "2 jn"
    ],
-   "bibleproject": "https://bibleproject.com/guides/books-of-1-3-john/"
+   "bibleproject": "https://bibleproject.com/guides/books-of-1-3-john/",
+   "blb": "2jo"
   },
   {
    "id": "3-john",
@@ -758,7 +821,8 @@
    "aliases": [
     "3 jn"
    ],
-   "bibleproject": "https://bibleproject.com/guides/books-of-1-3-john/"
+   "bibleproject": "https://bibleproject.com/guides/books-of-1-3-john/",
+   "blb": "3jo"
   },
   {
    "id": "jude",
@@ -769,7 +833,8 @@
    "aliases": [
     "jud"
    ],
-   "bibleproject": "https://bibleproject.com/guides/book-of-jude/"
+   "bibleproject": "https://bibleproject.com/guides/book-of-jude/",
+   "blb": "jud"
   },
   {
    "id": "revelation",
@@ -781,7 +846,8 @@
     "re",
     "apocalypse"
    ],
-   "bibleproject": "https://bibleproject.com/guides/book-of-revelation/"
+   "bibleproject": "https://bibleproject.com/guides/book-of-revelation/",
+   "blb": "rev"
   }
  ]
 }
