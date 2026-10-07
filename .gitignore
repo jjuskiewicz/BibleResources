@@ -17,3 +17,8 @@ scraping/bibleproject_guides.json
 # gospelinlife.com per-sermon details (re-fetch with scraping/gil_details.py)
 scraping/keller_details.json
 scraping/logs/
+
+# Fit pilot inputs (BibleProject text + full Keller overviews)
+scraping/fit/fit_input.jsonl
+scraping/fit/fit_context.json
+scraping/fit/batches/

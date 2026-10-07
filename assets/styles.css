@@ -288,6 +288,15 @@ main { padding-top: 20px; padding-bottom: 40px; }
 }
 .more-btn:hover { background: var(--surface-2); }
 .more-btn:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.sermon .study-mark {
+  grid-column: 1; justify-self: start; margin-top: 4px; font-size: 11px; font-weight: 600; letter-spacing: .02em;
+  padding: 1px 7px; border-radius: 999px; color: var(--c); border: 1px solid color-mix(in srgb, var(--c) 45%, transparent);
+}
+.fit-bar { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin: 0 0 12px; }
+.fit-bar .chip .n { color: var(--faint); font-variant-numeric: tabular-nums; }
+.fit-bar .chip[aria-pressed="true"] { color: var(--surface); background: var(--c); border-color: var(--c); }
+.fit-bar .chip[aria-pressed="true"] .n { color: inherit; opacity: .8; }
+.fit-bar .hint { font-size: 12px; color: var(--muted); }
 .sermon .tag { font-size: 11px; padding: 1px 7px; border-radius: 999px; background: var(--surface-2); color: var(--muted); }
 .sermon .listen { grid-column: 2; grid-row: 1 / span 3; align-self: center; display: flex; flex-direction: column; gap: 4px; }
 
@@ -554,6 +563,8 @@ a.s-row:focus-visible { outline: 2px solid var(--focus); outline-offset: -2px; }
   .chapters button:disabled { display: none; }
   .chapters button.all { padding: 0 14px; }
   #d-list-label { display: none; }
+  .fit-bar { margin: 8px 0 4px; }
+  .fit-bar .hint { display: none; }
   .chapters + .label + .sermons { padding-top: 6px; }
 }
 

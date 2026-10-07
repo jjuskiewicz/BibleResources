@@ -44,6 +44,7 @@ const state = {
   notes: null,             // id -> show notes text, once data/notes.json has loaded
   shown: 0,                // how many search results are rendered
   shownFor: '',            // the query `shown` belongs to (a new query starts over)
+  studyOnly: false,        // book drawer: only sermons that study the book (s.study), remembered per browser
 };
 
 const SEARCH_PLACEHOLDER = 'Book, passage (John 3), topic, speaker';
@@ -270,6 +271,16 @@ const SITE_NAMES = { 'gospelinlife.com': 'Gospel in Life' };
 const PREF_KEY = 'listenOn';
 const getPref = () => { try { return localStorage.getItem(PREF_KEY); } catch { return null; } };
 const setPref = (v) => { try { localStorage.setItem(PREF_KEY, v); } catch { /* private mode */ } };
+
+/** Book drawer "Book studies only" toggle, remembered per browser. */
+const STUDY_KEY = 'studyOnly';
+try { state.studyOnly = localStorage.getItem(STUDY_KEY) === '1'; } catch { /* private mode */ }
+const setStudyOnly = (on) => {
+  state.studyOnly = on;
+  try { localStorage.setItem(STUDY_KEY, on ? '1' : '0'); } catch { /* private mode */ }
+};
+/** Does this sermon teach this book's passage in context (vs. a topical sermon citing it)? scraping/fit/ */
+const isStudy = (s, bookId) => !!s.study?.includes(bookId);
 
 /** Every place a sermon can be heard, in a fixed order: Spotify, Apple, church site, audio file. */
 function listenLinks(s) {
@@ -714,9 +725,18 @@ function renderBook() {
   const sel = $('#d-chapters [aria-pressed="true"]');
   if (sel && chapter != null) sel.scrollIntoView({ block: 'nearest', inline: 'center' });
 
-  const list = chapter == null
+  const inChapter = chapter == null
     ? all
     : all.filter((s) => s.refs.some((r) => r.book === bookId && r.start != null && chapter >= r.start && chapter <= r.end));
+
+  // "Book studies only": hidden when nothing here is a study, so it never empties the list by itself.
+  const studies = inChapter.filter((s) => isStudy(s, bookId)).length;
+  const fit = $('#d-fit');
+  fit.hidden = !studies || studies === inChapter.length;
+  const filtering = state.studyOnly && !fit.hidden;
+  $('#d-study').setAttribute('aria-pressed', String(filtering));
+  $('#d-study .n').textContent = `${studies} of ${inChapter.length}`;
+  const list = filtering ? inChapter.filter((s) => isStudy(s, bookId)) : inChapter;
 
   $('#d-list-label').textContent = chapter == null ? 'Sermons' : `Sermons on chapter ${chapter}`;
 
@@ -732,7 +752,9 @@ function renderBook() {
     const r = s.refs.find((x) => x.book === bookId);
     return r.start ?? 0;
   };
-  const sorted = [...list].sort((a, b) => startOf(a) - startOf(b) || byDateDesc(a, b));
+  // Within a chapter, sermons that study the passage come first.
+  const studyRank = (s) => (isStudy(s, bookId) ? 0 : 1);
+  const sorted = [...list].sort((a, b) => startOf(a) - startOf(b) || studyRank(a) - studyRank(b) || byDateDesc(a, b));
   let html = '';
   let current = null;
   for (const s of sorted) {
@@ -741,7 +763,8 @@ function renderBook() {
       current = st;
       html += `<li class="group-label">${st === 0 ? 'Whole book' : `Chapter ${st}`}</li>`;
     }
-    html += sermonCard(s);
+    html += sermonCard(s, isStudy(s, bookId) && !filtering
+      ? `<span class="study-mark" title="Teaches this passage in context">Study</span>` : '');
   }
   $('#d-list').innerHTML = html;
 }
@@ -1066,6 +1089,11 @@ function bind() {
     if (state.churchFilter.size === state.churches.size) state.churchFilter.clear();
     renderChurchChips();
     render();
+  });
+
+  $('#d-study').addEventListener('click', () => {
+    setStudyOnly(!state.studyOnly);
+    renderBook();
   });
 
   $('#d-chapters').addEventListener('click', (e) => {
