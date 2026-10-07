@@ -325,7 +325,16 @@ function speakerHtml(s) {
   return `<span class="speaker">${parts.join(names.length === 2 ? ' and ' : ', ')}</span>`;
 }
 
-function sermonCard(s, extra = '') {
+/**
+ * Sermon card: three lines, each answering one question.
+ *   1. passage (+ "Study" when it teaches that passage in context) ........ date
+ *   2. title
+ *   3. church · speaker · length · series   (one line; series truncates)
+ * Topic tags live on the sermon page (and in search), not on the card.
+ * opts.bookId: in a book drawer, "Study" means a study of that book; elsewhere, of any book it cites.
+ * opts.hideStudy: the list is already filtered to studies, so the mark would be noise.
+ */
+function sermonCard(s, extra = '', opts = {}) {
   const firstBook = state.bookById.get(s.refs[0].book);
   const color = `var(--${firstBook.section})`;
   // A series named after the book ("John", "Acts") just repeats the passage line, so drop it.
@@ -343,7 +352,9 @@ function sermonCard(s, extra = '') {
   ].filter(Boolean).join('');
   const when = s.dateObj ? `<time datetime="${esc(s.date)}" title="${fmtDate(s.dateObj)}">${fmtShort(s.dateObj)}</time>`
     : s.year ? `<time datetime="${esc(s.year)}" title="Exact date unknown">${esc(s.year)}</time>` : '';
-  const tags = (s.tags || []).map((t) => `<span class="tag">#${esc(t)}</span>`).join('');
+  // Skipped on cards with 3+ passage pills: the line can't fit it without crushing the pills.
+  const study = !opts.hideStudy && s.refs.length <= 2 && (opts.bookId ? isStudy(s, opts.bookId) : !!s.study?.length);
+  const studyHtml = study ? `<span class="study-mark" title="Teaches this passage in context">Study</span>` : '';
   // One-tap listening: up to two services as icon buttons; the rest of the card opens the sermon page.
   // The audio file only gets an icon when there's no Spotify/Apple pair (e.g. Keller: site + audio).
   const all = listenLinks(s);
@@ -353,10 +364,9 @@ function sermonCard(s, extra = '') {
   return `
     <li>
       <article class="sermon" style="--c:${color}">
-        <span class="ref"><span class="pass">${refPills(s)}</span>${when}</span>
+        <span class="ref"><span class="pass">${refPills(s)}</span>${studyHtml}${when}</span>
         <a class="title" href="#/sermon/${esc(s.id)}" data-sermon="${esc(s.id)}">${esc(s.title)}</a>
         <span class="meta">${meta}</span>
-        ${tags ? `<span class="tags">${tags}</span>` : ''}
         ${extra}
         <span class="listen">${icons}</span>
       </article>
@@ -763,8 +773,7 @@ function renderBook() {
       current = st;
       html += `<li class="group-label">${st === 0 ? 'Whole book' : `Chapter ${st}`}</li>`;
     }
-    html += sermonCard(s, isStudy(s, bookId) && !filtering
-      ? `<span class="study-mark" title="Teaches this passage in context">Study</span>` : '');
+    html += sermonCard(s, '', { bookId, hideStudy: filtering });
   }
   $('#d-list').innerHTML = html;
 }
@@ -818,9 +827,11 @@ function renderSermon(s) {
   const seriesName = s.series && !bookNames.has(norm(s.series)) ? s.series : '';
   const group = s._seriesId ? state.series.get(s._seriesId) : null;
   const facts = [
-    ['Passage', `<span class="pass">${refPills(s)}</span>`],
+    ['Passage', `<span class="pass">${refPills(s)}${s.study?.length
+      ? `<span class="study-mark" title="Teaches this passage in context">Study</span>` : ''}</span>`],
     s.speaker && ['Speaker', speakerHtml(s)],
     seriesName && ['Series', group ? facet('series', group.id, group.name, ' series') : `<span class="series">${esc(seriesName)}</span>`],
+    s.tags?.length && ['Topics', `<span class="tags">${s.tags.map((t) => `<span class="tag">${esc(t)}</span>`).join('')}</span>`],
   ].filter(Boolean).map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join('');
 
   let seriesHtml = '';

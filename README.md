@@ -91,7 +91,8 @@ uv run tools/validate_data.py
 - Shareable deep links: `#/john` or `#/john/3`. The link button in the drawer copies it.
 - Sermon cards: one-tap listen icons (Spotify / Apple, or site / audio when that's all there is); tapping the rest of the card opens the sermon page (`#/sermon/<id>`) in the same panel: big listen buttons (the service you used last goes first, remembered per browser), passage/speaker/series, show notes, and the whole series in order with this sermon marked. Back returns to the list where you left it; a shared sermon link's Back goes to that passage.
 - Keyboard: `/` focuses search, `Esc` closes the drawer. Light/dark follow the OS. Drawer is a bottom sheet on phones.
-- Phones: compact header, sticky search, 4-across book grid, 3-line sermon cards (passage/date, title, church · speaker · length · series). The book sheet has a sticky, swipeable strip of only the chapters that have sermons; drag the sheet header down to close; the link button opens the native share sheet.
+- Book studies: the book drawer's "Book studies only" toggle shows sermons that teach the passage in context (`study` in sermons.json, from scraping/fit/); they sort first in each chapter and carry a "Study" mark.
+- Phones: compact header, sticky search, 4-across book grid, 3-line sermon cards (passage + "Study" mark / date, title, church · speaker · length · series; topic tags live on the sermon page, not the card). The book sheet has a sticky, swipeable strip of only the chapters that have sermons; drag the sheet header down to close; the link button opens the native share sheet.
 - Jump-to-section row under the search bar (Law, History, Wisdom...). Tapping one scrolls there; it highlights the section you're in as you scroll and hides while a search is active.
 
 ## Config
