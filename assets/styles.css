@@ -323,6 +323,8 @@ main { padding-top: 20px; padding-bottom: 40px; }
   .listen-btn:hover { border-color: currentColor; }
   a.s-row:hover { background: var(--surface-2); }
   .icon-btn:hover { color: var(--ink); border-color: var(--muted); }
+  .fchip:hover { border-color: var(--muted); }
+  .fchip:hover svg { color: var(--ink); }
 }
 
 
@@ -353,6 +355,27 @@ main { padding-top: 20px; padding-bottom: 40px; }
 .inbooks .ib:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
 /* Text search: books with no matches go quiet */
 #library.searching .tile.empty { opacity: .55; }
+
+/* ---------- Filters that are on, next to the counts they change ---------- */
+.panel-head .fchips { margin-left: auto; align-self: center; }
+.panel-head .fchips + .ph-count { margin-left: 0; }
+.fchips { display: inline-flex; flex-wrap: wrap; justify-content: flex-end; gap: 4px; }
+.fchip {
+  display: inline-flex; align-items: center; gap: 5px; white-space: nowrap; cursor: pointer;
+  padding: 2px 6px 2px 9px; border-radius: 999px; font: 500 12px/1.4 var(--sans); color: var(--ink);
+  border: 1px solid var(--border); background: var(--surface-2);
+}
+.fchip svg { width: 12px; height: 12px; stroke-width: 2.5; color: var(--muted); }
+.fchip:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+#d-filters:empty { display: none; }
+
+/* One-time "Study" explainer */
+.study-note { display: flex; align-items: center; gap: 8px; margin: -4px 0 12px; font-size: 13px; color: var(--muted); --c: var(--focus); }
+.study-note .study-mark { margin: 0; }
+.study-note .sn-close {
+  margin-left: auto; flex: none; cursor: pointer; padding: 3px 10px; border-radius: 999px;
+  border: 1px solid var(--border); background: var(--surface); color: var(--ink); font: 500 12px var(--sans);
+}
 
 /* ---------- Panel extras ---------- */
 .q-bar {
@@ -543,6 +566,9 @@ a.s-row:focus-visible { outline: 2px solid var(--focus); outline-offset: -2px; }
   .panel { background: none; border: 0; padding: 0; margin-bottom: 20px; }
   .panel-head { margin-bottom: 8px; }
   .panel-head h2 { font-size: 17px; }
+  /* Filter chips drop to their own line under the heading + count */
+  .panel-head { flex-wrap: wrap; row-gap: 6px; }
+  .panel-head .fchips { order: 3; flex: 1 1 100%; margin-left: 0; justify-content: flex-start; }
 
   /* Text search: the "In" row of books replaces the 66-tile grid */
   body.searching-text #library { display: none; }

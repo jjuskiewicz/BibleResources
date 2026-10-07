@@ -414,6 +414,33 @@ const setStudyOnly = (on) => {
 /** Does this sermon teach this book's passage in context (vs. a topical sermon citing it)? scraping/fit/ */
 const isStudy = (s, bookId) => !!s.study?.includes(bookId);
 
+/** One-time explainer for the "Study" mark, shown above lists that contain one until dismissed (per browser). */
+const STUDY_NOTE_KEY = 'studyNoteSeen';
+let studyNoteSeen = false;
+try { studyNoteSeen = localStorage.getItem(STUDY_NOTE_KEY) === '1'; } catch { /* private mode */ }
+function studyNote(sermons) {
+  if (studyNoteSeen || !sermons.some((s) => s.study?.length && s.refs.length <= 2)) return '';
+  return `<p class="study-note"><span class="study-mark">Study</span><span>Teaches the passage in context, not a topical sermon that cites it.</span>
+    <button type="button" class="sn-close" data-dismiss-study aria-label="Got it, hide this note">Got it</button></p>`;
+}
+
+/**
+ * Filters that are on, as removable chips next to the counts they affect.
+ * opts.testament: false in the panel, which ignores the testament toggle.
+ */
+function filterChips({ testament = true } = {}) {
+  const chips = [];
+  if (testament && state.testament !== 'all') {
+    chips.push(`<button type="button" class="fchip" data-clear-filter="testament" aria-label="Remove filter: ${state.testament === 'OT' ? 'Old' : 'New'} Testament">${state.testament === 'OT' ? 'Old Testament' : 'New Testament'}${ICON.x}</button>`);
+  }
+  for (const id of state.churchFilter) {
+    const c = state.churches.get(id);
+    if (!c) continue;
+    chips.push(`<button type="button" class="fchip" data-clear-filter="church:${esc(id)}" aria-label="Remove filter: ${esc(c.name)}"><span class="dot" style="--cc:${esc(c.color)}"></span>${esc(c.short || c.name)}${ICON.x}</button>`);
+  }
+  return chips.length ? `<span class="fchips" role="group" aria-label="Filters on">${chips.join('')}</span>` : '';
+}
+
 /** Every place a sermon can be heard, in a fixed order: Spotify, Apple, church site, audio file. */
 function listenLinks(s) {
   const out = [];
@@ -711,7 +738,8 @@ function renderResults(mode, hits, stats) {
   panel.hidden = false;
   panel.innerHTML = `
     ${goto}
-    <div class="panel-head"><h2>${heading}</h2><span class="muted">${hits.length.toLocaleString('en-US')}</span></div>
+    <div class="panel-head"><h2>${heading}</h2>${filterChips()}<span class="muted ph-count">${hits.length.toLocaleString('en-US')}</span></div>
+    ${hits.length ? studyNote(hits.slice(0, state.shown)) : ''}
     ${body}`;
 }
 
@@ -721,7 +749,8 @@ function renderRecent(sermons) {
   const recent = [...sermons].sort(byDateDesc).slice(0, CONFIG.recentCount);
   panel.hidden = false;
   panel.innerHTML = `
-    <div class="panel-head"><h2>Latest sermons</h2></div>
+    <div class="panel-head"><h2>Latest sermons</h2>${filterChips()}</div>
+    ${studyNote(recent)}
     <ul class="sermons cols scroller">${recent.map((s) => sermonCard(s)).join('')}</ul>`;
 }
 
@@ -765,6 +794,7 @@ function renderDrawer() {
   $('#d-back').hidden = !backTarget();
   $('#d-share').hidden = kind !== 'book';
   $('#d-bp').hidden = true;
+  $('#d-filters').innerHTML = '';
   if (kind === 'sermon') return renderSermon(state.sermonById.get(state.open.sermonId));
   if (kind === 'book') return renderBook();
   renderGroup(kind, state.open.id);
@@ -789,6 +819,7 @@ function renderBook() {
   $('#d-section').textContent = `${section.testament === 'OT' ? 'Old' : 'New'} Testament · ${section.name}`;
   $('#d-title').textContent = book.name;
   $('#d-meta').textContent = `${plural(book.chapters, 'chapter')} · ${plural(onBook.length, 'sermon')}`;
+  $('#d-filters').innerHTML = filterChips({ testament: false });
   const bp = $('#d-bp');
   bp.hidden = !book.bibleproject;
   if (book.bibleproject) {
@@ -875,6 +906,7 @@ function renderGroup(kind, id) {
   const visible = new Set(churchSermons());
   const pool = isSeries ? g.sermons : g.sermons.filter((s) => visible.has(s));
   $('#d-meta').textContent = [plural(pool.length, isSeries ? 'message' : 'sermon'), span].filter(Boolean).join(' · ');
+  $('#d-filters').innerHTML = isSeries ? '' : filterChips({ testament: false });
 
   const box = $('#d-group');
   if (!pool.length) {
@@ -1174,6 +1206,25 @@ function bind() {
     if (e.target.closest('[data-more-panel]')) {
       state.speakerShown = (state.speakerShown || CONFIG.speakerPage) + CONFIG.speakerPage;
       renderDrawer();
+      return;
+    }
+    const cf = e.target.closest('[data-clear-filter]');
+    if (cf) {
+      const [what, id] = cf.dataset.clearFilter.split(':');
+      if (what === 'testament') {
+        state.testament = 'all';
+        document.querySelectorAll('.seg button').forEach((x) => x.setAttribute('aria-checked', String(x.dataset.t === 'all')));
+      } else {
+        state.churchFilter.delete(id);
+        renderChurchChips();
+      }
+      render();
+      return;
+    }
+    if (e.target.closest('[data-dismiss-study]')) {
+      studyNoteSeen = true;
+      try { localStorage.setItem(STUDY_NOTE_KEY, '1'); } catch { /* private mode */ }
+      document.querySelectorAll('.study-note').forEach((el) => el.remove());
       return;
     }
     if (e.target.closest('[data-clear-bq]')) {
