@@ -85,22 +85,25 @@ uv run tools/validate_data.py
 ## Features
 
 - Book grid grouped by section, colored OT warm / NT cool. Badge = sermon count, bottom bar = share of chapters covered. Empty books are muted.
-- Search understands books (`1 cor`, `first samuel`, `ps`), references (`John 3`, `Rom 8:28` then Enter opens that chapter), and sermon text (title, speaker, series, tags, church).
-- Testament toggle and multi-select church filter.
-- Book drawer with a chapter picker (chapters with sermons are highlighted) and sermons grouped by chapter.
-- Shareable deep links: `#/john` or `#/john/3`. The link button in the drawer copies it.
-- Sermon cards: one-tap listen icons (Spotify / Apple, or site / audio when that's all there is); tapping the rest of the card opens the sermon page (`#/sermon/<id>`) in the same panel: big listen buttons (the service you used last goes first, remembered per browser), passage/speaker/series, show notes, and the whole series in order with this sermon marked. Back returns to the list where you left it; a shared sermon link's Back goes to that passage.
-- Keyboard: `/` focuses search, `Esc` closes the drawer. Light/dark follow the OS. Drawer is a bottom sheet on phones.
+- Search understands books (`1 cor`, `first samuel`, `ps`: an exact book name lists that book's sermons, same count as its page), references (`John 3`, `Rom 8:28` then Enter opens that chapter), and sermon text (title, speaker, series, tags, church, show notes). Results start with "go to" rows for the book/chapter named and any matching speakers or series.
+- Testament toggle and multi-select church filter; both apply to the book grid, Latest sermons and search results. The line under the filters always describes what's showing ("195 of 2,615 sermons match · in 32 of 66 books").
+- A text search treats books as a filter: tiles recount to the matches (books with none go quiet) and an "In" row lists the books with the most matches. Opening a book from either shows only the matches, with "Show all" to clear it. On phones the "In" row replaces the grid while searching.
+- One panel for going deeper: book (chapter picker, sermons grouped by chapter), sermon, series (in order, with the sermon you came from marked) and speaker (newest first, paged) pages all open in it. Links inside the panel open the next page in the panel, and Back walks back through them; the main column is only for finding.
+- Shareable deep links: `#/john`, `#/john/3`, `#/sermon/<id>`, `#/series/<id>`, `#/speaker/<id>`. The link button on a book page copies it.
+- Sermon cards: one-tap listen icons (Spotify / Apple, or site / audio when that's all there is); tapping the rest of the card opens the sermon page: big listen buttons (the service you used last goes first, remembered per browser), passage/speaker/series, show notes, and the whole series in order with this sermon marked. A shared sermon link's Back goes to that passage.
+- Wide screens (1100px+): the panel is a pane beside the page, not a modal, so the list stays visible and clickable and the open card/tile is highlighted. Narrower windows and phones get a modal sheet.
+- Keyboard: `/` focuses search, `Esc` clears the search or closes the panel. Light/dark follow the OS.
 - Book studies: the book drawer's "Book studies only" toggle shows sermons that teach the passage in context (`study` in sermons.json, from scraping/fit/); they sort first in each chapter and carry a "Study" mark.
-- Phones: compact header, sticky search, 4-across book grid, 3-line sermon cards (passage + "Study" mark / date, title, church · speaker · length · series; topic tags live on the sermon page, not the card). The book sheet has a sticky, swipeable strip of only the chapters that have sermons; drag the sheet header down to close; the link button opens the native share sheet.
-- Jump-to-section row under the search bar (Law, History, Wisdom...). Tapping one scrolls there; it highlights the section you're in as you scroll and hides while a search is active.
+- Phones: compact header, sticky search, 4-across book grid, 3-line sermon cards (passage + "Study" mark / date, title, church · speaker · length · series; topic tags live on the sermon page, not the card). Search suggestions stay out of the sticky bar (it's one line), and "go to" rows swipe sideways. The book sheet has a sticky, swipeable strip of only the chapters that have sermons; drag the sheet header down to close; the link button opens the native share sheet.
+- Jump-to-section row under the search bar (Law, History, Wisdom...). Tapping one scrolls there; it highlights the section you're in as you scroll and hides while a search is active. Wraps on wide screens, swipes on phones.
 
 ## Config
 
 Top of `assets/app.js`:
 
 - `suggestUrl`: set to a GitHub "new issue" URL (or a Google Form) to show "Suggest a sermon" links.
-- `recentCount`: how many items in "Recently added".
+- `recentCount`: how many items in "Latest sermons" (newest by preached date).
+- `maxResults`, `speakerPage`, `inBooks`: search results per page, speaker-page sermons per page, books in the search "In" row.
 
 ## Data pipeline
 

@@ -10,11 +10,13 @@ const CONFIG = {
   notesUrl: 'data/notes.json',     // show notes, fetched lazily (sermon page + search)
   // e.g. 'https://github.com/<you>/<repo>/issues/new?template=sermon.md'  (null hides the link)
   suggestUrl: null,
-  recentCount: 6,
+  recentCount: 6,   // "Latest sermons" (newest by preached date)
   maxResults: 24,   // search results shown at first; "Show more" adds this many again
+  speakerPage: 30,  // speaker page in the panel: sermons shown at first, "Show more" adds this many
+  inBooks: 12,      // search: how many books the "In" row lists
 };
 
-// Short labels for the jump-to-section row on phones (full names show on wider screens)
+// Short labels for the jump-to-section row (full names stay in the tooltip / screen reader label)
 const SECTION_SHORT = {
   law: 'Law', history: 'History', wisdom: 'Wisdom', major: 'Major Prophets', minor: 'Minor Prophets',
   gospels: 'Gospels', acts: 'Acts', pauline: 'Paul', general: 'General', prophecy: 'Revelation',
@@ -27,6 +29,7 @@ const FALLBACK_CHURCH_COLORS = ['#2f6b8a', '#b07a1f', '#8a4a8a', '#2d7d71', '#8a
    ============================================================ */
 const state = {
   sections: [],
+  sectionById: new Map(),
   books: [],
   bookById: new Map(),
   churches: new Map(),
@@ -35,19 +38,23 @@ const state = {
   testament: 'all',
   churchFilter: new Set(), // empty = all
   query: '',
-  open: null,              // { bookId, chapter } or { sermonId }
-  bookScroll: null,        // { key, top } so Back from a sermon lands where you were in the list
-  scope: null,             // { kind: 'series' | 'speaker', id }
+  // The side panel (bottom sheet on phones). One of:
+  //   { kind: 'book', bookId, chapter }   { kind: 'sermon', sermonId }
+  //   { kind: 'series', id }              { kind: 'speaker', id }
+  open: null,
+  panelScroll: new Map(),  // panel view key -> scrollTop, so Back lands where you were
+  lastSermonId: null,      // the sermon last opened in the panel (marked in its series list)
+  bookQuery: null,         // { bookId, q }: a book opened from a search shows only that search's matches
+  speakerShown: 0,
   series: new Map(),       // id -> { id, name, church, color, sermons }
   speakers: new Map(),     // id -> { id, name, color, sermons }
   lastFocus: null,
   notes: null,             // id -> show notes text, once data/notes.json has loaded
   shown: 0,                // how many search results are rendered
   shownFor: '',            // the query `shown` belongs to (a new query starts over)
-  studyOnly: false,        // book drawer: only sermons that study the book (s.study), remembered per browser
+  studyOnly: false,        // book panel: only sermons that study the book (s.study), remembered per browser
 };
 
-const SEARCH_PLACEHOLDER = 'Book, passage (John 3), topic, speaker';
 // Labels some feeds use for one-off messages; not worth grouping
 const NOT_A_SERIES = /^(stand ?alone|testimony|lecture|introduction)$/i;
 
@@ -55,7 +62,7 @@ const $ = (sel, el = document) => el.querySelector(sel);
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const slug = (s) => norm(s).replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
 const splitSpeakers = (s) => String(s ?? '').split(/\s+(?:and|&)\s+|\s*,\s*/).map((x) => x.trim()).filter(Boolean);
-const plural = (n, word) => `${n} ${word}${n === 1 ? '' : /(ch|sh|s|x)$/.test(word) ? 'es' : 's'}`;
+const plural = (n, word) => `${n.toLocaleString('en-US')} ${word}${n === 1 ? '' : /(ch|sh|s|x)$/.test(word) ? 'es' : 's'}`;
 
 /* ============================================================
    Book name matching ("1 Sam", "first samuel", "1sam", "Ps", ...)
@@ -119,6 +126,7 @@ async function load() {
   ]);
 
   state.sections = bookData.sections;
+  state.sectionById = new Map(state.sections.map((s) => [s.id, s]));
   state.books = bookData.books.map((b) => ({ ...b, _keys: bookKeys(b) }));
   state.bookById = new Map(state.books.map((b) => [b.id, b]));
 
@@ -171,10 +179,7 @@ function buildGroups() {
   state.speakers = speakers;
 }
 
-function scopeGroup(scope = state.scope) {
-  if (!scope) return null;
-  return (scope.kind === 'series' ? state.series : state.speakers).get(scope.id) || null;
-}
+const groupOf = (kind, id) => (kind === 'series' ? state.series : state.speakers).get(id) || null;
 
 function normalizeSermon(s, i) {
   const refs = (s.refs || []).map((r) => {
@@ -217,9 +222,19 @@ function normalizeSermon(s, i) {
 /* ============================================================
    Derived data
    ============================================================ */
-function visibleSermons() {
+const testamentOf = (bookId) => state.sectionById.get(state.bookById.get(bookId).section).testament;
+
+/** Church filter only. The panel uses this: an open book, series or speaker shows all of itself. */
+function churchSermons() {
   if (!state.churchFilter.size) return state.sermons;
   return state.sermons.filter((s) => state.churchFilter.has(s.church));
+}
+
+/** Church + testament filters: what the main column (latest, search, book grid) works from. */
+function visibleSermons() {
+  const base = churchSermons();
+  if (state.testament === 'all') return base;
+  return base.filter((s) => s.refs.some((r) => testamentOf(r.book) === state.testament));
 }
 
 function bookStats(sermons) {
@@ -253,6 +268,121 @@ const churchName = (c) => c.short && c.short !== c.name
   ? `<span class="long">${esc(c.name)}</span><span class="short">${esc(c.short)}</span>`
   : esc(c.name);
 const isTouch = matchMedia('(hover: none) and (pointer: coarse)').matches;
+/** Wide screens: the panel sits beside the page instead of covering it (keep in sync with styles.css). */
+const wide = matchMedia('(min-width: 1100px)');
+const isModal = () => !!state.open && !wide.matches;
+
+/* ============================================================
+   Search: what is being asked for, and what matches
+   ============================================================ */
+/**
+ * The search box means one of:
+ *   none     fewer than 2 characters
+ *   ref      a chapter ("John 3", "Rom 8:28")
+ *   book     a book's name or abbreviation exactly ("romans", "1 cor", "ps"): its sermons, same count as its page
+ *   text     anything else: ranked title/series/speaker/topic/notes search
+ */
+function searchMode(raw = state.query) {
+  const q = raw.trim();
+  const n = norm(q);
+  if (n.length < 2) return { kind: 'none', n };
+  const ref = parseRef(q);
+  if (ref) return { kind: 'ref', n, ...ref };
+  const book = state.books.find((b) => b._keys.includes(n));
+  if (book) return { kind: 'book', n, book };
+  return { kind: 'text', n };
+}
+
+function findHits(sermons, mode) {
+  if (mode.kind === 'ref') {
+    const { book, chapter } = mode;
+    return sermons
+      .filter((s) => s.refs.some((r) => r.book === book.id && (r.start == null || (chapter >= r.start && chapter <= r.end))))
+      // Sermons on that chapter first; whole-book ones ("John" with no chapter) after them
+      .sort((a, b) => wholeBookOnly(a, book.id) - wholeBookOnly(b, book.id) || byDateDesc(a, b));
+  }
+  if (mode.kind === 'book') return sermons.filter((s) => s.refs.some((r) => r.book === mode.book.id)).sort(byDateDesc);
+  if (mode.kind === 'text') return searchSermons(sermons, mode.n);
+  return [];
+}
+
+/* Text ranking: every typed word has to start a word somewhere in the sermon.
+   Each word scores by the best field it hits; a title containing the whole phrase gets a bonus.
+   Ties go to the newer sermon. */
+const FIELD_WEIGHT = { title: 10, series: 6, speaker: 6, other: 3, notes: 1 };
+const reEsc = (t) => t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+
+const wholeBookOnly = (s, bookId) => (s.refs.some((r) => r.book === bookId && r.start != null) ? 0 : 1);
+
+function searchSermons(sermons, q) {
+  const terms = q.split(' ').filter(Boolean);
+  const res = terms.map((t) => new RegExp(`(?:^|[^a-z0-9])${reEsc(t)}`));
+  const phrase = terms.length > 1 ? q : null;
+  const out = [];
+  for (const s of sermons) {
+    let score = 0;
+    let notesOnly = false;
+    for (const re of res) {
+      let best = 0;
+      for (const f in FIELD_WEIGHT) if (FIELD_WEIGHT[f] > best && re.test(s._f[f])) best = FIELD_WEIGHT[f];
+      if (!best) { score = 0; break; }
+      if (best === FIELD_WEIGHT.notes) notesOnly = true;
+      score += best;
+    }
+    if (!score) continue;
+    if (phrase && s._f.title.includes(phrase)) score += 10;
+    s._score = score;
+    s._viaNotes = notesOnly;
+    out.push(s);
+  }
+  return out.sort((a, b) => b._score - a._score || byDateDesc(a, b));
+}
+
+/** Series/speakers whose name has a word starting with every typed term. */
+function groupSuggestions(n) {
+  if (n.length < 3) return [];
+  const terms = n.split(' ');
+  const hit = (name) => {
+    const words = norm(name).split(/[^a-z0-9]+/);
+    return terms.every((t) => words.some((w) => w.startsWith(t)));
+  };
+  const out = [];
+  for (const g of state.speakers.values()) if (hit(g.name)) out.push({ kind: 'speaker', ...g });
+  for (const g of state.series.values()) if (hit(g.name)) out.push({ kind: 'series', ...g });
+  return out.sort((a, b) => b.sermons.length - a.sermons.length).slice(0, 3);
+}
+
+/** The book a search points at, if any: a chapter, an exact name, or the only book the typing could be. */
+function searchBook(mode) {
+  if (mode.kind === 'ref' || mode.kind === 'book') return mode.book;
+  const books = matchBooks(state.query);
+  return books.length === 1 ? books[0] : null;
+}
+
+/** A short show-notes snippet around the first typed word, for results found only through the notes. */
+function noteExcerpt(s, q) {
+  const text = s._viaNotes && state.notes?.[s.id];
+  if (!text) return '';
+  const words = q.split(' ').filter((w) => w.length > 2 && !s._f.title.includes(w));
+  for (const w of words) {
+    const m = new RegExp(`(^|[^a-z0-9])(${reEsc(w)}[a-z]*)`, 'i').exec(text);
+    if (!m) continue;
+    const at = m.index + m[1].length;
+    const from = Math.max(0, text.lastIndexOf(' ', Math.max(0, at - 60)) + 1);
+    const to = Math.min(text.length, at + m[2].length + 70);
+    const clip = (from > 0 ? '…' : '') + esc(text.slice(from, at)) + `<mark>${esc(m[2])}</mark>` + esc(text.slice(at + m[2].length, to)) + (to < text.length ? '…' : '');
+    return `<span class="hit">${clip}</span>`;
+  }
+  return '';
+}
+
+/** notes.json landed: make the notes searchable, and refresh an open search. */
+function attachNotes(notes) {
+  if (state.notes || !notes || !Object.keys(notes).length) return;
+  state.notes = notes;
+  for (const s of state.sermons) s._f.notes = norm(notes[s.id] || '');
+  if (searchMode().kind === 'text' || state.bookQuery) render();
+}
 
 /* ============================================================
    Rendering
@@ -263,6 +393,8 @@ const ICON = {
   apple: '<span class="brand-ico apple" aria-hidden="true"></span>',
   web: '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"/></svg>',
   audio: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 15v-3a8 8 0 0 1 16 0v3"/><rect x="3" y="14" width="5" height="7" rx="1.5"/><rect x="16" y="14" width="5" height="7" rx="1.5"/></svg>',
+  arrow: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>',
+  x: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7l10 10M17 7 7 17"/></svg>',
 };
 const hostOf = (u) => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch { return ''; } };
 const SITE_NAMES = { 'gospelinlife.com': 'Gospel in Life' };
@@ -272,7 +404,7 @@ const PREF_KEY = 'listenOn';
 const getPref = () => { try { return localStorage.getItem(PREF_KEY); } catch { return null; } };
 const setPref = (v) => { try { localStorage.setItem(PREF_KEY, v); } catch { /* private mode */ } };
 
-/** Book drawer "Book studies only" toggle, remembered per browser. */
+/** Book panel "Book studies only" toggle, remembered per browser. */
 const STUDY_KEY = 'studyOnly';
 try { state.studyOnly = localStorage.getItem(STUDY_KEY) === '1'; } catch { /* private mode */ }
 const setStudyOnly = (on) => {
@@ -311,16 +443,17 @@ function refPills(s) {
   }).join('');
 }
 
+/** A series or speaker name that opens its page in the panel. */
 const facet = (kind, id, label, extra = '') =>
-  `<button type="button" class="facet${extra}" data-scope="${kind}:${id}" title="All ${kind === 'series' ? 'messages in this series' : `sermons by ${esc(label)}`}">${esc(label)}</button>`;
+  `<button type="button" class="facet${extra}" data-group="${kind}:${id}" title="All ${kind === 'series' ? 'messages in this series' : `sermons by ${esc(label)}`}">${esc(label)}</button>`;
 
-function speakerHtml(s) {
+/** opts.speakerId: on that speaker's own page, their name isn't a link. */
+function speakerHtml(s, opts = {}) {
   if (!s.speaker) return '';
   const names = splitSpeakers(s.speaker);
-  const current = state.scope?.kind === 'speaker' ? state.scope.id : null;
   const parts = names.map((n, i) => {
     const id = s._speakerIds[i];
-    return state.speakers.has(id) && id !== current ? facet('speaker', id, n) : esc(n);
+    return state.speakers.has(id) && id !== opts.speakerId ? facet('speaker', id, n) : esc(n);
   });
   return `<span class="speaker">${parts.join(names.length === 2 ? ' and ' : ', ')}</span>`;
 }
@@ -331,8 +464,10 @@ function speakerHtml(s) {
  *   2. title
  *   3. church · speaker · length · series   (one line; series truncates)
  * Topic tags live on the sermon page (and in search), not on the card.
- * opts.bookId: in a book drawer, "Study" means a study of that book; elsewhere, of any book it cites.
+ * opts.bookId: in a book panel, "Study" means a study of that book; elsewhere, of any book it cites.
  * opts.hideStudy: the list is already filtered to studies, so the mark would be noise.
+ * opts.seriesId / opts.speakerId: on that series/speaker page, don't repeat it on every card.
+ * opts.here: the sermon you just came from (marked in its series list).
  */
 function sermonCard(s, extra = '', opts = {}) {
   const firstBook = state.bookById.get(s.refs[0].book);
@@ -340,13 +475,12 @@ function sermonCard(s, extra = '', opts = {}) {
   // A series named after the book ("John", "Acts") just repeats the passage line, so drop it.
   const bookNames = new Set(s.refs.map((r) => norm(state.bookById.get(r.book).name)));
   const series = s.series && !bookNames.has(norm(s.series)) ? s.series : '';
-  // Inside a series view, every card's series is the same, so don't repeat it
-  const inScope = state.scope?.kind === 'series' && s._seriesId === state.scope.id;
-  const seriesHtml = !series || inScope ? ''
+  const inSeries = opts.seriesId && s._seriesId === opts.seriesId;
+  const seriesHtml = !series || inSeries ? ''
     : s._seriesId ? facet('series', s._seriesId, series, ' series') : `<span class="series">${esc(series)}</span>`;
   const meta = [
     `<span class="who"><span class="dot" style="--cc:${esc(s.churchObj.color)}"></span>${churchName(s.churchObj)}</span>`,
-    speakerHtml(s),
+    speakerHtml(s, opts),
     s.durationMin && `<span class="dur">${Math.round(s.durationMin)} min</span>`,
     seriesHtml,
   ].filter(Boolean).join('');
@@ -354,18 +488,19 @@ function sermonCard(s, extra = '', opts = {}) {
     : s.year ? `<time datetime="${esc(s.year)}" title="Exact date unknown">${esc(s.year)}</time>` : '';
   // Skipped on cards with 3+ passage pills: the line can't fit it without crushing the pills.
   const study = !opts.hideStudy && s.refs.length <= 2 && (opts.bookId ? isStudy(s, opts.bookId) : !!s.study?.length);
-  const studyHtml = study ? `<span class="study-mark" title="Teaches this passage in context">Study</span>` : '';
+  const studyHtml = study ? `<span class="study-mark" title="Teaches this passage in context, not a topical sermon that cites it">Study</span>` : '';
   // One-tap listening: up to two services as icon buttons; the rest of the card opens the sermon page.
   // The audio file only gets an icon when there's no Spotify/Apple pair (e.g. Keller: site + audio).
   const all = listenLinks(s);
   const players = all.filter((l) => l.kind !== 'audio');
   const icons = (players.length >= 2 ? players : all).slice(0, 2).map((l) =>
     `<a class="ico ${l.kind}" ${listenAttrs(l)} aria-label="Listen on ${esc(l.name)}" title="Listen on ${esc(l.name)}">${ICON[l.kind]}</a>`).join('');
+  const here = opts.here === s.id;
   return `
     <li>
-      <article class="sermon" style="--c:${color}">
-        <span class="ref"><span class="pass">${refPills(s)}</span>${studyHtml}${when}</span>
-        <a class="title" href="#/sermon/${esc(s.id)}" data-sermon="${esc(s.id)}">${esc(s.title)}</a>
+      <article class="sermon${here ? ' is-here' : ''}" style="--c:${color}" data-card="${esc(s.id)}">
+        <span class="ref"><span class="pass">${refPills(s)}</span>${studyHtml}${here ? '<span class="here-mark">Just viewed</span>' : ''}${when}</span>
+        <a class="title" href="#/sermon/${esc(s.id)}" data-sermon="${esc(s.id)}"${here ? ' aria-current="page"' : ''}>${esc(s.title)}</a>
         <span class="meta">${meta}</span>
         ${extra}
         <span class="listen">${icons}</span>
@@ -383,50 +518,66 @@ function renderChurchChips() {
   el.innerHTML = all + chips;
 }
 
-function renderStats(sermons, stats) {
+/** One line under the filters that always describes what the page is showing. */
+function renderStats(sermons, stats, mode, hits) {
+  const inTestament = state.books.filter((b) => state.testament === 'all' || testamentOf(b.id) === state.testament).length;
   const covered = [...stats.values()].filter((s) => s.count).length;
+  const el = $('#stats');
+  if (mode.kind === 'text') {
+    el.innerHTML = `<strong>${hits.length.toLocaleString('en-US')}</strong> of ${plural(sermons.length, 'sermon')} match` +
+      ` · in <strong>${covered}</strong> of ${inTestament} books`;
+    return;
+  }
   const churches = new Set(sermons.map((s) => s.church)).size;
-  $('#stats').innerHTML =
+  el.innerHTML =
     `<strong>${plural(sermons.length, 'sermon')}</strong> from <strong>${plural(churches, 'church')}</strong>` +
-    ` · <strong>${covered}</strong> of 66 books covered`;
+    ` · <strong>${covered}</strong> of ${inTestament} books covered`;
 }
 
-function renderLibrary(stats) {
+/**
+ * The book grid. Typing a book name narrows it to those books; a text search keeps every book but
+ * recounts each tile to the matches (books with none go quiet), and a tile then opens that book
+ * showing only the matches.
+ */
+function renderLibrary(stats, mode) {
   const q = state.query.trim();
-  const ref = q ? parseRef(q) : null;
-  const matches = q ? new Set((ref ? [ref.book] : matchBooks(q)).map((b) => b.id)) : null;
-  const filterBooks = matches && matches.size > 0;
+  const named = q ? (mode.kind === 'ref' ? [mode.book] : matchBooks(q)) : [];
+  const only = named.length ? new Set(named.map((b) => b.id)) : null;
+  const searching = mode.kind === 'text' && !only;
 
   const html = state.sections
     .filter((sec) => state.testament === 'all' || sec.testament === state.testament)
     .map((sec) => {
-      const books = state.books.filter((b) => b.section === sec.id && (!filterBooks || matches.has(b.id)));
+      const books = state.books.filter((b) => b.section === sec.id && (!only || only.has(b.id)));
       if (!books.length) return '';
       const secCount = books.reduce((n, b) => n + stats.get(b.id).count, 0);
       const tiles = books.map((b) => {
         const st = stats.get(b.id);
         const pct = Math.round((st.chapters.size / b.chapters) * 100);
-        const label = `${b.name}, ${plural(b.chapters, 'chapter')}, ${plural(st.count, 'sermon')}`;
+        const what = searching ? `${plural(st.count, 'match')} for “${q}”` : plural(st.count, 'sermon');
+        const label = `${b.name}, ${plural(b.chapters, 'chapter')}, ${what}`;
         return `
           <button class="tile${st.count ? '' : ' empty'}" data-book="${b.id}" aria-label="${esc(label)}">
             <span class="abbr" aria-hidden="true">${esc(b.abbr)}</span>
             <span class="name" aria-hidden="true">${esc(b.name)}</span>
             <span class="meta" aria-hidden="true">${b.chapters} ch</span>
             <span class="count" aria-hidden="true">${st.count}</span>
-            <span class="bar" aria-hidden="true" title="${pct}% of chapters have a sermon"><i style="width:${pct}%"></i></span>
+            <span class="bar" aria-hidden="true" title="${pct}% of chapters have a ${searching ? 'match' : 'sermon'}"><i style="width:${pct}%"></i></span>
           </button>`;
       }).join('');
       return `
         <section class="section" data-sec="${sec.id}" style="--c:var(--${sec.id})" aria-labelledby="sec-${sec.id}">
           <div class="section-head">
             <h2 id="sec-${sec.id}">${esc(sec.name)}</h2>
-            <span>${plural(books.length, 'book')} · ${plural(secCount, 'sermon')}</span>
+            <span>${plural(books.length, 'book')} · ${searching ? `${plural(secCount, 'match')}` : plural(secCount, 'sermon')}</span>
           </div>
           <div class="grid">${tiles}</div>
         </section>`;
     }).join('');
 
-  $('#library').innerHTML = html || `<div class="empty-state"><strong>No books match.</strong>Try another name.</div>`;
+  const lib = $('#library');
+  lib.classList.toggle('searching', searching);
+  lib.innerHTML = html || `<div class="empty-state"><strong>No books match.</strong>Try another name.</div>`;
   renderJump();
 }
 
@@ -437,14 +588,12 @@ function renderJump() {
   const nav = $('#jump');
   const ids = [...document.querySelectorAll('#library .section')].map((el) => el.dataset.sec);
   // Only useful when browsing the full list, not while a search is narrowing it
-  if (state.query.trim() || state.scope || ids.length < 3) { nav.hidden = true; nav.innerHTML = ''; return; }
+  if (state.query.trim() || ids.length < 3) { nav.hidden = true; nav.innerHTML = ''; return; }
   nav.hidden = false;
   nav.innerHTML = ids.map((id) => {
     const sec = state.sections.find((s) => s.id === id);
     const short = SECTION_SHORT[id] || sec.name;
-    const label = short === sec.name ? esc(sec.name)
-      : `<span class="long">${esc(sec.name)}</span><span class="short">${esc(short)}</span>`;
-    return `<button type="button" data-jump="${id}" style="--c:var(--${id})" aria-label="${esc(sec.name)}"><span class="dot" style="--cc:var(--${id})"></span>${label}</button>`;
+    return `<button type="button" data-jump="${id}" style="--c:var(--${id})" aria-label="${esc(sec.name)}" title="${esc(sec.name)}"><span class="dot" style="--cc:var(--${id})"></span>${esc(short)}</button>`;
   }).join('');
   spy.pinned = null;
   spy.current = undefined;
@@ -471,7 +620,7 @@ function setActiveJump(id) {
     if (on) { b.setAttribute('aria-current', 'true'); active = b; } else b.removeAttribute('aria-current');
   });
   // Keep the active chip visible by scrolling the row only (never the page)
-  if (active) {
+  if (active && nav.scrollWidth > nav.clientWidth) {
     const left = active.offsetLeft - (nav.clientWidth - active.offsetWidth) / 2;
     nav.scrollTo({ left: Math.max(0, left), behavior: 'smooth' });
   }
@@ -492,224 +641,146 @@ function spy() {
   if (current !== spy.current) { spy.current = current; setActiveJump(current); }
 }
 
-const hintBtn = (target, label) =>
-  `<span class="long">Press Enter or </span><button type="button" data-open="${target}">Open ${esc(label)} <span aria-hidden="true">→</span></button>`;
-
-function renderHint() {
-  const q = state.query.trim();
+/** Keyboard hint under the search box (wide screens; phones get the same thing as the first result). */
+function renderHint(mode) {
   const hint = $('#q-hint');
-  const ref = q ? parseRef(q) : null;
-  if (ref) {
-    hint.innerHTML = hintBtn(`${ref.book.id}/${ref.chapter}`, `${ref.book.name} ${ref.chapter}`);
-    return;
-  }
-  const books = q ? matchBooks(q) : [];
-  if (books.length === 1) {
-    hint.innerHTML = hintBtn(books[0].id, books[0].name);
-    return;
-  }
-  const sugg = scopeSuggestions(q);
-  hint.innerHTML = sugg.length
-    ? `<span class="long">See all: </span>${sugg.map((g) => `<button type="button" class="token-mini" data-scope="${g.kind}:${g.id}" style="--sc:${esc(g.color)}"><span class="kind">${g.kind}</span>${esc(g.name)}</button>`).join('')}`
-    : '';
+  const book = searchBook(mode);
+  if (!book) { hint.innerHTML = ''; return; }
+  const target = mode.kind === 'ref' ? `${book.id}/${mode.chapter}` : book.id;
+  const label = mode.kind === 'ref' ? `${book.name} ${mode.chapter}` : book.name;
+  hint.innerHTML = `Press Enter or <button type="button" data-goto="${target}">Open ${esc(label)} <span aria-hidden="true">→</span></button>`;
 }
 
-/** Series/speakers whose name has a word starting with every typed term. */
-function scopeSuggestions(q) {
-  const n = norm(q);
-  if (state.scope || n.length < 3) return [];
-  const terms = n.split(' ');
-  const hit = (name) => {
-    const words = norm(name).split(/[^a-z0-9]+/);
-    return terms.every((t) => words.some((w) => w.startsWith(t)));
-  };
-  const out = [];
-  for (const g of state.speakers.values()) if (hit(g.name)) out.push({ kind: 'speaker', ...g });
-  for (const g of state.series.values()) if (hit(g.name)) out.push({ kind: 'series', ...g });
-  return out.sort((a, b) => b.sermons.length - a.sermons.length).slice(0, 3);
-}
-
-function renderResults(sermons) {
-  const panel = $('#results');
-  const q = norm(state.query);
-  const group = scopeGroup();
-  if (group) return renderScopeResults(group, sermons, q);
-  if (q.length < 2) { panel.hidden = true; return; }
-
-  const hits = searchSermons(sermons, q);
-  if (state.shownFor !== q) { state.shownFor = q; state.shown = CONFIG.maxResults; }
-
-  if (!hits.length) {
-    panel.hidden = matchBooks(state.query).length > 0; // book matches are shown in the grid
-    panel.innerHTML = `<div class="empty-state"><strong>No sermons match “${esc(state.query)}”.</strong>Try a book name, a speaker, or a topic like “faith”.</div>`;
-    return;
-  }
-  panel.hidden = false;
-  panel.innerHTML = `
-    <div class="panel-head"><h2>Sermons matching “${esc(state.query)}”</h2><span class="muted">${hits.length}</span></div>
-    <ul class="sermons cols">${hits.slice(0, state.shown).map((s) => sermonCard(s, noteExcerpt(s))).join('')}</ul>
-    ${hits.length > state.shown ? `<button type="button" class="more-btn" data-more>Show ${Math.min(CONFIG.maxResults * 2, hits.length - state.shown)} more <span class="muted">· ${state.shown} of ${hits.length}</span></button>` : ''}`;
-}
-
-/** Series view (in order, oldest first) or speaker view (newest first), optionally narrowed by typed text. */
-function renderScopeResults(group, sermons, q) {
-  const panel = $('#results');
-  const isSeries = state.scope.kind === 'series';
-  const visible = new Set(sermons);
-  const pool = group.sermons.filter((s) => visible.has(s));
-  const hits = (q.length >= 2 ? searchSermons(pool, q) : pool)
-    .sort(isSeries ? seriesOrder : byDateDesc);
-
-  const dates = group.sermons.map((s) => s.dateObj).filter(Boolean).sort((a, b) => a - b);
-  const month = (d) => d.toLocaleDateString('en-US', { month: 'short', year: 'numeric' });
-  const span = dates.length ? (month(dates[0]) === month(dates.at(-1)) ? month(dates[0]) : `${month(dates[0])} – ${month(dates.at(-1))}`) : '';
-  const churches = [...new Set(group.sermons.map((s) => s.church))].map((id) => state.churches.get(id)).filter(Boolean);
-  const eyebrow = `${isSeries ? 'Series' : 'Speaker'} · ${churches.map((c) => c.short || c.name).map(esc).join(', ')}`;
-  const count = q.length >= 2 ? `${hits.length} of ${plural(pool.length, isSeries ? 'message' : 'sermon')}` : plural(pool.length, isSeries ? 'message' : 'sermon');
-
-  let body;
-  if (hits.length) {
-    body = `<ul class="sermons cols">${hits.map((s) => sermonCard(s)).join('')}</ul>`;
-  } else if (!pool.length) {
-    body = `<div class="empty-state"><strong>None with the current church filter.</strong>Tap “All churches” to see them.</div>`;
-  } else {
-    body = `<div class="empty-state"><strong>Nothing here matches “${esc(state.query)}”.</strong>Clear the search to see all ${pool.length}.</div>`;
-  }
-  panel.hidden = false;
-  panel.innerHTML = `
-    <div class="panel-head scope-head" style="--sc:${esc(group.color)}">
-      <div><p class="eyebrow">${eyebrow}</p><h2>${esc(group.name)}</h2></div>
-      <span class="muted">${count}${span ? ` · ${span}` : ''}</span>
-    </div>
-    ${body}`;
-}
-
-/* Search ranking: every typed word has to start a word somewhere in the sermon.
-   Each word scores by the best field it hits; a title containing the whole phrase gets a bonus.
-   Ties go to the newer sermon. Passage searches ("John 3") list that chapter's sermons newest-first, then whole-book ones. */
-const FIELD_WEIGHT = { title: 10, series: 6, speaker: 6, other: 3, notes: 1 };
-const reEsc = (t) => t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-
-const wholeBookOnly = (s, bookId) => (s.refs.some((r) => r.book === bookId && r.start != null) ? 0 : 1);
-
-function searchSermons(sermons, q) {
-  const ref = parseRef(state.query);
-  if (ref) {
-    return sermons
-      .filter((s) => s.refs.some((r) => r.book === ref.book.id && (r.start == null || (ref.chapter >= r.start && ref.chapter <= r.end))))
-      // Sermons on that chapter first; whole-book ones ("John" with no chapter) after them
-      .sort((a, b) => wholeBookOnly(a, ref.book.id) - wholeBookOnly(b, ref.book.id) || byDateDesc(a, b));
-  }
-  const terms = q.split(' ').filter(Boolean);
-  const res = terms.map((t) => new RegExp(`(?:^|[^a-z0-9])${reEsc(t)}`));
-  const phrase = terms.length > 1 ? q : null;
-  const out = [];
-  for (const s of sermons) {
-    let score = 0;
-    let notesOnly = false;
-    for (const re of res) {
-      let best = 0;
-      for (const f in FIELD_WEIGHT) if (FIELD_WEIGHT[f] > best && re.test(s._f[f])) best = FIELD_WEIGHT[f];
-      if (!best) { score = 0; break; }
-      if (best === FIELD_WEIGHT.notes) notesOnly = true;
-      score += best;
+/** "Go to" rows above the results: the book or chapter the search names, and matching speakers/series. */
+function gotoRows(mode, hits) {
+  const rows = [];
+  const book = searchBook(mode);
+  if (book) {
+    const sermons = churchSermons();
+    if (mode.kind === 'ref') {
+      rows.push({ attr: `data-goto="${book.id}/${mode.chapter}"`, kind: 'Chapter', name: `${book.name} ${mode.chapter}`,
+        sub: plural(hits.length, 'sermon'), color: `var(--${book.section})` });
+    } else {
+      const n = sermons.filter((s) => s.refs.some((r) => r.book === book.id)).length;
+      rows.push({ attr: `data-goto="${book.id}"`, kind: 'Book', name: book.name,
+        sub: `${plural(n, 'sermon')} · ${plural(book.chapters, 'chapter')}`, color: `var(--${book.section})` });
     }
-    if (!score) continue;
-    if (phrase && s._f.title.includes(phrase)) score += 10;
-    s._score = score;
-    s._viaNotes = notesOnly;
-    out.push(s);
   }
-  return out.sort((a, b) => b._score - a._score || byDateDesc(a, b));
-}
-
-/** A short show-notes snippet around the first typed word, for results found only through the notes. */
-function noteExcerpt(s) {
-  const text = s._viaNotes && state.notes?.[s.id];
-  if (!text) return '';
-  const words = norm(state.query).split(' ').filter((w) => w.length > 2 && !s._f.title.includes(w));
-  for (const w of words) {
-    const m = new RegExp(`(^|[^a-z0-9])(${reEsc(w)}[a-z]*)`, 'i').exec(text);
-    if (!m) continue;
-    const at = m.index + m[1].length;
-    const from = Math.max(0, text.lastIndexOf(' ', Math.max(0, at - 60)) + 1);
-    const to = Math.min(text.length, at + m[2].length + 70);
-    const clip = (from > 0 ? '…' : '') + esc(text.slice(from, at)) + `<mark>${esc(m[2])}</mark>` + esc(text.slice(at + m[2].length, to)) + (to < text.length ? '…' : '');
-    return `<span class="hit">${clip}</span>`;
+  if (mode.kind !== 'ref') {
+    for (const g of groupSuggestions(mode.n)) {
+      const church = state.churches.get(g.church);
+      rows.push({ attr: `data-group="${g.kind}:${g.id}"`, kind: g.kind === 'series' ? `Series${church ? ` · ${church.short || church.name}` : ''}` : 'Speaker',
+        name: g.name, sub: plural(g.sermons.length, g.kind === 'series' ? 'message' : 'sermon'), color: g.color });
+    }
   }
-  return '';
+  if (!rows.length) return '';
+  return `<ul class="goto">${rows.map((r) => `
+    <li><button type="button" class="goto-row" ${r.attr} style="--gc:${esc(r.color)}">
+      <span class="g-kind">${esc(r.kind)}</span><span class="g-name">${esc(r.name)}</span><span class="g-sub">${esc(r.sub)}</span>${ICON.arrow}
+    </button></li>`).join('')}</ul>`;
 }
 
-/** notes.json landed: make the notes searchable, and refresh an open search. */
-function attachNotes(notes) {
-  if (state.notes || !notes || !Object.keys(notes).length) return;
-  state.notes = notes;
-  for (const s of state.sermons) s._f.notes = norm(notes[s.id] || '');
-  if (norm(state.query).length >= 2 || state.scope) render();
+/** Text search: which books the matches are in, most first. Tapping one opens that book showing just the matches. */
+function inBooksRow(stats) {
+  const books = state.books.map((b) => ({ b, n: stats.get(b.id).count })).filter((x) => x.n)
+    .sort((a, b) => b.n - a.n).slice(0, CONFIG.inBooks);
+  if (books.length < 2) return '';
+  return `<div class="inbooks" role="group" aria-label="Matches by book"><span class="ib-label">In</span>${books.map(({ b, n }) =>
+    `<button type="button" class="ib" data-book-q="${b.id}" style="--c:var(--${b.section})" title="${esc(b.name)}: just these matches">${esc(b.name)}<span class="n">${n}</span></button>`).join('')}</div>`;
 }
 
-/** The colored token inside the search box while a series/speaker view is on. */
-function renderScope() {
-  const tok = $('#q-scope');
-  const input = $('#q');
-  const g = scopeGroup();
-  $('.search').classList.toggle('scoped', !!g);
-  if (!g) { tok.hidden = true; input.placeholder = SEARCH_PLACEHOLDER; return; }
-  const kind = state.scope.kind;
-  tok.hidden = false;
-  $('.search').style.setProperty('--sc', g.color);
-  tok.innerHTML = `<span class="kind">${kind}</span><span class="val">${esc(g.name)}</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7l10 10M17 7 7 17"/></svg>`;
-  tok.setAttribute('aria-label', `Remove ${kind} filter: ${g.name}`);
-  tok.title = `Show everything again`;
-  input.placeholder = kind === 'series' ? 'Search this series' : `Search ${g.name.split(' ')[0]}'s sermons`;
+function renderResults(mode, hits, stats) {
+  const panel = $('#results');
+  if (mode.kind === 'none') { panel.hidden = true; return; }
+  if (state.shownFor !== mode.n) { state.shownFor = mode.n; state.shown = CONFIG.maxResults; }
+  const q = state.query.trim();
+  const heading = mode.kind === 'text' ? `Sermons matching “${esc(q)}”`
+    : mode.kind === 'ref' ? `Sermons on ${esc(mode.book.name)} ${mode.chapter}`
+    : `Sermons on ${esc(mode.book.name)}`;
+  const goto = gotoRows(mode, hits);
+  let body;
+  if (!hits.length) {
+    body = `<div class="empty-state"><strong>No sermons match “${esc(q)}”.</strong>${state.churchFilter.size || state.testament !== 'all'
+      ? 'Try clearing the church or testament filter.' : 'Try a book name, a speaker, or a topic like “faith”.'}</div>`;
+  } else {
+    body = `
+      ${mode.kind === 'text' ? inBooksRow(stats) : ''}
+      <ul class="sermons cols">${hits.slice(0, state.shown).map((s) => sermonCard(s, mode.kind === 'text' ? noteExcerpt(s, mode.n) : '')).join('')}</ul>
+      ${hits.length > state.shown ? `<button type="button" class="more-btn" data-more>Show ${Math.min(CONFIG.maxResults * 2, hits.length - state.shown)} more <span class="muted">· ${state.shown} of ${hits.length}</span></button>` : ''}`;
+  }
+  panel.hidden = false;
+  panel.innerHTML = `
+    ${goto}
+    <div class="panel-head"><h2>${heading}</h2><span class="muted">${hits.length.toLocaleString('en-US')}</span></div>
+    ${body}`;
 }
 
 function renderRecent(sermons) {
   const panel = $('#recent');
-  if (state.query.trim() || state.scope || !sermons.length) { panel.hidden = true; return; }
+  if (state.query.trim() || !sermons.length) { panel.hidden = true; return; }
   const recent = [...sermons].sort(byDateDesc).slice(0, CONFIG.recentCount);
   panel.hidden = false;
   panel.innerHTML = `
-    <div class="panel-head"><h2>Recently added</h2></div>
+    <div class="panel-head"><h2>Latest sermons</h2></div>
     <ul class="sermons cols scroller">${recent.map((s) => sermonCard(s)).join('')}</ul>`;
 }
 
 function render() {
   const sermons = visibleSermons();
-  const stats = bookStats(sermons);
-  renderStats(sermons, stats);
-  renderScope();
-  renderResults(sermons);
+  const mode = searchMode();
+  const hits = mode.kind === 'none' ? [] : findHits(sermons, mode);
+  const stats = bookStats(mode.kind === 'text' ? hits : sermons);
+  document.body.classList.toggle('searching-text', mode.kind === 'text');
+  renderStats(sermons, stats, mode, hits);
+  renderResults(mode, hits, stats);
   renderRecent(sermons);
-  renderLibrary(stats);
-  renderHint();
+  renderLibrary(stats, mode);
+  renderHint(mode);
   if (state.open) renderDrawer();
+  markOpen();
+}
+
+/** Wide screens: highlight the card or book tile whose page is open beside the list. */
+function markOpen() {
+  document.querySelectorAll('main .is-open').forEach((el) => el.classList.remove('is-open'));
+  const o = state.open;
+  if (!o) return;
+  if (o.kind === 'sermon') document.querySelectorAll(`main [data-card="${CSS.escape(o.sermonId)}"]`).forEach((el) => el.classList.add('is-open'));
+  if (o.kind === 'book') document.querySelector(`main .tile[data-book="${o.bookId}"]`)?.classList.add('is-open');
 }
 
 /* ============================================================
-   Drawer (book detail)
+   Panel: book, sermon, series and speaker pages.
+   Rule: the main column is for finding; the panel is for going deeper.
+   Nothing in the panel sends you back to the main column - links inside it
+   open the next page in the panel, and Back walks back through them.
    ============================================================ */
 function renderDrawer() {
   const drawer = $('#drawer');
-  const isSermon = !!state.open.sermonId;
-  drawer.classList.toggle('is-sermon', isSermon);
-  $('#d-book').hidden = isSermon;
-  $('#d-sermon').hidden = !isSermon;
-  $('#d-back').hidden = !isSermon;
-  $('#d-share').hidden = isSermon;
-  if (isSermon) return renderSermon(state.sermonById.get(state.open.sermonId));
-  renderBook();
+  const { kind } = state.open;
+  drawer.classList.toggle('is-sermon', kind !== 'book');
+  $('#d-book').hidden = kind !== 'book';
+  $('#d-sermon').hidden = kind !== 'sermon';
+  $('#d-group').hidden = kind !== 'series' && kind !== 'speaker';
+  $('#d-back').hidden = !backTarget();
+  $('#d-share').hidden = kind !== 'book';
+  $('#d-bp').hidden = true;
+  if (kind === 'sermon') return renderSermon(state.sermonById.get(state.open.sermonId));
+  if (kind === 'book') return renderBook();
+  renderGroup(kind, state.open.id);
 }
 
 function renderBook() {
   const { bookId, chapter } = state.open;
   const book = state.bookById.get(bookId);
-  const section = state.sections.find((s) => s.id === book.section);
+  const section = state.sectionById.get(book.section);
   const drawer = $('#drawer');
   drawer.style.setProperty('--c', `var(--${book.section})`);
-  $('#drawer').setAttribute('aria-labelledby', 'd-title');
 
-  const all = visibleSermons().filter((s) => s.refs.some((r) => r.book === bookId));
+  const onBook = churchSermons().filter((s) => s.refs.some((r) => r.book === bookId));
+  // Opened from a text search: only that search's matches, until "Show all" clears it
+  const bq = state.bookQuery?.bookId === bookId ? state.bookQuery.q : null;
+  const all = bq ? searchSermons(onBook, norm(bq)) : onBook;
   const chaptersWith = new Set();
   all.forEach((s) => s.refs.forEach((r) => {
     if (r.book === bookId && r.start != null) for (let c = r.start; c <= r.end; c++) chaptersWith.add(c);
@@ -717,7 +788,7 @@ function renderBook() {
 
   $('#d-section').textContent = `${section.testament === 'OT' ? 'Old' : 'New'} Testament · ${section.name}`;
   $('#d-title').textContent = book.name;
-  $('#d-meta').textContent = `${plural(book.chapters, 'chapter')} · ${plural(all.length, 'sermon')}`;
+  $('#d-meta').textContent = `${plural(book.chapters, 'chapter')} · ${plural(onBook.length, 'sermon')}`;
   const bp = $('#d-bp');
   bp.hidden = !book.bibleproject;
   if (book.bibleproject) {
@@ -725,11 +796,18 @@ function renderBook() {
     bp.setAttribute('aria-label', `BibleProject guide to ${book.name} (opens in a new tab)`);
   }
 
+  const qbar = $('#d-qbar');
+  qbar.hidden = !bq;
+  if (bq) {
+    qbar.innerHTML = `<span class="qb-text">Showing <strong>${all.length}</strong> of ${onBook.length} that match “${esc(bq)}”</span>
+      <button type="button" class="chip" data-clear-bq>Show all ${onBook.length}</button>`;
+  }
+
   let btns = `<button class="all" data-ch="" aria-pressed="${chapter == null}">All</button>`;
   for (let c = 1; c <= book.chapters; c++) {
     const has = chaptersWith.has(c);
     btns += `<button data-ch="${c}" class="${has ? 'has' : ''}" aria-pressed="${chapter === c}" ${has ? '' : 'disabled'}
-      aria-label="Chapter ${c}${has ? '' : ', no sermons'}">${c}</button>`;
+      aria-label="Chapter ${c}${has ? '' : bq ? ', no matches' : ', no sermons'}">${c}</button>`;
   }
   $('#d-chapters').innerHTML = btns;
   const sel = $('#d-chapters [aria-pressed="true"]');
@@ -753,7 +831,9 @@ function renderBook() {
   if (!list.length) {
     const suggest = CONFIG.suggestUrl ? ` <a href="${esc(CONFIG.suggestUrl)}" target="_blank" rel="noopener">Suggest one</a>.` : '';
     const churchNote = state.churchFilter.size ? ' with the current church filter' : '';
-    $('#d-list').innerHTML = `<li class="empty-state"><strong>No sermons yet${churchNote}.</strong>Heard a good one on ${esc(book.name)}?${suggest}</li>`;
+    $('#d-list').innerHTML = bq
+      ? `<li class="empty-state"><strong>Nothing in ${chapter ? `chapter ${chapter}` : esc(book.name)} matches “${esc(bq)}”.</strong></li>`
+      : `<li class="empty-state"><strong>No sermons yet${churchNote}.</strong>Heard a good one on ${esc(book.name)}?${suggest}</li>`;
     return;
   }
 
@@ -773,13 +853,44 @@ function renderBook() {
       current = st;
       html += `<li class="group-label">${st === 0 ? 'Whole book' : `Chapter ${st}`}</li>`;
     }
-    html += sermonCard(s, '', { bookId, hideStudy: filtering });
+    html += sermonCard(s, bq ? noteExcerpt(s, norm(bq)) : '', { bookId, hideStudy: filtering });
   }
   $('#d-list').innerHTML = html;
 }
 
+/** Series page (in order, oldest first) or speaker page (newest first, paged). */
+function renderGroup(kind, id) {
+  const g = groupOf(kind, id);
+  const isSeries = kind === 'series';
+  $('#drawer').style.setProperty('--c', g.color);
+
+  const dates = g.sermons.map((s) => s.dateObj).filter(Boolean).sort((a, b) => a - b);
+  const month = (d) => d.toLocaleDateString('en-US', { month: 'short', year: 'numeric' });
+  const span = dates.length ? (month(dates[0]) === month(dates.at(-1)) ? month(dates[0]) : `${month(dates[0])} – ${month(dates.at(-1))}`) : '';
+  const churches = [...new Set(g.sermons.map((s) => s.church))].map((c) => state.churches.get(c)).filter(Boolean);
+  $('#d-section').innerHTML = `<span class="dot" style="--cc:${esc(g.color)}"></span>${isSeries ? 'Series' : 'Speaker'} · ${churches.map((c) => esc(c.short || c.name)).join(', ')}`;
+  $('#d-title').textContent = g.name;
+
+  // A series is one church's, so it always shows whole; a speaker follows the church filter like a book does.
+  const visible = new Set(churchSermons());
+  const pool = isSeries ? g.sermons : g.sermons.filter((s) => visible.has(s));
+  $('#d-meta').textContent = [plural(pool.length, isSeries ? 'message' : 'sermon'), span].filter(Boolean).join(' · ');
+
+  const box = $('#d-group');
+  if (!pool.length) {
+    box.innerHTML = `<div class="empty-state"><strong>None with the current church filter.</strong>Tap “All churches” to see them.</div>`;
+    return;
+  }
+  const sorted = [...pool].sort(isSeries ? seriesOrder : byDateDesc);
+  const shown = isSeries ? sorted : sorted.slice(0, state.speakerShown || CONFIG.speakerPage);
+  const opts = isSeries ? { seriesId: id, here: state.lastSermonId } : { speakerId: id };
+  box.innerHTML = `
+    <ol class="sermons${isSeries ? ' numbered' : ''}">${shown.map((s) => sermonCard(s, '', opts)).join('')}</ol>
+    ${shown.length < sorted.length ? `<button type="button" class="more-btn" data-more-panel>Show ${Math.min(CONFIG.speakerPage, sorted.length - shown.length)} more <span class="muted">· ${shown.length} of ${sorted.length}</span></button>` : ''}`;
+}
+
 /* ============================================================
-   Sermon page (inside the same panel; Back returns to the list)
+   Sermon page
    ============================================================ */
 let notesPromise = null;
 function loadNotes() {
@@ -813,7 +924,6 @@ function renderSermon(s) {
     s.dateObj ? fmtDate(s.dateObj) : s.year,
     s.durationMin && `${Math.round(s.durationMin)} min`,
   ].filter(Boolean).join(' · ');
-  $('#d-bp').hidden = true;
 
   // Big buttons: the service this viewer last used goes first
   const pref = getPref();
@@ -826,11 +936,12 @@ function renderSermon(s) {
   const bookNames = new Set(s.refs.map((r) => norm(state.bookById.get(r.book).name)));
   const seriesName = s.series && !bookNames.has(norm(s.series)) ? s.series : '';
   const group = s._seriesId ? state.series.get(s._seriesId) : null;
+  // The whole series is listed further down this page, so the name here is plain text, not a link.
   const facts = [
     ['Passage', `<span class="pass">${refPills(s)}${s.study?.length
-      ? `<span class="study-mark" title="Teaches this passage in context">Study</span>` : ''}</span>`],
+      ? `<span class="study-mark" title="Teaches this passage in context, not a topical sermon that cites it">Study</span>` : ''}</span>`],
     s.speaker && ['Speaker', speakerHtml(s)],
-    seriesName && ['Series', group ? facet('series', group.id, group.name, ' series') : `<span class="series">${esc(seriesName)}</span>`],
+    seriesName && ['Series', `<span class="series">${esc(group?.name || seriesName)}</span>`],
     s.tags?.length && ['Topics', `<span class="tags">${s.tags.map((t) => `<span class="tag">${esc(t)}</span>`).join('')}</span>`],
   ].filter(Boolean).map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join('');
 
@@ -841,7 +952,7 @@ function renderSermon(s) {
     seriesHtml = `
       <section class="s-block">
         <h3 class="label">This series</h3>
-        <p class="s-sub">${facet('series', group.id, group.name, ' series')} · message ${i + 1} of ${inOrder.length}</p>
+        <p class="s-sub"><span class="series">${esc(group.name)}</span> · message ${i + 1} of ${inOrder.length}</p>
         <ol class="series-list">${inOrder.map((t, j) => seriesRow(t, j, s)).join('')}</ol>
       </section>`;
   }
@@ -862,117 +973,122 @@ function renderSermon(s) {
   });
 }
 
-const bookKey = (o) => `${o.bookId}/${o.chapter ?? ''}`;
+/* ---------- Opening, closing, Back ---------- */
+const panelKey = (o) => (o.kind === 'book' ? `book:${o.bookId}/${o.chapter ?? ''}` : o.kind === 'sermon' ? `sermon:${o.sermonId}` : `${o.kind}:${o.id}`);
 
-/** Show the panel in book or sermon mode, keeping the book list's scroll position across a sermon visit. */
-function showDrawer(next) {
+/** Show a page in the panel, keeping each page's scroll position for when Back returns to it. */
+function showPanel(next) {
   const prev = state.open;
   const body = $('.drawer-body');
-  if (prev?.bookId) state.bookScroll = { key: bookKey(prev), top: body.scrollTop };
+  if (prev) state.panelScroll.set(panelKey(prev), body.scrollTop);
+  if (next.kind === 'sermon') state.lastSermonId = next.sermonId;
+  if (next.kind === 'speaker' && (prev?.kind !== 'speaker' || prev.id !== next.id)) state.speakerShown = 0;
   state.open = next;
   renderDrawer();
-  if (next.bookId && state.bookScroll?.key === bookKey(next) && prev?.sermonId) body.scrollTop = state.bookScroll.top;
-  else if (!prev || prev.sermonId !== next.sermonId || prev.bookId !== next.bookId) body.scrollTop = 0;
-  openPanel(!prev);
+  const sameBook = prev?.kind === 'book' && next.kind === 'book' && prev.bookId === next.bookId;
+  const saved = state.panelScroll.get(panelKey(next));
+  if (!sameBook) body.scrollTop = saved ?? 0;
+  // A series page opened from one of its sermons starts with that sermon in view
+  const here = next.kind === 'series' && saved == null && $('#d-group .is-here');
+  if (here) body.scrollTop += here.getBoundingClientRect().top - body.getBoundingClientRect().top - body.clientHeight / 3;
+  if (!prev) openPanel();
+  markOpen();
 }
 
-function openSermon(id) {
-  showDrawer({ sermonId: id });
+function openPanel() {
+  state.lastFocus = document.activeElement;
+  $('#drawer').hidden = false;
+  applyPanelMode();
+  // Keyboard users land on Close; on phones, focus the sheet itself so no focus ring flashes.
+  if (isTouch) $('#drawer').focus({ preventScroll: true });
+  else $('#d-close').focus({ preventScroll: true });
 }
 
-function openDrawer(bookId, chapter) {
-  showDrawer({ bookId, chapter: chapter ?? null });
+/** Phones and narrow windows: a modal sheet over the page. Wide screens: a pane beside it. */
+function applyPanelMode() {
+  const open = !!state.open;
+  const modal = isModal();
+  document.body.classList.toggle('panel-open', open && !modal);
+  document.body.classList.toggle('locked', modal);
+  $('#scrim').hidden = !modal;
+  $('#drawer').setAttribute('aria-modal', String(modal));
 }
 
-function openPanel(firstOpen) {
-  if (firstOpen) {
-    state.lastFocus = document.activeElement;
-    $('#drawer').hidden = false;
-    $('#scrim').hidden = false;
-    document.body.classList.add('locked');
-    // Keyboard users land on Close; on phones, focus the sheet itself so no focus ring flashes.
-    if (isTouch) $('#drawer').focus({ preventScroll: true });
-    else $('#d-close').focus();
-    $('.drawer-body').scrollTop = 0;
-  }
-}
-
-function closeDrawer(restoreFocus = true) {
+function closePanel(restoreFocus = true) {
   if (!state.open) return;
   const bookId = state.open.bookId;
-  state.bookScroll = null;
   state.open = null;
+  state.bookQuery = null;
+  state.lastSermonId = null;
+  state.panelScroll.clear();
   $('#drawer').hidden = true;
-  $('#scrim').hidden = true;
-  document.body.classList.remove('locked');
+  applyPanelMode();
+  markOpen();
   if (!restoreFocus) return;
-  const tile = document.querySelector(`.tile[data-book="${bookId}"]`);
-  (tile || state.lastFocus)?.focus?.({ preventScroll: !tile });
+  const tile = bookId && document.querySelector(`.tile[data-book="${bookId}"]`);
+  (tile || state.lastFocus)?.focus?.({ preventScroll: true });
 }
 
 /* ============================================================
-   Routing: #/john, #/john/3, #/series/<id>, #/speaker/<id>, #/sermon/<id>
+   Routing: #/john, #/john/3, #/sermon/<id>, #/series/<id>, #/speaker/<id>
    (shareable links for group texts)
    ============================================================ */
-const scopeHash = (sc) => `#/${sc.kind}/${sc.id}`;
-
-/** In-app navigation. history.state.app counts entries made inside the site, so Back on a
- *  sermon page can use the browser's history when there is some, and fall back when the page
- *  was opened straight from a shared link. */
-function nav(hash) {
-  if (location.hash === hash) { route(); return; }
-  history.pushState({ app: (history.state?.app || 0) + 1 }, '', hash || location.pathname + location.search);
+/** In-app navigation. history.state.app counts entries made inside the site; history.state.panel
+ *  says the entry before this one was a panel page, so Back can step back to it. */
+function nav(hash, { replace = false } = {}) {
+  const url = hash || location.pathname + location.search;
+  if (replace) history.replaceState(history.state, '', url);
+  else if (location.hash !== hash) history.pushState({ app: (history.state?.app || 0) + 1, panel: !!state.open }, '', url);
   route();
 }
 
-function go(bookId, chapter) {
-  // Closing a book returns to the series/speaker view it was opened from
-  nav(bookId ? `#/${bookId}${chapter ? `/${chapter}` : ''}` : state.scope ? scopeHash(state.scope) : '');
+function go(bookId, chapter, { keepQuery = false } = {}) {
+  if (!keepQuery) state.bookQuery = null;
+  nav(bookId ? `#/${bookId}${chapter ? `/${chapter}` : ''}` : '');
 }
 
-function setScope(kind, id) {
-  nav(scopeHash({ kind, id }));
+/** A book opened from a text search shows only that search's matches. */
+function goBookFromSearch(bookId) {
+  const mode = searchMode();
+  state.bookQuery = mode.kind === 'text' ? { bookId, q: state.query.trim() } : null;
+  go(bookId, null, { keepQuery: true });
+}
+
+const openGroup = (kind, id) => nav(`#/${kind}/${id}`);
+
+/** Where the panel's Back button goes, or null to hide it. */
+function backTarget() {
+  if (history.state?.panel) return 'history';
+  // Opened straight from a shared sermon link: Back goes to that passage
+  if (state.open?.kind === 'sermon' && !history.state?.app) return 'passage';
+  return null;
 }
 
 function back() {
-  if (history.state?.app) { history.back(); return; }
-  const s = state.sermonById.get(state.open?.sermonId);
-  const r = s?.refs[0];
-  go(r?.book ?? null, r?.start ?? null); // opened from a shared link: go to that passage
+  const t = backTarget();
+  if (t === 'history') { history.back(); return; }
+  const r = state.sermonById.get(state.open?.sermonId)?.refs[0];
+  if (r) nav(`#/${r.book}${r.start ? `/${r.start}` : ''}`, { replace: true });
 }
 
-function clearScope() {
-  if (!state.scope) return;
-  if (location.hash === scopeHash(state.scope)) history.pushState({ app: (history.state?.app || 0) + 1 }, '', location.pathname + location.search);
-  state.scope = null;
-  render();
+function parseHash() {
+  const h = location.hash;
+  let m = h.match(/^#\/sermon\/([A-Za-z0-9_-]+)$/);
+  if (m && state.sermonById.has(m[1])) return { kind: 'sermon', sermonId: m[1] };
+  m = h.match(/^#\/(series|speaker)\/([a-z0-9-]+)$/);
+  if (m && groupOf(m[1], m[2])) return { kind: m[1], id: m[2] };
+  m = h.match(/^#\/([a-z0-9-]+)(?:\/(\d+))?$/);
+  if (m && state.bookById.has(m[1])) {
+    const book = state.bookById.get(m[1]);
+    return { kind: 'book', bookId: m[1], chapter: m[2] ? Math.min(Number(m[2]), book.chapters) : null };
+  }
+  return null;
 }
 
 function route() {
-  const sm = location.hash.match(/^#\/sermon\/([A-Za-z0-9_-]+)$/);
-  if (sm && state.sermonById.has(sm[1])) {
-    openSermon(sm[1]);
-    return;
-  }
-  const sc = location.hash.match(/^#\/(series|speaker)\/([a-z0-9-]+)$/);
-  if (sc && scopeGroup({ kind: sc[1], id: sc[2] })) {
-    const changed = state.scope?.kind !== sc[1] || state.scope?.id !== sc[2];
-    state.scope = { kind: sc[1], id: sc[2] };
-    if (changed) { $('#q').value = ''; state.query = ''; $('#q-clear').hidden = true; $('.search').classList.remove('has-value'); }
-    closeDrawer(false);
-    render();
-    if (changed) revealResults();
-    return;
-  }
-  const m = location.hash.match(/^#\/([a-z0-9-]+)(?:\/(\d+))?$/);
-  if (m && state.bookById.has(m[1])) {
-    const book = state.bookById.get(m[1]);
-    const ch = m[2] ? Math.min(Number(m[2]), book.chapters) : null;
-    openDrawer(m[1], ch);
-  } else {
-    if (state.scope) { state.scope = null; render(); }
-    closeDrawer();
-  }
+  const next = parseHash();
+  if (next) showPanel(next);
+  else closePanel();
 }
 
 /* ============================================================
@@ -1010,24 +1126,24 @@ function bind() {
   });
   input.addEventListener('keydown', (e) => {
     if (e.key === 'Enter') {
+      // Without this, the Enter that opens the panel also "clicks" its Close button once focus lands there
+      e.preventDefault();
+      clearTimeout(timer);
       state.query = input.value;
-      const ref = parseRef(state.query);
-      const books = matchBooks(state.query);
-      const sugg = scopeSuggestions(state.query);
-      if (ref) go(ref.book.id, ref.chapter);
-      else if (books.length === 1) go(books[0].id);
-      else if (sugg.length === 1) setScope(sugg[0].kind, sugg[0].id);
-      else input.blur(); // dismiss the phone keyboard so results are visible
+      const mode = searchMode();
+      const book = searchBook(mode);
+      const groups = mode.kind === 'text' ? groupSuggestions(mode.n) : [];
+      if (mode.kind === 'ref') go(mode.book.id, mode.chapter);
+      else if (book) go(book.id);
+      else if (groups.length === 1) openGroup(groups[0].kind, groups[0].id);
+      else { render(); input.blur(); } // dismiss the phone keyboard so results are visible
     } else if (e.key === 'Escape' && input.value) {
+      e.preventDefault(); // handled: don't also close the panel
       clearSearch();
-    } else if ((e.key === 'Escape' || e.key === 'Backspace') && !input.value && state.scope) {
-      clearScope();
     }
   });
 
-  $('#q-scope').addEventListener('click', () => { clearScope(); input.focus(); });
-
-  // Book pills and series/speaker links on sermon cards (anywhere on the page)
+  // Delegated clicks anywhere on the page (cards live in the main column and the panel)
   document.addEventListener('click', (e) => {
     const l = e.target.closest('[data-listen]');
     if (l) { if (l.dataset.listen === 'spotify' || l.dataset.listen === 'apple') setPref(l.dataset.listen); return; }
@@ -1044,25 +1160,42 @@ function bind() {
       go(id, ch ? Number(ch) : null);
       return;
     }
+    const bq = e.target.closest('[data-book-q]');
+    if (bq) { goBookFromSearch(bq.dataset.bookQ); return; }
     if (e.target.closest('[data-more]')) {
       state.shown += CONFIG.maxResults * 2;
-      renderResults(visibleSermons());
+      const mode = searchMode();
+      const sermons = visibleSermons();
+      const hits = findHits(sermons, mode);
+      renderResults(mode, hits, bookStats(mode.kind === 'text' ? hits : sermons));
+      markOpen();
       return;
     }
-    const sc = e.target.closest('[data-scope]');
-    if (sc) {
-      const [kind, id] = sc.dataset.scope.split(':');
-      setScope(kind, id);
+    if (e.target.closest('[data-more-panel]')) {
+      state.speakerShown = (state.speakerShown || CONFIG.speakerPage) + CONFIG.speakerPage;
+      renderDrawer();
+      return;
+    }
+    if (e.target.closest('[data-clear-bq]')) {
+      state.bookQuery = null;
+      renderBook();
+      return;
+    }
+    const gr = e.target.closest('[data-group]');
+    if (gr) {
+      const [kind, id] = gr.dataset.group.split(':');
+      openGroup(kind, id);
     }
   });
 
   document.addEventListener('keydown', (e) => {
-    if (e.key === '/' && document.activeElement !== input && !state.open) {
+    if (e.defaultPrevented) return;
+    if (e.key === '/' && document.activeElement !== input && !isModal()) {
       e.preventDefault(); input.focus();
     } else if (e.key === 'Escape' && state.open) {
       go(null);
-    } else if (e.key === 'Tab' && state.open) {
-      // keep focus inside the dialog
+    } else if (e.key === 'Tab' && isModal()) {
+      // keep focus inside the sheet while it covers the page
       const focusables = [...$('#drawer').querySelectorAll('button:not([disabled]), a[href]')].filter((el) => el.offsetParent);
       const first = focusables[0], last = focusables[focusables.length - 1];
       if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
@@ -1072,14 +1205,7 @@ function bind() {
 
   $('#library').addEventListener('click', (e) => {
     const tile = e.target.closest('.tile');
-    if (tile) go(tile.dataset.book);
-  });
-
-  $('#q-hint').addEventListener('click', (e) => {
-    const b = e.target.closest('[data-open]');
-    if (!b) return;
-    const [id, ch] = b.dataset.open.split('/');
-    go(id, ch ? Number(ch) : null);
+    if (tile) goBookFromSearch(tile.dataset.book);
   });
 
   $('.seg').addEventListener('click', (e) => {
@@ -1111,7 +1237,10 @@ function bind() {
     const b = e.target.closest('button[data-ch]');
     if (!b || b.disabled) return;
     const ch = b.dataset.ch ? Number(b.dataset.ch) : null;
-    go(state.open.bookId, ch === state.open.chapter ? null : ch);
+    const { bookId, chapter } = state.open;
+    const next = ch === chapter ? null : ch;
+    // Switching chapters swaps the list in place rather than stacking up Back steps
+    nav(`#/${bookId}${next ? `/${next}` : ''}`, { replace: true });
   });
 
   $('#d-close').addEventListener('click', () => go(null));
@@ -1155,6 +1284,8 @@ function bind() {
     document.documentElement.style.setProperty('--bar-h', `${Math.round(entry.target.getBoundingClientRect().height)}px`);
   }).observe($('.toolbar'));
 
+  // Resizing across the wide breakpoint switches the open panel between sheet and side pane
+  wide.addEventListener('change', applyPanelMode);
   window.addEventListener('hashchange', route);
 }
 

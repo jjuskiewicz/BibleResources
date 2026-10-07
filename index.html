@@ -29,7 +29,6 @@
     <div class="wrap">
       <div class="search" role="search">
         <svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
-        <button id="q-scope" class="scope" type="button" hidden></button>
         <input id="q" type="search" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" enterkeyhint="search"
                placeholder="Book, passage (John 3), topic, speaker"
                aria-label="Search books and sermons" aria-describedby="q-hint">
@@ -96,6 +95,7 @@
         <h3 class="label">Chapters</h3>
         <div id="d-chapters" class="chapters" role="group" aria-label="Filter by chapter"></div>
         <h3 id="d-list-label" class="label"></h3>
+        <div id="d-qbar" class="q-bar" hidden></div>
         <div id="d-fit" class="fit-bar" hidden>
           <button id="d-study" class="chip" type="button" aria-pressed="false">Book studies only <span class="n"></span></button>
           <span class="hint">Sermons that teach the passage in context, not topical ones that cite it</span>
@@ -103,6 +103,7 @@
         <ul id="d-list" class="sermons"></ul>
       </div>
       <div id="d-sermon" hidden></div>
+      <div id="d-group" hidden></div>
     </div>
     <div id="toast" class="toast" role="status" hidden></div>
   </aside>
