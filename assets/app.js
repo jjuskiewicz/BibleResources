@@ -1146,9 +1146,26 @@ function applyPanelMode() {
   const open = !!state.open;
   const modal = isModal();
   document.body.classList.toggle('panel-open', open && !modal);
-  document.body.classList.toggle('locked', modal);
+  lockPage(modal);
   $('#scrim').hidden = !modal;
   $('#drawer').setAttribute('aria-modal', String(modal));
+}
+
+/** Freeze the page behind the modal sheet. overflow:hidden alone doesn't stop iOS Safari from scrolling the page,
+ *  and when the sheet's content is too short to scroll, the swipe falls through to the page. Pinning the body with
+ *  position:fixed (offset by the current scroll) leaves the page nothing to scroll; unlocking puts the scroll back. */
+function lockPage(lock) {
+  const body = document.body;
+  if (lock === body.classList.contains('locked')) return;
+  if (lock) {
+    state.lockY = window.scrollY;
+    body.style.top = `${-state.lockY}px`;
+    body.classList.add('locked');
+  } else {
+    body.classList.remove('locked');
+    body.style.top = '';
+    window.scrollTo({ top: state.lockY || 0, behavior: 'instant' });
+  }
 }
 
 function closePanel(restoreFocus = true) {
@@ -1439,7 +1456,7 @@ function bind() {
   });
   let spyFrame = 0;
   window.addEventListener('scroll', () => {
-    if (spyFrame) return;
+    if (spyFrame || document.body.classList.contains('locked')) return;
     spyFrame = requestAnimationFrame(() => { spyFrame = 0; spy(); });
   }, { passive: true });
   const unpin = () => { if (spy.pinned) { spy.pinned = null; spy(); } };

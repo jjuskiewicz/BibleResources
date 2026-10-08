@@ -68,7 +68,9 @@ body {
   font: 15px/1.5 var(--sans);
   -webkit-font-smoothing: antialiased;
 }
-body.locked { overflow: hidden; }
+/* Modal sheet open (phones): app.js pins the page at its scroll offset so swipes can't move it behind the sheet. */
+body.locked { position: fixed; left: 0; right: 0; width: 100%; overflow: hidden; }
+html:has(body.locked) { overscroll-behavior: none; }
 a, button { -webkit-tap-highlight-color: transparent; touch-action: manipulation; }
 .short { display: none; }
 h1, h2, h3 { margin: 0; font-weight: 650; }
@@ -399,7 +401,7 @@ main .sermon.is-open { border-color: var(--c); background: color-mix(in srgb, va
 main .tile.is-open { outline: 2px solid var(--c); outline-offset: 1px; }
 
 /* ---------- Drawer ---------- */
-.scrim { position: fixed; inset: 0; background: rgb(20 15 10 / .35); z-index: 40; animation: fade .15s ease; }
+.scrim { position: fixed; inset: 0; background: rgb(20 15 10 / .35); z-index: 40; animation: fade .15s ease; touch-action: none; }
 .drawer {
   position: fixed; top: 0; right: 0; bottom: 0; z-index: 50;
   width: min(520px, 100%); display: flex; flex-direction: column;
