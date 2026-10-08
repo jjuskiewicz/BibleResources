@@ -591,9 +591,10 @@ function speakerHtml(s, opts = {}) {
 function sermonCard(s, extra = '', opts = {}) {
   const firstBook = state.bookById.get(s.refs[0].book);
   const color = `var(--${firstBook.section})`;
-  // A series named after the book ("John", "Acts") just repeats the passage line, so drop it.
+  // A series named after the book ("John", "Acts") would just repeat the passage line, but it's still the way into
+  // the series, so a linked one reads "Philippians series"; an unlinked one is dropped.
   const bookNames = new Set(s.refs.map((r) => norm(state.bookById.get(r.book).name)));
-  const series = s.series && !bookNames.has(norm(s.series)) ? s.series : '';
+  const series = !s.series ? '' : !bookNames.has(norm(s.series)) ? s.series : s._seriesId ? `${s.series} series` : '';
   const inSeries = opts.seriesId && s._seriesId === opts.seriesId;
   const seriesHtml = !series || inSeries ? ''
     : s._seriesId ? facet('series', s._seriesId, series, ' series') : `<span class="series">${esc(series)}</span>`;
