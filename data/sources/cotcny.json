@@ -1790,7 +1790,7 @@
     "source": "rss",
     "durationMin": 51,
     "refSource": "regex",
-    "seriesKey": "come see|2024-05"
+    "seriesKey": "come and see|2024-05"
   },
   {
     "id": "cotcny-5miC8zHQQTxoZRbc1Gp6PU",
@@ -1814,7 +1814,7 @@
     "source": "rss",
     "durationMin": 57,
     "refSource": "regex",
-    "seriesKey": "come see|2024-05"
+    "seriesKey": "come and see|2024-05"
   },
   {
     "id": "cotcny-00rkzPhoWOtlkfgaJS3ATJ",
@@ -1838,7 +1838,7 @@
     "source": "rss",
     "durationMin": 62,
     "refSource": "regex",
-    "seriesKey": "come see|2024-05"
+    "seriesKey": "come and see|2024-05"
   },
   {
     "id": "cotcny-6aW2WfTlwBDBvCTfOzfge3",
@@ -1862,7 +1862,7 @@
     "source": "rss",
     "durationMin": 60,
     "refSource": "regex",
-    "seriesKey": "come see|2024-05"
+    "seriesKey": "come and see|2024-05"
   },
   {
     "id": "cotcny-1A8QfrGic0bAcB1AdvJBRB",
@@ -1886,7 +1886,7 @@
     "source": "rss",
     "durationMin": 63,
     "refSource": "regex",
-    "seriesKey": "come see|2024-05"
+    "seriesKey": "come and see|2024-05"
   },
   {
     "id": "cotcny-0eHv9xIj8wD4tnkNk7xDPC",
@@ -1910,7 +1910,7 @@
     "source": "rss",
     "durationMin": 37,
     "refSource": "regex",
-    "seriesKey": "come see|2024-05"
+    "seriesKey": "come and see|2024-05"
   },
   {
     "id": "cotcny-3mvB5tvuAbW7f2uRL7vI9i",
@@ -1934,7 +1934,7 @@
     "source": "rss",
     "durationMin": 56,
     "refSource": "regex",
-    "seriesKey": "come see|2024-05"
+    "seriesKey": "come and see|2024-05"
   },
   {
     "id": "cotcny-7bSUK1M600NRXhR8iMewnq",
@@ -1958,7 +1958,7 @@
     "source": "rss",
     "durationMin": 59,
     "refSource": "regex",
-    "seriesKey": "come see|2024-05"
+    "seriesKey": "come and see|2024-05"
   },
   {
     "id": "cotcny-349jYczem6UHs2Hjl23i1g",
@@ -1982,7 +1982,7 @@
     "source": "rss",
     "durationMin": 54,
     "refSource": "regex",
-    "seriesKey": "come see|2024-05"
+    "seriesKey": "come and see|2024-05"
   },
   {
     "id": "cotcny-3zmtyPTIwMvobqrGIM88H7",
@@ -2006,7 +2006,7 @@
     "source": "rss",
     "durationMin": 51,
     "refSource": "regex",
-    "seriesKey": "come see|2024-05"
+    "seriesKey": "come and see|2024-05"
   },
   {
     "id": "cotcny-1xMG0a3Ei1YuAS9JuRogCl",
@@ -2030,7 +2030,7 @@
     "source": "rss",
     "durationMin": 51,
     "refSource": "regex",
-    "seriesKey": "come see|2024-05"
+    "seriesKey": "come and see|2024-05"
   },
   {
     "id": "cotcny-6moYXNgxcf9WiNMB6KLeDP",
@@ -2054,7 +2054,7 @@
     "source": "rss",
     "durationMin": 65,
     "refSource": "regex",
-    "seriesKey": "come see|2024-05"
+    "seriesKey": "come and see|2024-05"
   },
   {
     "id": "cotcny-30qNBWhyo7Z1HD7XokzFgG",
@@ -2078,7 +2078,7 @@
     "source": "rss",
     "durationMin": 52,
     "refSource": "regex",
-    "seriesKey": "come see|2024-05"
+    "seriesKey": "come and see|2024-05"
   },
   {
     "id": "cotcny-7ILxx8IkrWydoZ9A0i5j16",
@@ -2102,7 +2102,7 @@
     "source": "rss",
     "durationMin": 57,
     "refSource": "regex",
-    "seriesKey": "come see|2024-05"
+    "seriesKey": "come and see|2024-05"
   },
   {
     "id": "cotcny-0regOyzlHdtyhUnLyxagXA",
@@ -2127,7 +2127,7 @@
     "durationMin": 66,
     "refSource": "ai",
     "aiConfidence": 0.97,
-    "seriesKey": "come see|2024-05"
+    "seriesKey": "come and see|2024-05"
   },
   {
     "id": "cotcny-4HaEBAEFWfLMlWtTR145oI",
@@ -2152,7 +2152,7 @@
     "durationMin": 60,
     "refSource": "ai",
     "aiConfidence": 0.93,
-    "seriesKey": "come see|2024-05"
+    "seriesKey": "come and see|2024-05"
   },
   {
     "id": "cotcny-5c4PSuhtbWgJxVXj2XxZd1",

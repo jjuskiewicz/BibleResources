@@ -31,7 +31,7 @@ def ep_id(url: str) -> str:
 
 
 def norm(s: str) -> str:
-    return re.sub(r"[^a-z0-9]+", " ", s.lower()).strip()
+    return re.sub(r"[^a-z0-9]+", " ", s.lower().replace("&", " and ")).strip()  # "Stand Firm & Act Like Men" = "... and ..."
 
 
 def days(d: str) -> int:
@@ -55,19 +55,19 @@ def link(church: str, src: str) -> dict:
         elif m := DESC_SERIES.search(descs.get(r["episode_id"], "")):
             named[r["episode_id"]] = (m["s"].strip().rstrip("."), "desc")
 
-    # Wk-N runs among unnamed episodes: next number must be prev+1..prev+3 within RUN_GAP_DAYS.
+    # Wk-N runs among unnamed episodes: next number must be prev+0..prev+3 within RUN_GAP_DAYS (a repeat, e.g.
+    # "Wk 4: Unity (Thursday)" then "(Sunday)", stays in the run). Same-day episodes go in week order.
+    def wk(r: dict) -> int | None:
+        m = WK.search(r["spotify_title"])
+        return int(m["n"]) if m else None
+
     runs: dict[str, str] = {}
     cur, last_n, last_d = None, None, None
-    for r in review:
-        if r["episode_id"] in named or r["status"] == "excluded":
+    for r in sorted(review, key=lambda r: (r["date"], wk(r) or 0)):
+        if r["episode_id"] in named or r["status"] == "excluded" or (n := wk(r)) is None:
             continue
-        m = WK.search(r["spotify_title"])
-        if not m:
-            continue
-        n, d = int(m["n"]), days(r["date"])
-        if cur and last_n is not None and 0 < n - last_n <= 3 and d - last_d <= RUN_GAP_DAYS * (n - last_n):
-            pass
-        else:
+        d = days(r["date"])
+        if not (cur and last_n is not None and 0 <= n - last_n <= 3 and d - last_d <= RUN_GAP_DAYS * max(1, n - last_n)):
             cur = f"wk-run {r['date']}"
         runs[r["episode_id"]] = cur
         last_n, last_d = n, d
@@ -89,11 +89,65 @@ def link(church: str, src: str) -> dict:
         lst[-1].append(r)
         out[eid] = {"name": name, "basis": basis, "_k": key0, "_i": len(lst) - 1}
     for eid, v in out.items():
-        first = clusters[v["_k"]][v["_i"]][0]["date"]
+        members = clusters[v["_k"]][v["_i"]]
+        first = members[0]["date"]
         v["key"] = f"{v['_k']}|{first[:7]}"
-        v["size"] = len(clusters[v["_k"]][v["_i"]])
+        v["size"] = len(members)
+        if v["basis"] == "wk-run":  # a lone "Wk 3" isn't a series on the site, so leave it unnamed
+            v["name"], v["name_basis"] = run_name(members, descs) if len(members) > 1 else ("", "single")
         del v["_k"], v["_i"]
     return out
+
+
+# A wk-run has no name in its titles ("Wk 5: Fear Not"), but the site only groups sermons that share a series name.
+# Name it, most trusted first: the description ("our series through the book of Philippians", coe22.com/john), the
+# book most of its sermons are on (same vote rules as series_consensus.py), else a dated placeholder.
+BOOKS = json.loads((ROOT / "data/books.json").read_text())["books"]
+BOOK_NAME = {b["id"]: b["name"] for b in BOOKS}
+BOOK_BY_NAME = {b["name"].lower(): b["id"] for b in BOOKS} | {"psalm": "psalms"}
+DESC_BOOK = re.compile(r"\bseries (?:through|exploring|on|in|from) (?:the book of |the gospel of )?(?P<b>(?:[123] )?[A-Z][a-z]+)")
+DESC_SLUG = re.compile(r"coe22\.com/(?P<slug>[a-z0-9-]+)", re.I)
+SLUG_NAMES = {"bestsermonever": "Best. Sermon. Ever."}  # coe22.com/sermons lists this series under that name
+# Looser than series_consensus.py: this only picks a display name, it never changes a sermon's refs.
+MIN_SUPPORT, MIN_PURITY, MIN_ANCHOR_AI = 1.5, 0.7, 0.8
+
+
+def passage_book(p: str) -> str | None:
+    p = p.split(";")[0].strip().lower()
+    return next((BOOK_BY_NAME[n] for n in sorted(BOOK_BY_NAME, key=len, reverse=True) if p.startswith(n)), None)
+
+
+def run_name(members: list[dict], descs: dict[str, str]) -> tuple[str, str]:
+    hints = []
+    for r in members:
+        d = descs.get(r["episode_id"], "")
+        if (m := DESC_BOOK.search(d)) and m["b"].lower() in BOOK_BY_NAME:
+            hints.append(BOOK_NAME[BOOK_BY_NAME[m["b"].lower()]])
+        for m in DESC_SLUG.finditer(d):
+            slug = m["slug"].lower()
+            if slug in SLUG_NAMES:
+                hints.append(SLUG_NAMES[slug])
+            elif slug.replace("-", " ") in BOOK_BY_NAME:
+                hints.append(BOOK_NAME[BOOK_BY_NAME[slug.replace("-", " ")]])
+    if hints:
+        return max(set(hints), key=hints.count), "desc"
+    votes: dict[str, float] = {}
+    anchors: set[str] = set()
+    for r in members:
+        if r["ref_source"] in ("regex", "manual") and (b := passage_book(r["passage"])):
+            votes[b] = votes.get(b, 0) + 1.0
+            anchors.add(b)
+        elif r["ai_kind"] == "book" and r["ai_refs"]:  # AI guess even if not applied; never 'series' (circular)
+            b, c = r["ai_refs"].split()[0], float(r["ai_confidence"] or 0)
+            votes[b] = votes.get(b, 0) + (1.0 if c >= 0.9 else 0.5 if c >= 0.6 else 0.25)
+            if c >= MIN_ANCHOR_AI:
+                anchors.add(b)
+    if votes:
+        book, top = max(votes.items(), key=lambda kv: kv[1])
+        support = sum(votes.values())
+        if support >= MIN_SUPPORT and top / support >= MIN_PURITY and book in anchors and book in BOOK_NAME:
+            return BOOK_NAME[book], "book"
+    return f"Untitled series ({date.fromisoformat(members[0]['date']).strftime('%b %Y')})", "placeholder"
 
 
 def main() -> None:
@@ -102,7 +156,9 @@ def main() -> None:
         (ROOT / f"scraping/{church}_series.json").write_text(json.dumps(links, indent=1, ensure_ascii=False) + "\n")
         n_clusters = len({v["key"] for v in links.values()})
         by = {b: sum(v["basis"] == b for v in links.values()) for b in ("explicit", "desc", "wk-run")}
-        print(f"{church}: {len(links)} episodes linked into {n_clusters} clusters {by}")
+        runs = {v["key"]: v["name_basis"] for v in links.values() if v["basis"] == "wk-run" and v["size"] > 1}
+        named = {b: list(runs.values()).count(b) for b in ("desc", "book", "placeholder")}
+        print(f"{church}: {len(links)} episodes linked into {n_clusters} clusters {by}; wk-runs of 2+ named by {named}")
 
 
 if __name__ == "__main__":

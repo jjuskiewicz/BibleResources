@@ -1778,7 +1778,7 @@
    "church": "eleven22",
    "speaker": "Joby Martin",
    "date": "2026-06-01",
-   "series": "",
+   "series": "Impossible to Possible",
    "passage": "Matthew 13",
    "refs": [
     {
@@ -1793,6 +1793,7 @@
    "source": "rss",
    "durationMin": 54,
    "refSource": "regex",
+   "seriesKey": "impossible to possible|2026-06",
    "study": [
     "matthew"
    ]
@@ -3506,7 +3507,7 @@
    "church": "eleven22",
    "speaker": "Adam Flynt",
    "date": "2025-12-28",
-   "series": "",
+   "series": "Real Men of Christmas",
    "passage": "Luke 2",
    "refs": [
     {
@@ -3521,7 +3522,7 @@
    "source": "rss",
    "durationMin": 48,
    "refSource": "regex",
-   "seriesKey": "wk-run 2025-12-07|2025-12"
+   "seriesKey": "real men of christmas|2025-12"
   },
   {
    "id": "eleven22-6v6WANFaXwzfxnFXu3jAJH",
@@ -3529,7 +3530,7 @@
    "church": "eleven22",
    "speaker": "Joby Martin",
    "date": "2025-12-28",
-   "series": "",
+   "series": "Real Men of Christmas",
    "passage": "John 1",
    "refs": [
     {
@@ -3544,7 +3545,7 @@
    "source": "rss",
    "durationMin": 42,
    "refSource": "regex",
-   "seriesKey": "wk-run 2025-12-28|2025-12"
+   "seriesKey": "real men of christmas|2025-12"
   },
   {
    "id": "bridgetown-0N3hC6wjbjh3gNXBDJsBZu",
@@ -3629,7 +3630,7 @@
    "church": "eleven22",
    "speaker": "Joby Martin",
    "date": "2025-12-21",
-   "series": "",
+   "series": "Real Men of Christmas",
    "passage": "Matthew 2:1-12",
    "refs": [
     {
@@ -3644,7 +3645,7 @@
    "source": "rss",
    "durationMin": 54,
    "refSource": "regex",
-   "seriesKey": "wk-run 2025-12-07|2025-12",
+   "seriesKey": "real men of christmas|2025-12",
    "study": [
     "matthew"
    ]
@@ -3706,7 +3707,7 @@
    "church": "eleven22",
    "speaker": "One Mokgatle",
    "date": "2025-12-14",
-   "series": "",
+   "series": "Real Men of Christmas",
    "passage": "Luke 2:8-20",
    "refs": [
     {
@@ -3721,7 +3722,7 @@
    "source": "rss",
    "durationMin": 55,
    "refSource": "regex",
-   "seriesKey": "wk-run 2025-12-07|2025-12"
+   "seriesKey": "real men of christmas|2025-12"
   },
   {
    "id": "vintage-sm-4qUl2e5vlHvmnP2ShT9hfZ",
@@ -3780,7 +3781,7 @@
    "church": "eleven22",
    "speaker": "Ryan Britt",
    "date": "2025-12-07",
-   "series": "",
+   "series": "Real Men of Christmas",
    "passage": "Matthew 1:18-25",
    "refs": [
     {
@@ -3795,7 +3796,7 @@
    "source": "rss",
    "durationMin": 45,
    "refSource": "regex",
-   "seriesKey": "wk-run 2025-12-07|2025-12",
+   "seriesKey": "real men of christmas|2025-12",
    "study": [
     "matthew"
    ]
@@ -3856,7 +3857,7 @@
    "church": "eleven22",
    "speaker": "Charles Martin",
    "date": "2025-11-30",
-   "series": "",
+   "series": "Stand Firm and Act Like Men",
    "passage": "Romans 8:14-15",
    "refs": [
     {
@@ -3871,7 +3872,7 @@
    "source": "rss",
    "durationMin": 55,
    "refSource": "regex",
-   "seriesKey": "wk-run 2025-10-19|2025-10"
+   "seriesKey": "stand firm and act like men|2025-10"
   },
   {
    "id": "cotcny-7CmEfniDjHPihcEgxeEPtc",
@@ -3949,7 +3950,7 @@
    "church": "eleven22",
    "speaker": "Joby Martin",
    "date": "2025-11-23",
-   "series": "",
+   "series": "Stand Firm & Act Like Men",
    "passage": "1 Corinthians 13",
    "refs": [
     {
@@ -3964,7 +3965,7 @@
    "source": "rss",
    "durationMin": 58,
    "refSource": "regex",
-   "seriesKey": "wk-run 2025-10-19|2025-10",
+   "seriesKey": "stand firm and act like men|2025-10",
    "study": [
     "1-corinthians"
    ]
@@ -3975,7 +3976,7 @@
    "church": "eleven22",
    "speaker": "Matt Carter",
    "date": "2025-11-18",
-   "series": "",
+   "series": "Stand Firm & Act Like Men",
    "passage": "Ephesians 5",
    "refs": [
     {
@@ -3990,7 +3991,7 @@
    "source": "rss",
    "durationMin": 52,
    "refSource": "regex",
-   "seriesKey": "wk-run 2025-10-19|2025-10"
+   "seriesKey": "stand firm and act like men|2025-10"
   },
   {
    "id": "bridgetown-1bR4N334yoYwG12IvKqsHv",
@@ -4093,7 +4094,7 @@
    "church": "eleven22",
    "speaker": "Joby Martin",
    "date": "2025-11-09",
-   "series": "",
+   "series": "Stand Firm & Act Like Men",
    "passage": "1 Corinthians 16:13-14",
    "refs": [
     {
@@ -4108,7 +4109,7 @@
    "source": "rss",
    "durationMin": 56,
    "refSource": "regex",
-   "seriesKey": "wk-run 2025-10-19|2025-10",
+   "seriesKey": "stand firm and act like men|2025-10",
    "study": [
     "1-corinthians"
    ]
@@ -4169,7 +4170,7 @@
    "church": "eleven22",
    "speaker": "Joby Martin",
    "date": "2025-11-02",
-   "series": "",
+   "series": "Stand Firm & Act Like Men",
    "passage": "1 Corinthians 16:13-14",
    "refs": [
     {
@@ -4184,7 +4185,7 @@
    "source": "rss",
    "durationMin": 59,
    "refSource": "regex",
-   "seriesKey": "wk-run 2025-10-19|2025-10",
+   "seriesKey": "stand firm and act like men|2025-10",
    "study": [
     "1-corinthians"
    ]
@@ -4218,7 +4219,7 @@
    "church": "eleven22",
    "speaker": "Joby Martin",
    "date": "2025-10-26",
-   "series": "",
+   "series": "Stand Firm & Act Like Men",
    "passage": "1 Corinthians 16:13-14",
    "refs": [
     {
@@ -4233,7 +4234,7 @@
    "source": "rss",
    "durationMin": 54,
    "refSource": "regex",
-   "seriesKey": "wk-run 2025-10-19|2025-10",
+   "seriesKey": "stand firm and act like men|2025-10",
    "study": [
     "1-corinthians"
    ]
@@ -4267,7 +4268,7 @@
    "church": "eleven22",
    "speaker": "Joby Martin",
    "date": "2025-10-19",
-   "series": "",
+   "series": "Stand Firm and Act Like Men",
    "passage": "1 Corinthians 16:13-14",
    "refs": [
     {
@@ -4282,7 +4283,7 @@
    "source": "rss",
    "durationMin": 58,
    "refSource": "regex",
-   "seriesKey": "wk-run 2025-10-19|2025-10",
+   "seriesKey": "stand firm and act like men|2025-10",
    "study": [
     "1-corinthians"
    ]
@@ -4340,7 +4341,7 @@
    "church": "eleven22",
    "speaker": "Adam Flynt",
    "date": "2025-10-13",
-   "series": "",
+   "series": "Worship is War",
    "passage": "1 Corinthians 1:1-10",
    "refs": [
     {
@@ -4355,7 +4356,7 @@
    "source": "rss",
    "durationMin": 45,
    "refSource": "regex",
-   "seriesKey": "wk-run 2025-09-14|2025-09",
+   "seriesKey": "worship is war|2025-09",
    "study": [
     "1-corinthians"
    ]
@@ -4459,7 +4460,7 @@
    "church": "eleven22",
    "speaker": "Joby Martin Hymns Album",
    "date": "2025-10-05",
-   "series": "",
+   "series": "Worship is War",
    "passage": "Romans 7",
    "refs": [
     {
@@ -4474,7 +4475,7 @@
    "source": "rss",
    "durationMin": 57,
    "refSource": "regex",
-   "seriesKey": "wk-run 2025-09-14|2025-09"
+   "seriesKey": "worship is war|2025-09"
   },
   {
    "id": "bridgetown-4H96D8XpdWVyvVQ1pUYqze",
@@ -4505,7 +4506,7 @@
    "church": "eleven22",
    "speaker": "Ryan Britt Hymns Album",
    "date": "2025-09-28",
-   "series": "",
+   "series": "Worship is War",
    "passage": "Psalm 145",
    "refs": [
     {
@@ -4520,7 +4521,7 @@
    "source": "rss",
    "durationMin": 46,
    "refSource": "regex",
-   "seriesKey": "wk-run 2025-09-14|2025-09"
+   "seriesKey": "worship is war|2025-09"
   },
   {
    "id": "bridgetown-0Pw32tqoKxLqKfgP0dRIi4",
@@ -4551,7 +4552,7 @@
    "church": "eleven22",
    "speaker": "Joby Martin",
    "date": "2025-09-21",
-   "series": "",
+   "series": "Worship is War",
    "passage": "John 6",
    "refs": [
     {
@@ -4566,7 +4567,7 @@
    "source": "rss",
    "durationMin": 60,
    "refSource": "regex",
-   "seriesKey": "wk-run 2025-09-14|2025-09"
+   "seriesKey": "worship is war|2025-09"
   },
   {
    "id": "bridgetown-4QWwjAaU55Hrr0on9WQzOW",
@@ -4621,7 +4622,7 @@
    "church": "eleven22",
    "speaker": "Joby Martin Saturated",
    "date": "2025-09-14",
-   "series": "",
+   "series": "Worship is War",
    "passage": "Luke 10:17-20",
    "refs": [
     {
@@ -4636,7 +4637,7 @@
    "source": "rss",
    "durationMin": 42,
    "refSource": "regex",
-   "seriesKey": "wk-run 2025-09-14|2025-09"
+   "seriesKey": "worship is war|2025-09"
   },
   {
    "id": "eleven22-5IVKEC8D9mxmM0iMCi6Luy",
@@ -4762,7 +4763,7 @@
    "church": "eleven22",
    "speaker": "Joby Martin",
    "date": "2025-09-07",
-   "series": "",
+   "series": "Elijah",
    "passage": "1 Kings 19",
    "refs": [
     {
@@ -4777,7 +4778,7 @@
    "source": "rss",
    "durationMin": 57,
    "refSource": "regex",
-   "seriesKey": "wk-run 2025-07-20|2025-07",
+   "seriesKey": "elijah|2025-07",
    "study": [
     "1-kings"
    ]
@@ -4841,7 +4842,7 @@
    "church": "eleven22",
    "speaker": "Matt Carter",
    "date": "2025-08-31",
-   "series": "",
+   "series": "Elijah",
    "passage": "1 Kings 19:8-13",
    "refs": [
     {
@@ -4856,7 +4857,7 @@
    "source": "rss",
    "durationMin": 51,
    "refSource": "regex",
-   "seriesKey": "wk-run 2025-07-20|2025-07",
+   "seriesKey": "elijah|2025-07",
    "study": [
     "1-kings"
    ]
@@ -4919,7 +4920,7 @@
    "church": "eleven22",
    "speaker": "Joby Martin",
    "date": "2025-08-24",
-   "series": "",
+   "series": "Elijah",
    "passage": "1 Kings 19",
    "refs": [
     {
@@ -4934,7 +4935,7 @@
    "source": "rss",
    "durationMin": 52,
    "refSource": "regex",
-   "seriesKey": "wk-run 2025-07-20|2025-07",
+   "seriesKey": "elijah|2025-07",
    "study": [
     "1-kings"
    ]
@@ -5022,7 +5023,7 @@
    "church": "eleven22",
    "speaker": "Joby Martin",
    "date": "2025-08-17",
-   "series": "",
+   "series": "Elijah",
    "passage": "1 Kings 18",
    "refs": [
     {
@@ -5037,7 +5038,7 @@
    "source": "rss",
    "durationMin": 54,
    "refSource": "regex",
-   "seriesKey": "wk-run 2025-07-20|2025-07",
+   "seriesKey": "elijah|2025-07",
    "study": [
     "1-kings"
    ]
@@ -5126,7 +5127,7 @@
    "church": "eleven22",
    "speaker": "Joby Martin",
    "date": "2025-08-10",
-   "series": "",
+   "series": "Elijah",
    "passage": "1 Kings 18",
    "refs": [
     {
@@ -5141,7 +5142,7 @@
    "source": "rss",
    "durationMin": 57,
    "refSource": "regex",
-   "seriesKey": "wk-run 2025-07-20|2025-07",
+   "seriesKey": "elijah|2025-07",
    "study": [
     "1-kings"
    ]
@@ -5229,7 +5230,7 @@
    "church": "eleven22",
    "speaker": "Joby Martin",
    "date": "2025-08-03",
-   "series": "",
+   "series": "Elijah",
    "passage": "1 Kings 17",
    "refs": [
     {
@@ -5244,7 +5245,7 @@
    "source": "rss",
    "durationMin": 54,
    "refSource": "regex",
-   "seriesKey": "wk-run 2025-07-20|2025-07",
+   "seriesKey": "elijah|2025-07",
    "study": [
     "1-kings"
    ]
@@ -5307,7 +5308,7 @@
    "church": "eleven22",
    "speaker": "Ryan Britt",
    "date": "2025-07-27",
-   "series": "",
+   "series": "Elijah",
    "passage": "1 Kings 17",
    "refs": [
     {
@@ -5322,7 +5323,7 @@
    "source": "rss",
    "durationMin": 43,
    "refSource": "regex",
-   "seriesKey": "wk-run 2025-07-20|2025-07",
+   "seriesKey": "elijah|2025-07",
    "study": [
     "1-kings"
    ]
@@ -5407,7 +5408,7 @@
    "church": "eleven22",
    "speaker": "Joby Martin",
    "date": "2025-07-20",
-   "series": "",
+   "series": "Elijah",
    "passage": "",
    "refs": [
     {
@@ -5423,7 +5424,7 @@
    "durationMin": 58,
    "refSource": "ai",
    "aiConfidence": 0.85,
-   "seriesKey": "wk-run 2025-07-20|2025-07",
+   "seriesKey": "elijah|2025-07",
    "study": [
     "1-kings"
    ]
@@ -5486,7 +5487,7 @@
    "church": "eleven22",
    "speaker": "Joby Martin",
    "date": "2025-07-13",
-   "series": "",
+   "series": "In The Arena",
    "passage": "John 2",
    "refs": [
     {
@@ -5501,7 +5502,7 @@
    "source": "rss",
    "durationMin": 55,
    "refSource": "regex",
-   "seriesKey": "wk-run 2025-06-08|2025-06"
+   "seriesKey": "in the arena|2025-06"
   },
   {
    "id": "vintage-sm-6jFDJYiwpiGJwWduinQiUE",
@@ -5585,7 +5586,7 @@
    "church": "eleven22",
    "speaker": "Joby Martin",
    "date": "2025-07-06",
-   "series": "",
+   "series": "In The Arena",
    "passage": "",
    "refs": [
     {
@@ -5601,7 +5602,7 @@
    "durationMin": 52,
    "refSource": "ai",
    "aiConfidence": 0.9,
-   "seriesKey": "wk-run 2025-06-08|2025-06"
+   "seriesKey": "in the arena|2025-06"
   },
   {
    "id": "vintage-sm-5gFYSazsgVl267EG6dp0OT",
@@ -5733,7 +5734,7 @@
    "church": "eleven22",
    "speaker": "Joby Martin",
    "date": "2025-06-29",
-   "series": "",
+   "series": "In The Arena",
    "passage": "Genesis 25",
    "refs": [
     {
@@ -5748,7 +5749,7 @@
    "source": "rss",
    "durationMin": 54,
    "refSource": "regex",
-   "seriesKey": "wk-run 2025-06-08|2025-06"
+   "seriesKey": "in the arena|2025-06"
   },
   {
    "id": "cotcny-3lZkDW37Bc2v9C3SqaKR6x",
@@ -5782,7 +5783,7 @@
    "church": "eleven22",
    "speaker": "Joby Martin",
    "date": "2025-06-23",
-   "series": "",
+   "series": "In The Arena",
    "passage": "1 Samuel 17",
    "refs": [
     {
@@ -5797,7 +5798,7 @@
    "source": "rss",
    "durationMin": 50,
    "refSource": "regex",
-   "seriesKey": "wk-run 2025-06-08|2025-06",
+   "seriesKey": "in the arena|2025-06",
    "study": [
     "1-samuel"
    ]
@@ -5878,7 +5879,7 @@
    "church": "eleven22",
    "speaker": "Joby Martin",
    "date": "2025-06-15",
-   "series": "",
+   "series": "In The Arena",
    "passage": "Acts 19",
    "refs": [
     {
@@ -5893,7 +5894,7 @@
    "source": "rss",
    "durationMin": 54,
    "refSource": "regex",
-   "seriesKey": "wk-run 2025-06-08|2025-06"
+   "seriesKey": "in the arena|2025-06"
   },
   {
    "id": "vintage-sm-0m5Fxraqhgkbxy4FHQTEDj",
@@ -5998,7 +5999,7 @@
    "church": "eleven22",
    "speaker": "Joby Martin Season",
    "date": "2025-06-08",
-   "series": "",
+   "series": "In The Arena",
    "passage": "1 Corinthians 15",
    "refs": [
     {
@@ -6013,7 +6014,7 @@
    "source": "rss",
    "durationMin": 49,
    "refSource": "regex",
-   "seriesKey": "wk-run 2025-06-08|2025-06"
+   "seriesKey": "in the arena|2025-06"
   },
   {
    "id": "cotcny-6eoWe7uOug832fTAHf3enE",
@@ -7727,7 +7728,7 @@
    "church": "vintage-sm",
    "speaker": "Ger Jones",
    "date": "2024-12-09",
-   "series": "",
+   "series": "Psalms",
    "passage": "Psalm 84",
    "refs": [
     {
@@ -7820,7 +7821,7 @@
    "church": "vintage-sm",
    "speaker": "Ger Jones",
    "date": "2024-11-25",
-   "series": "",
+   "series": "Psalms",
    "passage": "Psalm 84",
    "refs": [
     {
@@ -8563,7 +8564,7 @@
    "source": "rss",
    "durationMin": 51,
    "refSource": "regex",
-   "seriesKey": "come see|2024-05"
+   "seriesKey": "come and see|2024-05"
   },
   {
    "id": "bridgetown-5oMgHxV7m5cZ6dGSII9cGi",
@@ -8637,7 +8638,7 @@
    "source": "rss",
    "durationMin": 57,
    "refSource": "regex",
-   "seriesKey": "come see|2024-05",
+   "seriesKey": "come and see|2024-05",
    "study": [
     "john"
    ]
@@ -8762,7 +8763,7 @@
    "source": "rss",
    "durationMin": 62,
    "refSource": "regex",
-   "seriesKey": "come see|2024-05",
+   "seriesKey": "come and see|2024-05",
    "study": [
     "john"
    ]
@@ -8839,7 +8840,7 @@
    "source": "rss",
    "durationMin": 60,
    "refSource": "regex",
-   "seriesKey": "come see|2024-05",
+   "seriesKey": "come and see|2024-05",
    "study": [
     "john"
    ]
@@ -8916,7 +8917,7 @@
    "source": "rss",
    "durationMin": 63,
    "refSource": "regex",
-   "seriesKey": "come see|2024-05",
+   "seriesKey": "come and see|2024-05",
    "study": [
     "john"
    ]
@@ -8993,7 +8994,7 @@
    "source": "rss",
    "durationMin": 37,
    "refSource": "regex",
-   "seriesKey": "come see|2024-05",
+   "seriesKey": "come and see|2024-05",
    "study": [
     "john"
    ]
@@ -9142,7 +9143,7 @@
    "source": "rss",
    "durationMin": 56,
    "refSource": "regex",
-   "seriesKey": "come see|2024-05",
+   "seriesKey": "come and see|2024-05",
    "study": [
     "john"
    ]
@@ -9220,7 +9221,7 @@
    "source": "rss",
    "durationMin": 59,
    "refSource": "regex",
-   "seriesKey": "come see|2024-05",
+   "seriesKey": "come and see|2024-05",
    "study": [
     "john"
    ]
@@ -9297,7 +9298,7 @@
    "source": "rss",
    "durationMin": 54,
    "refSource": "regex",
-   "seriesKey": "come see|2024-05",
+   "seriesKey": "come and see|2024-05",
    "study": [
     "john"
    ]
@@ -9422,7 +9423,7 @@
    "source": "rss",
    "durationMin": 51,
    "refSource": "regex",
-   "seriesKey": "come see|2024-05",
+   "seriesKey": "come and see|2024-05",
    "study": [
     "john"
    ]
@@ -9525,7 +9526,7 @@
    "source": "rss",
    "durationMin": 51,
    "refSource": "regex",
-   "seriesKey": "come see|2024-05",
+   "seriesKey": "come and see|2024-05",
    "study": [
     "john"
    ]
@@ -9630,7 +9631,7 @@
    "source": "rss",
    "durationMin": 65,
    "refSource": "regex",
-   "seriesKey": "come see|2024-05",
+   "seriesKey": "come and see|2024-05",
    "study": [
     "john"
    ]
@@ -9706,7 +9707,7 @@
    "source": "rss",
    "durationMin": 52,
    "refSource": "regex",
-   "seriesKey": "come see|2024-05",
+   "seriesKey": "come and see|2024-05",
    "study": [
     "john"
    ]
@@ -9808,7 +9809,7 @@
    "source": "rss",
    "durationMin": 57,
    "refSource": "regex",
-   "seriesKey": "come see|2024-05",
+   "seriesKey": "come and see|2024-05",
    "study": [
     "john"
    ]
@@ -9908,7 +9909,7 @@
    "durationMin": 66,
    "refSource": "ai",
    "aiConfidence": 0.97,
-   "seriesKey": "come see|2024-05",
+   "seriesKey": "come and see|2024-05",
    "study": [
     "john"
    ]
@@ -9983,7 +9984,7 @@
    "durationMin": 60,
    "refSource": "ai",
    "aiConfidence": 0.93,
-   "seriesKey": "come see|2024-05",
+   "seriesKey": "come and see|2024-05",
    "study": [
     "john"
    ]
@@ -10985,7 +10986,7 @@
    "church": "bridgetown",
    "speaker": "",
    "date": "2023-12-30",
-   "series": "",
+   "series": "Luke",
    "passage": "Luke 2:4-7",
    "refs": [
     {
@@ -11109,7 +11110,7 @@
    "church": "bridgetown",
    "speaker": "",
    "date": "2023-12-17",
-   "series": "",
+   "series": "Luke",
    "passage": "Luke 2:25-32",
    "refs": [
     {
@@ -11135,7 +11136,7 @@
    "church": "eleven22",
    "speaker": "Joby Martin",
    "date": "2023-12-17",
-   "series": "",
+   "series": "Unwrapping Christmas",
    "passage": "Matthew 1:21",
    "refs": [
     {
@@ -11150,7 +11151,7 @@
    "source": "rss",
    "durationMin": 51,
    "refSource": "regex",
-   "seriesKey": "wk-run 2023-12-04|2023-12"
+   "seriesKey": "unwrapping christmas|2023-12"
   },
   {
    "id": "bridgetown-3rSkscl8Xb76P3zZOyzcmz",
@@ -11207,7 +11208,7 @@
    "church": "bridgetown",
    "speaker": "",
    "date": "2023-12-05",
-   "series": "",
+   "series": "Luke",
    "passage": "Luke 2:1-20",
    "refs": [
     {
@@ -11306,7 +11307,7 @@
    "church": "eleven22",
    "speaker": "Joby Martin",
    "date": "2023-11-26",
-   "series": "",
+   "series": "It Doesn’t Make Sense",
    "passage": "1 John 5:5",
    "refs": [
     {
@@ -11321,7 +11322,7 @@
    "source": "rss",
    "durationMin": 52,
    "refSource": "regex",
-   "seriesKey": "wk-run 2023-11-12|2023-11"
+   "seriesKey": "it doesn t make sense|2023-11"
   },
   {
    "id": "bridgetown-6tBq7pk0c2bu2gFwCbgZsG",
@@ -11422,7 +11423,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2023-11-05",
-   "series": "",
+   "series": "Live Abundantly",
    "passage": "John 10:10",
    "refs": [
     {
@@ -11437,7 +11438,7 @@
    "source": "rss",
    "durationMin": 63,
    "refSource": "regex",
-   "seriesKey": "wk-run 2023-10-09|2023-10"
+   "seriesKey": "live abundantly|2023-10"
   },
   {
    "id": "bridgetown-33cog5uqDV2CPq2XlYxWVr",
@@ -11468,7 +11469,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2023-10-29",
-   "series": "",
+   "series": "Live Abundantly",
    "passage": "John 10:10",
    "refs": [
     {
@@ -11483,7 +11484,7 @@
    "source": "rss",
    "durationMin": 58,
    "refSource": "regex",
-   "seriesKey": "wk-run 2023-10-09|2023-10"
+   "seriesKey": "live abundantly|2023-10"
   },
   {
    "id": "bridgetown-03CJvZvPWAH5OCneRfbUm3",
@@ -11537,7 +11538,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2023-10-15",
-   "series": "",
+   "series": "Live Abundantly",
    "passage": "1 Corinthians 6:18",
    "refs": [
     {
@@ -11552,7 +11553,7 @@
    "source": "rss",
    "durationMin": 60,
    "refSource": "regex",
-   "seriesKey": "wk-run 2023-10-09|2023-10"
+   "seriesKey": "live abundantly|2023-10"
   },
   {
    "id": "vintage-sm-150XLpmqy7vtNnYjG2mrsh",
@@ -11606,7 +11607,7 @@
    "church": "bridgetown",
    "speaker": "",
    "date": "2023-10-04",
-   "series": "",
+   "series": "Untitled series (Sep 2023)",
    "passage": "Mark 10:28-31",
    "refs": [
     {
@@ -11629,7 +11630,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2023-10-02",
-   "series": "",
+   "series": "Untitled series (Sep 2023)",
    "passage": "Ephesians 5:21-24",
    "refs": [
     {
@@ -11675,7 +11676,7 @@
    "church": "bridgetown",
    "speaker": "",
    "date": "2023-09-26",
-   "series": "",
+   "series": "Untitled series (Sep 2023)",
    "passage": "Matthew 12:46-50",
    "refs": [
     {
@@ -11698,7 +11699,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2023-09-24",
-   "series": "",
+   "series": "Untitled series (Sep 2023)",
    "passage": "Exodus 2:11-15",
    "refs": [
     {
@@ -11791,7 +11792,7 @@
    "church": "eleven22",
    "speaker": "Joby Martin",
    "date": "2023-09-10",
-   "series": "",
+   "series": "James",
    "passage": "",
    "refs": [
     {
@@ -11809,7 +11810,7 @@
    "durationMin": 46,
    "refSource": "ai",
    "aiConfidence": 0.9,
-   "seriesKey": "wk-run 2023-08-13|2023-08",
+   "seriesKey": "wk-run 2023-06-11|2023-06",
    "study": [
     "james"
    ]
@@ -11872,7 +11873,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2023-09-03",
-   "series": "",
+   "series": "James",
    "passage": "James 5:1-6",
    "refs": [
     {
@@ -11887,7 +11888,7 @@
    "source": "rss",
    "durationMin": 49,
    "refSource": "regex",
-   "seriesKey": "wk-run 2023-08-13|2023-08",
+   "seriesKey": "wk-run 2023-06-11|2023-06",
    "study": [
     "james"
    ]
@@ -11925,7 +11926,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2023-08-28",
-   "series": "",
+   "series": "James",
    "passage": "",
    "refs": [
     {
@@ -11940,8 +11941,8 @@
    "source": "rss",
    "durationMin": 57,
    "refSource": "series",
-   "aiConfidence": 0.95,
-   "seriesKey": "wk-run 2023-08-13|2023-08",
+   "aiConfidence": 0.97,
+   "seriesKey": "wk-run 2023-06-11|2023-06",
    "study": [
     "james"
    ]
@@ -12030,7 +12031,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2023-08-20",
-   "series": "",
+   "series": "James",
    "passage": "",
    "refs": [
     {
@@ -12045,8 +12046,8 @@
    "source": "rss",
    "durationMin": 56,
    "refSource": "series",
-   "aiConfidence": 0.95,
-   "seriesKey": "wk-run 2023-08-13|2023-08",
+   "aiConfidence": 0.97,
+   "seriesKey": "wk-run 2023-06-11|2023-06",
    "study": [
     "james"
    ]
@@ -12083,7 +12084,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2023-08-13",
-   "series": "",
+   "series": "James",
    "passage": "",
    "refs": [
     {
@@ -12110,7 +12111,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2023-08-13",
-   "series": "",
+   "series": "James",
    "passage": "",
    "refs": [
     {
@@ -12125,8 +12126,8 @@
    "source": "rss",
    "durationMin": 54,
    "refSource": "series",
-   "aiConfidence": 0.95,
-   "seriesKey": "wk-run 2023-08-13|2023-08",
+   "aiConfidence": 0.97,
+   "seriesKey": "wk-run 2023-06-11|2023-06",
    "study": [
     "james"
    ]
@@ -12241,7 +12242,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2023-07-30",
-   "series": "",
+   "series": "James",
    "passage": "",
    "refs": [
     {
@@ -12321,7 +12322,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2023-07-23",
-   "series": "",
+   "series": "James",
    "passage": "",
    "refs": [
     {
@@ -12400,7 +12401,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2023-07-16",
-   "series": "",
+   "series": "James",
    "passage": "",
    "refs": [
     {
@@ -12480,7 +12481,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2023-07-09",
-   "series": "",
+   "series": "James",
    "passage": "",
    "refs": [
     {
@@ -12558,7 +12559,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2023-07-02",
-   "series": "",
+   "series": "James",
    "passage": "",
    "refs": [
     {
@@ -12611,7 +12612,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2023-06-25",
-   "series": "",
+   "series": "James",
    "passage": "",
    "refs": [
     {
@@ -12739,7 +12740,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2023-06-18",
-   "series": "",
+   "series": "James",
    "passage": "",
    "refs": [
     {
@@ -12814,7 +12815,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2023-06-11",
-   "series": "",
+   "series": "James",
    "passage": "",
    "refs": [
     {
@@ -12879,7 +12880,7 @@
    "source": "rss",
    "durationMin": 38,
    "refSource": "regex",
-   "seriesKey": "race justice|2023-06"
+   "seriesKey": "race and justice|2023-06"
   },
   {
    "id": "eleven22-2hJ2Kjj67NGyVraYs6aV8c",
@@ -12887,7 +12888,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2023-06-04",
-   "series": "",
+   "series": "John",
    "passage": "",
    "refs": [
     {
@@ -12902,8 +12903,8 @@
    "source": "rss",
    "durationMin": 59,
    "refSource": "series",
-   "aiConfidence": 0.85,
-   "seriesKey": "wk-run 2023-04-16|2023-04",
+   "aiConfidence": 0.87,
+   "seriesKey": "wk-run 2023-04-09|2023-04",
    "study": [
     "john"
    ]
@@ -12959,7 +12960,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2023-05-28",
-   "series": "",
+   "series": "John",
    "passage": "",
    "refs": [
     {
@@ -12972,8 +12973,8 @@
    "source": "rss",
    "durationMin": 56,
    "refSource": "series",
-   "aiConfidence": 0.85,
-   "seriesKey": "wk-run 2023-04-16|2023-04",
+   "aiConfidence": 0.87,
+   "seriesKey": "wk-run 2023-04-09|2023-04",
    "study": [
     "john"
    ]
@@ -13054,7 +13055,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2023-05-21",
-   "series": "",
+   "series": "John",
    "passage": "",
    "refs": [
     {
@@ -13070,7 +13071,7 @@
    "durationMin": 58,
    "refSource": "ai",
    "aiConfidence": 0.92,
-   "seriesKey": "wk-run 2023-04-16|2023-04",
+   "seriesKey": "wk-run 2023-04-09|2023-04",
    "study": [
     "john"
    ]
@@ -13104,7 +13105,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2023-05-14",
-   "series": "",
+   "series": "John",
    "passage": "",
    "refs": [
     {
@@ -13120,7 +13121,7 @@
    "durationMin": 54,
    "refSource": "ai",
    "aiConfidence": 0.92,
-   "seriesKey": "wk-run 2023-04-16|2023-04",
+   "seriesKey": "wk-run 2023-04-09|2023-04",
    "study": [
     "john"
    ]
@@ -13154,7 +13155,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2023-05-07",
-   "series": "",
+   "series": "John",
    "passage": "John 6:68",
    "refs": [
     {
@@ -13169,7 +13170,7 @@
    "source": "rss",
    "durationMin": 58,
    "refSource": "regex",
-   "seriesKey": "wk-run 2023-04-16|2023-04",
+   "seriesKey": "wk-run 2023-04-09|2023-04",
    "study": [
     "john"
    ]
@@ -13227,7 +13228,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2023-04-30",
-   "series": "",
+   "series": "John",
    "passage": "",
    "refs": [
     {
@@ -13243,7 +13244,7 @@
    "durationMin": 55,
    "refSource": "ai",
    "aiConfidence": 0.92,
-   "seriesKey": "wk-run 2023-04-16|2023-04",
+   "seriesKey": "wk-run 2023-04-09|2023-04",
    "study": [
     "john"
    ]
@@ -13301,7 +13302,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2023-04-23",
-   "series": "",
+   "series": "John",
    "passage": "",
    "refs": [
     {
@@ -13314,8 +13315,8 @@
    "source": "rss",
    "durationMin": 58,
    "refSource": "series",
-   "aiConfidence": 0.85,
-   "seriesKey": "wk-run 2023-04-16|2023-04",
+   "aiConfidence": 0.87,
+   "seriesKey": "wk-run 2023-04-09|2023-04",
    "study": [
     "john"
    ]
@@ -13349,7 +13350,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2023-04-16",
-   "series": "",
+   "series": "John",
    "passage": "",
    "refs": [
     {
@@ -13365,7 +13366,7 @@
    "durationMin": 54,
    "refSource": "ai",
    "aiConfidence": 0.9,
-   "seriesKey": "wk-run 2023-04-16|2023-04",
+   "seriesKey": "wk-run 2023-04-09|2023-04",
    "study": [
     "john"
    ]
@@ -13395,11 +13396,11 @@
   },
   {
    "id": "eleven22-3WUxeZQf6MexmFP3rPdRWt",
-   "title": "Easter 2023",
+   "title": "Resurrection",
    "church": "eleven22",
    "speaker": "",
    "date": "2023-04-09",
-   "series": "Wk 1: Resurrection",
+   "series": "John",
    "passage": "",
    "refs": [
     {
@@ -13415,7 +13416,7 @@
    "durationMin": 58,
    "refSource": "ai",
    "aiConfidence": 0.9,
-   "seriesKey": "wk 1 resurrection|2023-04"
+   "seriesKey": "wk-run 2023-04-09|2023-04"
   },
   {
    "id": "bridgetown-6NNmVastTKMwKQEBm1kCDn",
@@ -13438,7 +13439,7 @@
    "source": "rss",
    "durationMin": 56,
    "refSource": "regex",
-   "seriesKey": "god the whole person soul mind body in his image|2023-02"
+   "seriesKey": "god and the whole person soul mind and body in his image|2023-02"
   },
   {
    "id": "eleven22-05PW8r6YF8bkdCChczLhYP",
@@ -13446,7 +13447,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2023-04-02",
-   "series": "",
+   "series": "Philippians",
    "passage": "Matthew 11:28-30",
    "refs": [
     {
@@ -13508,7 +13509,7 @@
    "source": "rss",
    "durationMin": 48,
    "refSource": "regex",
-   "seriesKey": "god the whole person soul mind body in his image|2023-02"
+   "seriesKey": "god and the whole person soul mind and body in his image|2023-02"
   },
   {
    "id": "eleven22-4B3HCDjo3ppejMD2jSP8f6",
@@ -13516,7 +13517,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2023-03-26",
-   "series": "",
+   "series": "Philippians",
    "passage": "",
    "refs": [
     {
@@ -13558,7 +13559,7 @@
    "source": "rss",
    "durationMin": 56,
    "refSource": "regex",
-   "seriesKey": "god the whole person soul mind body in his image|2023-02"
+   "seriesKey": "god and the whole person soul mind and body in his image|2023-02"
   },
   {
    "id": "eleven22-0SHvxSbBYUwk4ncbWwlUKf",
@@ -13566,7 +13567,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2023-03-19",
-   "series": "",
+   "series": "Philippians",
    "passage": "",
    "refs": [
     {
@@ -13634,7 +13635,7 @@
    "source": "rss",
    "durationMin": 58,
    "refSource": "regex",
-   "seriesKey": "god the whole person soul mind body in his image|2023-02"
+   "seriesKey": "god and the whole person soul mind and body in his image|2023-02"
   },
   {
    "id": "eleven22-4ABAM3TfDnwKWkmg1RV5DS",
@@ -13642,7 +13643,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2023-03-12",
-   "series": "",
+   "series": "Philippians",
    "passage": "",
    "refs": [
     {
@@ -13710,7 +13711,7 @@
    "source": "rss",
    "durationMin": 47,
    "refSource": "regex",
-   "seriesKey": "god the whole person soul mind body in his image|2023-02"
+   "seriesKey": "god and the whole person soul mind and body in his image|2023-02"
   },
   {
    "id": "eleven22-4PJBIDOFgZ86QmzhAURIlZ",
@@ -13718,7 +13719,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2023-03-05",
-   "series": "",
+   "series": "Philippians",
    "passage": "",
    "refs": [
     {
@@ -13760,7 +13761,7 @@
    "source": "rss",
    "durationMin": 55,
    "refSource": "regex",
-   "seriesKey": "god the whole person soul mind body in his image|2023-02"
+   "seriesKey": "god and the whole person soul mind and body in his image|2023-02"
   },
   {
    "id": "eleven22-1c0bqUmSmqe0B757wyOq2h",
@@ -13768,7 +13769,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2023-02-26",
-   "series": "",
+   "series": "Philippians",
    "passage": "Philippians 2:1-18",
    "refs": [
     {
@@ -13820,7 +13821,7 @@
    "church": "eleven22",
    "speaker": "Joby Martin",
    "date": "2023-02-19",
-   "series": "",
+   "series": "Philippians",
    "passage": "Philippians 1:12-20",
    "refs": [
     {
@@ -13872,7 +13873,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2023-02-12",
-   "series": "",
+   "series": "Philippians",
    "passage": "",
    "refs": [
     {
@@ -13948,7 +13949,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2023-02-05",
-   "series": "",
+   "series": "Philippians",
    "passage": "",
    "refs": [
     {
@@ -14406,7 +14407,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2022-11-27",
-   "series": "",
+   "series": "Jude",
    "passage": "",
    "refs": [
     {
@@ -14501,7 +14502,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2022-11-20",
-   "series": "",
+   "series": "Jude",
    "passage": "",
    "refs": [
     {
@@ -14575,7 +14576,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2022-11-13",
-   "series": "",
+   "series": "Untitled series (Oct 2022)",
    "passage": "",
    "refs": [
     {
@@ -14787,7 +14788,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2022-10-16",
-   "series": "",
+   "series": "Untitled series (Oct 2022)",
    "passage": "",
    "refs": [
     {
@@ -14974,7 +14975,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2022-09-11",
-   "series": "",
+   "series": "Psalms",
    "passage": "Psalm 150:6",
    "refs": [
     {
@@ -15053,7 +15054,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2022-09-04",
-   "series": "",
+   "series": "Psalms",
    "passage": "Psalm 139:14",
    "refs": [
     {
@@ -15159,7 +15160,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2022-08-28",
-   "series": "",
+   "series": "Psalms",
    "passage": "Psalm 127:1",
    "refs": [
     {
@@ -15265,7 +15266,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2022-08-21",
-   "series": "",
+   "series": "Psalms",
    "passage": "Psalm 34:8",
    "refs": [
     {
@@ -15371,7 +15372,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2022-08-14",
-   "series": "",
+   "series": "Psalms",
    "passage": "Psalm 100:4",
    "refs": [
     {
@@ -15477,7 +15478,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2022-08-07",
-   "series": "",
+   "series": "Psalms",
    "passage": "Psalm 91:14-15",
    "refs": [
     {
@@ -15583,7 +15584,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2022-07-31",
-   "series": "",
+   "series": "Psalms",
    "passage": "Psalm 63:2-3",
    "refs": [
     {
@@ -15661,7 +15662,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2022-07-24",
-   "series": "",
+   "series": "Psalms",
    "passage": "Psalm 24:3-4",
    "refs": [
     {
@@ -15767,7 +15768,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2022-07-17",
-   "series": "",
+   "series": "Psalms",
    "passage": "Psalm 98:1",
    "refs": [
     {
@@ -15846,7 +15847,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2022-07-10",
-   "series": "",
+   "series": "Psalms",
    "passage": "Psalm 51:10",
    "refs": [
     {
@@ -15952,7 +15953,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2022-07-03",
-   "series": "",
+   "series": "Psalms",
    "passage": "Psalm 46:10-11",
    "refs": [
     {
@@ -16045,7 +16046,7 @@
    "source": "rss",
    "durationMin": 50,
    "refSource": "regex",
-   "seriesKey": "the true false self|2022-06"
+   "seriesKey": "the true and false self|2022-04"
   },
   {
    "id": "eleven22-2b6n28cHWtZKoOTBcEctL3",
@@ -16053,7 +16054,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2022-06-26",
-   "series": "",
+   "series": "Psalms",
    "passage": "Psalm 55:16",
    "refs": [
     {
@@ -16129,7 +16130,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2022-06-19",
-   "series": "",
+   "series": "Psalms",
    "passage": "Psalm 57:3",
    "refs": [
     {
@@ -16232,7 +16233,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2022-06-12",
-   "series": "",
+   "series": "Psalms",
    "passage": "Psalm 27:1",
    "refs": [
     {
@@ -16333,7 +16334,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2022-06-05",
-   "series": "",
+   "series": "Psalms",
    "passage": "Psalm 42:5-6",
    "refs": [
     {
@@ -16405,7 +16406,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2022-05-29",
-   "series": "",
+   "series": "Psalms",
    "passage": "Psalm 23:1",
    "refs": [
     {
@@ -16481,7 +16482,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2022-05-22",
-   "series": "",
+   "series": "Psalms",
    "passage": "Psalm 19:7",
    "refs": [
     {
@@ -16530,7 +16531,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2022-05-15",
-   "series": "",
+   "series": "Psalms",
    "passage": "Psalm 16:2",
    "refs": [
     {
@@ -16606,7 +16607,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2022-05-08",
-   "series": "",
+   "series": "Psalms",
    "passage": "Psalm 14:2-3",
    "refs": [
     {
@@ -16682,7 +16683,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2022-05-01",
-   "series": "",
+   "series": "Psalms",
    "passage": "Psalm 8:3-4",
    "refs": [
     {
@@ -16735,7 +16736,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2022-04-24",
-   "series": "",
+   "series": "Psalms",
    "passage": "Psalm 1:2",
    "refs": [
     {
@@ -16935,7 +16936,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2022-04-03",
-   "series": "",
+   "series": "Untitled series (Mar 2022)",
    "passage": "",
    "refs": [
     {
@@ -17009,7 +17010,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2022-03-27",
-   "series": "",
+   "series": "Untitled series (Mar 2022)",
    "passage": "",
    "refs": [
     {
@@ -17082,7 +17083,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2022-03-20",
-   "series": "",
+   "series": "Untitled series (Mar 2022)",
    "passage": "",
    "refs": [
     {
@@ -17133,7 +17134,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2022-03-13",
-   "series": "",
+   "series": "Untitled series (Mar 2022)",
    "passage": "",
    "refs": [
     {
@@ -17184,7 +17185,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2022-03-06",
-   "series": "",
+   "series": "Untitled series (Mar 2022)",
    "passage": "John 3:16",
    "refs": [
     {
@@ -17380,7 +17381,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2022-02-13",
-   "series": "",
+   "series": "Untitled series (Jan 2022)",
    "passage": "",
    "refs": [
     {
@@ -17547,7 +17548,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2022-01-30",
-   "series": "",
+   "series": "Untitled series (Jan 2022)",
    "passage": "Matthew 6:24",
    "refs": [
     {
@@ -17975,7 +17976,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2021-10-17",
-   "series": "",
+   "series": "John",
    "passage": "",
    "refs": [
     {
@@ -18002,7 +18003,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2021-10-10",
-   "series": "",
+   "series": "John",
    "passage": "",
    "refs": [
     {
@@ -18029,7 +18030,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2021-10-03",
-   "series": "",
+   "series": "John",
    "passage": "",
    "refs": [
     {
@@ -18080,7 +18081,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2021-09-26",
-   "series": "",
+   "series": "John",
    "passage": "",
    "refs": [
     {
@@ -18107,7 +18108,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2021-09-19",
-   "series": "",
+   "series": "John",
    "passage": "",
    "refs": [
     {
@@ -18134,7 +18135,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2021-09-12",
-   "series": "",
+   "series": "John",
    "passage": "",
    "refs": [
     {
@@ -18209,7 +18210,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2021-09-05",
-   "series": "",
+   "series": "John",
    "passage": "",
    "refs": [
     {
@@ -18260,7 +18261,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2021-08-29",
-   "series": "",
+   "series": "John",
    "passage": "John 14:6",
    "refs": [
     {
@@ -18310,7 +18311,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2021-08-22",
-   "series": "",
+   "series": "John",
    "passage": "",
    "refs": [
     {
@@ -18361,7 +18362,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2021-08-15",
-   "series": "",
+   "series": "John",
    "passage": "",
    "refs": [
     {
@@ -18412,7 +18413,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2021-08-08",
-   "series": "",
+   "series": "John",
    "passage": "",
    "refs": [
     {
@@ -18463,7 +18464,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2021-08-01",
-   "series": "",
+   "series": "John",
    "passage": "",
    "refs": [
     {
@@ -18538,7 +18539,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2021-07-25",
-   "series": "",
+   "series": "John",
    "passage": "",
    "refs": [
     {
@@ -18613,7 +18614,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2021-07-18",
-   "series": "",
+   "series": "John",
    "passage": "",
    "refs": [
     {
@@ -18713,7 +18714,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2021-07-11",
-   "series": "",
+   "series": "John",
    "passage": "",
    "refs": [
     {
@@ -18815,7 +18816,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2021-07-04",
-   "series": "",
+   "series": "John",
    "passage": "",
    "refs": [
     {
@@ -18915,7 +18916,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2021-06-27",
-   "series": "",
+   "series": "John",
    "passage": "",
    "refs": [
     {
@@ -19015,7 +19016,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2021-06-20",
-   "series": "",
+   "series": "John",
    "passage": "John 6:68",
    "refs": [
     {
@@ -19114,7 +19115,7 @@
    "church": "eleven22",
    "speaker": "JESUS CHRIST",
    "date": "2021-06-13",
-   "series": "",
+   "series": "John",
    "passage": "",
    "refs": [
     {
@@ -19189,7 +19190,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2021-06-06",
-   "series": "",
+   "series": "John",
    "passage": "",
    "refs": [
     {
@@ -19267,7 +19268,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2021-05-30",
-   "series": "",
+   "series": "John",
    "passage": "",
    "refs": [
     {
@@ -19347,7 +19348,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2021-05-23",
-   "series": "",
+   "series": "John",
    "passage": "",
    "refs": [
     {
@@ -19399,7 +19400,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2021-05-16",
-   "series": "",
+   "series": "John",
    "passage": "",
    "refs": [
     {
@@ -19477,7 +19478,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2021-05-09",
-   "series": "",
+   "series": "John",
    "passage": "",
    "refs": [
     {
@@ -19580,7 +19581,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2021-05-02",
-   "series": "",
+   "series": "John",
    "passage": "",
    "refs": [
     {
@@ -19658,7 +19659,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2021-04-25",
-   "series": "",
+   "series": "John",
    "passage": "",
    "refs": [
     {
@@ -19760,7 +19761,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2021-04-18",
-   "series": "",
+   "series": "John",
    "passage": "John 1:29",
    "refs": [
     {
@@ -19786,7 +19787,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2021-04-11",
-   "series": "",
+   "series": "John",
    "passage": "",
    "refs": [
     {
@@ -19858,7 +19859,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2021-02-07",
-   "series": "",
+   "series": "Untitled series (Jan 2021)",
    "passage": "1 Corinthians 6:18-20",
    "refs": [
     {
@@ -19933,7 +19934,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2021-01-24",
-   "series": "",
+   "series": "Untitled series (Jan 2021)",
    "passage": "Proverbs 31:30",
    "refs": [
     {
@@ -19956,7 +19957,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2021-01-10",
-   "series": "",
+   "series": "Untitled series (Jan 2021)",
    "passage": "1 Corinthians 16:13-14",
    "refs": [
     {
@@ -20048,7 +20049,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2020-11-29",
-   "series": "",
+   "series": "2 Peter",
    "passage": "",
    "refs": [
     {
@@ -20152,7 +20153,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2020-11-08",
-   "series": "",
+   "series": "2 Peter",
    "passage": "",
    "refs": [
     {
@@ -20511,7 +20512,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2020-08-09",
-   "series": "",
+   "series": "Matthew",
    "passage": "",
    "refs": [
     {
@@ -20562,7 +20563,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2020-08-02",
-   "series": "",
+   "series": "Matthew",
    "passage": "",
    "refs": [
     {
@@ -20612,7 +20613,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2020-07-26",
-   "series": "",
+   "series": "Matthew",
    "passage": "",
    "refs": [
     {
@@ -20639,7 +20640,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2020-07-19",
-   "series": "",
+   "series": "Matthew",
    "passage": "",
    "refs": [
     {
@@ -20666,7 +20667,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2020-07-12",
-   "series": "",
+   "series": "Best. Sermon. Ever.",
    "passage": "",
    "refs": [
     {
@@ -20693,7 +20694,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2020-07-05",
-   "series": "",
+   "series": "Best. Sermon. Ever.",
    "passage": "",
    "refs": [
     {
@@ -20743,7 +20744,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2020-06-28",
-   "series": "",
+   "series": "Best. Sermon. Ever.",
    "passage": "",
    "refs": [
     {
@@ -20793,7 +20794,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2020-06-21",
-   "series": "",
+   "series": "Best. Sermon. Ever.",
    "passage": "",
    "refs": [
     {
@@ -20820,7 +20821,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2020-06-14",
-   "series": "",
+   "series": "Best. Sermon. Ever.",
    "passage": "",
    "refs": [
     {
@@ -20870,7 +20871,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2020-06-07",
-   "series": "",
+   "series": "Best. Sermon. Ever.",
    "passage": "",
    "refs": [
     {
@@ -20920,7 +20921,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2020-05-31",
-   "series": "",
+   "series": "Best. Sermon. Ever.",
    "passage": "",
    "refs": [
     {
@@ -20971,7 +20972,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2020-05-17",
-   "series": "",
+   "series": "Best. Sermon. Ever.",
    "passage": "Romans 5:8",
    "refs": [
     {
@@ -21018,7 +21019,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2020-05-10",
-   "series": "",
+   "series": "Best. Sermon. Ever.",
    "passage": "",
    "refs": [
     {
@@ -21072,7 +21073,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2020-05-03",
-   "series": "",
+   "series": "Best. Sermon. Ever.",
    "passage": "",
    "refs": [
     {
@@ -21126,7 +21127,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2020-04-26",
-   "series": "",
+   "series": "Best. Sermon. Ever.",
    "passage": "Ephesians 2:8-10",
    "refs": [
     {
@@ -21149,7 +21150,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2020-04-19",
-   "series": "",
+   "series": "Best. Sermon. Ever.",
    "passage": "",
    "refs": [
     {
@@ -21199,11 +21200,11 @@
   },
   {
    "id": "eleven22-4kK4wIHXNd6dl3cxcvSqFq",
-   "title": "EASTER",
+   "title": "Laodicea",
    "church": "eleven22",
    "speaker": "",
    "date": "2020-04-12",
-   "series": "Wk 7: Laodicea",
+   "series": "Revelation",
    "passage": "",
    "refs": [
     {
@@ -21219,7 +21220,7 @@
    "durationMin": 54,
    "refSource": "ai",
    "aiConfidence": 0.95,
-   "seriesKey": "wk 7 laodicea|2020-04"
+   "seriesKey": "wk-run 2020-03-01|2020-03"
   },
   {
    "id": "eleven22-2bQSDvnD2nK52jVI20GoDi",
@@ -21277,7 +21278,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2020-04-05",
-   "series": "",
+   "series": "Revelation",
    "passage": "",
    "refs": [
     {
@@ -21328,7 +21329,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2020-03-29",
-   "series": "",
+   "series": "Revelation",
    "passage": "",
    "refs": [
     {
@@ -21402,7 +21403,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2020-03-22",
-   "series": "",
+   "series": "Revelation",
    "passage": "",
    "refs": [
     {
@@ -21429,7 +21430,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2020-03-15",
-   "series": "",
+   "series": "Revelation",
    "passage": "",
    "refs": [
     {
@@ -21456,7 +21457,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2020-03-08",
-   "series": "",
+   "series": "Revelation",
    "passage": "John 16:33",
    "refs": [
     {
@@ -21479,7 +21480,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2020-03-01",
-   "series": "",
+   "series": "Revelation",
    "passage": "",
    "refs": [
     {
@@ -21506,7 +21507,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2020-02-23",
-   "series": "",
+   "series": "Jonah",
    "passage": "",
    "refs": [
     {
@@ -21533,7 +21534,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2020-02-16",
-   "series": "",
+   "series": "Jonah",
    "passage": "",
    "refs": [
     {
@@ -21583,7 +21584,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2020-02-09",
-   "series": "",
+   "series": "Jonah",
    "passage": "",
    "refs": [
     {
@@ -21610,7 +21611,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2020-02-02",
-   "series": "",
+   "series": "Jonah",
    "passage": "",
    "refs": [
     {
@@ -21754,7 +21755,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2019-11-24",
-   "series": "",
+   "series": "Untitled series (Nov 2019)",
    "passage": "Mark 9",
    "refs": [
     {
@@ -21777,7 +21778,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2019-11-17",
-   "series": "",
+   "series": "Untitled series (Nov 2019)",
    "passage": "Romans 8:28",
    "refs": [
     {
@@ -21977,7 +21978,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2019-08-04",
-   "series": "",
+   "series": "2 Timothy",
    "passage": "",
    "refs": [
     {
@@ -22027,7 +22028,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2019-07-28",
-   "series": "",
+   "series": "2 Timothy",
    "passage": "",
    "refs": [
     {
@@ -22077,7 +22078,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2019-07-21",
-   "series": "",
+   "series": "2 Timothy",
    "passage": "",
    "refs": [
     {
@@ -22127,7 +22128,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2019-07-14",
-   "series": "",
+   "series": "1 Samuel",
    "passage": "",
    "refs": [
     {
@@ -22180,7 +22181,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2019-07-07",
-   "series": "",
+   "series": "1 Samuel",
    "passage": "",
    "refs": [
     {
@@ -22230,7 +22231,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2019-06-30",
-   "series": "",
+   "series": "1 Samuel",
    "passage": "",
    "refs": [
     {
@@ -22280,7 +22281,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2019-06-23",
-   "series": "",
+   "series": "1 Samuel",
    "passage": "",
    "refs": [
     {
@@ -22353,7 +22354,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2019-06-16",
-   "series": "",
+   "series": "1 Samuel",
    "passage": "",
    "refs": [
     {
@@ -22403,7 +22404,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2019-06-09",
-   "series": "",
+   "series": "1 Samuel",
    "passage": "",
    "refs": [
     {
@@ -22430,7 +22431,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2019-06-02",
-   "series": "",
+   "series": "1 Samuel",
    "passage": "",
    "refs": [
     {
@@ -22480,7 +22481,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2019-05-26",
-   "series": "",
+   "series": "1 Samuel",
    "passage": "",
    "refs": [
     {
@@ -22530,7 +22531,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2019-05-19",
-   "series": "",
+   "series": "1 Samuel",
    "passage": "",
    "refs": [
     {
@@ -22603,7 +22604,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2019-05-12",
-   "series": "",
+   "series": "1 Samuel",
    "passage": "",
    "refs": [
     {
@@ -22630,7 +22631,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2019-05-05",
-   "series": "",
+   "series": "1 Samuel",
    "passage": "",
    "refs": [
     {
@@ -22680,7 +22681,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2019-04-28",
-   "series": "",
+   "series": "1 Samuel",
    "passage": "",
    "refs": [
     {
@@ -22777,7 +22778,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2019-04-07",
-   "series": "",
+   "series": "Untitled series (Mar 2019)",
    "passage": "John 5:39",
    "refs": [
     {
@@ -22823,7 +22824,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2019-03-31",
-   "series": "",
+   "series": "Untitled series (Mar 2019)",
    "passage": "",
    "refs": [
     {
@@ -22870,7 +22871,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2019-03-24",
-   "series": "",
+   "series": "Untitled series (Mar 2019)",
    "passage": "",
    "refs": [
     {
@@ -22917,7 +22918,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2019-03-17",
-   "series": "",
+   "series": "Untitled series (Mar 2019)",
    "passage": "",
    "refs": [
     {
@@ -22964,7 +22965,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2019-03-10",
-   "series": "",
+   "series": "Untitled series (Mar 2019)",
    "passage": "John 3:16",
    "refs": [
     {
@@ -23114,7 +23115,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2019-02-03",
-   "series": "",
+   "series": "Untitled series (Jan 2019)",
    "passage": "Proverbs 22:3",
    "refs": [
     {
@@ -23163,7 +23164,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2019-01-27",
-   "series": "",
+   "series": "Untitled series (Jan 2019)",
    "passage": "Luke 6:45",
    "refs": [
     {
@@ -23256,7 +23257,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2018-12-23",
-   "series": "",
+   "series": "Untitled series (Nov 2018)",
    "passage": "",
    "refs": [
     {
@@ -23348,7 +23349,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2018-12-02",
-   "series": "",
+   "series": "Untitled series (Nov 2018)",
    "passage": "John 1:43-49",
    "refs": [
     {
@@ -23437,7 +23438,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2018-09-30",
-   "series": "",
+   "series": "Untitled series (Sep 2018)",
    "passage": "Ephesians 5:25",
    "refs": [
     {
@@ -23482,7 +23483,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2018-09-23",
-   "series": "",
+   "series": "Untitled series (Sep 2018)",
    "passage": "Proverbs 12:4",
    "refs": [
     {
@@ -23549,7 +23550,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2018-09-09",
-   "series": "",
+   "series": "Romans",
    "passage": "",
    "refs": [
     {
@@ -23599,7 +23600,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2018-09-02",
-   "series": "",
+   "series": "Romans",
    "passage": "",
    "refs": [
     {
@@ -23673,7 +23674,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2018-08-26",
-   "series": "",
+   "series": "Romans",
    "passage": "",
    "refs": [
     {
@@ -23723,7 +23724,7 @@
    "church": "eleven22",
    "speaker": "John Wesley",
    "date": "2018-08-19",
-   "series": "",
+   "series": "Romans",
    "passage": "",
    "refs": [
     {
@@ -23773,7 +23774,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2018-08-12",
-   "series": "",
+   "series": "Romans",
    "passage": "",
    "refs": [
     {
@@ -23823,7 +23824,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2018-08-05",
-   "series": "",
+   "series": "Romans",
    "passage": "Matthew 22:20-21",
    "refs": [
     {
@@ -23869,7 +23870,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2018-07-29",
-   "series": "",
+   "series": "Romans",
    "passage": "",
    "refs": [
     {
@@ -23918,7 +23919,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2018-07-22",
-   "series": "",
+   "series": "Romans",
    "passage": "",
    "refs": [
     {
@@ -23968,7 +23969,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2018-07-15",
-   "series": "",
+   "series": "Romans",
    "passage": "",
    "refs": [
     {
@@ -24018,7 +24019,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2018-07-08",
-   "series": "",
+   "series": "Romans",
    "passage": "",
    "refs": [
     {
@@ -24068,7 +24069,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2018-07-01",
-   "series": "",
+   "series": "Romans",
    "passage": "",
    "refs": [
     {
@@ -24118,7 +24119,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2018-06-24",
-   "series": "",
+   "series": "Romans",
    "passage": "",
    "refs": [
     {
@@ -24168,7 +24169,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2018-06-17",
-   "series": "",
+   "series": "Romans",
    "passage": "",
    "refs": [
     {
@@ -24218,7 +24219,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2018-06-10",
-   "series": "",
+   "series": "Romans",
    "passage": "",
    "refs": [
     {
@@ -24268,7 +24269,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2018-06-03",
-   "series": "",
+   "series": "Romans",
    "passage": "",
    "refs": [
     {
@@ -24318,7 +24319,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2018-05-27",
-   "series": "",
+   "series": "Romans",
    "passage": "",
    "refs": [
     {
@@ -24368,7 +24369,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2018-05-20",
-   "series": "",
+   "series": "Romans",
    "passage": "",
    "refs": [
     {
@@ -24418,7 +24419,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2018-05-13",
-   "series": "",
+   "series": "Romans",
    "passage": "",
    "refs": [
     {
@@ -24468,7 +24469,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2018-05-06",
-   "series": "",
+   "series": "Romans",
    "passage": "",
    "refs": [
     {
@@ -24518,7 +24519,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2018-04-29",
-   "series": "",
+   "series": "Romans",
    "passage": "",
    "refs": [
     {
@@ -24568,7 +24569,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2018-04-22",
-   "series": "",
+   "series": "Romans",
    "passage": "",
    "refs": [
     {
@@ -24618,7 +24619,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2018-04-15",
-   "series": "",
+   "series": "Romans",
    "passage": "",
    "refs": [
     {
@@ -24668,7 +24669,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2018-04-08",
-   "series": "",
+   "series": "Romans",
    "passage": "",
    "refs": [
     {
@@ -24718,7 +24719,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2018-03-25",
-   "series": "",
+   "series": "Romans",
    "passage": "",
    "refs": [
     {
@@ -24771,7 +24772,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2018-03-18",
-   "series": "",
+   "series": "Romans",
    "passage": "",
    "refs": [
     {
@@ -24825,7 +24826,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2018-03-11",
-   "series": "",
+   "series": "Romans",
    "passage": "",
    "refs": [
     {
@@ -24879,7 +24880,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2018-03-04",
-   "series": "",
+   "series": "Romans",
    "passage": "",
    "refs": [
     {
@@ -24933,7 +24934,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2018-02-25",
-   "series": "",
+   "series": "Romans",
    "passage": "",
    "refs": [
     {
@@ -24987,7 +24988,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2018-02-18",
-   "series": "",
+   "series": "Romans",
    "passage": "",
    "refs": [
     {
@@ -25037,7 +25038,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2018-02-11",
-   "series": "",
+   "series": "Romans",
    "passage": "",
    "refs": [
     {
@@ -25087,7 +25088,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2018-02-04",
-   "series": "",
+   "series": "Romans",
    "passage": "",
    "refs": [
     {
@@ -25137,7 +25138,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2018-01-28",
-   "series": "",
+   "series": "Romans",
    "passage": "",
    "refs": [
     {
@@ -25187,7 +25188,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2018-01-21",
-   "series": "",
+   "series": "Romans",
    "passage": "Ephesians 3:14-21",
    "refs": [
     {
@@ -25233,7 +25234,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2018-01-14",
-   "series": "",
+   "series": "Romans",
    "passage": "",
    "refs": [
     {
@@ -25376,7 +25377,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2017-12-10",
-   "series": "",
+   "series": "Untitled series (Nov 2017)",
    "passage": "John 1:31",
    "refs": [
     {
@@ -25422,7 +25423,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2017-12-03",
-   "series": "",
+   "series": "Untitled series (Nov 2017)",
    "passage": "",
    "refs": [
     {
@@ -25599,7 +25600,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2017-10-22",
-   "series": "",
+   "series": "Untitled series (Sep 2017)",
    "passage": "",
    "refs": [
     {
@@ -25649,7 +25650,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2017-10-08",
-   "series": "",
+   "series": "Untitled series (Sep 2017)",
    "passage": "1 John 4:7-11",
    "refs": [
     {
@@ -25724,7 +25725,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2017-09-24",
-   "series": "",
+   "series": "Untitled series (Sep 2017)",
    "passage": "",
    "refs": [
     {
@@ -25901,7 +25902,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2017-08-13",
-   "series": "",
+   "series": "Ruth",
    "passage": "",
    "refs": [
     {
@@ -25954,7 +25955,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2017-08-06",
-   "series": "",
+   "series": "Ruth",
    "passage": "",
    "refs": [
     {
@@ -26007,7 +26008,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2017-07-30",
-   "series": "",
+   "series": "Ruth",
    "passage": "",
    "refs": [
     {
@@ -26060,7 +26061,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2017-07-23",
-   "series": "",
+   "series": "Ruth",
    "passage": "",
    "refs": [
     {
@@ -26113,7 +26114,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2017-07-16",
-   "series": "",
+   "series": "Ruth",
    "passage": "",
    "refs": [
     {
@@ -26166,7 +26167,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2017-07-09",
-   "series": "",
+   "series": "Ruth",
    "passage": "",
    "refs": [
     {
@@ -26245,7 +26246,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2017-06-25",
-   "series": "",
+   "series": "Untitled series (Apr 2017)",
    "passage": "",
    "refs": [
     {
@@ -26560,7 +26561,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2017-06-04",
-   "series": "",
+   "series": "Untitled series (Apr 2017)",
    "passage": "",
    "refs": [
     {
@@ -26584,7 +26585,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2017-05-28",
-   "series": "",
+   "series": "Untitled series (Apr 2017)",
    "passage": "",
    "refs": [
     {
@@ -26660,7 +26661,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2017-05-07",
-   "series": "",
+   "series": "Untitled series (Apr 2017)",
    "passage": "",
    "refs": [
     {
@@ -26791,7 +26792,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2017-04-09",
-   "series": "",
+   "series": "Untitled series (Jan 2017)",
    "passage": "",
    "refs": [
     {
@@ -26844,7 +26845,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2017-04-02",
-   "series": "",
+   "series": "Untitled series (Jan 2017)",
    "passage": "Luke 19:10",
    "refs": [
     {
@@ -26893,7 +26894,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2017-03-26",
-   "series": "",
+   "series": "Untitled series (Jan 2017)",
    "passage": "Matthew 7:7-11",
    "refs": [
     {
@@ -26942,7 +26943,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2017-03-19",
-   "series": "",
+   "series": "Untitled series (Jan 2017)",
    "passage": "Psalm 127",
    "refs": [
     {
@@ -26991,7 +26992,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2017-03-12",
-   "series": "",
+   "series": "Untitled series (Jan 2017)",
    "passage": "",
    "refs": [
     {
@@ -27049,7 +27050,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2017-03-05",
-   "series": "",
+   "series": "Untitled series (Jan 2017)",
    "passage": "Colossians 3:23",
    "refs": [
     {
@@ -27075,7 +27076,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2017-02-26",
-   "series": "",
+   "series": "Untitled series (Jan 2017)",
    "passage": "Matthew 22:37-40",
    "refs": [
     {
@@ -27098,7 +27099,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2017-02-19",
-   "series": "",
+   "series": "Untitled series (Jan 2017)",
    "passage": "",
    "refs": [
     {
@@ -27125,7 +27126,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2017-02-05",
-   "series": "",
+   "series": "Untitled series (Jan 2017)",
    "passage": "Romans 8:1",
    "refs": [
     {
@@ -27226,7 +27227,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2017-01-15",
-   "series": "",
+   "series": "Untitled series (Jan 2017)",
    "passage": "",
    "refs": [
     {
@@ -27303,7 +27304,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2016-12-24",
-   "series": "",
+   "series": "Untitled series (Nov 2016)",
    "passage": "Isaiah 9:6",
    "refs": [
     {
@@ -27326,7 +27327,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2016-12-18",
-   "series": "",
+   "series": "Untitled series (Nov 2016)",
    "passage": "Matthew 1:22-23",
    "refs": [
     {
@@ -27375,7 +27376,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2016-12-11",
-   "series": "",
+   "series": "Untitled series (Nov 2016)",
    "passage": "John 16:33",
    "refs": [
     {
@@ -27424,7 +27425,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2016-12-04",
-   "series": "",
+   "series": "Untitled series (Nov 2016)",
    "passage": "Romans 8:15",
    "refs": [
     {
@@ -27499,7 +27500,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2016-11-20",
-   "series": "",
+   "series": "Untitled series (Nov 2016)",
    "passage": "Isaiah 9:6",
    "refs": [
     {
@@ -27649,7 +27650,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2016-10-23",
-   "series": "",
+   "series": "Untitled series (Sep 2016)",
    "passage": "Luke 11:21",
    "refs": [
     {
@@ -27698,7 +27699,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2016-10-16",
-   "series": "",
+   "series": "Untitled series (Sep 2016)",
    "passage": "Exodus 15:3",
    "refs": [
     {
@@ -27799,7 +27800,7 @@
    "church": "eleven22",
    "speaker": "Teddy Roosevelt",
    "date": "2016-09-25",
-   "series": "",
+   "series": "Untitled series (Sep 2016)",
    "passage": "Romans 5:17",
    "refs": [
     {
@@ -27874,7 +27875,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2016-09-04",
-   "series": "",
+   "series": "Untitled series (Jul 2016)",
    "passage": "Philippians 2:1-5",
    "refs": [
     {
@@ -27923,7 +27924,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2016-08-21",
-   "series": "",
+   "series": "Untitled series (Jul 2016)",
    "passage": "John 15:13",
    "refs": [
     {
@@ -27946,7 +27947,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2016-08-07",
-   "series": "",
+   "series": "Untitled series (Jul 2016)",
    "passage": "Matthew 5:16",
    "refs": [
     {
@@ -27969,7 +27970,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2016-07-03",
-   "series": "",
+   "series": "Untitled series (Jun 2016)",
    "passage": "1 John 2:16-17",
    "refs": [
     {
@@ -28041,7 +28042,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2016-06-12",
-   "series": "",
+   "series": "Untitled series (Jun 2016)",
    "passage": "2 Corinthians 12:10",
    "refs": [
     {
@@ -28064,7 +28065,7 @@
    "church": "eleven22",
    "speaker": "Ryan Kwon",
    "date": "2016-05-29",
-   "series": "",
+   "series": "Untitled series (Mar 2016)",
    "passage": "John 16:33",
    "refs": [
     {
@@ -28087,7 +28088,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2016-05-22",
-   "series": "",
+   "series": "Untitled series (Mar 2016)",
    "passage": "2 Corinthians 5:17",
    "refs": [
     {
@@ -28110,7 +28111,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2016-05-15",
-   "series": "",
+   "series": "Untitled series (Mar 2016)",
    "passage": "Philippians 4:6-7",
    "refs": [
     {
@@ -28179,7 +28180,7 @@
    "church": "eleven22",
    "speaker": "Robert Morris",
    "date": "2016-05-01",
-   "series": "",
+   "series": "Untitled series (Mar 2016)",
    "passage": "Mark 9:24",
    "refs": [
     {
@@ -28225,7 +28226,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2016-04-24",
-   "series": "",
+   "series": "Untitled series (Mar 2016)",
    "passage": "",
    "refs": [
     {
@@ -28367,7 +28368,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2016-03-13",
-   "series": "",
+   "series": "Untitled series (Jan 2016)",
    "passage": "Proverbs 27:6",
    "refs": [
     {
@@ -28413,7 +28414,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2016-03-06",
-   "series": "",
+   "series": "Untitled series (Jan 2016)",
    "passage": "Romans 5:8",
    "refs": [
     {
@@ -28459,7 +28460,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2016-02-28",
-   "series": "",
+   "series": "Untitled series (Jan 2016)",
    "passage": "Romans 5:8",
    "refs": [
     {
@@ -28505,7 +28506,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2016-02-21",
-   "series": "",
+   "series": "Untitled series (Jan 2016)",
    "passage": "Acts 4:23-31",
    "refs": [
     {
@@ -28554,7 +28555,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2016-02-14",
-   "series": "",
+   "series": "Untitled series (Jan 2016)",
    "passage": "Matthew 6:24-25",
    "refs": [
     {
@@ -28600,7 +28601,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2016-02-07",
-   "series": "",
+   "series": "Untitled series (Jan 2016)",
    "passage": "1 Corinthians 1:25",
    "refs": [
     {
@@ -28649,7 +28650,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2016-01-24",
-   "series": "",
+   "series": "Untitled series (Jan 2016)",
    "passage": "Joshua 3:5",
    "refs": [
     {
@@ -28695,7 +28696,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2016-01-17",
-   "series": "",
+   "series": "Untitled series (Jan 2016)",
    "passage": "",
    "refs": [
     {
@@ -28719,7 +28720,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2016-01-10",
-   "series": "",
+   "series": "Untitled series (Jan 2016)",
    "passage": "John 15:4-10",
    "refs": [
     {
@@ -28765,7 +28766,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2015-12-27",
-   "series": "",
+   "series": "Untitled series (Nov 2015)",
    "passage": "Acts 15:19",
    "refs": [
     {
@@ -28788,7 +28789,7 @@
    "church": "eleven22",
    "speaker": "Tim Keller",
    "date": "2015-12-13",
-   "series": "",
+   "series": "Untitled series (Nov 2015)",
    "passage": "Philippians 2:5-8",
    "refs": [
     {
@@ -28839,7 +28840,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2015-12-06",
-   "series": "",
+   "series": "Untitled series (Nov 2015)",
    "passage": "Matthew 7:24-27",
    "refs": [
     {
@@ -28936,7 +28937,7 @@
    "church": "eleven22",
    "speaker": "Jim Elliot",
    "date": "2015-11-15",
-   "series": "",
+   "series": "Untitled series (Oct 2015)",
    "passage": "",
    "refs": [
     {
@@ -29029,7 +29030,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2015-10-25",
-   "series": "",
+   "series": "Untitled series (Oct 2015)",
    "passage": "Colossians 1:21-23",
    "refs": [
     {
@@ -29075,7 +29076,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2015-10-18",
-   "series": "",
+   "series": "Untitled series (Sep 2015)",
    "passage": "Deuteronomy 6:20",
    "refs": [
     {
@@ -29126,7 +29127,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2015-10-11",
-   "series": "",
+   "series": "Untitled series (Sep 2015)",
    "passage": "Deuteronomy 6:4-9",
    "refs": [
     {
@@ -29218,7 +29219,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2015-09-20",
-   "series": "",
+   "series": "Untitled series (Sep 2015)",
    "passage": "Galatians 4:6-7",
    "refs": [
     {
@@ -29264,7 +29265,7 @@
    "church": "eleven22",
    "speaker": "Matt Chandler",
    "date": "2015-09-13",
-   "series": "",
+   "series": "Untitled series (Sep 2015)",
    "passage": "Revelation 3:20",
    "refs": [
     {
@@ -29360,7 +29361,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2015-08-23",
-   "series": "",
+   "series": "Untitled series (Jul 2015)",
    "passage": "John 3:14-18",
    "refs": [
     {
@@ -29383,7 +29384,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2015-08-16",
-   "series": "",
+   "series": "Untitled series (Jul 2015)",
    "passage": "Ephesians 4:26-27",
    "refs": [
     {
@@ -29406,7 +29407,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2015-08-09",
-   "series": "",
+   "series": "Untitled series (Jul 2015)",
    "passage": "Matthew 28:17-20",
    "refs": [
     {
@@ -29429,7 +29430,7 @@
    "church": "eleven22",
    "speaker": "Daniel Akin",
    "date": "2015-06-28",
-   "series": "",
+   "series": "Untitled series (Apr 2015)",
    "passage": "Matthew 8:23-26",
    "refs": [
     {
@@ -29452,7 +29453,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2015-06-14",
-   "series": "",
+   "series": "Untitled series (Apr 2015)",
    "passage": "John 14:6",
    "refs": [
     {
@@ -29553,7 +29554,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2015-05-10",
-   "series": "",
+   "series": "Untitled series (Apr 2015)",
    "passage": "John 8:31-32",
    "refs": [
     {
@@ -29602,7 +29603,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2015-05-03",
-   "series": "",
+   "series": "Untitled series (Apr 2015)",
    "passage": "Galatians 5:6",
    "refs": [
     {
@@ -29677,7 +29678,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2015-04-19",
-   "series": "",
+   "series": "Untitled series (Apr 2015)",
    "passage": "Luke 23:32-33",
    "refs": [
     {
@@ -29726,7 +29727,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2015-04-12",
-   "series": "",
+   "series": "Untitled series (Apr 2015)",
    "passage": "Luke 19:10",
    "refs": [
     {
@@ -29829,7 +29830,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2015-03-29",
-   "series": "",
+   "series": "Untitled series (Mar 2015)",
    "passage": "",
    "refs": [
     {
@@ -29905,7 +29906,7 @@
    "church": "eleven22",
    "speaker": "His People",
    "date": "2015-03-15",
-   "series": "",
+   "series": "Untitled series (Mar 2015)",
    "passage": "Luke 9:30-31",
    "refs": [
     {
@@ -30081,7 +30082,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2015-01-25",
-   "series": "",
+   "series": "Untitled series (Jan 2015)",
    "passage": "Romans 8:31-37",
    "refs": [
     {
@@ -30104,7 +30105,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2015-01-18",
-   "series": "",
+   "series": "Untitled series (Jan 2015)",
    "passage": "John 1:29",
    "refs": [
     {
@@ -30153,7 +30154,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2015-01-11",
-   "series": "",
+   "series": "Untitled series (Jan 2015)",
    "passage": "",
    "refs": [
     {
@@ -30177,7 +30178,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2015-01-04",
-   "series": "",
+   "series": "Untitled series (Jan 2015)",
    "passage": "Matthew 10:29-32",
    "refs": [
     {
@@ -30249,7 +30250,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2014-12-14",
-   "series": "",
+   "series": "Untitled series (Nov 2014)",
    "passage": "Luke 19:10",
    "refs": [
     {
@@ -30298,7 +30299,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2014-12-07",
-   "series": "",
+   "series": "Untitled series (Nov 2014)",
    "passage": "Matthew 25:40",
    "refs": [
     {
@@ -30376,7 +30377,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2014-11-23",
-   "series": "",
+   "series": "Untitled series (Oct 2014)",
    "passage": "Matthew 18:33-35",
    "refs": [
     {
@@ -30476,7 +30477,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2014-11-02",
-   "series": "",
+   "series": "Untitled series (Oct 2014)",
    "passage": "Matthew 11",
    "refs": [
     {
@@ -30522,7 +30523,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2014-10-19",
-   "series": "",
+   "series": "Untitled series (Oct 2014)",
    "passage": "John 3:16-17",
    "refs": [
     {
@@ -30591,7 +30592,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2014-10-05",
-   "series": "",
+   "series": "Untitled series (Oct 2014)",
    "passage": "James 2:23",
    "refs": [
     {
@@ -30738,7 +30739,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2014-08-24",
-   "series": "",
+   "series": "Ephesians",
    "passage": "",
    "refs": [
     {
@@ -30754,7 +30755,7 @@
    "durationMin": 61,
    "refSource": "ai",
    "aiConfidence": 0.85,
-   "seriesKey": "wk-run 2014-07-27|2014-07",
+   "seriesKey": "wk-run 2014-07-06|2014-07",
    "study": [
     "ephesians"
    ]
@@ -30811,7 +30812,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2014-08-10",
-   "series": "",
+   "series": "Ephesians",
    "passage": "",
    "refs": [
     {
@@ -30827,7 +30828,7 @@
    "durationMin": 59,
    "refSource": "ai",
    "aiConfidence": 0.85,
-   "seriesKey": "wk-run 2014-07-27|2014-07",
+   "seriesKey": "wk-run 2014-07-06|2014-07",
    "study": [
     "ephesians"
    ]
@@ -30838,7 +30839,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2014-08-03",
-   "series": "",
+   "series": "Ephesians",
    "passage": "",
    "refs": [
     {
@@ -30854,7 +30855,7 @@
    "durationMin": 58,
    "refSource": "ai",
    "aiConfidence": 0.85,
-   "seriesKey": "wk-run 2014-07-27|2014-07",
+   "seriesKey": "wk-run 2014-07-06|2014-07",
    "study": [
     "ephesians"
    ]
@@ -30865,7 +30866,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2014-07-20",
-   "series": "",
+   "series": "Ephesians",
    "passage": "",
    "refs": [
     {
@@ -30892,7 +30893,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2014-07-13",
-   "series": "",
+   "series": "Ephesians",
    "passage": "",
    "refs": [
     {
@@ -30919,7 +30920,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2014-07-06",
-   "series": "",
+   "series": "Ephesians",
    "passage": "",
    "refs": [
     {
@@ -31098,7 +31099,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2014-05-04",
-   "series": "",
+   "series": "Untitled series (Apr 2014)",
    "passage": "Proverbs 31:30",
    "refs": [
     {
@@ -31147,7 +31148,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2014-04-27",
-   "series": "",
+   "series": "Untitled series (Apr 2014)",
    "passage": "1 Corinthians 16:13-14",
    "refs": [
     {
@@ -31320,7 +31321,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2014-03-02",
-   "series": "",
+   "series": "Acts",
    "passage": "",
    "refs": [
     {
@@ -31370,7 +31371,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2014-02-23",
-   "series": "",
+   "series": "Acts",
    "passage": "",
    "refs": [
     {
@@ -32078,7 +32079,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2013-06-30",
-   "series": "",
+   "series": "Acts",
    "passage": "",
    "refs": [
     {
@@ -32136,7 +32137,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2013-06-23",
-   "series": "",
+   "series": "Acts",
    "passage": "",
    "refs": [
     {
@@ -32189,7 +32190,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2013-06-16",
-   "series": "",
+   "series": "Acts",
    "passage": "",
    "refs": [
     {
@@ -32242,7 +32243,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2013-06-09",
-   "series": "",
+   "series": "Acts",
    "passage": "",
    "refs": [
     {
@@ -32269,7 +32270,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2013-06-02",
-   "series": "",
+   "series": "Acts",
    "passage": "",
    "refs": [
     {
@@ -32553,7 +32554,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2013-03-24",
-   "series": "",
+   "series": "Acts",
    "passage": "",
    "refs": [
     {
@@ -32611,7 +32612,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2013-03-17",
-   "series": "",
+   "series": "Acts",
    "passage": "",
    "refs": [
     {
@@ -32638,7 +32639,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2013-03-10",
-   "series": "",
+   "series": "Acts",
    "passage": "",
    "refs": [
     {
@@ -32691,7 +32692,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2013-03-03",
-   "series": "",
+   "series": "Acts",
    "passage": "",
    "refs": [
     {
@@ -32744,7 +32745,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2013-02-24",
-   "series": "",
+   "series": "Acts",
    "passage": "",
    "refs": [
     {
@@ -32797,7 +32798,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2013-02-17",
-   "series": "",
+   "series": "Acts",
    "passage": "Acts 10:28",
    "refs": [
     {
@@ -32849,7 +32850,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2013-02-10",
-   "series": "",
+   "series": "Acts",
    "passage": "Acts 10:1-8",
    "refs": [
     {
@@ -32875,7 +32876,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2013-02-03",
-   "series": "",
+   "series": "Acts",
    "passage": "Acts 9:32-43",
    "refs": [
     {
@@ -32927,7 +32928,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2013-01-27",
-   "series": "",
+   "series": "Acts",
    "passage": "",
    "refs": [
     {
@@ -32954,7 +32955,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2013-01-20",
-   "series": "",
+   "series": "Acts",
    "passage": "Acts 8:26-40",
    "refs": [
     {
@@ -33006,7 +33007,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2013-01-13",
-   "series": "",
+   "series": "Acts",
    "passage": "Acts 8:9-25",
    "refs": [
     {
@@ -33115,7 +33116,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2012-12-30",
-   "series": "",
+   "series": "Acts",
    "passage": "Acts 7:1-51",
    "refs": [
     {
@@ -33141,7 +33142,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2012-12-23",
-   "series": "",
+   "series": "Acts",
    "passage": "Acts 6:8-15",
    "refs": [
     {
@@ -33190,7 +33191,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2012-12-16",
-   "series": "",
+   "series": "Acts",
    "passage": "Acts 6:1-7",
    "refs": [
     {
@@ -33239,7 +33240,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2012-12-09",
-   "series": "",
+   "series": "Acts",
    "passage": "Acts 5:12-42",
    "refs": [
     {
@@ -33291,7 +33292,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2012-12-02",
-   "series": "",
+   "series": "Acts",
    "passage": "Acts 5:1-11",
    "refs": [
     {
@@ -33343,7 +33344,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2012-11-25",
-   "series": "",
+   "series": "Acts",
    "passage": "Acts 4:32-27",
    "refs": [
     {
@@ -33395,7 +33396,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2012-11-18",
-   "series": "",
+   "series": "Acts",
    "passage": "Acts 4:23-31",
    "refs": [
     {
@@ -33447,7 +33448,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2012-11-11",
-   "series": "",
+   "series": "Acts",
    "passage": "Acts 4:1-22",
    "refs": [
     {
@@ -33499,7 +33500,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2012-11-04",
-   "series": "",
+   "series": "Acts",
    "passage": "Acts 3:11-6",
    "refs": [
     {
@@ -33551,7 +33552,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2012-10-28",
-   "series": "",
+   "series": "Acts",
    "passage": "Acts 3:1",
    "refs": [
     {
@@ -33577,7 +33578,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2012-10-21",
-   "series": "",
+   "series": "Acts",
    "passage": "Acts 2:42-47",
    "refs": [
     {
@@ -33629,7 +33630,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2012-10-14",
-   "series": "",
+   "series": "Acts",
    "passage": "Acts 2:1-14",
    "refs": [
     {
@@ -33681,7 +33682,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2012-10-07",
-   "series": "",
+   "series": "Acts",
    "passage": "Acts 1:12-26",
    "refs": [
     {
@@ -33733,7 +33734,7 @@
    "church": "eleven22",
    "speaker": "",
    "date": "2012-09-30",
-   "series": "",
+   "series": "Acts",
    "passage": "Acts 1:8",
    "refs": [
     {

@@ -3571,7 +3571,7 @@
     "church": "bridgetown",
     "speaker": "",
     "date": "2023-12-30",
-    "series": "",
+    "series": "Luke",
     "passage": "Luke 2:4-7",
     "refs": [
       {
@@ -3595,7 +3595,7 @@
     "church": "bridgetown",
     "speaker": "",
     "date": "2023-12-17",
-    "series": "",
+    "series": "Luke",
     "passage": "Luke 2:25-32",
     "refs": [
       {
@@ -3643,7 +3643,7 @@
     "church": "bridgetown",
     "speaker": "",
     "date": "2023-12-05",
-    "series": "",
+    "series": "Luke",
     "passage": "Luke 2:1-20",
     "refs": [
       {
@@ -3852,7 +3852,7 @@
     "church": "bridgetown",
     "speaker": "",
     "date": "2023-10-04",
-    "series": "",
+    "series": "Untitled series (Sep 2023)",
     "passage": "Mark 10:28-31",
     "refs": [
       {
@@ -3875,7 +3875,7 @@
     "church": "bridgetown",
     "speaker": "",
     "date": "2023-09-26",
-    "series": "",
+    "series": "Untitled series (Sep 2023)",
     "passage": "Matthew 12:46-50",
     "refs": [
       {
@@ -4269,7 +4269,7 @@
     "source": "rss",
     "durationMin": 38,
     "refSource": "regex",
-    "seriesKey": "race justice|2023-06"
+    "seriesKey": "race and justice|2023-06"
   },
   {
     "id": "bridgetown-1c4t2I1kBNiupl9t0n1G2J",
@@ -4505,7 +4505,7 @@
     "source": "rss",
     "durationMin": 56,
     "refSource": "regex",
-    "seriesKey": "god the whole person soul mind body in his image|2023-02"
+    "seriesKey": "god and the whole person soul mind and body in his image|2023-02"
   },
   {
     "id": "bridgetown-3Nfdv6BrIdDGYuXGboFVKp",
@@ -4528,7 +4528,7 @@
     "source": "rss",
     "durationMin": 48,
     "refSource": "regex",
-    "seriesKey": "god the whole person soul mind body in his image|2023-02"
+    "seriesKey": "god and the whole person soul mind and body in his image|2023-02"
   },
   {
     "id": "bridgetown-5i8BzDVeSEfn8hEMCydtD1",
@@ -4551,7 +4551,7 @@
     "source": "rss",
     "durationMin": 56,
     "refSource": "regex",
-    "seriesKey": "god the whole person soul mind body in his image|2023-02"
+    "seriesKey": "god and the whole person soul mind and body in his image|2023-02"
   },
   {
     "id": "bridgetown-5LzvrcpgLiL7WY3EVXBkVj",
@@ -4574,7 +4574,7 @@
     "source": "rss",
     "durationMin": 58,
     "refSource": "regex",
-    "seriesKey": "god the whole person soul mind body in his image|2023-02"
+    "seriesKey": "god and the whole person soul mind and body in his image|2023-02"
   },
   {
     "id": "bridgetown-2QdFo3E1dG1ACLlxJYFHK0",
@@ -4597,7 +4597,7 @@
     "source": "rss",
     "durationMin": 47,
     "refSource": "regex",
-    "seriesKey": "god the whole person soul mind body in his image|2023-02"
+    "seriesKey": "god and the whole person soul mind and body in his image|2023-02"
   },
   {
     "id": "bridgetown-4KUiXwvn2fWOWOchGd8S8P",
@@ -4621,7 +4621,7 @@
     "source": "rss",
     "durationMin": 55,
     "refSource": "regex",
-    "seriesKey": "god the whole person soul mind body in his image|2023-02"
+    "seriesKey": "god and the whole person soul mind and body in his image|2023-02"
   },
   {
     "id": "bridgetown-2Kaq8lOV1QPMLvTIaXNhQI",
@@ -5443,7 +5443,7 @@
     "source": "rss",
     "durationMin": 50,
     "refSource": "regex",
-    "seriesKey": "the true false self|2022-06"
+    "seriesKey": "the true and false self|2022-04"
   },
   {
     "id": "bridgetown-1NKXlxgWqbZwCPQf8ryUmC",

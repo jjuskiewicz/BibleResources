@@ -169,6 +169,8 @@ uv run scraping/bp_guides.py             # 60 guide pages for 66 books -> scrapi
 
 - `--title-first` / `--series-prefix`: per-church title shapes (Eleven22 puts the title before the series; "Saturated ..." segments are the series).
 - `--strip` removes campus/location text from titles ("... - Ger Jones - Santa Monica, July 10th, 2022").
+- Untitled week runs ("Wk 5: Fear Not", Eleven22 before mid-2023) are linked by `series_links.py` and named so the site can group them: from the description ("our series through the book of Philippians", coe22.com/john), else the book most of the run is on, else "Untitled series (Mon YYYY)". A run with fewer than 2 sermons on the site keeps no name.
+- "Title - Series: Wk N" titles ("Running on Empty - Elijah: Wk 1") take the series from the segment before the week marker.
 - Book-series titles with no chapter ("John Pt 5: ...", "Acts: Loving a Broken City", "Hebrews Pt. 3 - ...") are tagged to the whole book and show under "Whole book" in the drawer.
 - Spotify's relative dates ("Wednesday", "Yesterday", "3 days ago") are resolved against `--scraped-on`.
 - `--scraped-on` matters: Spotify omits the year for current-year episodes ("Sep 28"), so the converter infers it from this date.

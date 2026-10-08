@@ -20,7 +20,7 @@ episode_id,status,date,series,title,speaker,minutes,passage,other_refs_in_desc,o
 4LueYjdyQnIw3boulvue2g,mapped,2026-06-21,Impossible to Possible,A Movement for All People,Joby Martin,55,Matthew 14:34-16:12,,,A Movement for All People - Impossible to Possible - Matthew S5E4,regex,,,,,,impossible to possible|2026-06,
 6oIpdARhHyqXWtgLUugWrK,mapped,2026-06-14,Impossible to Possible,"Feeding of the 5,000",Joby Martin,52,Matthew 14,,,"Feeding of the 5,000 - Impossible to Possible - Matthew S5E3",regex,,,,,,impossible to possible|2026-06,
 6U4G16rog0HTn9h8035Yfc,mapped,2026-06-07,Impossible to Possible,Death of John the Baptist,Joby Martin,48,Matthew 14,,,Death of John the Baptist - Impossible to Possible - Matthew S5E2,regex,,,,,,impossible to possible|2026-06,
-4U4lZkslQf9tALcRJFYbDh,mapped,2026-06-01,,A Prophet without Honor,Joby Martin,54,Matthew 13,,,A Prophet without Honor - Impossible to Possible: Matthew S5E1,regex,,,,,,,
+4U4lZkslQf9tALcRJFYbDh,mapped,2026-06-01,Impossible to Possible,A Prophet without Honor,Joby Martin,54,Matthew 13,,,A Prophet without Honor - Impossible to Possible: Matthew S5E1,regex,,,,,,impossible to possible|2026-06,
 4fCsSsjlgFQG7eDJk6FDQB,mapped,2026-05-25,Old to New,Mustard Seed Faith,Joby Martin,56,Matthew 13,,,Mustard Seed Faith - Old to New - Matthew S4E7,regex,,,,,,old to new|2026-04,
 47et0DyM2cDb9Qz0X0Bljp,mapped,2026-05-18,Old to New,Parable of Sower,Joby Martin,55,Matthew 13,,,Parable of Sower - Old to New - Matthew S4E6,regex,,,,,,old to new|2026-04,
 4PLrQ8wIRobvzAA6vjbAwv,mapped,2026-05-10,Old to New,Legalism Kills: Where’s Your Faith?,Joby Martin,57,Matthew 12,,yes,Legalism Kills: Where’s Your Faith? - Old to New - Matthew S4E4,regex,,,,,,old to new|2026-04,
@@ -42,41 +42,41 @@ episode_id,status,date,series,title,speaker,minutes,passage,other_refs_in_desc,o
 1ugo6P5Ta4sxVuLuHucbVl,mapped,2026-01-18,Heaven to Earth,Baptism of Jesus,Joby Martin,60,Matthew 3,,,Baptism of Jesus - Heaven to Earth - Matthew S1E2,regex,,,,,,heaven to earth|2026-01,
 3m3Q2jcwExyGjQlVx2AcNv,mapped,2026-01-11,Heaven to Earth,Vision Weekend,Joby Martin,57,Matthew 1-2,,,Vision Weekend - Heaven to Earth - Matthew S1E1,regex,,,,,,heaven to earth|2026-01,
 0yQijGbIWqLEchHc0jhvKu,mapped,2026-01-05,,The End,Stand Alone,43,Revelation 21,,,The End - Stand Alone,regex,,,,,,,
-6KcUtLf2zhjrjkAbwrMxSQ,mapped,2025-12-28,,Simeon,Adam Flynt,48,Luke 2,,,Simeon - Real Men of Christmas: Wk 5,regex,,,,,,wk-run 2025-12-07|2025-12,
-6v6WANFaXwzfxnFXu3jAJH,mapped,2025-12-28,,Jesus,Joby Martin,42,John 1,,,Jesus - Real Men of Christmas: Wk 4,regex,,,,,,wk-run 2025-12-28|2025-12,
-6AIc0rPB3A1vnywl4sDNSh,mapped,2025-12-21,,Magi,Joby Martin,54,Matthew 2:1-12,,,Magi - Real Men of Christmas: Wk 3,regex,,,,,,wk-run 2025-12-07|2025-12,
-2fYgnmhJGPNxtLWwos86jr,mapped,2025-12-14,,Shepherds,One Mokgatle,55,Luke 2:8-20,,,Shepherds - Real Men of Christmas: Wk 2,regex,,,,,,wk-run 2025-12-07|2025-12,
-3Or5QSOoiTX3qq8LReLeVW,mapped,2025-12-07,,Joseph,Ryan Britt,45,Matthew 1:18-25,,,Joseph - Real Men of Christmas: Wk 1,regex,,,,,,wk-run 2025-12-07|2025-12,
-47MYkYflDYWAvExUdddFaZ,mapped,2025-11-30,,Be A Godly Dad,Charles Martin,55,Romans 8:14-15,John 12:49-50,,Be A Godly Dad - Stand Firm and Act Like Men: Wk 7,regex,,,,,,wk-run 2025-10-19|2025-10,
-5Jb1ka9jmnIZjoXd92hbk7,mapped,2025-11-23,,Love Is...,Joby Martin,58,1 Corinthians 13,,,Love Is... - Stand Firm & Act Like Men: Wk 6,regex,,,,,,wk-run 2025-10-19|2025-10,
-38ar5JBNNun1CKuXPzL1O0,mapped,2025-11-18,,Be A Godly Husband,Matt Carter,52,Ephesians 5,,,Be A Godly Husband - Stand Firm & Act Like Men: Wk 5,regex,,,,,,wk-run 2025-10-19|2025-10,
-5Q4PZI26oQMB2khuN7L30F,mapped,2025-11-09,,Be Strong,Joby Martin,56,1 Corinthians 16:13-14,Matthew 20:17-28,,Be Strong - Stand Firm & Act Like Men: Wk 4,regex,,,,,,wk-run 2025-10-19|2025-10,
-7o8yNEIgg0nw3E4t9GotIg,mapped,2025-11-02,,Stand Firm,Joby Martin,59,1 Corinthians 16:13-14,Ephesians 6:10-20,,Stand Firm - Stand Firm & Act Like Men: Wk 3,regex,,,,,,wk-run 2025-10-19|2025-10,
-2ufbyKJUbT3Ro2ZIQiQeLQ,mapped,2025-10-26,,Be Watchful,Joby Martin,54,1 Corinthians 16:13-14,1 Peter 5:6-11,,Be Watchful - Stand Firm & Act Like Men: Wk 2,regex,,,,,,wk-run 2025-10-19|2025-10,
-5cdEDvDzoSKAVg9j2Sc6sI,mapped,2025-10-19,,Where Have All the Good Men Gone?,Joby Martin,58,1 Corinthians 16:13-14,Genesis 3:1-24,,Where Have All the Good Men Gone? - Stand Firm and Act Like Men: Wk 1,regex,,,,,,wk-run 2025-10-19|2025-10,
-4qsUOdnfdIa6R1XeulAz1I,mapped,2025-10-13,,Amazing Grace,Adam Flynt,45,1 Corinthians 1:1-10,,,Amazing Grace - Worship is War: Wk 5,regex,,,,,,wk-run 2025-09-14|2025-09,
-5gfuiKl5y3mcszWMLfvbDG,mapped,2025-10-05,,Come Thou Fount,Joby Martin Hymns Album,57,Romans 7,,,Come Thou Fount - Worship is War: Wk 4,regex,,,,,,wk-run 2025-09-14|2025-09,
-0wpLbt2nBsGoqumB815fuo,mapped,2025-09-28,,How Great Thou Art,Ryan Britt Hymns Album,46,Psalm 145,,,How Great Thou Art - Worship is War: Wk 3,regex,,,,,,wk-run 2025-09-14|2025-09,
-3ltCnwkaEKwWl8gVYeXC1O,mapped,2025-09-21,,It Is Well,Joby Martin,60,John 6,,,It Is Well - Worship is War: Wk 2,regex,,,,,,wk-run 2025-09-14|2025-09,
-2rznUhIRdANCM21AcfYkeA,mapped,2025-09-14,,Because He Lives,Joby Martin Saturated,42,Luke 10:17-20,Ezekiel 28:11-19; Isaiah 14:12-15; Luke 24:1-12,,Because He Lives - Worship is War: Wk 1,regex,,,,,,wk-run 2025-09-14|2025-09,
+6KcUtLf2zhjrjkAbwrMxSQ,mapped,2025-12-28,Real Men of Christmas,Simeon,Adam Flynt,48,Luke 2,,,Simeon - Real Men of Christmas: Wk 5,regex,,,,,,real men of christmas|2025-12,
+6v6WANFaXwzfxnFXu3jAJH,mapped,2025-12-28,Real Men of Christmas,Jesus,Joby Martin,42,John 1,,,Jesus - Real Men of Christmas: Wk 4,regex,,,,,,real men of christmas|2025-12,
+6AIc0rPB3A1vnywl4sDNSh,mapped,2025-12-21,Real Men of Christmas,Magi,Joby Martin,54,Matthew 2:1-12,,,Magi - Real Men of Christmas: Wk 3,regex,,,,,,real men of christmas|2025-12,
+2fYgnmhJGPNxtLWwos86jr,mapped,2025-12-14,Real Men of Christmas,Shepherds,One Mokgatle,55,Luke 2:8-20,,,Shepherds - Real Men of Christmas: Wk 2,regex,,,,,,real men of christmas|2025-12,
+3Or5QSOoiTX3qq8LReLeVW,mapped,2025-12-07,Real Men of Christmas,Joseph,Ryan Britt,45,Matthew 1:18-25,,,Joseph - Real Men of Christmas: Wk 1,regex,,,,,,real men of christmas|2025-12,
+47MYkYflDYWAvExUdddFaZ,mapped,2025-11-30,Stand Firm and Act Like Men,Be A Godly Dad,Charles Martin,55,Romans 8:14-15,John 12:49-50,,Be A Godly Dad - Stand Firm and Act Like Men: Wk 7,regex,,,,,,stand firm and act like men|2025-10,
+5Jb1ka9jmnIZjoXd92hbk7,mapped,2025-11-23,Stand Firm & Act Like Men,Love Is...,Joby Martin,58,1 Corinthians 13,,,Love Is... - Stand Firm & Act Like Men: Wk 6,regex,,,,,,stand firm and act like men|2025-10,
+38ar5JBNNun1CKuXPzL1O0,mapped,2025-11-18,Stand Firm & Act Like Men,Be A Godly Husband,Matt Carter,52,Ephesians 5,,,Be A Godly Husband - Stand Firm & Act Like Men: Wk 5,regex,,,,,,stand firm and act like men|2025-10,
+5Q4PZI26oQMB2khuN7L30F,mapped,2025-11-09,Stand Firm & Act Like Men,Be Strong,Joby Martin,56,1 Corinthians 16:13-14,Matthew 20:17-28,,Be Strong - Stand Firm & Act Like Men: Wk 4,regex,,,,,,stand firm and act like men|2025-10,
+7o8yNEIgg0nw3E4t9GotIg,mapped,2025-11-02,Stand Firm & Act Like Men,Stand Firm,Joby Martin,59,1 Corinthians 16:13-14,Ephesians 6:10-20,,Stand Firm - Stand Firm & Act Like Men: Wk 3,regex,,,,,,stand firm and act like men|2025-10,
+2ufbyKJUbT3Ro2ZIQiQeLQ,mapped,2025-10-26,Stand Firm & Act Like Men,Be Watchful,Joby Martin,54,1 Corinthians 16:13-14,1 Peter 5:6-11,,Be Watchful - Stand Firm & Act Like Men: Wk 2,regex,,,,,,stand firm and act like men|2025-10,
+5cdEDvDzoSKAVg9j2Sc6sI,mapped,2025-10-19,Stand Firm and Act Like Men,Where Have All the Good Men Gone?,Joby Martin,58,1 Corinthians 16:13-14,Genesis 3:1-24,,Where Have All the Good Men Gone? - Stand Firm and Act Like Men: Wk 1,regex,,,,,,stand firm and act like men|2025-10,
+4qsUOdnfdIa6R1XeulAz1I,mapped,2025-10-13,Worship is War,Amazing Grace,Adam Flynt,45,1 Corinthians 1:1-10,,,Amazing Grace - Worship is War: Wk 5,regex,,,,,,worship is war|2025-09,
+5gfuiKl5y3mcszWMLfvbDG,mapped,2025-10-05,Worship is War,Come Thou Fount,Joby Martin Hymns Album,57,Romans 7,,,Come Thou Fount - Worship is War: Wk 4,regex,,,,,,worship is war|2025-09,
+0wpLbt2nBsGoqumB815fuo,mapped,2025-09-28,Worship is War,How Great Thou Art,Ryan Britt Hymns Album,46,Psalm 145,,,How Great Thou Art - Worship is War: Wk 3,regex,,,,,,worship is war|2025-09,
+3ltCnwkaEKwWl8gVYeXC1O,mapped,2025-09-21,Worship is War,It Is Well,Joby Martin,60,John 6,,,It Is Well - Worship is War: Wk 2,regex,,,,,,worship is war|2025-09,
+2rznUhIRdANCM21AcfYkeA,mapped,2025-09-14,Worship is War,Because He Lives,Joby Martin Saturated,42,Luke 10:17-20,Ezekiel 28:11-19; Isaiah 14:12-15; Luke 24:1-12,,Because He Lives - Worship is War: Wk 1,regex,,,,,,worship is war|2025-09,
 5IVKEC8D9mxmM0iMCi6Luy,mapped,2025-09-14,Saturated,With God There is Always a Meanwhile,Lysa TerKeurst,58,,,,With God There is Always a Meanwhile - Saturated with Lysa TerKeurst,ai,book,0.95,genesis,Joseph's story in Genesis,1,saturated|2025-09,
 4CsUWYk0x7U0Xx7XE6ytVG,mapped,2025-09-13,Saturated,Consecrate Yourselves,Phil Hopper,54,,,,Consecrate Yourselves - Saturated with Phil Hopper,ai,book,0.9,joshua 3,"Consecrate yourselves at the Jordan, Joshua 3",1,saturated|2025-09,
 1s9pWyYnUdJRpo5b4I466i,mapped,2025-09-12,Saturated,The Lord’s Hand Was With Them,Jon Tyson,57,Acts 11:19-30,,,The Lord’s Hand Was With Them - Saturated with Jon Tyson,regex,,,,,,saturated|2025-09,
 04DipUtAkwkTvICVVHyt6t,mapped,2025-09-11,Saturated with Willie Robertson,Jesus Said “Go”,Willie Robertson,56,Matthew 28,Acts 18,,Jesus Said “Go” - Saturated with Willie Robertson,regex,,,,,,saturated with willie robertson|2025-09,
-3xTeWeZKmouzLykBSbuirt,mapped,2025-09-07,,Chariots of Fire,Joby Martin,57,1 Kings 19,2 Kings 2,,Chariots of Fire - Elijah: Wk 8,regex,,,,,,wk-run 2025-07-20|2025-07,
-2F5Iz9UXExiVRI26Vph8xZ,mapped,2025-08-31,,Still Small Voice,Matt Carter,51,1 Kings 19:8-13,Exodus 19:17-19,,Still Small Voice - Elijah: Wk 7,regex,,,,,,wk-run 2025-07-20|2025-07,
-5IlgvtJ6KZKsr3MWqWo0GD,mapped,2025-08-24,,Jesus and Your Mental Health,Joby Martin,52,1 Kings 19,Hebrews 4:15; Matthew 26:38; Ephesians 6:10-15; 2 Corinthians 10:3-5; Romans 12:2,,Jesus and Your Mental Health - Elijah: Wk 6,regex,,,,,,wk-run 2025-07-20|2025-07,
-7gjqa3oq0N0tHfKFj4N5OH,mapped,2025-08-17,,Fire Fall Down,Joby Martin,54,1 Kings 18,,,Fire Fall Down - Elijah: Wk 5,regex,,,,,,wk-run 2025-07-20|2025-07,
-4huI21MsdfCqcHLN3w5Jxm,mapped,2025-08-10,,What Kind of Man Are You?,Joby Martin,57,1 Kings 18,,,What Kind of Man Are You? - Elijah: Wk 4,regex,,,,,,wk-run 2025-07-20|2025-07,
-4QDz7cJXKsWj8KcRJHcIcg,mapped,2025-08-03,,I Believe. Help My Unbelief,Joby Martin,54,1 Kings 17,,,I Believe. Help My Unbelief - Elijah: Wk 3,regex,,,,,,wk-run 2025-07-20|2025-07,
-3Pm0NFFkGkCDxpIOkEKhK2,mapped,2025-07-27,,When God Says Go,Ryan Britt,43,1 Kings 17,,,When God Says Go - Elijah: Wk 2,regex,,,,,,wk-run 2025-07-20|2025-07,
-5bCZQEUaQS7Y6lT4PMF5Ao,mapped,2025-07-20,,Running on Empty,Joby Martin,58,,,,Running on Empty - Elijah: Wk 1,ai,book,0.85,1-kings 17,"Elijah's entrance, 1 Kings 17",1,wk-run 2025-07-20|2025-07,
-6EI0DN1wu88QVlg0rDzXPO,mapped,2025-07-13,,Jesus Clears the Temple,Joby Martin,55,John 2,,,Jesus Clears the Temple - In The Arena: Wk 6,regex,,,,,,wk-run 2025-06-08|2025-06,
-1zuXceqYQS7meM70zBkcrv,mapped,2025-07-06,,Passover,Joby Martin,52,,,,Passover - In The Arena: Wk 5,ai,book,0.9,exodus 12,Passover story,1,wk-run 2025-06-08|2025-06,
-6IoIkOwYHS4q04X2be4oa0,mapped,2025-06-29,,Jacob Wrestles God,Joby Martin,54,Genesis 25,,,Jacob Wrestles God - In The Arena: Wk 4,regex,,,,,,wk-run 2025-06-08|2025-06,
-4PP35VHi4nHYKs1Do6xImr,mapped,2025-06-23,,David Fights Goliath,Joby Martin,50,1 Samuel 17,,,David Fights Goliath - In The Arena: Wk 3,regex,,,,,,wk-run 2025-06-08|2025-06,
-0ZP4SkL34r0ga9cKrgJggD,mapped,2025-06-15,,Fighting with No Power,Joby Martin,54,Acts 19,,,Fighting with No Power - In The Arena: Wk 2,regex,,,,,,wk-run 2025-06-08|2025-06,
-722WRVT6CJ9wS2FyLiAg3D,mapped,2025-06-08,,Jesus Defeats Death at the Cross and Resurrection,Joby Martin Season,49,1 Corinthians 15,,,Jesus Defeats Death at the Cross and Resurrection - In The Arena: Wk 1,regex,,,,,,wk-run 2025-06-08|2025-06,
+3xTeWeZKmouzLykBSbuirt,mapped,2025-09-07,Elijah,Chariots of Fire,Joby Martin,57,1 Kings 19,2 Kings 2,,Chariots of Fire - Elijah: Wk 8,regex,,,,,,elijah|2025-07,
+2F5Iz9UXExiVRI26Vph8xZ,mapped,2025-08-31,Elijah,Still Small Voice,Matt Carter,51,1 Kings 19:8-13,Exodus 19:17-19,,Still Small Voice - Elijah: Wk 7,regex,,,,,,elijah|2025-07,
+5IlgvtJ6KZKsr3MWqWo0GD,mapped,2025-08-24,Elijah,Jesus and Your Mental Health,Joby Martin,52,1 Kings 19,Hebrews 4:15; Matthew 26:38; Ephesians 6:10-15; 2 Corinthians 10:3-5; Romans 12:2,,Jesus and Your Mental Health - Elijah: Wk 6,regex,,,,,,elijah|2025-07,
+7gjqa3oq0N0tHfKFj4N5OH,mapped,2025-08-17,Elijah,Fire Fall Down,Joby Martin,54,1 Kings 18,,,Fire Fall Down - Elijah: Wk 5,regex,,,,,,elijah|2025-07,
+4huI21MsdfCqcHLN3w5Jxm,mapped,2025-08-10,Elijah,What Kind of Man Are You?,Joby Martin,57,1 Kings 18,,,What Kind of Man Are You? - Elijah: Wk 4,regex,,,,,,elijah|2025-07,
+4QDz7cJXKsWj8KcRJHcIcg,mapped,2025-08-03,Elijah,I Believe. Help My Unbelief,Joby Martin,54,1 Kings 17,,,I Believe. Help My Unbelief - Elijah: Wk 3,regex,,,,,,elijah|2025-07,
+3Pm0NFFkGkCDxpIOkEKhK2,mapped,2025-07-27,Elijah,When God Says Go,Ryan Britt,43,1 Kings 17,,,When God Says Go - Elijah: Wk 2,regex,,,,,,elijah|2025-07,
+5bCZQEUaQS7Y6lT4PMF5Ao,mapped,2025-07-20,Elijah,Running on Empty,Joby Martin,58,,,,Running on Empty - Elijah: Wk 1,ai,book,0.85,1-kings 17,"Elijah's entrance, 1 Kings 17",1,elijah|2025-07,
+6EI0DN1wu88QVlg0rDzXPO,mapped,2025-07-13,In The Arena,Jesus Clears the Temple,Joby Martin,55,John 2,,,Jesus Clears the Temple - In The Arena: Wk 6,regex,,,,,,in the arena|2025-06,
+1zuXceqYQS7meM70zBkcrv,mapped,2025-07-06,In The Arena,Passover,Joby Martin,52,,,,Passover - In The Arena: Wk 5,ai,book,0.9,exodus 12,Passover story,1,in the arena|2025-06,
+6IoIkOwYHS4q04X2be4oa0,mapped,2025-06-29,In The Arena,Jacob Wrestles God,Joby Martin,54,Genesis 25,,,Jacob Wrestles God - In The Arena: Wk 4,regex,,,,,,in the arena|2025-06,
+4PP35VHi4nHYKs1Do6xImr,mapped,2025-06-23,In The Arena,David Fights Goliath,Joby Martin,50,1 Samuel 17,,,David Fights Goliath - In The Arena: Wk 3,regex,,,,,,in the arena|2025-06,
+0ZP4SkL34r0ga9cKrgJggD,mapped,2025-06-15,In The Arena,Fighting with No Power,Joby Martin,54,Acts 19,,,Fighting with No Power - In The Arena: Wk 2,regex,,,,,,in the arena|2025-06,
+722WRVT6CJ9wS2FyLiAg3D,mapped,2025-06-08,In The Arena,Jesus Defeats Death at the Cross and Resurrection,Joby Martin Season,49,1 Corinthians 15,,,Jesus Defeats Death at the Cross and Resurrection - In The Arena: Wk 1,regex,,,,,,in the arena|2025-06,
 6pGhidh9DZErPjhTQRbas3,mapped,2025-06-01,Follow Me,A Disciple Deepens in Their Faith,Joby Martin,56,John 15,,,A Disciple Deepens in Their Faith - Follow Me - Wk 6,regex,,,,,,follow me|2025-04,
 5zeiPfnUiEDFdSC2xzZq2f,unmapped,2025-05-25,Follow Me,A Disciple Deepens Within the Faith Family,Joby Martin,51,,,,A Disciple Deepens Within the Faith Family - Follow Me - Wk 5,,unknown,0.5,,"Faith family, text not given.",2,follow me|2025-04,
 3y7IqhAySVsK4rxQDVLRjC,mapped,2025-05-19,Follow Me,A Disciple Discovers Salvation in Christ,Joby Martin,55,John 3,,,A Disciple Discovers Salvation in Christ - Follow Me - Wk 4,regex,,,,,,follow me|2025-04,
@@ -158,46 +158,46 @@ saturated-thursday-pastor-matt-chandler,mapped,2024-09-13,,Saturated Thursday,Ma
 7rLKCW7CiRwfpW9V1aaaed,unmapped,2024-01-07,Eternal Life,The Church of Eleven22’s 2024 Vision,Joby Martin,56,,,,Eternal Life - The Church of Eleven22’s 2024 Vision,,topical,0.85,,Annual vision message.,2,eternal life|2024-01,
 31IWS1NUbtTqXvDMfj4AXb,unmapped,2023-12-31,Unwrapping Christmas,The Word of God,Joby Martin,49,,,,The Word of God: Unwrapping Christmas - Wk 5,,topical,0.45,,"Sermon on reading the Word, no single text evident",2,unwrapping christmas|2023-12,
 38weqWkGQluxa5XFQm1aOa,mapped,2023-12-24,Unwrapping Christmas,Christmas from the Manger,Joby Martin,36,Luke 2:10-11,,,Christmas from the Manger: Unwrapping Christmas - Wk 4,regex,,,,,,unwrapping christmas|2023-12,
-3737NZrgQANtP6Lhiv4aLv,mapped,2023-12-17,,Christmas from the East,Joby Martin,51,Matthew 1:21,,,Christmas from the East - Unwrapping Christmas: Wk. 3,regex,,,,,,wk-run 2023-12-04|2023-12,
-33AOneAAbDxMVPEySeplQn,unmapped,2023-12-10,,Christmas from the Heavenlies,Joby Martin,56,,,,Christmas from the Heavenlies - Unwrapping Christmas: Wk 2,,topical,0.45,,Advent theme about spiritual war; text unclear (Rev 12/Luke 2).,2,wk-run 2023-12-04|2023-12,
-3dUPeFmohfvxrrFJqx9shO,unmapped,2023-12-04,,Christmas from Eternity,Joby Martin,58,,,,Christmas from Eternity - Unwrapping Christmas Wk. 1,,book,0.5,john 1,Christmas from eternity; son of God became man suggests John 1.,2,wk-run 2023-12-04|2023-12,
-0HdrIt1arO8O73weqvxdz4,mapped,2023-11-26,,A Discussion on Discipleship and Mental & Emotional Health,Joby Martin,52,1 John 5:5,,,A Discussion on Discipleship and Mental & Emotional Health - It Doesn’t Make Sense Wk. 3,regex,,,,,,wk-run 2023-11-12|2023-11,
-3ACBhGQZX0wQd3H2Fmeo1X,unmapped,2023-11-19,,Healthy is Hard Work,Joby Martin,46,,,,Healthy is Hard Work - It Doesn’t Make Sense Wk. 2,,topical,0.8,,Mental health topical series.,2,wk-run 2023-11-12|2023-11,
-2Y1vgSono4Alx6FJo4QaWe,unmapped,2023-11-12,,Jesus and Your Mental Health,,56,,,,Jesus and Your Mental Health - It Doesn’t Make Sense Wk. 1,,topical,0.85,,Mental health topical series.,2,wk-run 2023-11-12|2023-11,
-1HkPMyRBmxsJBRlH7vOxY7,mapped,2023-11-05,,Abundant Treasure,,63,John 10:10,,,Abundant Treasure - Live Abundantly: Wk 5,regex,,,,,,wk-run 2023-10-09|2023-10,
-38JJnZYXZbsKKCU6E4p0lN,mapped,2023-10-29,,Abundant Work,,58,John 10:10,,,Abundant Work - Live Abundantly: Wk 4,regex,,,,,,wk-run 2023-10-09|2023-10,
-1qaj8WkUE8957Km7amH68r,unmapped,2023-10-22,,Abundant Friendship,,45,,,,Abundant Friendship - Live Abundantly: Wk 3,,book,0.45,john 15,"Jesus as friend, John 15:13-15, within abundant-life series.",2,wk-run 2023-10-09|2023-10,
-2ZIYYyjvYMJZN7Aa66hxpZ,mapped,2023-10-15,,Abundant Marriage,,60,1 Corinthians 6:18,,,Abundant Marriage - Live Abundantly: Wk 2,regex,,,,,,wk-run 2023-10-09|2023-10,
-6aF9S015QwpTz7Q2iykCWQ,unmapped,2023-10-09,,Wisdom for the Abundant Life,,53,,,,Wisdom for the Abundant Life - Live Abundantly: Wk. 1,,book,0.55,john 10,Series built on John 10 Good Shepherd/abundant life.,2,wk-run 2023-10-09|2023-10,
+3737NZrgQANtP6Lhiv4aLv,mapped,2023-12-17,Unwrapping Christmas,Christmas from the East,Joby Martin,51,Matthew 1:21,,,Christmas from the East - Unwrapping Christmas: Wk. 3,regex,,,,,,unwrapping christmas|2023-12,
+33AOneAAbDxMVPEySeplQn,unmapped,2023-12-10,Unwrapping Christmas,Christmas from the Heavenlies,Joby Martin,56,,,,Christmas from the Heavenlies - Unwrapping Christmas: Wk 2,,topical,0.45,,Advent theme about spiritual war; text unclear (Rev 12/Luke 2).,2,unwrapping christmas|2023-12,
+3dUPeFmohfvxrrFJqx9shO,unmapped,2023-12-04,Unwrapping Christmas,Christmas from Eternity,Joby Martin,58,,,,Christmas from Eternity - Unwrapping Christmas Wk. 1,,book,0.5,john 1,Christmas from eternity; son of God became man suggests John 1.,2,unwrapping christmas|2023-12,
+0HdrIt1arO8O73weqvxdz4,mapped,2023-11-26,It Doesn’t Make Sense,A Discussion on Discipleship and Mental & Emotional Health,Joby Martin,52,1 John 5:5,,,A Discussion on Discipleship and Mental & Emotional Health - It Doesn’t Make Sense Wk. 3,regex,,,,,,it doesn t make sense|2023-11,
+3ACBhGQZX0wQd3H2Fmeo1X,unmapped,2023-11-19,It Doesn’t Make Sense,Healthy is Hard Work,Joby Martin,46,,,,Healthy is Hard Work - It Doesn’t Make Sense Wk. 2,,topical,0.8,,Mental health topical series.,2,it doesn t make sense|2023-11,
+2Y1vgSono4Alx6FJo4QaWe,unmapped,2023-11-12,It Doesn’t Make Sense,Jesus and Your Mental Health,,56,,,,Jesus and Your Mental Health - It Doesn’t Make Sense Wk. 1,,topical,0.85,,Mental health topical series.,2,it doesn t make sense|2023-11,
+1HkPMyRBmxsJBRlH7vOxY7,mapped,2023-11-05,Live Abundantly,Abundant Treasure,,63,John 10:10,,,Abundant Treasure - Live Abundantly: Wk 5,regex,,,,,,live abundantly|2023-10,
+38JJnZYXZbsKKCU6E4p0lN,mapped,2023-10-29,Live Abundantly,Abundant Work,,58,John 10:10,,,Abundant Work - Live Abundantly: Wk 4,regex,,,,,,live abundantly|2023-10,
+1qaj8WkUE8957Km7amH68r,unmapped,2023-10-22,Live Abundantly,Abundant Friendship,,45,,,,Abundant Friendship - Live Abundantly: Wk 3,,book,0.45,john 15,"Jesus as friend, John 15:13-15, within abundant-life series.",2,live abundantly|2023-10,
+2ZIYYyjvYMJZN7Aa66hxpZ,mapped,2023-10-15,Live Abundantly,Abundant Marriage,,60,1 Corinthians 6:18,,,Abundant Marriage - Live Abundantly: Wk 2,regex,,,,,,live abundantly|2023-10,
+6aF9S015QwpTz7Q2iykCWQ,unmapped,2023-10-09,Live Abundantly,Wisdom for the Abundant Life,,53,,,,Wisdom for the Abundant Life - Live Abundantly: Wk. 1,,book,0.55,john 10,Series built on John 10 Good Shepherd/abundant life.,2,live abundantly|2023-10,
 7yI0683Zm47Jur4tM9BTYJ,mapped,2023-10-02,,Husband and Wife,,59,Ephesians 5:21-24,,,Wk 3: Husband and Wife,regex,,,,,,wk-run 2023-09-17|2023-09,
 78jtMknki5T6vMUaoz57cB,mapped,2023-09-24,,Parenting,,52,Exodus 2:11-15,,,Wk 2: Parenting,regex,,,,,,wk-run 2023-09-17|2023-09,
 6vV4rdt1teJL0gihUS0Qbc,unmapped,2023-09-17,,Singleness and Dating,,47,,,,Wk 1 - Singleness and Dating,,topical,0.75,,Topical series on singleness/dating/family.,2,wk-run 2023-09-17|2023-09,
-57APJMnvsUYNzyJEaKV7TD,mapped,2023-09-10,,Prayer and Anointing,Joby Martin,46,,,yes,Wk 14: Saturated Sunday - Prayer and Anointing,ai,book,0.9,james 5,Description quotes James 5:13-18,1,wk-run 2023-08-13|2023-08,
+57APJMnvsUYNzyJEaKV7TD,mapped,2023-09-10,,Prayer and Anointing,Joby Martin,46,,,yes,Wk 14: Saturated Sunday - Prayer and Anointing,ai,book,0.9,james 5,Description quotes James 5:13-18,1,wk-run 2023-06-11|2023-06,
 14wCIL7eJdW62uVMy6U7dV,unmapped,2023-09-09,Saturated 2023,Friday: J.D. Greear,Joby Martin,53,,,,Saturated 2023 - Friday: J.D. Greear,,topical,0.55,,Conference main-session talk,2,saturated 2023|2023-09,
 2aMcvr7OiIB7HAVP73M2OC,unmapped,2023-09-08,Saturated 2023,Thursday,Bryan Loritts,45,,,,Saturated 2023 - Thursday: Pastor Bryan Loritts,,topical,0.55,,Conference main-session talk,2,saturated 2023|2023-09,
 0EJRMNJL6N26STax2Rrzvp,unmapped,2023-09-07,Saturated 2023,Wednesday,Matt Carter,59,,,,Saturated 2023 - Wednesday: Pastor Matt Carter,,topical,0.55,,Conference main-session talk,2,saturated 2023|2023-09,
-0FcqlROmaTu12U68jghbFa,mapped,2023-09-03,,Money Mismanagement,,49,James 5:1-6,,,Week 13: Money Mismanagement,regex,,,,,,wk-run 2023-08-13|2023-08,
-6Ie3UZKW9Mh3giiJLX5RnF,mapped,2023-08-28,,Don’t Waste Your Life,,57,,,,Week 12: Don’t Waste Your Life,series,book,0.7,james 4,"Don't waste life, James 4:13-17",1,wk-run 2023-08-13|2023-08,wk-run 2023-08-13 (wk-run 2023-08-13|2023-08): james 3.2/3.2 votes
-week-11-choose-who-you-ll-serve,mapped,2023-08-20,,Choose Who You’ll Serve,,56,,,,Week 11: Choose Who You’ll Serve,series,book,0.8,james 4,"Draw near to God, James 4:7-10",1,wk-run 2023-08-13|2023-08,wk-run 2023-08-13 (wk-run 2023-08-13|2023-08): james 3.2/3.2 votes
+0FcqlROmaTu12U68jghbFa,mapped,2023-09-03,,Money Mismanagement,,49,James 5:1-6,,,Week 13: Money Mismanagement,regex,,,,,,wk-run 2023-06-11|2023-06,
+6Ie3UZKW9Mh3giiJLX5RnF,mapped,2023-08-28,,Don’t Waste Your Life,,57,,,,Week 12: Don’t Waste Your Life,series,book,0.7,james 4,"Don't waste life, James 4:13-17",1,wk-run 2023-06-11|2023-06,James (wk-run 2023-06-11|2023-06): james 8.8/8.8 votes
+week-11-choose-who-you-ll-serve,mapped,2023-08-20,,Choose Who You’ll Serve,,56,,,,Week 11: Choose Who You’ll Serve,series,book,0.8,james 4,"Draw near to God, James 4:7-10",1,wk-run 2023-06-11|2023-06,James (wk-run 2023-06-11|2023-06): james 8.8/8.8 votes
 162hdc4tJhuRRFVjJrmMEP,mapped,2023-08-13,,How to Win a Fight,,50,,,,Week 10: How to Win a Fight,ai,book,0.85,james 4,"Fights from desires, James 4:1-3",1,wk-run 2023-06-11|2023-06,
-0TLACZ8MW61bUjqvObFHa2,mapped,2023-08-13,,Comparison Trap,,54,,,,Week 9: Comparison Trap,series,book,0.5,james 4,"Week 9 of James series; comparison, likely James 4",1,wk-run 2023-08-13|2023-08,wk-run 2023-08-13 (wk-run 2023-08-13|2023-08): james 3.2/3.2 votes
+0TLACZ8MW61bUjqvObFHa2,mapped,2023-08-13,,Comparison Trap,,54,,,,Week 9: Comparison Trap,series,book,0.5,james 4,"Week 9 of James series; comparison, likely James 4",1,wk-run 2023-06-11|2023-06,James (wk-run 2023-06-11|2023-06): james 8.8/8.8 votes
 72kB9RJu7h11AMPBlnfSlM,mapped,2023-07-30,,Tame the Tongue,,56,,,,Week 8: Tame the Tongue,ai,book,0.92,james 3,"Tame the tongue, James 3",1,wk-run 2023-06-11|2023-06,
 2L2CfaFrh7NKZx0ZrU0RfK,mapped,2023-07-23,,Faith Works,,55,,,,Week 7: Faith Works,ai,book,0.9,james 2,"Faith works, James 2:14-26",1,wk-run 2023-06-11|2023-06,
 7lMzIXkgzvKXyBDFneoDU4,mapped,2023-07-16,,No Partiality,,43,,,,Week 6: No Partiality,ai,book,0.85,james 2,"No partiality, James 2:1-13",1,wk-run 2023-06-11|2023-06,
-5KHhq8kHRxSs8zbnQvCH9b,mapped,2023-07-09,,Compassion,,56,,,,Week 5: Compassion,series,book,0.7,james 2,"Compassion, James 2 / 1:27 in James series",1,wk-run 2023-06-11|2023-06,wk-run 2023-06-11 (wk-run 2023-06-11|2023-06): james 5.5/5.5 votes
+5KHhq8kHRxSs8zbnQvCH9b,mapped,2023-07-09,,Compassion,,56,,,,Week 5: Compassion,series,book,0.7,james 2,"Compassion, James 2 / 1:27 in James series",1,wk-run 2023-06-11|2023-06,James (wk-run 2023-06-11|2023-06): james 8.8/8.8 votes
 4toIIMJVqKQrTw4PX0lHZn,mapped,2023-07-02,,Be Doers of the Word,,57,,,,Week 4: Be Doers of the Word,ai,book,0.85,james 1,"Be doers of the Word, James 1:22",1,wk-run 2023-06-11|2023-06,
-2GZJHyewDIzYf2H55B7hBT,mapped,2023-06-25,,Anger,,59,,,,Week 3: Anger,series,book,0.75,james 1,"Anger, James 1:19-20",1,wk-run 2023-06-11|2023-06,wk-run 2023-06-11 (wk-run 2023-06-11|2023-06): james 5.5/5.5 votes
-43v8q6JkyDbVsC4hYBaeNb,mapped,2023-06-18,,Temptation: Life or Death,,39,,,,Week 2: Temptation: Life or Death,series,book,0.75,james 1,"Temptation, James 1:12-18",1,wk-run 2023-06-11|2023-06,wk-run 2023-06-11 (wk-run 2023-06-11|2023-06): james 5.5/5.5 votes
-3ttgkVuBGnxf4RBK29zQDJ,mapped,2023-06-11,,Trials,,51,,,,Week 1: Trials,series,book,0.75,james 1,Trials week 1 of apparent James series,1,wk-run 2023-06-11|2023-06,wk-run 2023-06-11 (wk-run 2023-06-11|2023-06): james 5.5/5.5 votes
-2hJ2Kjj67NGyVraYs6aV8c,mapped,2023-06-04,,Holy Spirit,,59,,,,Wk 9: Holy Spirit,series,book,0.65,john 14,"Holy Spirit, peace and trouble: John 14-16.",2,wk-run 2023-04-16|2023-04,wk-run 2023-04-16 (wk-run 2023-04-16|2023-04): john 5.5/6.2 votes
-0bWn4LouIjieroxugSKvqx,mapped,2023-05-28,,Healing in His Wings,,56,,,,Wk 8: Healing in His Wings,series,book,0.55,malachi 4,"Healing in His wings is Mal 4:2, though series is John.",2,wk-run 2023-04-16|2023-04,wk-run 2023-04-16 (wk-run 2023-04-16|2023-04): john 5.5/6.2 votes
-5fKn6lTAWXAOil1FJiVlDC,mapped,2023-05-21,,Mary Anoints Jesus’ Feet,,58,,,,Wk 7: Mary Anoints Jesus’ Feet,ai,book,0.92,john 12,"Mary anoints Jesus' feet, John 12.",2,wk-run 2023-04-16|2023-04,
-3dTuRZDJpNnfjc80oyxjus,mapped,2023-05-14,,Lazarus,,54,,,,Wk 6: Lazarus,ai,book,0.92,john 11,"Lazarus, John 11",1,wk-run 2023-04-16|2023-04,
-1UVlY8vBnJ0yPwEqsnRIac,mapped,2023-05-07,,Do You Believe Even When Doubts Creep In?,,58,John 6:68,,,Wk 5: Do You Believe Even When Doubts Creep In?,regex,,,,,,wk-run 2023-04-16|2023-04,
-3ZgL6IZ0JXK6vLOaQ4NXcB,mapped,2023-04-30,,Pool of Bethesda,,55,,,,Wk 4: Pool of Bethesda,ai,book,0.92,john 5,"Pool of Bethesda, John 5",1,wk-run 2023-04-16|2023-04,
-1x3eqjEEUFUimLswEjm40F,mapped,2023-04-23,,Tear off the Roof,,58,,,,Wk 3: Tear off the Roof,series,book,0.6,mark 2,Tear off the roof is the paralytic (Mark 2/Luke 5) though series is John.,2,wk-run 2023-04-16|2023-04,wk-run 2023-04-16 (wk-run 2023-04-16|2023-04): john 5.5/6.2 votes
-34c9WPXSI60hRKfOVd7bqZ,mapped,2023-04-16,,Water to Wine,,54,,,,Wk 2: Water to Wine,ai,book,0.9,john 2,"Water to wine, John 2",1,wk-run 2023-04-16|2023-04,
-3WUxeZQf6MexmFP3rPdRWt,mapped,2023-04-09,Wk 1: Resurrection,Easter 2023,,58,,,,Wk 1: Resurrection | Easter 2023,ai,book,0.9,john 20,Description quotes John 20:31,1,wk 1 resurrection|2023-04,
+2GZJHyewDIzYf2H55B7hBT,mapped,2023-06-25,,Anger,,59,,,,Week 3: Anger,series,book,0.75,james 1,"Anger, James 1:19-20",1,wk-run 2023-06-11|2023-06,James (wk-run 2023-06-11|2023-06): james 8.8/8.8 votes
+43v8q6JkyDbVsC4hYBaeNb,mapped,2023-06-18,,Temptation: Life or Death,,39,,,,Week 2: Temptation: Life or Death,series,book,0.75,james 1,"Temptation, James 1:12-18",1,wk-run 2023-06-11|2023-06,James (wk-run 2023-06-11|2023-06): james 8.8/8.8 votes
+3ttgkVuBGnxf4RBK29zQDJ,mapped,2023-06-11,,Trials,,51,,,,Week 1: Trials,series,book,0.75,james 1,Trials week 1 of apparent James series,1,wk-run 2023-06-11|2023-06,James (wk-run 2023-06-11|2023-06): james 8.8/8.8 votes
+2hJ2Kjj67NGyVraYs6aV8c,mapped,2023-06-04,,Holy Spirit,,59,,,,Wk 9: Holy Spirit,series,book,0.65,john 14,"Holy Spirit, peace and trouble: John 14-16.",2,wk-run 2023-04-09|2023-04,John (wk-run 2023-04-09|2023-04): john 6.5/7.2 votes
+0bWn4LouIjieroxugSKvqx,mapped,2023-05-28,,Healing in His Wings,,56,,,,Wk 8: Healing in His Wings,series,book,0.55,malachi 4,"Healing in His wings is Mal 4:2, though series is John.",2,wk-run 2023-04-09|2023-04,John (wk-run 2023-04-09|2023-04): john 6.5/7.2 votes
+5fKn6lTAWXAOil1FJiVlDC,mapped,2023-05-21,,Mary Anoints Jesus’ Feet,,58,,,,Wk 7: Mary Anoints Jesus’ Feet,ai,book,0.92,john 12,"Mary anoints Jesus' feet, John 12.",2,wk-run 2023-04-09|2023-04,
+3dTuRZDJpNnfjc80oyxjus,mapped,2023-05-14,,Lazarus,,54,,,,Wk 6: Lazarus,ai,book,0.92,john 11,"Lazarus, John 11",1,wk-run 2023-04-09|2023-04,
+1UVlY8vBnJ0yPwEqsnRIac,mapped,2023-05-07,,Do You Believe Even When Doubts Creep In?,,58,John 6:68,,,Wk 5: Do You Believe Even When Doubts Creep In?,regex,,,,,,wk-run 2023-04-09|2023-04,
+3ZgL6IZ0JXK6vLOaQ4NXcB,mapped,2023-04-30,,Pool of Bethesda,,55,,,,Wk 4: Pool of Bethesda,ai,book,0.92,john 5,"Pool of Bethesda, John 5",1,wk-run 2023-04-09|2023-04,
+1x3eqjEEUFUimLswEjm40F,mapped,2023-04-23,,Tear off the Roof,,58,,,,Wk 3: Tear off the Roof,series,book,0.6,mark 2,Tear off the roof is the paralytic (Mark 2/Luke 5) though series is John.,2,wk-run 2023-04-09|2023-04,John (wk-run 2023-04-09|2023-04): john 6.5/7.2 votes
+34c9WPXSI60hRKfOVd7bqZ,mapped,2023-04-16,,Water to Wine,,54,,,,Wk 2: Water to Wine,ai,book,0.9,john 2,"Water to wine, John 2",1,wk-run 2023-04-09|2023-04,
+3WUxeZQf6MexmFP3rPdRWt,mapped,2023-04-09,,Resurrection,,58,,,,Wk 1: Resurrection | Easter 2023,ai,book,0.9,john 20,Description quotes John 20:31,1,wk-run 2023-04-09|2023-04,
 05PW8r6YF8bkdCChczLhYP,mapped,2023-04-02,,Secret to Contentment,,59,Matthew 11:28-30,,,Wk 9: Secret to Contentment,regex,,,,,,wk-run 2023-02-05|2023-02,
 4B3HCDjo3ppejMD2jSP8f6,mapped,2023-03-26,,Peace,,47,,,,Wk 8: Peace,ai,book,0.95,philippians 4,Anxiety and peace is Phil 4:4-9.,2,wk-run 2023-02-05|2023-02,
 0SHvxSbBYUwk4ncbWwlUKf,mapped,2023-03-19,,Press On,,46,,,,Wk 7: Press On,ai,book,0.95,philippians 3,Press on is Phil 3:12-21.,2,wk-run 2023-02-05|2023-02,
@@ -212,7 +212,7 @@ week-11-choose-who-you-ll-serve,mapped,2023-08-20,,Choose Who You’ll Serve,,56
 6v9UGRgGmZ2U32xq4mvMQx,unmapped,2023-01-15,,Rich Young Ruler,,43,,,,Wk 1: Rich Young Ruler,,book,0.55,mark 10,"Rich young ruler, Mark 10 (parallels Matt 19/Luke 18).",2,wk-run 2023-01-15|2023-01,
 7EsnIGqGAE8tbYPfHhcZ8o,unmapped,2023-01-08,2023 Vision,Life Abundantly,,54,,,,2023 Vision: Life Abundantly,,topical,0.75,,Vision Sunday on abundant life.,2,2023 vision|2023-01,
 6DIuhUOe9xgbqas6Ab4q9Y,unmapped,2022-12-29,,Rescued Through Suffering,,50,,,,Wk 5: Rescued Through Suffering,,book,0.35,2-corinthians 1,"Rescue through suffering; guess 2 Cor 1, uncertain.",2,wk-run 2022-12-04|2022-12,
-5Ls6qGrgFjyFV2CKZLaeyi,unmapped,2022-12-24,Wk 4: Rescued From Sin,Christmas Eve,,36,,,,Wk 4: Rescued From Sin | Christmas Eve,,book,0.6,matthew 1,"Christmas Eve, Jesus saves from sin echoes Matthew 1:21",2,wk 4 rescued from sin|2022-12,
+5Ls6qGrgFjyFV2CKZLaeyi,unmapped,2022-12-24,,Rescued From Sin,,36,,,,Wk 4: Rescued From Sin | Christmas Eve,,book,0.6,matthew 1,"Christmas Eve, Jesus saves from sin echoes Matthew 1:21",2,wk-run 2022-12-04|2022-12,
 5n3tzGq8FflGoOdK2T6JG7,mapped,2022-12-18,,Rescued From Condemnation,,58,,,,Wk 3: Rescued From Condemnation,ai,book,0.97,romans 8,Quotes Romans 8:1.,1,wk-run 2022-12-04|2022-12,
 5J6Mw27lIXDKFsaioqhkPx,unmapped,2022-12-11,,Rescued From This Broken World,,43,,,,Wk 2: Rescued From This Broken World,,unknown,0.5,,Rescue theme; seat at King's table text unclear.,2,wk-run 2022-12-04|2022-12,
 5fCaAEesN0lGa3mg5xVQYS,unmapped,2022-12-04,,Rescued From Human Tradition,,55,,,,Wk 1: Rescued From Human Tradition,,book,0.5,colossians 2,Human tradition echoes Col 2:8 (or Mark 7).,2,wk-run 2022-12-04|2022-12,
@@ -302,7 +302,7 @@ week-11-choose-who-you-ll-serve,mapped,2023-08-20,,Choose Who You’ll Serve,,56
 7r3phy0Jt8Ji8nMM2FNek5,excluded,2021-08-23,,Wash One Another’s Feet,,17,John 13,Romans 12:10,,S02E20 - Wash One Another’s Feet,regex,,,,,,,
 2mQGRxpUgyLC5Zsnl6uaBU,mapped,2021-08-22,,You Will Be Blessed,,54,,,,Wk 20: You Will Be Blessed,ai,book,0.85,john 13,"Footwashing, 'you will be blessed' John 13:17.",1,wk-run 2021-04-11|2021-04,
 3IPUCoqlQKv7XbpWVGNt9W,excluded,2021-08-16,,Honor One Another Above Yourself,,16,Romans 12:10,,,S02E19 - Honor One Another Above Yourself,regex,,,,,,,
-6S178X3Ae9yB34typXa6R4,mapped,2021-08-15,,The Gospel,,52,,,,Wk 19: The Gospel,series,book,0.55,john 12,The Gospel wk19; likely John 12 (Greeks/grain of wheat) or 13.,1,wk-run 2021-04-11|2021-04,wk-run 2021-04-11 (wk-run 2021-04-11|2021-04): john 25.2/25.2 votes
+6S178X3Ae9yB34typXa6R4,mapped,2021-08-15,,The Gospel,,52,,,,Wk 19: The Gospel,series,book,0.55,john 12,The Gospel wk19; likely John 12 (Greeks/grain of wheat) or 13.,1,wk-run 2021-04-11|2021-04,John (wk-run 2021-04-11|2021-04): john 25.2/25.2 votes
 4iaEchvzN4OzfAAcvvmqeG,excluded,2021-08-09,,"Accept One Another, as Christ Accepted You",,14,Romans 15:7,,,"S02E18 - Accept One Another, as Christ Accepted You",regex,,,,,,,
 3OIlRQ4gcAjmo0k60JgRql,mapped,2021-08-08,,Extravagant Gratitude,,53,,,,Wk 18: Extravagant Gratitude,ai,book,0.9,john 12,"Mary anoints Jesus, John 12.",1,wk-run 2021-04-11|2021-04,
 3z96R3v1VY7FExggnhypVp,excluded,2021-08-02,,Carry One Another’s Burdens,,15,John 11,Galatians 6:2,,S02E17 - Carry One Another’s Burdens,regex,,,,,,,
@@ -316,11 +316,11 @@ week-11-choose-who-you-ll-serve,mapped,2023-08-20,,Choose Who You’ll Serve,,56
 6Lsdi47xTNbWxRYRKxMEDu,excluded,2021-07-05,,Stop Passing Judgment On One Another,,16,Romans 8:1,,,S02E13 - Stop Passing Judgment On One Another,regex,,,,,,,
 6lowKUcHNFr18NNHxlJrwM,mapped,2021-07-04,,Throwing Stones,,55,,,,Wk 13: Throwing Stones,ai,book,0.97,john 8,"Woman caught in adultery, John 8.",1,wk-run 2021-04-11|2021-04,
 7tLiMCxDlguBJPNhQTrDEa,excluded,2021-06-28,,Exhort One Another,,15,Hebrews 3:13,,,S02E12 - Exhort One Another,regex,,,,,,,
-4ySbJ9i43TpKrJWXUn8X9E,mapped,2021-06-27,,Thirsty,,58,,,,Wk 12: Thirsty,series,book,0.8,john 7,"Thirsty, John 7:37 rivers of living water.",1,wk-run 2021-04-11|2021-04,wk-run 2021-04-11 (wk-run 2021-04-11|2021-04): john 25.2/25.2 votes
+4ySbJ9i43TpKrJWXUn8X9E,mapped,2021-06-27,,Thirsty,,58,,,,Wk 12: Thirsty,series,book,0.8,john 7,"Thirsty, John 7:37 rivers of living water.",1,wk-run 2021-04-11|2021-04,John (wk-run 2021-04-11|2021-04): john 25.2/25.2 votes
 3DZs8DvGBnjeylKckXdM9O,excluded,2021-06-21,,Serve One Another,,17,1 Peter 4:10,,,S02E11 - Serve One Another,regex,,,,,,,
 2xjN0EVFTEl8nU7h1aogUa,mapped,2021-06-20,,Doubts,,62,John 6:68,,,Wk 11: Doubts,regex,,,,,,wk-run 2021-04-11|2021-04,
 4xiYOISpV1MTpHnrm3HZ90,excluded,2021-06-14,,Not Bitten or Devoured by One Another,,18,Galatians 5:13-15,,,S02E10 - Not Bitten or Devoured by One Another,regex,,,,,,,
-1qGZCSRyDC05zlq7hk2TOE,mapped,2021-06-13,,Come to Me,JESUS CHRIST,47,,,,Wk 10: Come to Me,series,book,0.7,john 6,John series wk10 'Come to Me'; bread of life John 6 or 7:37.,1,wk-run 2021-04-11|2021-04,wk-run 2021-04-11 (wk-run 2021-04-11|2021-04): john 25.2/25.2 votes
+1qGZCSRyDC05zlq7hk2TOE,mapped,2021-06-13,,Come to Me,JESUS CHRIST,47,,,,Wk 10: Come to Me,series,book,0.7,john 6,John series wk10 'Come to Me'; bread of life John 6 or 7:37.,1,wk-run 2021-04-11|2021-04,John (wk-run 2021-04-11|2021-04): john 25.2/25.2 votes
 57sj7r43CLL0GTj6aCBOLm,excluded,2021-06-07,,Bear With One Another in Love,,18,Ephesians 4:2-3,,,S02E09 - Bear With One Another in Love,regex,,,,,,,
 7eZ9SK8RWuQJgGoC19sqHL,mapped,2021-06-06,,Do You Want to be Healed?,,54,,,,Wk 9: Do You Want to be Healed?,ai,book,0.97,john 5,"Do you want to be healed, John 5.",1,wk-run 2021-04-11|2021-04,
 1D7ruAQpMl0NHbxS3YlXwe,excluded,2021-05-31,,Confess Your Sins to One Another,,16,James 5:16,,,S02E08 - Confess Your Sins to One Another,regex,,,,,,,
@@ -425,7 +425,7 @@ week-11-choose-who-you-ll-serve,mapped,2023-08-20,,Choose Who You’ll Serve,,56
 0PCVg9l2Udwnfdhch52prl,excluded,2020-08-12,,The Shunamite Woman,,16,,,,S01 E67 - The Shunamite Woman,,,,,,,,
 05DVCkVbg1NfgLOIwPfi1M,excluded,2020-08-11,,Jesus On Every Page,,17,,,,S01 E66 - Jesus On Every Page,,,,,,,,
 3o5UiTrVxDXTUiJrAhrBLL,excluded,2020-08-10,,Scripture,,15,,,,S01 E65 - Scripture,,,,,,,,
-7tdTLpiw8NisyexIecrQRG,mapped,2020-08-09,,Do Over,,51,,,,Wk 4: Do Over,series,book,0.45,matthew 17,"Do over, series is Matthew",2,wk-run 2020-07-19|2020-07,wk-run 2020-07-19 (wk-run 2020-07-19|2020-07): matthew 2.5/2.5 votes
+7tdTLpiw8NisyexIecrQRG,mapped,2020-08-09,,Do Over,,51,,,,Wk 4: Do Over,series,book,0.45,matthew 17,"Do over, series is Matthew",2,wk-run 2020-07-19|2020-07,Matthew (wk-run 2020-07-19|2020-07): matthew 2.5/2.5 votes
 555sm9TWpNilnCqxwYeXOF,excluded,2020-08-05,,Parenting,,16,,,,S01 E64 - Parenting,,,,,,,,
 5JsXnHzcMDGJSqjCC8Pyx3,excluded,2020-08-04,,Fear,,16,,,,S01 E63 - Fear,,,,,,,,
 3Yq6mHeWJpUnrz7bFoCOHZ,excluded,2020-08-03,,Faith,,16,,,,S01 E62 - Faith,,,,,,,,
@@ -437,7 +437,7 @@ week-11-choose-who-you-ll-serve,mapped,2023-08-20,,Choose Who You’ll Serve,,56
 0qDhzrMbg1jaIikChXsWMd,excluded,2020-07-22,,To The Rich...,,16,,,,S01 E58 - To The Rich...,,,,,,,,
 6Ya3Knyboi0OYH7HptLeEY,excluded,2020-07-21,,Good Soil,,17,,,,S01 E57 - Good Soil,,,,,,,,
 0jR6AwMqaP7NluVFDsDFy8,excluded,2020-07-20,,Burning Bush,,18,,,,S01 E56 - Burning Bush,,,,,,,,
-5eEEqFfNRpZGSPHiAABYrc,mapped,2020-07-19,,Doubts,,55,,,,Wk 1: Doubts,series,book,0.5,matthew 11,"Doubts, series is Matthew",2,wk-run 2020-07-19|2020-07,wk-run 2020-07-19 (wk-run 2020-07-19|2020-07): matthew 2.5/2.5 votes
+5eEEqFfNRpZGSPHiAABYrc,mapped,2020-07-19,,Doubts,,55,,,,Wk 1: Doubts,series,book,0.5,matthew 11,"Doubts, series is Matthew",2,wk-run 2020-07-19|2020-07,Matthew (wk-run 2020-07-19|2020-07): matthew 2.5/2.5 votes
 0AbZM6eMwtP6ZJvzqCNAUZ,excluded,2020-07-15,,The Resurrection,,15,,,,S01 E55 - The Resurrection,,,,,,,,
 0hYMlvKfZvHXFXi6kei4ba,excluded,2020-07-14,,The Fruit of The Spirit,,16,,,,S01 E54 - The Fruit of The Spirit,,,,,,,,
 2UQApQUw7k6KlbWuyaBywE,excluded,2020-07-13,,Gideon,,16,,,,S01 E53 - Gideon,,,,,,,,
@@ -469,7 +469,7 @@ week-11-choose-who-you-ll-serve,mapped,2023-08-20,,Choose Who You’ll Serve,,56
 1BgAiwoYcFB3g5qyvG5XCa,excluded,2020-05-27,,David & Goliath,,19,,,,S01 E34 - David & Goliath,,,,,,,,
 4tOPgg64aLqIN0429ZewyL,excluded,2020-05-26,,Satisfaction in Jesus,,18,,,,S01 E33 - Satisfaction in Jesus,,,,,,,,
 3uu7tsBSExCVtqlYtYuWj4,excluded,2020-05-25,,Snakebitten,,17,,,,S01 E32 - Snakebitten,,,,,,,,
-6YiPRcHNNVtJzbDmkGEzxi,unmapped,2020-05-24,,God Loves a Cheerful Giver,,54,,,,Wk 6: God Loves a Cheerful Giver,,book,0.75,matthew 6,"Giving, Matthew 6:1-4 between wks 5 and 7",2,wk-run 2020-04-19|2020-04,wk-run 2020-04-19 (wk-run 2020-04-19|2020-04): matthew 10.0/12.0 votes
+6YiPRcHNNVtJzbDmkGEzxi,unmapped,2020-05-24,,God Loves a Cheerful Giver,,54,,,,Wk 6: God Loves a Cheerful Giver,,book,0.75,matthew 6,"Giving, Matthew 6:1-4 between wks 5 and 7",2,wk-run 2020-04-19|2020-04,Best. Sermon. Ever. (wk-run 2020-04-19|2020-04): matthew 10.0/12.0 votes
 2rGE8pZzOl1xsI2Uma6ru6,excluded,2020-05-20,,The Boat,,18,,,,S01 E31 - The Boat,,,,,,,,
 4S7sBD9CtF8v6l9gE28eOn,excluded,2020-05-19,,Dishwater To Wine,,16,,,,S01 E30 - Dishwater To Wine,,,,,,,,
 7J1A1sxJyQGrZf8aYbSRHs,excluded,2020-05-18,,Peter,,16,,,,S01 E29 - Peter,,,,,,,,
@@ -493,7 +493,7 @@ week-11-choose-who-you-ll-serve,mapped,2023-08-20,,Choose Who You’ll Serve,,56
 6UutPW3Bj4EzxtrtYGZlAT,excluded,2020-04-15,,Worship,,17,,,,S01 E16 - Worship,,,,,,,,
 7BSsxy8RWGyJeNjDsAz4LY,excluded,2020-04-14,,"Mary, Martha and Lazarus",,18,John 11:25,,,"S01 E15 - Mary, Martha and Lazarus",regex,,,,,,,
 6LN5C7gZj6FAc5XHuiNOSo,excluded,2020-04-13,,Joshua,,17,Joshua 1:9,,,S01 E14 - Joshua,regex,,,,,,,
-4kK4wIHXNd6dl3cxcvSqFq,mapped,2020-04-12,Wk 7: Laodicea,EASTER,,54,,,,Wk 7: Laodicea | EASTER,ai,book,0.95,revelation 3,"Laodicea, Jesus knocking, Rev 3:20",1,wk 7 laodicea|2020-04,
+4kK4wIHXNd6dl3cxcvSqFq,mapped,2020-04-12,,Laodicea,,54,,,,Wk 7: Laodicea | EASTER,ai,book,0.95,revelation 3,"Laodicea, Jesus knocking, Rev 3:20",1,wk-run 2020-03-01|2020-03,
 2XKjp46wL3mzXZPRb94jaI,excluded,2020-04-11,Lent Devo Episode 36,The Resurrection,,13,Luke 20,,,Lent Devo Episode 36: The Resurrection,regex,,,,,,lent devo episode 36|2020-04,
 1VxIRrwzpOyfoVUqQgH2Hb,excluded,2020-04-10,Lent Devo Episode 35,At Calvary - Part Two,,12,,,,Lent Devo Episode 35: At  Calvary - Part Two,,,,,,,lent devo episode 35|2020-04,
 0NzgFlQdSFS3wSIgwUEjYm,excluded,2020-04-09,Lent Devo Episode 34,At Calvary - Part One,,13,Luke 23,,,Lent Devo Episode 34: At Calvary - Part One,regex,,,,,,lent devo episode 34|2020-04,
@@ -585,12 +585,12 @@ week-11-choose-who-you-ll-serve,mapped,2023-08-20,,Choose Who You’ll Serve,,56
 7dwIqfkHYEaMOB3DTUUgCH,mapped,2019-08-04,,Self-Control,,55,,,,Wk 3: Self-Control,ai,book,0.85,2-timothy 1,"Self-control, 2 Tim 1:7",2,wk-run 2019-07-21|2019-07,
 38COGz6GClabMQgCZXiYZC,mapped,2019-07-28,,Spirit of Love,,45,,,,Wk 2: Spirit of Love,ai,book,0.9,2-timothy 1,"Spirit of love, 2 Tim 1:7",2,wk-run 2019-07-21|2019-07,
 2cUlwm7PHQZTy33WTqXUJN,mapped,2019-07-21,,Spirit of Power,,54,,,,Wk 1: Spirit of Power,ai,book,0.9,2-timothy 1,"Spirit of power, 2 Tim 1:7",2,wk-run 2019-07-21|2019-07,
-2rv6MfNl6h7IARAeQhrWF5,mapped,2019-07-14,,The Lord Judge,,52,,,,Wk 12: The Lord Judge,series,book,0.8,1-samuel 24,"David spares Saul, trust God as judge; 1 Sam 24/26.",1,wk-run 2019-04-28|2019-04,wk-run 2019-04-28 (wk-run 2019-04-28|2019-04): 1-samuel 9.5/9.5 votes
+2rv6MfNl6h7IARAeQhrWF5,mapped,2019-07-14,,The Lord Judge,,52,,,,Wk 12: The Lord Judge,series,book,0.8,1-samuel 24,"David spares Saul, trust God as judge; 1 Sam 24/26.",1,wk-run 2019-04-28|2019-04,1 Samuel (wk-run 2019-04-28|2019-04): 1-samuel 9.5/9.5 votes
 74VfPmRFp7Az9LurAam9Eq,mapped,2019-07-07,,Toxic Relationships,,48,,,,Wk 11: Toxic Relationships,ai,book,0.85,1-samuel 18,Saul hurls spear at David; 1 Sam 18-19.,1,wk-run 2019-04-28|2019-04,
 1GY9c8TDWjH7DALHdy2bOY,mapped,2019-06-30,,Down Goes Goliath,,52,,,,Wk 10: Down Goes Goliath,ai,book,0.97,1-samuel 17,David and Goliath.,1,wk-run 2019-04-28|2019-04,
 4c1K60vjpMX0BdmfEPd7Sw,mapped,2019-06-23,,King David,,49,,,,Wk 9: King David,ai,book,0.9,1-samuel 16,"King David anointed, 1 Sam 16:7.",1,wk-run 2019-04-28|2019-04,
-4IMsl5GlKs0OrBk4AKC8J4,mapped,2019-06-16,,Me First,,45,,,,Wk 8: Me First,series,book,0.8,1-samuel 15,Saul's disobedience ch 15; series 1 Samuel.,1,wk-run 2019-04-28|2019-04,wk-run 2019-04-28 (wk-run 2019-04-28|2019-04): 1-samuel 9.5/9.5 votes
-7f5Ne4mHt98ZLd9A2G30Is,mapped,2019-06-09,,Nothing Can Stop Him,,50,,,,Wk 7: Nothing Can Stop Him,series,book,0.75,1-samuel 14,1 Samuel series; Jonathan 1 Sam 14 'nothing can hinder the Lord'.,1,wk-run 2019-04-28|2019-04,wk-run 2019-04-28 (wk-run 2019-04-28|2019-04): 1-samuel 9.5/9.5 votes
+4IMsl5GlKs0OrBk4AKC8J4,mapped,2019-06-16,,Me First,,45,,,,Wk 8: Me First,series,book,0.8,1-samuel 15,Saul's disobedience ch 15; series 1 Samuel.,1,wk-run 2019-04-28|2019-04,1 Samuel (wk-run 2019-04-28|2019-04): 1-samuel 9.5/9.5 votes
+7f5Ne4mHt98ZLd9A2G30Is,mapped,2019-06-09,,Nothing Can Stop Him,,50,,,,Wk 7: Nothing Can Stop Him,series,book,0.75,1-samuel 14,1 Samuel series; Jonathan 1 Sam 14 'nothing can hinder the Lord'.,1,wk-run 2019-04-28|2019-04,1 Samuel (wk-run 2019-04-28|2019-04): 1-samuel 9.5/9.5 votes
 7G2mRdVGDUOedOl0XyxE0K,mapped,2019-06-02,,What Have You Done?,,49,,,,Wk 6: What Have You Done?,ai,book,0.85,1-samuel 13,'What have you done?' Saul 1 Sam 13:11.,1,wk-run 2019-04-28|2019-04,
 6ZU2xoiB3a4jDpqW9YO64Y,mapped,2019-05-26,,Farewell Address,,52,,,,Wk 5: Farewell Address,ai,book,0.9,1-samuel 12,"Samuel's farewell address, 1 Sam 12.",1,wk-run 2019-04-28|2019-04,
 3fctqs0AM6t3P9AKTtWutw,mapped,2019-05-19,,The Lord is ONE,,52,,,,Wk 4: The Lord is ONE,ai,book,0.9,1-samuel 5,"1 Samuel series; Lord is One, Dagon smashed (ch 5).",1,wk-run 2019-04-28|2019-04,
@@ -633,24 +633,24 @@ week-11-choose-who-you-ll-serve,mapped,2023-08-20,,Choose Who You’ll Serve,,56
 3IVukCTloRynD8bs0ULPLC,unmapped,2018-09-12,Saturated,Saturated 2018: Wednesday,Ryan Kwon,56,,,yes,Saturated 2018 - Wednesday: - Pastor Ryan Kwon,,topical,0.55,,Conference main-session talk,2,saturated|2018-09,
 73b0q0SSbfDt8I8boca2Fh,mapped,2018-09-09,,To The Only Wise God,,53,,,,Wk 34: To The Only Wise God,ai,book,0.9,romans 16,To the only wise God: Romans 16:25-27.,1,wk-run 2018-01-14|2018-01,
 4Bl0ms1PvWlfvYSxg01zQP,mapped,2018-09-02,,To the Saints,,48,,,,Wk 33: To the Saints,ai,book,0.9,romans 16,"To the Saints, greeting honoring saints: Romans 16.",1,wk-run 2018-01-14|2018-01,
-0gS2UwVbLaL7amueLajI67,mapped,2018-08-26,,Life on Mission,,52,,,,Wk 32: Life on Mission,series,book,0.75,romans 15,"Life on mission, Paul's ministry plans: Romans 15.",1,wk-run 2018-01-14|2018-01,wk-run 2018-01-14 (wk-run 2018-01-14|2018-01): romans 23.5/25.5 votes
-4Stkf1jz7dsvBZRweWQVKp,mapped,2018-08-19,,Gospel Unity,John Wesley,50,,,,Wk 31: Gospel Unity,series,book,0.8,romans 14,"Gospel unity, non-essentials: Romans 14-15.",1,wk-run 2018-01-14|2018-01,wk-run 2018-01-14 (wk-run 2018-01-14|2018-01): romans 23.5/25.5 votes
-6iJbCIoesXjdasNwjyzfx9,mapped,2018-08-12,,Love Rules,,56,,,,Wk 30: Love Rules,series,book,0.8,romans 13,Love is greatest commandment/fulfills the law: Romans 13:8-10.,1,wk-run 2018-01-14|2018-01,wk-run 2018-01-14 (wk-run 2018-01-14|2018-01): romans 23.5/25.5 votes
+0gS2UwVbLaL7amueLajI67,mapped,2018-08-26,,Life on Mission,,52,,,,Wk 32: Life on Mission,series,book,0.75,romans 15,"Life on mission, Paul's ministry plans: Romans 15.",1,wk-run 2018-01-14|2018-01,Romans (wk-run 2018-01-14|2018-01): romans 23.5/25.5 votes
+4Stkf1jz7dsvBZRweWQVKp,mapped,2018-08-19,,Gospel Unity,John Wesley,50,,,,Wk 31: Gospel Unity,series,book,0.8,romans 14,"Gospel unity, non-essentials: Romans 14-15.",1,wk-run 2018-01-14|2018-01,Romans (wk-run 2018-01-14|2018-01): romans 23.5/25.5 votes
+6iJbCIoesXjdasNwjyzfx9,mapped,2018-08-12,,Love Rules,,56,,,,Wk 30: Love Rules,series,book,0.8,romans 13,Love is greatest commandment/fulfills the law: Romans 13:8-10.,1,wk-run 2018-01-14|2018-01,Romans (wk-run 2018-01-14|2018-01): romans 23.5/25.5 votes
 5ezdGNjekf5nY2NmNKI69s,mapped,2018-08-05,,Submit to Authority,,53,Matthew 22:20-21,,,Wk 29: Submit to Authority,regex,,,,,,wk-run 2018-01-14|2018-01,
 3LovfCfxAsLMzfMHqqWibW,mapped,2018-07-29,,Symptoms of a Gospel Infected Life,,54,,,,Wk 28: Symptoms of a Gospel Infected Life,ai,book,0.9,romans 12,"Living sacrifice, love one another: Romans 12.",1,wk-run 2018-01-14|2018-01,
 4wUDnrpf5JHiHKPNNkrZVs,mapped,2018-07-22,,The Body,,59,,,,Wk 27: The Body,ai,book,0.9,romans 12,"The body, many members: Romans 12:3-8.",1,wk-run 2018-01-14|2018-01,
-3W0o2Bwem72Cy3ky6ZK8CD,mapped,2018-07-15,,Right Theology Leads to Right Doxology,,44,,,,Wk 26: Right Theology Leads to Right Doxology,series,book,0.8,romans 11,Theology to doxology: Romans 11:33-12:2.,1,wk-run 2018-01-14|2018-01,wk-run 2018-01-14 (wk-run 2018-01-14|2018-01): romans 23.5/25.5 votes
-04vtfGMaAnrT78eV3qs9dN,mapped,2018-07-08,,It’s Not Too Late,,53,,,,Wk 25: It’s Not Too Late,series,book,0.8,romans 11,"Not too late, Israel/Gentiles grafting: Romans 11.",1,wk-run 2018-01-14|2018-01,wk-run 2018-01-14 (wk-run 2018-01-14|2018-01): romans 23.5/25.5 votes
-7kyaPGj95s1atoQq1tmsjq,mapped,2018-07-01,,Amazing Grace,,53,,,,Wk 24: Amazing Grace,series,book,0.65,romans 11,"Grace, Son taking your place; sequence puts this in Romans 11.",1,wk-run 2018-01-14|2018-01,wk-run 2018-01-14 (wk-run 2018-01-14|2018-01): romans 23.5/25.5 votes
-4CFMoqfTNUOhXBmnlPAufn,mapped,2018-06-24,,God’s Outstretched Arms,,55,,,,Wk 23: God’s Outstretched Arms,series,book,0.8,romans 10,'Do you hear? Do you understand?' outstretched arms is Romans 10:18-21.,1,wk-run 2018-01-14|2018-01,wk-run 2018-01-14 (wk-run 2018-01-14|2018-01): romans 23.5/25.5 votes
-4eF0QXmmmVWIaZtbLjRLnM,mapped,2018-06-17,,Saved and Sent,,56,,,,Wk 22: Saved and Sent,series,book,0.8,romans 10,Saved and sent: Romans 10:9-15.,1,wk-run 2018-01-14|2018-01,wk-run 2018-01-14 (wk-run 2018-01-14|2018-01): romans 23.5/25.5 votes
+3W0o2Bwem72Cy3ky6ZK8CD,mapped,2018-07-15,,Right Theology Leads to Right Doxology,,44,,,,Wk 26: Right Theology Leads to Right Doxology,series,book,0.8,romans 11,Theology to doxology: Romans 11:33-12:2.,1,wk-run 2018-01-14|2018-01,Romans (wk-run 2018-01-14|2018-01): romans 23.5/25.5 votes
+04vtfGMaAnrT78eV3qs9dN,mapped,2018-07-08,,It’s Not Too Late,,53,,,,Wk 25: It’s Not Too Late,series,book,0.8,romans 11,"Not too late, Israel/Gentiles grafting: Romans 11.",1,wk-run 2018-01-14|2018-01,Romans (wk-run 2018-01-14|2018-01): romans 23.5/25.5 votes
+7kyaPGj95s1atoQq1tmsjq,mapped,2018-07-01,,Amazing Grace,,53,,,,Wk 24: Amazing Grace,series,book,0.65,romans 11,"Grace, Son taking your place; sequence puts this in Romans 11.",1,wk-run 2018-01-14|2018-01,Romans (wk-run 2018-01-14|2018-01): romans 23.5/25.5 votes
+4CFMoqfTNUOhXBmnlPAufn,mapped,2018-06-24,,God’s Outstretched Arms,,55,,,,Wk 23: God’s Outstretched Arms,series,book,0.8,romans 10,'Do you hear? Do you understand?' outstretched arms is Romans 10:18-21.,1,wk-run 2018-01-14|2018-01,Romans (wk-run 2018-01-14|2018-01): romans 23.5/25.5 votes
+4eF0QXmmmVWIaZtbLjRLnM,mapped,2018-06-17,,Saved and Sent,,56,,,,Wk 22: Saved and Sent,series,book,0.8,romans 10,Saved and sent: Romans 10:9-15.,1,wk-run 2018-01-14|2018-01,Romans (wk-run 2018-01-14|2018-01): romans 23.5/25.5 votes
 6J52joBSvjCcQpUaOfFi2W,mapped,2018-06-10,,Sovereign Grace,,44,,,,Wk 21: Sovereign Grace,ai,book,0.9,romans 9,"God sovereignly chooses Israel, mercy: Romans 9.",1,wk-run 2018-01-14|2018-01,
 7gb2J6lt8yhlm7NPecuyRJ,mapped,2018-06-03,,More Than Conquerors,,47,,,,Wk 20: More Than Conquerors,ai,book,0.9,romans 8,More than conquerors is Romans 8:37.,1,wk-run 2018-01-14|2018-01,
-0IBxbjDB28kQw03ACo5M65,mapped,2018-05-27,,Sovereign Grace,,53,,,,Wk 19: Sovereign Grace,series,book,0.65,romans 8,"God's love despite circumstances, see the cross; Romans 8 (maybe 9).",1,wk-run 2018-01-14|2018-01,wk-run 2018-01-14 (wk-run 2018-01-14|2018-01): romans 23.5/25.5 votes
-0JsRMdpiPMzFOmPcY1D01q,mapped,2018-05-20,,Chosen,,50,,,,Wk 18: Chosen,series,book,0.8,romans 8,"Not slaves to fear, children of God = Romans 8:15.",1,wk-run 2018-01-14|2018-01,wk-run 2018-01-14 (wk-run 2018-01-14|2018-01): romans 23.5/25.5 votes
+0IBxbjDB28kQw03ACo5M65,mapped,2018-05-27,,Sovereign Grace,,53,,,,Wk 19: Sovereign Grace,series,book,0.65,romans 8,"God's love despite circumstances, see the cross; Romans 8 (maybe 9).",1,wk-run 2018-01-14|2018-01,Romans (wk-run 2018-01-14|2018-01): romans 23.5/25.5 votes
+0JsRMdpiPMzFOmPcY1D01q,mapped,2018-05-20,,Chosen,,50,,,,Wk 18: Chosen,series,book,0.8,romans 8,"Not slaves to fear, children of God = Romans 8:15.",1,wk-run 2018-01-14|2018-01,Romans (wk-run 2018-01-14|2018-01): romans 23.5/25.5 votes
 3M2W0NkxUV09jEw39wjfx5,mapped,2018-05-13,,No Condemnation,,50,,,,Wk 17: No Condemnation,ai,book,0.85,romans 8,"Wk 17 of weekly series; 'No Condemnation' is Romans 8:1, sequence runs Romans 8-16 through Sept 2018.",1,wk-run 2018-01-14|2018-01,
 0mVY7gMohtQGshQhVU7KjE,mapped,2018-05-06,,What is Wrong With Me?,,56,,,,Wk 16: What is Wrong With Me?,ai,book,0.88,romans 7,"Sinners need a Savior, Romans 7",1,wk-run 2018-01-14|2018-01,
-7rOpZ6NxAJglKNTAZ43SIw,mapped,2018-04-29,,Compassion Weekend,,55,,,,Wk 15: Compassion Weekend,series,book,0.6,romans 6,"Compassion weekend, free by grace; Romans series",1,wk-run 2018-01-14|2018-01,wk-run 2018-01-14 (wk-run 2018-01-14|2018-01): romans 23.5/25.5 votes
+7rOpZ6NxAJglKNTAZ43SIw,mapped,2018-04-29,,Compassion Weekend,,55,,,,Wk 15: Compassion Weekend,series,book,0.6,romans 6,"Compassion weekend, free by grace; Romans series",1,wk-run 2018-01-14|2018-01,Romans (wk-run 2018-01-14|2018-01): romans 23.5/25.5 votes
 32UeApNLG5EigX2lBIengP,mapped,2018-04-22,,The New You,,55,,,,Wk 14: The New You,ai,book,0.9,romans 6,"New you, freed from slavery to sin, Romans 6:15-23",1,wk-run 2018-01-14|2018-01,
 6Zj9McNaOkfZOzzmlCMVKZ,mapped,2018-04-15,,Baptism,,50,,,,Wk 13: Baptism,ai,book,0.95,romans 6,"Baptism, Romans 6:1-14",1,wk-run 2018-01-14|2018-01,
 1A4XK9kfwPmhO7FabgLV5O,mapped,2018-04-08,,"All From One, One For All",,50,,,,"Wk 12: All From One, One For All",ai,book,0.95,romans 5,"All from one, Adam and Christ, Romans 5:12-21",1,wk-run 2018-01-14|2018-01,
@@ -694,8 +694,8 @@ week-11-choose-who-you-ll-serve,mapped,2023-08-20,,Choose Who You’ll Serve,,56
 5oTKffT7jaArwanZh5N7dx,unmapped,2017-08-20,Act Like Men; Revisited,A Worthy Woman,,56,,,,Act Like Men; Revisited - A Worthy Woman,,topical,0.5,,"Women's event talk, mixes Romans 12 and Eve.",2,act like men revisited|2017-08,
 40o9n9vqZkxqRpNEFHA97E,mapped,2017-08-13,,The Sovereignty of God in Our Posterity,,42,,,,Wk 6: The Sovereignty of God in Our Posterity,ai,book,0.88,ruth 4,"Posterity, Obed and genealogy Ruth 4",1,wk-run 2017-07-09|2017-07,
 0WVijv27RipFhaTIJBG8CV,mapped,2017-08-06,,The Sovereignty of God in Our Perfect Redeemer,,54,,,,Wk 5: The Sovereignty of God in Our Perfect Redeemer,ai,book,0.9,ruth 3,"Kinsman redeemer, Ruth 3-4",1,wk-run 2017-07-09|2017-07,
-0KL6l5kdpGdHjXfODUl2OK,mapped,2017-07-30,,The Sovereignty of God in Our Pursuit of Purity,,60,,,,Wk 4: The Sovereignty of God in Our Pursuit of Purity,series,book,0.82,ruth 3,"Ruth series; purity, Ruth at the threshing floor",1,wk-run 2017-07-09|2017-07,wk-run 2017-07-09 (wk-run 2017-07-09|2017-07): ruth 3.5/3.5 votes
-5xn4azxBYabSWEZ2mk3oeA,mapped,2017-07-23,,The Sovereignty of God in Our Provision,,53,,,,Wk 3: The Sovereignty of God in Our Provision,series,book,0.8,ruth 2,"Ruth series; provision, gleaning",1,wk-run 2017-07-09|2017-07,wk-run 2017-07-09 (wk-run 2017-07-09|2017-07): ruth 3.5/3.5 votes
+0KL6l5kdpGdHjXfODUl2OK,mapped,2017-07-30,,The Sovereignty of God in Our Pursuit of Purity,,60,,,,Wk 4: The Sovereignty of God in Our Pursuit of Purity,series,book,0.82,ruth 3,"Ruth series; purity, Ruth at the threshing floor",1,wk-run 2017-07-09|2017-07,Ruth (wk-run 2017-07-09|2017-07): ruth 3.5/3.5 votes
+5xn4azxBYabSWEZ2mk3oeA,mapped,2017-07-23,,The Sovereignty of God in Our Provision,,53,,,,Wk 3: The Sovereignty of God in Our Provision,series,book,0.8,ruth 2,"Ruth series; provision, gleaning",1,wk-run 2017-07-09|2017-07,Ruth (wk-run 2017-07-09|2017-07): ruth 3.5/3.5 votes
 3w7Ltau7fLtZooDNUp2bg9,mapped,2017-07-16,,The Sovereignty of God in Our Perseverance,,50,,,,Wk 2: The Sovereignty of God in Our Perseverance,ai,book,0.85,ruth 2,"Ruth series; work from favor, gleaning in Boaz field",1,wk-run 2017-07-09|2017-07,
 3YnF8AbQGVxSEKknuBmUPG,mapped,2017-07-09,,The Sovereignty of God in Pain,,54,,,,Wk 1: The Sovereignty of God in Pain,ai,book,0.88,ruth 1,"Sovereignty of God series maps to Ruth (pain, Naomi); Wk5-6 redeemer/posterity",1,wk-run 2017-07-09|2017-07,
 32uytGygLuID73Hl9Ren4z,unmapped,2017-07-02,,Mustard Seed,,55,,,,Wk 11: Mustard Seed,,book,0.5,matthew 13,Mustard seed parable,2,wk-run 2017-04-23|2017-04,
@@ -852,11 +852,11 @@ week-11-choose-who-you-ll-serve,mapped,2023-08-20,,Choose Who You’ll Serve,,56
 2pYJ8DyIEz0KchJnwTI1wi,unmapped,2014-09-10,Saturated 2014,Wednesday,Stovall Weems,63,,,,Saturated 2014 - Wednesday: Stovall Weems,,topical,0.55,,"Conference main-session talk, no text evident",2,saturated 2014|2014-09,
 55kmhjMQPYEr9hJvoo8bYL,unmapped,2014-09-07,,Why on Earth are We Here?,,60,,,,Wk 1: Why on Earth are We Here?,,book,0.55,genesis 1,Creation purpose; opens a Genesis 1-9 series,2,wk-run 2014-09-07|2014-09,
 1MO0GvMllsqDr9uskakjk1,unmapped,2014-08-31,Stand Alone,Giving Is A Gospel Issue,,61,,,,Stand Alone: Giving Is A Gospel Issue,,topical,0.6,,"Generosity grounded in the cross, thematic",2,stand alone|2014-08,
-1pJe37RwlKMAXIpWgVBn34,mapped,2014-08-24,,War,,61,,,,Wk 8: War,ai,book,0.85,ephesians 6,"War, armor of God Eph 6",2,wk-run 2014-07-27|2014-07,
-4vhR4f5ylC4Ips7UWFKYd5,unmapped,2014-08-17,,Authority,,57,,,,Wk 7: Authority,,book,0.8,ephesians 6,"Authority, Eph 6:1-9",2,wk-run 2014-07-27|2014-07,
-6edWC0DiohUCNBAypeTYRS,mapped,2014-08-10,,Marriage,,59,,,,Wk 6: Marriage,ai,book,0.85,ephesians 5,"Marriage, Eph 5:22-33",2,wk-run 2014-07-27|2014-07,
-4bMLYEksCOCpVWgDuOHFp4,mapped,2014-08-03,,Walk,,58,,,,Wk 5: Walk,ai,book,0.85,ephesians 4,Walk in Eph 4-5,2,wk-run 2014-07-27|2014-07,
-2rePhuBhuUh9dw036pwMOD,unmapped,2014-07-27,,Unity (Sunday),,60,,,,Wk 4: Unity (Sunday),,book,0.7,ephesians 4,"Unity, Eph 4",2,wk-run 2014-07-27|2014-07,
+1pJe37RwlKMAXIpWgVBn34,mapped,2014-08-24,,War,,61,,,,Wk 8: War,ai,book,0.85,ephesians 6,"War, armor of God Eph 6",2,wk-run 2014-07-06|2014-07,
+4vhR4f5ylC4Ips7UWFKYd5,unmapped,2014-08-17,,Authority,,57,,,,Wk 7: Authority,,book,0.8,ephesians 6,"Authority, Eph 6:1-9",2,wk-run 2014-07-06|2014-07,
+6edWC0DiohUCNBAypeTYRS,mapped,2014-08-10,,Marriage,,59,,,,Wk 6: Marriage,ai,book,0.85,ephesians 5,"Marriage, Eph 5:22-33",2,wk-run 2014-07-06|2014-07,
+4bMLYEksCOCpVWgDuOHFp4,mapped,2014-08-03,,Walk,,58,,,,Wk 5: Walk,ai,book,0.85,ephesians 4,Walk in Eph 4-5,2,wk-run 2014-07-06|2014-07,
+2rePhuBhuUh9dw036pwMOD,unmapped,2014-07-27,,Unity (Sunday),,60,,,,Wk 4: Unity (Sunday),,book,0.7,ephesians 4,"Unity, Eph 4",2,wk-run 2014-07-06|2014-07,
 1GLn4eHNAAFmmP8ygIdaGV,unmapped,2014-07-24,,Unity (Thursday),,57,,,,Wk 4: Unity (Thursday),,book,0.7,ephesians 4,"Unity, Eph 4:1-16",2,wk-run 2014-07-06|2014-07,
 0SEwxt0S0RdOgFKE7kfPZg,mapped,2014-07-20,,Peace,,54,,,,Wk 3: Peace,ai,book,0.85,ephesians 2,"Peace, Jew and Gentile, Eph 2:11-22",2,wk-run 2014-07-06|2014-07,
 0FscIfXgw63jAMXytDPCbB,mapped,2014-07-13,,Grace,,61,,,,Wk 2: Grace,ai,book,0.85,ephesians 2,"Grace, Eph 2:1-10",2,wk-run 2014-07-06|2014-07,
@@ -919,7 +919,7 @@ week-11-choose-who-you-ll-serve,mapped,2023-08-20,,Choose Who You’ll Serve,,56
 5HF9ZlovkyvSrxcVgeoRkF,mapped,2013-06-30,,God Saves,,51,,,,Wk 2: God Saves,ai,book,0.85,acts 16,"God saves, Philippian jailer, Acts 16",2,wk-run 2013-06-23|2013-06,
 7i840HtYY1XypjPEXZ86ng,mapped,2013-06-23,,When God Says No,,49,,,,Wk 1: When God Says No,ai,book,0.85,acts 16,"God says no then saves the jailer, Acts 16",2,wk-run 2013-06-23|2013-06,
 3oEB8whkapFNgKvtz4FFS1,mapped,2013-06-16,,"Unity, not Uniformity",,59,,,,"Wk 3: Unity, not Uniformity",ai,book,0.9,acts 15,"Unity not uniformity, Acts 15 debate / Paul-Barnabas split",1,wk-run 2013-06-02|2013-06,
-0suS4oYnK2bNl0bvXKmHuH,mapped,2013-06-09,,Restoring Honor and Unity,,53,,,,Wk 2: Restoring Honor and Unity,series,book,0.8,acts 15,Acts 15 council unity; John 17 quote only supporting,1,wk-run 2013-06-02|2013-06,wk-run 2013-06-02 (wk-run 2013-06-02|2013-06): acts 2.5/2.5 votes
+0suS4oYnK2bNl0bvXKmHuH,mapped,2013-06-09,,Restoring Honor and Unity,,53,,,,Wk 2: Restoring Honor and Unity,series,book,0.8,acts 15,Acts 15 council unity; John 17 quote only supporting,1,wk-run 2013-06-02|2013-06,Acts (wk-run 2013-06-02|2013-06): acts 2.5/2.5 votes
 7KUwUL9ToN5uPzxR45TIp3,mapped,2013-06-02,,Rebuild and Restore,,55,,,,Wk 1: Rebuild and Restore,ai,book,0.9,acts 15,"Not make trouble for Gentile believers, Acts 15:19",1,wk-run 2013-06-02|2013-06,
 72yvPFcREJ1rmsu5okKatL,unmapped,2013-05-26,Stand Alone,Disciple Making Disciples: What do we do with what God’s doing?,,54,,,,Stand Alone - Disciple Making Disciples: What do we do with what God’s doing?,,topical,0.55,,"Disciple-making community teaching, no single text evident",2,stand alone|2013-05,
 5vjv7U15gIn25vSXpaWZnk,unmapped,2013-05-19,,Road Rage,,54,,,,Wk 4: Road Rage,,book,0.55,acts 9,Road Rage; path through suffering to resurrection suggests Saul on the road,2,wk-run 2013-04-28|2013-04,
@@ -931,14 +931,14 @@ week-11-choose-who-you-ll-serve,mapped,2023-08-20,,Choose Who You’ll Serve,,56
 0AM72f6f9zBGpqdtIPyPWa,unmapped,2013-04-07,,Faith,,54,,,,Wk1: Faith,,book,0.5,acts,Series run is Acts-flavored; chapter unclear,2,wk-run 2013-04-07|2013-04,
 2NJywUPy5uy12Gr7Xzqyps,mapped,2013-03-31,Easter 2013,More Than Words,,56,Psalm 22,,,Easter 2013: More Than Words,regex,,,,,,easter 2013|2013-03,
 3BSVhMHjCqfHSLPNWo5eaD,mapped,2013-03-24,,Wake Up!,,54,,,,Wk 3: Wake Up!,ai,book,0.9,acts 12,"Peter woken, chains fall off, Acts 12",1,wk-run 2013-03-10|2013-03,
-4Z7lljqPG9Y8EoiqiA6uAG,mapped,2013-03-17,,Unlikely Messengers,,55,,,,Wk 2: Unlikely Messengers,series,book,0.75,acts 11,"Barnabas, good man full of Spirit and faith, Acts 11:24",1,wk-run 2013-03-10|2013-03,wk-run 2013-03-10 (wk-run 2013-03-10|2013-03): acts 2.0/2.0 votes
-15HTniQWOR8ZGlgTVdhOOI,mapped,2013-03-10,,In the Way,,50,,,,Wk 1: In the Way,series,book,0.75,acts 11,"""Who am I to stand in God's way"" Acts 11:17",1,wk-run 2013-03-10|2013-03,wk-run 2013-03-10 (wk-run 2013-03-10|2013-03): acts 2.0/2.0 votes
-3yLCoqOfBVzurL3cQmI1rJ,mapped,2013-03-03,,First Step,,42,,,,Wk 4: First Step,series,book,0.75,acts 10,Acts series; baptism after Cornelius,1,wk-run 2013-02-10|2013-02,wk-run 2013-02-10 (wk-run 2013-02-10|2013-02): acts 3.0/3.0 votes
-0gw9SQkXMMDWVqOKu9fQKV,mapped,2013-02-24,,The Explicit Gospel,,46,,,,Wk 3: The Explicit Gospel,series,book,0.8,acts 10,Acts series; gospel explicit after Acts 10:28 sermon,1,wk-run 2013-02-10|2013-02,wk-run 2013-02-10 (wk-run 2013-02-10|2013-02): acts 3.0/3.0 votes
+4Z7lljqPG9Y8EoiqiA6uAG,mapped,2013-03-17,,Unlikely Messengers,,55,,,,Wk 2: Unlikely Messengers,series,book,0.75,acts 11,"Barnabas, good man full of Spirit and faith, Acts 11:24",1,wk-run 2013-03-10|2013-03,Acts (wk-run 2013-03-10|2013-03): acts 2.0/2.0 votes
+15HTniQWOR8ZGlgTVdhOOI,mapped,2013-03-10,,In the Way,,50,,,,Wk 1: In the Way,series,book,0.75,acts 11,"""Who am I to stand in God's way"" Acts 11:17",1,wk-run 2013-03-10|2013-03,Acts (wk-run 2013-03-10|2013-03): acts 2.0/2.0 votes
+3yLCoqOfBVzurL3cQmI1rJ,mapped,2013-03-03,,First Step,,42,,,,Wk 4: First Step,series,book,0.75,acts 10,Acts series; baptism after Cornelius,1,wk-run 2013-02-10|2013-02,Acts (wk-run 2013-02-10|2013-02): acts 3.0/3.0 votes
+0gw9SQkXMMDWVqOKu9fQKV,mapped,2013-02-24,,The Explicit Gospel,,46,,,,Wk 3: The Explicit Gospel,series,book,0.8,acts 10,Acts series; gospel explicit after Acts 10:28 sermon,1,wk-run 2013-02-10|2013-02,Acts (wk-run 2013-02-10|2013-02): acts 3.0/3.0 votes
 1gbFIUTBXQWOBvwLDBCFcN,mapped,2013-02-17,,Who Do You Think You Are?,,64,Acts 10:28,,,Wk 2: Who Do You Think You Are?,regex,,,,,,wk-run 2013-02-10|2013-02,
 6j01VpQIWeNOJTYMBkexMs,mapped,2013-02-10,,The Fundamentals,,46,Acts 10:1-8,,,Wk 1: The Fundamentals,regex,,,,,,wk-run 2013-02-10|2013-02,
 3MKzs0XO9s2JSLx7CQTy6q,mapped,2013-02-03,,Impact - Missional Living,,47,Acts 9:32-43,,,Wk 4: Impact - Missional Living,regex,,,,,,wk-run 2013-01-13|2013-01,
-2DOzbOdzwul1HA1Ahz6FGD,mapped,2013-01-27,,Fear & Comfort,,55,,,,Wk 3: Fear & Comfort,series,book,0.7,acts 9,Falls between Acts 8 and Acts 9:32 in Acts series; Saul past/cross,1,wk-run 2013-01-13|2013-01,wk-run 2013-01-13 (wk-run 2013-01-13|2013-01): acts 3.5/3.5 votes
+2DOzbOdzwul1HA1Ahz6FGD,mapped,2013-01-27,,Fear & Comfort,,55,,,,Wk 3: Fear & Comfort,series,book,0.7,acts 9,Falls between Acts 8 and Acts 9:32 in Acts series; Saul past/cross,1,wk-run 2013-01-13|2013-01,Acts (wk-run 2013-01-13|2013-01): acts 3.5/3.5 votes
 5mS7kIzS3EwF2H9rvW5JTh,mapped,2013-01-20,,Placed On Purpose,,50,Acts 8:26-40,,,Wk 2: Placed On Purpose,regex,,,,,,wk-run 2013-01-13|2013-01,
 0h8TOia6lB9cuHWOupNuni,mapped,2013-01-13,,Simon the Magician,,40,Acts 8:9-25,,,Wk 1: Simon the Magician,regex,,,,,,wk-run 2013-01-13|2013-01,
 1h3WPMm024NKaW0tKzz4p3,mapped,2013-01-06,Stand Alone,Megaphone,,45,Acts 1:8,Acts 7:54-8:8,,Stand Alone: Megaphone,regex,,,,,,stand alone|2013-01,

@@ -318,10 +318,11 @@
   "size": 5
  },
  "73pBft2qKnaoIR4Vf27obZ": {
-  "name": "wk-run 2022-10-30",
+  "name": "",
   "basis": "wk-run",
   "key": "wk-run 2022-10-30|2022-10",
-  "size": 1
+  "size": 1,
+  "name_basis": "single"
  },
  "5ojSA5MPSzEpa21Wix3kiW": {
   "name": "Ephesians",
@@ -504,22 +505,25 @@
   "size": 1
  },
  "10TAwniCFiqo8TmbVtP9QJ": {
-  "name": "wk-run 2023-10-23",
+  "name": "Untitled series (Oct 2023)",
   "basis": "wk-run",
   "key": "wk-run 2023-10-23|2023-10",
-  "size": 3
+  "size": 3,
+  "name_basis": "placeholder"
  },
  "3aeBdo7CPAazAFpG5V18La": {
-  "name": "wk-run 2023-10-23",
+  "name": "Untitled series (Oct 2023)",
   "basis": "wk-run",
   "key": "wk-run 2023-10-23|2023-10",
-  "size": 3
+  "size": 3,
+  "name_basis": "placeholder"
  },
  "17OwudX1loQsr2r8AvVsuV": {
-  "name": "wk-run 2023-10-23",
+  "name": "Untitled series (Oct 2023)",
   "basis": "wk-run",
   "key": "wk-run 2023-10-23|2023-10",
-  "size": 3
+  "size": 3,
+  "name_basis": "placeholder"
  },
  "1B1ZAJDOeAjD9RlzNhtEOz": {
   "name": "Mark",
@@ -792,16 +796,18 @@
   "size": 4
  },
  "1ikdqNsIaEsYWWC6zj8CTj": {
-  "name": "wk-run 2024-11-25",
+  "name": "Psalms",
   "basis": "wk-run",
   "key": "wk-run 2024-11-25|2024-11",
-  "size": 2
+  "size": 2,
+  "name_basis": "book"
  },
  "25wawHR307GoJ2VOsQAix2": {
-  "name": "wk-run 2024-11-25",
+  "name": "Psalms",
   "basis": "wk-run",
   "key": "wk-run 2024-11-25|2024-11",
-  "size": 2
+  "size": 2,
+  "name_basis": "book"
  },
  "4dmc5VY4zlZNNQBAwmn21x": {
   "name": "Advent",
@@ -1044,16 +1050,18 @@
   "size": 2
  },
  "6ndug63Lpuls1onneQ5vhj": {
-  "name": "wk-run 2026-04-27",
+  "name": "Untitled series (Apr 2026)",
   "basis": "wk-run",
   "key": "wk-run 2026-04-27|2026-04",
-  "size": 2
+  "size": 2,
+  "name_basis": "placeholder"
  },
  "0aUSvVmzEfxVjBe1CyJ7aC": {
-  "name": "wk-run 2026-04-27",
+  "name": "Untitled series (Apr 2026)",
   "basis": "wk-run",
   "key": "wk-run 2026-04-27|2026-04",
-  "size": 2
+  "size": 2,
+  "name_basis": "placeholder"
  },
  "26bu96tBf7rmGKqemwnzGf": {
   "name": "Colossians",

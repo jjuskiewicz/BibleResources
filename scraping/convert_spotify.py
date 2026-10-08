@@ -175,7 +175,10 @@ def norm_title(raw: str) -> str:
 TITLE_FIRST = {"on": False}  # from --title-first: "Title - Series - Wk 3" (vs "Series - Title - Week 3")
 SERIES_PREFIXES: list[str] = []  # from --series-prefix: a segment starting with these is the series
 # Trailing episode marker: "Death to Life - Matthew S7E1", "God at Work - 1 Timothy - Wk 10"
-TRAILER = re.compile(r"\s[-\u2013]\s(?:[^-\u2013]*?\s)?(?:S\d+\s?E\d+|Wk\.?\s*\d+|Week\s*\d+)\s*$", re.I)
+# "Running on Empty - Elijah: Wk 1" / "Jesus and Your Mental Health - It Doesn't Make Sense Wk. 1": the text before
+# the marker (?P<ser>) is the series when nothing else in the title names one.
+TRAILER = re.compile(r"\s[-\u2013]\s(?:(?P<ser>[^-\u2013]*?):?\s)?(?:S\d+\s?E\d+|Wk\.?\s*\d+|Week\s*\d+)\s*$", re.I)
+LEAD_WK = re.compile(r"^(?:Wk\.?|Week)\s*\d+\b\s*[:\-\u2013]?\s*", re.I)
 # "Saturated Thursday: Jennie Allen", "Mary's Voice: Dr. Amy Orr-Ewing"
 COLON_SPEAKER = re.compile(
     rf"(?:(?:(?:Sun|Mon|Tues|Wednes|Thurs|Fri|Satur)day|\d{{4}}):\s+(?:Pastor\s+)?(?P<sp>{NAME})"
@@ -200,8 +203,10 @@ def parse_title(raw: str, allow_speaker: bool = True) -> tuple[str, str, str]:
         speaker, t = cm["sp"] or cm["sp2"], t[: cm.start() + cm.group(0).index(":")].strip()
     series = ""
     title_first = False
+    trailer_series = ""
     if (tm := TRAILER.search(t)) and tm.start() > 0:
         t, title_first = t[: tm.start()].strip(), TITLE_FIRST["on"]
+        trailer_series = (tm["ser"] or "").split(": ")[0].strip(" :")  # "Impossible to Possible: Matthew S5E1"
     # Leading passage: "Matthew 2:1-12; The Journey to Jesus" -> title "The Journey to Jesus"
     lead = REF_RX.match(t)
     if lead and re.match(r"\s*[;:\-\u2013]\s+\S", t[lead.end():]):
@@ -216,6 +221,10 @@ def parse_title(raw: str, allow_speaker: bool = True) -> tuple[str, str, str]:
         series = re.sub(r"\s+(?:Series\s+)?(?:Pt\.?|Part)\s*(?:\d+|[IVX]+|One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|Eleven|Twelve)\b\.?$|\s+Series$", "", series, flags=re.I).rstrip(" ,;-")
         if re.fullmatch(r"(?:Part|Pt\.?|Episode|Session|Wk\.?|Week)\s*\w+|S\d+\s?E\d+", series, flags=re.I):
             series = ""
+        elif LEAD_WK.match(series):  # "Wk 7: Laodicea | EASTER": the week segment is the title; the occasion isn't a series
+            series, t = "", LEAD_WK.sub("", series)
+    elif trailer_series and not re.fullmatch(r"\d{4}|[IVX]+", trailer_series):
+        series = trailer_series
     return series, t or raw.strip(), speaker
 
 
@@ -409,18 +418,18 @@ def main() -> None:
                 and ai.get("confidence", 0) >= args.non_sermon_min_confidence and not ov:
             status = "excluded"
         link = series_links.get(ep_id)
+        title_series = rec["series"]  # the review CSV keeps only what the title says; series_links.py re-derives the rest
         if link:
             rec["seriesKey"] = link["key"]
-            # 'From the series "X"' gives a real name (a wk-run name is just a placeholder). Once written to the
-            # review CSV that name comes back as basis "explicit" on the next series_links.py run, so accept both
-            # or the name flips on/off every rebuild.
-            if not rec["series"] and link["basis"] != "wk-run":
+            # No series in the title: take the cluster's name ('From the series "X"', or for a wk-run the book it
+            # studies / a dated placeholder). Without a name the site can't group the cluster at all.
+            if not rec["series"]:
                 rec["series"] = link["name"]
         if not rec["refs"]:
             rec.pop("refSource", None)
 
         review.append({
-            "episode_id": ep_id, "status": status, "date": rec["date"], "series": rec["series"],
+            "episode_id": ep_id, "status": status, "date": rec["date"], "series": title_series,
             "title": rec["title"], "speaker": rec["speaker"], "minutes": rec["durationMin"],
             "passage": rec["passage"], "other_refs_in_desc": "; ".join(r["_label"] for r in all_refs[len(refs):]),
             "overridden": "yes" if ov else "", "spotify_title": ep["title"],
